@@ -23,6 +23,7 @@ The bundled `references/` files are a snapshot. The live copy is the GitHub repo
 - `framework.md` changes only through a changelog entry under #18; commit both in the same change.
 - Two models share this repo. Don't overwrite a roster whose header date is newer than the data you're holding — re-read, then merge.
 
+## How to run a screen
 
 1. Load `framework.md`. Identify which rule-set applies: A–E for core names, F for the signal sleeve (levered power/IPPs and commodity names route to F, never A–E).
 2. Pull data in this order of preference: Capital IQ consensus via the S&P connector for NTM OCF/FCF/capex/margins; stockanalysis Statistics and Forecast pages for fwd P/E, PEG, 3Y CAGRs, next-FY estimates, PT and analyst count; company guidance only as a fallback, flagged. Non-US listings are screenable through stockanalysis quote pages (e.g. `quote/krx/005930`). Search for the latest print vs consensus separately — #19 can't be run from a statistics page.
