@@ -1,4 +1,4 @@
-# #15 — Written kill triggers (v. Sep 11, 2026)
+# #15 — Written kill triggers (v. Sep 11, 2026; status notes Sep 28, 2026)
 
 Rules: numeric, dated where possible, written before the first tranche. A tripped trigger means immediate re-test (or out, where stated), never a price-based exit. Every semi/AI-infra name carries the shared factor trigger below in addition to its own line.
 
@@ -22,9 +22,12 @@ Action when tripped, same day:
 ## Per-name triggers
 
 - **UBER**: AV operator direct at scale in a top-5 U.S. metro without Uber as demand layer; Mobility GB growth <10% two straight quarters; #7(b) tripped by the FTC/22-state ROSCA case; any equity component added to the Delivery Hero financing (A1).
+  - Status Sep 28: AV leg met on a literal reading — Waymo own-app in LA and Dallas/Houston (Feb 2026), Tesla own-app paid rides in Dallas/Houston (Apr 2026, small geofences). Re-test run Sep 28, passes. "At scale" definition proposed (changelog P7). DH still all cash.
 - **AVGO**: AI bookings growth negative two straight quarters; top-3 XPU customer publicly dual-sourcing or in-housing at scale; non-GAAP op margin <62%; gross margin <70% → carve-out re-check; contingent residual-value guarantees (Apollo/Blackstone XPV platform) >10% of NTM FCF or any disclosed loss on the platform → immediate re-test; FY27 AI revenue target ($115B) cut at any print → immediate re-test; buybacks zero for 4Q with shares >+1.5%.
+  - Status Sep 28: XPV leg TRIPPED — 10-Q filed Sep 10 discloses backstop max potential liability ~$29B (undiscounted, nothing paid) vs NTM FCF ~$49B+. Re-test run Sep 28: gates pass with the backstop and the $42B customer convertible-note facility in #4 at max (2.17×). Trigger text unchanged; threshold rewrite proposed (changelog P8).
 - **APP**: revenue below own guidance midpoint two straight quarters; gaming vertical growth <20% YoY two straight quarters, or consumer/e-commerce spend down QoQ in Q3/Q4 when seasonally it should be up; adjusted EBITDA margin <75%; any Apple/Google policy change restricting SDK data.
 - **MSFT (3a)**: high-water FY24 FCF $74B; lease-inclusive capex >85% of NTM OCF or company FCF <$55.6B → out.
+  - Status Sep 28: TRIPPED — stockanalysis FY27 FCF consensus $32.34B < $55.6B. MSFT out; re-entry when FY27/FY28 consensus FCF ≥ $55.6B.
 - **GOOGL (14b)**: re-entry only if FY27 consensus FCF ≥$40B AND capex ≤75% of NTM OCF.
 - **CDNS**: A1 roll-off Feb 23, 2027; alert-eligible after that only if next-FY organic growth ≥15% and #11 clears (PEG ≤2.0 ≈ ≤$259 on current estimates).
 - **NVDA** (write-up required before tranche 1): GM <70% → carve-out re-check; custom-XPU share loss — any top-4 hyperscaler states accelerator mix shifting majority to in-house silicon; hyperscaler capex tripwire B; China SAMR/DOJ — watch items until a structural remedy is ordered, then out per #7(a); OpenAI commitment counted under #4 as vendor financing at disclosed maximum — any write-down or disclosed loss on it → immediate re-test; Huang 10b5-1 volume vs the 0.5% line checked each quarter.

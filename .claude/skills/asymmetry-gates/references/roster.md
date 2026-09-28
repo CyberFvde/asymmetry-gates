@@ -1,21 +1,21 @@
-# Roster — Sep 11, 2026
+# Roster — Sep 28, 2026
 
-U.S. figures use Sep 10 closes (stockanalysis, S&P Global MI); Samsung uses the Sep 2 KRX statistics page. Status vocabulary: core (verified), conditional core (headline pass, named open items, zero capital), waiver (#10), ballast, alert (#14), blackout (#19), out.
+Sep 28 re-test covered AMZN, UBER, AVGO, MSFT, KLAC, LMT, RTX at Sep 25 closes (stockanalysis; Capital IQ connector not authorized, so NTM FCF is stockanalysis/MarketScreener consensus, flagged). Every other name carries Sep 10 closes (stockanalysis, S&P Global MI); Samsung uses the Sep 2 KRX statistics page. Status vocabulary: core (verified), conditional core (headline pass, named open items, zero capital), waiver (#10), ballast, alert (#14), blackout (#19), out.
 
 ## Top 10, pound for pound (gate strength first, C-metrics second)
 
 1. **NVDA** — core, tranche-eligible once the #7 Form 4 sweep is done. 19.1×, PEG 0.37, PT +41.5%.
-2. **AVGO** — core, held, tranche 1 open; tranche 2 after Dec 9 if #19 clears. ~18× FY27, <12× FY28, PT +50%. Flip to #1 if FY28 multiple and PT upside outweigh gate cleanliness (carve-out in use, #2 fading, 0.5% beat).
+2. **AVGO** — core, held, tranche 1 open; tranche 2 after the ~Dec 9–10 print if #19 clears. $352.81: 18.2× FY27, 13.6× FY28 (LSEG $25.86), PT +50.8%. XPV trigger tripped Sep 28 (backstop max ~$29B) → re-tested, still passes; #4 at max 2.17×. Flip to #1 if FY28 multiple and PT upside outweigh gate cleanliness (carve-out in use, #2 fading, 0.5% beat).
 3. **AMAT** — core, verified, add-eligible. 25.9×, PEG 0.84, PT +41%, FY27 +34.7%.
-4. **KLAC** — core, verified, add-eligible. 32.5×, PEG 1.61, PT +32%, FY27 +33%.
+4. **KLAC** — core, verified, add-eligible. $187.92: 34.45×, PEG 1.71, PT +24.4%, FY27 +33.4%. #11 ceiling ≈ $190.92 — above that it's a #14 alert.
 5. **Samsung (005930.KS)** — conditional core; #1 on C-metrics. Fwd ~8×, FCF yield ~8.5%, PT +75–87%. Open: #7 (DART), #19 vs KRX consensus, #15 file.
 6. **MU** — conditional core. Fwd ~5.8×, PT +48.8%. Decided by the FY27 capex guide at the late-Sept print (≤50% of NTM OCF → moves to #3; above → out).
 7. **ADI** — conditional core. 22.7×, PEG 0.89, PT +30%. Open: Q4 guide vs consensus, FY27 growth ≥15%. Clears → above KLAC.
-8. **UBER** — waiver (#10 + #15). PEG 0.66, FCF yield ~7%, PT +34%.
+8. **UBER** — waiver (#10 + #15). $69.62: PEG 0.62, NTM FCF yield ~8.7%, PT +45.4%. AV trigger read as met on its face (Waymo LA/Dallas/Houston, Tesla Dallas/Houston own apps) → re-tested Sep 28, passes.
 9. **LRCX** — core on the thinnest margins: PT +20.55%, trailing FCF yield ~1.3%.
 10. **ASML** — conditional core. 28–31×, PT +21–28%. Open: 2027 growth ≥15%, July 15 print vs consensus.
 
-Outside: SNDK (five open items), ANET and AMD (#11 alerts), VRT (#19 blackout), Lyft (#10 leg + Sept 30 trial), TSM (#3 open), MSFT (ballast), GOOGL (14b), APP (blackout to Nov 11).
+Outside: SNDK (five open items), ANET and AMD (#11 alerts), VRT (#19 blackout), Lyft (#10 leg + Sept 30 trial), TSM (#3 open), GOOGL (14b), APP (blackout to Nov 11), MSFT (A3/3a — out Sep 28), AMZN (A1), LMT (A3b/A4), RTX (A1).
 
 Standing caveat: eight of the ten are one cycle. In force since Sep 11: the shared "AI capex 2027" trigger (triggers.md) and the aggregate cap — semi/AI-capex names ≤50% of sleeve at cost, ≤20% of portfolio (#16). Open action: measure the group's current cost basis (AVGO + KLAC + AMAT) against the cap before the next semi tranche; if over, tranche freeze until under.
 
@@ -23,8 +23,10 @@ Standing caveat: eight of the ten are one cycle. In force since Sep 11: the shar
 
 - **NVDA** — ~$230. Shares −1.04% YoY, net cash $23.6B (debt $38.9B on the balance sheet), trailing FCF $127B, GM 74.7%, fwd P/E 19.1, PEG 0.37, PT $326 (+41.5%). Q2 FY27 (Aug 26): revenue $96.22B vs ~$92.1B consensus and $91.0B own guide; non-GAAP EPS $2.22 vs $2.10; Q3 guide $108B vs $104.2B; GM 75.0% vs 72.5% a year ago → #5 clean, no carve-out. #19 clear. Catalyst: Nov 17 print. Open before tranche 1: #7 sweep (Huang 10b5-1 volume vs 0.5%; SAMR/DOJ = watch items), OpenAI commitment booked under #4 at max (still ≤2.5×), #15 written.
 - **AVGO** — ~$350. Q3: revenue $29.6B (+86%) vs $29.45B consensus and $29.4B own guide; adj EPS $3.32; AI $16.7B (+221%); FCF $13.7B. Q4 guide $34.8B (0.7% below consensus, inside 2%), AI $21.7B, op margin ~66%, GM ~73% vs 78% a year ago. FY27 AI supply ~$115B, FY28 ~$230B, FY28 EPS >$30. ~18× FY27, <12× FY28; PT $526 (+50%). #5 carve-out: FY26 GM ~74.5% vs 77.3% (−280bp) inside the 600bp band on GP dollars +60%; FY27 ~70–71% still inside. Shares +1.04% inside the exception; buybacks faded to 2M shares in Q2 — watch #2. Concentration: Google/Meta/OpenAI/Anthropic. Tranche 2 after Dec 9 if #19 clears.
+  - Sep 28 re-test: $352.81, 200DMA $368.35 (PT leg valid). Fwd P/E 20.38, PEG 0.37, PT $531.85 (+50.8%, 50 analysts). FY26E FCF $49.08B → yield 2.9%. Shares out +0.99%, GAAP diluted WASO +0.6% (exception: buybacks $8.45B 9M FY26, growth ≥25%). Net debt $35.44B. 10-Q (filed Sep 10): XPV backstop max potential liability ~$29B undiscounted, nothing paid; customer may issue AVGO up to $42B of convertible notes (vendor financing, none issued). #4 at max: ($35.44B + $29B + $42B) / FY26E FCF $49.08B = 2.17× — passes, 0.33× headroom. #19 (Sep 2): rev $29.59B vs $29.36B cons and $29.4B guide; EPS $3.32 vs $3.24; Q4 guide $34.8B vs $35.03B (−0.7%) → clear. #17: FY27 EPS $19.38 vs $19.57 30d ago (−1.0%). Q4 GM guide ~73% (trigger 70%). Watch: Marvell/Google (Aug 19) and AMD TPU reports = dual-sourcing trigger watch, not tripped; Samueli (director) sold $500M in 12m, 0.03% net.
 - **AMAT** — $454.01. Fwd P/E 25.91, PEG 0.84, net cash $1.89B, OCF $8.40B, capex $2.77B (33% of OCF), FCF ~$5.6B (18% margin), 52-week +191%. FY26E revenue $34.25B (+20.8%), FY27E $46.13B (+34.7%), FY27E EPS $18.45; GM FY26E 50.0% vs 48.7%. PT $640.89 (+41.2%, 39 analysts). Q3 FY26 (Aug 13): revenue $9.12B vs ~$9.0B consensus and $8.95B own guide; non-GAAP EPS $3.50 vs $3.36–3.40; Q4 guide $10.25B ± $500M vs $9.66B consensus. #19 clear. Thin: trailing FCF yield ~1.5% — NTM must clear 1.5%. China 28% of revenue; $253M BIS settlement = watch. Next print ~Nov 12.
 - **KLAC** — $177.18 (10:1 split Jun 12, 2026). Fwd P/E 32.48, PEG 1.61, shares −1.34%, net debt $1.25B, FY26 OCF $4.14B / FCF $3.77B (27.7% margin, capex 9% of OCF), capital returns $3.35B, PT $233.77 (+31.9%, 29 analysts), 200DMA $172.57 (price above → PT leg valid). FY26 revenue $13.58B; FY27E $18.11B (+33.4%); FY28E $21.42B (+18.2%); FY27E EPS $5.45 (pre-print ~$4.98 → #17 clean); GM FY27E 62.56% vs 61.30% → #5 clean. Q4 FY26 (Jul 28): revenue $3.66B vs $3.60B consensus and $3.575B own midpoint; non-GAAP EPS $1.05 vs $1.00; Q1 guide $4.0B ± $200M, GM 61.6% ± 1.0%, EPS $1.16 ± $0.10. #19 clear. FCF-definition note: the stockanalysis Forecast row ($2.62B FY26) is a narrower definition than OCF − capex; use $3.77B. Insider sales ~$9.7M (trivial vs 0.5%); three-officer test to confirm. Next print Oct 28.
+  - Sep 28 re-test: $187.92, 200DMA $175.94. Fwd P/E 34.45, PEG 1.71, PT $233.77 (+24.4%). FY27E FCF $6.51B → NTM yield 2.64%. FY27E EPS $5.45 unchanged since Sep 10 (#17 clean). China 26% of Q4 revenue. Seven officers sold Jul–Sep; Wallace/Higgins/Khan/Lorig marked 10b5-1, Wilkinson/Kirloskar unconfirmed → at most two outside a plan, three-officer test passes. Sep 11 Goldman: CY26 WFE low-$150B, 2027 growth ≥ 2026. #11 is 55bp from failing on P/E.
 
 ## Conditional core — zero capital until the named items close
 
@@ -38,7 +40,8 @@ Standing caveat: eight of the ten are one cycle. In force since Sep 11: the shar
 ## Waiver / ballast
 
 - **UBER** — in, #10 + #15. Q2: revenue $14.19B vs $14.24B (−0.35%), EPS in line, GB $58.0B above own guide; Q3 GB guide $59.25B vs $59.33B (−0.1%); Q3 EPS guide $0.86 vs $0.89 (−3.4%, under #17's 5%). Delivery Hero: all-cash €41.50/share, $13.7B net of prior stake, cash + new debt, close H2 2027 → A1 clean; #4 pro forma ~1.5×. Shares −2.3%, PEG 0.66, NTM FCF yield ~7%, PT +34%. Net buyback 2.28% vs 2% floor — thin; DH debt may slow buybacks — watch #10. Catalyst Q3 print ~Nov 4.
-- **MSFT** — ballast via 3a, thin. Cash capex $116B ×1.25 = $145B; NTM OCF ~$210B → FCF ~$65B: (ii) ≈16.6%, (iii) $65B vs $55.6B, (iv) ≈69%, (v) 0.8×. Passes #5/#7. Fails only #12 (PT +15%). #19: Q4 FY26 not re-verified. Most exposed to #17. Catalyst FY27 Q1 print ~Oct 28.
+  - Sep 28 re-test: $69.62, 200DMA $75.15 (7% below, PT leg valid). PT $101.24 (+45.4%, 50 analysts), PEG 0.62, fwd P/E 17.0 (Statistics page; Forecast FY26 line 20.7 — Statistics governs). Diluted WASO −3.55% YoY (Q2), shares out −2.28%, buybacks $6.9B TTM. NTM FCF ~$12.4B (0.25×FY26 $10.49B + 0.75×FY27 $13.08B, MarketScreener) → ~8.7% yield ≥ TTM $10.12B. #10 legs: FY26 rev +11.3%, 3Y rev CAGR ~13.6%, 3Y EPS CAGR ~32.7% (FY25 $2.45 → FY28 $5.73) — all pass. #19 (Aug 5) clear. #17: FY26 EPS +4.6% in 30d. DH: still all cash, €4.5B notes Sep 9, bridge cut to €10.2B. Insiders net buyers (CEO 141k shares Sep 10). #15 AV trigger: Waymo runs its own app in LA and (since Feb 2026) Dallas/Houston; Tesla own-app paid rides Dallas/Houston since Apr 2026 (small geofences). Read literally the trigger is met → re-test run, passes; "at scale" needs a numeric definition (changelog P7). Mobility GB +20% cc both quarters (trigger <10%).
+- Ballast slot empty since Sep 28 (MSFT out — see Out of A–E).
 
 ## Alerts / blackouts — zero capital
 
@@ -57,16 +60,31 @@ Standing caveat: eight of the ten are one cycle. In force since Sep 11: the shar
 
 ## Out of A–E
 
+- **MSFT** (out Sep 28, was ballast) — A3 via 3a: stockanalysis FY27 FCF consensus $32.34B (Sep 11 used the trailing-capex ×1.25 fallback, ~$65B; consensus now governs per Sources). Fails 3a(ii) (8.3% FCF margin vs 15%) and (iii) ($32.3B vs $55.6B = 75% of FY24 $74.07B) → #15 kill line tripped. 14b not available: net cash ex-leases ~$36.5B < 2× the $41.7B shortfall vs high-water. Also fails #11 (NTM FCF yield 0.84%) and #12 (PT $576.40, +11.7%). $516.17, fwd P/E 26.1, PEG 1.63. #19 clear (Q4 rev $90.01B vs $87.62B; Q1 guide mid $90.40B vs $89.66B). Q1 FY27 capex guide >$50B incl. leases. Re-entry: FY27/28 consensus FCF back ≥$55.6B. Next print Oct 27–28.
+- **AMZN** — A1: Globalstar (~$11B, announced Apr 2026, ≥60% paid in AMZN stock, close 2027) is pending issuance. Also A2 (zero buybacks last 4Q, net debt $128.65B incl. leases) and A3(a) (TTM FCF −$11.63B, −1.5% margin; 3a ineligible, GM 50.8% < 60%). #19(d) blackout too: Q3 guide mid $199.5B vs $204.1B cons (−2.25%). $249.67, fwd P/E 26.6, PT +32%. 2026 cash capex guide ~$220B. Earliest A1 roll-off: 12 months after Globalstar closes.
+- **LMT** — A3(b): NTM FCF ~$6.71B (0.25×FY26 $7.14B + 0.75×FY27 $6.57B) < TTM $8.73B; 3a ineligible (GM 11.8%). A4: net debt $16.75B + $3.45B cash-funded Ultra Maritime = ~3.0× NTM FCF (2.49× before the deal). #9/#10: FY26 rev +7.9%, FY27 ~+5.6%. A2 passes only on Q3–Q4 2025 buybacks ($1.75B); 2026 buybacks paused under the Jan 7 EO — fails A2 once those roll off. $519.56, fwd P/E 16.9, PEG 0.88, PT +22.8%, backlog $230.4B. Defense-budget thesis doesn't vote: FY27 $1.5T request carries $350B of reconciliation vs $60B in the resolutions; CR to Dec 11 at FY26 levels.
+- **RTX** — A1: diluted WASO +0.81% with zero buybacks (exception needs active buybacks). Also A2 (no buybacks, net debt $30.55B), A3(b) (NTM FCF ~$10.07B < TTM $11.41B), A4 (~3.0×), #9 (FY26 +8.5%, FY27 +7.3%), #11 (PEG 2.55). #7 open: Brunk and Maharajh sales Jul–Aug with 10b5-1 box unchecked, DaSilva unverified — a possible three-officer quarter. P&W DCMA claims $1.7B+$1.6B interest and $1.1B+$0.46B under appeal. $189.40, fwd P/E 25.7, PT +24%.
+
 - **CRDO** — A1: DustPhotonics closed May 28, 2026 with $169.1M in shares plus up to ~3.21M contingent shares; shares +2.51% YoY; no buyback program. Out until at least May 28, 2027 and strictly until the earnout resolves. (Would clear B/C: fwd ~22×, PEG 0.44, PT +76%, 3Y CAGR ~56%.) Secondary flags: GAAP GM 64.5% with Q2 guide 62.9–64.9%; CEO/COO/CTO all sold June–July.
 - **LITE** — A1 (shares +7.2% YoY; convert-for-equity exchanges April and May 2026; 2032 converts) and A3 (FCF $114M on $3.0B revenue = 3.8%). F1 fails too.
 - **COHR** — net debt, no buyback → A2. **AAOI** — ATM dilution, negative FCF → A1/A3. **SIVE** (Sivers, Stockholm) — loss-making → #3, out of scope.
 - **MRVL** — #11 (fwd P/E 50.2, PT +25%). **TER** — #11 (~84× forward).
 - **ESMT / Etron / Winbond** — #5 by construction (commodity legacy memory, not top-2, no structural oligopoly). **SK Hynix** — not run (KRX; screen like Samsung if wanted). **DELL** — not run; AI-server mix compression routes straight to the #5 carve-out.
-- Prior outs unchanged: META (#3, 3a-ineligible, #5 op margin −690bp, #7b), VST (#4 ~5×, #3c 56% → F only; F-watch below), FN (3a floor 0.09%; PT leg void), ETN, LMT, CCJ, RMBS, GFS, CLS, CEG (F-eligible if floor and signal met), FPS, WYFI.
+- Prior outs unchanged: META (#3, 3a-ineligible, #5 op margin −690bp, #7b), VST (#4 ~5×, #3c 56% → F only; F-watch below), FN (3a floor 0.09%; PT leg void), ETN, CCJ, RMBS, GFS, CLS, CEG (F-eligible if floor and signal met), FPS, WYFI.
 
 ## F sleeve
 
 - **VST** — F-watch. F1 floor passes (FCF margin 11.7%, EBITDA margin 34.6%, 3.09×/3.81×, ROIC 9.7 vs WACC 9.6, 13.8×/0.39, EV/EBITDA 10.1, 3Y EPS 35.8%, PT +53% on 20). F2 not met: Burke bought ~$1.2M Aug 24–Sep 1 (<1% of ~1.24M held, single insider); politician buys are 5–7 months stale and above current price. Triggers if the CFO or two directors join, or Burke ≥$2M/5%. Thesis metric: FCF-before-growth guide, contracted MW, PJM/ERCOT capacity prices.
+
+## What changed vs. Sep 11 (Sep 28 re-test: AMZN, UBER, AVGO, MSFT, KLAC, LMT, RTX)
+
+- AVGO #15 XPV trigger tripped on the Sep 10 10-Q ($29B backstop max > 10% of NTM FCF); re-test run, still core. $42B customer convertible-note facility booked under #4 as vendor financing at max.
+- UBER #15 AV trigger read as met on its face; re-test run, still waiver. Proposed a numeric "at scale" definition (changelog P7).
+- MSFT ballast → out (A3/3a on consensus FY27 FCF $32.34B; #15 kill line). Ballast slot empty.
+- KLAC unchanged at core; fwd P/E 34.45 now 55bp from #11.
+- New screens: AMZN out (A1 Globalstar stock; A2; A3a; #19d), RTX out (A1; A2; A3b; A4; #9; #11), LMT out (A3b; A4; #9/#10).
+- Shared "AI capex 2027" trigger: not tripped (no WFE cut, hyperscalers raised or reaffirmed, DRAM contract prices rising, AMAT/LRCX/KLAC guided up). MU reports Sep 30 — leg C (capex >20% above prior guide, i.e. FY27 > ~$54B vs "higher than mid-forties") checks then. MU's FY26 capex was ~$27B, not ~$25B.
+- Open action still open: measure AVGO + KLAC + AMAT cost basis vs the 50%/20% aggregate cap before the next semi tranche.
 
 ## What changed vs. Sep 3
 

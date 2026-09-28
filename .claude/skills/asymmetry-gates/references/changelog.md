@@ -61,6 +61,24 @@ Rationale: the framework text implied US-only; the data exists and is on the sam
 
 The "AI capex 2027" trigger in triggers.md is a #15 entry, not a rule change, and is in force from Sep 11, 2026 for every semi/AI-infra name at or before its next tranche. Recorded here so the anchors get re-confirmed at the October re-test.
 
+## Pending — proposed Sep 28, 2026 (bind nothing until adopted)
+
+### P7. UBER #15 AV trigger — numeric "at scale"
+
+Change (#15 text, UBER and UBER-class): "AV operator direct at scale in a top-5 U.S. metro" → "an AV operator's own-app service in a top-5 U.S. metro (NYC, LA, Chicago, DFW, Houston) with ≥500 vehicles or ≥100k paid rides/week, or UBER Mobility GB growth in that metro <5% YoY for two quarters."
+
+Rationale: read literally the trigger has been met since before entry (Waymo LA since 2024; Waymo Dallas/Houston Feb 2026; Tesla Dallas/Houston Apr 2026), so it fires every screen and carries no information. A trigger has to be numeric (#15).
+
+#18 checks: #15 text, not a gate — readmits nothing; UBER passes every gate at the Sep 28 re-test. Adopt at the ~Nov 3 post-print re-test or reject.
+
+### P8. AVGO #15 XPV trigger — threshold
+
+Change: "contingent residual-value guarantees >10% of NTM FCF … → immediate re-test" → "XPV backstop plus customer convertible-note facility pushing #4 (at max) above 2.0×, any amount paid under the backstop, any convertible note issued to AVGO, or any new XPV tranche → immediate re-test."
+
+Rationale: the disclosed backstop (~$29B on the first $35B tranche; BofA models $370B of guarantees by mid-2029) is already ~60% of FY26 FCF, so the 10% line is permanently tripped. #4 at max is the gate that actually binds (2.17× on Sep 28), so the trigger should sit just inside it.
+
+#18 checks: #15 text, not a gate — readmits nothing; AVGO passes #4 at the Sep 28 re-test. Adopt at the ~Dec 9–10 post-print re-test or reject.
+
 ## How to log a change
 
 1. Write the change as a rule edit (which number, old text → new text).
