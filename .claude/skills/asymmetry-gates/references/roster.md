@@ -1,5 +1,19 @@
 # Roster — Sep 28, 2026
 
+Historical screen snapshot under the Sep 11 framework. The Oct 2 revisions change A7, #9, #13–#19 and add G/H/FT/PH routing; the statuses, price triggers and rankings below have not been re-screened against them. Do not infer current capital eligibility from this snapshot, including entries labeled core with unresolved verification items. Preserve this evidence date until a fresh screen updates the book.
+
+## User-requested review queue — Oct 2, 2026, revision 2
+
+These are research requests, not positions or fresh eligibility verdicts. The user's pasted core/alert/out table came from an earlier rule-set; re-test under the active rules and do not copy its "capital today" column as current authorization. A first A-failure never proves the remaining gates passed. The separate Oct 2 roster PR is background evidence until reconciled, not silently merged here.
+
+Revision 3 addition: the user singled out **ALGN** for its prolonged absence of a new ATH. Give it a full PH review with verified closing ATH age, drawdown, three-year benchmark return gap and recovery checks; its previous #9 status is not a substitute for that price-health verdict. Source to refresh: [ALGN price history](https://stockanalysis.com/stocks/algn/history/), including the complete operating history rather than only the recent table.
+
+- Prioritize a full compounder review for **PANW / Palo Alto Networks** and **NVT / nVent Electric**, then relevant cyber peers **CRWD, ZS, FTNT, TENB**. PANW is cybersecurity; NVT is electrical connection/protection, grid and data-center infrastructure. Sources to refresh: [PANW FY26 results](https://www2.paloaltonetworks.com/company/press/2026/palo-alto-networks-reports-fiscal-fourth-quarter-and-fiscal-year-2026-financial-results), [nVent Q2 results](https://www.sec.gov/Archives/edgar/data/1720635/000162828026051203/q22026nvtpressrelease.htm). Read actual cash-flow reconciliations and insider filings; these links establish no G verdict.
+- Review **RKLB / Rocket Lab** and **ASTS / AST SpaceMobile** under H only if their entire funding, dilution, milestone and quality-destination tests are supported. Sources to refresh: [Rocket Lab Q2 results](https://www.sec.gov/Archives/edgar/data/1819994/000181999426000061/rklb-08102026ex991.htm), [AST quarterly filings/results](https://investors.ast-science.com/quarterly-results). Separate firm demand from options and technical plans from achieved milestones.
+- Revisit the supplied shortlist: **PODD, LLY, ALGN, HWM, RMD, REGN, MA, STMN (SIX), KOG (Oslo), PRX (Amsterdam)**. **TOST** needs current verification of the adopted mandatory sell-to-cover reading plus the full FT overlay; the interpretation alone cannot grant capital.
+- Lower priority at the user's request: **SE, MELI, HOOD, COIN, XYZ, SCHW, TW, PDD, GLBE, KSPI, FUTU**, and finance-exposed shortlist names. Determine where FT applies from the actual business; for hybrids establish material finance exposure and normalize group cash flows before assigning a route. Being grouped with fintech in the supplied list is not proof of a financial balance sheet.
+- Other requested reviews: **ISRG, SYK, NVST, RHM, CCJ, WWD, ENR**. CCJ remains F-routed; G/H cannot bypass the commodity routing.
+
 Sep 28 re-test covered AMZN, UBER, AVGO, MSFT, KLAC, LMT, RTX at Sep 25 closes, plus ORCL, APP and a defense / power / nuclear / energy sweep at Sep 28 closes (stockanalysis; Capital IQ connector not authorized, so NTM FCF is stockanalysis/MarketScreener consensus, flagged). Every other name carries Sep 10 closes (stockanalysis, S&P Global MI); Samsung uses the Sep 2 KRX statistics page. Status vocabulary: core (verified), conditional core (headline pass, named open items, zero capital), waiver (#10), ballast, alert (#14), blackout (#19), out.
 
 ## Top 10, pound for pound (gate strength first, C-metrics second)
