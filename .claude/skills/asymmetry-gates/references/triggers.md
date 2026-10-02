@@ -1,8 +1,12 @@
-# #15 — Written kill triggers (policy sync Oct 2, 2026; per-name evidence Sep 28, 2026)
+# #15 — Written kill triggers (policy sync Oct 2, 2026, revision 3; per-name evidence Sep 28, 2026)
 
 Rules: numeric, dated where possible, written before the first tranche. A tripped trigger means immediate re-test (or out, where stated), never a price-based exit. Every semi/AI-infra name carries the shared factor trigger below in addition to its own line.
 
-Per-name figures and status notes below remain historical until a fresh screen. Generic gate checks use the current `framework.md`; that includes #9's next-FY 12% test, #14a starter eligibility and #19's materiality tests. Standalone company-specific kill thresholds remain in force unless separately changed and logged. The Oct 2 calibration does not automatically clear a trigger, upgrade a name or authorize capital. P7/P8 remain pending.
+Per-name figures and status notes below remain historical until a fresh screen. Generic gate checks use the current `framework.md`, selected G/H route and FT/PH overlays. Standalone company-specific kill thresholds remain in force unless separately changed and logged. The Oct 2 revisions do not automatically clear a trigger, upgrade a name or authorize capital. P7/P8 remain pending. PH-impaired names freeze additions and require a route re-test; the price-health flag alone is not a new automatic sell trigger.
+
+## Required records for new G/H entries
+
+No G/H entry has been verified by the policy edit. Write a per-name record only after a fresh screen: route, evidence date, fully diluted share baseline/limits, numeric cash/leverage or runway floors, valuation entry ceiling, named business risks, dated review and explicit exit action. G records include deal FCF/share recovery deadlines and any insider-cluster context. H records also include 6/12/24-month delivered-milestone targets, cash-burn ceilings, funded recovery contingencies and the original ≤5-year A–E/G quality deadline. Follow `stage-paths.md`; do not replace the destination deadline whenever the thesis slips. Applicable shared-factor triggers and #16 accounting still apply.
 
 ## Shared factor trigger — "AI capex 2027"
 

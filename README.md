@@ -1,9 +1,9 @@
 # asymmetry-gates
 
-Rules-based equity screen (gates A–F, rules #1–#19, F signal sleeve) packaged as an Agent Skill.
+Rules-based equity screen (A–E core, F signal sleeve, G compounders, H early transitions, stricter FT and price-health PH overlays) packaged as an Agent Skill.
 Source of truth for the rules, the roster and the #15 kill triggers. Keep this repo private — the roster is a position book.
 
-The Oct 2, 2026 calibration keeps structural and concentration safeguards, permits tightly capped starters for narrow growth/valuation shortfalls, and treats small earnings misses as watch items. See the adopted entry in `references/changelog.md` inside the skill. The roster remains historical until re-screened with current data.
+The Oct 2, 2026 revisions add an evidenced compounder route, a small funded/milestone-based early route with a fixed quality deadline, tougher fintech standards, and a price-health check that makes stale ATHs with prolonged relative weakness affect capital eligibility. They retain the first calibration's capped near-passes and material-miss rules for eligible names. See the adopted entries in `references/changelog.md` inside the skill. The roster remains historical until re-screened with current data.
 
 ## Layout
 
@@ -11,6 +11,9 @@ The Oct 2, 2026 calibration keeps structural and concentration safeguards, permi
     ├── SKILL.md                 # when it triggers + how to run a screen
     └── references/
         ├── framework.md         # the rules (change only via a #18 changelog entry)
+        ├── stage-paths.md       # G/H funding, valuation, milestones and caps
+        ├── fintech.md           # stricter FT routing and cash/risk checks
+        ├── price-health.md      # ATH age, relative performance and recovery
         ├── triggers.md          # #15 kill triggers, incl. the shared "AI capex 2027" trigger
         ├── roster.md            # dated roster, top-10, what changed — edited every re-test
         └── changelog.md         # #18 log: adopted + pending rule changes with rationale
@@ -19,7 +22,7 @@ The Oct 2, 2026 calibration keeps structural and concentration safeguards, permi
 
 - Claude.ai / Claude app: zip `.claude/skills/asymmetry-gates/` (folder name = skill name) and upload under Customize → Skills. Re-upload after edits.
 - Claude Code / Cowork: open this repo as the working directory — project skills under `.claude/skills/` load automatically; invoke with `/asymmetry-gates` or just ask for a screen.
-- ChatGPT: in a Project or Custom GPT, paste `SKILL.md` into the instructions and attach the four `references/*.md` files as knowledge (or point it at the raw file URLs if the repo is public). Ask it to read `framework.md` before any screen.
+- ChatGPT: in a Project or Custom GPT, paste `SKILL.md` into the instructions and attach all `references/*.md` files as knowledge (or point it at the raw file URLs if the repo is public). Ask it to read `framework.md` and the applicable stage/sector references before a screen.
 
 ## Editing rules
 
