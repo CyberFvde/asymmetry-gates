@@ -1,6 +1,8 @@
-# #15 — Written kill triggers (v. Sep 11, 2026; status notes Sep 28, 2026)
+# #15 — Written kill triggers (policy sync Oct 2, 2026; per-name evidence Sep 28, 2026)
 
 Rules: numeric, dated where possible, written before the first tranche. A tripped trigger means immediate re-test (or out, where stated), never a price-based exit. Every semi/AI-infra name carries the shared factor trigger below in addition to its own line.
+
+Per-name figures and status notes below remain historical until a fresh screen. Generic gate checks use the current `framework.md`; that includes #9's next-FY 12% test, #14a starter eligibility and #19's materiality tests. Standalone company-specific kill thresholds remain in force unless separately changed and logged. The Oct 2 calibration does not automatically clear a trigger, upgrade a name or authorize capital. P7/P8 remain pending.
 
 ## Shared factor trigger — "AI capex 2027"
 
@@ -15,7 +17,7 @@ Tripwires — any one trips:
 - D. Orders: any of AMAT/LRCX/KLAC guides next-quarter revenue down >10% QoQ or reports book-to-bill <1.
 
 Action when tripped, same day:
-1. Immediate re-test of every name in the group, not just the reporter. #17 governs each name: >5% NTM cut = re-test, two consecutive = out.
+1. Immediate re-test of every name in the group, not just the reporter. #17 governs each name: >5% like-for-like NTM cut = re-test; two consecutive material cuts in the same metric freeze additions and require a full re-test. Exit only if a hard gate or a written exit condition is breached; otherwise keep a monitoring alert with the affected estimate as a stabilization baseline. Adds resume only after a later print confirms eligibility and the estimate is at or above that baseline.
 2. Tranche freeze across the group: no tranche 2/3 in any semi name until the re-test clears. The #16 aggregate cap (≤50% of sleeve at cost, ≤20% of portfolio) applies at all times, tripped or not.
 3. No forced exits — exits stay by gates only (#16). The trigger removes the add-on-the-dip reflex; it does not override #15/#17/#19.
 
@@ -29,18 +31,18 @@ Action when tripped, same day:
 - **MSFT (3a)**: high-water FY24 FCF $74B; lease-inclusive capex >85% of NTM OCF or company FCF <$55.6B → out.
   - Status Sep 28: TRIPPED — stockanalysis FY27 FCF consensus $32.34B < $55.6B. MSFT out; re-entry when FY27/FY28 consensus FCF ≥ $55.6B.
 - **GOOGL (14b)**: re-entry only if FY27 consensus FCF ≥$40B AND capex ≤75% of NTM OCF.
-- **CDNS**: A1 roll-off Feb 23, 2027; alert-eligible after that only if next-FY organic growth ≥15% and #11 clears (PEG ≤2.0 ≈ ≤$259 on current estimates).
+- **CDNS**: historical A1 roll-off Feb 23, 2027; re-check issuance and the full current framework after that. Entry class depends on current #9/#11 and any #14a eligibility, not the Sep 28 valuation figures alone.
 - **NVDA** (write-up required before tranche 1): GM <70% → carve-out re-check; custom-XPU share loss — any top-4 hyperscaler states accelerator mix shifting majority to in-house silicon; hyperscaler capex tripwire B; China SAMR/DOJ — watch items until a structural remedy is ordered, then out per #7(a); OpenAI commitment counted under #4 as vendor financing at disclosed maximum — any write-down or disclosed loss on it → immediate re-test; Huang 10b5-1 volume vs the 0.5% line checked each quarter.
 - **KLAC**: CY27 WFE below the ~$190B anchor (shared A); process-control intensity (KLA revenue / WFE) down two straight quarters; China mix >35% of revenue; gross margin <60%; FY27 EPS consensus cut >5% from $5.45.
 - **AMAT**: shared A/D; China >35% of revenue; any new BIS action beyond the settled $253M; non-GAAP gross margin <49%; capex >50% of NTM OCF (currently 33%); NTM FCF yield <1.5% at the next re-test.
-- **ADI** (conditional core): Q4 FY26 guide vs consensus (#19d) and FY27 growth ≥15% must close before tranche 1; Alif deal — any stock component (A1); industrial/auto book-to-bill <1; gross margin <64%.
-- **LRCX** (thin core): PT upside <20% at any re-test → #12 fails, alert; NTM FCF yield <1.5% → #11 fails, alert; shared A/D; China >35% of revenue.
-- **ASML** (conditional core): 2027 consensus growth ≥15% must close; EUV order intake down two straight quarters; China DUV export restrictions expanding to installed-base servicing; PT upside <20%.
+- **ADI** (historical conditional core): verify Q4 FY26 guide vs consensus under current #19(d) and FY27 organic growth under current #9 before entry; Alif deal — any stock component (A1); industrial/auto book-to-bill <1; gross margin <64%.
+- **LRCX** (historical thin core): PT upside <20% → re-check #12's FCF-yield alternative; if #12 alone fails, assess the single ballast slot. NTM FCF yield <1.5% → re-check #11 and any #14a eligibility; shared A/D; China >35% of revenue.
+- **ASML** (historical conditional core): verify 2027 organic growth under current #9 before entry; EUV order intake down two straight quarters; China DUV export restrictions expanding to installed-base servicing; PT upside <20% → re-check both #12 legs.
 - **MU** (conditional core): FY27 capex guide >50% of NTM OCF → A3 fail, out (3a unavailable — FY23 revenue decline fails the five-year test); HBM share loss — any top-2 GPU/XPU customer publicly moving HBM4 allocation away; DRAM contract pricing down QoQ two straight quarters; diluted WASO >+0.5% with no buyback (A1/A2); shared C.
 - **Samsung (005930.KS)** (conditional core): #7 verified via DART or stays alert; July print vs KRX consensus (#19); foundry segment losses widening two straight quarters; HBM4 qualification slip at NVDA/AMD; capex >50% of NTM OCF (currently 26%); any treasury-share cancellation reversal or related-party transaction >5% of NTM FCF (governance); shared C.
 - **SNDK** (conditional, outside top-10): #1/#2 (share count, buyback) unverified; Kioxia JV guarantees in #4 at max exposure; JV-inclusive capex >50% of NTM OCF → re-test; NAND contract pricing down QoQ two straight quarters; contracted-revenue floor ($93.9B) reduced at any print → immediate re-test; #5 oligopoly call re-confirmed at each re-test.
-- **UBER-class (Lyft)**: same AV trigger as UBER, applied to Lyft's top-5 metros; #7(b) — the Sept 30, 2026 bellwether trial: any 10-Q disclosure of a reasonably-possible loss >5% of NTM FCF (~$55M) → out; 3Y EPS CAGR ≥20% is the alert's numeric re-entry trigger; any new convert (A1).
-- **ANET** (alert): fwd P/E ≤35 (≈$175) re-enters; gross margin compression beyond the carve-out; cloud-titan concentration >50% of revenue with any single customer down >20% YoY.
+- **UBER-class (Lyft)**: same AV trigger as UBER, applied to Lyft's top-5 metros; #7(b) — the Sept 30, 2026 bellwether trial: any 10-Q disclosure of a reasonably-possible loss >5% of NTM FCF (~$55M) → out; 3Y EPS CAGR ≥20% clears that #10 leg, but all entry checks still apply. One failing #10 leg can be an unfunded alert under current #14; no #14a bypass. Any new convert (A1).
+- **ANET** (historical alert): fwd P/E ≤35 clears that #11 component; a narrow valuation shortfall may qualify for #14a only after every other entry check is verified. Gross margin compression beyond the carve-out; cloud-titan concentration >50% of revenue with any single customer down >20% YoY.
 - **AMD** (alert): #11 on the stockanalysis basis re-enters; the up-to-$5B Anthropic commitment counted under #4 at maximum — any write-down → re-test; data-center GPU share loss two straight quarters.
 - **VRT** (blackout): Q3 print must clear all four #19 legs; UtilityInnovation earnout must be cash (A1); insider three-officer test each quarter; net debt/NTM FCF post-deal ≤2.5×.
 - **TSM** (#3 open): guided capex ≤50% of consensus NTM OCF clears 3(c); 3a unavailable while gross margin <60%; Arizona/Japan ramp costs pushing GM <55% → re-test.

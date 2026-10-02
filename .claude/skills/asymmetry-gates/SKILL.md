@@ -5,7 +5,7 @@ description: Tony's multi-gate equity screening framework (gates A–F, rules #1
 
 # Asymmetry Gates
 
-A rules-based screen. Its edge is surviving the name you're wrong about, so the structural gates (A) are hard, price never votes, and every position carries written, numeric kill triggers before it gets capital.
+A rules-based screen for finding investable opportunities while surviving the name you're wrong about. Structural gates (A) stay hard, material misses block entry, and a verified near-pass can qualify for a small starter under #14a. Every position carries written, numeric kill triggers before it gets capital. Assess both the opportunity and the risk; passing a gate needs no additional invented hurdle, and an empty shortlist is acceptable when the evidence warrants it.
 
 ## Files
 
@@ -18,8 +18,8 @@ A rules-based screen. Its edge is surviving the name you're wrong about, so the 
 
 The bundled `references/` files are a snapshot. The live copy is the GitHub repo (`github.com/CyberFvde/asymmetry-gates`, skill at `.claude/skills/asymmetry-gates/`; change the path here if the repo lives elsewhere).
 
-- Start of a screen: if a GitHub tool or fetch is available, read the repo's `roster.md`, `triggers.md` and `changelog.md` and use them over the bundled copies. If not, use the bundled copies and state which version you used (the date in the roster header).
-- End of a screen: if a GitHub tool is available, commit the updated `roster.md` (plus `triggers.md`/`changelog.md` if they changed) with a message like `roster: Sep 23 re-test — MU 3(c) cleared`. If not, output each changed file in full so the user can commit it; never output a partial diff of the roster.
+- Start of a screen: if a GitHub tool or fetch is available, read the repo's `framework.md`, `roster.md`, `triggers.md` and `changelog.md`. Use the live reference set if its framework is at least as recent as the bundled version. If the live framework is older, use the newer bundled reference set and state that the live rules need syncing; do not roll back a calibration or mix incompatible versions. If no fetch is available, use the bundled copies. State the chosen framework version, source and roster header date. A roster from an older framework is historical evidence, not a current verdict; re-test before changing status or sizing.
+- End of a screen: if a GitHub tool is available and the live repo contains the chosen framework, commit the updated `roster.md` (plus `triggers.md`/`changelog.md` if they changed) with a message like `roster: Sep 23 re-test — MU 3(c) cleared`. Otherwise output each changed file in full so the user can sync it; never output a partial diff of the roster or overwrite live files using an incompatible ruleset. Reconcile any newer live roster evidence before syncing.
 - `framework.md` changes only through a changelog entry under #18; commit both in the same change.
 - Two models share this repo. Don't overwrite a roster whose header date is newer than the data you're holding — re-read, then merge.
 
@@ -28,10 +28,10 @@ The bundled `references/` files are a snapshot. The live copy is the GitHub repo
 1. Load `framework.md`. Identify which rule-set applies: A–E for core names, F for the signal sleeve (levered power/IPPs and commodity names route to F, never A–E).
 2. Pull data in this order of preference: Capital IQ consensus via the S&P connector for NTM OCF/FCF/capex/margins; stockanalysis Statistics and Forecast pages for fwd P/E, PEG, 3Y CAGRs, next-FY estimates, PT and analyst count; company guidance only as a fallback, flagged. Non-US listings are screenable through stockanalysis quote pages (e.g. `quote/krx/005930`). Search for the latest print vs consensus separately — #19 can't be run from a statistics page.
 3. Run gates in order A → B → C → D and stop at the first A fail. A-fails are never provisional and no valuation case reopens them.
-4. Run #19 on the most recent print (four legs: revenue vs consensus, adjusted EPS/EBITDA vs consensus, own-guidance midpoint, next-quarter guide vs consensus). If the next print is inside five trading days, re-test after it, not before.
-5. Classify: **core** (passes A–C, #9 standard), **conditional core** (passes on headline numbers with named open items — zero capital until they close), **waiver** (#10), **ballast** (fails only #12), **alert** (#14 — fails exactly one of #9/#11, numeric trigger, zero capital), **blackout** (#19), **out**.
-6. Before any tranche: confirm the name's #15 triggers are written in `triggers.md`, confirm the shared factor trigger is applied if it's a semi/AI-capex name, and check #16 caps: 25% of sleeve at cost and 10% of portfolio per name, and the aggregate cap for semi/AI-capex names (≤50% of sleeve at cost, ≤20% of portfolio, adopted Sep 11, 2026).
-7. Rank by gate strength first (verified core → conditional core → waiver → alert → out), asymmetry (C-metrics) second. State what unlocks capital for anything conditional.
+4. Run #19 on the most recent print (four legs: revenue vs consensus, adjusted EPS/EBITDA vs consensus, own-guidance low end or midpoint if no range, next-quarter guide vs consensus). Apply the current materiality thresholds. If the next print is inside five trading days, re-test after it, not before.
+5. Classify: **core** (passes A–C, #9 standard), **conditional core** (passes on headline numbers with named open items — zero capital until they close), **waiver** (#10), **ballast** (fails only #12), **starter** (#14a — verified A, exactly one narrow #9/#11 failure, smaller funded caps), **alert** (#14 — fails a permitted gate but does not qualify for a starter, numeric trigger, zero new capital), **blackout** (material #19 failure), **out**. Use **unresolved starter** for a headline near-pass still missing required evidence, with the open items named and zero capital until verified. Treat minor misses as watch items; missing required evidence remains unresolved rather than being called a failure or silently passed.
+6. Before any tranche: confirm the name's #15 triggers are written in `triggers.md`, confirm the shared factor trigger is applied if it's a semi/AI-capex name, and check #16 caps: 25% of sleeve at cost and 10% of portfolio per name, and the aggregate cap for semi/AI-capex names (≤50% of sleeve at cost, ≤20% of portfolio, adopted Sep 11, 2026). Starters also require ≤2.5% of sleeve at cost and ≤0.5% of portfolio per name, max two and ≤5% of sleeve at cost in aggregate. Unknown cap headroom blocks capital eligibility. A starter counts as tranche 1; additions require full qualification and the next clean print.
+7. Rank verified eligible names (core/waiver/ballast) by gate strength, then asymmetry (C-metrics); show capped starters separately, followed by unresolved conditional names and alerts. Don't rank an unverified headline pass ahead of a verified opportunity solely because its estimates look attractive. State what unlocks or expands capital, and distinguish eligibility from a trade instruction.
 8. Update `roster.md` with the date and a "what changed" block. Never change a rule inside a screen — propose it in `changelog.md` under #18.
 
 ## Things that go wrong (learned the hard way)
@@ -43,7 +43,7 @@ The bundled `references/` files are a snapshot. The live copy is the GitHub repo
 - JV-funded fabs (SNDK/Kioxia) keep cash PP&E artificially low. The gate stays cash PP&E; JV commitments and guarantees go into #4 at disclosed maximum and JV-inclusive capex goes into #15.
 - Conflicting forward P/E across sources (AMD: 42.6 vs 32.5; VRT: 33–43): stockanalysis governs. Say so rather than picking the friendlier number.
 - Non-US filers have no 10b5-1 regime. Verify #7 through local filings (DART for Korea); if it can't be verified, the name is alert-only.
-- A big pullback is not an entry signal and a big run is not an exit signal. The only price-aware rules are #11/#12 (forward multiples, PT vs 200DMA) and the 35%/30% trim rule in #16.
+- A big pullback is not an entry signal and a big run is not an exit signal. Price enters through #11/#12 (including #14a's narrow valuation band) and the 35%/30% trim rule in #16.
 - When the user pastes someone else's table, verify the numbers before ranking on them; two of the last three pastes mislabeled next-FY growth or used an unsourced sector figure.
 
 ## Output format
@@ -51,13 +51,14 @@ The bundled `references/` files are a snapshot. The live copy is the GitHub repo
 Lead with the verdict, then the gate detail, then the ranking. Keep it phone-readable.
 
 ```
-**[TICKER] — [status]** One-line verdict. Passing gates by number with the key figures; failing or thin gates named with the number and threshold; open items and what closes them; next catalyst.
+**[TICKER] — [status]** One-line verdict. Why it could work; passing gates by number with the key figures; material failures or watch items with the number and threshold; what unlocks capital, any starter cap and promotion trigger; next catalyst.
 
 **Ranking (gate strength first, then C-metrics)**
 1. TICKER — status; 2–3 numbers that decide the slot.
 ...
 
-**Outside the list:** ticker (gate that fails), ...
+**Starters / watchlist:** ticker (shortfall, eligible size or missing evidence, numeric next step), ...
+**Outside the list:** ticker (material gate that fails), ...
 Standing caveat (concentration, shared trigger) if relevant.
 ```
 

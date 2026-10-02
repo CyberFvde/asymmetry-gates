@@ -1,6 +1,28 @@
 # #18 — Rule-change log
 
-Rule changes take effect only at a scheduled or post-print re-test, with written rationale, applied to the full universe. Each entry records: the change, the rationale, the two #18 admissibility checks (does it readmit FN/CLS/FPS/CEG/VST into A–E? is any affected name currently failing the gate being changed?), and the adoption date. Pending items are proposals — they bind nothing until adopted.
+Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
+
+## Adopted configuration — Oct 2, 2026 (user-requested balanced calibration)
+
+Authorization and timing: the user explicitly requested a slightly more lenient stock skill because the screen was too negative. This authorizes a framework calibration now and supersedes the prior timing restriction and failing-name veto for this edit. Policy adoption is not a market-data re-test or trade authorization. `roster.md` remains the Sep 28 evidence snapshot; use current data at the next screen before changing any status or tranche eligibility.
+
+Changes (old → new):
+
+- #9: next-FY organic growth ≥15% → ≥12%; fwd 3Y revenue CAGR ≥15% retained. A modest near-term slowdown need not invalidate a durable growth profile.
+- #11/#14: every #9/#11 shortfall meant zero capital → an optional starter for exactly one narrow failed gate with all of A verified, #12/#13 passed and #19 clear. #9 starter floors: 3Y ≥12%, next-FY organic ≥10%. #11 starter: exactly one component may miss, bounded by P/E ≤40, PEG ≤2.25 or FCF yield ≥1.25%; the other two must meet full-core thresholds. Core valuation and #10 unchanged.
+- #14/#16: min 5% of sleeve → 5% standard target with smaller entry tranches; starters exempt, capped at ≤2.5% of sleeve at cost AND ≤0.5% of portfolio per name, max two and ≤5% of sleeve in aggregate. All existing name/factor caps remain. Starter is tranche 1; no scaling until full qualification and the next clean print. This permits a measured entry without turning every near-pass into a full position.
+- #17: two consecutive estimate cuts → materiality applies to both (>5% in the same metric), additions freeze and full re-test. Exit on a breached hard gate or written exit condition; otherwise monitor using the affected estimate as a numeric stabilization baseline. Adds resume only after a later print confirms eligibility and the estimate is at or above that baseline. Smaller cumulative cuts >5% still trigger review. Avoid automatic exits driven solely by ordinary estimate adjustments.
+- #18: currently failing names and named historical exclusions could veto a class-wide change → written safeguard and universe-impact checks, with an explicit user-requested calibration path. Keep F routing and prohibit one-name waivers or mid-screen rule edits to obtain a preferred verdict.
+- #19: revenue miss >1% → >2%; adjusted EPS/EBITDA miss >1% → >3%; any own-midpoint miss → below guidance low end, or >1% below midpoint if no range; next-quarter guide miss >2% → >3%. Lesser misses become documented watch items. Material misses still block entry; two consecutive material-miss prints still exit held names.
+- Sync `SKILL.md` and gate-linked trigger instructions to the revised framework. Preserve standalone per-name exit thresholds, pending P7/P8 and historical evidence. Explain the positive case alongside risks, fetch the live framework as well as its supporting files, and prevent an older live version from rolling back a newer bundled calibration. Label an unverified near-pass "unresolved starter" with zero capital until evidence closes.
+
+Rationale: the hard structural floors already exclude weak cash engines and excessive leverage. Combining them with zero tolerance for small quarterly misses and zero-capital near-passes can exclude otherwise qualified opportunities without distinguishing the severity of a shortfall. The change makes limited imperfections actionable at limited size while preserving the reasons to reject a structurally weak business. The numeric bands express the user's risk preference; they are not backed by a new performance study or backtest.
+
+#18 safeguard check: A1–A8, the 6% trailing FCF-margin floor, leverage/guarantee accounting, #10, full-core #11 thresholds, written #15 exits, existing #16 name/factor caps and all F rules are unchanged. Unverified A evidence, unknown cap headroom, material #19 misses, simultaneous #9/#11 failures, multiple #11-component failures and #10-only shortfalls cannot receive starter capital. Two starters together consume at most 5% of sleeve at cost and 1% of total portfolio, within existing caps.
+
+#18 universe-impact check: growth and valuation near-passes and names with minor quarterly misses may change eligibility on fresh evidence; apply the same bands to every relevant name, including prior exclusions. FN/CLS/FPS still cannot bypass A's cash-flow/quality floors, and CEG/VST and other levered power/IPPs still route to F. A past A-fail is not cleared by this edit. Historical ANET/HWM-type valuation alerts may merit a starter review, but no ticker is promoted here. Counterexamples: P/E 38 with otherwise clean #11 can be starter-eligible; P/E 38 plus PEG 2.2 cannot; net debt/NTM FCF 2.7× remains out; any below-low-end guidance miss remains a blackout. These are illustrative policy cases, not current screens.
+
+Adoption re-test: the configuration is effective Oct 2 under explicit user direction. At the next full-universe screen, verify current A, growth/valuation data, all #19 comparisons, written triggers and portfolio headroom, then update the roster's date and "what changed" block. No current-stock reclassification is claimed by this calibration.
 
 ## Adopted — Sep 3, 2026
 
@@ -83,6 +105,6 @@ Rationale: the disclosed backstop (~$29B on the first $35B tranche; BofA models 
 
 1. Write the change as a rule edit (which number, old text → new text).
 2. Rationale in two or three sentences, tied to a name or a failure mode.
-3. Run the two #18 checks explicitly.
-4. Set the adoption re-test (scheduled quarterly or a named post-print).
+3. Run the two current #18 checks explicitly: preserved safeguards and full-universe impact, including counterexamples and prior exclusions.
+4. Set the adoption basis (scheduled quarterly, named post-print, or explicit user-requested calibration) and required fresh re-tests.
 5. On adoption, move the entry to "Adopted" with the date and update framework.md.

@@ -3,6 +3,8 @@
 Rules-based equity screen (gates A–F, rules #1–#19, F signal sleeve) packaged as an Agent Skill.
 Source of truth for the rules, the roster and the #15 kill triggers. Keep this repo private — the roster is a position book.
 
+The Oct 2, 2026 calibration keeps structural and concentration safeguards, permits tightly capped starters for narrow growth/valuation shortfalls, and treats small earnings misses as watch items. See the adopted entry in `references/changelog.md` inside the skill. The roster remains historical until re-screened with current data.
+
 ## Layout
 
     .claude/skills/asymmetry-gates/
@@ -23,5 +25,5 @@ Source of truth for the rules, the roster and the #15 kill triggers. Keep this r
 
 - `roster.md`: update at every screen; bump the date in the header; keep the "What changed" block.
 - `triggers.md`: write a name's #15 line before its first tranche.
-- `framework.md`: never edit directly — add a #18 entry to `changelog.md` (change, rationale, the two admissibility checks, adoption re-test), then apply the text.
+- `framework.md`: first add a #18 entry to `changelog.md` (change, rationale, safeguard check, full-universe impact, adoption basis and required re-tests), then apply the text. Explicit user-requested calibration can occur between re-tests; it does not refresh the roster.
 - Whoever edits (you, Claude, GPT) commits the full file, not a diff, and checks the roster header date first.

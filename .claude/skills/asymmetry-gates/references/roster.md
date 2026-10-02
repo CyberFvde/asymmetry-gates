@@ -1,5 +1,7 @@
 # Roster — Sep 28, 2026
 
+Historical screen snapshot under the Sep 11 framework. The Oct 2 calibration changes #9, #14, #17–#19; the statuses, price triggers and rankings below have not been re-screened against it. Do not infer current capital eligibility from this snapshot, including entries labeled core with unresolved verification items. Preserve this evidence date until a fresh screen updates the book.
+
 Sep 28 re-test covered AMZN, UBER, AVGO, MSFT, KLAC, LMT, RTX at Sep 25 closes, plus ORCL, APP and a defense / power / nuclear / energy sweep at Sep 28 closes (stockanalysis; Capital IQ connector not authorized, so NTM FCF is stockanalysis/MarketScreener consensus, flagged). Every other name carries Sep 10 closes (stockanalysis, S&P Global MI); Samsung uses the Sep 2 KRX statistics page. Status vocabulary: core (verified), conditional core (headline pass, named open items, zero capital), waiver (#10), ballast, alert (#14), blackout (#19), out.
 
 ## Top 10, pound for pound (gate strength first, C-metrics second)
