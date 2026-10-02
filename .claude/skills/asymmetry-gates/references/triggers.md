@@ -1,4 +1,4 @@
-# #15 — Written kill triggers (v. Sep 11, 2026; status notes Sep 28, 2026)
+# #15 — Written kill triggers (v. Sep 11, 2026; status notes Sep 28, 2026; Oct 2 additions)
 
 Rules: numeric, dated where possible, written before the first tranche. A tripped trigger means immediate re-test (or out, where stated), never a price-based exit. Every semi/AI-infra name carries the shared factor trigger below in addition to its own line.
 
@@ -44,4 +44,10 @@ Action when tripped, same day:
 - **AMD** (alert): #11 on the stockanalysis basis re-enters; the up-to-$5B Anthropic commitment counted under #4 at maximum — any write-down → re-test; data-center GPU share loss two straight quarters.
 - **VRT** (blackout): Q3 print must clear all four #19 legs; UtilityInnovation earnout must be cash (A1); insider three-officer test each quarter; net debt/NTM FCF post-deal ≤2.5×.
 - **TSM** (#3 open): guided capex ≤50% of consensus NTM OCF clears 3(c); 3a unavailable while gross margin <60%; Arizona/Japan ramp costs pushing GM <55% → re-test.
+- **LLY** (ballast, written Oct 2): pro forma net debt/NTM FCF >2.5× (1.93× blended) or any stock-funded deal (A1) → out; cash capex >50% of NTM OCF (~34%), or a numeric capex guide >~$18B → re-test; consensus revenue or EPS cut >5% or FY guide cut (#17); NTM GM <83.0% beyond the #5 band; insider + Endowment net sales >0.5% of shares in 12 months (0.37%); Mounjaro+Zepbound growth <20% YoY or US realized price down >15% YoY in any quarter → re-test. Becomes core at PT upside ≥20% (≈ ≤$1,107 on current PT).
+- **TOST** (conditional core, written Oct 2): recurring GP growth <18% YoY or FY GP/EBITDA guide cut → #17 re-test; trailing FCF margin <7% → re-test, <6% → out; NTM FCF consensus < TTM ($576M) → out; diluted WASO >+0.5%, convert or stock M&A → out; NTM GM <25.97% beyond carve-out → out; net new locations <5,000/quarter two straight → re-test.
+- **SCHW** (conditional waiver, written Oct 2): any #10 leg breaks (next-FY or 3Y <10%, net buyback <2%, 3Y EPS CAGR <20%, PEG ≥1) → out; any common/convert issuance → out; Tier 1 leverage <6.75% → re-test; bank sweep cash down >10% QoQ or NII down YoY → re-test; reasonably-possible loss >~$0.9B → out.
+- **MA** (alert, Oct 2): re-entry when next-FY and 3Y consensus both ≥15%; NTM FCF < TTM ($16.70B) → out; BVNK earnout settled in shares → out; reasonably-possible loss >~$850M → out; cross-border volume growth <10% cc two quarters → re-test.
+- **TENB** (alert, Oct 2): re-entry when FY27 and 3Y growth ≥15%; diluted WASO >+0.5% or stock-paid deal → out; NTM FCF <$264M → out; non-GAAP GM <80.0% without attributed mix → out.
+- **KOG** (blackout/alert-only, Oct 2): Oct 29 print must clear all four #19 legs; #7 via Oslo Newsweb or stays alert-only; Zone 5 minority buyout in shares → out (A1); blended NTM FCF < TTM (~NOK 6.0B, re-measured post-demerger) → out; Defence Systems EBIT margin <17.0% → re-test; book-to-bill <1.0× two quarters → re-test.
 - **Any 3a name**: high-water mark on entry.

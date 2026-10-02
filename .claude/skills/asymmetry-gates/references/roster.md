@@ -1,6 +1,29 @@
-# Roster — Sep 28, 2026
+# Roster — Oct 2, 2026
 
 Sep 28 re-test covered AMZN, UBER, AVGO, MSFT, KLAC, LMT, RTX at Sep 25 closes, plus ORCL, APP and a defense / power / nuclear / energy sweep at Sep 28 closes (stockanalysis; Capital IQ connector not authorized, so NTM FCF is stockanalysis/MarketScreener consensus, flagged). Every other name carries Sep 10 closes (stockanalysis, S&P Global MI); Samsung uses the Sep 2 KRX statistics page. Status vocabulary: core (verified), conditional core (headline pass, named open items, zero capital), waiver (#10), ballast, alert (#14), blackout (#19), out.
+
+## Oct 2 theme sweep — non-AI-capex sleeve (Oct 2 intraday, stockanalysis; Capital IQ not used, NTM FCF flagged)
+
+~140 names across GLP-1, cybersecurity, fintech/crypto, European defense/drones, space, robotics, quantum and grid not covered Sep 28. Eight are left in any status; nothing else is forced in. None carries the shared "AI capex 2027" trigger except where noted.
+
+1. **TOST** — conditional core. $30.10, 19.6×, PEG 0.83, PT +29.3% (30), next-FY +21.4%, 3Y 19.0%, diluted WASO −2.5%, net cash $1.71B, TTM FCF margin 8.47%, FY26E FCF $710M > TTM $576M. #19 (Aug 4) clear on rev and adj EBITDA. Open: A5 top-2 source (US restaurant POS), #7 12-month Form 4 sweep, #19(d) vs recurring-GP/EBITDA guide. Next print Nov 3.
+2. **LLY** — ballast (fails only #12). $1,139.50, 27.6×, PEG 1.27, PT +16.6% (30), next-FY +35.8%, 3Y 20.5%, WASO −0.68%, buybacks $6.17B 4Q, FCF margin 22.8%, NTM FCF $28.8B blended (MarketScreener) ≥ TTM $18.2B, capex ~34% of NTM OCF (×1.25 fallback), #4 1.93× blended / 2.45× FY26E-only. #7 swept from 130 Form 4s: 0.37% net (Endowment), all officer sales 10b5-1. #19 (Aug 5) clear. Core at ≤ ~$1,107 (PT +20%). Only name capital-eligible today (#15 written Oct 2). Next print Oct 29.
+3. **SCHW** — conditional waiver (#10). $97.08, 13.6×, PEG 0.66, PT +29.2% (22), next-FY +18.2%, 3Y 12.96%, 3Y EPS 22.7%, net buyback 3.36%, FCF yield 10.8% as published. Open: A3/A4 not cleanly computable for a bank (as published pass; gross debt ex-bank cash ~4.2× fails) — changelog P9. Next print Oct 15 → re-test after.
+4. **MA** — alert (#14 on #9: next-FY 13.6%, 3Y 12.7%). $553.36, 25.9×, PEG 1.56, PT +20.5% (#12 ceiling ~$555.59). Open: BVNK earnout (≤$300M) cash vs stock (A1), 3(b) thin, #7, #8 stablecoin reading. Next print Oct 29.
+5. **TENB** — alert (#14 on #9: FY26 +7.9%, 3Y 7.0%), headline. $36.88, 18.2×, NTM FCF yield ~6.6%, WASO −5.96%, #19 (Jul 29) clear. Open: #5 ~20bp GM compression needs carve-out, #7 sweep, PEG n/a at stockanalysis. Next print Oct 28.
+6. **KOG (Kongsberg)** — #19 blackout (Q2 EBIT ~5% below consensus) + alert-only (#7 via Oslo Newsweb unverified). NOK 308, 33.4× (#11 ceiling ~NOK 322), PEG 0.96, PT +28.5% (11), next-FY +36.4%, net cash. Open: #5 GM 55.8% vs 59.2%, Zone 5 consideration, post-demerger data. Next print Oct 29.
+7. **FUTU** — alert-only (foreign filer, #7) + #9 (3Y 12.5%). 6.8×, PEG 0.95; PT leg void (22.5% below 200DMA). Next print Nov 17.
+8. **KSPI** — alert-only (#7) + <5 analysts on FY26 consensus. 6.5×, FCF yield ~16% (bank, flagged). Next print ~Nov 9.
+
+**Bubble (out, closest):** NVT (A7 — three-officer non-plan quarters; passes every numeric gate; earliest roll-off Oct 2027; AI-capex Y), ENR (A3b on MarketScreener FY27 €5.38B < TTM €7.79B; else #9 alert), XYZ (A3b; FY27 ≥$4.20B blended → #9 alert), CVLT (#9 + #12), AM/Dassault (A3b on Rafale advances), TW (#9 + #12, 53bp short), NU/ADYEN/LPLA/HOOD (A3a as published on customer/settlement flows — P9).
+
+**Out by theme (gate named):**
+- Cybersecurity: PANW, CRWD (4:1 split Jul 2), ZS, NET, S, RBRK, VRNS, SAIL, NTSK, DDOG, RPD, CLBT, ATEN, AKAM (A1 — SBC/stock-deal dilution); CHKP (A1, $1.75B converts Dec 8, 2025; roll-off Dec 8, 2026); GEN (A1 MoneyLion CVRs in stock; A4 ~4.6×); FTNT (#9/#11/#12); QLYS, OKTA, FFIV (#9 + #11/#12); RDWR, OSPN (<5 analysts). CYBR dropped (PANW closed Feb 11, 2026).
+- GLP-1/metabolic: NVO (A3b DKK 56.7B < 75.8B; A5 −257bp with GP $ down); AMGN, PFE, ROG (A2); HIMS (A1 convert May 2026); VKTX, MDGL, GPCR, ALT, KLRA, Innovent (A1); ZEAL, WW (A3a). TERN and Metsera acquired.
+- Fintech/crypto: ICE, NDAQ, FISV, FOUR (A4); COIN, PYPL (A3b); IBKR (A1, +1.96%); AFRM, SOFI, MSTR, CRCL, BLSH, GLXY, GEMI, ETOR, CHYM, FIGR, KLAR, GPN (A1); V (#9 + #12); CME, CBOE, MKTX (#9 + #11/#12); WISE (#9 + #11).
+- Defense/drones (Europe + new): RHM, LDO, BAB, CHG, KAI, LIG Nex1, Hanwha Systems (A3a); HO, BA., IDR, Hyundai Rotem, QQ (A3b — advance-funded trailing FCF); R3NK (A2); SAF, Hanwha Aero, CSG, HAG, ESLT, AXON, ONDS, RCAT, UMAC, DPRO, THEON, KIT, EXENS, FCT, DRO (A1); SAAB-B (#11 + #12); EXA (#11 + #12).
+- Space: IRDM (A4 ~5.0×); KRMN, SES (A3a); MDA, SPCX (SpaceX IPO Jun 12), RKLB, ASTS, PL, SATS, VSAT, LUNR, FLY, VOYG, RDW, BKSY, SPIR, ETL (A1); GRMN, TRMB (#9/#10). GSAT dropped (AMZN deal).
+- Robotics/quantum/grid: HUBB, CARR, ZBRA, HON (A4); AYI, Hitachi, Fanuc (A3b); MOD, ATKR, AAON (A3a); GNRC (A1 — Amazon warrant to 2033); SU (A1/A4); PRY (A3a); POWL (A5, #11); CGNX (A7); ISRG (#9 + #11); ROK, ABB (#9 + #12); SYM, SERV, RR, HSAI, TSLA, IONQ, RGTI, QBTS, QUBT, IBM (A1).
 
 ## Top 10, pound for pound (gate strength first, C-metrics second)
 
@@ -82,6 +105,13 @@ Standing caveat: eight of the ten are one cycle. In force since Sep 11: the shar
 - **VST** — F-watch. F1 floor passes (FCF margin 11.7%, EBITDA margin 34.6%, 3.09×/3.81×, ROIC 9.7 vs WACC 9.6, 13.8×/0.39, EV/EBITDA 10.1, 3Y EPS 35.8%, PT +53% on 20). F2 not met: Burke bought ~$1.2M Aug 24–Sep 1 (<1% of ~1.24M held, single insider); politician buys are 5–7 months stale and above current price. Triggers if the CFO or two directors join, or Burke ≥$2M/5%. Thesis metric: FCF-before-growth guide, contracted MW, PJM/ERCOT capacity prices.
   - Sep 28: F1 still passes (FCF margin 11.7%, EBITDA margin 34.6%, 3.02×/3.81×, ROIC 9.72 vs WACC 9.52, 13.4×/0.39, EV/EBITDA 9.99, PT +57.6% on 20). F2 still not met: Burke's buys total 8,665 shares / ~$1.17M (Aug 24–Sep 1), <1% of holding; CFO Moldovan and EVP Hudson sold Sep 8 (10b5-1). $138.02.
 - **F screen Sep 28, no signal anywhere:** COP clears most of F1 (FCF 15.6%, EBITDA 41.6%, 0.58×, ROIC 11.6 vs 4.6, 12.5×/0.74, EV/EBITDA 6.2, FCF yield 6.6%) but fails top-2/oligopoly (price-taker), 3Y EPS CAGR unverified, no insider buying. CEG fails F1 (Calpine share issuance, ROIC < WACC, FCF margin 0.9%; one director buy $418K). EOG, XOM, EQT, FANG, OXY, NRG fail on PEG and/or EBITDA margin, ROIC or issuance. TLN data anomalous on stockanalysis (TTM EBITDA $582M vs $9.34B net debt) — re-pull before use. CVX shares +12% (Hess), EBITDA margin 24%.
+
+## What changed vs. Sep 28 (Oct 2 theme sweep)
+
+- New: TOST conditional core; LLY ballast (fills the slot empty since MSFT went out Sep 28); SCHW conditional waiver; MA, TENB #14 alerts; KOG blackout/alert-only; FUTU, KSPI alert-only.
+- #15 lines written for LLY, TOST, SCHW, MA, TENB, KOG (triggers.md).
+- Proposed under #18 (changelog): P9 bank/broker definitions for A3/A4; P10 #9-only failers vs #14 (GD/NOC/LHX Sep 28 reading).
+- Semi top-10 below not re-run; it still carries Sep 28 data.
 
 ## What changed vs. Sep 11 (Sep 28 re-test: AMZN, UBER, AVGO, MSFT, KLAC, LMT, RTX)
 

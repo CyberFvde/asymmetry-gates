@@ -79,6 +79,24 @@ Rationale: the disclosed backstop (~$29B on the first $35B tranche; BofA models 
 
 #18 checks: #15 text, not a gate — readmits nothing; AVGO passes #4 at the Sep 28 re-test. Adopt at the ~Dec 9–10 post-print re-test or reject.
 
+## Pending — proposed Oct 2, 2026 (bind nothing until adopted)
+
+### P9. Bank/broker definitions for A3/A4
+
+Change: for names with deposits, segregated client funds or loan books in OCF (SCHW, NU, HOOD, LPLA, ADYEN, FUTU, KSPI), define the A3 cash engine and A4 leverage on an excluded-client-flows basis (to be specified), or rule them out of A–E.
+
+Rationale: as-published figures pass SCHW and fail NU/ADYEN/LPLA/HOOD on flows that aren't the company's cash; gross debt ex-bank cash puts SCHW at ~4.2× on A4. Same data, opposite answers.
+
+#18 checks: readmits none of FN/CLS/FPS/CEG/VST. Affected names currently failing A3 (NU, ADYEN, LPLA, HOOD) can't be the reason for adoption; adopt only if it also binds SCHW. Adopt at the ~Oct 15 SCHW post-print re-test or reject.
+
+### P10. #9-only failers and #14
+
+Change: none to rule text. Record that a name passing all of A and C and failing only #9 is a #14 alert (MA, TENB Oct 2), and re-check the Sep 28 "out #9/#10" calls on GD, NOC, LHX against that reading.
+
+Rationale: Sep 28 marked them out without checking whether C passed. Status stays out if any C gate or A3(b) fails.
+
+#18 checks: no rule change; readmits nothing.
+
 ## How to log a change
 
 1. Write the change as a rule edit (which number, old text → new text).
