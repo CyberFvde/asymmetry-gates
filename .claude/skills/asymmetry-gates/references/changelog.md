@@ -83,19 +83,43 @@ Rationale: the disclosed backstop (~$29B on the first $35B tranche; BofA models 
 
 ### P9. Bank/broker definitions for A3/A4
 
-Change: for names with deposits, segregated client funds or loan books in OCF (SCHW, NU, HOOD, LPLA, ADYEN, FUTU, KSPI), define the A3 cash engine and A4 leverage on an excluded-client-flows basis (to be specified), or rule them out of A–E.
+Change: for names with deposits, segregated client funds, customer-fund inflows or loan books in OCF (NU, HOOD, LPLA, ADYEN, FUTU, MELI, GRAB, STNE, INTR), define the A3 cash engine and A4 leverage on an excluded-client-flows basis (to be specified), or rule them out of A–E.
 
-Rationale: as-published figures pass SCHW and fail NU/ADYEN/LPLA/HOOD on flows that aren't the company's cash; gross debt ex-bank cash puts SCHW at ~4.2× on A4. Same data, opposite answers.
+Rationale: as-published figures fail NU/ADYEN/LPLA/HOOD/FUTU and pass MELI on A3(a) while its ex-client-flows FCF margin is ~3.3%. The same data gives opposite answers depending on basis.
 
-#18 checks: readmits none of FN/CLS/FPS/CEG/VST. Affected names currently failing A3 (NU, ADYEN, LPLA, HOOD) can't be the reason for adoption; adopt only if it also binds SCHW. Adopt at the ~Oct 15 SCHW post-print re-test or reject.
+#18 checks: readmits none of FN/CLS/FPS/CEG/VST. Every affected name is currently failing A3 on one basis or the other, so adoption cannot be motivated by any one of them; apply universe-wide at a scheduled re-test or reject.
 
-### P10. #9-only failers and #14
+### P10. #9-only failers and #14 — resolved Oct 2
 
-Change: none to rule text. Record that a name passing all of A and C and failing only #9 is a #14 alert (MA, TENB Oct 2), and re-check the Sep 28 "out #9/#10" calls on GD, NOC, LHX against that reading.
+Record only: a name passing all of A and C and failing only #9 is a #14 alert (ALGN, RMD, MA, STMN Oct 2). Re-check of the Sep 28 "out #9/#10" calls: GD fails A1 (diluted +0.95%) and A3b; NOC and LHX fail A4 — all stay out. No rule change.
 
-Rationale: Sep 28 marked them out without checking whether C passed. Status stays out if any C gate or A3(b) fails.
+### P11. A7 three-officer test — issuer-mandated sell-to-cover
 
-#18 checks: no rule change; readmits nothing.
+Change (reading of #7, not new text): an RSU sell-to-cover sale footnoted on the Form 4 as required by the award/plan and non-discretionary is not "selling outside 10b5-1" for the three-officer test; it still counts toward the 0.5% net-selling limit. Code F (shares withheld by the issuer) and code G (gifts) are never sales.
+
+Rationale: TOST (5–6 officers every quarter, all sell-to-cover, footnoted non-discretionary; discretionary sales all 10b5-1; net 0.146%) and XYZ (Q4'25 5, Q1'26 3) fail the literal test on trades that carry no signal. The test exists to catch discretionary non-plan selling.
+
+#18 checks: readmits none of FN/CLS/FPS/CEG/VST. TOST is currently failing A7 on the literal reading, so under the second check it cannot be the beneficiary at adoption; per the P2/Lyft precedent, adopt universe-wide with TOST excluded until a re-test after adoption, or rule that the literal reading never applied (an interpretation of existing text, owner's call). XYZ is out on #7(b) regardless.
+
+### P12. #7 for foreign private issuers — HFIAA
+
+Change (Sources/#7 reading): since Mar 18, 2026 (Holding Foreign Insiders Accountable Act; SEC final rules Feb 27, 2026) directors and officers of SEC-registered foreign private issuers file Forms 3/4/5. #7 for those names is run on EDGAR Form 4s from Mar 18, 2026 plus local filings/Form 144 for the earlier part of the 12-month window; full EDGAR coverage from Mar 18, 2027. A Form 4 can fail a name now (GLBE, KSPI).
+
+#18 checks: readmits nothing; P4 still governs non-SEC-registered listings.
+
+### P13. #4 net-debt basis and contingent consideration
+
+Change (Sources reading): net debt is lease-inclusive (stockanalysis Total Debt, the named source); contingent cash consideration on announced/closed deals (milestones, CVRs payable in cash) counts in #4 at maximum, like guarantees. Record: AMZN/ORCL were lease-inclusive; MSFT's "ex-leases" appeared only in a 14b side test.
+
+#18 checks: readmits nothing. SYK fails A4 at 2.53× lease-inclusive but also fails A2, so the reading isn't the deciding gate for it.
+
+### P14. A2 "share count" measure
+
+Change (reading): A2's net-cash leg ("share count ≤ +0.5%") uses the higher of diluted WASO YoY and period-end shares outstanding YoY from the filings, so a falling share price can't pass A2 via lower treasury-method dilution alone.
+
+Rationale: PDD — diluted WASO −0.57% (dilution fell with the price), basic WASO +0.70%, period-end +0.72%, no buybacks.
+
+#18 checks: readmits nothing; PDD is out either way under the strict reading used Oct 2.
 
 ## How to log a change
 
