@@ -1,6 +1,39 @@
-# Roster — Sep 28, 2026
+# Roster — Oct 2, 2026 (rev 3 theme screen; Sep 28 sections below are historical)
 
 Historical screen snapshot under the Sep 11 framework. The Oct 2 revisions change A7, #9, #13–#19 and add G/H/FT/PH routing; the statuses, price triggers and rankings below have not been re-screened against them. Do not infer current capital eligibility from this snapshot, including entries labeled core with unresolved verification items. Preserve this evidence date until a fresh screen updates the book.
+
+## Oct 2, 2026 — theme screen under framework rev 3 (Oct 2 closes; stockanalysis + MarketScreener FY27/FY28 blend, flagged; Capital IQ unavailable)
+
+~200 names across GLP-1/pharma/medtech, cybersecurity, fintech/crypto (FT), defense/aero/space, power/grid/nuclear/robotics/quantum, EM e-commerce, plus user-requested VST, AMZN, ORCL. Routes per rev 3 (A–E, #14a, G, H, FT, F) with PH on every survivor (ph.py: split-adjusted closing ATH, SPY or local iShares ETF total return). Eligible names independently re-verified from EDGAR/10-Q/Form 4 XML. Cap headroom unknown → eligibility only, not a trade instruction.
+
+**Eligible (gate strength, then asymmetry)**
+1. **PODD / Insulet** — A–E core (provisional), PH clean (age). $131.69, 19.09×, PEG 0.96, FY26 +21.4% organic, 3Y 16.14%, NTM FCF $469.8M (MS FY26 $396.7M / FY27 $494.1M) = 5.15% yield; PT leg void (31.9% below 200DMA $193.38) so #12 rests on FCF yield — fails above ~$135.47. A1 −1.8%, A4 1.09× incl. $97M guarantee, A7 officers A/F only, CEO bought. #19 clear (Q3 guide −1.1 to −1.6% vs cons, inside 3%). #17 not tripped (FY guide −0.8%, US Omnipod −2.5%). Provisional on: FY27 FCF consensus single-source/analyst count unseen; A5 on true NTM basis (FY26 blend ~71.15% vs FY25 71.63% after MDC costs — passes only if Q1–Q2'27 avg ≥~70.9%). PH: ATH $352.82 2025-09-09, −62.7%, −107pp; testable 2028-09-09. Next print Nov 4.
+2. **LLY / Eli Lilly** — A–E ballast (only #12: PT +16.27%), PH clean. 27.41×, PEG 1.27, FY26 +35.8%, 3Y 20.5%, NTM FCF yield 2.83%. #4 at max 2.00× (≤2.21× adding Merida $2.875B and InnoCare $3.25B milestones at max). A7 0.36% (Endowment 3.15M sh). Core at ≤$1,107. Next print Oct 29.
+3. **HWM / Howmet** — #14a starter on #11, PH clean. $231.27, fwd P/E 39.650 (band 35–40; void above $233.31), PEG 1.31, NTM FCF $2.21B = 2.40%. #9: FY26 organic ~18–19%, 3Y 15.85% (thin; FY28 cut >1.7% fails). #12 PT +44.6% (valid). A4 at max 2.40–2.43× (Alcoa guarantee $1,141M, LoC $76M, surety $43M). A7 0.022%. #19 clear. Starter ≤2.5% of sleeve / ≤0.5% of portfolio; no tranche 2 until full core. Gas turbines ~13% of revenue (AI-capex overlap). Next print Oct 29.
+
+**G-watch (zero capital)**
+- **GNRC / Generac** — G1–G5 pass except G2 leverage, which turns on a reading: net debt/NTM FCF 2.31–2.48× reported vs 2.70–2.87× if the $179.2M dealer floor-plan repurchase obligation (10-Q Note 16; repurchase of repossessed product, no credit indemnity) counts at max under A4. G5 base 14.7–17.9%, ceiling ~$245–275 vs $216.80; Amazon warrant 1.69M sh (0.52% vested). PH-warning (ATH 2021-11-01, −57.1%, +17.6pp). Heavy AI-capex (data-center backlog, Amazon supply) → shared trigger and aggregate cap. Next print Oct 28.
+- Price-blocked G (G1–G4 pass, G5 fails at today's price; entry ceiling): PANW ~$119 (vs $403), FTNT ~$80, CRWD ~$51 (G3 reading open: diluted +4.49% vs comparable basic +1.98%), REGN ~$617, ISRG ~$339, SAF ~€323 (vs €330; G4 AMF sweep open), HEI ~$280, PLTR ~$152, NVT ~$111, PWR ~$256, VRT ~$246 (also #19 blackout until Oct 21 print), SAIL, NET.
+- Near G: NBIX (G3 3.17% vs 3%; re-test Oct 27), ARGX (G2 needs FY26 OCF; Feb 2027).
+
+**Other watch (zero capital)**
+- Alerts: MA (FT #9 13.6%/12.7% vs 15%; #12 fails above $555.59), REGN (#9 3Y 11.36%), RMD (#9; PH-warning, impaired at ≤$208.15).
+- Blackout: KOG (Q2 revenue −3.4%, EBITDA −8.8% vs cons; #7 now verified clean via Newsweb; re-test Oct 29).
+- F-watch: VST (F1 passes thinly; F2 not met — Burke $1.17M = 0.76% of holding; Cogentrix 5.0M-share consideration will fail F1 issuance on close).
+- H-watch (H2 funded, H3/H4 fail): SMR, LEU, IONQ, RGTI, QBTS, OKLO, NTSK, Swiggy, Eternal, Meesho, PRCT, MDGL (H4 ceiling ~$397–471), ORCL (H2 depends on uncommitted ~$20B raise; H3 bull-only).
+- FT unresolved: TOST (A7 passes under the sell-to-cover reading — 0 discretionary non-plan officers; FTC draft complaint, loss "cannot be estimated" → FT3; also PH-impaired), NU, FUTU.
+- Turnaround watch (PH-impaired): ALGN, STMN, EW, DXCM, NVST, ZS, TENB, S, VRNS, RPD, AKAM, GEN, TOST, ADYEN, CGNX, PDD, BABA, JD, CPNG, Meituan, GRAB, ALE, VIPS, BEKE, TME, BIDU.
+
+**Out (deciding gate)**
+- User-requested: AMZN (G2: TTM FCF −$11.63B, capex 107% of OCF; A1 Globalstar stock; 3a ineligible), ORCL (G2 FCF −$28.7B; G3 +3.13%; see H-watch).
+- Cyber: CVLT (A5, #9), QLYS (#9), CHKP (A1 until Dec 8), FFIV, OKTA, DDOG (G4 1.32%), RBRK (G3 +5.7%); CYBR absorbed by PANW.
+- Health: SYK (G2 growth 8.4%, leverage 2.53×), BSX, GMED, IDXX, NVO, AMGN, VRTX, HALO, EXEL (A7), ALNY (blackout), pharma growth outs; pre-revenue obesity (VKTX, GPCR, ALT) fail H1.
+- Fintech: SE (A1), MELI (A5 −858bp), GLBE (A7 0.74%), SCHW (A7 discretionary), HOOD (A1), XYZ (#7b), KSPI (A7), IBKR (A1), V, TW, CBOE, CME, ICE, NDAQ, PYPL, COIN, CRCL, AFRM, SOFI, DLO, STNE, PAGS.
+- Defense/space: RHM (A3a 3.4%), LDO, Hanwha Aero, BA., HO, ESLT, AXON, GE, TDG, WWD, FTAI, LMT, RTX, GD, NOC, LHX, KTOS, AVAV, SAAB (G5), RKLB (H4; Iridium deal Jun 28, $3.6B bridge), ASTS (H2/H4), SPCX (G2/H2), PL, IRDM (merger target), KRMN, MDA.
+- Power/grid: GEV, ETN, HUBB, BWXT, POWL, ENR, SU, PRY, SYM, TSLA, ROK, IBM, HON; F: CEG, NRG, TLN, CCJ.
+- EM: PRX (#9 organic ≤~7.5%; A3a ex-Tencent dividend 2.6%), Talabat, JMIA, TCOM, NTES.
+
+**Open rulings for the owner (not adopted; logged in changelog)**: GNRC floor-plan repurchase under A4/G2; CRWD G3 comparable-basis diluted shares; PRX associate dividends in A3(a) and Naspers sales-to-issuer under #7; ALE >10% sponsor sales under G4; FT "narrow shortfall" yardstick (MA alert vs V/TW out); PODD single-source FY27 FCF.
 
 ## User-requested review queue — Oct 2, 2026, revision 2
 

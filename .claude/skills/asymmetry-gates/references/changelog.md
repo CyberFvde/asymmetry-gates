@@ -138,6 +138,16 @@ Rationale: the disclosed backstop (~$29B on the first $35B tranche; BofA models 
 
 #18 checks: #15 text, not a gate — readmits nothing; AVGO passes #4 at the Sep 28 re-test. Adopt at the ~Dec 9–10 post-print re-test or reject.
 
+## Pending interpretations raised by the Oct 2 rev-3 screen (bind nothing until the owner rules)
+
+- **Q1. Dealer floor-plan repurchase obligations under A4/G2 (GNRC).** A repurchase-of-repossessed-product commitment with cost sharing but no credit indemnity: count at disclosed balance like a guarantee, or exclude? Decides GNRC G2 (2.31–2.48× vs 2.70–2.87×).
+- **Q2. G3 comparability when the year-ago quarter was a loss (CRWD).** Reported diluted WASO +4.49% omits year-ago antidilutive shares; comparable basic +1.98%. Literal "higher of diluted WASO and period-end" fails.
+- **Q3. Associate dividends in A3(a) (PRX).** IFRS lets them sit in operating or investing; ex-Tencent FCF margin 2.6%.
+- **Q4. Sales to the issuer by a parent under #7 (Naspers → Prosus buyback, ~2.5%).**
+- **Q5. >10% holders / PE sponsors under G4 (Allegro).** LLY's Endowment was counted under #7 in the Oct 2 sweep.
+- **Q6. FT "narrow shortfall" yardstick.** The screen used #14a's 12% floors to separate an unfunded FT alert (MA) from out (V, TW).
+- **Q7. Single-source forward FCF (PODD).** MarketScreener FY27 FCF mirrors the S&P feed; analyst count unseen. Whether a ≥5-analyst requirement can be met by an unseen count.
+
 ## How to log a change
 
 1. Write the change as a rule edit (which number, old text → new text).
