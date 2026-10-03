@@ -1,4 +1,19 @@
-# Roster — Oct 2, 2026 (revision 3 targeted re-screen; March contest research)
+# Roster — Oct 2, 2026 (revision 3 combined March contest research)
+
+
+## Current combined contest board — supersedes earlier contest seeds below
+
+At the user's request for the best of both rankings, combine merged PR4 evidence with corrected PR3 head 3fdc3b6 without adopting its unresolved full-eligibility/valuation claims. Chosen rules remain merged Oct 2 revision 3 (main 530e049); no gate/cap edits. Quotes remain Oct 2 closes; model end March 31, 2027 is assumed. Prize, exact date and scoring rules remain unknown.
+
+**Current contest order:** PODD, AVAV, LLY, GPCR, HWM, GNRC, PL, SYM, RKLB, ASTS. **Final Four: PODD/AVAV/LLY/GPCR.** This is research judgment combining return potential and confidence in operating/funding assumptions, not calibrated expected returns or a normal investable ranking. All prior normal-skill conditional/watch/out labels remain; no fresh full capital pass is established.
+
+Paper shares (% starting cash): PODD20 / AVAV15 / LLY12 / GPCR10 / HWM8 / GNRC7 / PL12 / SYM5 / RKLB8 / ASTS3. No call premiums or borrowed margin in the default comparison. Space23%, GPCR10%, health42%, GNRC7% direct data-center exposure; quantum0%. Primary HWM March base uses FY27 EPS6.46 ×35, with a separately labeled40× variant. Primary basket scenarios roughly −34.7/+17.4/+83.5%; cases have no assigned probabilities and are not loss floors.
+
+**GNRC — G-watch / PH-warning, zero normal-skill capital:** $216.80. Issuer data-center backlog ~$1.6B supports research but creates AI-capex overlap. Maximum $179.174M dealer floor-plan repurchase exposure, tariff-refund normalization, annual insiders and full G valuation remain unresolved; absence of credit indemnity does not automatically waive the obligation. March model FY27 EPS9.50/12.58/14.50 ×15/21/25 gives142.50/264.18/362.50. Full-history PH: ATH505.80 Nov1'21, age4.917, DD57.137%, 3Y gap+17.020pp versus fixed S&P500TR; rising200DMA212.586 vs208.2697, one close above. No impairment underperformance conjunction; this is not a G pass. Oct28 next print estimated, not issuer-confirmed.
+
+What changed: admitted HWM/GNRC, promoted LLY/AVAV, reduced clinical/space concentration, removed quantum from the default basket, and replaced unsupported45% premium sizing with an all-share comparison. Cyber reserves FTNT/PANW/CRWD remain valuation/evidence watches; VST/NVT/ENR/IONQ remain reserves. No PR3 merge, policy ruling or actual trade is performed. Full [combined research](../../../../docs/research/2026-10-02-best-of-both/README.md) includes sources, distinct HWM cases and reproducible arithmetic.
+
+Concurrent source note: PR3 advanced to a74c2db with draft revision4 and SAF/HEI/NBIX/PODD re-tests still pending. This report preserves its separate/newer roster, does not merge the calibration or import incomplete re-tests, and uses the unchanged merged-main revision3 for normal-rule checks. These three additional names are follow-up reserves, not verified contest entrants.
 
 ## Fresh scope, framework and capital verdict
 
@@ -57,7 +72,7 @@ US benchmark fixed before outcomes: **S&P 500 Total Return**, +87.315% from Oct 
 
 Also impaired: GLBE, PDD, ALT. Warning-only RMD(DD26.389%)and OKTA(27.517%); SE/KTOS/XYZ three-year relative condition does not meet impairment. Recovery requires 20 consecutive closes above the contemporaneous 200DMA,rising DMA vs 20 sessions ago,6-month relative ≥ 0 **and fully qualified latest print**. All four, followed by the next clean print for normal sizing. Large current drawdowns in PODD/RKLB/ASTS/PL/AVAV/SYM/quantum are visible; young ATH means the age conjunction fails, not that trend/financial quality passes.
 
-## Contest-only ranking and paper allocation
+## Earlier contest ranking and paper allocation — superseded by the combined board
 
 **Seeds:** 1 GPCR, 2 RKLB, 3 PODD, 4 PL, 5 ASTS, 6 AVAV, 7 SYM, 8 RGTI, 9 IONQ, 10 QBTS, 11 LLY, 12 ENR. **Final Four: GPCR/RKLB/PODD/PL.** Subjective research judgment, not a probability forecast. ZS stays on turnaround watch in deference toPH; VST/NVT/KTOS/RDW/VKTXreserves. Expensive cyber and negative-cash AI platforms are outside. No forced 25.
 
