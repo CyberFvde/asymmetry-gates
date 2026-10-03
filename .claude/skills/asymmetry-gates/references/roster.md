@@ -1,8 +1,33 @@
 # Roster — Oct 3, 2026 (framework rev 4; reconciles PR #3 and PR #4)
 
-## Reconciled ranking — pending
+## Reconciled ranking — best of both (Oct 3, 2026, framework rev 4; Oct 2 closes)
 
-Rev 4 re-tests of SAF, HEI, NBIX and PODD are in progress (Oct 3). Until they land, eligibility is unchanged from the PR #3 evidence below: LLY ballast, HWM #14a starter; PODD conditional core.
+Combines PR #3's rev-3 theme screen and PR #4's merged contest research, then applies the user-requested rev 4 leniency (G5 10%, G3 3.5%, #12 4.5%, H4 18%). Affected names were re-tested the same day from EDGAR, AMF BDIF and issuer releases. Cap headroom is unknown, so this is eligibility, not a trade instruction. The contest sleeve is research for the user's options-allowed March contest, not skill capital.
+
+**Capital-eligible (route caps apply)**
+1. **NBIX / Neurocrine** — G-compounder, PH clean. $143.18 vs G5 entry ceiling $175 (base 14.5%/yr at 16× under the 17.3× peer cap; bear 74%). Organic FY26 ~+27% ex-Soleno, 3Y ~16.7%, FCF margin 25.8%, NTM FCF 129% of TTM, ~zero net debt. G3 +3.17% (≤3.5%). G4 0.494% — recount after Oct 6 filings. #19 clear. Initial ≤2.5% of sleeve / 0.5% of portfolio. Next print ~Oct 27.
+2. **HWM / Howmet** — #14a starter on #11, PH clean. $231.27; fwd P/E 39.65, starter void above $233.31, core at ≤ ~$204. A4 at max 2.40–2.43×. Gas turbines ~13% of revenue. Next print Oct 29.
+3. **LLY / Eli Lilly** — ballast (only #12: PT +16.3%), PH clean. Core at ≤ ~$1,107. #4 at max ≤2.21×. Next print Oct 29.
+4. **SAF / Safran** — G-compounder (thin), PH clean. €330.10 vs ceiling €340 (base 10.6%/yr at its own 23× median; bear 65%). G4 clean (AMF: two small sellers, ~0.001%). #19 clear (H1 revenue +0.6%, recurring EBIT +5.7% vs consensus; FY guide raised). Q3 revenue Oct 23 (pause from ~Oct 16).
+
+**One step from capital (zero capital)**
+5. **PODD / Insulet** — watch. Capex guidance is vague, so the ×1.25 fallback governs: NTM FCF $375.7M = 4.11% < 4.5%; #12 fails above $120.39. A5 NTM GM unresolved (needs H1'27 GAAP ≥ ~70.9%; MDC costs carry into 2027). Insiders net buyers. Nov 4 print.
+6. **GNRC / Generac** — G-watch on one ruling (dealer floor-plan obligation in G2 leverage: 2.31–2.48× excluded vs 2.70–2.87× at max). PH-warning. AI-capex heavy. Oct 28.
+7. **VRT / Vertiv** — G-watch, #19 blackout until the Oct 21 print; G5 base 11.4% now clears 10% (ceiling re-run needed). AI-capex heavy.
+8. **HEI / HEICO** — G-watch on price: ceiling $296 (≈$275 with minority-interest haircut) vs $302.45; redeemable minority interests ($618M) would push G2 leverage to ~2.55× if counted.
+9. **KOG / Kongsberg** — #19 blackout (Q2 revenue −3.4%, EBITDA −8.8% vs consensus); #7 verified clean. Oct 29.
+
+**Contest sleeve (speculative; H-sized if ever funded; shares over calls)**
+10. **AVAV / AeroVironment** — PR #4 base +26.7% to Mar 31; H-watch (cash floor fails).
+11. **GPCR / Structure Therapeutics** — Q4 readouts are a binary catalyst; out of H on H1 (pre-revenue).
+12. **QBTS / D-Wave** — base +19.5%; H-watch.
+13. **RGTI / Rigetti** — base +19.0%; H-watch.
+14. **SYM / Symbotic** — base +13.8%; G-watch.
+15. **RKLB / Rocket Lab** — base −0.1%; H-watch; Iridium financed by the completed $1.944B ATM (bridge terminated), close mid-2027.
+16. **PL / Planet Labs** — base +5.4%; H/G-watch.
+First out: IONQ, ASTS (H2 gap ~$2.1B), ENR (A3b/G2), MDGL and PRCT (H-watch under the 18% H4 hurdle).
+
+Price-blocked compounders to revisit on pullbacks (G5 ceiling): PANW ~$119, FTNT ~$80, CRWD ~$51, REGN ~$617, ISRG ~$339, PLTR ~$152, NVT ~$111. Fintech stays under FT (no change from rev 4): MA alert; TOST unresolved (FTC) and PH-impaired.
 
 ## Evidence — PR #4 (merged): Oct 2 rev-3 targeted re-screen and March contest research
 
