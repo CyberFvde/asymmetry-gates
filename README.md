@@ -3,7 +3,7 @@
 Rules-based equity screen (A–E core, F signal sleeve, G compounders, H early transitions, stricter FT and price-health PH overlays) packaged as an Agent Skill.
 Source of truth for the rules, the roster and the #15 kill triggers. Keep this repo private — the roster is a position book.
 
-The Oct 2, 2026 revisions add an evidenced compounder route, a small funded/milestone-based early route with a fixed quality deadline, tougher fintech standards, and a price-health check that makes stale ATHs with prolonged relative weakness affect capital eligibility. They retain the first calibration's capped near-passes and material-miss rules for eligible names. See the adopted entries in `references/changelog.md` inside the skill. The roster remains historical until re-screened with current data.
+The Oct 2, 2026 revisions add an evidenced compounder route, a small funded/milestone-based early route with a fixed quality deadline, tougher fintech standards, and a price-health check that makes stale ATHs with prolonged relative weakness affect capital eligibility. They retain the first calibration's capped near-passes and material-miss rules for eligible names. See the adopted entries in `references/changelog.md` inside the skill. The roster now separates an Oct 2 targeted re-screen from historical Sep 28 entries. The [March contest research board](docs/research/2026-10-02-march-contest/README.md) keeps speculative contest seeds and option sensitivities separate from skill capital qualification.
 
 ## Layout
 

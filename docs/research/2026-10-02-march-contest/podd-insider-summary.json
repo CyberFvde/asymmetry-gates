@@ -1,0 +1,65 @@
+{
+  "window": "transaction dates 2025-10-03 to2026-10-02",
+  "filing_count": 46,
+  "missing_count": 0,
+  "gross_S_shares": 2269.0,
+  "gross_P_shares": 14632.0,
+  "net_S_shares": -12363.0,
+  "shares_outstanding_m": 69.351014,
+  "net_sales_pct": -0.017826704019064523,
+  "duplicates": [],
+  "nonplan_officer_sales": [],
+  "nonplan_all_sales": [
+    {
+      "owners": [
+        {
+          "name": "BORIO LUCIANA",
+          "officer": "",
+          "title": "",
+          "director": "1"
+        }
+      ],
+      "trade": {
+        "date": "2026-06-03",
+        "code": "S",
+        "security": "Common Stock",
+        "shares": "418",
+        "price": "143.27",
+        "after": "4329",
+        "ownership": "D",
+        "footnotes": {},
+        "all_filing_footnotes": {},
+        "table": "nonDerivativeTable"
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000142/form4.xml"
+    },
+    {
+      "owners": [
+        {
+          "name": "Frederick Wayne A.I.",
+          "officer": "",
+          "title": "",
+          "director": "1"
+        }
+      ],
+      "trade": {
+        "date": "2025-12-15",
+        "code": "S",
+        "security": "Common Stock",
+        "shares": "1851",
+        "price": "293.09",
+        "after": "2158",
+        "ownership": "D",
+        "footnotes": {},
+        "all_filing_footnotes": {},
+        "table": "nonDerivativeTable"
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519725000074/form4.xml"
+    }
+  ],
+  "officer_market_sales_count": 0,
+  "derivative_SP_count": 0,
+  "mandatory_sell_to_cover_exemptions_used": 0,
+  "form4_amendment_note": "Huffines July7 4/A corrects deferred director unit grant, no S/P trades; no duplicate market rows",
+  "filings_index_coverage": "SEC recent filing list spans2015-08-10 to2026-10-02; all46 in-window4/4A covered"
+}

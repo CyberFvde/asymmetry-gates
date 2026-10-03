@@ -1,4 +1,78 @@
-# Roster — Sep 28, 2026
+# Roster — Oct 2, 2026 (revision 3 targeted re-screen; March contest research)
+
+## Fresh scope, framework and capital verdict
+
+Rules: Oct 2 revision 3 from merged main **59e1060**; G/H and FT supporting files are revision 2. No rule or cap changes in this screen. Quotes: Oct 2 completed regular session. Research includes cyber/health, defense/space, grid/power/platforms/automation/quantum, targeted finance triage, and specifically VST/AMZN/ORCL. **63 US full daily price histories were computed, which is not 63 complete financial-gate audits.** Detailed filings/models are linked below; foreign PH and many annual-insider/consensus/maximum-dilution checks remain incomplete.
+
+**No completely verified fresh investable ranking is established in this research batch.** Conditional/watch entries allow zero new capital under the stock skill; missing evidence is not a permanent structural rejection. The separate contest board is a speculative paper ranking under the user's new YOLO brief, with options/leverage allowed and a March end. It is not an actual holding, an authorization to trade, a G/H pass or a waiver of this book's caps. Model end date is March 31, 2027, pending the exact contest day and rules.
+
+Source limitations: Capital IQ unavailable; Massive requires reauthentication. Public issuer/SEC filings, designated StockAnalysis, flagged MarketScreener cash forecasts, Yahoo daily history and delayed Cboe option snapshots were used. The [research package](../../../../docs/research/2026-10-02-march-contest/README.md) contains primary links, assumptions, PH results, complete PODD insider follow-up, per-share scenario inputs and reproducible March call marks. The unmerged same-day [PR 3](https://github.com/CyberFvde/asymmetry-gates/pull/3) is additional evidence, not an adopted verdict; reconcile overlapping rosters before merging both.
+
+## Closest operating candidates — unresolved rather than funded
+
+| Name / Oct 2 close | Route and determining evidence | Numeric next step / catalyst |
+|---|---|---|
+| **PODD / Insulet — $131.69** | Conditional A–E / G-watch. P/E 19.09 / PEG .96, 3Y growth 16.15%; actual FCF $293.7M / 9.62%. Full 46 Form 4 / 4A review passes: S 2,269 / P 14,632; net buy 12,363; zero officer S. Raw blended NTM FCF $469.75M yields 5.145%, but capex consensus contradicts current management guidance; fallback yields 4.814–4.115%. Exact NTM GM is missing. PH age test clear despite 62.7% drawdown / weak trend. | #12-only cash ceilings $126.76 (FY26 fallback/FY27 blend) or $108.35 (whole-NTM fallback), versus raw $135.47; none is a full entry ceiling. At $9.13B, need FCF ≥ $456.5M and exact NTM GM ≥ FY25 71.63%. Nov 4 print / #19 re-test. Full [audit](../../../../docs/research/2026-10-02-march-contest/PODD_audit.md). |
+| **LLY / Eli Lilly — $1,142.85** | Conditional ballast, not funded. P/E 27.41 / PEG 1.27; 3Y growth 20.49%; blended NTM FCF $28.809B. PT +16.27% / FCF yield ~2.83% fail #12. Complete 126 insider filings: 3.165M net sales / .3551%, officer sales plan-flagged. Full maximum deal/legal claims and remaining A proof still open. | All-A verification and slot/headroom before ballast. PT ≥ 20% or FCF yield ≥ 5% would cure #12 on the same price/forecast basis. Dec 7 meeting; Q1 '27 BLA submission is not approval. |
+| **HWM / Howmet — $231.27** | Unresolved #14a starter / G-watch. P/E 39.65 inside the single-component 40 band; PEG 1.31; 3Y growth 15.85%. This batch has not independently closed the additional annual/legal/#19/NTM margin claims made in PR 3. | Same-EPS P/E 40 ceiling ~$233.31; core P/E 35 ~$204.15. Do not call funded until every other gate / #15 / cap is verified. Oct 29 issuer print. |
+| **NVT / nVent — $169.56** | G-watch. Real FCF $577.7M / 11.95%; Maverick cash $1.75B + max earnout $.55B means ~$3.68B pro forma net debt before target cash / other changes. Annual selling / full-share / organic cash-model proof open. It is electrical infrastructure, not cyber. | Combined NTM FCF ≥ $1.472B for 2.5×. Own incomplete G5 ceiling ~$131.75; no approved entry. Expected Q4 close; data-center factor overlap. |
+| **SYM / Symbotic — $43.28** | G-watch. Actual FCF $795.43M, but deposits/advance cash, future FCF, Up-C/deal/ordinary dilution and EPS basis unresolved. Use 604.8M economic shares, not 129.87M listed class. | 77 deploying systems/Q4 revenue $760–780M guide: verify acceptance/cash conversion and fresh FY27 forecast. May call snapshot thin; shares used in research. |
+| **ENR / Siemens Energy — €145.42** | G-watch / PH-unverified. TTM FCF €7.79B includes advance-cash effects; finished FY26 forecast is not NTM. Full local history/insiders and normalized valuation open. | NTM FCF ≥ €7.011B for G's 90% floor; provisional G5 ceiling €120.86. Nov 11 issuer FY26 call; watch FY27 guidance. EUR model, no USD conversion. |
+
+## Cybersecurity — strong demand does not erase entry valuation
+
+**PANW $403.24 / CRWD $270.04 / FTNT $180.95:** G-watch, not funded. Governing P/E / PEG 94.60 / 5.04, 191.45 / 6.53, 50.92 / 3.08 respectively. PANW actual company FCF $4.113B differs from adjusted $4.414B; acquisition/organic dilution and 24-month per-share recovery need reconciliation. CRWD ordinary share basis and G5 support remain open. FTNT 3Y growth 13.99% plus multiple failures cannot combine #14 bands. All have recent closing ATHs, so no stale-high block; that does not establish a G pass.
+
+**ZS $196.60:** G-watch / PH-impaired, ordinary dilution unresolved. **TENB $36.85:** current growth fails G/core; PH-impaired with technical recovery candidate. QLYS/CHKP growth and waiver EPS fail. OKTA's old-high warning does not itself bar a full future G qualification. See route details in [cyber/health research](../../../../docs/research/2026-10-02-march-contest/cyber_health.md).
+
+## Space / early transitions — funding and dilution remain binding
+
+- **RKLB $73.92 — H-watch:** achieved Electron launches, Q2 revenue $234.1M +62%/backlog $2.36B and Sept 30 20-launch contract. Q4 Neutron **pad delivery**, not confirmed successful flight. Sept ATM $1.944B gross/29.3M shares; Iridium cash leg ~$2.861B/retained $1.775B guaranteed loan; $3.6B bridge canceled. Illustrative residual cash $1.213B vs incomplete 24-month buffered burn $.938B, before omitted fees/obligations/integration. Known Beck sales~5.776M exceed .5% using~668M shares before unknown purchase offsets / full audit. No full H3/H4/share ceilings.
+- **ASTS $58.45 — H-watch:** Q2 revenue $31.5M / service $7.092M; deployment/service economics not yet full scale. June unrestricted $2.288B + July gross convert $1.15B = $3.438B before fees/burn; illustrative 24-month stressed use $5.522B leaves ~$2.084B gap requiring slower buildout / firm receipts reconciliation. Restricted cash excluded; full converts / quality clock open.
+- **PL $17.50 — H/G-watch:** Q2 revenue $116.1M +58%,RPO $753.1M vs backlog $814.9M; six-month skill FCF $23.732M. ATM/ordinary dilution, forward cash and fixed H/G quality model unresolved; no automatic pass from headline positive cash.
+- **AVAV $140.82 / KTOS $43.07 / RDW $10.88 — H-watch:** real production/contracts; actual cash losses, complete funding/quality/share/governance proof unfinished. Shared IDIQ ceiling is not funded revenue.
+- **IONQ $43.77 / RGTI $15.25 / QBTS $15.77 — H-watch:** achieved products / commercial orders exist, but full stressed funding, conditional government cash, maximum shares and fixed quality path incomplete. IONQ latest FY26 guide $450–460M includes SkyWater; no Superion delivery by March confirmed. RGTI C-DAC H2 target; QBTS simulator beta achieved/Oct 28 conference confirmed, neither proves fault-tolerant hardware.
+- **GPCR $27.67 / VKTX $29.94 — out of H on H1:** clinical success/liquidity are not realized sales / binding commercial demand. GPCR Q4 readouts fit contest; Phase 3 topline 2H 2028 does not. VKTX Phase 3 initiation is not a promised March result.
+
+These are incomplete route reviews, not a claim that no company could eventually qualify. Full source/funding/dilution math is in the sector reports. No H entry clock/checkpoint/share limit is invented to create a pass.
+
+## Explicit requested platform/power names and finance
+
+- **VST $140.02 — F-watch, zero skill capital.** Several vendor F1 ratios clear, but verified Burke buying totals ~$1.173M / < 1% of holdings, below $2M AND 5%; complete 90-day buyer / F1 / F3 audit still open. Sep 2 Form 4 is the Oct 2 recency boundary, not the transaction-date anchor. Cogentrix/Meta/Helix add AI factor overlap. F only; no G/H bypass.
+- **AMZN $251.52 — A/G-out:** TTM OCF $161.403B minus gross cash PP&E $173.028B gives **−$11.625B**; issuer-reported−$7.604B nets disposal/incentives. Same floor failure. Mature AWS/retail cannot use H; material AI-capex overlap.
+- **ORCL $142.30 — A/G-out:** actual TTM FCF**−$28.720B**, plus $20B current ATM. Mature cloud/software cannot use H to escape its cash floor.
+- **FT triage:** MA/TW/FUTU 3Y growth fails FT's 15% test; COIN standard/waiver growth + valuation fail; HOOD June convert fails A1. MELI/SE/SCHW/KSPI/XYZ normalized cash / resilience reviews incomplete; label actual missing evidence rather than sector dislike. TOST/PDD/GLBE independently PH-impaired. See [finance triage](../../../../docs/research/2026-10-02-march-contest/fintech.md).
+- **Prior queue:** ALGN current growth + PH fails;RMD growth fails / PH warning;REGN/ISRG G-watch;SYK growth fails;STMN foreign PH / local disclosures unverified. RHM negative H1 cash alone does not prove TTM failure; KOG requires Maritime distribution-adjusted history;PRX updated organic/cash/local audit not completed here. No old blackout/out label automatically carried forward as a new verdict. CCJ/CEG retain F multiple/cash/issuance failures; WWD NTM FY27 cash not verified; completed FY26 cannot masquerade as NTM.
+
+## PH — full history and recovery context
+
+US benchmark fixed before outcomes: **S&P 500 Total Return**, +87.315% from Oct 2 '23 to Oct 2 '26. Drawdown/ATH/200DMA use split-adjusted close; stock relative returns use dividend-adjusted close on identical dates. SPAC shell excluded at combination date. Foreign local/distribution series remain unverified, including KOG's April Maritime distribution. Full results/source URLs in [PH JSON](../../../../docs/research/2026-10-02-march-contest/price_health_results.json).
+
+| Name | Closing ATH / age | DD / three-year gap | Trend and capital overlay |
+|---|---|---|---|
+| **ALGN $143.74** | $729.92 Sep 8 '21 / 5.065 years | −80.307% /−139.363 pp | 200DMA 170.3117 < 170.4162 twenty sessions earlier; 0 closes above. **PH-impaired**, zero new capital. |
+| **ZS $196.60** | $368.78 Nov 19 '21 / 4.868 years | −46.689% /−65.120 pp | 15 closes above;200DMA 166.4215 < 173.078;6-month gap+23.917 pp. No recovery. |
+| **TOST $29.79** | $65.22 Nov 2 '21 / 4.915 years | −54.324% /−24.706 pp | 1 close above, average falling,6-month gap−5.429 pp. PH-impaired. |
+| **TENB $36.85** | $62.66 Apr 13 '22 / 4.471 years | −41.191% /−106.628 pp | 89 closes above, rising 200DMA,6-month gap+91.642 pp: technical recovery candidate; latest full financial route fails growth, so still unfunded. |
+
+Also impaired: GLBE, PDD, ALT. Warning-only RMD(DD26.389%)and OKTA(27.517%); SE/KTOS/XYZ three-year relative condition does not meet impairment. Recovery requires 20 consecutive closes above the contemporaneous 200DMA,rising DMA vs 20 sessions ago,6-month relative ≥ 0 **and fully qualified latest print**. All four, followed by the next clean print for normal sizing. Large current drawdowns in PODD/RKLB/ASTS/PL/AVAV/SYM/quantum are visible; young ATH means the age conjunction fails, not that trend/financial quality passes.
+
+## Contest-only ranking and paper allocation
+
+**Seeds:** 1 GPCR, 2 RKLB, 3 PODD, 4 PL, 5 ASTS, 6 AVAV, 7 SYM, 8 RGTI, 9 IONQ, 10 QBTS, 11 LLY, 12 ENR. **Final Four: GPCR/RKLB/PODD/PL.** Subjective research judgment, not a probability forecast. ZS stays on turnaround watch in deference toPH; VST/NVT/KTOS/RDW/VKTXreserves. Expensive cyber and negative-cash AI platforms are outside. No forced 25.
+
+Paper 100 cash units: 25% GPCR shares,20% PODD shares,10% ASTS shares,25% RKLB270416C00080000premium, 15% PL270416C00020000premium, 5% QBTS270416C00020000premium. Ask inputs15.40 / 3.40 / 2.42, standard 100-share multiplier assumed; delayed Cboe / whole-contract sizing requires refresh. **45% cash premium, ~1.81× initial delta-equivalent exposure**, no borrowed margin modeled. March 31 own price/IV stress theoretical returns−66.2 / −29.9/+179.2%; identical cash weights in all shares−46.3 / +12.0 / +92.1%. Complete assumptions/source quotes in the research package. This is outside skill funding/caps, no actual position or optimality claim. A 100% loss tail remains.
+
+## What changed at this re-test
+
+- Separated the new contest objective from unchanged stock-skill capital gates/caps; twelve dated research seeds instead of inventing 25 qualifiers.
+- Finished PODD 46-filing insider audit: passes. Found capex forecast conflict and missing true NTM GM; did not promote provisional core from the raw 5.145% yield. Recorded conservative cash ceilings and next print.
+- Verified AMZN gross cash PP&E definition,ORCL negative FCF / ATM,VST subthreshold insider signal,NVT maximum deal exposure,and current RKLB financing. No mature H relabeling or canceled bridge counted.
+- Computed full US PH for 63 names; ALGN clearly impaired; TENB technical recovery context preserved without waiving growth. Foreign PH remains open.
+- Used delayed actual Cboe chains for ask-priced April calls and March theoretical marks, not expired March 19 contracts or fictitious premiums. Rejected below-intrinsic mark haircut; contract liquidity / close mismatches disclosed.
+- Preserved historical Sep 28 book below. PR 3 wider claims are unmerged/background evidence; no blanket adoption or overwrite of unrelated research. No changes to framework/stage/FT/PH/changelog/triggers rules; proposed paper checkpoints live in the research package.
+
+## Historical roster — Sep 28, 2026
 
 Historical screen snapshot under the Sep 11 framework. The Oct 2 revisions change A7, #9, #13–#19 and add G/H/FT/PH routing; the statuses, price triggers and rankings below have not been re-screened against them. Do not infer current capital eligibility from this snapshot, including entries labeled core with unresolved verification items. Preserve this evidence date until a fresh screen updates the book.
 
