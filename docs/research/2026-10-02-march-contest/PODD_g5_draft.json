@@ -1,0 +1,201 @@
+{
+  "ticker": "PODD",
+  "classification": "Illustrative G5 draft; G-watch, not qualification",
+  "convention": "Ex-cash equity P/FCF on levered company FCF; remaining note interest stays in OCF; add retained cash, no dividends; repay $510.7M before maturity and reserve $97M guarantee; do not additionally subtract debt already embedded in levered cash valuation",
+  "missing": [
+    "own five-year median and peer ex-cash P/FCF validation",
+    "exact seasonal forward cash estimates",
+    "legal maximum loss and portfolio headroom"
+  ],
+  "scenarios": [
+    {
+      "case": "bear",
+      "revenue_growth": 0.08,
+      "terminal_fcf_margin": 0.1,
+      "terminal_ex_cash_equity_p_fcf": 12,
+      "ordinary_share_growth": 0.005,
+      "yearly": [
+        {
+          "year": 1,
+          "revenue_m": 3629.75,
+          "company_fcf_m": 362.975,
+          "cash_ppe_m": 181.4875,
+          "ocf_m": 544.4625000000001,
+          "diluted_shares_m": 70.93088999999999,
+          "fcf_per_share": 5.117305027471107
+        },
+        {
+          "year": 2,
+          "revenue_m": 3920.13,
+          "company_fcf_m": 392.01300000000003,
+          "cash_ppe_m": 196.00650000000002,
+          "ocf_m": 588.0195000000001,
+          "diluted_shares_m": 71.28554444999999,
+          "fcf_per_share": 5.4991934623570105
+        },
+        {
+          "year": 3,
+          "revenue_m": 4233.740400000001,
+          "company_fcf_m": 423.3740400000001,
+          "cash_ppe_m": 211.68702000000005,
+          "ocf_m": 635.0610600000001,
+          "diluted_shares_m": 71.64197217224998,
+          "fcf_per_share": 5.9095810341747
+        },
+        {
+          "year": 4,
+          "revenue_m": 4572.4396320000005,
+          "company_fcf_m": 457.24396320000005,
+          "cash_ppe_m": 228.62198160000003,
+          "ocf_m": 685.8659448000001,
+          "diluted_shares_m": 72.00018203311122,
+          "fcf_per_share": 6.350594544187738
+        },
+        {
+          "year": 5,
+          "revenue_m": 4938.234802560001,
+          "company_fcf_m": 493.82348025600015,
+          "cash_ppe_m": 246.91174012800008,
+          "ocf_m": 740.7352203840003,
+          "diluted_shares_m": 72.36018294327677,
+          "fcf_per_share": 6.824519510171899
+        }
+      ],
+      "terminal_revenue_m": 5333.293586764802,
+      "terminal_fcf_m": 533.3293586764802,
+      "terminal_shares_m": 72.36018294327677,
+      "terminal_debt_m": 450,
+      "terminal_cash_m": 2056.629483456001,
+      "terminal_value": 116.86788843807771,
+      "annualized_return": -0.023598405583691084,
+      "three_year_fcf_share_cagr": 0.074626865671642
+    },
+    {
+      "case": "base",
+      "revenue_growth": 0.14,
+      "terminal_fcf_margin": 0.145,
+      "terminal_ex_cash_equity_p_fcf": 20,
+      "ordinary_share_growth": 0.005,
+      "yearly": [
+        {
+          "year": 1,
+          "revenue_m": 3629.75,
+          "company_fcf_m": 479.127,
+          "cash_ppe_m": 181.4875,
+          "ocf_m": 660.6145,
+          "diluted_shares_m": 70.93088999999999,
+          "fcf_per_share": 6.754842636261861
+        },
+        {
+          "year": 2,
+          "revenue_m": 4137.915000000001,
+          "company_fcf_m": 559.6530037500002,
+          "cash_ppe_m": 206.89575000000005,
+          "ocf_m": 766.5487537500002,
+          "diluted_shares_m": 71.28554444999999,
+          "fcf_per_share": 7.850862444384406
+        },
+        {
+          "year": 3,
+          "revenue_m": 4717.223100000001,
+          "company_fcf_m": 653.3353993500002,
+          "cash_ppe_m": 235.86115500000005,
+          "ocf_m": 889.1965543500003,
+          "diluted_shares_m": 71.64197217224998,
+          "fcf_per_share": 9.119450226456289
+        },
+        {
+          "year": 4,
+          "revenue_m": 5377.634334000001,
+          "company_fcf_m": 762.2796668445001,
+          "cash_ppe_m": 268.8817167000001,
+          "ocf_m": 1031.1613835445,
+          "diluted_shares_m": 72.00018203311122,
+          "fcf_per_share": 10.58719082812798
+        },
+        {
+          "year": 5,
+          "revenue_m": 6130.503140760003,
+          "company_fcf_m": 888.9229554102003,
+          "cash_ppe_m": 306.52515703800015,
+          "ocf_m": 1195.4481124482004,
+          "diluted_shares_m": 72.36018294327677,
+          "fcf_per_share": 12.284697457260826
+        }
+      ],
+      "terminal_revenue_m": 6988.7735804664035,
+      "terminal_fcf_m": 1013.3721691676284,
+      "terminal_shares_m": 72.36018294327677,
+      "terminal_debt_m": 450,
+      "terminal_cash_m": 3270.518025354701,
+      "terminal_value": 325.28885985761957,
+      "annualized_return": 0.19823852468623393,
+      "three_year_fcf_share_cagr": 0.16159616186403913
+    },
+    {
+      "case": "bull",
+      "revenue_growth": 0.17,
+      "terminal_fcf_margin": 0.17,
+      "terminal_ex_cash_equity_p_fcf": 25,
+      "ordinary_share_growth": 0.005,
+      "yearly": [
+        {
+          "year": 1,
+          "revenue_m": 3629.75,
+          "company_fcf_m": 617.0575,
+          "cash_ppe_m": 181.4875,
+          "ocf_m": 798.5450000000001,
+          "diluted_shares_m": 70.93088999999999,
+          "fcf_per_share": 8.699418546700882
+        },
+        {
+          "year": 2,
+          "revenue_m": 4246.8075,
+          "company_fcf_m": 721.957275,
+          "cash_ppe_m": 212.340375,
+          "ocf_m": 934.29765,
+          "diluted_shares_m": 71.28554444999999,
+          "fcf_per_share": 10.12768129317416
+        },
+        {
+          "year": 3,
+          "revenue_m": 4968.764775,
+          "company_fcf_m": 844.69001175,
+          "cash_ppe_m": 248.43823874999998,
+          "ocf_m": 1093.1282505,
+          "diluted_shares_m": 71.64197217224998,
+          "fcf_per_share": 11.790434938322159
+        },
+        {
+          "year": 4,
+          "revenue_m": 5813.454786749999,
+          "company_fcf_m": 988.2873137474999,
+          "cash_ppe_m": 290.67273933749993,
+          "ocf_m": 1278.9600530849998,
+          "diluted_shares_m": 72.00018203311122,
+          "fcf_per_share": 13.72617798789744
+        },
+        {
+          "year": 5,
+          "revenue_m": 6801.742100497498,
+          "company_fcf_m": 1156.2961570845746,
+          "cash_ppe_m": 340.0871050248749,
+          "ocf_m": 1496.3832621094496,
+          "diluted_shares_m": 72.36018294327677,
+          "fcf_per_share": 15.979729597850747
+        }
+      ],
+      "terminal_revenue_m": 7958.038257582072,
+      "terminal_fcf_m": 1352.8665037889523,
+      "terminal_shares_m": 72.36018294327677,
+      "terminal_debt_m": 450,
+      "terminal_cash_m": 4255.488257582075,
+      "terminal_value": 526.2168958604569,
+      "annualized_return": 0.3192357086551578,
+      "three_year_fcf_share_cagr": 0.16417910447761197
+    }
+  ],
+  "provisional_entry_ceiling": 184.57763494929713,
+  "cash_warning": "Current issuer capex-guidance conflict requires refreshing cashPP&E assumptions; provisional184.58ceiling is NOT an approved entry level",
+  "insider_audit_completed": true
+}

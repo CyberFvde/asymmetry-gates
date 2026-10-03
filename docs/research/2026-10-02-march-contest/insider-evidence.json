@@ -1,0 +1,5733 @@
+[
+  {
+    "ticker": "PODD",
+    "asof": "2026-10-02",
+    "transaction_window": [
+      "2025-10-03",
+      "2026-10-02"
+    ],
+    "filing_count": 46,
+    "errors": [],
+    "sales_shares": 2269.0,
+    "purchases_shares": 14632.0,
+    "net_sales_shares": -12363.0,
+    "filings": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000184/form4.xml",
+        "accession": "0001145197-26-000184",
+        "form": "4",
+        "filed": "2026-10-02",
+        "owners": [
+          {
+            "name": "MAZELSKY JONATHAN JAY",
+            "officer": "",
+            "title": "",
+            "director": "1"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000183/form4.xml",
+        "accession": "0001145197-26-000183",
+        "form": "4",
+        "filed": "2026-10-02",
+        "owners": [
+          {
+            "name": "Huffines Robert Luther",
+            "officer": "",
+            "title": "",
+            "director": "1"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000172/form4.xml",
+        "accession": "0001145197-26-000172",
+        "form": "4",
+        "filed": "2026-08-24",
+        "owners": [
+          {
+            "name": "McEvoy Ashley",
+            "officer": "1",
+            "title": "President and CEO",
+            "director": "1"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2026-08-21",
+            "code": "P",
+            "security": "Common Stock",
+            "shares": "1100",
+            "price": "147.47",
+            "after": "23731",
+            "ownership": "D",
+            "table": "nonDerivativeTable"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000165/form4.xml",
+        "accession": "0001145197-26-000165",
+        "form": "4",
+        "filed": "2026-08-04",
+        "owners": [
+          {
+            "name": "Davis Lisa Blair",
+            "officer": "1",
+            "title": "SVP, Chief HR Officer",
+            "director": ""
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000159/form4a.xml",
+        "accession": "0001145197-26-000159",
+        "form": "4/A",
+        "filed": "2026-07-07",
+        "owners": [
+          {
+            "name": "Huffines Robert Luther",
+            "officer": "",
+            "title": "",
+            "director": "1"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000155/form4.xml",
+        "accession": "0001145197-26-000155",
+        "form": "4",
+        "filed": "2026-07-02",
+        "owners": [
+          {
+            "name": "MAZELSKY JONATHAN JAY",
+            "officer": "",
+            "title": "",
+            "director": "1"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000153/form4.xml",
+        "accession": "0001145197-26-000153",
+        "form": "4",
+        "filed": "2026-07-02",
+        "owners": [
+          {
+            "name": "Huffines Robert Luther",
+            "officer": "",
+            "title": "",
+            "director": "1"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000143/form4.xml",
+        "accession": "0001145197-26-000143",
+        "form": "4",
+        "filed": "2026-06-04",
+        "owners": [
+          {
+            "name": "STONESIFER TIMOTHY C.",
+            "officer": "",
+            "title": "",
+            "director": "1"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2026-06-03",
+            "code": "P",
+            "security": "Common Stock",
+            "shares": "2790",
+            "price": "143.51",
+            "after": "9041",
+            "ownership": "D",
+            "table": "nonDerivativeTable"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000142/form4.xml",
+        "accession": "0001145197-26-000142",
+        "form": "4",
+        "filed": "2026-06-04",
+        "owners": [
+          {
+            "name": "BORIO LUCIANA",
+            "officer": "",
+            "title": "",
+            "director": "1"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2026-06-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "418",
+            "price": "143.27",
+            "after": "4329",
+            "ownership": "D",
+            "table": "nonDerivativeTable"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000138/form4.xml",
+        "accession": "0001145197-26-000138",
+        "form": "4",
+        "filed": "2026-06-03",
+        "owners": [
+          {
+            "name": "WEATHERMAN ELIZABETH H",
+            "officer": "",
+            "title": "",
+            "director": "1"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2026-06-03",
+            "code": "P",
+            "security": "Common Stock",
+            "shares": "3450",
+            "price": "144.20",
+            "after": "10352",
+            "ownership": "D",
+            "table": "nonDerivativeTable"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000129/form4.xml",
+        "accession": "0001145197-26-000129",
+        "form": "4",
+        "filed": "2026-05-21",
+        "owners": [
+          {
+            "name": "WEATHERMAN ELIZABETH H",
+            "officer": "",
+            "title": "",
+            "director": "1"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000128/form4.xml",
+        "accession": "0001145197-26-000128",
+        "form": "4",
+        "filed": "2026-05-21",
+        "owners": [
+          {
+            "name": "STONESIFER TIMOTHY C.",
+            "officer": "",
+            "title": "",
+            "director": "1"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000127/form4.xml",
+        "accession": "0001145197-26-000127",
+        "form": "4",
+        "filed": "2026-05-21",
+        "owners": [
+          {
+            "name": "Scannell Timothy J",
+            "officer": "",
+            "title": "",
+            "director": "1"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000126/form4.xml",
+        "accession": "0001145197-26-000126",
+        "form": "4",
+        "filed": "2026-05-21",
+        "owners": [
+          {
+            "name": "MINOGUE MICHAEL R",
+            "officer": "",
+            "title": "",
+            "director": "1"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000125/form4.xml",
+        "accession": "0001145197-26-000125",
+        "form": "4",
+        "filed": "2026-05-21",
+        "owners": [
+          {
+            "name": "Huffines Robert Luther",
+            "officer": "",
+            "title": "",
+            "director": "1"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000124/form4.xml",
+        "accession": "0001145197-26-000124",
+        "form": "4",
+        "filed": "2026-05-21",
+        "owners": [
+          {
+            "name": "Hopfield Jessica",
+            "officer": "",
+            "title": "",
+            "director": "1"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000123/form4.xml",
+        "accession": "0001145197-26-000123",
+        "form": "4",
+        "filed": "2026-05-21",
+        "owners": [
+          {
+            "name": "Frederick Wayne A.I.",
+            "officer": "",
+            "title": "",
+            "director": "1"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000122/form4.xml",
+        "accession": "0001145197-26-000122",
+        "form": "4",
+        "filed": "2026-05-21",
+        "owners": [
+          {
+            "name": "BORIO LUCIANA",
+            "officer": "",
+            "title": "",
+            "director": "1"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000105/form4.xml",
+        "accession": "0001145197-26-000105",
+        "form": "4",
+        "filed": "2026-05-15",
+        "owners": [
+          {
+            "name": "McEvoy Ashley",
+            "officer": "1",
+            "title": "President and CEO",
+            "director": "1"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000093/form4.xml",
+        "accession": "0001145197-26-000093",
+        "form": "4",
+        "filed": "2026-04-02",
+        "owners": [
+          {
+            "name": "Panos Michael",
+            "officer": "1",
+            "title": "EVP and CCO",
+            "director": ""
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000091/form4.xml",
+        "accession": "0001145197-26-000091",
+        "form": "4",
+        "filed": "2026-04-02",
+        "owners": [
+          {
+            "name": "Huffines Robert Luther",
+            "officer": "",
+            "title": "",
+            "director": "1"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000075/form4.xml",
+        "accession": "0001145197-26-000075",
+        "form": "4",
+        "filed": "2026-03-03",
+        "owners": [
+          {
+            "name": "Singh Prem",
+            "officer": "1",
+            "title": "SVP, Global Operations",
+            "director": ""
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000074/form4.xml",
+        "accession": "0001145197-26-000074",
+        "form": "4",
+        "filed": "2026-03-03",
+        "owners": [
+          {
+            "name": "Cousin Laetitia",
+            "officer": "1",
+            "title": "SVP, Reg, Quality & Compliance",
+            "director": ""
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000073/form4.xml",
+        "accession": "0001145197-26-000073",
+        "form": "4",
+        "filed": "2026-03-03",
+        "owners": [
+          {
+            "name": "Budden Lauren",
+            "officer": "1",
+            "title": "Group VP, CAO and Controller",
+            "director": ""
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000072/form4.xml",
+        "accession": "0001145197-26-000072",
+        "form": "4",
+        "filed": "2026-03-03",
+        "owners": [
+          {
+            "name": "Kapples John W.",
+            "officer": "1",
+            "title": "SVP and General Counsel",
+            "director": ""
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000071/form4.xml",
+        "accession": "0001145197-26-000071",
+        "form": "4",
+        "filed": "2026-03-03",
+        "owners": [
+          {
+            "name": "Benjamin Eric",
+            "officer": "1",
+            "title": "EVP and COO",
+            "director": ""
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000065/form4.xml",
+        "accession": "0001145197-26-000065",
+        "form": "4",
+        "filed": "2026-02-26",
+        "owners": [
+          {
+            "name": "Singh Prem",
+            "officer": "1",
+            "title": "SVP, Global Operations",
+            "director": ""
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000064/form4.xml",
+        "accession": "0001145197-26-000064",
+        "form": "4",
+        "filed": "2026-02-26",
+        "owners": [
+          {
+            "name": "Cousin Laetitia",
+            "officer": "1",
+            "title": "SVP, Reg, Quality & Compliance",
+            "director": ""
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000063/form4.xml",
+        "accession": "0001145197-26-000063",
+        "form": "4",
+        "filed": "2026-02-26",
+        "owners": [
+          {
+            "name": "Budden Lauren",
+            "officer": "1",
+            "title": "Group VP, CAO and Controller",
+            "director": ""
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000062/form4.xml",
+        "accession": "0001145197-26-000062",
+        "form": "4",
+        "filed": "2026-02-26",
+        "owners": [
+          {
+            "name": "Kapples John W.",
+            "officer": "1",
+            "title": "SVP and General Counsel",
+            "director": ""
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000061/form4.xml",
+        "accession": "0001145197-26-000061",
+        "form": "4",
+        "filed": "2026-02-26",
+        "owners": [
+          {
+            "name": "Benjamin Eric",
+            "officer": "1",
+            "title": "EVP and COO",
+            "director": ""
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000060/form4.xml",
+        "accession": "0001145197-26-000060",
+        "form": "4",
+        "filed": "2026-02-26",
+        "owners": [
+          {
+            "name": "Davis Lisa Blair",
+            "officer": "1",
+            "title": "SVP, Chief HR Officer",
+            "director": ""
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000059/form4.xml",
+        "accession": "0001145197-26-000059",
+        "form": "4",
+        "filed": "2026-02-26",
+        "owners": [
+          {
+            "name": "Pease Flavia",
+            "officer": "1",
+            "title": "EVP & CFO",
+            "director": ""
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000058/form4.xml",
+        "accession": "0001145197-26-000058",
+        "form": "4",
+        "filed": "2026-02-26",
+        "owners": [
+          {
+            "name": "McEvoy Ashley",
+            "officer": "1",
+            "title": "President and CEO",
+            "director": "1"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000044/form4.xml",
+        "accession": "0001145197-26-000044",
+        "form": "4",
+        "filed": "2026-02-26",
+        "owners": [
+          {
+            "name": "MINOGUE MICHAEL R",
+            "officer": "",
+            "title": "",
+            "director": "1"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2026-02-25",
+            "code": "P",
+            "security": "Common Stock",
+            "shares": "2030",
+            "price": "246.23",
+            "after": "17483",
+            "ownership": "I",
+            "table": "nonDerivativeTable"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000031/form4.xml",
+        "accession": "0001145197-26-000031",
+        "form": "4",
+        "filed": "2026-02-23",
+        "owners": [
+          {
+            "name": "McEvoy Ashley",
+            "officer": "1",
+            "title": "President and CEO",
+            "director": "1"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2026-02-20",
+            "code": "P",
+            "security": "Common Stock",
+            "shares": "4300",
+            "price": "239.35",
+            "after": "13916",
+            "ownership": "D",
+            "table": "nonDerivativeTable"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000024/form4.xml",
+        "accession": "0001145197-26-000024",
+        "form": "4",
+        "filed": "2026-02-17",
+        "owners": [
+          {
+            "name": "Singh Prem",
+            "officer": "1",
+            "title": "SVP, Global Operations",
+            "director": ""
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000023/form4.xml",
+        "accession": "0001145197-26-000023",
+        "form": "4",
+        "filed": "2026-02-17",
+        "owners": [
+          {
+            "name": "Kapples John W.",
+            "officer": "1",
+            "title": "SVP and General Counsel",
+            "director": ""
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000022/form4.xml",
+        "accession": "0001145197-26-000022",
+        "form": "4",
+        "filed": "2026-02-17",
+        "owners": [
+          {
+            "name": "Cousin Laetitia",
+            "officer": "1",
+            "title": "SVP, Reg, Quality & Compliance",
+            "director": ""
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000021/form4.xml",
+        "accession": "0001145197-26-000021",
+        "form": "4",
+        "filed": "2026-02-17",
+        "owners": [
+          {
+            "name": "Budden Lauren",
+            "officer": "1",
+            "title": "Group VP, CAO and Controller",
+            "director": ""
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000020/form4.xml",
+        "accession": "0001145197-26-000020",
+        "form": "4",
+        "filed": "2026-02-17",
+        "owners": [
+          {
+            "name": "Benjamin Eric",
+            "officer": "1",
+            "title": "EVP and COO",
+            "director": ""
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000005/form4.xml",
+        "accession": "0001145197-26-000005",
+        "form": "4",
+        "filed": "2026-01-06",
+        "owners": [
+          {
+            "name": "Cousin Laetitia",
+            "officer": "1",
+            "title": "SVP, Reg, Quality & Compliance",
+            "director": ""
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519726000004/form4.xml",
+        "accession": "0001145197-26-000004",
+        "form": "4",
+        "filed": "2026-01-06",
+        "owners": [
+          {
+            "name": "Huffines Robert Luther",
+            "officer": "",
+            "title": "",
+            "director": "1"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519725000074/form4.xml",
+        "accession": "0001145197-25-000074",
+        "form": "4",
+        "filed": "2025-12-16",
+        "owners": [
+          {
+            "name": "Frederick Wayne A.I.",
+            "officer": "",
+            "title": "",
+            "director": "1"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-12-15",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1851",
+            "price": "293.09",
+            "after": "2158",
+            "ownership": "D",
+            "table": "nonDerivativeTable"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519725000072/form4.xml",
+        "accession": "0001145197-25-000072",
+        "form": "4",
+        "filed": "2025-12-08",
+        "owners": [
+          {
+            "name": "STONESIFER TIMOTHY C.",
+            "officer": "",
+            "title": "",
+            "director": "1"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-12-05",
+            "code": "P",
+            "security": "Common Stock",
+            "shares": "962",
+            "price": "311.73",
+            "after": "4591",
+            "ownership": "D",
+            "table": "nonDerivativeTable"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1145197/000114519725000062/form4.xml",
+        "accession": "0001145197-25-000062",
+        "form": "4",
+        "filed": "2025-11-03",
+        "owners": [
+          {
+            "name": "Huffines Robert Luther",
+            "officer": "",
+            "title": "",
+            "director": "1"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      }
+    ]
+  },
+  {
+    "ticker": "LLY",
+    "asof": "2026-10-02",
+    "transaction_window": [
+      "2025-10-03",
+      "2026-10-02"
+    ],
+    "filing_count": 126,
+    "errors": [],
+    "sales_shares": 3165232.0,
+    "purchases_shares": 0,
+    "net_sales_shares": 3165232.0,
+    "filings": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000126238826000018/wk-form4_1790108122.xml",
+        "accession": "0001262388-26-000018",
+        "form": "4",
+        "filed": "2026-09-22",
+        "owners": [
+          {
+            "name": "Sulzberger Gabrielle",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000091/wk-form4_1790108065.xml",
+        "accession": "0000059478-26-000091",
+        "form": "4",
+        "filed": "2026-09-22",
+        "owners": [
+          {
+            "name": "LUCIANO JUAN R",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000089/wk-form4_1790107969.xml",
+        "accession": "0000059478-26-000089",
+        "form": "4",
+        "filed": "2026-09-22",
+        "owners": [
+          {
+            "name": "Fyrwald J Erik",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000131021526000017/wk-form4_1790107902.xml",
+        "accession": "0001310215-26-000017",
+        "form": "4",
+        "filed": "2026-09-22",
+        "owners": [
+          {
+            "name": "Alvarez Ralph",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000203208926000004/wk-form4_1789157763.xml",
+        "accession": "0002032089-26-000004",
+        "form": "4",
+        "filed": "2026-09-11",
+        "owners": [
+          {
+            "name": "Seymour Melissa",
+            "officer": "1",
+            "title": "EVP, Global Quality",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000186105226000006/wk-form4_1788553126.xml",
+        "accession": "0001861052-26-000006",
+        "form": "4",
+        "filed": "2026-09-04",
+        "owners": [
+          {
+            "name": "Hernandez Edgardo",
+            "officer": "1",
+            "title": "EVP & Pres., Mfg. Operations",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000195597226000008/wk-form4_1788553030.xml",
+        "accession": "0001955972-26-000008",
+        "form": "4",
+        "filed": "2026-09-04",
+        "owners": [
+          {
+            "name": "Dozier Eric",
+            "officer": "1",
+            "title": "EVP, Chief People Officer",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000126238826000016/wk-form4_1787084689.xml",
+        "accession": "0001262388-26-000016",
+        "form": "4",
+        "filed": "2026-08-18",
+        "owners": [
+          {
+            "name": "Sulzberger Gabrielle",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000087/wk-form4_1787084623.xml",
+        "accession": "0000059478-26-000087",
+        "form": "4",
+        "filed": "2026-08-18",
+        "owners": [
+          {
+            "name": "LUCIANO JUAN R",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000085/wk-form4_1787084560.xml",
+        "accession": "0000059478-26-000085",
+        "form": "4",
+        "filed": "2026-08-18",
+        "owners": [
+          {
+            "name": "Fyrwald J Erik",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000131021526000015/wk-form4_1787084504.xml",
+        "accession": "0001310215-26-000015",
+        "form": "4",
+        "filed": "2026-08-18",
+        "owners": [
+          {
+            "name": "Alvarez Ralph",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000178605426000006/wk-form4_1787084453.xml",
+        "accession": "0001786054-26-000006",
+        "form": "4",
+        "filed": "2026-08-18",
+        "owners": [
+          {
+            "name": "Jonsson Patrik",
+            "officer": "1",
+            "title": "EVP & President, LLY Int'l",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "1",
+        "market_transactions": [
+          {
+            "date": "2026-08-17",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "6500",
+            "price": "1175.10",
+            "after": "54146.62",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000083/wk-form4_1786480313.xml",
+        "accession": "0000059478-26-000083",
+        "form": "4",
+        "filed": "2026-08-11",
+        "owners": [
+          {
+            "name": "Zakrowski Donald A",
+            "officer": "1",
+            "title": "SVP, Finance, & CAO",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "1",
+        "market_transactions": [
+          {
+            "date": "2026-08-10",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2000",
+            "price": "1185.01",
+            "after": "1525.89",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000168555626000006/wk-form4_1786393159.xml",
+        "accession": "0001685556-26-000006",
+        "form": "4",
+        "filed": "2026-08-10",
+        "owners": [
+          {
+            "name": "Hakim Anat",
+            "officer": "1",
+            "title": "EVP, GC & Secretary",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "1",
+        "market_transactions": [
+          {
+            "date": "2026-08-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "5000",
+            "price": "1190",
+            "after": "11875",
+            "ownership": "I"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000203208926000002/wk-form4_1785789751.xml",
+        "accession": "0002032089-26-000002",
+        "form": "4",
+        "filed": "2026-08-03",
+        "owners": [
+          {
+            "name": "Seymour Melissa",
+            "officer": "1",
+            "title": "EVP, Global Quality",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000126238826000014/wk-form4_1784666431.xml",
+        "accession": "0001262388-26-000014",
+        "form": "4",
+        "filed": "2026-07-21",
+        "owners": [
+          {
+            "name": "Sulzberger Gabrielle",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000068/wk-form4_1784666385.xml",
+        "accession": "0000059478-26-000068",
+        "form": "4",
+        "filed": "2026-07-21",
+        "owners": [
+          {
+            "name": "LUCIANO JUAN R",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000066/wk-form4_1784666337.xml",
+        "accession": "0000059478-26-000066",
+        "form": "4",
+        "filed": "2026-07-21",
+        "owners": [
+          {
+            "name": "Fyrwald J Erik",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000131021526000013/wk-form4_1784666268.xml",
+        "accession": "0001310215-26-000013",
+        "form": "4",
+        "filed": "2026-07-21",
+        "owners": [
+          {
+            "name": "Alvarez Ralph",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000126238826000012/wk-form4_1781641539.xml",
+        "accession": "0001262388-26-000012",
+        "form": "4",
+        "filed": "2026-06-16",
+        "owners": [
+          {
+            "name": "Sulzberger Gabrielle",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000059/wk-form4_1781641479.xml",
+        "accession": "0000059478-26-000059",
+        "form": "4",
+        "filed": "2026-06-16",
+        "owners": [
+          {
+            "name": "LUCIANO JUAN R",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000057/wk-form4_1781640856.xml",
+        "accession": "0000059478-26-000057",
+        "form": "4",
+        "filed": "2026-06-16",
+        "owners": [
+          {
+            "name": "Fyrwald J Erik",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000131021526000011/wk-form4_1781640779.xml",
+        "accession": "0001310215-26-000011",
+        "form": "4",
+        "filed": "2026-06-16",
+        "owners": [
+          {
+            "name": "Alvarez Ralph",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000182600126000006/wk-form4_1781209410.xml",
+        "accession": "0001826001-26-000006",
+        "form": "4",
+        "filed": "2026-06-11",
+        "owners": [
+          {
+            "name": "Yuffa Ilya",
+            "officer": "1",
+            "title": "EVP&Pres, LLY USA&Global Capab",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "1",
+        "market_transactions": [
+          {
+            "date": "2026-06-10",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2500",
+            "price": "1150.77",
+            "after": "29804.111",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000126238826000010/wk-form4_1779221994.xml",
+        "accession": "0001262388-26-000010",
+        "form": "4",
+        "filed": "2026-05-19",
+        "owners": [
+          {
+            "name": "Sulzberger Gabrielle",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000055/wk-form4_1779221928.xml",
+        "accession": "0000059478-26-000055",
+        "form": "4",
+        "filed": "2026-05-19",
+        "owners": [
+          {
+            "name": "LUCIANO JUAN R",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000053/wk-form4_1779221866.xml",
+        "accession": "0000059478-26-000053",
+        "form": "4",
+        "filed": "2026-05-19",
+        "owners": [
+          {
+            "name": "Fyrwald J Erik",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000131021526000008/wk-form4_1779221785.xml",
+        "accession": "0001310215-26-000008",
+        "form": "4",
+        "filed": "2026-05-19",
+        "owners": [
+          {
+            "name": "Alvarez Ralph",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601126000015/form4-05072026_040501.xml",
+        "accession": "0000316011-26-000015",
+        "form": "4",
+        "filed": "2026-05-07",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "false"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2026-05-06",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "13620",
+            "price": "995.225",
+            "after": "91883358",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-05-06",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2208",
+            "price": "996.183",
+            "after": "91881150",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000126238826000008/wk-form4_1776802850.xml",
+        "accession": "0001262388-26-000008",
+        "form": "4",
+        "filed": "2026-04-21",
+        "owners": [
+          {
+            "name": "Sulzberger Gabrielle",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000038/wk-form4_1776802736.xml",
+        "accession": "0000059478-26-000038",
+        "form": "4",
+        "filed": "2026-04-21",
+        "owners": [
+          {
+            "name": "LUCIANO JUAN R",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000036/wk-form4_1776802597.xml",
+        "accession": "0000059478-26-000036",
+        "form": "4",
+        "filed": "2026-04-21",
+        "owners": [
+          {
+            "name": "Fyrwald J Erik",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000034/wk-form4_1776802466.xml",
+        "accession": "0000059478-26-000034",
+        "form": "4",
+        "filed": "2026-04-21",
+        "owners": [
+          {
+            "name": "Alvarez Ralph",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000126238826000006/wk-form4_1773779547.xml",
+        "accession": "0001262388-26-000006",
+        "form": "4",
+        "filed": "2026-03-17",
+        "owners": [
+          {
+            "name": "Sulzberger Gabrielle",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000025/wk-form4_1773779494.xml",
+        "accession": "0000059478-26-000025",
+        "form": "4",
+        "filed": "2026-03-17",
+        "owners": [
+          {
+            "name": "LUCIANO JUAN R",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000023/wk-form4_1773779424.xml",
+        "accession": "0000059478-26-000023",
+        "form": "4",
+        "filed": "2026-03-17",
+        "owners": [
+          {
+            "name": "Fyrwald J Erik",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000131021526000006/wk-form4_1773779362.xml",
+        "accession": "0001310215-26-000006",
+        "form": "4",
+        "filed": "2026-03-17",
+        "owners": [
+          {
+            "name": "Alvarez Ralph",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000195597226000006/wk-form4_1771535926.xml",
+        "accession": "0001955972-26-000006",
+        "form": "4",
+        "filed": "2026-02-19",
+        "owners": [
+          {
+            "name": "Dozier Eric",
+            "officer": "1",
+            "title": "EVP, Chief People Officer",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000126238826000004/wk-form4_1771450040.xml",
+        "accession": "0001262388-26-000004",
+        "form": "4",
+        "filed": "2026-02-18",
+        "owners": [
+          {
+            "name": "Sulzberger Gabrielle",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000017/wk-form4_1771449964.xml",
+        "accession": "0000059478-26-000017",
+        "form": "4",
+        "filed": "2026-02-18",
+        "owners": [
+          {
+            "name": "LUCIANO JUAN R",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000015/wk-form4_1771449908.xml",
+        "accession": "0000059478-26-000015",
+        "form": "4",
+        "filed": "2026-02-18",
+        "owners": [
+          {
+            "name": "Fyrwald J Erik",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000131021526000004/wk-form4_1771449826.xml",
+        "accession": "0001310215-26-000004",
+        "form": "4",
+        "filed": "2026-02-18",
+        "owners": [
+          {
+            "name": "Alvarez Ralph",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000156153926000004/wk-form4_1771449773.xml",
+        "accession": "0001561539-26-000004",
+        "form": "4",
+        "filed": "2026-02-18",
+        "owners": [
+          {
+            "name": "Zakrowski Donald A",
+            "officer": "1",
+            "title": "SVP, Finance, & CAO",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000175244726000004/wk-form4_1771449713.xml",
+        "accession": "0001752447-26-000004",
+        "form": "4",
+        "filed": "2026-02-18",
+        "owners": [
+          {
+            "name": "Montarce Lucas",
+            "officer": "1",
+            "title": "EVP & CFO",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000207154226000004/wk-form4_1771449660.xml",
+        "accession": "0002071542-26-000004",
+        "form": "4",
+        "filed": "2026-02-18",
+        "owners": [
+          {
+            "name": "Custer Kenneth L.",
+            "officer": "1",
+            "title": "EVP & President, Card Met Hlth",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000209688826000004/wk-form4_1771449581.xml",
+        "accession": "0002096888-26-000004",
+        "form": "4",
+        "filed": "2026-02-18",
+        "owners": [
+          {
+            "name": "Brown Adrienne S",
+            "officer": "1",
+            "title": "EVP,  President LLY Imm",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000186025326000006/wk-form4a_1770931366.xml",
+        "accession": "0001860253-26-000006",
+        "form": "4/A",
+        "filed": "2026-02-12",
+        "owners": [
+          {
+            "name": "Rau Diogo",
+            "officer": "1",
+            "title": "EVP & CIDO",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000156153926000002/wk-form4_1770845245.xml",
+        "accession": "0001561539-26-000002",
+        "form": "4",
+        "filed": "2026-02-11",
+        "owners": [
+          {
+            "name": "Zakrowski Donald A",
+            "officer": "1",
+            "title": "SVP, Finance, & CAO",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000182600126000004/wk-form4_1770845161.xml",
+        "accession": "0001826001-26-000004",
+        "form": "4",
+        "filed": "2026-02-11",
+        "owners": [
+          {
+            "name": "Yuffa Ilya",
+            "officer": "1",
+            "title": "EVP&Pres, LLY USA&Global Capab",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000166125426000004/wk-form4_1770845109.xml",
+        "accession": "0001661254-26-000004",
+        "form": "4",
+        "filed": "2026-02-11",
+        "owners": [
+          {
+            "name": "Van Naarden Jacob",
+            "officer": "1",
+            "title": "EVP,Pres LLY Oncology&HdCorpBD",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000174147426000004/wk-form4_1770845058.xml",
+        "accession": "0001741474-26-000004",
+        "form": "4",
+        "filed": "2026-02-11",
+        "owners": [
+          {
+            "name": "Skovronsky Daniel",
+            "officer": "1",
+            "title": "EVP, CS&PO & Pres. LRL",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000153860426000004/wk-form4_1770844992.xml",
+        "accession": "0001538604-26-000004",
+        "form": "4",
+        "filed": "2026-02-11",
+        "owners": [
+          {
+            "name": "Ricks David A",
+            "officer": "1",
+            "title": "President, Chair, and CEO",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000186025326000004/wk-form4_1770844934.xml",
+        "accession": "0001860253-26-000004",
+        "form": "4",
+        "filed": "2026-02-11",
+        "owners": [
+          {
+            "name": "Rau Diogo",
+            "officer": "1",
+            "title": "EVP & CIDO",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000175244726000002/wk-form4_1770844810.xml",
+        "accession": "0001752447-26-000002",
+        "form": "4",
+        "filed": "2026-02-11",
+        "owners": [
+          {
+            "name": "Montarce Lucas",
+            "officer": "1",
+            "title": "EVP & CFO",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000178605426000004/wk-form4_1770844753.xml",
+        "accession": "0001786054-26-000004",
+        "form": "4",
+        "filed": "2026-02-11",
+        "owners": [
+          {
+            "name": "Jonsson Patrik",
+            "officer": "1",
+            "title": "EVP & President, LLY Int'l",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000186105226000004/wk-form4_1770844677.xml",
+        "accession": "0001861052-26-000004",
+        "form": "4",
+        "filed": "2026-02-11",
+        "owners": [
+          {
+            "name": "Hernandez Edgardo",
+            "officer": "1",
+            "title": "EVP & Pres., Mfg. Operations",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000168555626000004/wk-form4_1770844627.xml",
+        "accession": "0001685556-26-000004",
+        "form": "4",
+        "filed": "2026-02-11",
+        "owners": [
+          {
+            "name": "Hakim Anat",
+            "officer": "1",
+            "title": "EVP, GC & Secretary",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000195597226000004/wk-form4_1770844572.xml",
+        "accession": "0001955972-26-000004",
+        "form": "4",
+        "filed": "2026-02-11",
+        "owners": [
+          {
+            "name": "Dozier Eric",
+            "officer": "1",
+            "title": "EVP, Chief People Officer",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000207154226000002/wk-form4_1770844481.xml",
+        "accession": "0002071542-26-000002",
+        "form": "4",
+        "filed": "2026-02-11",
+        "owners": [
+          {
+            "name": "Custer Kenneth L.",
+            "officer": "1",
+            "title": "EVP & President, Card Met Hlth",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000209688826000002/wk-form4_1770844352.xml",
+        "accession": "0002096888-26-000002",
+        "form": "4",
+        "filed": "2026-02-11",
+        "owners": [
+          {
+            "name": "Brown Adrienne S",
+            "officer": "1",
+            "title": "EVP,  President LLY Imm",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000182600126000002/wk-form4_1770154355.xml",
+        "accession": "0001826001-26-000002",
+        "form": "4",
+        "filed": "2026-02-03",
+        "owners": [
+          {
+            "name": "Yuffa Ilya",
+            "officer": "1",
+            "title": "EVP&Pres, LLY USA&Global Capab",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000174147426000002/wk-form4_1770154292.xml",
+        "accession": "0001741474-26-000002",
+        "form": "4",
+        "filed": "2026-02-03",
+        "owners": [
+          {
+            "name": "Skovronsky Daniel",
+            "officer": "1",
+            "title": "EVP, CS&PO & Pres. LRL",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000166125426000002/wk-form4_1770154258.xml",
+        "accession": "0001661254-26-000002",
+        "form": "4",
+        "filed": "2026-02-03",
+        "owners": [
+          {
+            "name": "Van Naarden Jacob",
+            "officer": "1",
+            "title": "EVP,Pres LLY Oncology&HdCorpBD",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000153860426000002/wk-form4_1770154157.xml",
+        "accession": "0001538604-26-000002",
+        "form": "4",
+        "filed": "2026-02-03",
+        "owners": [
+          {
+            "name": "Ricks David A",
+            "officer": "1",
+            "title": "President, Chair, and CEO",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000186025326000002/wk-form4_1770154111.xml",
+        "accession": "0001860253-26-000002",
+        "form": "4",
+        "filed": "2026-02-03",
+        "owners": [
+          {
+            "name": "Rau Diogo",
+            "officer": "1",
+            "title": "EVP & CIDO",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000178605426000002/wk-form4_1770154060.xml",
+        "accession": "0001786054-26-000002",
+        "form": "4",
+        "filed": "2026-02-03",
+        "owners": [
+          {
+            "name": "Jonsson Patrik",
+            "officer": "1",
+            "title": "EVP & President, LLY Int'l",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000186105226000002/wk-form4_1770153992.xml",
+        "accession": "0001861052-26-000002",
+        "form": "4",
+        "filed": "2026-02-03",
+        "owners": [
+          {
+            "name": "Hernandez Edgardo",
+            "officer": "1",
+            "title": "EVP & Pres., Mfg. Operations",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000168555626000002/wk-form4_1770153936.xml",
+        "accession": "0001685556-26-000002",
+        "form": "4",
+        "filed": "2026-02-03",
+        "owners": [
+          {
+            "name": "Hakim Anat",
+            "officer": "1",
+            "title": "EVP, GC & Secretary",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000195597226000002/wk-form4_1770153893.xml",
+        "accession": "0001955972-26-000002",
+        "form": "4",
+        "filed": "2026-02-03",
+        "owners": [
+          {
+            "name": "Dozier Eric",
+            "officer": "1",
+            "title": "EVP, Chief People Officer",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000126238826000002/wk-form4_1769030817.xml",
+        "accession": "0001262388-26-000002",
+        "form": "4",
+        "filed": "2026-01-21",
+        "owners": [
+          {
+            "name": "Sulzberger Gabrielle",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000005/wk-form4_1769030749.xml",
+        "accession": "0000059478-26-000005",
+        "form": "4",
+        "filed": "2026-01-21",
+        "owners": [
+          {
+            "name": "LUCIANO JUAN R",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000003/wk-form4_1769030692.xml",
+        "accession": "0000059478-26-000003",
+        "form": "4",
+        "filed": "2026-01-21",
+        "owners": [
+          {
+            "name": "Fyrwald J Erik",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000131021526000002/wk-form4_1769030597.xml",
+        "accession": "0001310215-26-000002",
+        "form": "4",
+        "filed": "2026-01-21",
+        "owners": [
+          {
+            "name": "Alvarez Ralph",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601126000003/form4-01082026_040101.xml",
+        "accession": "0000316011-26-000003",
+        "form": "4",
+        "filed": "2026-01-08",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "895",
+            "price": "1085.108",
+            "after": "92188231",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "7684",
+            "price": "1086.748",
+            "after": "92180547",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1070",
+            "price": "1087.801",
+            "after": "92179477",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "930",
+            "price": "1088.967",
+            "after": "92178547",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "3575",
+            "price": "1090.183",
+            "after": "92174972",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1224",
+            "price": "1091.048",
+            "after": "92173748",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1072",
+            "price": "1092.557",
+            "after": "92172676",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1322",
+            "price": "1093.584",
+            "after": "92171354",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "420",
+            "price": "1094.701",
+            "after": "92170934",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "475",
+            "price": "1095.738",
+            "after": "92170459",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "6408",
+            "price": "1097.412",
+            "after": "92164051",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "9573",
+            "price": "1098.552",
+            "after": "92154478",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "20447",
+            "price": "1099.361",
+            "after": "92134031",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "14937",
+            "price": "1100.459",
+            "after": "92119094",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "20668",
+            "price": "1101.423",
+            "after": "92098426",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "34434",
+            "price": "1102.411",
+            "after": "92063992",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "40956",
+            "price": "1103.313",
+            "after": "92023036",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "21042",
+            "price": "1104.403",
+            "after": "92001994",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "24362",
+            "price": "1105.456",
+            "after": "91977632",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "13701",
+            "price": "1106.416",
+            "after": "91963931",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "16650",
+            "price": "1107.371",
+            "after": "91947281",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "13247",
+            "price": "1108.415",
+            "after": "91934034",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "8513",
+            "price": "1109.318",
+            "after": "91925521",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "3464",
+            "price": "1110.367",
+            "after": "91922057",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2085",
+            "price": "1111.214",
+            "after": "91919972",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "4652",
+            "price": "1112.433",
+            "after": "91915320",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "9053",
+            "price": "1113.771",
+            "after": "91906267",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "4342",
+            "price": "1114.372",
+            "after": "91901925",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2210",
+            "price": "1115.761",
+            "after": "91899715",
+            "ownership": "D"
+          },
+          {
+            "date": "2026-01-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2737",
+            "price": "1116.686",
+            "after": "91896978",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601126000001/form4-01062026_040101.xml",
+        "accession": "0000316011-26-000001",
+        "form": "4",
+        "filed": "2026-01-06",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2026-01-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1390",
+            "price": "1085.011",
+            "after": "92189126",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000101/form4-12302025_041201.xml",
+        "accession": "0000316011-25-000101",
+        "form": "4",
+        "filed": "2025-12-30",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-12-29",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "3593",
+            "price": "1085.035",
+            "after": "92190516",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000099/form4-12292025_041204.xml",
+        "accession": "0000316011-25-000099",
+        "form": "4",
+        "filed": "2025-12-29",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-12-24",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2629",
+            "price": "1085.173",
+            "after": "92194109",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000098/form4-12292025_041204.xml",
+        "accession": "0000316011-25-000098",
+        "form": "4",
+        "filed": "2025-12-29",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-12-23",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "240",
+            "price": "1085.038",
+            "after": "92196738",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000126238825000010/wk-form4_1765921596.xml",
+        "accession": "0001262388-25-000010",
+        "form": "4",
+        "filed": "2025-12-16",
+        "owners": [
+          {
+            "name": "Sulzberger Gabrielle",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000275/wk-form4_1765921510.xml",
+        "accession": "0000059478-25-000275",
+        "form": "4",
+        "filed": "2025-12-16",
+        "owners": [
+          {
+            "name": "LUCIANO JUAN R",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000134082325000012/wk-form4_1765921413.xml",
+        "accession": "0001340823-25-000012",
+        "form": "4",
+        "filed": "2025-12-16",
+        "owners": [
+          {
+            "name": "Hedley Mary Lynne",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000273/wk-form4_1765921326.xml",
+        "accession": "0000059478-25-000273",
+        "form": "4",
+        "filed": "2025-12-16",
+        "owners": [
+          {
+            "name": "Fyrwald J Erik",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000131021525000012/wk-form4_1765921259.xml",
+        "accession": "0001310215-25-000012",
+        "form": "4",
+        "filed": "2025-12-16",
+        "owners": [
+          {
+            "name": "Alvarez Ralph",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000093/form4-11262025_041104.xml",
+        "accession": "0000316011-25-000093",
+        "form": "4",
+        "filed": "2025-11-26",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "5043",
+            "price": "1108.71",
+            "after": "92207567",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "9249",
+            "price": "1109.449",
+            "after": "92198318",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1340",
+            "price": "1110.527",
+            "after": "92196978",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000092/form4-11262025_041101.xml",
+        "accession": "0000316011-25-000092",
+        "form": "4",
+        "filed": "2025-11-26",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2481",
+            "price": "1073.735",
+            "after": "92357190",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "882",
+            "price": "1075.997",
+            "after": "92356308",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "800",
+            "price": "1077.988",
+            "after": "92355508",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1260",
+            "price": "1079.367",
+            "after": "92354248",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "651",
+            "price": "1080.733",
+            "after": "92353597",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1606",
+            "price": "1081.90",
+            "after": "92351991",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "160",
+            "price": "1082.933",
+            "after": "92351831",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "3069",
+            "price": "1084.702",
+            "after": "92348762",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "5604",
+            "price": "1086.069",
+            "after": "92343158",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "6508",
+            "price": "1086.941",
+            "after": "92336650",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "5589",
+            "price": "1087.965",
+            "after": "92331061",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "5284",
+            "price": "1088.907",
+            "after": "92325777",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1907",
+            "price": "1089.854",
+            "after": "92323870",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "5927",
+            "price": "1091.116",
+            "after": "92317943",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "18254",
+            "price": "1092.058",
+            "after": "92299689",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "9050",
+            "price": "1093.164",
+            "after": "92290639",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "6246",
+            "price": "1094.026",
+            "after": "92284393",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2083",
+            "price": "1094.794",
+            "after": "92282310",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1061",
+            "price": "1096.329",
+            "after": "92281249",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "4198",
+            "price": "1097.443",
+            "after": "92277051",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "4639",
+            "price": "1098.315",
+            "after": "92272412",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "6545",
+            "price": "1099.485",
+            "after": "92265867",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "8527",
+            "price": "1100.336",
+            "after": "92257340",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "11854",
+            "price": "1101.449",
+            "after": "92245486",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "7456",
+            "price": "1102.346",
+            "after": "92238030",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "6274",
+            "price": "1103.576",
+            "after": "92231756",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "5196",
+            "price": "1104.411",
+            "after": "92226560",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2494",
+            "price": "1105.32",
+            "after": "92224066",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "3662",
+            "price": "1106.573",
+            "after": "92220404",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-25",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "7794",
+            "price": "1107.48",
+            "after": "92212610",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000089/form4-11252025_041101.xml",
+        "accession": "0000316011-25-000089",
+        "form": "4",
+        "filed": "2025-11-25",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-11-24",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "120016",
+            "price": "1068.175",
+            "after": "92381962",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-24",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "14105",
+            "price": "1069.477",
+            "after": "92367857",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-24",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2778",
+            "price": "1070.351",
+            "after": "92365079",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-24",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1710",
+            "price": "1071.369",
+            "after": "92363369",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-24",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "744",
+            "price": "1072.776",
+            "after": "92362625",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-24",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2954",
+            "price": "1073.597",
+            "after": "92359671",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000087/form4-11242025_041101.xml",
+        "accession": "0000316011-25-000087",
+        "form": "4",
+        "filed": "2025-11-24",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-11-21",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "9871",
+            "price": "1050.272",
+            "after": "92597433",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-21",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "5506",
+            "price": "1051.484",
+            "after": "92591927",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-21",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2885",
+            "price": "1052.361",
+            "after": "92589042",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-21",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1987",
+            "price": "1053.458",
+            "after": "92587055",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-21",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1629",
+            "price": "1054.422",
+            "after": "92585426",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-21",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2495",
+            "price": "1055.452",
+            "after": "92582931",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-21",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1546",
+            "price": "1056.396",
+            "after": "92581385",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-21",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "5064",
+            "price": "1057.584",
+            "after": "92576321",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-21",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "9729",
+            "price": "1058.461",
+            "after": "92566592",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-21",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "23916",
+            "price": "1059.658",
+            "after": "92542676",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-21",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "7582",
+            "price": "1060.531",
+            "after": "92535094",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-21",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "10492",
+            "price": "1061.559",
+            "after": "92524602",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-21",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "9051",
+            "price": "1062.517",
+            "after": "92515551",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-21",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "8576",
+            "price": "1063.572",
+            "after": "92506975",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-21",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "3378",
+            "price": "1064.433",
+            "after": "92503597",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-21",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1459",
+            "price": "1065.569",
+            "after": "92502138",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-21",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "160",
+            "price": "1066.15",
+            "after": "92501978",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000083/form4-11212025_041101.xml",
+        "accession": "0000316011-25-000083",
+        "form": "4",
+        "filed": "2025-11-21",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-11-20",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "16845",
+            "price": "1050.364",
+            "after": "92627607",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-20",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "6701",
+            "price": "1051.373",
+            "after": "92620906",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-20",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "6047",
+            "price": "1052.545",
+            "after": "92614859",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-20",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "3702",
+            "price": "1053.522",
+            "after": "92611157",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-20",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "3188",
+            "price": "1054.508",
+            "after": "92607969",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-20",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "665",
+            "price": "1055.391",
+            "after": "92607304",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000081/form4-11202025_041101.xml",
+        "accession": "0000316011-25-000081",
+        "form": "4",
+        "filed": "2025-11-20",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-11-19",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "96516",
+            "price": "1050.208",
+            "after": "92715462",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-19",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "28768",
+            "price": "1051.434",
+            "after": "92686694",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-19",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "21107",
+            "price": "1052.537",
+            "after": "92665587",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-19",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "13820",
+            "price": "1053.474",
+            "after": "92651767",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-19",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "6109",
+            "price": "1054.483",
+            "after": "92645658",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-19",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1206",
+            "price": "1055.081",
+            "after": "92644452",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000079/form4-11192025_041102.xml",
+        "accession": "0000316011-25-000079",
+        "form": "4",
+        "filed": "2025-11-19",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-11-18",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "4304",
+            "price": "1030.317",
+            "after": "92867887",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-18",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1605",
+            "price": "1031.414",
+            "after": "92866282",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-18",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "7208",
+            "price": "1032.635",
+            "after": "92859074",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-18",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "6380",
+            "price": "1033.497",
+            "after": "92852694",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-18",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "12198",
+            "price": "1034.652",
+            "after": "92840496",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-18",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "13097",
+            "price": "1035.501",
+            "after": "92827399",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-18",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "8067",
+            "price": "1036.576",
+            "after": "92819332",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-18",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2424",
+            "price": "1037.379",
+            "after": "92816908",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-18",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "3950",
+            "price": "1038.48",
+            "after": "92812958",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-18",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "980",
+            "price": "1039.610",
+            "after": "92811978",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000269/wk-form4_1763501994.xml",
+        "accession": "0000059478-25-000269",
+        "form": "4",
+        "filed": "2025-11-18",
+        "owners": [
+          {
+            "name": "JOHNSON KIMBERLY H",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000126238825000008/wk-form4_1763501198.xml",
+        "accession": "0001262388-25-000008",
+        "form": "4",
+        "filed": "2025-11-18",
+        "owners": [
+          {
+            "name": "Sulzberger Gabrielle",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000266/wk-form4_1763501099.xml",
+        "accession": "0000059478-25-000266",
+        "form": "4",
+        "filed": "2025-11-18",
+        "owners": [
+          {
+            "name": "Moeller Jon R",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000264/wk-form4_1763501018.xml",
+        "accession": "0000059478-25-000264",
+        "form": "4",
+        "filed": "2025-11-18",
+        "owners": [
+          {
+            "name": "LUCIANO JUAN R",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000155171525000006/wk-form4_1763500905.xml",
+        "accession": "0001551715-25-000006",
+        "form": "4",
+        "filed": "2025-11-18",
+        "owners": [
+          {
+            "name": "Kaelin William G Jr",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000260/wk-form4_1763500742.xml",
+        "accession": "0000059478-25-000260",
+        "form": "4",
+        "filed": "2025-11-18",
+        "owners": [
+          {
+            "name": "JACKSON JAMERE",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000134082325000010/wk-form4_1763500655.xml",
+        "accession": "0001340823-25-000010",
+        "form": "4",
+        "filed": "2025-11-18",
+        "owners": [
+          {
+            "name": "Hedley Mary Lynne",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000258/wk-form4_1763500557.xml",
+        "accession": "0000059478-25-000258",
+        "form": "4",
+        "filed": "2025-11-18",
+        "owners": [
+          {
+            "name": "Fyrwald J Erik",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000153706725000006/wk-form4_1763500433.xml",
+        "accession": "0001537067-25-000006",
+        "form": "4",
+        "filed": "2025-11-18",
+        "owners": [
+          {
+            "name": "Baicker Katherine",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000131021525000010/wk-form4_1763500326.xml",
+        "accession": "0001310215-25-000010",
+        "form": "4",
+        "filed": "2025-11-18",
+        "owners": [
+          {
+            "name": "Alvarez Ralph",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000075/form4-11182025_041101.xml",
+        "accession": "0000316011-25-000075",
+        "form": "4",
+        "filed": "2025-11-18",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-11-17",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "7789",
+            "price": "1030.448",
+            "after": "92874288",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-17",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2097",
+            "price": "1031.526",
+            "after": "92872191",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000073/form4-11172025_041103.xml",
+        "accession": "0000316011-25-000073",
+        "form": "4",
+        "filed": "2025-11-17",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-11-14",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "103871",
+            "price": "1030.312",
+            "after": "92956501",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-14",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "55908",
+            "price": "1031414",
+            "after": "92900593",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-14",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "17567",
+            "price": "1032319",
+            "after": "92883026",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-14",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "949",
+            "price": "1033.155",
+            "after": "92882077",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000071/form4-11142025_041101.xml",
+        "accession": "0000316011-25-000071",
+        "form": "4",
+        "filed": "2025-11-14",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-11-13",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "45246",
+            "price": "1030.210",
+            "after": "93061732",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-13",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1360",
+            "price": "1031.777",
+            "after": "93060372",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000156153925000006/wk-form4_1763068481.xml",
+        "accession": "0001561539-25-000006",
+        "form": "4",
+        "filed": "2025-11-13",
+        "owners": [
+          {
+            "name": "Zakrowski Donald A",
+            "officer": "1",
+            "title": "SVP, Finance, & CAO",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "1",
+        "market_transactions": [
+          {
+            "date": "2025-11-13",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1000",
+            "price": "1010.50",
+            "after": "2839.659",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000069/form4-11132025_041101.xml",
+        "accession": "0000316011-25-000069",
+        "form": "4",
+        "filed": "2025-11-13",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-11-12",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "828",
+            "price": "1001.93",
+            "after": "93411150",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-12",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "7585",
+            "price": "1003.116",
+            "after": "93403565",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-12",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "22131",
+            "price": "1004.099",
+            "after": "93381434",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-12",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "23568",
+            "price": "1004.968",
+            "after": "93357866",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-12",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "23863",
+            "price": "1006.017",
+            "after": "93334003",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-12",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "16383",
+            "price": "1007.099",
+            "after": "93317620",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-12",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "8913",
+            "price": "1007.968",
+            "after": "93308707",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-12",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "17985",
+            "price": "1009",
+            "after": "93290722",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-12",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "20000",
+            "price": "1009.987",
+            "after": "93270722",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-12",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "19892",
+            "price": "1011.177",
+            "after": "93250830",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-12",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "21559",
+            "price": "1011.961",
+            "after": "93229271",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-12",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "16749",
+            "price": "1012.942",
+            "after": "93212522",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-12",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "11638",
+            "price": "1014.169",
+            "after": "93200884",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-12",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "16274",
+            "price": "1015.158",
+            "after": "93184610",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-12",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "13415",
+            "price": "1016.005",
+            "after": "93171195",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-12",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "7188",
+            "price": "1017.156",
+            "after": "93164007",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-12",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "47073",
+            "price": "1018.022",
+            "after": "93116934",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-12",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "7833",
+            "price": "1018.829",
+            "after": "93109101",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-12",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1281",
+            "price": "1019.919",
+            "after": "93107820",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-12",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "842",
+            "price": "1021.065",
+            "after": "93106978",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000065/form4-11122025_041107.xml",
+        "accession": "0000316011-25-000065",
+        "form": "4",
+        "filed": "2025-11-12",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-11-11",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "11819",
+            "price": "972.269",
+            "after": "93683290",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-11",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "11998",
+            "price": "973.475",
+            "after": "93671292",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-11",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "10114",
+            "price": "974.465",
+            "after": "93661178",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-11",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "8996",
+            "price": "975.461",
+            "after": "93652182",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-11",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "5759",
+            "price": "976.49",
+            "after": "93646423",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-11",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "4680",
+            "price": "977.439",
+            "after": "93641743",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-11",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "4433",
+            "price": "978.688",
+            "after": "93637310",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-11",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "3555",
+            "price": "979.651",
+            "after": "93633755",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-11",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2068",
+            "price": "980.543",
+            "after": "93631687",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-11",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2211",
+            "price": "981.851",
+            "after": "93629476",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-11",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "7503",
+            "price": "983.137",
+            "after": "93621973",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-11",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "11066",
+            "price": "984.039",
+            "after": "93610907",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-11",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "8877",
+            "price": "985.255",
+            "after": "93602030",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-11",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "30633",
+            "price": "986.183",
+            "after": "93571397",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-11",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "13678",
+            "price": "987.183",
+            "after": "93557719",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-11",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "4473",
+            "price": "987.909",
+            "after": "93553246",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-11",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "22127",
+            "price": "989.179",
+            "after": "93531119",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-11",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "33154",
+            "price": "990.191",
+            "after": "93497965",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-11",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "26761",
+            "price": "991.013",
+            "after": "93471204",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-11",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "9369",
+            "price": "992.013",
+            "after": "93461835",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-11",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "9879",
+            "price": "993.10",
+            "after": "93451956",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-11",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "5022",
+            "price": "994.121",
+            "after": "93446934",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-11",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "4664",
+            "price": "995.249",
+            "after": "93442270",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-11",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "12039",
+            "price": "996.381",
+            "after": "93430231",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-11",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "9387",
+            "price": "997.057",
+            "after": "93420844",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-11",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "5482",
+            "price": "998.294",
+            "after": "93415362",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-11",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "3384",
+            "price": "999.088",
+            "after": "93411978",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000064/form4-11122025_041105.xml",
+        "accession": "0000316011-25-000064",
+        "form": "4",
+        "filed": "2025-11-12",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-11-10",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "12864",
+            "price": "972.168",
+            "after": "93699114",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-10",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "3887",
+            "price": "973.626",
+            "after": "93695227",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-10",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "118",
+            "price": "974.089",
+            "after": "93695109",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000153860425000006/wk-form4_1762815690.xml",
+        "accession": "0001538604-25-000006",
+        "form": "4",
+        "filed": "2025-11-10",
+        "owners": [
+          {
+            "name": "Ricks David A",
+            "officer": "1",
+            "title": "President, Chair, and CEO",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000174147425000006/wk-form4_1762815639.xml",
+        "accession": "0001741474-25-000006",
+        "form": "4",
+        "filed": "2025-11-10",
+        "owners": [
+          {
+            "name": "Skovronsky Daniel",
+            "officer": "1",
+            "title": "EVP, CS&PO & Pres. LRL",
+            "director": "0",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000055/form4-11062025_041104.xml",
+        "accession": "0000316011-25-000055",
+        "form": "4",
+        "filed": "2025-11-06",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1909",
+            "price": "947.626",
+            "after": "93750501",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "5617",
+            "price": "948.822",
+            "after": "93744884",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "4495",
+            "price": "949.82",
+            "after": "93740389",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2010",
+            "price": "950.937",
+            "after": "93738379",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "10200",
+            "price": "952.001",
+            "after": "93728179",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "10392",
+            "price": "952.887",
+            "after": "93717787",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "4699",
+            "price": "953.663",
+            "after": "93713088",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1110",
+            "price": "954.948",
+            "after": "93711978",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000054/form4-11062025_041102.xml",
+        "accession": "0000316011-25-000054",
+        "form": "4",
+        "filed": "2025-11-06",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "270",
+            "price": "911.005",
+            "after": "93931182",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "620",
+            "price": "913.778",
+            "after": "93930562",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "550",
+            "price": "915.333",
+            "after": "93930012",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "230",
+            "price": "917.264",
+            "after": "93929782",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "160",
+            "price": "918.12",
+            "after": "93929622",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2090",
+            "price": "921.496",
+            "after": "93927532",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "4434",
+            "price": "922.416",
+            "after": "93923098",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2635",
+            "price": "923.46",
+            "after": "93920463",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "550",
+            "price": "924.352",
+            "after": "93919913",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "31016",
+            "price": "925.872",
+            "after": "93888897",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "8409",
+            "price": "927.12",
+            "after": "93880488",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "4457",
+            "price": "928.2",
+            "after": "93876031",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "15230",
+            "price": "929.423",
+            "after": "93860801",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "5528",
+            "price": "930.222",
+            "after": "93855273",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "10938",
+            "price": "931.245",
+            "after": "93844335",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "12924",
+            "price": "932.274",
+            "after": "93831411",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "6642",
+            "price": "933.292",
+            "after": "93824769",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "9209",
+            "price": "934.206",
+            "after": "93815560",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "6386",
+            "price": "935.26",
+            "after": "93809174",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "5292",
+            "price": "936.567",
+            "after": "93803882",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "3731",
+            "price": "937.421",
+            "after": "93800151",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "3388",
+            "price": "938.433",
+            "after": "93796763",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2790",
+            "price": "939.538",
+            "after": "93793973",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "3966",
+            "price": "940.623",
+            "after": "93790007",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2759",
+            "price": "941.356",
+            "after": "93787248",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1657",
+            "price": "942.306",
+            "after": "93785591",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "3820",
+            "price": "943.711",
+            "after": "93781771",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "12581",
+            "price": "944.677",
+            "after": "93769190",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "13007",
+            "price": "945.617",
+            "after": "93756183",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-05",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "3773",
+            "price": "946.399",
+            "after": "93752410",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000051/form4-11052025_041101.xml",
+        "accession": "0000316011-25-000051",
+        "form": "4",
+        "filed": "2025-11-05",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-11-04",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "526",
+            "price": "910.719",
+            "after": "93931452",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000049/form4-11042025_041101.xml",
+        "accession": "0000316011-25-000049",
+        "form": "4",
+        "filed": "2025-11-04",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-11-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "25996",
+            "price": "877.4",
+            "after": "94205982",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "18815",
+            "price": "878.356",
+            "after": "94187167",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "6125",
+            "price": "879.36",
+            "after": "94181042",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "10549",
+            "price": "880.449",
+            "after": "94170493",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "6373",
+            "price": "881.461",
+            "after": "94164120",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "4226",
+            "price": "882.32",
+            "after": "94159894",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "10681",
+            "price": "883.746",
+            "after": "94149213",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "26340",
+            "price": "884.665",
+            "after": "94122873",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "21884",
+            "price": "885.557",
+            "after": "94100989",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "3038",
+            "price": "886.287",
+            "after": "94097951",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "4081",
+            "price": "888.142",
+            "after": "94093870",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2452",
+            "price": "888.959",
+            "after": "94091418",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "14867",
+            "price": "890.2",
+            "after": "94076551",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "15508",
+            "price": "891.172",
+            "after": "94061043",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "17299",
+            "price": "891.973",
+            "after": "94043744",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "4246",
+            "price": "893.35",
+            "after": "94039498",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "17537",
+            "price": "894.327",
+            "after": "94021961",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "17639",
+            "price": "895.155",
+            "after": "94004322",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "29709",
+            "price": "896.146",
+            "after": "93974613",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "11842",
+            "price": "897.195",
+            "after": "93962771",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "19295",
+            "price": "898.203",
+            "after": "93943476",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "5391",
+            "price": "899.18",
+            "after": "93938085",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "4474",
+            "price": "900.017",
+            "after": "93933611",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-11-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1633",
+            "price": "900.794",
+            "after": "93931978",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000045/form4-11032025_041101.xml",
+        "accession": "0000316011-25-000045",
+        "form": "4",
+        "filed": "2025-11-03",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-10-31",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "197814",
+            "price": "862.631",
+            "after": "94335506",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-31",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "54191",
+            "price": "863.424",
+            "after": "94281315",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-31",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "15671",
+            "price": "864.528",
+            "after": "94265644",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-31",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "10356",
+            "price": "865.596",
+            "after": "94255288",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-31",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "10358",
+            "price": "866.547",
+            "after": "94244930",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-31",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "4602",
+            "price": "867.544",
+            "after": "94240328",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-31",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "5440",
+            "price": "868.442",
+            "after": "94234888",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-31",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2910",
+            "price": "869.466",
+            "after": "94231978",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000126238825000006/wk-form4_1761164695.xml",
+        "accession": "0001262388-25-000006",
+        "form": "4",
+        "filed": "2025-10-22",
+        "owners": [
+          {
+            "name": "Sulzberger Gabrielle",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000247/wk-form4_1761164643.xml",
+        "accession": "0000059478-25-000247",
+        "form": "4",
+        "filed": "2025-10-22",
+        "owners": [
+          {
+            "name": "LUCIANO JUAN R",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000134082325000008/wk-form4_1761164553.xml",
+        "accession": "0001340823-25-000008",
+        "form": "4",
+        "filed": "2025-10-22",
+        "owners": [
+          {
+            "name": "Hedley Mary Lynne",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947825000245/wk-form4_1761164359.xml",
+        "accession": "0000059478-25-000245",
+        "form": "4",
+        "filed": "2025-10-22",
+        "owners": [
+          {
+            "name": "Fyrwald J Erik",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000131021525000008/wk-form4_1761164262.xml",
+        "accession": "0001310215-25-000008",
+        "form": "4",
+        "filed": "2025-10-22",
+        "owners": [
+          {
+            "name": "Alvarez Ralph",
+            "officer": "0",
+            "title": "",
+            "director": "1",
+            "ten_percent": "0"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000037/form4-10142025_041001.xml",
+        "accession": "0000316011-25-000037",
+        "form": "4",
+        "filed": "2025-10-14",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-10-10",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "468",
+            "price": "862.34",
+            "after": "94536510",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-10",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "3190",
+            "price": "863.369",
+            "after": "94533320",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000035/form4-10102025_041001.xml",
+        "accession": "0000316011-25-000035",
+        "form": "4",
+        "filed": "2025-10-10",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-10-09",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "600",
+            "price": "848.63",
+            "after": "94546980",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-09",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "400",
+            "price": "850.05",
+            "after": "94546580",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-09",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "3375",
+            "price": "851.583",
+            "after": "94543205",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-09",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2472",
+            "price": "852.207",
+            "after": "94540733",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-09",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1247",
+            "price": "853.197",
+            "after": "94539486",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-09",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1473",
+            "price": "854.605",
+            "after": "94538013",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-09",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "835",
+            "price": "854.956",
+            "after": "94537178",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-09",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "200",
+            "price": "857.255",
+            "after": "94536978",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000031/form4-10092025_041002.xml",
+        "accession": "0000316011-25-000031",
+        "form": "4",
+        "filed": "2025-10-09",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-10-08",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "18132",
+            "price": "848.46",
+            "after": "94630868",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-08",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "25296",
+            "price": "849.597",
+            "after": "94605572",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-08",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "36114",
+            "price": "850.519",
+            "after": "94569458",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-08",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "13624",
+            "price": "851.403",
+            "after": "94555834",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-08",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "3227",
+            "price": "852.361",
+            "after": "94552607",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-08",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "3881",
+            "price": "853.846",
+            "after": "94548726",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-08",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "946",
+            "price": "854.639",
+            "after": "94547780",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-08",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "200",
+            "price": "856",
+            "after": "94547580",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000029/form4-10082025_041001.xml",
+        "accession": "0000316011-25-000029",
+        "form": "4",
+        "filed": "2025-10-08",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-10-07",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "26795",
+            "price": "848.009",
+            "after": "94649000",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000027/form4-10072025_041001.xml",
+        "accession": "0000316011-25-000027",
+        "form": "4",
+        "filed": "2025-10-07",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-10-06",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "63849",
+            "price": "848.298",
+            "after": "94773129",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-06",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "28063",
+            "price": "849.443",
+            "after": "94745066",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-06",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "22960",
+            "price": "850.647",
+            "after": "94722106",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-06",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "12180",
+            "price": "851.582",
+            "after": "94709926",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-06",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "9767",
+            "price": "852.673",
+            "after": "94700159",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-06",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "14822",
+            "price": "853.645",
+            "after": "94685337",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-06",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "7143",
+            "price": "854.543",
+            "after": "94678194",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-06",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2399",
+            "price": "855.711",
+            "after": "94675795",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000025/form4-10062025_041001.xml",
+        "accession": "0000316011-25-000025",
+        "form": "4",
+        "filed": "2025-10-06",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": [
+          {
+            "date": "2025-10-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "4286",
+            "price": "821.418",
+            "after": "95025096",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "1558",
+            "price": "822.42",
+            "after": "95023538",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2644",
+            "price": "823.648",
+            "after": "95020894",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "9823",
+            "price": "824.68",
+            "after": "95011071",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2804",
+            "price": "825.533",
+            "after": "95008267",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "4150",
+            "price": "826.739",
+            "after": "95004117",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "952",
+            "price": "827.405",
+            "after": "95003165",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "200",
+            "price": "828.5",
+            "after": "95002965",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "872",
+            "price": "829.858",
+            "after": "95002093",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "300",
+            "price": "831.05",
+            "after": "95001793",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "2204",
+            "price": "833.828",
+            "after": "94999589",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "3509",
+            "price": "834.764",
+            "after": "94996080",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "8203",
+            "price": "835.769",
+            "after": "94987877",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "16792",
+            "price": "836.862",
+            "after": "94971085",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "22843",
+            "price": "837.781",
+            "after": "94948242",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "7894",
+            "price": "838.857",
+            "after": "94940348",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "31102",
+            "price": "839.939",
+            "after": "94909246",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "24495",
+            "price": "840.74",
+            "after": "94884751",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "11316",
+            "price": "841.701",
+            "after": "94873435",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "10040",
+            "price": "842.946",
+            "after": "94863395",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "7114",
+            "price": "843.643",
+            "after": "94856281",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "10135",
+            "price": "845.069",
+            "after": "94846146",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "3893",
+            "price": "845.821",
+            "after": "94842253",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "4870",
+            "price": "847.026",
+            "after": "94837383",
+            "ownership": "D"
+          },
+          {
+            "date": "2025-10-03",
+            "code": "S",
+            "security": "Common Stock",
+            "shares": "405",
+            "price": "847.601",
+            "after": "94836978",
+            "ownership": "D"
+          }
+        ]
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/59478/000031601125000021/form4-10032025_041001.xml",
+        "accession": "0000316011-25-000021",
+        "form": "4",
+        "filed": "2025-10-03",
+        "owners": [
+          {
+            "name": "LILLY ENDOWMENT INC",
+            "officer": "false",
+            "title": "",
+            "director": "false",
+            "ten_percent": "true"
+          }
+        ],
+        "plan_flag": "0",
+        "market_transactions": []
+      }
+    ]
+  }
+]
