@@ -2,6 +2,20 @@
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
 
+## Adopted configuration — Oct 3, 2026, revision 4 (modest leniency)
+
+Authorization: the user explicitly asked to make the screen "a little more lenient" after the Oct 2 rev-3 screen admitted three names. Four small threshold moves; no structural gate removed.
+
+Change: (1) G5 base-case annualized return ≥12% → ≥10% (bear ≥60% and the terminal-multiple cap unchanged); (2) G3 ordinary net dilution ≤3% → ≤3.5%; (3) #12 NTM FCF-yield leg ≥5% → ≥4.5% for non-fintech (FT keeps 5%; PT leg and 200DMA void rule unchanged); (4) H4 base-case annualized return ≥20% → ≥18%.
+
+Rationale: on Oct 2 several verified compounders missed only on G5 by 0.5–1.7pp (SAF 11.5%, VRT 11.4%, HEI 10.3%) or G3 by 0.17pp (NBIX 3.17%), and PODD's #12 hinged on whether its capex fallback gives a 4.1% or 4.8% yield. The moves widen the funnel at the margin without touching A-floors, leverage, issuance-in-core, FT, PH, #19 or any cap.
+
+#18 safeguard check: A1–A8 floors, G2 cash/leverage, G4 insider limits, FT1–FT5, PH, #19 materiality and every #16/G6/H6 cap are unchanged. Lower return hurdles raise valuation risk; G/H sizes stay small and bear-case floors remain.
+
+#18 universe-impact check (Oct 2 evidence, re-test before any status change): SAF (ceiling ~€353 vs €330) and HEI (~$306 vs $302.45) become G candidates pending G4 sweeps and #19; VRT stays blocked by its #19 blackout until the Oct 21 print; NBIX becomes a G candidate pending G2 organic and G5 verification; PODD's #12 passes on consensus (5.15%) and on one capex fallback (4.81%) but not the other (4.12%); MDGL/PRCT move toward H but stay H-watch on H3/H4 evidence. No fintech name changes. Counterexamples: REGN (base 8.1%), ISRG (8.8%), EW (8.3%), PANW/CRWD/FTNT (negative or low) still fail G5; ZS still PH-impaired.
+
+Adoption basis: effective Oct 3 at the user's request; affected names were re-tested the same day before any status change (see roster).
+
 ## Adopted configuration — Oct 2, 2026, revision 3 (price health and stale ATHs)
 
 Authorization: the user explicitly asked that ALGN's long period without a new ATH be incorporated into the skill. Add PH to every route and each screen's output, without treating an old high alone as a permanent business-quality veto.
