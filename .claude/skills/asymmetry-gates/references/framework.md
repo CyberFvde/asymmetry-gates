@@ -1,4 +1,4 @@
-# Framework — forward-leaning (v. Oct 2, 2026, revision 3)
+# Framework — forward-leaning (v. Oct 3, 2026, revision 4)
 
 Forward numbers set the bar; trailing numbers are floors in A–E. Preserve those core floors while distinguishing a material failure from a near-pass or ordinary quarterly noise. G uses an existing cash engine and per-share economics; H is a small, milestone-based path toward a fixed quality destination. Read their defined substitutions before applying core gates to them. Fintech uses the stricter FT overlay. Seek qualified opportunities without requiring a perfect scorecard or forcing an investment quota. Entries depend on evidence and valuation, never solely on a drawdown, rally or bullish theme. These thresholds are policy choices, not empirically validated return forecasts.
 
@@ -35,7 +35,7 @@ A hard cap, at cost: 25% of the sleeve per name, no exceptions. A 25% position t
 ## C. Valuation / asymmetry
 
 11. Fwd P/E ≤35 AND PEG ≤2.0 AND NTM FCF yield ≥1.5%. A narrow failure may qualify for the capped starter path in #14; otherwise alert-only. Full core thresholds are unchanged.
-12. Consensus PT ≥ +20% OR NTM FCF yield ≥5%. PT leg void if price is >20% below the 200DMA (targets lag drawdowns).
+12. Consensus PT ≥ +20% OR NTM FCF yield ≥4.5% (FT-covered fintech retains ≥5%; rev 4). PT leg void if price is >20% below the 200DMA (targets lag drawdowns).
 13. One dated catalyst inside 12 months, named. Earnings within 5 trading days = re-test after the print, not before. A one-day price reaction to a print is not an entry signal; gates, #17/#19 and PH's sustained price-health checks govern eligibility.
 
 ## D. Provisional / exception
