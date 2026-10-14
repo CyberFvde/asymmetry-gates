@@ -10,6 +10,10 @@ Combines PR #3's rev-3 theme screen and PR #4's merged contest research, then ap
 3. **LLY / Eli Lilly** — ballast (only #12: PT +16.3%), PH clean. Core at ≤ ~$1,107. #4 at max ≤2.21×. Next print Oct 29.
 4. **SAF / Safran** — G-compounder (thin), PH clean. €330.10 vs ceiling €340 (base 10.6%/yr at its own 23× median; bear 65%). G4 clean (AMF: two small sellers, ~0.001%). #19 clear (H1 revenue +0.6%, recurring EBIT +5.7% vs consensus; FY guide raised). Q3 revenue Oct 23 (pause from ~Oct 16).
 
+**Oct 14 updates (Oct 13 closes)**
+- **HWM** — $216.84, fwd P/E 36.70 (stockanalysis): still a #14a starter (band ceiling ≈ $236); core at fwd P/E ≤35 ≈ **$206.80** (−4.6%). PT $327 (+50.8%, 22), 13% below a rising 200DMA (PT leg valid). #13 pause from ~Oct 22 ahead of the Oct 29 print.
+- **SK Hynix (000660.KS)** — new screen. **Out of A–E on A1:** ~17.79M new shares issued for the July 10, 2026 Nasdaq ADR listing (up to ~$29.4B; capex/Yongin), roll-off ~Jul 10, 2027. **G-watch:** G1 (HBM #1, ~58% Q1 share per Counterpoint), G2 (FCF margin 48.5%, net cash ₩66.9T, FY26E revenue +254%) and G3 (~2.4% issuance) look passable; G4 (DART insider sweep), #19 (Q2 vs KRX consensus) and G5 (cyclical five-year model — fwd P/E 3.5 on likely peak memory earnings) not done. ₩1,443,000, −50.6% from the Jun 22 ATH, at a rising 200DMA; PT +118% (39). PH clean. Heavy AI-capex exposure — carries the shared trigger (tripwire C) and counts in the #16 aggregate cap. Q3 print ~Oct 29.
+
 **One step from capital (zero capital)**
 5. **PODD / Insulet** — watch. Capex guidance is vague, so the ×1.25 fallback governs: NTM FCF $375.7M = 4.11% < 4.5%; #12 fails above $120.39. A5 NTM GM unresolved (needs H1'27 GAAP ≥ ~70.9%; MDC costs carry into 2027). Insiders net buyers. Nov 4 print.
 6. **GNRC / Generac** — G-watch on one ruling (dealer floor-plan obligation in G2 leverage: 2.31–2.48× excluded vs 2.70–2.87× at max). PH-warning. AI-capex heavy. Oct 28.
