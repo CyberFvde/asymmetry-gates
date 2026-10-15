@@ -1,0 +1,387 @@
+{
+  "asof": "2026-10-14",
+  "framework": "Oct15rev5 main f6171aa",
+  "ticker": "ALGM",
+  "entry_price": 32.22,
+  "units": "USD millions except price,percent,shares(millions)",
+  "sources": {
+    "quarter": "https://www.sec.gov/Archives/edgar/data/866291/000119312526327128/algm-20260626.htm",
+    "issuer_target_model": "https://investors.allegromicro.com/static-files/047325e7-e306-4312-b411-52a3423d1861",
+    "consensus": "https://stockanalysis.com/stocks/algm/forecast/",
+    "own_5_fy_end_ratios": "https://stockanalysis.com/stocks/algm/financials/ratios/",
+    "peers": [
+      "https://stockanalysis.com/stocks/nxpi/statistics/",
+      "https://stockanalysis.com/stocks/adi/statistics/",
+      "https://stockanalysis.com/stocks/txn/statistics/"
+    ]
+  },
+  "facts": {
+    "trailing_fcf": 87.85,
+    "trailing_revenue": 945.93,
+    "cash_unrestricted": 162.029,
+    "restricted_cash_excluded": 8.444,
+    "financial_principal": 291.05,
+    "term_loan_due": "2030-10-31",
+    "operating_lease_claim": 16.851,
+    "legal_common_shares": 186.322415,
+    "unvested_rsu": 2.69459,
+    "psu_target": 1.471133,
+    "psu_max_factor": 2,
+    "espp_treasury_equivalent": 0.034208,
+    "fy27_consensus_revenue": 1094.7,
+    "fy28_consensus_revenue_rounded": 1280,
+    "fy27_consensus_fcf": 131.01,
+    "gaap_waso_growth_pct": 1.7244082922468928,
+    "periodend_share_growth_pct": 0.7464102703037323
+  },
+  "valuation_convention": "Enterprise value / skill company FCF, converted to equity by adding retained cash and subtracting terminal debt/lease claims. No dividends or share buybacks; retain cash only once. All financial principal is paid from modeled free cash; cash interest/taxes/rent stay inside OCF assumptions, with no additional interest-savings benefit assumed. Terminal financial debt is zero in all modeled cases, making terminal cash FCF independent of financing interest. Operating lease payments remain in OCF; residual lease claim deducted in enterprise-to-equity bridge. Cash tax on net-share settlement is additional financing cash use, not added back.",
+  "own_ev_fcf_fy2022_26": [
+    61.63,
+    78.33,
+    92.55,
+    220.35,
+    45.92
+  ],
+  "own_median_convention": "Median of five completed fiscal-year-end EV/FCF observations; not a daily median. FY-end observations supplied by designated StockAnalysis.",
+  "peer_ev_fcf": {
+    "NXPI": 23.17,
+    "ADI": 40.43,
+    "TXN": 48.42
+  },
+  "peer_snapshot_note": "Oct15intraday designated-source multiples, disclosed because a full Oct14 three-peer snapshot was not independently reconstructed; all modeled multiples below the conservative stated cap.",
+  "cases": {
+    "bear": {
+      "assumptions": {
+        "rev1": 1060,
+        "growth": 0.08,
+        "fcf_margins": [
+          0.1,
+          0.11,
+          0.12,
+          0.12,
+          0.12
+        ],
+        "dilution": 0.025,
+        "multiple": 18,
+        "settlement_cash1": 30,
+        "settlement_growth": 0.05
+      },
+      "annual": [
+        {
+          "year": 1,
+          "period_end": "2027-10-14",
+          "revenue": 1060.0,
+          "ocf": 159.0,
+          "cash_ppe": 53.0,
+          "company_fcf": 106.0,
+          "fcf_margin": 0.1,
+          "financing_sbc_tax_cash": 30.0,
+          "financial_principal_repaid": 76.0,
+          "remaining_financial_principal": 215.05,
+          "operating_lease_claim": 16.851,
+          "retained_unrestricted_cash": 162.029,
+          "fully_diluted_shares": 196.79331597499998,
+          "fcf_per_share": 0.5386361801712103
+        },
+        {
+          "year": 2,
+          "period_end": "2028-10-14",
+          "revenue": 1144.8000000000002,
+          "ocf": 183.16800000000003,
+          "cash_ppe": 57.24000000000001,
+          "company_fcf": 125.92800000000003,
+          "fcf_margin": 0.11,
+          "financing_sbc_tax_cash": 31.5,
+          "financial_principal_repaid": 94.42800000000003,
+          "remaining_financial_principal": 120.62199999999999,
+          "operating_lease_claim": 16.851,
+          "retained_unrestricted_cash": 162.029,
+          "fully_diluted_shares": 201.71314887437498,
+          "fcf_per_share": 0.6242924702862419
+        },
+        {
+          "year": 3,
+          "period_end": "2029-10-14",
+          "revenue": 1236.384,
+          "ocf": 210.18527999999998,
+          "cash_ppe": 61.8192,
+          "company_fcf": 148.36607999999998,
+          "fcf_margin": 0.12,
+          "financing_sbc_tax_cash": 33.075,
+          "financial_principal_repaid": 115.29107999999998,
+          "remaining_financial_principal": 5.330920000000006,
+          "operating_lease_claim": 16.851,
+          "retained_unrestricted_cash": 162.029,
+          "fully_diluted_shares": 206.75597759623432,
+          "fcf_per_share": 0.717590280701525
+        },
+        {
+          "year": 4,
+          "period_end": "2030-10-14",
+          "revenue": 1335.29472,
+          "ocf": 227.0001024,
+          "cash_ppe": 66.76473600000001,
+          "company_fcf": 160.2353664,
+          "fcf_margin": 0.12,
+          "financing_sbc_tax_cash": 34.728750000000005,
+          "financial_principal_repaid": 5.330920000000006,
+          "remaining_financial_principal": 0.0,
+          "operating_lease_claim": 16.851,
+          "retained_unrestricted_cash": 282.2046964,
+          "fully_diluted_shares": 211.92487703614015,
+          "fcf_per_share": 0.7560951250318508
+        },
+        {
+          "year": 5,
+          "period_end": "2031-10-14",
+          "revenue": 1442.1182976000002,
+          "ocf": 245.16011059200002,
+          "cash_ppe": 72.10591488000001,
+          "company_fcf": 173.05419571200002,
+          "fcf_margin": 0.12,
+          "financing_sbc_tax_cash": 36.465187500000006,
+          "financial_principal_repaid": 0.0,
+          "remaining_financial_principal": 0.0,
+          "operating_lease_claim": 16.851,
+          "retained_unrestricted_cash": 418.793704612,
+          "fully_diluted_shares": 217.22299896204365,
+          "fcf_per_share": 0.7966660829603893
+        }
+      ],
+      "terminal_price": 16.190358499021215,
+      "annualized_total_return_pct": -12.858268346693546,
+      "terminal_value_fraction_of_entry": 0.5024940564562761,
+      "first_to_fourth_cash_fcf_share_cagr_pct": 11.96792728948488
+    },
+    "base": {
+      "assumptions": {
+        "rev1": 1187.35,
+        "growth": 0.15,
+        "fcf_margins": [
+          0.136,
+          0.16,
+          0.18,
+          0.19,
+          0.2
+        ],
+        "dilution": 0.015,
+        "multiple": 25,
+        "settlement_cash1": 25,
+        "settlement_growth": 0.1
+      },
+      "annual": [
+        {
+          "year": 1,
+          "period_end": "2027-10-14",
+          "revenue": 1187.35,
+          "ocf": 220.8471,
+          "cash_ppe": 59.3675,
+          "company_fcf": 161.4796,
+          "fcf_margin": 0.136,
+          "financing_sbc_tax_cash": 25.0,
+          "financial_principal_repaid": 136.4796,
+          "remaining_financial_principal": 154.5704,
+          "operating_lease_claim": 16.851,
+          "retained_unrestricted_cash": 162.029,
+          "fully_diluted_shares": 194.873381185,
+          "fcf_per_share": 0.8286385704300059
+        },
+        {
+          "year": 2,
+          "period_end": "2028-10-14",
+          "revenue": 1365.4524999999999,
+          "ocf": 286.745025,
+          "cash_ppe": 68.27262499999999,
+          "company_fcf": 218.4724,
+          "fcf_margin": 0.16,
+          "financing_sbc_tax_cash": 27.500000000000004,
+          "financial_principal_repaid": 154.5704,
+          "remaining_financial_principal": 0.0,
+          "operating_lease_claim": 16.851,
+          "retained_unrestricted_cash": 198.43099999999998,
+          "fully_diluted_shares": 197.79648190277496,
+          "fcf_per_share": 1.1045312732477623
+        },
+        {
+          "year": 3,
+          "period_end": "2029-10-14",
+          "revenue": 1570.2703749999996,
+          "ocf": 361.16218624999993,
+          "cash_ppe": 78.51351874999999,
+          "company_fcf": 282.64866749999993,
+          "fcf_margin": 0.18,
+          "financing_sbc_tax_cash": 30.250000000000004,
+          "financial_principal_repaid": 0.0,
+          "remaining_financial_principal": 0.0,
+          "operating_lease_claim": 16.851,
+          "retained_unrestricted_cash": 450.8296674999999,
+          "fully_diluted_shares": 200.76342913131657,
+          "fcf_per_share": 1.407869295334278
+        },
+        {
+          "year": 4,
+          "period_end": "2030-10-14",
+          "revenue": 1805.8109312499996,
+          "ocf": 433.3946234999999,
+          "cash_ppe": 90.29054656249998,
+          "company_fcf": 343.10407693749994,
+          "fcf_margin": 0.19,
+          "financing_sbc_tax_cash": 33.27500000000001,
+          "financial_principal_repaid": 0.0,
+          "remaining_financial_principal": 0.0,
+          "operating_lease_claim": 16.851,
+          "retained_unrestricted_cash": 760.6587444374998,
+          "fully_diluted_shares": 203.7748805682863,
+          "fcf_per_share": 1.6837407828710442
+        },
+        {
+          "year": 5,
+          "period_end": "2031-10-14",
+          "revenue": 2076.6825709374993,
+          "ocf": 519.170642734375,
+          "cash_ppe": 103.83412854687498,
+          "company_fcf": 415.3365141874999,
+          "fcf_margin": 0.2,
+          "financing_sbc_tax_cash": 36.60250000000001,
+          "financial_principal_repaid": 0.0,
+          "remaining_financial_principal": 0.0,
+          "operating_lease_claim": 16.851,
+          "retained_unrestricted_cash": 1139.3927586249997,
+          "fully_diluted_shares": 206.8315037768106,
+          "fcf_per_share": 2.008091159244699
+        }
+      ],
+      "terminal_price": 55.62960382345059,
+      "annualized_total_return_pct": 11.541398716165618,
+      "terminal_value_fraction_of_entry": 1.7265550534900866,
+      "first_to_fourth_cash_fcf_share_cagr_pct": 26.659186877838348
+    },
+    "bull": {
+      "assumptions": {
+        "rev1": 1250,
+        "growth": 0.2,
+        "fcf_margins": [
+          0.16,
+          0.2,
+          0.23,
+          0.25,
+          0.25
+        ],
+        "dilution": 0.01,
+        "multiple": 30,
+        "settlement_cash1": 25,
+        "settlement_growth": 0.1
+      },
+      "annual": [
+        {
+          "year": 1,
+          "period_end": "2027-10-14",
+          "revenue": 1250.0,
+          "ocf": 262.5,
+          "cash_ppe": 62.5,
+          "company_fcf": 200.0,
+          "fcf_margin": 0.16,
+          "financing_sbc_tax_cash": 25.0,
+          "financial_principal_repaid": 175.0,
+          "remaining_financial_principal": 116.05000000000001,
+          "operating_lease_claim": 16.851,
+          "retained_unrestricted_cash": 162.029,
+          "fully_diluted_shares": 193.91341379000002,
+          "fcf_per_share": 1.0313881649084446
+        },
+        {
+          "year": 2,
+          "period_end": "2028-10-14",
+          "revenue": 1500.0,
+          "ocf": 375.0,
+          "cash_ppe": 75.0,
+          "company_fcf": 300.0,
+          "fcf_margin": 0.2,
+          "financing_sbc_tax_cash": 27.500000000000004,
+          "financial_principal_repaid": 116.05000000000001,
+          "remaining_financial_principal": 0.0,
+          "operating_lease_claim": 16.851,
+          "retained_unrestricted_cash": 318.479,
+          "fully_diluted_shares": 195.85254792790002,
+          "fcf_per_share": 1.5317646013491752
+        },
+        {
+          "year": 3,
+          "period_end": "2029-10-14",
+          "revenue": 1800.0,
+          "ocf": 504.0,
+          "cash_ppe": 90.0,
+          "company_fcf": 414.0,
+          "fcf_margin": 0.23,
+          "financing_sbc_tax_cash": 30.250000000000004,
+          "financial_principal_repaid": 0.0,
+          "remaining_financial_principal": 0.0,
+          "operating_lease_claim": 16.851,
+          "retained_unrestricted_cash": 702.229,
+          "fully_diluted_shares": 197.81107340717904,
+          "fcf_per_share": 2.09290608897214
+        },
+        {
+          "year": 4,
+          "period_end": "2030-10-14",
+          "revenue": 2159.9999999999995,
+          "ocf": 647.9999999999999,
+          "cash_ppe": 107.99999999999999,
+          "company_fcf": 539.9999999999999,
+          "fcf_margin": 0.25,
+          "financing_sbc_tax_cash": 33.27500000000001,
+          "financial_principal_repaid": 0.0,
+          "remaining_financial_principal": 0.0,
+          "operating_lease_claim": 16.851,
+          "retained_unrestricted_cash": 1208.954,
+          "fully_diluted_shares": 199.78918414125081,
+          "fcf_per_share": 2.7028490171831336
+        },
+        {
+          "year": 5,
+          "period_end": "2031-10-14",
+          "revenue": 2592.0,
+          "ocf": 777.6,
+          "cash_ppe": 129.6,
+          "company_fcf": 648.0,
+          "fcf_margin": 0.25,
+          "financing_sbc_tax_cash": 36.60250000000001,
+          "financial_principal_repaid": 0.0,
+          "remaining_financial_principal": 0.0,
+          "operating_lease_claim": 16.851,
+          "retained_unrestricted_cash": 1820.3515,
+          "fully_diluted_shares": 201.78707598266334,
+          "fcf_per_share": 3.2113057629898623
+        }
+      ],
+      "terminal_price": 105.27681416933338,
+      "annualized_total_return_pct": 26.718913214164242,
+      "terminal_value_fraction_of_entry": 3.2674368146906696,
+      "first_to_fourth_cash_fcf_share_cagr_pct": 37.86897525582509
+    }
+  },
+  "starting_max_known_fully_diluted_shares": 191.993479,
+  "multiple_cap": 40.43,
+  "base_return_price_ceiling": 31.565731182411927,
+  "bear_floor_price_ceiling": 26.983930831702025,
+  "model_entry_ceiling": 26.983930831702025,
+  "status": "G-watch: model fails G5 at32.22 under disclosed assumptions; ceiling is model-dependent, not full capital authorization",
+  "assumption_notes": [
+    "Year1 is rolling12months endingOct14,2027; base revenue uses approximate50/50FY27/FY28 blend, not a current fiscal-year-only NTM estimate. All annual cash/margins afterFY27 are own scenario estimates, not consensus or a precise fiscal-quarter export.",
+    "Base terminal20%companycashFCF margin is bottom of company20\u201325%nonGAAPtarget after a transition, not an assumption targets are achieved. Use actualOCFminusallcashPP&E; no acquisition/SBCcost addbacks.",
+    "Known current RSUs and200%PSUs are included up front; annual new-award dilution is additional, without netting buybacks. A fresh award/earnout register is required before full G3 proof.",
+    "No newcashfundedM&Aoruncommittedfutureequityraise assumed. Such a deal must be rerun.",
+    "Peer universe preselected ADI/NXPI/TXN as established profitable analog suppliers; capital intensity/customer mix differ. A20x or30xbase terminal sensitivity remains shown below."
+  ],
+  "base_terminal_multiple_sensitivity": {
+    "20": {
+      "price": 45.5891480272271
+    },
+    "25": {
+      "price": 55.62960382345059
+    },
+    "30": {
+      "price": 65.67005961967408
+    }
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "ticker": "ASTS",
+  "filings": 69,
+  "errors": 8,
+  "S": 5582430.0,
+  "P": 12837.0,
+  "oldest_recent_filing": "2019-06-27",
+  "owners": {
+    "Yao Huiwen": {
+      "S": 160000.0,
+      "P": 0,
+      "roles": [
+        {
+          "name": "Yao Huiwen",
+          "officer": "1",
+          "title": "Chief Technology Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "filings": [
+        "https://www.sec.gov/Archives/edgar/data/1780312/000149315226043183/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1780312/000149315226027782/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1780312/000149315226012442/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1780312/000149315225026708/ownership.xml"
+      ]
+    },
+    "Gupta Shanti B.": {
+      "S": 22000.0,
+      "P": 0,
+      "roles": [
+        {
+          "name": "Gupta Shanti B.",
+          "officer": "1",
+          "title": "Chief Operating Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "filings": [
+        "https://www.sec.gov/Archives/edgar/data/1780312/000149315226043182/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1780312/000149315225027599/ownership.xml"
+      ]
+    },
+    "Cisneros Adriana": {
+      "S": 0,
+      "P": 10822.0,
+      "roles": [
+        {
+          "name": "Cisneros Adriana",
+          "officer": "0",
+          "title": "",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "filings": [
+        "https://www.sec.gov/Archives/edgar/data/1780312/000110465926104326/tm2624604-1_4seq1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1780312/000110465926104326/tm2624604-1_4seq1.xml",
+        "https://www.sec.gov/Archives/edgar/data/1780312/000110465926104326/tm2624604-1_4seq1.xml"
+      ]
+    },
+    "Johnson Andrew Martin": {
+      "S": 50809.0,
+      "P": 0,
+      "roles": [
+        {
+          "name": "Johnson Andrew Martin",
+          "officer": "1",
+          "title": "CFO and CLO",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "filings": [
+        "https://www.sec.gov/Archives/edgar/data/1780312/000149315226028542/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1780312/000149315226024877/ownership.xml"
+      ]
+    },
+    "Torres Julio A.": {
+      "S": 15000.0,
+      "P": 0,
+      "roles": [
+        {
+          "name": "Torres Julio A.",
+          "officer": "0",
+          "title": "",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "filings": [
+        "https://www.sec.gov/Archives/edgar/data/1780312/000149315226023228/ownership.xml"
+      ]
+    },
+    "Mikitani Hiroshi;Rakuten Group, Inc.;Rakuten Mobile, Inc.": {
+      "S": 3040000.0,
+      "P": 0,
+      "roles": [
+        {
+          "name": "Mikitani Hiroshi",
+          "officer": "0",
+          "title": "",
+          "director": "0",
+          "ten_percent": "1"
+        },
+        {
+          "name": "Rakuten Group, Inc.",
+          "officer": "0",
+          "title": "",
+          "director": "0",
+          "ten_percent": "1"
+        },
+        {
+          "name": "Rakuten Mobile, Inc.",
+          "officer": "0",
+          "title": "",
+          "director": "0",
+          "ten_percent": "1"
+        }
+      ],
+      "filings": [
+        "https://www.sec.gov/Archives/edgar/data/1780312/000095010326005837/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1780312/000095010326005837/ownership.xml"
+      ]
+    },
+    "LARSON KEITH R": {
+      "S": 0,
+      "P": 2015.0,
+      "roles": [
+        {
+          "name": "LARSON KEITH R",
+          "officer": "0",
+          "title": "",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "filings": [
+        "https://www.sec.gov/Archives/edgar/data/1780312/000149315225029456/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1780312/000149315225028216/ownership.xml",
+        "https://www.sec.gov/Archives/edgar/data/1780312/000149315225027104/ownership.xml"
+      ]
+    },
+    "AMERICAN TOWER CORP /MA/": {
+      "S": 2288621.0,
+      "P": 0,
+      "roles": [
+        {
+          "name": "AMERICAN TOWER CORP /MA/",
+          "officer": "false",
+          "title": "",
+          "director": "false",
+          "ten_percent": "false"
+        }
+      ],
+      "filings": [
+        "https://www.sec.gov/Archives/edgar/data/1780312/000119312525315966/ownership.xml"
+      ]
+    },
+    "Bernal Maya": {
+      "S": 6000.0,
+      "P": 0,
+      "roles": [
+        {
+          "name": "Bernal Maya",
+          "officer": "1",
+          "title": "Chief Accounting Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "filings": [
+        "https://www.sec.gov/Archives/edgar/data/1780312/000149315225026707/ownership.xml"
+      ]
+    }
+  }
+}

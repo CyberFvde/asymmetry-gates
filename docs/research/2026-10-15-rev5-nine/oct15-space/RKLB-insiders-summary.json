@@ -1,0 +1,391 @@
+{
+  "ticker": "RKLB",
+  "filings": 62,
+  "errors": 0,
+  "S": 8880247.0,
+  "P": 0,
+  "oldest_recent_filing": "2020-08-07",
+  "owners": {
+    "Spice Adam C.": {
+      "S": 1843771.0,
+      "P": 0,
+      "roles": [
+        {
+          "name": "Spice Adam C.",
+          "officer": "1",
+          "title": "Chief Financial Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "filings": [
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000143/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000143/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000143/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000136/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000136/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000129/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000129/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000129/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000077/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000077/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000077/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000077/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000077/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000077/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000022/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000022/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000022/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000022/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000022/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000002/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000002/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000002/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000002/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000002/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000002/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000002/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000109/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000109/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000109/edgardoc.xml"
+      ]
+    },
+    "Klein Frank": {
+      "S": 390268.0,
+      "P": 0,
+      "roles": [
+        {
+          "name": "Klein Frank",
+          "officer": "1",
+          "title": "Chief Operations Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "filings": [
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000133/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000133/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000133/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000127/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000127/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000127/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000081/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000081/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000081/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000081/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000081/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000081/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000081/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000081/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000074/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000074/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000074/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000074/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000074/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000074/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000021/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000021/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000021/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000021/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000021/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000021/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000021/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000021/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000021/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000021/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000001/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000001/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000001/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000001/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000001/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000001/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000001/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000001/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000001/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000111/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000111/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000108/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000108/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000108/edgardoc.xml"
+      ]
+    },
+    "Kampani Arjun": {
+      "S": 315901.0,
+      "P": 0,
+      "roles": [
+        {
+          "name": "Kampani Arjun",
+          "officer": "1",
+          "title": "SVP & General Counsel",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "filings": [
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000132/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000132/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000126/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000126/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000126/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000105/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000079/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000079/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000079/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000079/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000079/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000079/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000079/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000079/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000073/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000073/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000073/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000073/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000073/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000073/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000073/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000073/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000020/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000020/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000020/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000020/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000020/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000020/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000020/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000020/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000020/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000020/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000110/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000110/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000107/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000107/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000107/edgardoc.xml"
+      ]
+    },
+    "Ricupati Agostino": {
+      "S": 669.0,
+      "P": 0,
+      "roles": [
+        {
+          "name": "Ricupati Agostino",
+          "officer": "1",
+          "title": "VP Corp Controller & CAO",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "filings": [
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000128/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000128/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000128/edgardoc.xml"
+      ]
+    },
+    "Clevenger Marvin Bradford": {
+      "S": 34100.0,
+      "P": 0,
+      "roles": [
+        {
+          "name": "Clevenger Marvin Bradford",
+          "officer": "1",
+          "title": "President, Rocket Lab USA, Inc",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "filings": [
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000125/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000125/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000125/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000080/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000072/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000072/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000072/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000072/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000072/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000072/edgardoc.xml"
+      ]
+    },
+    "Beck Peter": {
+      "S": 5813493.0,
+      "P": 0,
+      "roles": [
+        {
+          "name": "Beck Peter",
+          "officer": "1",
+          "title": "CEO",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "filings": [
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000109/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000109/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000109/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000109/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000109/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000109/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000109/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000109/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000109/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000109/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000109/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000109/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000109/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000109/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000109/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000109/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000109/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000109/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000109/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000109/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000109/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000109/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000109/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000109/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000019/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000019/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000019/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000019/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000019/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000126/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000126/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000126/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000126/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000126/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000126/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000126/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000126/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000126/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000126/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000126/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000126/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000126/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000126/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000106/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000106/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000106/edgardoc.xml"
+      ]
+    },
+    "Slusky Alexander R": {
+      "S": 200000.0,
+      "P": 0,
+      "roles": [
+        {
+          "name": "Slusky Alexander R",
+          "officer": "0",
+          "title": "",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "filings": [
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000095/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000082/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000082/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000048/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000048/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000048/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000048/edgardoc.xml"
+      ]
+    },
+    "Saintil Merline": {
+      "S": 161626.0,
+      "P": 0,
+      "roles": [
+        {
+          "name": "Saintil Merline",
+          "officer": "0",
+          "title": "",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "filings": [
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000025/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000005/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000005/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000130/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000128/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000128/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000128/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000128/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000124/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000114/edgardoc.xml"
+      ]
+    },
+    "Olson Jon A": {
+      "S": 90605.0,
+      "P": 0,
+      "roles": [
+        {
+          "name": "Olson Jon A",
+          "officer": "0",
+          "title": "",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "filings": [
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000006/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000006/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000006/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000006/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000006/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000006/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000006/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000006/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000006/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000006/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000129/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000129/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000129/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000129/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000129/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000129/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000129/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000129/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000129/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000101/edgardoc.xml"
+      ]
+    },
+    "Frank Edward H.": {
+      "S": 2500.0,
+      "P": 0,
+      "roles": [
+        {
+          "name": "Frank Edward H.",
+          "officer": "0",
+          "title": "",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "filings": [
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000132/edgardoc.xml"
+      ]
+    },
+    "Armagno Nina": {
+      "S": 27314.0,
+      "P": 0,
+      "roles": [
+        {
+          "name": "Armagno Nina",
+          "officer": "0",
+          "title": "",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "filings": [
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000131/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000131/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000131/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000131/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000131/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000131/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000131/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000131/edgardoc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1819994/000200101125000131/edgardoc.xml"
+      ]
+    }
+  }
+}

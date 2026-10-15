@@ -1,0 +1,422 @@
+{
+  "asof": "2026-10-14",
+  "ticker": "FPS",
+  "status": "H sensitivity only, not qualification",
+  "liquidity": {
+    "cash": 97.477,
+    "restricted_excluded": 24.236,
+    "committed_available_revolver": 246.4,
+    "total": 343.877
+  },
+  "h2_assumptions": {
+    "revenue": [
+      2125,
+      2300
+    ],
+    "ocf_before_incremental_wc_margin": 0.17,
+    "working_capital_cash_use_margin": 0.12,
+    "net_ocf": [
+      106.25,
+      115
+    ],
+    "cash_ppe": [
+      108.75,
+      100
+    ],
+    "principal_due": [
+      6,
+      6
+    ],
+    "assumed_tra_cash": [
+      25,
+      25
+    ],
+    "net_consumption": [
+      33.5,
+      16
+    ],
+    "buffered_need": 61.875,
+    "note": "IncrementalWC assumption on assumed revenue is a scenario, not issuer guidance. Operating rent/cashinterest/tax alreadyinOCF; do notadd leasecashagain. FullTRAacceleration separateadversecase; actualpaymenttimingunverified."
+  },
+  "claims": {
+    "gross_financial_principal": 598.5,
+    "operating_leases": 121.596,
+    "tra": 338.925,
+    "surety_max": 17.6,
+    "net_claims_after_cash": 979.144,
+    "fy27_fcf_consensus": 248.21,
+    "stress_net_claims_over_fcf": 3.944820917771242
+  },
+  "proposed_quality_path": {
+    "deadline": "2031-10-14(not activated while watch-only)",
+    "revenue": [
+      2500,
+      3200,
+      3800,
+      4300,
+      4800
+    ],
+    "company_fcf": [
+      250,
+      384,
+      532,
+      602,
+      672
+    ],
+    "cash_ppe": [
+      87,
+      96,
+      114,
+      129,
+      144
+    ],
+    "provisional_max_economic_shares_24months": 320,
+    "provisional_max_economic_shares_deadline": 335,
+    "ordinary_dilution_assumption": "~2%initially then~1%converges\u22643%G; mustreconcilecompleteawardsandUp-Cregister",
+    "valuation_base": {
+      "annual": [
+        {
+          "year_ending": "2027-10-14",
+          "revenue": 2500,
+          "cash_ppe": 87,
+          "company_ocf": 337,
+          "company_fcf": 250,
+          "fcf_margin_pct": 10.0,
+          "principal_payment": 6,
+          "tra_payment": 25,
+          "retained_cash": 316.477,
+          "financial_principal": 592.5,
+          "remaining_tra": 313.925,
+          "maximum_economic_shares_assumed": 310
+        },
+        {
+          "year_ending": "2028-10-14",
+          "revenue": 3200,
+          "cash_ppe": 96,
+          "company_ocf": 480,
+          "company_fcf": 384,
+          "fcf_margin_pct": 12.0,
+          "principal_payment": 6,
+          "tra_payment": 25,
+          "retained_cash": 669.477,
+          "financial_principal": 586.5,
+          "remaining_tra": 288.925,
+          "maximum_economic_shares_assumed": 316
+        },
+        {
+          "year_ending": "2029-10-14",
+          "revenue": 3800,
+          "cash_ppe": 114,
+          "company_ocf": 646,
+          "company_fcf": 532,
+          "fcf_margin_pct": 14.0,
+          "principal_payment": 6,
+          "tra_payment": 25,
+          "retained_cash": 1170.4769999999999,
+          "financial_principal": 580.5,
+          "remaining_tra": 263.925,
+          "maximum_economic_shares_assumed": 322
+        },
+        {
+          "year_ending": "2030-10-14",
+          "revenue": 4300,
+          "cash_ppe": 129,
+          "company_ocf": 731,
+          "company_fcf": 602,
+          "fcf_margin_pct": 14.0,
+          "principal_payment": 6,
+          "tra_payment": 25,
+          "retained_cash": 1741.4769999999999,
+          "financial_principal": 574.5,
+          "remaining_tra": 238.925,
+          "maximum_economic_shares_assumed": 329
+        },
+        {
+          "year_ending": "2031-10-14",
+          "revenue": 4800,
+          "cash_ppe": 144,
+          "company_ocf": 816,
+          "company_fcf": 672,
+          "fcf_margin_pct": 14.0,
+          "principal_payment": 6,
+          "tra_payment": 25,
+          "retained_cash": 2382.477,
+          "financial_principal": 568.5,
+          "remaining_tra": 213.925,
+          "maximum_economic_shares_assumed": 335
+        }
+      ],
+      "terminal_ev_company_fcf_multiple": 25,
+      "terminal_enterprise_value": 16800,
+      "terminal_claims": 921.621,
+      "terminal_net_cash_after_all_modeled_claims": 1460.8559999999998,
+      "terminal_equity_value": 18260.856,
+      "terminal_price": 54.51001791044776,
+      "annualized_total_return_pct": 10.760705768764556,
+      "twenty_percent_return_entry_ceiling": 21.90635364842455
+    },
+    "failure_equity_value": 0,
+    "failure_loss_pct_of_invested_premium_or_stock_cash": 100,
+    "note": "FutureFCFcashconversion,annualsharesandterminalclaimsneedfullsources;25xmultipleand1.5BnetcashareownassumptionsnotG/Hpass. CurrentH5annualsalesnotcleared."
+  },
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/2080126/000208012626000035/fps-20260630.htm",
+    "https://ir.forgentpower.com/sec-filings/all-sec-filings/content/0002080126-26-000034/exhibit991earningsrelease_.htm",
+    "https://stockanalysis.com/stocks/fps/forecast/"
+  ],
+  "scenarios": {
+    "bear": {
+      "annual": [
+        {
+          "year_ending": "2027-10-14",
+          "revenue": 2000,
+          "cash_ppe": 100,
+          "company_ocf": 200,
+          "company_fcf": 100,
+          "fcf_margin_pct": 5.0,
+          "principal_payment": 6,
+          "tra_payment": 25,
+          "retained_cash": 166.477,
+          "financial_principal": 592.5,
+          "remaining_tra": 313.925,
+          "maximum_economic_shares_assumed": 313
+        },
+        {
+          "year_ending": "2028-10-14",
+          "revenue": 2200,
+          "cash_ppe": 88,
+          "company_ocf": 220,
+          "company_fcf": 132,
+          "fcf_margin_pct": 6.0,
+          "principal_payment": 6,
+          "tra_payment": 25,
+          "retained_cash": 267.477,
+          "financial_principal": 586.5,
+          "remaining_tra": 288.925,
+          "maximum_economic_shares_assumed": 322
+        },
+        {
+          "year_ending": "2029-10-14",
+          "revenue": 2400,
+          "cash_ppe": 96,
+          "company_ocf": 272,
+          "company_fcf": 176,
+          "fcf_margin_pct": 7.333333333333333,
+          "principal_payment": 6,
+          "tra_payment": 25,
+          "retained_cash": 412.477,
+          "financial_principal": 580.5,
+          "remaining_tra": 263.925,
+          "maximum_economic_shares_assumed": 331
+        },
+        {
+          "year_ending": "2030-10-14",
+          "revenue": 2600,
+          "cash_ppe": 104,
+          "company_ocf": 312,
+          "company_fcf": 208,
+          "fcf_margin_pct": 8.0,
+          "principal_payment": 6,
+          "tra_payment": 25,
+          "retained_cash": 589.477,
+          "financial_principal": 574.5,
+          "remaining_tra": 238.925,
+          "maximum_economic_shares_assumed": 340
+        },
+        {
+          "year_ending": "2031-10-14",
+          "revenue": 2800,
+          "cash_ppe": 112,
+          "company_ocf": 352,
+          "company_fcf": 240,
+          "fcf_margin_pct": 8.571428571428571,
+          "principal_payment": 6,
+          "tra_payment": 25,
+          "retained_cash": 798.477,
+          "financial_principal": 568.5,
+          "remaining_tra": 213.925,
+          "maximum_economic_shares_assumed": 350
+        }
+      ],
+      "terminal_ev_company_fcf_multiple": 18,
+      "terminal_enterprise_value": 4320,
+      "terminal_claims": 921.621,
+      "terminal_net_cash_after_all_modeled_claims": -123.144,
+      "terminal_equity_value": 4196.856,
+      "terminal_price": 11.991017142857142,
+      "annualized_total_return_pct": -18.179589465959502,
+      "twenty_percent_return_entry_ceiling": 4.81892085537919
+    },
+    "base": {
+      "annual": [
+        {
+          "year_ending": "2027-10-14",
+          "revenue": 2500,
+          "cash_ppe": 87,
+          "company_ocf": 337,
+          "company_fcf": 250,
+          "fcf_margin_pct": 10.0,
+          "principal_payment": 6,
+          "tra_payment": 25,
+          "retained_cash": 316.477,
+          "financial_principal": 592.5,
+          "remaining_tra": 313.925,
+          "maximum_economic_shares_assumed": 310
+        },
+        {
+          "year_ending": "2028-10-14",
+          "revenue": 3200,
+          "cash_ppe": 96,
+          "company_ocf": 480,
+          "company_fcf": 384,
+          "fcf_margin_pct": 12.0,
+          "principal_payment": 6,
+          "tra_payment": 25,
+          "retained_cash": 669.477,
+          "financial_principal": 586.5,
+          "remaining_tra": 288.925,
+          "maximum_economic_shares_assumed": 316
+        },
+        {
+          "year_ending": "2029-10-14",
+          "revenue": 3800,
+          "cash_ppe": 114,
+          "company_ocf": 646,
+          "company_fcf": 532,
+          "fcf_margin_pct": 14.0,
+          "principal_payment": 6,
+          "tra_payment": 25,
+          "retained_cash": 1170.4769999999999,
+          "financial_principal": 580.5,
+          "remaining_tra": 263.925,
+          "maximum_economic_shares_assumed": 322
+        },
+        {
+          "year_ending": "2030-10-14",
+          "revenue": 4300,
+          "cash_ppe": 129,
+          "company_ocf": 731,
+          "company_fcf": 602,
+          "fcf_margin_pct": 14.0,
+          "principal_payment": 6,
+          "tra_payment": 25,
+          "retained_cash": 1741.4769999999999,
+          "financial_principal": 574.5,
+          "remaining_tra": 238.925,
+          "maximum_economic_shares_assumed": 329
+        },
+        {
+          "year_ending": "2031-10-14",
+          "revenue": 4800,
+          "cash_ppe": 144,
+          "company_ocf": 816,
+          "company_fcf": 672,
+          "fcf_margin_pct": 14.0,
+          "principal_payment": 6,
+          "tra_payment": 25,
+          "retained_cash": 2382.477,
+          "financial_principal": 568.5,
+          "remaining_tra": 213.925,
+          "maximum_economic_shares_assumed": 335
+        }
+      ],
+      "terminal_ev_company_fcf_multiple": 25,
+      "terminal_enterprise_value": 16800,
+      "terminal_claims": 921.621,
+      "terminal_net_cash_after_all_modeled_claims": 1460.8559999999998,
+      "terminal_equity_value": 18260.856,
+      "terminal_price": 54.51001791044776,
+      "annualized_total_return_pct": 10.760705768764556,
+      "twenty_percent_return_entry_ceiling": 21.90635364842455
+    },
+    "bull": {
+      "annual": [
+        {
+          "year_ending": "2027-10-14",
+          "revenue": 2600,
+          "cash_ppe": 87,
+          "company_ocf": 399,
+          "company_fcf": 312,
+          "fcf_margin_pct": 12.0,
+          "principal_payment": 6,
+          "tra_payment": 25,
+          "retained_cash": 378.477,
+          "financial_principal": 592.5,
+          "remaining_tra": 313.925,
+          "maximum_economic_shares_assumed": 309
+        },
+        {
+          "year_ending": "2028-10-14",
+          "revenue": 3400,
+          "cash_ppe": 102,
+          "company_ocf": 612,
+          "company_fcf": 510,
+          "fcf_margin_pct": 15.0,
+          "principal_payment": 6,
+          "tra_payment": 25,
+          "retained_cash": 857.477,
+          "financial_principal": 586.5,
+          "remaining_tra": 288.925,
+          "maximum_economic_shares_assumed": 314
+        },
+        {
+          "year_ending": "2029-10-14",
+          "revenue": 4200,
+          "cash_ppe": 126,
+          "company_ocf": 840,
+          "company_fcf": 714,
+          "fcf_margin_pct": 17.0,
+          "principal_payment": 6,
+          "tra_payment": 25,
+          "retained_cash": 1540.4769999999999,
+          "financial_principal": 580.5,
+          "remaining_tra": 263.925,
+          "maximum_economic_shares_assumed": 319
+        },
+        {
+          "year_ending": "2030-10-14",
+          "revenue": 5000,
+          "cash_ppe": 150,
+          "company_ocf": 950,
+          "company_fcf": 800,
+          "fcf_margin_pct": 16.0,
+          "principal_payment": 6,
+          "tra_payment": 25,
+          "retained_cash": 2309.477,
+          "financial_principal": 574.5,
+          "remaining_tra": 238.925,
+          "maximum_economic_shares_assumed": 324
+        },
+        {
+          "year_ending": "2031-10-14",
+          "revenue": 5800,
+          "cash_ppe": 174,
+          "company_ocf": 1102,
+          "company_fcf": 928,
+          "fcf_margin_pct": 16.0,
+          "principal_payment": 6,
+          "tra_payment": 25,
+          "retained_cash": 3206.477,
+          "financial_principal": 568.5,
+          "remaining_tra": 213.925,
+          "maximum_economic_shares_assumed": 330
+        }
+      ],
+      "terminal_ev_company_fcf_multiple": 30,
+      "terminal_enterprise_value": 27840,
+      "terminal_claims": 921.621,
+      "terminal_net_cash_after_all_modeled_claims": 2284.8559999999998,
+      "terminal_equity_value": 30124.856,
+      "terminal_price": 91.28744242424243,
+      "annualized_total_return_pct": 22.792730693645535,
+      "twenty_percent_return_entry_ceiling": 36.68637571704702
+    }
+  },
+  "scenarios_note": "Rolling Oct14 years are approximate fiscal blends. OCF = company FCF + all cash PP&E; rent, cash interest and cash tax are already in OCF. Additional TRA cash payments 25/year and principal 6/year are financing/claim settlement cash flows. Debt maturity beyond FY31 is retained as a terminal claim, not forgotten. Terminal TRA is reduced only by modeled actual cash payments; no TRA tax benefit is added again. Residual lease and full surety balances conservatively remain terminal claims; this is not a prediction that all become payable at once. Cash is retained and valued once, no dividends, buybacks or additional acquisitions assumed. Future shares include current Opco interests; provisional share paths are not a verified full maximum-award register. Complete funding obligations, TRA timing, interest-rate response and peer/own-median valuation cap are unresolved, so none of the three scenarios establishes H2/H4.",
+  "price": 32.7,
+  "failure_tail": {
+    "terminal_equity_value": 0,
+    "stock_cash_loss_pct": 100,
+    "probability": "not assigned"
+  }
+}
