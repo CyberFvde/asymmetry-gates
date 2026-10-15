@@ -13,6 +13,7 @@ See the adopted entry in `.claude/skills/asymmetry-gates/references/changelog.md
 
 ## Layout
 
+    non-ai-screen-audit.md       # full 111-ticker open-universe non-AI-capex gate audit (Oct 15, 2026)
     .claude/skills/asymmetry-gates/
     ├── SKILL.md                 # when it triggers + how to run a screen
     └── references/
@@ -23,6 +24,28 @@ See the adopted entry in `.claude/skills/asymmetry-gates/references/changelog.md
         ├── triggers.md          # #15 kill triggers, incl. the shared "AI capex 2027" trigger
         ├── roster.md            # dated roster, top-10, what changed — edited every re-test
         └── changelog.md         # #18 log: adopted + pending rule changes with rationale
+
+## Non-AI-Capex Diversification Watchlist (Oct 15, 2026 Open-Universe Screen)
+
+Full ticker-by-ticker gate math across 111+ non-AI-capex candidates (9 lanes) is documented in [`non-ai-screen-audit.md`](non-ai-screen-audit.md), with per-name `#15` kill/entry conditions in [`.claude/skills/asymmetry-gates/references/triggers.md`](.claude/skills/asymmetry-gates/references/triggers.md).
+
+- **Tier 1 — Gate Passes (Ready Now, `≥25%` 3Y IRR):**
+  - **UBER** (Lane 2 Seed — Waiver `#10` + `#15`): Actionable Now at `$69.62–$71.50` (Buy **`≤ $84.00`**; `~31.5%` 3Y IRR).
+  - **HWM** (Lane 1 Seed — Rev 5 Standard Core at `$216.84` / `#14a` Starter at `$231.27`): **Standard Core (`38×` Rev 5) trigger `≤ $221.65–$224.58`**; **Legacy `35×` trigger `≤ $204.15–$206.80`**; **`#14a` Starter (`48×` Rev 5) ceiling `≤ $279.84`** (`~27.8%` 3Y IRR).
+  - **LLY** (Lane 4 Seed — `#16` Ballast Slot Pass Now at `$1,142.85`): **Full Core Pass trigger `≤ $1,107.36`** (`+20.0%` PT upside; `0.3551% ≤ 0.50%` Lilly Endowment net selling across 126 Form 4s, `0` discretionary officer sales; `~26.5%` 3Y IRR).
+- **Tier 2 — Primary Near-Pass Watchlist (`≥25%` 3Y IRR at Trigger, Rule A Top 14 Survivors):**
+  - **PODD** (`[NEW DISCOVERY]`, Lane 4 — `1-Step Core / G-watch`, spot `$131.69`): **`≤ $126.76`** (blended `5.0%` FCF yield) / **`≤ $108.35`** (full `1.25×` capex fallback) or Nov 4 Q3 capex/GM guide.
+  - **NBIX** (`[NEW DISCOVERY]`, Lane 4 — `G-watch`, spot `$143.18`): **`≤ $175.00`** once Oct 27 Q3 print reduces YoY diluted WASO `≤ +3.00%` (currently `+3.17%`, 17bp over merged Rev 5 `G3` cap).
+  - **KOG.OL** (`[NEW DISCOVERY]`, Lane 5 — `1-Step Core Watch`, spot `NOK 308.00`): **`≤ NOK 350.30`** (`38×` Core; `≤ NOK 322.66` at `35×`) after a clean Oct 29, 2026 Q3 print exits `#19` blackout.
+  - **SAF.PA** (`[NEW DISCOVERY]`, Lane 1 — `G-watch`, spot `~€314.90`): **`≤ €310.00–€323.00`** (`G5` `12.0%` 5Y base return ceiling).
+  - **ARGX** (Lane 4 Seed — `G-watch`, spot `$810.00`): **`≤ $785.00`** after Feb 2027 FY26 2nd positive OCF year (`G2`) + AFM/FSMA insider verification.
+  - **ATI** (`[NEW DISCOVERY]`, Lane 1 — `#14a / G-watch`, spot `$189.50`): **`≤ $175.00`** + FY27 organic rev consensus `≥ 10.0%`.
+  - **WWD** (`[NEW DISCOVERY]`, Lane 1 — `#14a / G-watch`, spot `$331.62`): **`≤ $305.00`** + Nov FY27 FCF guide `≥ $377M` (curing `A3b`/`A4`).
+  - **HEI** (Lane 1 Seed — `G-watch`, spot `$302.45`): **`≤ $275.00` (NCI-adjusted) to `$296.00`** (`G5` `12%` 5Y base return ceiling).
+  - **CART** (`[NEW DISCOVERY]`, Lane 2 — `#10 / #14a watch`, spot `$49.40`): **`≤ $48.50`** + 3Y EPS CAGR `≥ 20.0%` (`#10`) or 3Y rev `≥ 12.0%` (`#14a`).
+  - **KRYS** (`[NEW DISCOVERY]`, Lane 4 — `G-watch`, spot `$331.80`): **`≤ $275.00`** (`G5` ceiling; `#12` clears at `≤ $326.75`).
+  - **ADMA** (`[NEW DISCOVERY]`, Lane 4 — `G-watch`, spot `$10.20`): **`≤ $9.50`** (`G5` ceiling once Mkt Cap `≥ $2.5B` & Form 4s verified).
+- **Tier 2 — Rule B Single-Gate / Valuation & Route H Watchlist:** **TW** (`≤ $82.00` + `≥15%` rev / `≥20%` EPS print), **SCHW** (`≤ $95.00` after Q3 2027 `A7` officer roll-off), **ISRG** (`≤ $339.00` `G5` / `≤ $348.40` `PEG ≤ 2.0`), **FTNT** (`≤ $72.24` `G5` / `≤ $69.00` `#12`), **REGN** (`≤ $617.00` `G5`), **CVLT** (`≤ $131.50` `G5`), **CRS** (`≤ $335.00` `G5`), **CRWD** (`≤ $265.24` `G5`), **KAP.L** (`≤ $52.00` + `F2` insider buy + 1Q buyback), **KRMN** (`H-watch ≤ $24.56`), **MDGL** (`H-watch ≤ $397.00`), **AVAV** (`H-watch ≤ $72.88`), **ASTS** (`H-watch ≤ $22.00` after `#19a` exit + `H2` funding).
 
 ## Use it
 
@@ -37,3 +60,4 @@ See the adopted entry in `.claude/skills/asymmetry-gates/references/changelog.md
 - `triggers.md`: write a name's #15 line before its first tranche.
 - `framework.md`: first add a #18 entry to `changelog.md` (change, rationale, safeguard check, full-universe impact, adoption basis and required re-tests), then apply the text. Explicit user-requested calibration can occur between re-tests; it does not refresh the roster.
 - Whoever edits (you, Claude, GPT) commits the full file, not a diff, and checks the roster header date first.
+
