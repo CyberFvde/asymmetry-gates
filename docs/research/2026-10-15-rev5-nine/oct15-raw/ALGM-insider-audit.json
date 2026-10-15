@@ -1,0 +1,1017 @@
+{
+  "ticker": "ALGM",
+  "annual_transaction_window": [
+    "2025-10-15",
+    "2026-10-14"
+  ],
+  "filings_reviewed_asof": "2026-10-15",
+  "index_source": "https://data.sec.gov/submissions/CIK0000866291.json",
+  "recent_index_covers_window": true,
+  "filings": [
+    {
+      "accession": "0001193125-26-410685",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526410685/ownership.xml",
+      "form": "4",
+      "filed": "2026-10-01",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Willett Robert",
+          "officer": "false",
+          "director": "true",
+          "ten_percent": "false",
+          "title": ""
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Each deferred stock unit (\"DSU\") represents a contingent right to receive one share of the Issuer's Common Stock.",
+        "F2": "As part of the Issuer's non-employee director compensation program, the reporting person elected to receive his quarterly cash board retainer fee in the form of DSUs pursuant to a prior election under the Issuer's Deferred Compensation Plan for Non-Employee Directors. The number of DSUs was calculated by dividing the quarterly cash retainer amount deferred by $36.35, the Fair Market Value of a share of the Issuer's Common Stock on the effective date of the deferral.",
+        "F3": "The DSUs are fully vested when granted and will be settled in a lump sum in whole shares of the Issuer's Common Stock, with cash paid in lieu of any fractional DSU, following the reporting person's separation from service, disability, or death."
+      }
+    },
+    {
+      "accession": "0001193125-26-355476",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526355476/ownership.xml",
+      "form": "4",
+      "filed": "2026-08-18",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Raubacher Jennie",
+          "officer": "false",
+          "director": "true",
+          "ten_percent": "false",
+          "title": ""
+        }
+      ],
+      "trades": [
+        {
+          "date": "2026-08-17",
+          "code": "S",
+          "shares": "1000",
+          "price": "45.320",
+          "after": "13976",
+          "security": "Common Stock",
+          "ownership": "D"
+        }
+      ],
+      "footnotes": {
+        "F1": "The sales reported in this Form 4 were effected pursuant to a Rule 10b5-1 trading plan adopted by the Reporting Person on May 19, 2026. Details regarding the Reporting Person's trading plan were reported in Part II, Item 5 of the Issuer's Quarterly Report on Form 10-Q for the period ending June 26, 2026, filed with the SEC on July 31, 2026."
+      }
+    },
+    {
+      "accession": "0001193125-26-346892",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526346892/ownership.xml",
+      "form": "4",
+      "filed": "2026-08-12",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Hagen Erin",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "SVP, CHRO"
+        }
+      ],
+      "trades": [
+        {
+          "date": "2026-08-10",
+          "code": "S",
+          "shares": "2285",
+          "price": "44.390",
+          "after": "31052",
+          "security": "Common Stock",
+          "ownership": "D"
+        }
+      ],
+      "footnotes": {
+        "F1": "The sales reported in this Form 4 were effected pursuant to a Rule 10b5-1 trading plan adopted by the Reporting Person on May 11, 2026. Details regarding the Reporting Person's trading plan were reported in Part II, Item 5 of the Issuer's Quarterly Report on Form 10-Q for the period ending June 26, 2026, filed with the SEC on July 31, 2026."
+      }
+    },
+    {
+      "accession": "0001193125-26-339123",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526339123/ownership.xml",
+      "form": "4",
+      "filed": "2026-08-07",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Suzuki Yoshihiro",
+          "officer": "false",
+          "director": "true",
+          "ten_percent": "false",
+          "title": ""
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Represents an award of fully vested, unrestricted shares of the Issuer's Common Stock granted to the reporting person as annual non-employee director equity compensation pursuant to the Company's Annual Non-Employee Director Compensation Program."
+      }
+    },
+    {
+      "accession": "0001193125-26-339121",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526339121/ownership.xml",
+      "form": "4",
+      "filed": "2026-08-07",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "MARTIN JOSEPH R",
+          "officer": "false",
+          "director": "true",
+          "ten_percent": "false",
+          "title": ""
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Represents an award of fully vested, unrestricted shares of the Issuer's Common Stock granted to the reporting person as annual non-employee director equity compensation pursuant to the Company's Annual Non-Employee Director Compensation Program."
+      }
+    },
+    {
+      "accession": "0001193125-26-339114",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526339114/ownership.xml",
+      "form": "4",
+      "filed": "2026-08-07",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "PUMA MARY G",
+          "officer": "false",
+          "director": "true",
+          "ten_percent": "false",
+          "title": ""
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Represents an award of fully vested, unrestricted shares of the Issuer's Common Stock granted to the reporting person as annual non-employee director equity compensation pursuant to the Company's Annual Non-Employee Director Compensation Program."
+      }
+    },
+    {
+      "accession": "0001193125-26-339105",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526339105/ownership.xml",
+      "form": "4",
+      "filed": "2026-08-07",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Palepu Krishna G.",
+          "officer": "false",
+          "director": "true",
+          "ten_percent": "false",
+          "title": ""
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Represents an award of fully vested, unrestricted shares of the Issuer's Common Stock granted to the reporting person as annual non-employee director equity compensation pursuant to the Company's Annual Non-Employee Director Compensation Program."
+      }
+    },
+    {
+      "accession": "0001193125-26-339103",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526339103/ownership.xml",
+      "form": "4",
+      "filed": "2026-08-07",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Raubacher Jennie",
+          "officer": "false",
+          "director": "true",
+          "ten_percent": "false",
+          "title": ""
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Each deferred stock unit (\"DSU\") represents a contingent right to receive one share of the Issuer's Common Stock.",
+        "F2": "As part of the Company's non-employee director compensation program, the reporting person elected to receive their annual non-employee director equity compensation in the form of DSUs under the Issuer's 2020 Omnibus Incentive Compensation Plan and pursuant to a prior election under the Company's Deferred Compensation Plan for Non-Employee Directors. The DSUs were credited on a one-for-one basis relative to the award of shares of the Issuer's Common Stock.",
+        "F3": "The DSUs are fully vested when granted and will be settled in shares of the Issuer's Common Stock following the reporting person's separation from service, disability, or death."
+      }
+    },
+    {
+      "accession": "0001193125-26-339102",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526339102/ownership.xml",
+      "form": "4",
+      "filed": "2026-08-07",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Willett Robert",
+          "officer": "false",
+          "director": "true",
+          "ten_percent": "false",
+          "title": ""
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Each deferred stock unit (\"DSU\") represents a contingent right to receive one share of the Issuer's Common Stock.",
+        "F2": "As part of the Company's non-employee director compensation program, the reporting person elected to receive their annual non-employee director equity compensation in the form of DSUs under the Issuer's 2020 Omnibus Incentive Compensation Plan and pursuant to a prior election under the Company's Deferred Compensation Plan for Non-Employee Directors. The DSUs were credited on a one-for-one basis relative to the award of shares of the Issuer's Common Stock.",
+        "F3": "The DSUs are fully vested when granted and will be settled in shares of the Issuer's Common Stock following the reporting person's separation from service, disability, or death."
+      }
+    },
+    {
+      "accession": "0001193125-26-339100",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526339100/ownership.xml",
+      "form": "4",
+      "filed": "2026-08-07",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "WHITE BRIAN C",
+          "officer": "false",
+          "director": "true",
+          "ten_percent": "false",
+          "title": ""
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Each deferred stock unit (\"DSU\") represents a contingent right to receive one share of the Issuer's Common Stock.",
+        "F2": "As part of the Company's non-employee director compensation program, the reporting person elected to receive their annual non-employee director equity compensation in the form of DSUs under the Issuer's 2020 Omnibus Incentive Compensation Plan and pursuant to a prior election under the Company's Deferred Compensation Plan for Non-Employee Directors. The DSUs were credited on a one-for-one basis relative to the award of shares of the Issuer's Common Stock.",
+        "F3": "The DSUs are fully vested when granted and will be settled in shares of the Issuer's Common Stock following the reporting person's separation from service, disability, or death."
+      }
+    },
+    {
+      "accession": "0001193125-26-275927",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526275927/ownership.xml",
+      "form": "4",
+      "filed": "2026-06-18",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "WHITE BRIAN C",
+          "officer": "false",
+          "director": "true",
+          "ten_percent": "false",
+          "title": ""
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Represents an award of Restricted Stock Units (\"RSUs\"). Each RSU represents a contingent right to receive one share of common stock. The RSUs will vest on the date of the next annual meeting following the grant date."
+      }
+    },
+    {
+      "accession": "0001193125-26-257433",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526257433/ownership.xml",
+      "form": "4",
+      "filed": "2026-06-04",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Madormo Richard",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "SVP, Worldwide Sales"
+        }
+      ],
+      "trades": [
+        {
+          "date": "2026-06-03",
+          "code": "S",
+          "shares": "5000",
+          "price": "52.720",
+          "after": "69687",
+          "security": "Common Stock",
+          "ownership": "D"
+        }
+      ],
+      "footnotes": {}
+    },
+    {
+      "accession": "0001193125-26-239343",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526239343/ownership.xml",
+      "form": "4",
+      "filed": "2026-05-26",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Coleman Troy",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "SVP, General Manager, Products"
+        }
+      ],
+      "trades": [
+        {
+          "date": "2026-05-22",
+          "code": "S",
+          "shares": "4500",
+          "price": "45.7200",
+          "after": "77476",
+          "security": "Common Stock",
+          "ownership": "D"
+        }
+      ],
+      "footnotes": {}
+    },
+    {
+      "accession": "0001193125-26-236938",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526236938/ownership.xml",
+      "form": "4",
+      "filed": "2026-05-22",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Webster Roald Graham",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "VP, Chief Accounting Officer"
+        }
+      ],
+      "trades": [
+        {
+          "date": "2026-05-21",
+          "code": "S",
+          "shares": "5217",
+          "price": "44.885",
+          "after": "13106",
+          "security": "Common Stock",
+          "ownership": "D"
+        }
+      ],
+      "footnotes": {}
+    },
+    {
+      "accession": "0001193125-26-231165",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526231165/ownership.xml",
+      "form": "4",
+      "filed": "2026-05-19",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Hagen Erin",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "SVP, CHRO"
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Represents shares withheld to cover taxes due upon the vesting of restricted stock units that were previously granted by the Issuer."
+      }
+    },
+    {
+      "accession": "0001193125-26-231167",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526231167/ownership.xml",
+      "form": "4",
+      "filed": "2026-05-19",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Kent Ian",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "SVP, Global Operations"
+        }
+      ],
+      "trades": [
+        {
+          "date": "2026-05-18",
+          "code": "S",
+          "shares": "2642",
+          "price": "41.5600",
+          "after": "25392",
+          "security": "Common Stock",
+          "ownership": "D"
+        }
+      ],
+      "footnotes": {
+        "F1": "Represents shares withheld to cover taxes due upon the vesting of restricted stock units that were previously granted by the Issuer."
+      }
+    },
+    {
+      "accession": "0001193125-26-231164",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526231164/ownership.xml",
+      "form": "4",
+      "filed": "2026-05-19",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "D'Antilio Derek",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "EVP, CFO & Treasurer"
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Represents shares withheld to cover taxes due upon the vesting of restricted stock units and performance-vesting restricted stock units that were previously granted by the Issuer"
+      }
+    },
+    {
+      "accession": "0001193125-26-231162",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526231162/ownership.xml",
+      "form": "4",
+      "filed": "2026-05-19",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Madormo Richard",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "SVP, Worldwide Sales"
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Represents shares withheld to cover taxes due upon the vesting of restricted stock units that were previously granted by the Issuer."
+      }
+    },
+    {
+      "accession": "0001193125-26-231157",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526231157/ownership.xml",
+      "form": "4",
+      "filed": "2026-05-19",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Webster Roald Graham",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "VP, Chief Accounting Officer"
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Represents shares withheld to cover taxes due upon the vesting of restricted stock units and performance-vesting restricted stock units that were previously granted by the Issuer."
+      }
+    },
+    {
+      "accession": "0001193125-26-231155",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526231155/ownership.xml",
+      "form": "4",
+      "filed": "2026-05-19",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Doogue Michael",
+          "officer": "true",
+          "director": "true",
+          "ten_percent": "false",
+          "title": "President and CEO"
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Represents shares withheld to cover taxes due upon the vesting of restricted stock units and performance-vesting restricted stock units that were previously granted by the Issuer."
+      }
+    },
+    {
+      "accession": "0001193125-26-231146",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526231146/ownership.xml",
+      "form": "4",
+      "filed": "2026-05-19",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Briansky Sharon",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "SVP, GC and Secretary"
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Represents shares withheld to cover taxes due upon the vesting of restricted stock units and performance-vesting restricted stock units that were previously granted by the Issuer"
+      }
+    },
+    {
+      "accession": "0001193125-26-231142",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526231142/ownership.xml",
+      "form": "4",
+      "filed": "2026-05-19",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Coleman Troy",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "SVP, General Manager, Products"
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Represents shares withheld to cover taxes due upon the vesting of restricted stock units that were previously granted by the Issuer."
+      }
+    },
+    {
+      "accession": "0001193125-26-226845",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526226845/ownership.xml",
+      "form": "4",
+      "filed": "2026-05-15",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Willett Robert",
+          "officer": "false",
+          "director": "true",
+          "ten_percent": "false",
+          "title": ""
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Represents an award of Restricted Stock Units (\"RSUs\"). Each RSU represents a contingent right to receive one share of common stock. The RSUs will vest on the date of the next annual meeting following the grant date."
+      }
+    },
+    {
+      "accession": "0001193125-26-226844",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526226844/ownership.xml",
+      "form": "4",
+      "filed": "2026-05-15",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Kent Ian",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "SVP, Global Operations"
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Represents an award of Restricted Stock Units (\"RSUs\") granted on May 13, 2026. Each RSU represents a contingent right to receive one share of common stock. The RSUs will vest in three equal annual installments beginning on May 16, 2027."
+      }
+    },
+    {
+      "accession": "0001193125-26-226842",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526226842/ownership.xml",
+      "form": "4",
+      "filed": "2026-05-15",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Madormo Richard",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "SVP, Worldwide Sales"
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Represents an award of Restricted Stock Units (\"RSUs\") granted on May 13, 2026. Each RSU represents a contingent right to receive one share of common stock. The RSUs will vest in three equal annual installments beginning on May 16, 2027."
+      }
+    },
+    {
+      "accession": "0001193125-26-226841",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526226841/ownership.xml",
+      "form": "4",
+      "filed": "2026-05-15",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Briansky Sharon",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "SVP, GC and Secretary"
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Represents an award of Restricted Stock Units (\"RSUs\") granted on May 13, 2026. Each RSU represents a contingent right to receive one share of common stock. The RSUs will vest in three equal annual installments beginning on May 16, 2027.",
+        "F2": "On May 15, 2023, the Reporting Person was granted an award of performance-vesting restricted stock units (\"PSUs\"), which vest in full on May 16, 2026 in the form of common stock, contingent upon the Issuer's attainment of certain performance objectives between one and three fiscal years. On May 13, 2026, the Compensation Committee of the Issuer's Board of Directors determined that the performance objective goals of the PSUs for the period ending March 27, 2026 had been met for the aggregate number of shares shown. Following certification, the certified portion of the award remains subject to the time-based vesting conditions, with the full amount scheduled to vest on May 16, 2026."
+      }
+    },
+    {
+      "accession": "0001193125-26-226843",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526226843/ownership.xml",
+      "form": "4",
+      "filed": "2026-05-15",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "D'Antilio Derek",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "EVP, CFO & Treasurer"
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Represents an award of Restricted Stock Units (\"RSUs\") granted on May 13, 2026. Each RSU represents a contingent right to receive one share of common stock. The RSUs will vest in three equal annual installments beginning on May 16, 2027.",
+        "F2": "On May 15, 2023 and May 15, 2025, the Reporting Person was granted awards of performance-vesting restricted stock units (\"PSUs\"), which vest in full on May 16, 2026 in the form of common stock, contingent upon the Issuer's attainment of certain performance objectives between one and three fiscal years. On May 13, 2026, the Compensation Committee of the Issuer's Board of Directors determined that the performance objective goals of the PSUs for the period ending March 27, 2026 had been met for the aggregate number of shares shown. Following certification, the certified portion of the awards remain subject to the time-based vesting conditions, with the full amount scheduled to vest on May 16, 2026."
+      }
+    },
+    {
+      "accession": "0001193125-26-226840",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526226840/ownership.xml",
+      "form": "4",
+      "filed": "2026-05-15",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Lynch Susan D",
+          "officer": "false",
+          "director": "true",
+          "ten_percent": "false",
+          "title": ""
+        }
+      ],
+      "trades": [
+        {
+          "date": "2026-05-14",
+          "code": "S",
+          "shares": "16711",
+          "price": "45.4566",
+          "after": "12805",
+          "security": "Common Stock",
+          "ownership": "D"
+        }
+      ],
+      "footnotes": {
+        "F1": "The price reported in Column 4 is a weighted average price. The shares were sold at multiple prices ranging from $45.45 to $45.57. The Reporting Person undertakes to provide to Allegro MicroSystems, Inc. (\"ALGM\"), any security holder of ALGM, or the staff of the SEC, upon request, full information regarding the number of shares sold at each separate price within the range set forth above."
+      }
+    },
+    {
+      "accession": "0001193125-26-226839",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526226839/ownership.xml",
+      "form": "4",
+      "filed": "2026-05-15",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Coleman Troy",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "SVP, General Manager, Products"
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Represents an award of Restricted Stock Units (\"RSUs\") granted on May 13, 2026. Each RSU represents a contingent right to receive one share of common stock. The RSUs will vest in three equal annual installments beginning on May 16, 2027."
+      }
+    },
+    {
+      "accession": "0001193125-26-226838",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526226838/ownership.xml",
+      "form": "4",
+      "filed": "2026-05-15",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Doogue Michael",
+          "officer": "true",
+          "director": "true",
+          "ten_percent": "false",
+          "title": "President and CEO"
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Represents an award of Restricted Stock Units (\"RSUs\") granted on May 13, 2026. Each RSU represents a contingent right to receive one share of common stock. The RSUs will vest in three equal annual installments beginning on May 16, 2027.",
+        "F2": "On May 15, 2023 and May 15, 2025, the Reporting Person was granted awards of performance-vesting restricted stock units (\"PSUs\"), which vest in full on May 16, 2026 in the form of common stock, contingent upon the Issuer's attainment of certain performance objectives between one and three fiscal years. On May 13, 2026, the Compensation Committee of the Issuer's Board of Directors determined that the performance objective goals of the PSUs for the period ending March 27, 2026 had been met for the aggregate number of shares shown. Following certification, the certified portion of the awards remain subject to the time-based vesting conditions, with the full amount scheduled to vest on May 16, 2026."
+      }
+    },
+    {
+      "accession": "0001193125-26-226837",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526226837/ownership.xml",
+      "form": "4",
+      "filed": "2026-05-15",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Hagen Erin",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "SVP, CHRO"
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Represents an award of Restricted Stock Units (\"RSUs\") granted on May 13, 2026. Each RSU represents a contingent right to receive one share of common stock. The RSUs will vest in three equal annual installments beginning on May 16, 2027."
+      }
+    },
+    {
+      "accession": "0001193125-26-226836",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526226836/ownership.xml",
+      "form": "4",
+      "filed": "2026-05-15",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Webster Roald Graham",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "VP, Chief Accounting Officer"
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Represents an award of Restricted Stock Units (\"RSUs\") granted on May 13, 2026. Each RSU represents a contingent right to receive one share of common stock. The RSUs will vest in three equal annual installments beginning on May 16, 2027.",
+        "F2": "On May 15, 2023, the Reporting Person was granted an award of performance-vesting restricted stock units (\"PSUs\"), which vest in full on May 16, 2026 in the form of common stock, contingent upon the Issuer's attainment of certain performance objectives between one and three fiscal years. On May 13, 2026, the Compensation Committee of the Issuer's Board of Directors determined that the performance objective goals of the PSUs for the period ending March 27, 2026 had been met for the aggregate number of shares shown. Following certification, the certified portion of the award remains subject to the time-based vesting conditions, with the full amount scheduled to vest on May 16, 2026."
+      }
+    },
+    {
+      "accession": "0001193125-26-221670",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526221670/ownership.xml",
+      "form": "4",
+      "filed": "2026-05-13",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Briansky Sharon",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "SVP, GC and Secretary"
+        }
+      ],
+      "trades": [
+        {
+          "date": "2026-05-11",
+          "code": "S",
+          "shares": "8948",
+          "price": "47.5391",
+          "after": "75232",
+          "security": "Common Stock",
+          "ownership": "D"
+        }
+      ],
+      "footnotes": {
+        "F1": "The price reported in Column 4 is a weighted average price. The shares were sold at multiple prices ranging from $47.500 to $47.675. The Reporting Person undertakes to provide to Allegro MicroSystems, Inc. (\"ALGM\"), any security holder of ALGM, or the staff of the SEC, upon request, full information regarding the number of shares sold at each separate price within the range set forth above."
+      }
+    },
+    {
+      "accession": "0001193125-26-221669",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526221669/ownership.xml",
+      "form": "4",
+      "filed": "2026-05-13",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Doogue Michael",
+          "officer": "true",
+          "director": "true",
+          "ten_percent": "false",
+          "title": "President and CEO"
+        }
+      ],
+      "trades": [
+        {
+          "date": "2026-05-11",
+          "code": "S",
+          "shares": "30089",
+          "price": "47.2349",
+          "after": "252797",
+          "security": "Common Stock",
+          "ownership": "I"
+        }
+      ],
+      "footnotes": {
+        "F1": "The price reported in Column 4 is a weighted average price. The shares were sold at multiple prices ranging from $47.20 to $47.44. The Reporting Person undertakes to provide to Allegro MicroSystems, Inc. (\"ALGM\"), any security holder of ALGM, or the staff of the SEC, upon request, full information regarding the number of shares sold at each separate price within the range set forth above.",
+        "F2": "The number of shares beneficially owned reflects a change in the form of beneficial ownership from direct to indirect of 36,800 shares that were transferred from the Reporting Person's direct holdings to the Michael C. Doogue Revocable Trust of 2015 on May 20, 2025."
+      }
+    },
+    {
+      "accession": "0001193125-26-124140",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526124140/ownership.xml",
+      "form": "4",
+      "filed": "2026-03-25",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Madormo Richard",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "SVP, Worldwide Sales"
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Represents shares withheld to cover taxes due upon the vesting of restricted stock units that were previously granted by the Issuer."
+      }
+    },
+    {
+      "accession": "0001193125-26-091544",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526091544/ownership.xml",
+      "form": "4",
+      "filed": "2026-03-04",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Kent Ian",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "SVP, Global Operations"
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "This transaction is being filed late due to an administrative error and not any error of the reporting person.",
+        "F2": "Represents an award of Restricted Stock Units (\"RSUs\") granted on February 2, 2026. Each RSU represents a contingent right to receive one share of common stock. The RSUs will vest in two annual installments, with 60% of the award vesting on February 13, 2027 and the remaining 40% vesting on February 13, 2028."
+      }
+    },
+    {
+      "accession": "0001193125-26-088231",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526088231/ownership.xml",
+      "form": "4",
+      "filed": "2026-03-03",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Briansky Sharon",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "SVP, GC and Secretary"
+        }
+      ],
+      "trades": [
+        {
+          "date": "2026-03-02",
+          "code": "S",
+          "shares": "9727",
+          "price": "35.000",
+          "after": "84180",
+          "security": "Common Stock",
+          "ownership": "D"
+        }
+      ],
+      "footnotes": {
+        "F1": "Represents shares withheld to cover taxes due upon the vesting of restricted stock units that were previously granted by the Issuer.",
+        "F2": "The sales reported in this Form 4 were effected pursuant to a Rule 10b5-1 trading plan adopted by the Reporting Person on August 4, 2025. Details regarding the Reporting Person's trading plan were reported in Part II, Item 5 of the Issuer's Quarterly Report on Form 10-Q for the period ending September 26, 2025, filed with the SEC on October 31, 2025."
+      }
+    },
+    {
+      "accession": "0001193125-26-088230",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526088230/ownership.xml",
+      "form": "4",
+      "filed": "2026-03-03",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "D'Antilio Derek",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "EVP, CFO & Treasurer"
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Represents shares withheld to cover taxes due upon the vesting of restricted stock units that were previously granted by the Issuer."
+      }
+    },
+    {
+      "accession": "0001193125-26-088228",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526088228/ownership.xml",
+      "form": "4",
+      "filed": "2026-03-03",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Hagen Erin",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "SVP, CHRO"
+        }
+      ],
+      "trades": [
+        {
+          "date": "2026-03-02",
+          "code": "S",
+          "shares": "2598",
+          "price": "35.000",
+          "after": "30094",
+          "security": "Common Stock",
+          "ownership": "D"
+        }
+      ],
+      "footnotes": {
+        "F1": "Represents shares withheld to cover taxes due upon the vesting of restricted stock units that were previously granted by the Issuer."
+      }
+    },
+    {
+      "accession": "0001193125-26-057087",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526057087/ownership.xml",
+      "form": "4",
+      "filed": "2026-02-18",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Briansky Sharon",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "SVP, GC and Secretary"
+        }
+      ],
+      "trades": [
+        {
+          "date": "2026-02-17",
+          "code": "S",
+          "shares": "9258",
+          "price": "41.56",
+          "after": "103014",
+          "security": "Common Stock",
+          "ownership": "D"
+        }
+      ],
+      "footnotes": {
+        "F1": "Represents shares withheld to cover taxes due upon the vesting of restricted stock units that were previously granted by the Issuer.",
+        "F2": "The sales reported in this Form 4 were effected pursuant to a Rule 10b5-1 trading plan adopted by the Reporting Person on August 4, 2025. Details regarding the Reporting Person's trading plan were reported in Part II, Item 5 of the Issuer's Quarterly Report on Form 10-Q for the period ending September 26, 2025, filed with the SEC on October 31, 2025."
+      }
+    },
+    {
+      "accession": "0001193125-26-057086",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312526057086/ownership.xml",
+      "form": "4",
+      "filed": "2026-02-18",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "D'Antilio Derek",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "EVP, CFO & Treasurer"
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Represents shares withheld to cover taxes due upon the vesting of restricted stock units that were previously granted by the Issuer."
+      }
+    },
+    {
+      "accession": "0001193125-25-317584",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312525317584/ownership.xml",
+      "form": "4",
+      "filed": "2025-12-12",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Briansky Sharon",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "SVP, GC and Secretary"
+        }
+      ],
+      "trades": [
+        {
+          "date": "2025-12-10",
+          "code": "S",
+          "shares": "27873",
+          "price": "30.00",
+          "after": "121263",
+          "security": "Common Stock",
+          "ownership": "D"
+        }
+      ],
+      "footnotes": {
+        "F1": "The sales reported in this Form 4 were effected pursuant to a Rule 10b5-1 trading plan adopted by the Reporting Person on August 4, 2025. Details regarding the Reporting Person's trading plan were reported in Part II, Item 5 of the Issuer's Quarterly Report on Form 10-Q for the period ending September 26, 2025, filed with the SEC on October 31, 2025."
+      }
+    },
+    {
+      "accession": "0001193125-25-277649",
+      "url": "https://www.sec.gov/Archives/edgar/data/866291/000119312525277649/ownership.xml",
+      "form": "4",
+      "filed": "2025-11-12",
+      "plan": "false",
+      "owners": [
+        {
+          "name": "Coleman Troy",
+          "officer": "true",
+          "director": "false",
+          "ten_percent": "false",
+          "title": "SVP, General Manager, Products"
+        }
+      ],
+      "trades": [],
+      "footnotes": {
+        "F1": "Represents an award of Restricted Stock Units (\"RSUs\") granted on November 11, 2025. Each RSU represents a contingent right to receive one share of common stock. The RSUs will vest in three equal annual installments on May 16, 2026, May 16, 2027, and May 16, 2028."
+      }
+    }
+  ],
+  "raw_sums_before_amendment_review": {
+    "S": 125848.0,
+    "P": 0
+  },
+  "errors": []
+}

@@ -1,0 +1,500 @@
+{
+  "ticker": "PL",
+  "cik": 1836833,
+  "transaction_window": "2025-10-15 to 2026-10-14",
+  "filing_cutoff": "2026-10-15",
+  "filings_count": 61,
+  "oldest_recent_filing": "2020-12-28",
+  "errors": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000205845226000009/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000046/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526395503/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526394792/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526394658/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526394651/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526340201/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000157285426000003/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000136409626000006/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000205845226000006/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000189763626000005/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000189846826000004/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000040/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000136409626000003/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000038/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000205845226000003/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000159085126000004/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000037/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000122113726000002/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000034/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526274532/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526274529/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526274526/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000189763626000002/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000189846826000002/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000031/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526147739/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526147722/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526144100/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526119750/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526119743/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526119742/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526108387/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526108380/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526108379/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526039343/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526039339/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526039335/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000029/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526039331/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000027/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526021358/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000025/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000023/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000021/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000019/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000017/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000015/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000012/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000010/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000008/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000006/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000005/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000153/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000152/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000147/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000146/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000145/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000139/wk-form4_1762290535.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000132/wk-form4_1760561702.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000130/wk-form4_1760561546.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "filings": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000205845226000009/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000046/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526395503/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526394792/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526394658/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526394651/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526340201/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000157285426000003/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000136409626000006/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000205845226000006/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000189763626000005/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000189846826000004/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000040/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000136409626000003/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000038/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000205845226000003/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000159085126000004/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000037/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000122113726000002/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000034/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526274532/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526274529/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526274526/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000189763626000002/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000189846826000002/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000031/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526147739/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526147722/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526144100/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526119750/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526119743/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526119742/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526108387/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526108380/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526108379/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526039343/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526039339/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526039335/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000029/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526039331/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000027/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526021358/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000025/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000023/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000021/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000019/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000017/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000015/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000012/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000010/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000008/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000006/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683326000005/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000153/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000152/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000147/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000146/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000145/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000139/wk-form4_1762290535.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000132/wk-form4_1760561702.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000130/wk-form4_1760561546.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ]
+}
