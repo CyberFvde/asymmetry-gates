@@ -138,6 +138,26 @@ Rationale: the disclosed backstop (~$29B on the first $35B tranche; BofA models 
 
 #18 checks: #15 text, not a gate — readmits nothing; AVGO passes #4 at the Sep 28 re-test. Adopt at the ~Dec 9–10 post-print re-test or reject.
 
+## Pending: proposed Oct 15, 2026 (bind nothing until adopted)
+
+Numbered P12/P13 because P9 to P11 were used on a separate roster branch.
+
+### P12. A7/G4/H5: whose sales count toward the 0.5% net-sales limit
+
+Change: A7's "insider net selling" is undefined for large holders → "net open-market and registered-offering sales by officers, directors and Section 16 10% holders count, including a sponsor or strategic holder with a board designee; sales by a former insider count only while it still files Form 4s. Report holder-type subtotals separately."
+
+Rationale: the Oct 15 screen hit this four times. GFS (Mubadala 9.1%), FPS (Neos 44%), KRMN (Trive 1.44% if counted vs 0.46% without) and ASTS (Rakuten/American Tower 1.45% vs 0.08%). Sponsor exits create real supply but carry different information than officer selling, and the current text lets the verdict depend on an unstated reading.
+
+#18 checks: readmits nothing today; every affected name fails another gate. KRMN and ASTS are the cases where the reading alone could decide a future H5 result. Counterexample to examine before adoption: a sponsor's orderly exit at a fully qualified name would block capital for 12 months. Adopt at a scheduled re-test or reject.
+
+### P13. A1: Up-C pass-through issuance
+
+Change: "any issuance in trailing 12 months = out" → "issuance whose proceeds solely purchase existing economic units (Up-C or similar), with total economic shares unchanged, is tested on economic share count rather than as issuance; the selling holder's sales remain in A7."
+
+Rationale: FPS issued 60.4M Class A shares in its IPO and three follow-ons to buy Neos units while total shares stayed 304.43M. A1 fails as written, but no economic dilution occurred.
+
+#18 checks: readmits nothing today (FPS also fails A2/A3a and A7/H5). Safeguard: it moves the signal to A7, where P12 would count the sponsor's sales. Counterexample: an Up-C deal that also issues primary shares for cash stays issuance. Adopt at a scheduled re-test or reject.
+
 ## How to log a change
 
 1. Write the change as a rule edit (which number, old text → new text).

@@ -1,6 +1,39 @@
-# Roster — Oct 2, 2026 (revision 3 targeted re-screen; March contest research)
+# Roster: Oct 15, 2026 (requested nine-name screen; Oct 2 research below)
 
-## Fresh scope, framework and capital verdict
+## Oct 15, 2026: GFS, FPS, AVAV, ALGM, RKLB, ASTS, PL, KRMN, UUUU
+
+Rules: main `530e049`, Oct 2 revision 3 (G/H/FT revision 2). No rule or cap changed. Quotes: Oct 14 completed closes. Capital IQ unavailable; stockanalysis/MarketScreener consensus flagged; #19 consensus from aggregators. Unmerged PR 3 "revision 4" thresholds were checked for sensitivity only and change no verdict below. Evidence, links and PH data: [research package](../../../../docs/research/2026-10-15-requested-nine/README.md).
+
+**No name qualifies for capital on any route.** Three are watch-only (zero capital); six are outside. Every name sits 45% to 74% below a 2026 high except UUUU (PH-impaired on a 2007 high).
+
+| Name / Oct 14 close | Route and status | Deciding evidence | Unlock / next |
+|---|---|---|---|
+| **ALGM $32.22** | A–E out (A1); **G-watch**; PH clear | Diluted WASO +1.72% (non-GAAP +1.27%) with zero buybacks (A1/A2). Five officers sold May 11 to Jun 3 without 10b5-1 footnotes (A7 flag). G2 cash/leverage/growth pass: FCF 9.29%, NTM FCF $131M, 1.08×, FY27 +23%. #19 clear (Jul 30 beat, guide above consensus). #12 fails (PT leg void at 20.8% below 200DMA; FCF yield 2.17%). | G: FY28/29 FCF for the FCF/share test, officer-sale context (G4), sourced G5 model. Indicative G5 hurdle $56.78 needs ~$360M FCF at 30× vs FY27 $131M. Oct 29 print. Shared AI-capex trigger on entry. |
+| **PL $14.13** | G out (G2/G3); **H-watch**; **#19 blackout**; PH clear | OCF FY25 −$14.4M; FY27 FCF consensus −$29.1M; shares +11.5% (WASO +18.2%). H1/H2/H5 pass (cash $865.4M vs ~$194M stressed need; insider sales 0.435%). H3 path missing. H4 fails: hurdle $35.16. Q3 guide mid $103M vs ~$114M aggregator consensus (−9.7%). | Clean next print (date unconfirmed, ~Dec); sourced H3 path; price ≤ ~$8 to $9 indicative H4 ceiling. |
+| **ASTS $42.14** | **H-watch**; **#19 blackout**; #17 re-test; PH clear | Q2 revenue $31.5M vs $34.5M (−8.7%). FY27 revenue consensus −10.6%. H2 gap $1.3B to $2.7B (est. cash ~$2.81B). H4 hurdle $104.86. New securities class action (W.D. Tex.). Strategic-holder sales 1.45% if counted (P12). | Committed funding for the gap; Nov 9 print clears #19; BlueBirds 14 to 16 launched. Lead-plaintiff deadline Nov 13. |
+| **GFS $48.94** | A–E out (A1); G out (G2); PH clear | "Trump bought" = Commerce equity stake: 9,907,399 new shares at $37.85 Sep 3; ~4% more announced Oct 14 (terms open). No GFS line in Trump OGE 278-Ts through Sep 17. Capex 66% of NTM OCF; FY26 growth 7.6%; A5 #5 foundry. #19 clear. | Capex ≤50% NTM OCF and FY27 organic ≥10%; G5 indicative ceiling ~$36 to $45 (unsourced multiple). A1 earliest late 2027. Nov 4 print. |
+| **FPS $32.70** | A–E out (A1); G out (G2); out of H (H5); short history | IPO + three follow-ons issued Class A to buy sponsor units (flat total shares; P13). FY26 FCF −0.48%. Neos sold 135.2M shares (44%). #19 clear; FY27 guide $2.4B to $2.6B vs ~$2.1B. | Trailing FCF ≥6% (~$64M over Q1/Q2 FY27); insider net sales ≤0.5% (Jul 2027 earliest). Mid-Nov print. AI-capex exposure (59% data center). |
+| **KRMN $30.14** | A–E out (A1); G out (G2); H not used; short history | Stock consideration in Five Axis/Seemann deals (A1 to ~Feb 2027). FCF −4.69%; FY25 OCF −$22.1M; ~9.5× net debt/FY26 FCF. J Capital short report on cash flow, three material weaknesses, CFO exit. Alternative H reading: H-watch, ceiling ~$24. | Positive OCF FY26 and FY27, FCF ≥6%, leverage ≤2.5× (~Mar 2028). Nov 5 print. |
+| **RKLB $59.18** | **Out of H (H5)**; H4 fails; PH clear | 12-month insider sales 8.88M shares, 1.33% vs 0.5% (Beck 0.87%). Oct 14: Neutron first launch moved to 2027 (tank-dome voids), an H7 recoverable failure. H4 hurdle $147.26; indicative ceiling ~$21. H2 cushion only ~$0.15B. #19 clear. | Net sales ≤0.5% (~Jul 2027); verified Q1 2027 Neutron stage test; price ≤ H4 ceiling. Nov 9 print. |
+| **AVAV $120.60** | A–E out (A1); G out (G2); H not used; PH clear | FCF −1.25%; OCF negative FY25 and FY26; FY27 FCF −$89.2M; WASO +6.3%. Two securities class actions, two material weaknesses. | TTM FCF ≥6% (~$130M) and two positive OCF years (~Jun 2028). ~Dec print. |
+| **UUUU $8.34** | F only; F1 fails; no F2; **PH-impaired** | FCF margin −113.9%, EBITDA margin −67.8%; ATM, ASM shares, new $500M ATM (Oct 13), pending VAC share deal. ATH $235 (2007), DD 96.5%, 3Y gap −74.8 pp. | None near term. Nov 2 print. |
+
+Interpretation questions raised (pending #18 proposals, no effect on today's zero-capital verdicts): P12, whether sales by 10% holders, board-designating sponsors and strategic holders count toward the A7/G4/H5 0.5% limit (Mubadala, Neos, Trive, Rakuten/American Tower); P13, whether Up-C pass-through issuance with no change in total economic shares is A1 issuance (FPS).
+
+### What changed at this re-test
+
+- New screens: GFS, FPS, ALGM, KRMN, UUUU. Refreshed RKLB, ASTS, PL, AVAV from Oct 2.
+- RKLB H-watch → out of H on verified H5 net selling; Neutron slip recorded as H7 recoverable failure.
+- AVAV H-watch → G out; H not used for a mature incumbent's cash-conversion failure (same reading applied to KRMN and FPS).
+- PL H/G-watch → G out, H-watch, #19(d) blackout. ASTS H-watch plus #19(a) blackout, #17 re-test and new class action.
+- GFS and FPS prior "out" labels replaced with named gates. ALGM is the closest to eligibility (G-watch).
+- No triggers written: no name reached capital eligibility. Proposed P12/P13 in `changelog.md`.
+
+## Oct 2, 2026 screen (revision 3 targeted re-screen; March contest research)
+
+RKLB, ASTS, PL and AVAV entries in this section are superseded by the Oct 15 table above.
+
+### Fresh scope, framework and capital verdict
 
 Rules: Oct 2 revision 3 from merged main **59e1060**; G/H and FT supporting files are revision 2. No rule or cap changes in this screen. Quotes: Oct 2 completed regular session. Research includes cyber/health, defense/space, grid/power/platforms/automation/quantum, targeted finance triage, and specifically VST/AMZN/ORCL. **63 US full daily price histories were computed, which is not 63 complete financial-gate audits.** Detailed filings/models are linked below; foreign PH and many annual-insider/consensus/maximum-dilution checks remain incomplete.
 
