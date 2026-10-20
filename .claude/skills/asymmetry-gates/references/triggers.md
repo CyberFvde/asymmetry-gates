@@ -1,4 +1,4 @@
-# #15 — Written kill triggers (policy sync Oct 15, 2026, revision 5; per-name evidence Sep 28, 2026)
+# #15 — Written kill triggers (policy sync Oct 20, 2026, revision 6; per-name evidence Sep 28, 2026)
 
 Rules: numeric, dated where possible, written before the first tranche. A tripped trigger means immediate re-test (or out, where stated), never a price-based exit. Every semi/AI-infra name carries the shared factor trigger below in addition to its own line.
 
@@ -51,6 +51,7 @@ Action when tripped, same day:
 - **VRT** (blackout): Q3 print must clear all four #19 legs, documenting any (d)-only exemption; an actual (a)–(c) miss is not exempt; UtilityInnovation earnout must be cash (A1); insider three-officer test each quarter; net debt/NTM FCF post-deal ≤2.5×.
 - **TSM** (#3 open): guided capex ≤50% of consensus NTM OCF clears 3(c); if ordinary 3(c) fails, re-test every 3a condition including Q2's new physical branch (NTM GM ≥50%, NTM OCF margin ≥45%, ROIC ≥20%; Q1/Q3 and (i)–(vi) still required); Arizona/Japan ramp costs pushing GM <55% → re-test.
 - **Any 3a name**: high-water mark on entry.
+- **Any M name** (revision 6, written before tranche 1): recovery fiscal year and its FY+2 consensus FCF margin at entry; out if that year's actual FCF margin is <6% when reported (no clock reset), if consensus for it falls <3% at two consecutive re-tests, if trailing-4Q OCF margin <18%, if net debt incl. leases/guarantees >1.5× trailing EBITDA, or on any financing/survival/transformative issuance. NTM cash capex >125% of NTM OCF freezes additions and forces an M re-test. Hyperscaler-type capex also carries shared tripwire B.
 
 ## Non-AI-Capex Diversification Watchlist & Trigger Prices (Oct 15, 2026 Open-Universe Screen)
 

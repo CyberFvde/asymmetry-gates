@@ -2,7 +2,7 @@
 
 **Repository Baseline:** `https://github.com/CyberFvde/asymmetry-gates` — **Policy Revision 5 (`f6171aa`, October 15, 2026)**  
 **Screen Scope:** Open-Universe Discovery across 9 Non-AI-Capex Lanes (24 Seed Anchors + 87+ `[NEW DISCOVERY]` Expansion Candidates = **111+ Total Audited Securities**)  
-**Discovery Guardrails:** Market Cap >= $2.5B | Liquidity >= $25M ADV | Plausible mathematical path to >= 25% annualized 3Y IRR (3Y EPS/FCF CAGR + net buyback yield +/- multiple normalization)  
+**Discovery Guardrails:** Market Cap >= $2.5B | Liquidity >= $25M ADV | Revision 6 (Oct 20, 2026): base-case 3Y return estimate >= 20% under framework C's method (FY+1 EPS base, consensus growth with 85% fade, exit multiple <= min(entry, 30x/35x), + dividends, no separate buyback add). The original screen used >= 25% on "3Y EPS/FCF CAGR + net buyback yield +/- multiple normalization", which double-counted buybacks, anchored on completed years and held multiples flat; see section 0.  
 
 ---
 
@@ -246,7 +246,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
   - **Mid-Oct Spot Price:** `$216.84` (Oct 14 re-test; Oct 2 close was `$231.27`) | **Market Cap:** `~$88.5B` (`~408M` diluted shares).
   - **200DMA:** `$248.48` (`-12.7%` below rising 200DMA at `$216.84`; `-6.9%` at `$231.27` — inside the `-20%` threshold, so `#12` PT leg is **valid**).
   - **3Y ATH & Drawdown:** `$292.65` on `2026-08-18` (age `0.16y < 3.0y`), drawdown `-25.9%` (`-20.97%` on Oct 2), 3Y Total Return `+413.39%` (`+326.08pp` vs S&P 500 TR `+87.32%`). **Status: `PH-clear`.**
-- **2. 25% 3-Year IRR Math:**
+- **2. Legacy 3-Year IRR Math (pre-revision 6 method, overstated; see section 0):**
   - **3Y Revenue CAGR:** `15.85%` (FY26E `+22.5%` total / `+18–19%` organic; FY27E `+13.67%`).
   - **3Y EPS / FCF CAGR:** `26.7%` EPS CAGR (`24.5%` FCF/sh CAGR) + `~1.2%` Net Buyback Yield (`$1.07B` TTM repurchases) + `0.0%` multiple expansion (holding `~36.7x` Fwd P/E) = **`~27.8%` Estimated 3Y Annualized IRR (`>= 25%` plausible: YES).**
 - **3. Dilution Gate (`A1` & `G3`):**
@@ -276,7 +276,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 
 #### 2. `FTAI` — FTAI Aviation Ltd. (Seed) — **TIER 3 FAIL (`A1`, `A3a`, `A3c`, `A4`, `#12` Void)**
 - **1. Market Data & `PH`:** `$163.10` | Market Cap `$16.75B` | 200DMA `$235.67` (**`-30.8%` below 200DMA -> voids `#12` PT leg**) | ATH `$280.55` (Jul 2026, DD `-41.9%`, `PH-clear` by age).
-- **2. 25% 3Y IRR Math:** 3Y Rev CAGR `24.8%`, Next-FY organic `+22.0%`, 3Y EPS CAGR `36.5%`, Buyback `-1.4%` dilution = **`~29.5%` Est. 3Y IRR** (plausible on paper, but funded by heavy debt and asset capex).
+- **2. Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** 3Y Rev CAGR `24.8%`, Next-FY organic `+22.0%`, 3Y EPS CAGR `36.5%`, Buyback `-1.4%` dilution = **`~29.5%` Est. 3Y IRR** (plausible on paper, but funded by heavy debt and asset capex).
 - **3. Dilution (`A1`):** Shares `+1.44%` YoY (`102.71M` shares) with zero common buybacks (`A2` fail) and history of preferred/equity & senior note issuances. **Fails `A1` & `A2`.**
 - **4. Capex & FCF (`A3a/b/c`):** TTM OCF `-$439.76M`, TTM Capex `-$522.41M` (CFM56/V2500 engine module acquisitions), TTM Company FCF **`-$962.18M` (`-40.8%` FCF margin < `6%` floor)**; Capex/OCF `>100%` (`> 50%` cap). **Hard Fail on `A3a` & `A3c`.**
 - **5. Leverage (`A4`) & Moat (`A5`):** Total debt `$3.50B`, Cash `$337.2M`, Net Debt `$3.16B` (`8.65x` Debt/Equity; `>6.0x` NTM adjusted FCF `> 2.5x` ceiling). **Hard Fail on `A4`.**
@@ -288,7 +288,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 
 #### 3. `HEI` — HEICO Corporation (Seed) — **TIER 2 NEAR-PASS WATCHLIST (`G-watch` at `<= $275–$296`)**
 - **1. Market Data & `PH`:** `$302.45` | Market Cap `$41.75B` | 200DMA `$322.22` (`-6.1%`, PT valid) | ATH `$374.67` (`2026-08-14`, DD `-19.28%`, 3Y TR `+88.33%`, gap `+1.01pp`, `PH-clear`).
-- **2. 25% 3Y IRR Math:** 3Y Rev CAGR `13.52%`, Q3 FY26 organic growth `+14.0%`, 3Y EPS CAGR `18.61%`, Buyback `0.0%` = **`~21.3%` Est. 3Y IRR at `$302.45`** (`~25.1%` IRR if bought at `$275.00`).
+- **2. Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** 3Y Rev CAGR `13.52%`, Q3 FY26 organic growth `+14.0%`, 3Y EPS CAGR `18.61%`, Buyback `0.0%` = **`~21.3%` Est. 3Y IRR at `$302.45`** (`~25.1%` IRR if bought at `$275.00`).
 - **3. Dilution (`A1` & `G3`):** Diluted WASO `+0.35%` YoY (`<= 0.50%` Core, `<= 3.0%` G3), SBC `1.1%` of rev. Passes `A1`/`G3`, though `A2` notes net debt without buybacks (waived in Route G).
 - **4. Capex & FCF (`A3` & `G2`):** TTM FCF `~$945M` (`19.2%` margin `>= 6%`), NTM FCF `~$1.12B` (`>100%` of TTM), Capex/OCF `~7.5%` (`<= 50%`). **Passes `A3`/`G2`.**
 - **5. Leverage (`A4` & `G2`) & Moat (`A5`):** Balance sheet Net Debt `$2.11B` (`1.88x` NTM FCF), **BUT** HEICO carries **`$618M` of redeemable noncontrolling interest (mezzanine equity)** from 80%-owned subsidiaries. Including the `$618M` NCI liability pushes pro forma Net Debt/NTM FCF to **`~2.55x` (`> 2.50x` cap)**! Dominant FAA PMA aftermarket moat (`A5`/`G1` pass, op margin `25.1%`).
@@ -300,7 +300,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 
 #### 4. `TDG` — TransDigm Group Incorporated (Seed) — **TIER 3 FAIL (`A4`/`G2`, `#9`, `<25% IRR`)**
 - **1. Market Data & `PH`:** `$1,100.00` | Market Cap `$61.3B` (`55.28M` shares) | 200DMA `$1,244.00` (`-11.6%`, valid) | ATH `$1,451.00` (May 2026, DD `-24.2%`, `PH-clear`).
-- **2. 25% 3Y IRR Math:** 3Y Rev CAGR `9.96%`, Next-FY organic `+11.2%`, 3Y EPS CAGR `14.5%`, Special dividend/yield `~3.5%` = **`~18.4%` Est. 3Y IRR (`< 25%` hurdle).**
+- **2. Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** 3Y Rev CAGR `9.96%`, Next-FY organic `+11.2%`, 3Y EPS CAGR `14.5%`, Special dividend/yield `~3.5%` = **`~18.4%` Est. 3Y IRR (`< 25%` hurdle).**
 - **3. Dilution (`A1`):** Shares `-0.35%` YoY, SBC `1.9%` of rev (`10.0%` of FCF). Passes `A1`.
 - **4. Capex & FCF (`A3`):** TTM OCF `$2.20B`, Capex `$271M` (`12.3%` of OCF `<= 50%`), TTM FCF `$1.93B` (`19.28%` margin on `$10.01B` rev), NTM FCF `$2.15B`. Passes `A3`.
 - **5. Leverage (`A4` & `G2`) & Moat (`A5`):** Total Debt **`$33.49B`**, Cash `$2.78B`, **Net Debt `$30.71B` = `15.9x` TTM FCF / `14.3x` NTM FCF** (catastrophically above the `2.5x` `A4` and `G2` ceiling due to LBO-style debt-funded special dividends). Sole-source aftermarket moat (`>50%` EBITDA margin) passes `A5`, but leverage is a hard disqualifier.
@@ -312,7 +312,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 
 #### 5. `WWD` — Woodward, Inc. (`[NEW DISCOVERY]`) — **TIER 2 NEAR-PASS WATCHLIST (`<= $305.00` + Nov FY27 FCF Guide)**
 - **1. Market Data & `PH`:** `$331.62` | Market Cap `$19.6B` | 200DMA `$363.63` (`-8.8%`, valid) | ATH `$436.44` (`2026-06-25`, DD `-24.02%`, 3Y TR `+172.62%`, `PH-clear`).
-- **2. 25% 3Y IRR Math:** 3Y Rev CAGR `13.32%`, Next-FY organic `+12.5%`, 3Y EPS CAGR `19.2%`, Buyback `1.1%` = **`~22.4%` Est. 3Y IRR at `$331.62`** (`~25.6%` at `$305.00`).
+- **2. Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** 3Y Rev CAGR `13.32%`, Next-FY organic `+12.5%`, 3Y EPS CAGR `19.2%`, Buyback `1.1%` = **`~22.4%` Est. 3Y IRR at `$331.62`** (`~25.6%` at `$305.00`).
 - **3. Dilution (`A1`):** Diluted WASO `-1.12%` YoY (active buybacks), SBC `1.2%` of rev. Passes `A1` & `A2`.
 - **4. Capex & FCF (`A3` & `G2`):** TTM FCF `$376.53M` (`8.98%` margin `>= 6%`), Capex/OCF `23.5%`. Unrolled FY26 consensus FCF (`$338.47M`) was `89.89%` of TTM (missing `A3b` `100%` and `G2` `90%` by 11bp), but FY26 ended Sep 30 — November's FY27 FCF guide (`~$415M` consensus) rolls NTM FCF above `$377M`.
 - **5. Leverage (`A4`) & Moat (`A5`):** Net Debt `~$909M` = `2.69x` unrolled FY26E FCF (`> 2.5x`), dropping to **`2.19x` (`<= 2.5x`)** on FY27E FCF rollover. Duopoly aero fuel/combustion controls moat (`A5` pass).
@@ -324,7 +324,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 
 #### 6. `LOAR` — Loar Holdings Inc. (`[NEW DISCOVERY]`) — **TIER 3 FAIL (`A1`, `A2`, `A4`, `#11`)**
 - **1. Market Data & `PH`:** `$61.60` | Market Cap `$5.85B` | 200DMA `$67.10` (`-8.2%`, valid) | ATH `$97.31` (Nov 2024, DD `-36.7%`, `PH-clear`).
-- **2. 25% 3Y IRR Math:** 3Y Rev CAGR `25.4%`, Next-FY organic `+15.0%` (`+29.8%` total w/ M&A), 3Y EPS CAGR `31.6%`, Buyback `0.0%`, Multiple compression (`42.8x -> 35x` = `-6.5%/yr`) = **`~24.2%` Est. 3Y IRR.**
+- **2. Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** 3Y Rev CAGR `25.4%`, Next-FY organic `+15.0%` (`+29.8%` total w/ M&A), 3Y EPS CAGR `31.6%`, Buyback `0.0%`, Multiple compression (`42.8x -> 35x` = `-6.5%/yr`) = **`~24.2%` Est. 3Y IRR.**
 - **3. Dilution (`A1` & `A2`):** Post-IPO/secondary/M&A diluted WASO **`+4.8%` YoY** (`> 0.5%` / `1.5%` / `3.0%` ceilings), zero buybacks with net debt (`A2` fail), SBC `2.4%` of rev. **Hard Fail on `A1`, `A2` & `G3`.**
 - **4. Capex & FCF (`A3`):** TTM Rev `$586.17M`, TTM FCF `~$106M` (`18.1%` margin), NTM FCF `~$118.65M`, Capex/OCF `18.5%`. Passes `A3`.
 - **5. Leverage (`A4`) & Moat (`A5`):** Cash `$122.43M`, Total Debt `$964.85M`, **Net Debt `$842.41M` = `7.10x` NTM FCF** (`> 2.5x` cap, plus recent acquisition debt). Niche aftermarket component moat (`A5` pass), but **Hard Fail on `A4`/`G2`.**
@@ -336,7 +336,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 
 #### 7. `CRS` — Carpenter Technology Corporation (`[NEW DISCOVERY]`) — **TIER 3 / TIER 2 BORDERLINE (`#9`, `<25% IRR`)**
 - **1. Market Data & `PH`:** `$375.00` | Market Cap `$18.58B` (`49.56M` shares) | 200DMA `$442.90` (`-15.3%`, valid) | ATH `$498.50` (Jul 2026, DD `-24.8%`, `PH-clear`).
-- **2. 25% 3Y IRR Math:** 3Y Rev CAGR `10.97%`, TTM rev growth `+8.59%` (next-FY `~9.5%–10.5%`), 3Y EPS CAGR `21.06%`, Buyback `+0.59%` = **`~21.8%` Est. 3Y IRR at `$375`** (`~25.2%` at `$335`).
+- **2. Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** 3Y Rev CAGR `10.97%`, TTM rev growth `+8.59%` (next-FY `~9.5%–10.5%`), 3Y EPS CAGR `21.06%`, Buyback `+0.59%` = **`~21.8%` Est. 3Y IRR at `$375`** (`~25.2%` at `$335`).
 - **3. Dilution (`A1`):** Shares `-0.59%` YoY (active buybacks), SBC `1.1%` of rev. Passes `A1` & `A2`.
 - **4. Capex & FCF (`A3`):** TTM FCF `$362.3M` (`11.61%` margin on `$3.12B` rev), NTM FCF `~$420M`, Capex/OCF `26.5%`. Passes `A3`.
 - **5. Leverage (`A4`) & Moat (`A5`):** Total Debt `$690.7M`, Net Debt `~$515M` = **`1.23x` NTM FCF (`<= 2.5x`)**. Specialty VIM/VAR aerospace alloy oligopoly with ATI/Howmet; GM `30.58%`, Op margin `22.27%` expanding. Passes `A4` & `A5`.
@@ -348,7 +348,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 
 #### 8. `ATI` — ATI Inc. (`[NEW DISCOVERY]`) — **TIER 2 `#14a` STARTER WATCH (`<= $175.00` + FY27 Rev `>= 10%`)**
 - **1. Market Data & `PH`:** `$189.50` | Market Cap `$25.5B` | 200DMA `$169.78` (`+11.6%` above 200DMA, valid) | ATH `$214.00` (Aug 2026, DD `-11.4%`, `PH-clear`).
-- **2. 25% 3Y IRR Math:** 3Y Rev CAGR `10.12%` (FY26E `$5.14B` `+12.1%`, FY27E `$5.65B` `+9.9%`), 3Y EPS CAGR `32.26%`, Buyback `+1.8%`, Multiple normalization (`36.4x -> 30x` = `-6.2%/yr`) = **`~26.8%` Est. 3Y IRR (`>= 25%` plausible: YES).**
+- **2. Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** 3Y Rev CAGR `10.12%` (FY26E `$5.14B` `+12.1%`, FY27E `$5.65B` `+9.9%`), 3Y EPS CAGR `32.26%`, Buyback `+1.8%`, Multiple normalization (`36.4x -> 30x` = `-6.2%/yr`) = **`~26.8%` Est. 3Y IRR (`>= 25%` plausible: YES).**
 - **3. Dilution (`A1`):** Shares `-1.80%` YoY (active buybacks), SBC `1.0%` of rev. Passes `A1` & `A2`.
 - **4. Capex & FCF (`A3`):** TTM Rev `$4.72B`, TTM FCF `~$465M` (`9.85%` margin), FY26 guided FCF `$550M–$600M` (`$575M` midpoint `> TTM`), Capex/OCF `28.0%`. Passes `A3`.
 - **5. Leverage (`A4`) & Moat (`A5`):** Cash `$783M`, Debt `$2.19B`, Net Debt `$1.41B` = **`2.45x` NTM FCF (`<= 2.50x` cap, tight)**. Oligopoly titanium/nickel specialty melt moat (`A5` pass).
@@ -360,7 +360,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 
 #### 9. `CW` — Curtiss-Wright Corporation (`[NEW DISCOVERY]`) — **TIER 3 FAIL (`#9/#10/G2`, `#11` PEG, `#12` Void, `<25% IRR`)**
 - **1. Market Data & `PH`:** `$500.00` | Market Cap `$18.48B` (`36.93M` shares) | 200DMA `$675.51` (**`-26.0%` below 200DMA -> voids `#12` PT leg**) | ATH `$735.00` (Jul 2026, DD `-32.0%`, `PH-clear`).
-- **2. 25% 3Y IRR Math:** 3Y Rev CAGR `~8.8%` (next-FY `+9.2%`), 3Y EPS CAGR `14.5%`, Buyback `+1.4%` = **`~15.5%` Est. 3Y IRR (`< 25%`).**
+- **2. Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** 3Y Rev CAGR `~8.8%` (next-FY `+9.2%`), 3Y EPS CAGR `14.5%`, Buyback `+1.4%` = **`~15.5%` Est. 3Y IRR (`< 25%`).**
 - **3. Dilution (`A1`):** Shares `-1.40%` YoY, active buybacks. Passes `A1` & `A2`.
 - **4. Capex & FCF (`A3`):** TTM FCF `~$567M` (`16.2%` margin on `$3.50B` rev), Capex/OCF `14.5%`. Passes `A3`.
 - **5. Leverage (`A4`) & Moat (`A5`):** Net Debt `~$530M` (`0.85x` NTM FCF), naval nuclear propulsion & defense electronics moat (`A5` pass).
@@ -372,7 +372,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 
 #### 10. `GE` — GE Aerospace (`[NEW DISCOVERY]`) — **TIER 3 FAIL (`#9/#10/G2` 3Y Rev `9.94% < 10%`, `#11` PEG, `<25% IRR`)**
 - **1. Market Data & `PH`:** `$309.56` | Market Cap `~$332B` | 200DMA `$323.85` (`-4.4%`, valid) | ATH `$381.22` (`2026-08-05`, DD `-18.80%`, 3Y TR `+262.14%`, `PH-clear`).
-- **2. 25% 3Y IRR Math:** 3Y Rev CAGR **`9.94%`**, Next-FY organic `+10.5%`, 3Y EPS CAGR `17.5%`, Buyback `+1.65%` = **`~17.8%` Est. 3Y IRR (`< 25%`).**
+- **2. Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** 3Y Rev CAGR **`9.94%`**, Next-FY organic `+10.5%`, 3Y EPS CAGR `17.5%`, Buyback `+1.65%` = **`~17.8%` Est. 3Y IRR (`< 25%`).**
 - **3. Dilution (`A1`):** Shares `-1.65%` YoY (multi-billion buybacks), SBC `0.8%` of rev. Passes `A1` & `A2`.
 - **4. Capex & FCF (`A3`):** TTM FCF margin `17.8%`, NTM FCF `~$8.8B > TTM`, Capex/OCF `16.0%`. Passes `A3`.
 - **5. Leverage (`A4`) & Moat (`A5`):** Net Debt/NTM FCF `~0.95x` (including Sep `$12B` CPP deal consideration check), dominant narrowbody/widebody jet engine monopoly/duopoly with CFM/LEAP/GE9X (`A5` pass).
@@ -384,7 +384,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 
 #### 11. `RTX` — RTX Corporation (`[NEW DISCOVERY]`) — **TIER 3 FAIL (`A1`, `A2`, `A3b`, `A4`, `#9`, `#11`, `#12`, `<25% IRR`)**
 - **1. Market Data & `PH`:** `$184.68` | Market Cap `$246B` | 200DMA `$194.91` (`-5.2%`, valid) | ATH `$225.49` (`2026-08-18`, DD `-18.10%`, `PH-clear`).
-- **2. 25% 3Y IRR Math:** 3Y Rev CAGR `7.65%` (FY26 `+8.5%`, FY27 `+7.3%`), 3Y EPS CAGR `10.1%`, Buyback `0.0%` = **`~11.8%` Est. 3Y IRR (`< 25%`).**
+- **2. Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** 3Y Rev CAGR `7.65%` (FY26 `+8.5%`, FY27 `+7.3%`), 3Y EPS CAGR `10.1%`, Buyback `0.0%` = **`~11.8%` Est. 3Y IRR (`< 25%`).**
 - **3. Dilution (`A1` & `A2`):** Diluted WASO **`+0.81%` YoY** with **zero buybacks** and `$30.55B` net debt (`A1` and `A2` fail).
 - **4. Capex & FCF (`A3`):** NTM FCF `$10.07B` **`<` TTM FCF `$11.41B`** (`A3b` fail).
 - **5. Leverage (`A4`):** Net Debt `$30.55B` / `$10.07B` NTM FCF = **`3.03x` (`> 2.50x` cap — `A4` & `G2` fail)**.
@@ -396,7 +396,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 
 #### 12. `AAR` (`AIR`) — AAR Corp. (`[NEW DISCOVERY]`) — **TIER 3 FAIL (`A1`, `A2`, `A3a`, `A3c`, `A4`, `#9`)**
 - **1. Market Data & `PH`:** `$100.00` | Market Cap `$3.85B` (`39.69M` shares) | 200DMA `$117.34` (`-14.8%`, valid) | ATH `$154.00` (Jun 2026, DD `-35.1%`, `PH-clear`).
-- **2. 25% 3Y IRR Math:** 3Y Rev CAGR **`8.38%`**, 3Y EPS CAGR `16.15%`, Buyback `0.0%` = **`~18.2%` Est. 3Y IRR (`< 25%`).**
+- **2. Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** 3Y Rev CAGR **`8.38%`**, 3Y EPS CAGR `16.15%`, Buyback `0.0%` = **`~18.2%` Est. 3Y IRR (`< 25%`).**
 - **3. Dilution (`A1` & `A2`):** Equity offering diluted share count **`+12.4%` YoY** to fund MRO acquisitions (`Triumph Product Support` / `HAECO`), with net debt `$873.9M` and no active buybacks (`A1`, `A2`, `G3` fail).
 - **4. Capex & FCF (`A3`):** TTM OCF `$199.4M`, TTM FCF **`$33.2M` (`1.00%` FCF margin on `$3.31B` rev `< 6.0%` floor)**; Capex/investments consume `83.3%` of OCF (`> 50%`). **Hard Fail on `A3a` & `A3c`.**
 - **5. Leverage (`A4`):** Net Debt `$873.9M` (`978.4M` debt - `$104.5M` cash) = **`26.3x` TTM FCF / `~5.8x` NTM FCF (`> 2.5x` cap — `A4` fail)**.
@@ -408,7 +408,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 
 #### 13. `KRMN` — Karman Holdings Inc. (`[NEW DISCOVERY]`) — **TIER 3 CORE/G FAIL (`A2`, `A3a`, `A4`, `#12`); TIER 2 `H-watch` (`<= $24.56`)**
 - **1. Market Data & `PH`:** `$30.14` (Oct 14 close) | Market Cap `$4.00B` (`132.53M` diluted WASO) | 200DMA `$67.12` (**`-55.1%` below 200DMA -> voids `#12` PT leg**) | ATH `$115.29` (`2026-01-28`, DD `-73.86%`, `PH-short-history` / `PH-clear` by age).
-- **2. 25% 3Y IRR Math:** 3Y Rev CAGR `21.25%` (FY26 guide `$712M–$727M` `+24.7%` organic), 3Y EPS CAGR `27.8%` = **`~22.5%` Est. 3Y IRR at `$30.14`** (`~26.0%` at `$24.56` `H4` ceiling).
+- **2. Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** 3Y Rev CAGR `21.25%` (FY26 guide `$712M–$727M` `+24.7%` organic), 3Y EPS CAGR `27.8%` = **`~22.5%` Est. 3Y IRR at `$30.14`** (`~26.0%` at `$24.56` `H4` ceiling).
 - **3. Dilution (`A1`):** Under Policy Rev 5's `<= 0.50%` bolt-on stock carve-out, `KRMN` issued `204,244` shares (`0.154%` of diluted WASO) for Five Axis + Seemann Composites, keeping total YoY diluted WASO at **`+0.158%` (`<= 0.50%` — `A1` PASS!)**. However, zero buybacks with net debt fails `A2`.
 - **4. Capex & FCF (`A3`):** TTM Company FCF **`-$27.67M` (`-4.69%` margin < `6%` floor)** and FY25 OCF `-$22.12M` (fails `A3a` and `G2`, routing to **Route H** turnaround/inflection). FY26E FCF `$96M` (`13.2%` margin).
 - **5. Leverage (`A4` & `H2`):** Pro forma Net Debt `$811.7M` notes + `$102.1M` finance leases (including `$95M` all-cash Walker Marine deal) = `$913.8M` (`9.52x` FY26E FCF — fails `A4`/`G2` `2.5x`, though inside `H2` `3.5x` EBITDA covenant).
@@ -420,7 +420,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 
 #### 14. `SAF.PA` — Safran SA (`[NEW DISCOVERY]`) — **TIER 2 NEAR-PASS WATCHLIST (`G-watch` at `<= €310–€323`)**
 - **1. Market Data & `PH`:** `€314.90` mid-Oct (`€330.10` Oct 2 close) | Market Cap `€131.1B` | 200DMA `€338.50` (`-7.0%`, valid) | ATH `€365.80` (Aug 2026, DD `-13.9%`, `PH-clear`).
-- **2. 25% 3Y IRR Math:** 3Y Rev CAGR `12.15%`, Next-FY organic `+13.0%`, 3Y EPS CAGR `24.85%`, Buyback `+1.2%` = **`~25.4%` Est. 3Y IRR at `€314.90` (`>= 25%` plausible: YES).**
+- **2. Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** 3Y Rev CAGR `12.15%`, Next-FY organic `+13.0%`, 3Y EPS CAGR `24.85%`, Buyback `+1.2%` = **`~25.4%` Est. 3Y IRR at `€314.90` (`>= 25%` plausible: YES).**
 - **3. Dilution (`A1` & `G3`):** 2027/2028 Oceanes convertible bond dilution pushed diluted share count `+1.65%` YoY (failing Core `A1`, but clearing **Route G `G3` `<= 3.0%`** backed by `€5B` buyback program cancelling shares).
 - **4. Capex & FCF (`A3` & `G2`):** TTM FCF margin `14.8%` (`>= 6%`), NTM FCF `~€4.5B > TTM`, Capex/OCF `22.0%`. Passes `A3`/`G2`.
 - **5. Leverage (`A4` & `G2`) & Moat (`A5` & `G1`):** Net Cash position (`-0.4x` NTM FCF), 50/50 CFM/LEAP narrowbody engine monopoly with GE (`>35,000` CFM56/LEAP installed base, multi-decade shop-visit annuity — passes `G1`/`A5`).
@@ -432,7 +432,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 
 #### 15. `MTU.DE` (`MTX`) — MTU Aero Engines AG (`[NEW DISCOVERY]`) — **TIER 3 FAIL (`A3a`, `#9`, `#12`, `<25% IRR`)**
 - **1. Market Data & `PH`:** `€350.70` | Market Cap `€19.12B` | 200DMA `€362.10` (`-3.1%`, valid) | ATH `€394.50` (Jul 2026, DD `-11.1%`, `PH-clear`).
-- **2. 25% 3Y IRR Math:** 3Y Rev CAGR `10.8%`, Next-FY organic `+11.5%`, 3Y EPS CAGR `16.4%`, Buyback `0.0%` = **`~17.9%` Est. 3Y IRR (`< 25%`).**
+- **2. Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** 3Y Rev CAGR `10.8%`, Next-FY organic `+11.5%`, 3Y EPS CAGR `16.4%`, Buyback `0.0%` = **`~17.9%` Est. 3Y IRR (`< 25%`).**
 - **3. Dilution (`A1`):** Shares `+0.20%` YoY.
 - **4. Capex & FCF (`A3a`):** Ongoing Pratt & Whitney PW1100G (GTF) fleet inspection compensation payments have depressed TTM Company FCF to `~€410M` (**`4.8%` FCF margin `< 6.0%` `A3a` & `G2` floor**).
 - **5. Leverage (`A4`) & Moat (`A5`):** Net Debt `~€650M` (`~0.9x` normalized FCF), 18% GTF program partner & independent MRO leader.
@@ -449,7 +449,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
   - **Spot Price:** `$71.50` (Sep 28 re-test baseline `$69.62`) | **Market Cap:** `~$147B` (`~2.06B` diluted shares).
   - **200DMA:** `$74.32–$75.15` (`-3.8%` to `-6.3%` below 200DMA — well inside `-20%`, so `#12` PT leg is **valid**).
   - **3Y ATH & Drawdown:** `$93.60` (Oct 2025, age `1.0y < 3.0y`), drawdown `-23.6%`, `PH-clear`.
-- **2. 25% 3-Year IRR Math:**
+- **2. Legacy 3-Year IRR Math (pre-revision 6 method, overstated; see section 0):**
   - **3Y Revenue CAGR:** `13.62%` (FY26E `+11.3%`).
   - **3Y EPS / FCF CAGR:** `30.94%–32.7%` EPS CAGR (`26.5%` FCF/sh CAGR) + `2.28%` Net Buyback Yield (`$6.9B` TTM repurchases) + `0.0%` multiple change (`17.0x` Fwd P/E) = **`~31.5%` Estimated 3Y Annualized IRR (`>= 25%` hurdle cleared: YES).**
 - **3. Dilution Gate (`A1` & `A2`):**
@@ -475,7 +475,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 
 #### 17. `DASH` — DoorDash, Inc. (Seed) — **TIER 3 FAIL (`A1` Diluted WASO `+1.82%` YoY, `G5` `<12%`, `#8/#10`)**
 - **1. Market Data & `PH`:** `$191.99` | Market Cap `$83.6B` (`438.82M` diluted WASO) | 200DMA `$185.16` (`+3.7%`, valid) | ATH `$285.50` (`2025-10-15`, DD `-32.8%`, `PH-clear`).
-- **2. 25% 3Y IRR Math:** 3Y Rev CAGR `17.34%` (Q2'26 `+36%` total / `+24%` organic ex-Deliveroo), 3Y EPS CAGR `42.19%`, Diluted WASO drag `-1.82%/yr`, Multiple compression (`27.8x -> 22x` = `-7.5%/yr`) = **`~28.4%` gross / `~22.5%` net of SBC & dilution.**
+- **2. Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** 3Y Rev CAGR `17.34%` (Q2'26 `+36%` total / `+24%` organic ex-Deliveroo), 3Y EPS CAGR `42.19%`, Diluted WASO drag `-1.82%/yr`, Multiple compression (`27.8x -> 22x` = `-7.5%/yr`) = **`~28.4%` gross / `~22.5%` net of SBC & dilution.**
 - **3. Dilution (`A1` & `G3`):** Per **Note 12 of DoorDash's Q2 2026 Form 10-Q (ended June 30, 2026)**, Three-Month Diluted WASO rose from **`430,958k` (Q2 2025) to `438,818k` (Q2 2026) = `+1.824%` YoY**, breaching both the `+0.50%` standard `A1` ceiling AND the `+1.50%` high-growth buyback exception ceiling! Driven by **`$1.2B–$1.3B` guided FY26 SBC** (`7.6%` of revenue, `58.4%` of TTM FCF) plus May 2025 `$2.5B` 0% Convertible Senior Notes due 2030 and Oct 2025 £2.9B Deliveroo acquisition integration. **Hard Fail on `A1`.**
 - **4. Capex & FCF (`A3`):** TTM FCF `$2.14B` (`13.1%` margin on `$16.34B` rev), NTM FCF `~$3.1B`, Capex/OCF `14.0%`. Passes `A3`.
 - **5. Leverage (`A4`) & Moat (`A5`):** Net Cash position (`~$5.5B` cash vs `$2.5B` converts), #1 US restaurant delivery share (`67%`). Passes `A4` & `A5`.
@@ -489,7 +489,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 
 #### 18. `BKNG` — Booking Holdings Inc. (`[NEW DISCOVERY]`) — **TIER 3 FAIL (`#9/#10/G2` 3Y Rev `8.79% < 10%`, `<25% IRR`)**
 - **1. Market Data & `PH`:** `$5,112` (or `$159` split-adj) | Market Cap `$166.5B` | 200DMA `$5,810` (`-12.0%`, valid) | ATH `$6,285` (Jul 2026, DD `-18.7%`, `PH-clear`).
-- **2. 25% 3Y IRR Math:** 3Y Rev CAGR **`8.79%`** (next-FY `+8.89%`), 3Y EPS CAGR `17.45%`, Net Buyback Yield `+4.16%` = **`~19.8%` Est. 3Y IRR (`< 25%`).**
+- **2. Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** 3Y Rev CAGR **`8.79%`** (next-FY `+8.89%`), 3Y EPS CAGR `17.45%`, Net Buyback Yield `+4.16%` = **`~19.8%` Est. 3Y IRR (`< 25%`).**
 - **3. Dilution (`A1`):** Shares `-4.16%` YoY (world-class cannibal buybacks), SBC `1.9%` of rev. Passes `A1` & `A2`.
 - **4. Capex & FCF (`A3`):** TTM FCF `$9.54B` (`34.8%` margin), NTM FCF `$10.2B`, Capex/OCF `4.5%`. Passes `A3`.
 - **5. Leverage (`A4`) & Moat (`A5`):** Net Debt `$3.41B` (`$20.92B` debt - `$17.21B` cash) = `0.36x` NTM FCF; #1 global OTA moat (`A4` & `A5` pass).
@@ -501,7 +501,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 
 #### 19. `ABNB` — Airbnb, Inc. (`[NEW DISCOVERY]`) — **TIER 3 FAIL (`#9` + `#12` Dual Fail, `PH-warning`, `<25% IRR`)**
 - **1. Market Data & `PH`:** `$165.67` | Market Cap `$97.7B` (`589.6M` shares) | 200DMA `$144.63` (`+14.5%`, valid) | ATH `$219.94` (Feb 2021, age `5.6y >= 3.0y`, DD `-24.7%` `< 30%` -> **`PH-warning`**).
-- **2. 25% 3Y IRR Math:** 3Y Rev CAGR `10.42%–12.87%` (next-FY `+10.4%`), 3Y EPS CAGR `16.46%`, Buyback `+3.80%`, Multiple compression (`28.1x -> 24x` = `-5.1%/yr`) = **`~16.5%` Est. 3Y IRR (`< 25%`).**
+- **2. Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** 3Y Rev CAGR `10.42%–12.87%` (next-FY `+10.4%`), 3Y EPS CAGR `16.46%`, Buyback `+3.80%`, Multiple compression (`28.1x -> 24x` = `-5.1%/yr`) = **`~16.5%` Est. 3Y IRR (`< 25%`).**
 - **3. Dilution (`A1`):** Shares `-3.80%` YoY (`$3.5B+` buybacks offsetting `11.5%` SBC/rev). Passes `A1` & `A2`.
 - **4. Capex & FCF (`A3`):** TTM FCF `$4.86B` (`38.2%` margin), Capex/OCF `1.5%`. Passes `A3`.
 - **5. Leverage (`A4`) & Moat (`A5`):** Net Cash `$9.57B` (`$12.07B` cash vs `$2.50B` debt), #1 alternative accommodations moat. Passes `A4` & `A5`.
@@ -513,7 +513,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 
 #### 20. `CART` — Maplebear Inc. / Instacart (`[NEW DISCOVERY]`) — **TIER 2 `#14a` / `#10` WATCH (`<= $48.50`)**
 - **1. Market Data & `PH`:** `$49.40` | Market Cap `$12.8B` | 200DMA `$42.59` (`+16.0%`, valid) | ATH `$56.40` (Aug 2026, DD `-12.4%`, `PH-clear`).
-- **2. 25% 3Y IRR Math:** 3Y Rev CAGR `11.20%` (FY26E `$4.26B` `+13.8%`, FY27E `$4.71B` `+10.5%`), 3Y EPS CAGR `19.50%`, Net Buyback Yield `+4.20%` = **`~24.4%` Est. 3Y IRR at `$49.40` (`~25.2%` at `<= $48.50`).**
+- **2. Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** 3Y Rev CAGR `11.20%` (FY26E `$4.26B` `+13.8%`, FY27E `$4.71B` `+10.5%`), 3Y EPS CAGR `19.50%`, Net Buyback Yield `+4.20%` = **`~24.4%` Est. 3Y IRR at `$49.40` (`~25.2%` at `<= $48.50`).**
 - **3. Dilution (`A1`):** Shares `-4.20%` YoY via aggressive `$1.5B+` share repurchase program; SBC `9.2%` of rev. Passes `A1` & `A2`.
 - **4. Capex & FCF (`A3`):** TTM Rev `$3.99B`, TTM FCF `~$818M` (`20.5%` margin), NTM FCF `~$880M`, Capex/OCF `5.5%`. Passes `A3`.
 - **5. Leverage (`A4`) & Moat (`A5`):** Net Cash `$851M` (`-$0.97x` NTM FCF), #1 US digital grocery marketplace & retail media network (`~75%` gross margin). Passes `A4` & `A5`.
@@ -525,7 +525,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 
 #### 21. `EXPE` — Expedia Group, Inc. (`[NEW DISCOVERY]`) — **TIER 3 FAIL (`#9/#10/G2` 3Y Rev `8.0% < 10%`, `<25% IRR`)**
 - **1. Market Data & `PH`:** `$262.00` | Market Cap `$31.4B` (`120M` shares) | 200DMA `$254.50` (`+2.9%`, valid) | ATH `$295.00` (Jul 2026, DD `-11.2%`, `PH-clear`).
-- **2. 25% 3Y IRR Math:** 3Y Rev CAGR **`8.00%`**, 3Y EPS CAGR `20.9%`, Buyback `+5.8%`, Multiple normalization (`11.6x -> 10x`) = **`~21.5%` Est. 3Y IRR (`< 25%`).**
+- **2. Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** 3Y Rev CAGR **`8.00%`**, 3Y EPS CAGR `20.9%`, Buyback `+5.8%`, Multiple normalization (`11.6x -> 10x`) = **`~21.5%` Est. 3Y IRR (`< 25%`).**
 - **3–7. Gate Summary:** Passes `A1–A7` (`WASO -5.8%`, `18.5%` FCF margin, `0.65x` Net Debt/FCF), `#11` (`11.6x` P/E, `0.58` PEG), and `#12` (`9.5%` FCF yield & `+22.1%` PT), **BUT** fails `#9/#10/G2` because 3Y revenue CAGR is **`8.00%` (`< 10.0%` floor)**.
 - **8. Final Tier:** **Tier 3 (Hard Gate Fail: `#9/#10/G2` 3Y rev CAGR `8.00% < 10.0%` floor, `<25% IRR`).**
 
@@ -533,7 +533,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 
 #### 22. `LYFT` — Lyft, Inc. (`[NEW DISCOVERY]`) — **TIER 3 / RE-TEST (`#8->#10` 3Y EPS `19.64% < 20%`, `#7b` Trial, `PH-impaired`)**
 - **1. Market Data & `PH`:** `$15.02` | Market Cap `$6.05B` (`402.5M` diluted WASO) | 200DMA `$15.87` (`-5.4%`, valid) | ATH `$78.20` (Mar 2021, age `5.5y >= 3.0y`, DD `-80.8% >= 30%`, 3Y TR gap `< -20pp` -> **`PH-impaired`**).
-- **2. 25% 3Y IRR Math:** 3Y Rev CAGR `13.20%` (FY26E `+16.6%`, FY27E `+12.3%`), 3Y EPS CAGR `19.64%`, Buyback `+4.94%` = **`~23.8%` Est. 3Y IRR.**
+- **2. Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** 3Y Rev CAGR `13.20%` (FY26E `+16.6%`, FY27E `+12.3%`), 3Y EPS CAGR `19.64%`, Buyback `+4.94%` = **`~23.8%` Est. 3Y IRR.**
 - **3–7. Repo Verification (`roster.md`):** Shares `-4.94%` YoY (`402.5M` vs `424.0M` WASO; `$450M` 0% 2030 convert rolled off 12m `A1` window on Sep 5, 2026), Net Cash `$502M`, TTM FCF `$1.11B` (`16.4%` margin), FY26E FCF `$1.13B` (`A3b` thin), PT `$19.84` (`+32.1%`), Q2 `#19` clear. Routed to `#10`-only by `#8` (AV disintermediation): **fails `#10` 3Y EPS CAGR leg (`19.64%` vs `>= 20.0%` required, by 36bp)**, faces live **`#7b` state bellwether sexual-assault trial RPL risk (`> $55M` = out)**, and is **`PH-impaired`**.
 - **8. Final Tier:** **Tier 3 (Hard Gate Fail: `PH-impaired`, `#10` 3Y EPS `19.64% < 20%`, `#7b` bellwether trial RPL risk; re-test after Nov 5 print).**
 
@@ -541,7 +541,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 
 #### 23. `MMYT` — MakeMyTrip Limited (`[NEW DISCOVERY]`) — **TIER 3 FAIL (`A1`, `#11` P/E `72.97x` & PEG `4.05`, `<25% IRR`)**
 - **1. Market Data & `PH`:** `$105.00` | Market Cap `$11.6B` | 200DMA `$98.50` (`+6.6%`, valid) | ATH `$124.00` (Jul 2026, DD `-15.3%`, `PH-clear`).
-- **2. 25% 3Y IRR Math:** 3Y Rev CAGR `20.34%`, 3Y EPS CAGR `32.78%`, Dilution `-2.1%`, Multiple compression (`72.97x -> 40x` = `-18.2%/yr`) = **`~18.5%` Est. 3Y IRR (`< 25%`).**
+- **2. Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** 3Y Rev CAGR `20.34%`, 3Y EPS CAGR `32.78%`, Dilution `-2.1%`, Multiple compression (`72.97x -> 40x` = `-18.2%/yr`) = **`~18.5%` Est. 3Y IRR (`< 25%`).**
 - **3–7. Gate Summary:** Diluted WASO **`+2.10%` YoY** with no net buyback shrinkage (`A1` fail); **Fwd P/E `72.97x` (`> 45x` High-Velocity & `> 48x` Starter ceiling), PEG `4.05` (`> 1.65` / `2.50` ceiling), NTM FCF yield `0.90%` (`< 1.00%` floor) -> fails all three `#11` components!**
 - **8. Final Tier:** **Tier 3 (Hard Gate Fail: `A1`, `#11` P/E `72.97x` / PEG `4.05` / FCF yield `0.90%`, `<25% IRR`).**
 
@@ -549,7 +549,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 
 #### 24. `TCOM` — Trip.com Group Limited (`[NEW DISCOVERY]`) — **TIER 3 FAIL (`#9/#10/G2`, `#12` Void, `#7` China ADR)**
 - **1. Market Data & `PH`:** `$38.00` | Market Cap `$23.9B` (`629.71M` shares) | 200DMA `$50.12` (**`-24.2%` below 200DMA -> voids `#12` PT leg**) | ATH `$69.50` (Oct 2025, DD `-45.3%`, `PH-clear` by age).
-- **2. 25% 3Y IRR Math:** Forward 3Y Rev CAGR **`8.60%`**, 3Y EPS CAGR `12.5%`, Buyback `+3.96%` = **`~16.4%` Est. 3Y IRR (`< 25%`).**
+- **2. Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Forward 3Y Rev CAGR **`8.60%`**, 3Y EPS CAGR `12.5%`, Buyback `+3.96%` = **`~16.4%` Est. 3Y IRR (`< 25%`).**
 - **3–7. Gate Summary:** Shares `-3.96%` YoY, Net Cash `$7.7B`, TTM FCF margin `24.5%`, Fwd P/E `10.0x`, FCF yield `8.50%` (clears `#12` FCF leg while PT `$58.44` is void). Fails **`#9/#10/G2` on 3Y forward revenue CAGR (`8.60% < 10.0%` floor)** and China ADR `#7` insider verification gap.
 - **8. Final Tier:** **Tier 3 (Hard Gate Fail: `#9/#10/G2` 3Y rev `8.60% < 10.0%` floor, `<25% IRR`).**
 
@@ -559,7 +559,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 
 #### 25. `MELI` — MercadoLibre, Inc. (Seed — Overlay `FT`) — **TIER 3 FAIL (`A3b`, `FT2/A3a`, `A5`, `FT1`)**
 - **1. Market Data & `PH`:** `$1,696.56` | Market Cap `$86.0B` | 200DMA `$1,837.61` (`-7.7%`, valid) | ATH `$2,613.63` (`2025-06-30`, DD `-35.09%`, `PH-clear`).
-- **2. 25% 3Y IRR Math:** 3Y Rev CAGR `32.02%`, Next-FY organic `+28.0%`, 3Y EPS CAGR `31.5%`, Buyback `0.0%` = **`~29.2%` Est. 3Y IRR (`>= 25%` plausible: YES).**
+- **2. Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** 3Y Rev CAGR `32.02%`, Next-FY organic `+28.0%`, 3Y EPS CAGR `31.5%`, Buyback `0.0%` = **`~29.2%` Est. 3Y IRR (`>= 25%` plausible: YES).**
 - **3. Dilution (`A1`):** Diluted WASO `0.00%` YoY (`50.7M` shares), SBC `0.9%` of rev. Passes `A1`.
 - **4. Capex & Normalized Fintech FCF (`A3a/b/c` & `FT2`):** Under **Overlay `FT` (`FT2`)**, Mercado Pago credit-book originations and customer deposit liability inflows must be stripped from operating cash flow. On an `FT2` normalized basis, **TTM Company FCF margin is `~3.3%` (`< 6.0%` `A3a` floor)**, and even on a published basis, **NTM FCF is `-1.9%` below TTM FCF (`A3b` fail)** due to fulfillment center buildouts (`32%` Capex/OCF) and credit card portfolio expansion.
 - **5. Leverage (`A4`) & Moat/Margin (`A5`):** LatAm e-commerce + fintech leader, **BUT** credit-provisioning and shipping mix compressed **Gross Margin by `-858bp` YoY, breaching the `-600bp` hard ceiling of the `#5` (`A5`) gross-margin mix carve-out!**
@@ -569,7 +569,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 
 #### 26. `SE` — Sea Limited (Seed — Overlay `FT`) — **TIER 3 FAIL (`A1` WASO `+2.70%`, `A2`, `FT1`, `PH-warning`)**
 - **1. Market Data & `PH`:** `$95.19` | Market Cap `$56.5B` | 200DMA `$102.89` (`-7.5%`, valid) | ATH `$366.99` (`2021-10-19`, age `4.95y >= 3.0y`, DD `-74.06% >= 30%`, 3Y TR `+116.59%`, gap `+29.27pp > -20pp` -> **`PH-warning`**).
-- **2. 25% 3Y IRR Math:** 3Y Rev CAGR `20.5%`, 3Y EPS CAGR `34.0%`, Dilution `-2.7%` = **`~27.5%` Est. 3Y IRR.**
+- **2. Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** 3Y Rev CAGR `20.5%`, 3Y EPS CAGR `34.0%`, Dilution `-2.7%` = **`~27.5%` Est. 3Y IRR.**
 - **3. Dilution (`A1` & `A2`):** Verified on Oct 2 re-test: **Diluted WASO grew `+2.70%` YoY** (period-end shares `+2.32%` YoY) with **zero share buybacks (`A2` fail)** and `3.9%` SBC/rev. **Hard Fail on `A1` & `A2`.**
 - **4–8. Final Tier:** SeaMoney consumer/SME lending triggers **Overlay `FT` (`FT1`)**, which **blocks Route G** (where `<= 3.0%` dilution would otherwise be tested). **Tier 3 (Hard Gate Fail: `A1` `+2.70%` diluted WASO, `A2` no buybacks, `FT1` blocks Route G, `PH-warning`).**
 
@@ -577,7 +577,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 
 #### 27. `CPNG` — Coupang, Inc. (Seed) — **TIER 3 FAIL (`A3a`, `A3c`, `#9`, `#11`, `PH-impaired`)**
 - **1. Market Data & `PH`:** `$14.40` | Market Cap `$25.88B` | 200DMA `$17.92` (`-19.6%`, valid by 40bp) | ATH `$69.00` (Mar 2021, age `5.6y >= 3.0y`, DD `-79.1% >= 30%`, 3Y TR gap `< -20pp` -> **`PH-impaired`**).
-- **2. 25% 3Y IRR Math:** 3Y Rev CAGR `10.5%`, 3Y EPS CAGR `67.0%`, Multiple compression (`49.1x -> 28x`) = **`~24.0%` Est. 3Y IRR.**
+- **2. Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** 3Y Rev CAGR `10.5%`, 3Y EPS CAGR `67.0%`, Multiple compression (`49.1x -> 28x`) = **`~24.0%` Est. 3Y IRR.**
 - **3–7. Gate Summary:** TTM OCF `$1.43B` minus TTM Capex `-$1.33B` = **TTM Company FCF `$100M` on `$34.5B` revenue (`0.29%` FCF margin `< 6.0%` `A3a` floor)** and **Capex/OCF = `93.0%` (`> 50.0%` `A3c` cap)**! Also fails `#9` (`10.5%` 3Y rev `< 15%`), `#11` (Fwd P/E **`49.13x > 48.0x`**), and **`PH-impaired`**.
 - **8. Final Tier:** **Tier 3 (Hard Gate Fail: `A3a` `0.29%` FCF margin, `A3c` `93.0%` Capex/OCF, `#9` `10.5%`, `#11` P/E `49.1x`, `PH-impaired`).**
 
@@ -585,7 +585,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 
 #### 28. `DLO` — dLocal Limited (`[NEW DISCOVERY]` — Overlay `FT`) — **TIER 3 FAIL (`PH-impaired`, `FT2/A3a/A3b`, `A5`)**
 - **1. Market Data & `PH`:** `$14.80` | Market Cap `$4.35B` | 200DMA `$13.95` (`+6.1%`, valid) | ATH `$64.69` (Aug 2021, age `5.1y >= 3.0y`, DD `-77.1% >= 30%`, 3Y TR gap `< -20pp` -> **`PH-impaired`**).
-- **2. 25% 3Y IRR Math:** 3Y Rev CAGR `32.5%`, 3Y EPS CAGR `26.0%`, Buyback `+1.2%` = **`~26.4%` Est. 3Y IRR.**
+- **2. Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** 3Y Rev CAGR `32.5%`, 3Y EPS CAGR `26.0%`, Buyback `+1.2%` = **`~26.4%` Est. 3Y IRR.**
 - **3–7. Gate Summary:** Under **Overlay `FT` (`FT2`)**, stripping merchant settlement funds payable from OCF reduces normalized TTM FCF margin to `~4.8%` (`< 6.0%` `A3a` floor) and NTM FCF `<` TTM FCF (`A3b` fail), while EM take-rate compression breaches `A5` gross margin stability and **`PH-impaired`** blocks all new capital.
 - **8. Final Tier:** **Tier 3 (Hard Gate Fail: `PH-impaired`, `FT2/A3a/A3b`, `A5`).**
 
@@ -969,7 +969,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 1. `HOOD` — Robinhood Markets, Inc. (Seed — Route `A–E` + `FT`)
 1. **Market Data & Price Health (`PH`):** Price `$101.08` (Oct 15; `$112.74` on Oct 2 sweep), Market Cap `$90.8B`, 200DMA `$94.33` (`+7.2%` above 200DMA; `#12` PT leg remains valid), 3Y/All-Time Closing High `$152.46` (2025-10-09, age 1.0 yr, drawdown `33.7%` Oct 15 / `26.1%` Oct 2). **`PH-clear`**.
-2. **25% 3-Year IRR Math:** Fwd 3Y Rev CAGR `21.28%`, Next-FY Organic Rev Growth `~22.5%`, Fwd 3Y EPS CAGR `24.01%`, Net Buyback Yield `-1.2%` (dilutive share creep + convert overhang), Multiple Normalization `-7.0%/yr` (from `39.9x` Fwd P/E to `32.0x` normalized brokerage multiple) = **Est. 3Y Annualized IRR: `15.8%`** (Fails `≥25%` plausibility hurdle without retail options/crypto volume blow-off).
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Fwd 3Y Rev CAGR `21.28%`, Next-FY Organic Rev Growth `~22.5%`, Fwd 3Y EPS CAGR `24.01%`, Net Buyback Yield `-1.2%` (dilutive share creep + convert overhang), Multiple Normalization `-7.0%/yr` (from `39.9x` Fwd P/E to `32.0x` normalized brokerage multiple) = **Est. 3Y Annualized IRR: `15.8%`** (Fails `≥25%` plausibility hurdle without retail options/crypto volume blow-off).
 3. **Dilution Gate (`A1`):** **HARD FAIL (`A1`).** Closed **`$2.2B` of `0.00%` convertible senior notes due 2029 on June 25, 2026** (violates `A1` ban on new convertible debt in TTM); diluted shares increased `+1.2%` YoY to `~899M`; SBC is `~9.5%` of revenue (`>40%` of normalized corporate FCF). Also executed Bitstamp/WonderFi M&A.
 4. **Capex & FCF Gate (`A3a/b/c`, `FT2–FT4`):** **HARD FAIL (`A3a` / `FT2` / `FT4`).** Reported TTM OCF (`$245M`) and FCF (`$219M`, `4.44%` margin < `8.0%` `A3a` floor) are heavily distorted by customer segregated cash, margin receivables, and securities lending collateral (`FT2`). Fails `FT4` because transaction revenues (options, crypto, equities) and net interest income (margin + cash sweep spreads) are acutely sensitive to retail trading bursts and Fed rate cuts.
 5. **Leverage (`A4`) & Moat/Margin (`A5`):** Corporate cash exceeds corporate debt (`$2.2B` 2029 converts), passing `A4` on a corporate-only basis after stripping `$6B+` customer cash/payables (`FT2`). Moat: `Narrow` (retail UX/scale, but low switching costs vs IBKR/SCHW); NTM Gross Margin `~84%` (stable).
@@ -981,7 +981,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 2. `COIN` — Coinbase Global, Inc. (Seed — Route `A–E` + `FT`)
 1. **Market Data & Price Health (`PH`):** Price `$183.00`, Market Cap `$45.8B`, 200DMA `$182.86–$185.41` (`-1.3%` vs 200DMA; `#12` PT leg valid), 3Y/Lifetime High `$419.78` (2025-07-18, age 1.2 yr, drawdown `56.4%`, 3Y gap `0.0%`). **`PH-clear`**.
-2. **25% 3-Year IRR Math:** Fwd 3Y Rev CAGR `3.49%` (StockAnalysis consensus across FY25–FY28 cycle), Next-FY Organic Rev Growth `~4.0%`, Fwd 3Y EPS CAGR `1.39%`, Net Buyback Yield `-2.1%` (dilutive SBC & convert/M&A issuance), Multiple Normalization `-10.0%/yr` (`Fwd P/E 179.75x` compression) = **Est. 3Y Annualized IRR: `-8.5%`** (Implausible without a new crypto bubble).
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Fwd 3Y Rev CAGR `3.49%` (StockAnalysis consensus across FY25–FY28 cycle), Next-FY Organic Rev Growth `~4.0%`, Fwd 3Y EPS CAGR `1.39%`, Net Buyback Yield `-2.1%` (dilutive SBC & convert/M&A issuance), Multiple Normalization `-10.0%/yr` (`Fwd P/E 179.75x` compression) = **Est. 3Y Annualized IRR: `-8.5%`** (Implausible without a new crypto bubble).
 3. **Dilution Gate (`A1`):** **HARD FAIL (`A1`).** Multiple tranches of convertible senior notes (`$1.27B` 2026/2028/2030 converts), stock-settled M&A (Deribit `$2.9B` cash+stock deal), and massive SBC (`~$850M–$900M/yr` = `~15%` of `$6.04B` TTM revenue) driving continuous diluted WASO expansion (`+2.5%/yr`).
 4. **Capex & FCF Gate (`A3a/b/c`, `FT2–FT4`):** **HARD FAIL (`A3b` / `FT2` / `FT4`).** TTM Net Income is `-$987.8M` (with `$699.6M` EBITDA); reported operating cash flow is heavily swung by custodial/USDC client cash flows (`FT2`), NTM FCF is projected below prior-cycle TTM peaks (`A3b` fail), and earnings are 100% hostage to spot crypto volume and USDC interest-rate spreads (`FT4` hard fail).
 5. **Leverage (`A4`) & Moat/Margin (`A5`):** Corporate cash `$8.79B` vs total debt `$6.67B` (`$2.12B` net cash ex-client custodial assets, passing `A4`). Moat: `Narrow` (US institutional custody & Base L2, but retail fee compression pressure); NTM GM `~85%`.
@@ -993,7 +993,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 3. `IBKR` — Interactive Brokers Group, Inc. (`[NEW DISCOVERY]` — Route `A–E` + `FT`)
 1. **Market Data & Price Health (`PH`):** Price `$88.15`, Market Cap `$148.8B` total economic (`~1.70B` IBG LLC shares; `$39.64B` Class A public float), 200DMA `$82.12` (`+7.3%` above 200DMA), 3Y High `~$96.50` (drawdown `~8.7%`). **`PH-clear`**.
-2. **25% 3-Year IRR Math:** Fwd 3Y Rev CAGR `~10.5%` (TTM Rev `$6.84B`; commission growth `+18%` offset by modeled Fed rate cuts on `$4.5B+` NII), Next-FY Organic Rev Growth `~9.5%`, Fwd 3Y EPS CAGR `~12.0%`, Net Buyback Yield `-0.8%` (IBG Holdings Up-C exchange creep), Multiple Normalization `-1.0%/yr` (`Fwd P/E 35.0x` -> `34.0x`) = **Est. 3Y Annualized IRR: `10.2%`** (Well below `25%` target).
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Fwd 3Y Rev CAGR `~10.5%` (TTM Rev `$6.84B`; commission growth `+18%` offset by modeled Fed rate cuts on `$4.5B+` NII), Next-FY Organic Rev Growth `~9.5%`, Fwd 3Y EPS CAGR `~12.0%`, Net Buyback Yield `-0.8%` (IBG Holdings Up-C exchange creep), Multiple Normalization `-1.0%/yr` (`Fwd P/E 35.0x` -> `34.0x`) = **Est. 3Y Annualized IRR: `10.2%`** (Well below `25%` target).
 3. **Dilution Gate (`A1`):** **FAIL (`A1`).** Confirmed in the Oct 2 repository sweep (`fintech.md`): Class A share count expands YoY via Up-C redemptions/exchanges and employee Stock Incentive Plan grants without offsetting buybacks (`0` share repurchases).
 4. **Capex & FCF Gate (`A3a/b/c`, `FT2–FT4`):** **FAIL (`FT2` / `FT4`).** Under `FT2`, IBKR's GAAP OCF (`$5B+`) is dominated by `$100B+` of segregated client cash, margin loans, and securities lending payables/receivables; normalized corporate after-tax earnings/FCF is `~$3.8B` (`~55%` margin), which is high quality, **but fails `FT4`** because `>60%` of revenue/pre-tax profit is Net Interest Income (NII) on client cash sweeps and margin balances exposed to benchmark rate cuts.
 5. **Leverage (`A4`) & Moat/Margin (`A5`):** Zero corporate long-term debt (`$15B+` firm equity capital cushion, `A4` pass). Moat: `Wide` (lowest-cost global automated execution/margin platform; `~71%` pre-tax margin).
@@ -1005,7 +1005,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 4. `TW` — Tradeweb Markets Inc. (`[NEW DISCOVERY]` — Route `A–E` + `FT`)
 1. **Market Data & Price Health (`PH`):** Price `$111.08` (Oct 15; `$102.22` Oct 2 sweep), Market Cap `$25.9B` (`$23.7B` Oct 2), 200DMA `$108.28` (`+2.6%` Oct 15 / `-5.6%` Oct 2), 3Y/Lifetime High `$149.02` (2025-04-03, age 1.5 yr, drawdown `25.5%` Oct 15 / `31.4%` Oct 2). **`PH-clear`**.
-2. **25% 3-Year IRR Math:** Fwd 3Y Rev CAGR `12.14%` (`11.73%` on Oct 2 sweep), Next-FY Organic Rev Growth `~12.5%`, Fwd 3Y EPS CAGR `14.96%` (`14.30%` on Oct 2), Net Buyback Yield `-0.13%` (essentially flat shares + `0.4%` dividend), Multiple Normalization `0.0%/yr` (`Fwd P/E 25.51x`) = **Est. 3Y Annualized IRR: `14.5%`–`15.2%`** at `$111.08` (Requires entry at `≤$82.00` for `25%+` 3Y IRR).
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Fwd 3Y Rev CAGR `12.14%` (`11.73%` on Oct 2 sweep), Next-FY Organic Rev Growth `~12.5%`, Fwd 3Y EPS CAGR `14.96%` (`14.30%` on Oct 2), Net Buyback Yield `-0.13%` (essentially flat shares + `0.4%` dividend), Multiple Normalization `0.0%/yr` (`Fwd P/E 25.51x`) = **Est. 3Y Annualized IRR: `14.5%`–`15.2%`** at `$111.08` (Requires entry at `≤$82.00` for `25%+` 3Y IRR).
 3. **Dilution Gate (`A1`):** **PASS (`A1`).** YoY diluted share count change is `+0.13%` (`≤0.5%` threshold); SBC is modest (`~6%` of revenue) and offset by share buybacks; no convertible notes, ATMs, or dilutive equity offerings in TTM.
 4. **Capex & FCF Gate (`A3a/b/c`, `FT2–FT4`):** **PASS (`A3a/b/c`, `FT2–FT4`).** TTM Company FCF is **`$1.14B`** (`~51%` FCF margin ≥ `8%`), NTM FCF `~$1.22B > TTM FCF` (`A3b` pass), Capex/OCF `<8%` (`A3c` pass). Unlike retail brokers, TW is an institutional fixed-income/rates/credit electronic marketplace with zero client sweep deposits (`FT2/FT3` clean) and secular electronification tailwinds across all rate regimes (`FT4` pass).
 5. **Leverage (`A4`) & Moat/Margin (`A5`):** **PASS (`A4`, `A5`).** Net Cash **`$1.91B`** (`$2.00B` cash vs `$93.6M` lease debt; `Net Debt/FCF = -1.68x ≤ 2.5x`). Moat: `Wide` (institutional liquidity network effects in US Treasuries, IRS, ETFs, and credit); NTM Gross Margin `~94%` (expanding).
@@ -1017,7 +1017,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 5. `VIRT` — Virtu Financial, Inc. (`[NEW DISCOVERY]` — Route `A–E` + `FT`)
 1. **Market Data & Price Health (`PH`):** Price `$54.20`, Market Cap `$8.61B`, 200DMA `$50.67` (`+7.0%` above 200DMA), 3Y High `~$57.50` (drawdown `~5.7%`). **`PH-clear`**.
-2. **25% 3-Year IRR Math:** Fwd 3Y Rev CAGR `~6.2%` (TTM Rev `$3.26B`), Next-FY Organic Rev Growth `~5.0%`, Fwd 3Y EPS CAGR `~8.5%` (TTM Net Income `$518.2M`, EPS `$6.03`), Net Buyback Yield `+3.5%` (plus `~3.0%` div), Multiple Normalization `-2.5%/yr` = **Est. 3Y Annualized IRR: `9.5%`**.
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Fwd 3Y Rev CAGR `~6.2%` (TTM Rev `$3.26B`), Next-FY Organic Rev Growth `~5.0%`, Fwd 3Y EPS CAGR `~8.5%` (TTM Net Income `$518.2M`, EPS `$6.03`), Net Buyback Yield `+3.5%` (plus `~3.0%` div), Multiple Normalization `-2.5%/yr` = **Est. 3Y Annualized IRR: `9.5%`**.
 3. **Dilution Gate (`A1`):** **PASS (`A1`).** Active net share cannibal (`-3.5%/yr` YoY share count reduction via buybacks); low SBC (`<3%` of revenue).
 4. **Capex & FCF Gate (`A3a/b/c`, `FT2–FT4`):** **HARD FAIL (`FT2` / `FT3` / `FT4`).** As a principal high-frequency market maker, Virtu carries `$21B+` of gross trading assets/cash against `$19B+` of short-term broker-dealer trading liabilities, repo lines, and securities loaned (`FT2/FT3`), and its net trading revenue is structurally dependent on retail order-flow (PFOF) and volatility bursts (`FT4` hard fail).
 5. **Leverage (`A4`) & Moat/Margin (`A5`):** Corporate long-term debt `~$1.8B` vs `~$518M` normalized earnings (`~3.47x > 2.5x`, failing `A4` even before trading liabilities). Moat: `Narrow` (scale in HFT/execution, but zero recurring revenue visibility).
@@ -1029,7 +1029,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 6. `CME` — CME Group Inc. (`[NEW DISCOVERY]` — Route `A–E` + `FT`)
 1. **Market Data & Price Health (`PH`):** Price `$285.59`, Market Cap `$97.5B`, 200DMA `$274.10` (`+4.2%` above 200DMA), 3Y/Lifetime High `~$295.00` (drawdown `~3.2%`). **`PH-clear`**.
-2. **25% 3-Year IRR Math:** Fwd 3Y Rev CAGR `7.5%`, Next-FY Organic Rev Growth `~7.0%`, Fwd 3Y EPS CAGR `9.2%`, Dividend/Return Yield `+3.8%` (regular + variable annual dividend; `0%` buyback), Multiple Normalization `-2.0%/yr` (`Fwd P/E 23.4x` -> `22.0x`) = **Est. 3Y Annualized IRR: `11.0%`** (Mature defensive monopoly; cannot reach `25%` IRR).
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Fwd 3Y Rev CAGR `7.5%`, Next-FY Organic Rev Growth `~7.0%`, Fwd 3Y EPS CAGR `9.2%`, Dividend/Return Yield `+3.8%` (regular + variable annual dividend; `0%` buyback), Multiple Normalization `-2.0%/yr` (`Fwd P/E 23.4x` -> `22.0x`) = **Est. 3Y Annualized IRR: `11.0%`** (Mature defensive monopoly; cannot reach `25%` IRR).
 3. **Dilution Gate (`A1`):** **PASS (`A1`).** Share count virtually unchanged (`+0.1%` YoY; `360.5M` shares); SBC `<2%` of revenue (`<3%` of FCF).
 4. **Capex & FCF Gate (`A3a/b/c`, `FT2–FT4`):** **PASS (`A3a/b/c`, `FT2–FT4`).** TTM Company FCF **`$4.21B`** (`~62%` FCF margin ex-clearinghouse performance bonds under `FT2`), NTM FCF `~$4.45B > TTM`, Capex `<3%` of OCF (`~$90M`). Passes `FT4` (interest-rate, Treasury, energy, and equity futures clearing thrives in both rate hikes and rate cuts).
 5. **Leverage (`A4`) & Moat/Margin (`A5`):** **PASS (`A4`, `A5`).** Corporate Net Debt **`$1.59B`** (`$3.4B` debt vs `$1.8B` corporate cash; `Net Debt/FCF = 0.38x ≤ 2.5x`). Moat: `Wide` (unassailable clearinghouse open-interest monopoly in SOFR/Treasury/S&P futures); NTM GM `~88%`.
@@ -1041,7 +1041,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 7. `CBOE` — Cboe Global Markets, Inc. (`[NEW DISCOVERY]` — Route `A–E` + `FT`)
 1. **Market Data & Price Health (`PH`):** Price `$304.41`, Market Cap `$31.47B`, 200DMA `$288.50` (`+5.5%` above 200DMA), 3Y/Lifetime High `~$312.00` (drawdown `~2.4%`). **`PH-clear`**.
-2. **25% 3-Year IRR Math:** Fwd 3Y Rev CAGR `8.4%`, Next-FY Organic Rev Growth `~8.0%`, Fwd 3Y EPS CAGR `11.5%`, Net Buyback + Div Yield `+1.8%`, Multiple Normalization `-1.5%/yr` (`Fwd P/E 22.8x` -> `21.8x`) = **Est. 3Y Annualized IRR: `11.8%`**.
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Fwd 3Y Rev CAGR `8.4%`, Next-FY Organic Rev Growth `~8.0%`, Fwd 3Y EPS CAGR `11.5%`, Net Buyback + Div Yield `+1.8%`, Multiple Normalization `-1.5%/yr` (`Fwd P/E 22.8x` -> `21.8x`) = **Est. 3Y Annualized IRR: `11.8%`**.
 3. **Dilution Gate (`A1`):** **PASS (`A1`).** Share count `-0.4%` YoY via steady buybacks; SBC `<2.5%` of net revenue; no converts or equity offerings.
 4. **Capex & FCF Gate (`A3a/b/c`, `FT2–FT4`):** **PASS (`A3a/b/c`), WATCH (`FT4`).** TTM Company FCF **`$1.87B`** (`~45%` of net transaction/data revenue), NTM FCF `ge TTM`, Capex `<5%` of OCF. Watch on `FT4` due to heavy concentration in SPX/VIX 0DTE retail options volume.
 5. **Leverage (`A4`) & Moat/Margin (`A5`):** **PASS (`A4`, `A5`).** Net Cash **`$774.2M`** (`Net Debt/FCF = -0.41x ≤ 2.5x`). Moat: `Wide` (exclusive SPX and VIX index options licensing moat).
@@ -1053,7 +1053,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 8. `FUTU` — Futu Holdings Limited (`[NEW DISCOVERY]` — Route `A–E` + `FT`)
 1. **Market Data & Price Health (`PH`):** Price `$102.17` (Oct 2 sweep; `$112.26` Oct 15), Market Cap `$14.4B–$15.8B`, 200DMA `$131.94` (**`-22.6%` below 200DMA on Oct 2 / `-14.9%` on Oct 15 — at `>20%` below 200DMA, `#12` PT leg is voided!**), 3Y/Lifetime High `$199.04` (2025-10-31, age 0.9 yr, drawdown `48.7%`, 3Y gap `0.0%`). **`PH-clear`**.
-2. **25% 3-Year IRR Math:** Fwd 3Y Rev CAGR `12.53%` (verified Oct 2 StockAnalysis sweep), Next-FY Organic Rev Growth `~13.0%`, Fwd 3Y EPS CAGR `9.29%` (pressured by lower HIBOR/Fed rate spreads on client cash), Net Buyback Yield `+0.5%`, Multiple Normalization `+2.2%/yr` (`Fwd P/E 11.2x` -> `12.0x`) = **Est. 3Y Annualized IRR: `12.0%`**.
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Fwd 3Y Rev CAGR `12.53%` (verified Oct 2 StockAnalysis sweep), Next-FY Organic Rev Growth `~13.0%`, Fwd 3Y EPS CAGR `9.29%` (pressured by lower HIBOR/Fed rate spreads on client cash), Net Buyback Yield `+0.5%`, Multiple Normalization `+2.2%/yr` (`Fwd P/E 11.2x` -> `12.0x`) = **Est. 3Y Annualized IRR: `12.0%`**.
 3. **Dilution Gate (`A1`):** **PASS (`A1`).** Share count slightly down YoY (`-0.5%`) via ADR buyback authorization; low SBC (`<3%` of revenue).
 4. **Capex & FCF Gate (`A3a/b/c`, `FT2–FT4`):** **HARD FAIL (`A3b` / `FT2` / `FT3` / `FT4`).** Verified in `fintech.md` (Oct 2 sweep): TTM reported FCF (`$5.19B` USD) is artificially inflated by segregated client cash inflows (`FT2`), while consensus FY26E normalized FCF drops to `HK$11.1B` (`~$1.42B` USD < TTM, failing `A3b`). Also fails `FT3` (CSRC/mainland China cross-border brokerage regulatory risk) and `FT4` (HK/US retail momentum trading & HIBOR margin/cash spread sensitivity).
 5. **Leverage (`A4`) & Moat/Margin (`A5`):** Corporate balance sheet is net cash ex-client margin loans/payables (`A4` pass). Moat: `Narrow` (leading HK/Singapore retail app Moomoo/Futubull, but subject to regulatory & commission competition); NTM GM `~81%`.
@@ -1065,7 +1065,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 9. `ICE` — Intercontinental Exchange, Inc. (`[NEW DISCOVERY]` — Route `A–E` + `FT`)
 1. **Market Data & Price Health (`PH`):** Price `$156.19`, Market Cap `$87.68B`, 200DMA `$167.59` (`-6.8%` below 200DMA; `#12` PT leg valid), 3Y/Lifetime High `~$178.00` (drawdown `~12.3%`). **`PH-clear`**.
-2. **25% 3-Year IRR Math:** Fwd 3Y Rev CAGR `11.2%`, Next-FY Organic Rev Growth `~8.5%`, Fwd 3Y EPS CAGR `10.4%`, Net Buyback + Div Yield `+1.2%` (buybacks paused/reduced for Black Knight debt deleveraging), Multiple Normalization `0.0%/yr` (`Fwd P/E 17.8x`) = **Est. 3Y Annualized IRR: `11.6%`**.
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Fwd 3Y Rev CAGR `11.2%`, Next-FY Organic Rev Growth `~8.5%`, Fwd 3Y EPS CAGR `10.4%`, Net Buyback + Div Yield `+1.2%` (buybacks paused/reduced for Black Knight debt deleveraging), Multiple Normalization `0.0%/yr` (`Fwd P/E 17.8x`) = **Est. 3Y Annualized IRR: `11.6%`**.
 3. **Dilution Gate (`A1`):** **PASS (`A1`).** Share count `+0.2%` YoY (`~561M` shares; post-Black Knight M&A shares now past 12-month window); SBC `<3%` of revenue.
 4. **Capex & FCF Gate (`A3a/b/c`, `FT2–FT4`):** **PASS (`A3a/b/c`, `FT2–FT4`).** TTM Company FCF **`$5.08B`** (`~52%` of net revenue ex-clearing margin), NTM FCF `~$5.35B > TTM`, Capex `<6%` of OCF. Diversified across Brent/TTF energy futures, NYSE, fixed-income data, and mortgage tech (`FT4` pass).
 5. **Leverage (`A4`) & Moat/Margin (`A5`):** **HARD FAIL (`A4`).** Post-Black Knight acquisition, Net Debt is **`$19.46B`** against `$5.08B` TTM FCF (`~$5.35B` NTM FCF) = **`3.64x–3.83x Net Debt / FCF > 2.50x` hard ceiling**. Moat: `Wide` (energy futures clearing & mortgage software network effects); NTM GM `~78%`.
@@ -1077,7 +1077,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 10. `NDAQ` — Nasdaq, Inc. (`[NEW DISCOVERY]` — Route `A–E` + `FT`)
 1. **Market Data & Price Health (`PH`):** Price `$91.96`, Market Cap `$52.7B` (`558.98M` diluted shares), 200DMA `$88.20` (`+4.3%` above 200DMA), 3Y/Lifetime High `~$95.50` (drawdown `~3.7%`). **`PH-clear`**.
-2. **25% 3-Year IRR Math:** Fwd 3Y Rev CAGR `9.8%`, Next-FY Organic Rev Growth `~9.0%`, Fwd 3Y EPS CAGR `14.9%`, Net Buyback + Div Yield `+1.3%` (deleveraging post-Adenza), Multiple Normalization `-2.0%/yr` (`Fwd P/E 21.16x` -> `19.8x`) = **Est. 3Y Annualized IRR: `14.2%`**.
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Fwd 3Y Rev CAGR `9.8%`, Next-FY Organic Rev Growth `~9.0%`, Fwd 3Y EPS CAGR `14.9%`, Net Buyback + Div Yield `+1.3%` (deleveraging post-Adenza), Multiple Normalization `-2.0%/yr` (`Fwd P/E 21.16x` -> `19.8x`) = **Est. 3Y Annualized IRR: `14.2%`**.
 3. **Dilution Gate (`A1`):** **PASS (`A1`).** Adenza acquisition (`$10.5B` cash + `85.6M` shares to Thoma Bravo) closed Nov 2024 (outside TTM window); TTM share count `-0.6%` YoY via buybacks; SBC `<4%` of net revenue.
 4. **Capex & FCF Gate (`A3a/b/c`, `FT2–FT4`):** **PASS (`A3a/b/c`, `FT2–FT4`).** TTM Company FCF **`$1.95B`** (`~41%` of net revenue), NTM FCF `~$2.10B > TTM`, Capex `<6%` of OCF (`~$130M`). Over `75%` of revenue is recurring FinTech/RegTech (Verafin, AxiomSL, Calypso) and Index/Data (`FT4` pass).
 5. **Leverage (`A4`) & Moat/Margin (`A5`):** **FAIL (`A4`).** Net Debt **`$5.20B`** vs `$1.95B` TTM FCF = **`2.67x > 2.50x` (`~2.48x` on `$2.10B` NTM FCF — right on the `2.50x` knife-edge)**. Moat: `Wide` (US equity/options listing duopoly + RegTech switching costs); NTM GM `~72%`.
@@ -1089,7 +1089,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 11. `SCHW` — The Charles Schwab Corporation (`[NEW DISCOVERY]` — Route `A–E` + `FT`)
 1. **Market Data & Price Health (`PH`):** Price `$96.70` (Oct 2 sweep; `$95.94` Oct 15), Market Cap `$163.3B`, 200DMA `$98.34` (`-1.7%` below 200DMA; `#12` PT leg valid), 3Y/Lifetime High `$113.65` (2026-08-24, age 0.1 yr, drawdown `14.9%`, 3Y gap `0.0%`). **`PH-clear`**.
-2. **25% 3-Year IRR Math:** Fwd 3Y Rev CAGR `12.96%` (verified Oct 2 StockAnalysis sweep), Next-FY Organic Rev Growth `~13.5%`, Fwd 3Y EPS CAGR `22.72%` (**clears `#10` `≥20%` EPS CAGR hurdle as high-cost Bank Supplemental Funding is paid off!**), Net Buyback + Div Yield `+2.3%`, Multiple Normalization `-3.5%/yr` (`Fwd P/E 14.9x` -> `13.5x`) = **Est. 3Y Annualized IRR: `21.5%`** at `$96.70` (**`25.2%` at `≤$88.00`**).
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Fwd 3Y Rev CAGR `12.96%` (verified Oct 2 StockAnalysis sweep), Next-FY Organic Rev Growth `~13.5%`, Fwd 3Y EPS CAGR `22.72%` (**clears `#10` `≥20%` EPS CAGR hurdle as high-cost Bank Supplemental Funding is paid off!**), Net Buyback + Div Yield `+2.3%`, Multiple Normalization `-3.5%/yr` (`Fwd P/E 14.9x` -> `13.5x`) = **Est. 3Y Annualized IRR: `21.5%`** at `$96.70` (**`25.2%` at `≤$88.00`**).
 3. **Dilution Gate (`A1`):** **PASS (`A1`).** Share count `-0.8%` YoY (`~1.70B` diluted shares; resumed share buybacks after paying down FHLB/retail CD advances); SBC `<3%` of revenue.
 4. **Capex & FCF Gate (`A3a/b/c`, `FT2–FT4`):** **WATCH (`FT2` / `FT3`).** Normalized corporate free cash flow is `$7.8B+` (`~32%` margin, `A3a/b/c` pass), **but `FT2` and `FT3` require caution** because ~50% of revenue is Schwab Bank Net Interest Income earned on client sweep cash (`~$400B` bank deposits), which experienced client cash-sorting and HTM bond unrealized losses in 2023–2024.
 5. **Leverage (`A4`) & Moat/Margin (`A5`):** Corporate parent debt is modest relative to `$7.8B` normalized cash earnings (`A4` pass ex-bank deposits), and Moat is `Wide` (`$10T+` client assets, lowest-cost custodial/RIA platform).
@@ -1109,7 +1109,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 1. `RKLB` — Rocket Lab Corporation (Seed — Route `A–E` / `G` / `H`)
 1. **Market Data & Price Health (`PH`):** Price `$59.18` (Oct 14 close; `$65.91` Oct 2), Market Cap **`$39.56B` economic** (`668.43M` economic diluted shares including `29.3M` Sep 15 ATM shares + `~42.4M` Iridium M&A collar shares; `$35.3B` basic on `596.4M` sh), 200DMA `$81.43` (**`-27.3%` below 200DMA — `>20%` below voids `#12` PT leg!**), 3Y/Lifetime High `$150.23` (2026-05-27, age 0.4 yr, drawdown `60.6%`, 3Y gap `0.0%`). **`PH-clear`**.
-2. **25% 3-Year IRR Math:** Fwd 3Y Rev CAGR `39.71%` (`$602M` FY25 -> `$1.64B` FY28E standalone, or `$2.5B+` pro forma with Iridium), Next-FY Organic Rev Growth `~36.0%`, Fwd 3Y EPS/FCF CAGR `Neg -> Pos`, Net Buyback Yield `-8.5%/yr` (ATM + Iridium stock issuance + SBC), Multiple Normalization `-28.0%/yr` (`~24x` EV/Sales compression) = **Est. 3Y Annualized IRR: `-18.2%`** (Verified in commit `3914533`: under `H4`, a `20%/yr` 5Y return from `$59.18` requires **`$147.26/sh`** in Year 5 = **`$108.97B`** Mkt Cap on `740M` shares = **`$4.36B` FCF at 25x** vs plausible `$660M` pro forma FCF = `-18.2%/yr`).
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Fwd 3Y Rev CAGR `39.71%` (`$602M` FY25 -> `$1.64B` FY28E standalone, or `$2.5B+` pro forma with Iridium), Next-FY Organic Rev Growth `~36.0%`, Fwd 3Y EPS/FCF CAGR `Neg -> Pos`, Net Buyback Yield `-8.5%/yr` (ATM + Iridium stock issuance + SBC), Multiple Normalization `-28.0%/yr` (`~24x` EV/Sales compression) = **Est. 3Y Annualized IRR: `-18.2%`** (Verified in commit `3914533`: under `H4`, a `20%/yr` 5Y return from `$59.18` requires **`$147.26/sh`** in Year 5 = **`$108.97B`** Mkt Cap on `740M` shares = **`$4.36B` FCF at 25x** vs plausible `$660M` pro forma FCF = `-18.2%/yr`).
 3. **Dilution Gate (`A1`, `G3`, `H3/H4`):** **HARD FAIL (`A1`, `G3`, `H3`).** Completed **`$1.944B` ATM equity offering (`29.3M` shares at `~$66.35` closed Sep 15, 2026)** + announced **Iridium (`IRDM`) acquisition on Jun 28, 2026** issuing **`~42.4M` RKLB shares** (`0.40 RKLB` per IRDM share below `$67.50` collar) plus `$2.861B` cash and assuming `$1.775B` guaranteed term loan. YoY share count `+19.3%` before Iridium (`+27.8%` pro forma).
 4. **Capex & FCF Gate (`A3a/b/c`, `G2`, `H1/H2/H3`):** **HARD FAIL (`A3a`, `G2`, `H3`).** TTM Company FCF is **`-$325.6M`** (`OCF -$166.0M` minus `$159.6M` capex = `-46.2%` margin on `$704.9M` TTM rev; FY26E FCF `-$398.3M`, FY27E FCF `-$256.8M`). Furthermore, **on Oct 14, 2026 after-close (Form 8-K), RKLB announced Neutron's first launch slipped from Q4 2026 into 2027** due to Stage 2 carbon-composite tank-dome laminate voids (`H1/H3` setback).
 5. **Leverage (`A4`) & Moat/Margin (`A5`):** Pre-deal cash `~$2.78B` (after Sep ATM) vs `$137M` debt, **but pro forma for the Iridium buyout (`$2.861B` cash out + `$1.775B` debt assumed), pro forma Net Debt is `~$1.99B`** (`A4` fail while RKLB standalone FCF is negative). Moat: `Narrow` (Electron small-launch leader & SDA prime space systems; Neutron unproven); TTM GM `34.4%`.
@@ -1121,7 +1121,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 2. `ASTS` — AST SpaceMobile, Inc. (Seed — Route `H-watch`)
 1. **Market Data & Price Health (`PH`):** Price `$42.14` (Oct 14 close; `$65.34` Oct 2), Market Cap **`$16.40B` economic** (`389.11M` economic shares across Class A/B/C + LLC units; `$12.23B` public float), 200DMA `$80.28` (**`-47.5%` below 200DMA — voids `#12` PT leg!**), 3Y/Lifetime High `$133.09` (2026-05-28, age 0.4 yr, drawdown `68.3%`, 3Y gap `0.0%`). **`PH-clear`**.
-2. **25% 3-Year IRR Math:** Fwd 3Y Rev CAGR `>100%` (from `$57.5M` TTM to `$581.7M` FY27E and `$1.4B+` FY28E), Next-FY Organic Rev Growth `>150%`, Fwd 3Y EPS/FCF CAGR `Neg -> Pos`, Net Buyback Yield `-6.0%/yr` (converts/ATM dilution to fund 45–60 Block 2 BlueBird satellites), Multiple Normalization `-15.0%/yr` = **Est. 3Y Annualized IRR: `-5.0%` to `+12.0%`** at `$42.14` (Under `H4`, `$42.14` requires **`$104.86/sh`** in 5Y = **`$46.1B–$49.8B`** diluted Mkt Cap on `440M–475M` shares = **`$2.18B–$2.35B` FY30 FCF** at 22–25x).
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Fwd 3Y Rev CAGR `>100%` (from `$57.5M` TTM to `$581.7M` FY27E and `$1.4B+` FY28E), Next-FY Organic Rev Growth `>150%`, Fwd 3Y EPS/FCF CAGR `Neg -> Pos`, Net Buyback Yield `-6.0%/yr` (converts/ATM dilution to fund 45–60 Block 2 BlueBird satellites), Multiple Normalization `-15.0%/yr` = **Est. 3Y Annualized IRR: `-5.0%` to `+12.0%`** at `$42.14` (Under `H4`, `$42.14` requires **`$104.86/sh`** in 5Y = **`$46.1B–$49.8B`** diluted Mkt Cap on `440M–475M` shares = **`$2.18B–$2.35B` FY30 FCF** at 22–25x).
 3. **Dilution Gate (`A1`, `G3`, `H3/H4`):** **FAIL (`A1`, `G3`, `H2/H4`).** Issued **`$1.15B` convertible senior notes in July 2026** (`$1.02B` net cash after capped calls/retirement) + ATM usage (`+14.5%` YoY share expansion).
 4. **Capex & FCF Gate (`A3a/b/c`, `G2`, `H2/H3`):** **FAIL (`A3a`, `G2`, `H2`).** TTM Company FCF is **`-$1.174B`** (`OCF -$543.5M` minus `$630.6M` satellite capex; H1 2026 FCF `-$606.8M`). **Fails `H2` 24-month stressed funding test:** Verified in commit `3914533`, 24-month stressed burn (`1.25x` operating burn + committed Block 2 launch/manufacturing capex + `$160M` Ligado obligations) requires **`$5.02B`**, leaving a **`~$1.71B` funding gap** vs `$3.31B` usable pro forma cash.
 5. **Leverage (`A4`) & Moat/Margin (`A5`):** Pro forma Cash `~$3.31B` vs Debt `~$2.19B` (`$1.12B` net cash today, but consumed within 15–18 months by constellation capex). Moat: `Narrow` (pioneering D2D cellular broadband patents + AT&T/Verizon/Vodafone MNO agreements + 850 MHz/Ligado spectrum, competing with SpaceX Starlink D2D).
@@ -1133,7 +1133,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 3. `PL` — Planet Labs PBC (`[NEW DISCOVERY]` — Route `A–E` / `G` / `H`)
 1. **Market Data & Price Health (`PH`):** Price `$14.13` (Oct 14 close; `$20.51` Oct 2), Market Cap `$5.51B` (`~390M` diluted shares including Q2 ATM/converts), 200DMA `$27.25` (**`-48.1%` below 200DMA — voids `#12` PT leg!**), 3Y/Lifetime High `$51.40` (2026-05-28, age 0.4 yr, drawdown `72.5%`, 3Y gap `0.0%`). **`PH-clear`**.
-2. **25% 3-Year IRR Math:** Fwd 3Y Rev CAGR `25.92%` (`$378.5M` TTM -> `$755M` FY29E), Next-FY Organic Rev Growth `~24.0%`, Fwd 3Y EPS/FCF CAGR `Pos -> Neg -> Pos` (FY27E FCF `-$29.08M`), Net Buyback Yield `-6.5%/yr` (WASO `+18.2%` YoY), Multiple Normalization `-15.0%/yr` = **Est. 3Y Annualized IRR: `-2.4%`** (Verified in commit `3914533`: explicit 5Y `H4` base model yields `$12.51/sh` in Year 5 = `-2.4%/yr` vs `20%` hurdle).
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Fwd 3Y Rev CAGR `25.92%` (`$378.5M` TTM -> `$755M` FY29E), Next-FY Organic Rev Growth `~24.0%`, Fwd 3Y EPS/FCF CAGR `Pos -> Neg -> Pos` (FY27E FCF `-$29.08M`), Net Buyback Yield `-6.5%/yr` (WASO `+18.2%` YoY), Multiple Normalization `-15.0%/yr` = **Est. 3Y Annualized IRR: `-2.4%`** (Verified in commit `3914533`: explicit 5Y `H4` base model yields `$12.51/sh` in Year 5 = `-2.4%/yr` vs `20%` hurdle).
 3. **Dilution Gate (`A1`, `G3`, `H3`):** **HARD FAIL (`A1`, `G3`, `H3`).** Basic shares rose `+11.54%` YoY (`309.4M` -> `345.1M`) and diluted WASO rose **`+18.2%` YoY (`390.0M`)**, driven by a **`$120M` ATM equity raise** in Q2 FY27 plus **`$460M` convertible senior notes (`38.49M` underlying shares)**.
 4. **Capex & FCF Gate (`A3a/b/c`, `G2`, `H3`):** **HARD FAIL (`A3a`, `A3b`, `G2`).** While TTM Company FCF is `$24.67M` (`6.52%` margin < `8.0%` `A3a` floor), FY25 OCF was `-$14.4M` (failing `G2` two-positive-FY-OCF test) and **consensus FY27E FCF drops to `-$29.08M`** due to Pelican/Tanager constellation capex (`$84M–$95M`, failing `A3b` and `G2` `NTM FCF ≥ 90% TTM`).
 5. **Leverage (`A4`) & Moat/Margin (`A5`):** Cash `$670.5M` vs Debt `$409.5M` (`$261.0M` net cash, passing `A4`). Moat: `Narrow` (daily global optical/hyperspectral Earth-imaging archive + `$734.5M` RPO backlog, but heavy satellite replacement capex cycle); TTM GM `57.8%`.
@@ -1145,7 +1145,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 4. `LUNR` — Intuitive Machines, Inc. (`[NEW DISCOVERY]` — Route `H` / Fails Market Cap Floor)
 1. **Market Data & Price Health (`PH`):** Price `$11.02`, Market Cap **`$1.91B`** (**Fails `#2` `$2.5B` Market Cap Minimum Floor!**), 200DMA `$20.21` (**`-45.5%` below 200DMA — voids `#12` PT leg!**), 3Y/Lifetime High `~$24.95` (drawdown `~55.8%`). **`PH-clear`** (on price structure, though disqualified by cap floor).
-2. **25% 3-Year IRR Math:** Fwd 3Y Rev CAGR `~35.0%` (NASA CLPS & Near Space Network contracts), Next-FY Organic Rev Growth `~30.0%`, Fwd 3Y EPS/FCF CAGR `Negative`, Net Buyback Yield `-12.0%/yr` (warrant exercises, PIPE/ATM offerings), Multiple Normalization `-10.0%/yr` = **Est. 3Y Annualized IRR: `-10.0%`**.
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Fwd 3Y Rev CAGR `~35.0%` (NASA CLPS & Near Space Network contracts), Next-FY Organic Rev Growth `~30.0%`, Fwd 3Y EPS/FCF CAGR `Negative`, Net Buyback Yield `-12.0%/yr` (warrant exercises, PIPE/ATM offerings), Multiple Normalization `-10.0%/yr` = **Est. 3Y Annualized IRR: `-10.0%`**.
 3. **Dilution Gate (`A1`, `G3`, `H3`):** **HARD FAIL (`A1`, `G3`).** Massive share count expansion (`>25%` YoY) from public/private warrant redemptions, Class C/A exchanges, and equity offerings.
 4. **Capex & FCF Gate (`A3a/b/c`, `G2`, `H2/H3`):** **HARD FAIL (`A3a`, `G2`, `H3`).** Negative TTM and NTM Operating and Free Cash Flow (`~$60M–$90M/yr` cash burn on lunar lander R&D and infrastructure).
 5. **Leverage (`A4`) & Moat/Margin (`A5`):** **FAIL (`A4`).** Net Debt **`$114.1M`** (`$367.3M` cash vs `$481.5M` debt/liabilities) against negative FCF (`A4` fail). Moat: `Narrow` (NASA CLPS/NSNS contractor, but mission-failure single-point risk).
@@ -1157,7 +1157,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 5. `RDW` — Redwire Corporation (`[NEW DISCOVERY]` — Route `H` / `A–E`)
 1. **Market Data & Price Health (`PH`):** Price `$8.62` (Oct 15; `$10.88` Oct 2 sweep), Market Cap `$2.2B–$2.7B`, 200DMA `$11.05` (**`-22.0%` below 200DMA on Oct 15 / `-1.5%` Oct 2 — voids `#12` PT leg on Oct 15!**), 3Y/Lifetime High `$25.90` (2026-05-28, age 0.4 yr, drawdown `66.7%` Oct 15 / `58.0%` Oct 2). **`PH-clear`**.
-2. **25% 3-Year IRR Math:** Fwd 3Y Rev CAGR `27.79%`, Next-FY Organic Rev Growth `~25.0%`, Fwd 3Y EPS/FCF CAGR `Negative` (FY26E FCF `-$67.37M`), Net Buyback Yield `-15.0%/yr` (`$566.2M` equity/preferred issuance), Multiple Normalization `-8.0%/yr` = **Est. 3Y Annualized IRR: `-6.5%`**.
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Fwd 3Y Rev CAGR `27.79%`, Next-FY Organic Rev Growth `~25.0%`, Fwd 3Y EPS/FCF CAGR `Negative` (FY26E FCF `-$67.37M`), Net Buyback Yield `-15.0%/yr` (`$566.2M` equity/preferred issuance), Multiple Normalization `-8.0%/yr` = **Est. 3Y Annualized IRR: `-6.5%`**.
 3. **Dilution Gate (`A1`, `G3`, `H3`):** **HARD FAIL (`A1`, `G3`).** Verified in `defense_space.md`: issued **`$566.2M` of equity & Bain/AE Industrial preferred stock conversions** in TTM to fund space-infrastructure M&A (Hera Systems / Edge Autonomy) and working capital.
 4. **Capex & FCF Gate (`A3a/b/c`, `G2`, `H2/H3`):** **HARD FAIL (`A3a`, `G2`, `H2`, `H3`).** Verified in `defense_space.md`: H1 2026 FCF was **`-$44.89M`** and consensus FY26E FCF is **`-$67.37M`** (`A3a` and `G2` fail; `H2/H3` destination unverified).
 5. **Leverage (`A4`) & Moat/Margin (`A5`):** **FAIL (`A4`).** Positive net debt + preferred obligations against negative `-$67.4M` NTM FCF (`A4` fail). Moat: `Narrow` (ROSA solar arrays & VLEO spacecraft platforms, ~20–25% gross margin).
@@ -1169,7 +1169,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 6. `BKSY` — BlackSky Technology Inc. (`[NEW DISCOVERY]` — Route `H` / Fails Market Cap Floor)
 1. **Market Data & Price Health (`PH`):** Price `$20.81`, Market Cap **`$722M–$807M`** (**Hard Fail on `#2` `$2.5B` Market Cap Minimum Floor!**), 200DMA `$27.64` (**`-24.7%` below 200DMA — voids `#12` PT leg!**), 3Y High `~$33.00` (drawdown `~37%`). **`PH-clear`** (disqualified by `$2.5B` cap floor).
-2. **25% 3-Year IRR Math:** Fwd 3Y Rev CAGR `~22.0%` (`$109.7M` TTM rev), Next-FY Organic Rev Growth `~20.0%`, Fwd 3Y EPS/FCF CAGR `Negative` (TTM Net Loss `-$70.1M`, FCF `-$42.5M`), Net Buyback Yield `-8.0%/yr` (equity raises), Multiple Normalization `-5.0%/yr` = **Est. 3Y Annualized IRR: `-8.0%`**.
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Fwd 3Y Rev CAGR `~22.0%` (`$109.7M` TTM rev), Next-FY Organic Rev Growth `~20.0%`, Fwd 3Y EPS/FCF CAGR `Negative` (TTM Net Loss `-$70.1M`, FCF `-$42.5M`), Net Buyback Yield `-8.0%/yr` (equity raises), Multiple Normalization `-5.0%/yr` = **Est. 3Y Annualized IRR: `-8.0%`**.
 3. **Dilution Gate (`A1`, `G3`):** **HARD FAIL (`A1`, `G3`).** Repeated equity/PIPE offerings and warrant dilution (`>10%` YoY share growth).
 4. **Capex & FCF Gate (`A3a/b/c`, `G2`):** **HARD FAIL (`A3a`, `G2`).** TTM Company FCF is **`-$42.5M`** (`-38.7%` FCF margin on `$109.7M` rev) due to Gen-3 satellite constellation capex.
 5. **Leverage (`A4`) & Moat/Margin (`A5`):** **HARD FAIL (`A4`).** Net Debt **`$109.7M`** (`$126M` cash vs `$236M` debt) against `-$42.5M` FCF. Moat: `None/Narrow` (sub-scale optical EO vs Planet Labs & Maxar).
@@ -1181,7 +1181,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 7. `IRDM` — Iridium Communications Inc. (`[NEW DISCOVERY]` — Pending M&A Target / Route `A–E`)
 1. **Market Data & Price Health (`PH`):** Price `$45.96`, Market Cap `$5.00B` (`105.96M` shares), 200DMA `$37.77` (`+21.7%` above 200DMA), 3Y High `~$62.00` (drawdown `~25.9%`). **`PH-clear`**.
-2. **25% 3-Year IRR Math:** **Capped by Pending Acquisition:** On **June 28, 2026**, Rocket Lab (`RKLB`) signed a definitive agreement to acquire `IRDM` for **`$27.00` in cash + `0.40` RKLB shares per IRDM share** (subject to a `$67.50` RKLB collar; at RKLB `$59.18`, implied deal value is `$27.00 + $23.67 = $50.67/sh`, closing expected mid-2027). Standalone 3Y Rev CAGR is `~6.0%` (`$894M` TTM rev) and 3Y EPS CAGR is `~8.5%` = **Standalone 3Y IRR `~9.0%`**.
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** **Capped by Pending Acquisition:** On **June 28, 2026**, Rocket Lab (`RKLB`) signed a definitive agreement to acquire `IRDM` for **`$27.00` in cash + `0.40` RKLB shares per IRDM share** (subject to a `$67.50` RKLB collar; at RKLB `$59.18`, implied deal value is `$27.00 + $23.67 = $50.67/sh`, closing expected mid-2027). Standalone 3Y Rev CAGR is `~6.0%` (`$894M` TTM rev) and 3Y EPS CAGR is `~8.5%` = **Standalone 3Y IRR `~9.0%`**.
 3. **Dilution Gate (`A1`):** **PASS (`A1` standalone).** Share count `-5.2%` YoY prior to the RKLB merger agreement.
 4. **Capex & FCF Gate (`A3a/b/c`):** **PASS (`A3a/b/c` standalone).** TTM Company FCF **`$288.0M`** (`32.2%` FCF margin on `$894M` rev; capex holiday until NEXT constellation replacement in 2030s).
 5. **Leverage (`A4`) & Moat/Margin (`A5`):** **HARD FAIL (`A4` standalone).** Net Debt **`$1.60B`** (`$1.775B` term loan vs `$175M` cash) against `$288M` FCF = **`5.56x Net Debt / FCF > 2.50x` hard ceiling**. Moat: `Wide` (global L-band satellite safety/aviation/DoD spectrum monopoly).
@@ -1193,7 +1193,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 8. `MDA.TO` (`MDA`) — MDA Space Ltd. (`[NEW DISCOVERY]` — Route `A–E` / `G`)
 1. **Market Data & Price Health (`PH`):** Price `US$27.45` (`C$40.50`), Market Cap `US$4.44B` (`~162M` shares), 200DMA `US$31.49` (`C$43.70`; `-12.8%` below 200DMA; `#12` PT leg valid), 3Y/Lifetime High `~US$36.00` (drawdown `~23.8%`). **`PH-clear`**.
-2. **25% 3-Year IRR Math:** Fwd 3Y Rev CAGR `~28.5%` (scaling from `C$1.08B` FY24 to `C$1.87B+` on `C$4.6B+` AURORA digital satellite backlog for Telesat Lightspeed, Globalstar/Apple, and Canadarm3), Next-FY Organic Rev Growth `~30.0%`, Fwd 3Y EPS CAGR `~25.0%`, Net Buyback Yield `-3.5%/yr` (share count creep), Multiple Normalization `-3.0%/yr` (`Fwd P/E 22.4x` -> `20.5x`) = **Est. 3Y Annualized IRR: `18.5%`**.
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Fwd 3Y Rev CAGR `~28.5%` (scaling from `C$1.08B` FY24 to `C$1.87B+` on `C$4.6B+` AURORA digital satellite backlog for Telesat Lightspeed, Globalstar/Apple, and Canadarm3), Next-FY Organic Rev Growth `~30.0%`, Fwd 3Y EPS CAGR `~25.0%`, Net Buyback Yield `-3.5%/yr` (share count creep), Multiple Normalization `-3.0%/yr` (`Fwd P/E 22.4x` -> `20.5x`) = **Est. 3Y Annualized IRR: `18.5%`**.
 3. **Dilution Gate (`A1`, `G3`):** **HARD FAIL (`A1`, `G3`).** Confirmed in the Oct 2 repository sweep (`defense_space.md`): share count expanded **`+30.2%` over the trailing 3Y** (and `>3%` YoY to `~162M` diluted shares via equity issuances, SatixFy/supply-chain M&A, and option dilution).
 4. **Capex & FCF Gate (`A3a/b/c`, `G2`):** **FAIL (`A3a/A3c` / `G2` working-capital & capex lumpiness).** While operating cash flow is buoyed by customer prepayments on Telesat Lightspeed and Globalstar contracts, heavy Montreal high-volume satellite manufacturing expansion capex (`C$180M–C$220M/yr`) compresses normalized FCF margin near the `6–8%` border and pushes `Capex/OCF > 35%` (`A3c`).
 5. **Leverage (`A4`) & Moat/Margin (`A5`):** **PASS (`A4`).** Net Cash **`~US$19.5M`** (`US$398M` cash vs `US$378.5M` debt, `A4` pass). Moat: `Narrow` (Canadarm space robotics monopoly + AURORA software-defined LEO satellite platform, but fixed-price satellite manufacturing execution risk); Gross Margin `~27–30%`.
@@ -1205,7 +1205,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 9. `SATS` — EchoStar Corporation (`[NEW DISCOVERY]` — Route `H` / Distressed)
 1. **Market Data & Price Health (`PH`):** Price `$24.50`, Market Cap `$6.80B`, 200DMA `$30.05` (`-18.5%` below 200DMA), 3Y/Lifetime High `$80.00+` (`>70%` multi-year drawdown). **`PH-warning` / `PH-impaired`**.
-2. **25% 3-Year IRR Math:** Fwd 3Y Rev CAGR `-4.5%` (shrinking Dish Pay-TV, HughesNet satellite broadband, and Boost Wireless), Fwd 3Y EPS/FCF CAGR `Deeply Negative`, Net Buyback Yield `-15.0%/yr` (distressed convertible/spectrum debt exchanges) = **Est. 3Y Annualized IRR: `-25.0%`**.
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Fwd 3Y Rev CAGR `-4.5%` (shrinking Dish Pay-TV, HughesNet satellite broadband, and Boost Wireless), Fwd 3Y EPS/FCF CAGR `Deeply Negative`, Net Buyback Yield `-15.0%/yr` (distressed convertible/spectrum debt exchanges) = **Est. 3Y Annualized IRR: `-25.0%`**.
 3. **Dilution Gate (`A1`, `G3`):** **HARD FAIL (`A1`, `G3`).** Massive distressed debt-for-equity/convertible exchanges and PIPEs to stave off bankruptcy maturities.
 4. **Capex & FCF Gate (`A3a/b/c`, `G2`, `H2`):** **HARD FAIL (`A3a`, `G2`, `H2`).** Burning `>$1.5B/yr` in negative FCF.
 5. **Leverage (`A4`) & Moat/Margin (`A5`):** **HARD FAIL (`A4`, `A5`).** Over **`$20B+` in Net Debt** against negative FCF and shrinking legacy Pay-TV/satellite revenue (`No Moat`).
@@ -1226,7 +1226,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 1. `CCJ` — Cameco Corporation (Seed — Route `F` Mandatory)
 1. **Market Data & Price Health (`PH`):** Price `$81.50` (Oct 15; `$85.18` Oct 2 sweep), Market Cap `$35.5B–$37.1B`, 200DMA `$105.66` (**`-22.9%` below 200DMA on Oct 15 / `-19.4%` Oct 2 — voids `#12` PT leg on Oct 15!**), 3Y/Lifetime High `$134.09` (2026-01-28, age 0.7 yr, drawdown `39.2%` Oct 15 / `36.5%` Oct 2). **`PH-clear`**.
-2. **25% 3-Year IRR Math:** Fwd 3Y Rev CAGR `12.6%`, Next-FY Organic Rev Growth `~14.0%`, Fwd 3Y EPS CAGR `~28.0%` (as legacy uranium contracts roll into `$80–$90/lb` LT realizations + 49% Westinghouse JV contribution), Net Buyback Yield `0.0%` (`0.15%` div), Multiple Normalization `-22.0%/yr` (from `59.9x–97x` Fwd P/E down toward `25x` normalized multiple) = **Est. 3Y Annualized IRR: `6.5%`** (Extreme multiple compression drag).
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Fwd 3Y Rev CAGR `12.6%`, Next-FY Organic Rev Growth `~14.0%`, Fwd 3Y EPS CAGR `~28.0%` (as legacy uranium contracts roll into `$80–$90/lb` LT realizations + 49% Westinghouse JV contribution), Net Buyback Yield `0.0%` (`0.15%` div), Multiple Normalization `-22.0%/yr` (from `59.9x–97x` Fwd P/E down toward `25x` normalized multiple) = **Est. 3Y Annualized IRR: `6.5%`** (Extreme multiple compression drag).
 3. **Dilution Gate (`F1` / `A1`):** **FAIL (`F1` Buyback Rule).** Share count is flat (`435.4M` shares, `+0.1%` YoY; Nov 2022 Westinghouse equity raise is past the 4Q window), **but `F1` requires `>0` gross share buybacks in the last 4 quarters (`CCJ` repurchased `$0`)**.
 4. **Capex & FCF Gate (`F1` / `A3a`):** **FAIL (`F1` EBITDA Margin).** TTM Company FCF is `~$680M` (`~26%` of consolidated C$3.5B rev, clearing `≥10%` `F1` FCF margin), **but consolidated GAAP EBITDA margin is `~23.0% < 30.0%` `F1` floor** (diluted by fuel services / Westinghouse accounting).
 5. **Leverage (`F1` / `A4`) & Moat/Margin (`A5`):** **PASS (`F1` Leverage & Moat).** Net Debt **`$224.2M`** (`$999.2M` debt vs `$775.0M` cash; `Net Debt/EBITDA = 0.35x ≤ 3.25x`). Moat: `Wide` (Tier-1 Cigar Lake & McArthur River high-grade Athabasca mines + UF6 conversion + 49% Westinghouse).
@@ -1238,7 +1238,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 2. `LEU` — Centrus Energy Corp. (`[NEW DISCOVERY]` — Route `H-watch` / `A–E`)
 1. **Market Data & Price Health (`PH`):** Price `$120.00`, Market Cap `$2.65B`, 200DMA `$196.16` (**`-38.8%` below 200DMA — voids `#12` PT leg!**), 3Y/Lifetime High `~$310.00` (drawdown `~61.3%`). **`PH-clear`**.
-2. **25% 3-Year IRR Math:** Fwd 3Y Rev CAGR `~14.0%` (`$442M` TTM SWU broker/enrichment rev; DOE HALEU task orders ramp late 2028+), Next-FY Organic Rev Growth `~10.0%`, Fwd 3Y EPS CAGR `-5.0%` (margin compression as legacy Russian TENEX SWU contracts face waivers/tariffs and Piketon centrifuge capex ramps), Net Buyback Yield `-8.0%/yr` (ATM/convert dilution), Multiple Normalization `-18.0%/yr` (`Fwd P/E 48x–59x`, `EV/EBITDA 174x`) = **Est. 3Y Annualized IRR: `-8.0%`**.
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Fwd 3Y Rev CAGR `~14.0%` (`$442M` TTM SWU broker/enrichment rev; DOE HALEU task orders ramp late 2028+), Next-FY Organic Rev Growth `~10.0%`, Fwd 3Y EPS CAGR `-5.0%` (margin compression as legacy Russian TENEX SWU contracts face waivers/tariffs and Piketon centrifuge capex ramps), Net Buyback Yield `-8.0%/yr` (ATM/convert dilution), Multiple Normalization `-18.0%/yr` (`Fwd P/E 48x–59x`, `EV/EBITDA 174x`) = **Est. 3Y Annualized IRR: `-8.0%`**.
 3. **Dilution Gate (`A1`, `G3`, `H3`):** **HARD FAIL (`A1`, `G3`, `H3`).** Executed repeated ATM equity offerings (`$200M+` ATM program) and convertible senior note issuances over the last 12 months (`+18%` YoY share count expansion) to co-fund Piketon, Ohio centrifuge manufacturing.
 4. **Capex & FCF Gate (`A3a/b/c`, `G2`, `H3`):** **HARD FAIL (`A3a`, `A3b`, `G2`, `H3`).** TTM and NTM Company FCF are turning **negative** as multi-hundred-million-dollar Piketon HALEU/LEU cascade construction capex ramps (`Capex/OCF > 100%`), with full commercial cascade cash generation beyond the 5-year `H3` horizon.
 5. **Leverage (`A4`) & Moat/Margin (`A5`):** Cash `~$1.1B` (raised via ATMs/converts) vs `~$650M` debt/customer advances (`$449M` net cash today, `A4` pass today but earmarked for Piketon capex). Moat: `Narrow` (only NRC-licensed US HALEU producer, but historically reliant on reselling Russian TENEX SWU).
@@ -1250,7 +1250,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 3. `BWXT` — BWX Technologies, Inc. (`[NEW DISCOVERY]` — Route `A–E` / `G`)
 1. **Market Data & Price Health (`PH`):** Price `$138.50`, Market Cap `$12.8B` (`91.6M` shares), 200DMA `$138.50` (`0.0%` at 200DMA; `#12` PT leg valid), 3Y/Lifetime High `~$152.00` (drawdown `~8.9%`). **`PH-clear`**.
-2. **25% 3-Year IRR Math:** Fwd 3Y Rev CAGR `~8.5%` (`$2.75B` TTM rev -> `$3.5B` FY28E across US Navy Virginia/Columbia-class submarine reactors, CANDU life extensions, and medical isotopes), Next-FY Organic Rev Growth `~8.0%`, Fwd 3Y EPS CAGR `~12.5%`, Net Buyback + Div Yield `+0.7%`, Multiple Normalization `-2.5%/yr` (`Fwd P/E 27.4x` -> `25.0x`) = **Est. 3Y Annualized IRR: `9.8%`** (Steady naval defense compounder, far below `25%` IRR).
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Fwd 3Y Rev CAGR `~8.5%` (`$2.75B` TTM rev -> `$3.5B` FY28E across US Navy Virginia/Columbia-class submarine reactors, CANDU life extensions, and medical isotopes), Next-FY Organic Rev Growth `~8.0%`, Fwd 3Y EPS CAGR `~12.5%`, Net Buyback + Div Yield `+0.7%`, Multiple Normalization `-2.5%/yr` (`Fwd P/E 27.4x` -> `25.0x`) = **Est. 3Y Annualized IRR: `9.8%`** (Steady naval defense compounder, far below `25%` IRR).
 3. **Dilution Gate (`A1`, `G3`):** **HARD FAIL (`A1`, `G3`).** Issued **`$1.1B` of convertible senior notes in November 2025** (within the trailing 12-month `A1` and `G3` prohibition window on new convertible debt!).
 4. **Capex & FCF Gate (`A3a/b/c`, `G2`):** **PASS (`A3a/b/c`, `G2`).** TTM Company FCF `~$235M` (`~8.5%` FCF margin ≥ `8.0%` `A3a` / `≥6.0%` `G2`), NTM FCF `~$270M > TTM`, Capex `~32%` of OCF (`≤35%` `A3c`).
 5. **Leverage (`A4` / `G2`) & Moat/Margin (`A5`):** **HARD FAIL (`A4` / `G2`).** Net Debt **`$1.40B`** against `~$235M` TTM FCF (`~$270M` NTM FCF) = **`5.19x–5.96x Net Debt / FCF > 2.50x` hard ceiling** (fails both `A4` and `G2`!). Moat: `Wide` (sole-source US Navy nuclear propulsion reactor manufacturer + NRC Category I fuel license).
@@ -1262,7 +1262,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 4. `KAP.L` — NAC Kazatomprom JSC GDR (`[NEW DISCOVERY]` — Route `F` Mandatory)
 1. **Market Data & Price Health (`PH`):** Price `$62.50` (`$62.00–$63.00` LSE GDR), Market Cap `$16.3B` (`259.36M` GDR equivalents), 200DMA `$73.59` (`-15.1%` below 200DMA; `#12` PT leg remains valid since within `-20%`), 3Y/Lifetime High `~$79.50` (drawdown `~21.4%`). **`PH-clear`**.
-2. **25% 3-Year IRR Math:** Fwd 3Y Rev CAGR `~14.5%`, Next-FY Organic Rev Growth `~15.0%`, Fwd 3Y EPS CAGR `~16.5%` (high uranium prices partially offset by Kazakhstan's tiered Mineral Extraction Tax [MET] hike taking effect 2026+ and sulfuric acid / JV partner production allocations), Dividend Yield `+6.0%` (`0%` buybacks), Multiple Normalization `-1.5%/yr` (`Fwd P/E 10.8x`) = **Est. 3Y Annualized IRR: `19.5%`** at `$62.50` (**`25.5%` at `≤$52.00`**).
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Fwd 3Y Rev CAGR `~14.5%`, Next-FY Organic Rev Growth `~15.0%`, Fwd 3Y EPS CAGR `~16.5%` (high uranium prices partially offset by Kazakhstan's tiered Mineral Extraction Tax [MET] hike taking effect 2026+ and sulfuric acid / JV partner production allocations), Dividend Yield `+6.0%` (`0%` buybacks), Multiple Normalization `-1.5%/yr` (`Fwd P/E 10.8x`) = **Est. 3Y Annualized IRR: `19.5%`** at `$62.50` (**`25.5%` at `≤$52.00`**).
 3. **Dilution Gate (`F1` / `A1`):** **FAIL (`F1` Buyback Sub-Gate).** Zero share dilution in last 5 years (`259.36M` constant shares; `0%` SBC), **but `F1` explicitly requires `>0` gross share buybacks in the last 4 quarters**, whereas Kazatomprom returns capital exclusively via cash dividends (`~75%` of FCF payout policy) and repurchased `0` shares.
 4. **Capex & FCF Gate (`F1` / `A3a`):** **PASS (`F1` FCF & EBITDA Margins).** TTM Company FCF is `~$1.05B` (`~24%` FCF margin ≥ `10%` `F1` floor) and TTM EBITDA margin is `~52%` (`≥30%` `F1` floor).
 5. **Leverage (`F1` / `A4`) & Moat/Margin (`A5`):** **PASS (`F1` Leverage & Moat).** Net Cash **`~$420M`** (`Net Debt/EBITDA = -0.2x ≤ 3.25x`; interest coverage `>25x ≥ 3.5x`; ROIC `~32% >> WACC`). Moat: `Wide` (world's largest, lowest-cost first-quartile In-Situ Recovery [ISR] uranium producer accounting for ~23% of global primary supply).
@@ -1274,7 +1274,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 5. `NXE` — NexGen Energy Ltd. (`[NEW DISCOVERY]` — Route `F` Mandatory)
 1. **Market Data & Price Health (`PH`):** Price `$8.50`, Market Cap `$5.60B`, 200DMA `$10.90` (**`-22.0%` below 200DMA — voids `#12` PT leg!**), 3Y/Lifetime High `~$12.50` (drawdown `~32.0%`). **`PH-clear`**.
-2. **25% 3-Year IRR Math:** Pre-revenue single-asset mine developer (Rook I / Arrow deposit in Athabasca Basin; CNSC federal permitting & 4-year shaft/mill construction means **zero commercial uranium revenue or positive FCF within the next 3 years**; `C$2.2B+` capex required) = **Est. 3Y Annualized Operating IRR: `-10.0%`** (pure uranium spot/NAV option).
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Pre-revenue single-asset mine developer (Rook I / Arrow deposit in Athabasca Basin; CNSC federal permitting & 4-year shaft/mill construction means **zero commercial uranium revenue or positive FCF within the next 3 years**; `C$2.2B+` capex required) = **Est. 3Y Annualized Operating IRR: `-10.0%`** (pure uranium spot/NAV option).
 3. **Dilution Gate (`F1` / `A1`):** **HARD FAIL (`F1` / `A1`).** Issued convertible debentures (`$250M` 9.0% converts to buy physical uranium + prior Queen's Road converts) and continuous ATM/equity offerings (`+8%` YoY share dilution) with `0` buybacks.
 4. **Capex & FCF Gate (`F1` / `A3a`):** **HARD FAIL (`F1` / `A3a`).** Pre-revenue (`$0` revenue, negative EBITDA, negative TTM FCF `~$120M` burn, and `C$2.2B` construction capex ahead). Even if evaluated under Route H, `NXE` fails `H1` (no operating mine/product) and `f6171aa` explicitly bans commodity resource companies from Route G/H.
 5. **Leverage (`F1`) & Moat/Margin (`A5`):** Cash `$683M` vs Debt `$435M` (`$247M` net cash today, but `C$2.2B` Rook I capex requires `>$1.5B` project debt/equity). Moat: `Narrow` (tier-1 undeveloped Arrow orebody, zero current production).
@@ -1286,7 +1286,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 6. `UEC` — Uranium Energy Corp. (`[NEW DISCOVERY]` — Route `F` Mandatory)
 1. **Market Data & Price Health (`PH`):** Price `$8.65`, Market Cap `$4.05B`, 200DMA `$12.93` (**`-33.1%` below 200DMA — voids `#12` PT leg!**), 3Y/Lifetime High `~$14.20` (drawdown `~39.1%`). **`PH-clear`**.
-2. **25% 3-Year IRR Math:** Fwd 3Y Rev CAGR `~35%` off a tiny base (`<$100M` TTM rev as Wyoming/Texas ISR hub-and-spoke restarts scale slowly), Fwd 3Y EPS/FCF CAGR `Negative / Sub-scale`, Net Buyback Yield `-7.5%/yr` (ATM & stock-settled M&A dilution) = **Est. 3Y Annualized IRR: `-12.0%`**.
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Fwd 3Y Rev CAGR `~35%` off a tiny base (`<$100M` TTM rev as Wyoming/Texas ISR hub-and-spoke restarts scale slowly), Fwd 3Y EPS/FCF CAGR `Negative / Sub-scale`, Net Buyback Yield `-7.5%/yr` (ATM & stock-settled M&A dilution) = **Est. 3Y Annualized IRR: `-12.0%`**.
 3. **Dilution Gate (`F1` / `A1`):** **HARD FAIL (`F1` / `A1`).** Serial equity issuer via ATM programs and stock-settled M&A (Rio Tinto Sweetwater / Anfield / UEX acquisitions; shares expanded `>10%` YoY and `>50%` over 3Y) with `0` buybacks.
 4. **Capex & FCF Gate (`F1` / `A3a`):** **HARD FAIL (`F1` / `A3a`).** TTM Company FCF is **`-$107.0M`** (negative OCF and negative EBITDA; fails `F1` `≥10%` FCF margin and `≥30%` EBITDA margin).
 5. **Leverage (`F1`) & Moat/Margin (`A5`):** Net Cash **`$492.5M`** (`$495M` cash/inventory vs `$2.5M` debt). Moat: `None` (small-scale higher-cost US ISR assets vs Kazatomprom/Cameco).
@@ -1298,7 +1298,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 7. `UUUU` — Energy Fuels Inc. (`[NEW DISCOVERY]` — Route `F` Mandatory)
 1. **Market Data & Price Health (`PH`):** Price `$8.34` (Oct 14 close), Market Cap `$2.80B`, 200DMA `$16.94` (**`-50.8%` below 200DMA — voids `#12` PT leg!**), All-Time Split-Adjusted Closing High **`$235.00` (2007-04-13, age 19.5 yrs, drawdown `96.45%`!)**, 3Y High `$26.08` (2026-01-27, 3Y drawdown `68.0%`, 3Y-to-Lifetime Gap `-74.85 pp`). **`PH-impaired` (Hard Disqualification under `price-health.md`!)**.
-2. **25% 3-Year IRR Math:** Fwd 3Y Rev CAGR `~25%` off `$105.7M` TTM rev, Fwd 3Y EPS/FCF CAGR `Negative` (`-$120.4M` TTM FCF), Net Buyback Yield `-25.0%/yr` (massive ATM + stock M&A + convert dilution) = **Est. 3Y Annualized IRR: `-22.0%`**.
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Fwd 3Y Rev CAGR `~25%` off `$105.7M` TTM rev, Fwd 3Y EPS/FCF CAGR `Negative` (`-$120.4M` TTM FCF), Net Buyback Yield `-25.0%/yr` (massive ATM + stock M&A + convert dilution) = **Est. 3Y Annualized IRR: `-22.0%`**.
 3. **Dilution Gate (`F1` / `A1`):** **HARD FAIL (`F1` / `A1`).** Directly verified in commit `3914533` (`chips_power.md`):
    - Sold **`~$300M` of common stock under its ATM** across Q1–Q3 2026 (`14.74M` sh in H1 + `13.68M` sh in Q3);
    - Issued **`14.81M` shares (`~$169M`)** on Aug 28, 2026 to acquire Australian Strategic Materials (`ASM`);
@@ -1316,7 +1316,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 8. `OKLO` — Oklo Inc. (`[NEW DISCOVERY]` — Route `H` Pre-Revenue SMR)
 1. **Market Data & Price Health (`PH`):** Price `$30.10`, Market Cap `$5.90B`, 200DMA `$57.61` (**`-47.8%` below 200DMA — voids `#12` PT leg!**), 3Y/Lifetime High `~$75.00` (drawdown `~59.9%`). **`PH-clear`**.
-2. **25% 3-Year IRR Math:** Pre-revenue fast-fission microreactor developer (`$1.2M` TTM grant/service baseline; first commercial Aurora powerhouse targeted late 2027/2028 at earliest; zero positive FCF within 3–5 years) = **Est. 3Y Annualized Operating IRR: `-18.0%`**.
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Pre-revenue fast-fission microreactor developer (`$1.2M` TTM grant/service baseline; first commercial Aurora powerhouse targeted late 2027/2028 at earliest; zero positive FCF within 3–5 years) = **Est. 3Y Annualized Operating IRR: `-18.0%`**.
 3. **Dilution Gate (`A1`, `G3`, `H3`):** **HARD FAIL (`A1`, `G3`).** Substantial YoY share count expansion (`>25%` YoY) via post-SPAC equity offerings and ATM raises to build its `$2.46B` cash reserve.
 4. **Capex & FCF Gate (`A3a/b/c`, `G2`, `H1/H3`):** **HARD FAIL (`A3a`, `G2`, `H1`, `H3`).** TTM Company FCF is **`-$275.0M`**; **fails `H1`** because Oklo does not yet have an NRC-licensed operating commercial Aurora reactor (prior combined license application was denied without prejudice in 2022 and re-submitted; non-binding LOIs predominate over binding commercial take-or-pay PPAs), and **fails `H3/H4`** (`≤5Y` quality destination with `≥8%` FCF margin and `20%/yr` 5Y return).
 5. **Leverage (`A4`) & Moat/Margin (`A5`):** Net Cash **`$2.46B`** (`A4` pass today). Moat: `None` (unproven commercial reactor licensing & HALEU fuel supply bottleneck).
@@ -1328,7 +1328,7 @@ All 52 evaluated securities across **Lane 4 (Obesity, Metabolic, Rare Disease Bi
 
 #### 9. `SMR` — NuScale Power Corporation (`[NEW DISCOVERY]` — Route `H` Pre-Commercial SMR)
 1. **Market Data & Price Health (`PH`):** Price `$8.40`, Market Cap `$2.60B`, 200DMA `$11.68` (**`-28.1%` below 200DMA — voids `#12` PT leg!**), 3Y/Lifetime High `~$32.00` (drawdown `~73.8%`). **`PH-warning`**.
-2. **25% 3-Year IRR Math:** Pre-commercial SMR developer (after UAMPS CFPP cancellation, reliant on RoPower Romania FEED study and prospective datacenter MOUs; negative FCF for next 3–5 years) = **Est. 3Y Annualized Operating IRR: `-20.0%`**.
+2. **Legacy 3Y IRR Math (pre-revision 6 method, overstated; see section 0):** Pre-commercial SMR developer (after UAMPS CFPP cancellation, reliant on RoPower Romania FEED study and prospective datacenter MOUs; negative FCF for next 3–5 years) = **Est. 3Y Annualized Operating IRR: `-20.0%`**.
 3. **Dilution Gate (`A1`, `G3`, `H3`):** **HARD FAIL (`A1`, `G3`, `H3`).** Share count expanded **`>100%` over recent cycles** via massive ATM equity programs, secondary offerings, and Fluor stake monetization to raise `~$1.0B` cash.
 4. **Capex & FCF Gate (`A3a/b/c`, `G2`, `H1/H3`):** **HARD FAIL (`A3a`, `G2`, `H1`, `H3`).** Deeply negative TTM and NTM FCF; **fails `H1`** (while NuScale holds an NRC Design Certification for its 50/77 MWe module, it has **zero deployed commercial plants and zero binding post-FID utility construction contracts** after the UAMPS cancellation) and **fails `H3/H4`**.
 5. **Leverage (`A4`) & Moat/Margin (`A5`):** Net Cash `~$1.0B` (`A4` pass today, raised via heavy equity dilution). Moat: `Narrow` (NRC Standard Design Approval, but economics challenged by `$9,000+/kW` LCOE escalation vs gas/large nuclear).
