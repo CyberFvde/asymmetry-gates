@@ -1,6 +1,6 @@
 # asymmetry-gates
 
-Policy revision: **Oct 20, 2026, revision 6**. FT remains the Oct 2 revision 2 overlay (only its route names were synced for M); the roster retains its independent Oct 2 evidence date.
+Policy revision: **Oct 20, 2026, revision 6**. FT remains the Oct 2 revision 2 overlay (only its route names were synced for M); the roster now carries the Oct 15 revision 5 nine-name re-test (Oct 14 quotes), with the Oct 2 screen kept below it as history.
 
 Rules-based equity screen (A–E core, F signal sleeve, G compounders, H early transitions, M mega-cap platforms, stricter FT and price-health PH overlays) packaged as an Agent Skill.
 Source of truth for the rules, the roster and the #15 kill triggers. Keep this repo private — the roster is a position book.
@@ -11,7 +11,7 @@ The Oct 20 revision 6 calibration (user request) fixes the 3-year return math an
 
 Sizing is at cost unless stated otherwise, and every paired limit applies with AND: starter ≤5.0% sleeve/1.25% portfolio per name (max three, ≤12.5% sleeve aggregate); G initial 5.0%/1.25%, total/name 12.5%/3.0% (max three, aggregate 25%/6.0%); H initial 2.5%/0.60%, total/name 5.0%/1.25% (max two, aggregate 10%/2.5%); M initial 2.5%/0.60%, total/name 5.0%/1.25% (max two, aggregate 10%/2.5%). Combined starters/G/H/M/new-entry PH-recovery ≤35%/8%; existing verified A–E Core recovery holdings are excluded from this non-core budget while retaining PH addition restrictions and ordinary name/factor accounting. Shared AI-capex exposure ≤60%/25%. The hard name limit stays 25% sleeve at cost/10% portfolio; a 40% sleeve market weight triggers a trim to 32.5% at the next re-test. Written #15 triggers, maximum vendor-financing/leverage exposure, funding and earned-add conditions remain.
 
-See the adopted entry in `.claude/skills/asymmetry-gates/references/changelog.md` for rationale, full-universe impact and required next-run re-tests, especially TSM, VRT, CDNS, ANET, AMD, LRCX and NVDA. The roster remains byte-for-byte the Oct 2 targeted re-screen plus historical Sep 28 entries; the calibration upgrades no stocks. Draft PR #3's separate revision 4 changes are not included: #12/G3/G5/H4 remain 5%/3%/12%/20% as on merged main. The [March contest research board](docs/research/2026-10-02-march-contest/README.md) keeps speculative contest seeds and option sensitivities separate from skill capital qualification.
+See the adopted entry in `.claude/skills/asymmetry-gates/references/changelog.md` for rationale, full-universe impact and required next-run re-tests, especially TSM, VRT, CDNS, ANET, AMD, LRCX and NVDA. The calibration upgraded no stocks. The roster has since been replaced by the Oct 15 nine-name re-test, with the Oct 2 screen and Sep 28 entries kept below as history. Draft PR #3's separate revision 4 changes are not included: #12/G3/G5/H4 remain 5%/3%/12%/20% as on merged main. The [March contest research board](docs/research/2026-10-02-march-contest/README.md) keeps speculative contest seeds and option sensitivities separate from skill capital qualification.
 
 ## Layout
 

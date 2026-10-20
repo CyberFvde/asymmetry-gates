@@ -32,6 +32,8 @@ No new #15 entry record or H clock is activated for unqualified watch candidates
 - Re-tested full alternative routes rather than treating a core A failure or positive EBITDA as an automatic H exclusion. KRMN's small deals benefit from the new A1 carve-out; actual negative cash remains binding.
 - Independently completed ALGM's annual insider audit and an annual five-year cash/share model; completed RKLB's annual insider audit, establishing a current H5 failure. PL valuation sensitivity does not make its upside certain.
 - Reconciled ASTS net financing and already-paid Ligado cash, AVAV's actual revolver availability/current issuance window, KRMN's completed Walker financing, and PL's insufficiently authenticated pre-print guide comparison.
+- **Revision 6 check (Oct 20, 2026):** revision 6 changes no verdict in this table. None of the nine is ≥$500B, so route M does not apply; none passes all of A, which #14a's new 10% growth band still requires; and the table quotes G5/H4 five-year models, not framework C 3-year return estimates.
+- **Carried from closed draft PR #3 (Oct 14 evidence, not re-screened):** SK Hynix (000660.KS) is out of A–E on A1 after issuing ~17.79M new shares for its Jul 10, 2026 Nasdaq ADR listing; earliest A1 roll-off Jul 10, 2027. Its G-watch items (DART insider sweep, #19 vs KRX consensus, a cyclical five-year G5 model) remain open.
 - Checked draft PR 6 as background without adopting its older policy or unsupported verdicts. Its branch remains preserved; no unrelated roster is re-tested. Oct 2 research and the March contest basket below are historical, not reauthorized by this screen.
 
 ---
