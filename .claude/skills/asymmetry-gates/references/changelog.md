@@ -1,6 +1,49 @@
-# #18 — Rule-change log (policy Oct 15, 2026, revision 5)
+# #18 — Rule-change log (policy Oct 20, 2026, revision 6)
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
+
+## Adopted configuration: Oct 20, 2026, revision 6 (return-estimate fix and requested leniency)
+
+### Authorization, scope and adoption basis
+
+Explicit user request dated Oct 20, 2026 authorizes this between-screen calibration under #18: fix the non-AI audit's 3-year return math and make the framework "a little more lenient", citing high-quality names such as AMZN that the rules kept out. Offered three bounded options (20% return guardrail, wider #14a growth band, mega-cap platform route); the user chose all three. Baseline: merged `main` at `926e779`, framework Oct 15 revision 5; FT stays Oct 2 revision 2. The roster header (**Oct 2, 2026, revision 3 targeted re-screen**) is preserved byte-for-byte: no statuses, positions or rankings are refreshed. The audit's primary-list return figures are recomputed because they were arithmetic errors, not rule outputs; its gate verdicts are not re-screened here.
+
+### Change summary (old to new)
+
+- **Return estimate (framework C, new convention):** "3Y EPS/FCF CAGR + net buyback yield ± multiple normalization", applied in practice from the last completed FY and with today's multiple held flat → base EPS = consensus FY+1 (first FY ending ≥6 months after the screen); growth = consensus for the next three FYs where ≥3 analysts cover a year on the same basis, otherwise faded to 85% of the prior year's growth; exit multiple = lower of entry multiple and 30× (35× when 3Y EPS CAGR ≥25%), and ≤ five-year median forward P/E when available; plus trailing dividend yield; no separate buyback add.
+- **Screen guardrail:** primary ranked list required a ≥25% estimate → ≥20% base-case estimate under the corrected method. The sleeve's 25%+ objective remains a portfolio aim and was never a per-name gate (SKILL.md, framework intro).
+- **#14a (#9 near-pass):** fwd 3Y revenue CAGR ≥12% → ≥10%. Next-FY organic ≥10%, a complete #11 path, all of A, #12/#13/#19, written #15 triggers and starter caps are unchanged.
+- **New route M (stage-paths.md):** mega-cap platform in a reinvestment cycle. Scope: market cap ≥$500B, revenue up five straight FYs, not FT/F. Replaces A2, A3(a)–(c)/3a, A4's FCF denominator, #9 and #11's FCF-yield component with: WASO ≤ +1.5% (A1 issuance bans and de minimis kept); trailing OCF margin ≥20%; positive OCF five FYs and trailing OCF ≥ last FY; NTM capex ≤125% of NTM OCF; consensus FY+2 FCF margin ≥6% with ≥5 analysts, recorded as a fixed recovery clock; net debt incl. leases/guarantees ≤1.0× EBITDA; fwd 3Y and next-FY organic revenue growth ≥10%; fwd P/E ≤38, PEG ≤2.0, NTM OCF yield ≥4%. Keeps A1 bans, A5–A8 (A7 loss test on 5% of NTM OCF), #12, #13, #15, #17, #19, PH. Caps: initial 2.5% sleeve/0.60% portfolio, total 5.0%/1.25% per name, max two names, 10%/2.5% aggregate, inside the combined 35%/8% non-core budget; hyperscaler-type capex counts in the AI-capex factor cap. Exits written in M7.
+
+### Rationale
+
+- **Return math:** the audit's estimates had three errors. Per-share EPS consensus already reflects buybacks, so adding buyback yield counted them twice. Growth was anchored on a completed year (HWM: FY25 $3.77), so a past jump (HWM FY26 +42%, helped by the CAM acquisition) counted as future return. And today's multiple was held for three years, including ~37× for HWM. HWM's estimate falls from 27.8% to ~10.9%. Ranking on inflated returns admits names the sleeve can't expect to compound.
+- **20% guardrail:** the user's growth account aims at 20%+; on corrected math no primary-list name reaches 25% (ARGX tops out near 22.5%), and even at 20% only ARGX passes. The guardrail ranks; it does not remove a gate-passing name's eligibility.
+- **#14a band:** quality compounders growing 10–12% with a full core valuation were alert-only. Starter caps (≤5% sleeve per name, three names, 12.5% aggregate) bound the added risk.
+- **M:** AMZN-type platforms failed A2/A3 during a capex cycle despite 20%+ OCF margins and low leverage. M admits them at starter size with a fixed FCF-recovery clock instead of waiving A3(a) for core.
+
+### Structural and solvency safeguard check
+
+A–E core is unchanged: A1–A8, A3(a)'s actual FCF floor (still never waived for core), #9's 15%/12% thresholds, #11's two complete paths, #12, #13 and #19. M is a separate capped route like G/H: it keeps A1's issuance bans, moat/margin, end-market, insider/legal and disintermediation tests, replaces the FCF tests with OCF, leverage and a fixed recovery deadline, and exits on a missed recovery year without a clock reset. M positions count in name caps, the combined 35%/8% non-core budget and, for hyperscaler-type capex, the 60%/25% AI-capex factor cap with shared tripwire B, so M cannot add uncapped AI-capex exposure. FT and F names cannot use M; G/H thresholds (G3 3%, G5 12%, H4 20%) are unchanged. The return estimate never replaces a route gate. These are looser settings: M admits companies with negative trailing FCF, and a capex cycle that fails to pay back is its main loss path.
+
+### Full-universe impact and required re-tests
+
+Applies to every current, historical and queued name. Rows are rule sensitivities, not upgrades; each needs a full fresh route screen, PH, #19 and cap headroom before any status or sizing change.
+
+| Existing names / class | Possible effect at the next screen; unresolved or unchanged conditions |
+|---|---|
+| **AMZN** | Route M sensitivity on Oct 19–20 evidence, not an upgrade. Passes M0 ($2.83T; revenue up FY21–FY25), M1's WASO ceiling (+0.90% vs +1.5%), M2(a) (TTM OCF margin 20.8%, thin), M2(b) (OCF positive five FYs; TTM $161.4B ≥ FY25 $139.5B), M2(c) (NTM capex/OCF ~106% from marketscreener capex and FCF consensus, flagged), M3 (net debt incl. leases plus the 40% cash Globalstar leg ~$124–133B = 0.73–0.79× TTM EBITDA $168.9B), M4 (FY26 revenue +15.6%, FY25–28 CAGR ~15.3%), M5 (fwd P/E 28.0, PEG 1.35, NTM OCF yield ~8.8%), #12 (PT +26.3%, 60 analysts) and #19 (Q2 beat; Q3 guide midpoint −2.2% vs consensus, inside (d)'s 3%). **Fails M2(d):** consensus FCF margin about −0.9% in FY27 and ~3.2% in FY28 (marketscreener; FY27 capex consensus $277.8B), so no 6% recovery year. Open items: Globalstar maximum shares including GSAT preferred and awards (41.3M = 0.38% before those), the Q2 10-Q contingency note for the FTC ad-pricing suit (M2(e) line ~5% of NTM OCF ≈ $12.4B), and plan status of Nov 2025 officer sales. Core stays out on A1 (WASO +0.90% with no buybacks), A2 and A3(a). Corrections to the Sep 28 roster reading: #9 now looks passable on consensus (FY26 +15.6%), and the −2.2% Q3 guide gap is a #19 watch item under the 3% threshold, not a (d) blackout. Re-test after the Oct 29 print. |
+| **MSFT, GOOGL, META** | ≥$500B with heavy AI capex. M applies only if they fail A2/A3 on capex; re-test M1–M5 with lease-inclusive leverage and FY+2 FCF consensus. MSFT's 3a high-water trigger and GOOGL's 14b re-entry trigger still govern the A–E/3a path. All count in the AI-capex factor cap. |
+| **ORCL** | M0 scope can be met, but A1 financing issuance (equity/ATM) is kept by M1, so ORCL stays out. Negative FCF and leverage also likely fail M2/M3. |
+| **TSM, NVDA, AVGO, LLY, Samsung and other ≥$500B names** | Use A–E/3a when they qualify; M is only for an A2/A3 capex failure. TSLA-type names likely fail M2(a) (OCF margin <20%). FT names (V, MA, JPM and similar) cannot use M; banks/insurers stay outside A6. |
+| **CART, REGN, CVLT, FTNT, ISRG and other 10–12% 3Y growers** | #14a's #9 band may now apply when next-FY organic ≥10%, all of A is verified and a full #11 path passes. CART (3Y revenue 11.2%) is the clearest candidate. ISRG-type simultaneous #9/#11 shortfalls still cannot combine. |
+| **ATI, CRS, MTU, WWD** | ATI and CRS still fail the next-FY ≥10% leg on recorded evidence; MTU fails A3(a); WWD's A3(b)/A4 issues are unchanged. |
+| **BKNG, GE, TDG, RTX, LMT, EXPE, TCOM** | 3Y revenue growth below 10%, so the #14a change does not reach them; other recorded failures stand. |
+| **TW, SCHW, MELI, SE and other FT names** | FT1 still bars #14a starters and G/H/M. |
+| **Non-AI audit primary list (14 names)** | Recomputed estimates in the audit's section 0: ARGX ~22.5% (only pass); KOG.OL unresolved (post-demerger perimeter mix); UBER ~16.1%, ATI ~16.2%, LLY ~15.4%, PODD ~15.2%, WWD ~13.8%, CART ~13.2%, NBIX ~12.7%, SAF.PA ~12.0%, HWM ~10.9%, KRYS ~6.5%, ADMA ~4.6%, HEI ~−1.3% (legacy 25.1–31.5%). UBER's forward FY27→FY30 EPS consensus (~16%) also conflicts with the 30.9% 3Y EPS CAGR behind its #10 waiver (≥20% required); verify on a like-for-like basis. Gate verdicts are unchanged and still need fresh re-tests. |
+| **All other audit return figures (Rule B, tier lists, per-lane blocks)** | Still on the legacy method and overstated; recompute with framework C before ranking or quoting them. |
+
+Required next-run ledger: consensus EPS path with analyst counts and five-year median forward P/E for every ranked name; for any M candidate, five completed FYs of OCF and revenue, NTM capex guide, FY+2 FCF consensus with analyst count, lease-inclusive net debt and trailing EBITDA, diluted WASO bridge including pending deal shares, A7 annual insider totals and AI-capex factor headroom. This edit neither updates the roster nor places a trade.
 
 ## Adopted configuration — Oct 15, 2026, revision 5 (concentrated growth calibration)
 

@@ -6,6 +6,44 @@
 
 ---
 
+## 0. Revision 6 return-estimate correction (Oct 20, 2026)
+
+The Oct 15 screen's "Est. 3Y IRR" figures were overstated by three method errors:
+- **Buybacks counted twice.** Per-share EPS consensus already reflects buybacks; the audit added net buyback yield on top.
+- **Backward anchor.** Growth was measured from completed years (HWM from FY25 $3.77), so past jumps such as HWM's ~42% FY26 (helped by the CAM acquisition) counted as future return.
+- **Flat multiples.** Today's P/E was held for three years (HWM ~37×, HEI ~44×).
+
+Corrected method (framework C, revision 6): FY+1 consensus EPS base (FY27 for every name here); consensus for each later year only when ≥3 analysts cover it on the same basis, otherwise growth fades to 85% of the prior year; exit P/E = lower of entry P/E and 30× (35× at ≥25% EPS CAGR); plus dividend yield; no separate buyback add. Five-year median P/Es were not checked here, so a lower median could cut these further.
+
+| Legacy rank | Ticker | Price (Oct 19 close) | FY27 base EPS | FY28/29/30 path | 3Y EPS CAGR | Entry → exit P/E | Div | **Rev 6 estimate** | Legacy estimate | vs 20% |
+|:---:|:---|---:|---:|:---:|---:|:---:|---:|---:|---:|:---:|
+| 1 | `UBER` | $69.96 | 4.41 | cons / cons / fade | 16.1% | 15.9× → 15.9× | 0.00% | **16.1%** | 31.5% | below |
+| 2 | `HWM` | $220.03 | 6.50 | cons / fade / fade | 15.2% | 33.9× → 30.0× | 0.25% | **10.9%** | 27.8% | below |
+| 3 | `LLY` | $1,240.34 | 47.48 | cons / fade / fade | 14.9% | 26.1× → 26.1× | 0.56% | **15.4%** | 26.5% | below |
+| 4 | `PODD` | $141.96 | 7.72 | cons / fade / fade | 15.2% | 18.4× → 18.4× | 0.00% | **15.2%** | 28.4% | below |
+| 5 | `NBIX` | $136.98 | 11.97 | fade / fade / fade | 12.7% | 11.4× → 11.4× | 0.00% | **12.7%** | 27.5% | below |
+| 6 | `KOG.OL` | NOK 313.30 | 11.30 | cons / fade / fade | 34.1% | 27.7× → 27.7× | 1.70% | **35.8% (unreliable)** | 26.5% | unresolved |
+| 7 | `SAF.PA` | €315.30 | 12.59 | cons / fade / fade | 10.7% | 25.1× → 25.1× | 1.30% | **12.0%** | 25.4% | below |
+| 8 | `ARGX` | $825.61 | 37.58 | cons / fade / fade | 22.5% | 22.0× → 22.0× | 0.00% | **22.5%** | 28.5% | pass |
+| 9 | `ATI` | $189.28 | 6.28 | cons / fade / fade | 16.4% | 30.1× → 30.0× | 0.00% | **16.2%** | 26.8% | below |
+| 10 | `WWD` | $329.30 | 10.72 | cons / fade / fade | 14.3% | 30.7× → 30.0× | 0.38% | **13.8%** | 25.6% (at $305) | below |
+| 11 | `HEI` | $308.17 | 7.20 | cons / fade / fade | 11.1% | 42.8× → 30.0× | 0.08% | **-1.3%** | 25.1% (at $275) | below |
+| 12 | `CART` | $49.91 | 4.90 | fade / fade / fade | 13.2% | 10.2× → 10.2× | 0.00% | **13.2%** | 25.2% (at $48.50) | below |
+| 13 | `KRYS` | $320.25 | 9.00 | fade / fade / fade | 12.7% | 35.6× → 30.0× | 0.00% | **6.5%** | 26.0% (at $275) | below |
+| 14 | `ADMA` | $11.07 | 0.85 | fade / fade / fade | 4.6% | 13.0× → 13.0× | 0.00% | **4.6%** | 25.5% (at $9.50) | below |
+
+**Read-across**
+- Only **ARGX** clears the 20% guardrail on usable consensus. Its FY26 figures may be distorted by Forte deal accounting, and the Oct 22 Q3 print will reset them.
+- **KOG.OL** is unresolved. After the April 2026 Maritime demerger, consensus revenue jumps from NOK 42.6bn (2026) to 64.0bn (2027), so FY27–28 EPS likely mix perimeters. Re-screen on a clean post-demerger series.
+- **UBER**: FY27→FY30 EPS consensus compounds about 16%, against the 30.9% "3Y EPS CAGR" used for its #10 waiver (#10 requires ≥20%). Verify that #10 leg on a like-for-like forward basis at the next screen.
+- **HEI, KRYS, HWM, ATI, WWD**: the 30× exit cap binds. HEI's historical premium multiple is not credited.
+- With no multiple expansion, a lower entry price only raises the estimate while the entry P/E is above the cap. So the old "25% at trigger" prices have no 20% equivalent for most names. Entry ceilings still come from each route's gates (#11, #12, G5, H4).
+- Gate verdicts, tiers and #15 triggers below are **unchanged** by this correction and still need fresh re-tests. Every other return figure in this file (Rule B, tier lists, per-lane "Legacy 3Y IRR Math" blocks) still uses the legacy method and is overstated.
+
+Data: Oct 19, 2026 closes and consensus collected Oct 20 from stockanalysis, therighttrader, marketscreener/zonebourse, Yahoo, FactSet via cnyes (ARGX FY27–28, August) and Simply Wall St; tickflow-only out-years excluded as unreliable. Notes per name: UBER FY28 basis unverified; HWM FY28 has 3 analysts; LLY FY28 has 3 (marketscreener 8% lower); NBIX FY28+ faded (marketscreener basis looked GAAP); KRYS and ADMA have thin coverage (5 and 3 analysts); CART uses adjusted EPS through FY27 only; SAF.PA figures are adjusted EPS; WWD and HEI use FY27 (Sep and Oct year-ends).
+
+---
+
 ## 1. Executive Summary & Policy Revision 5 Gate Thresholds
 
 Every candidate across all 9 lanes was audited with **zero rule softening** against the exact numeric thresholds in `SKILL.md`, `framework.md`, `stage-paths.md`, `fintech.md`, `price-health.md`, `triggers.md`, `README.md`, and `changelog.md`:
@@ -41,26 +79,28 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 
 ## 2. Ranked Top 25 Non-AI-Capex Table (Rule A Cutoff at #14 + Rule B Honorable Mentions #15–#30)
 
-### Primary Ranked Table (#1 to #14 — Rule A Strict Quality & >=25% IRR Cutoff)
+### Primary Ranked Table (#1 to #14 — Rule A Strict Quality & >=25% IRR Cutoff; legacy ranking, see section 0)
 
 > **Rule A Enforcement:** Across all 111+ evaluated equities in Lanes 1–9, **exactly 14 stocks** legitimately clear both the `asymmetry-gates` business quality/balance-sheet architecture AND a mathematically plausible **>= 25% annualized 3-year IRR** (at current or near-pass trigger prices). Per Rule A, the primary table cuts off strictly at **#14** rather than padding Ranks #15–#25 with sub-25% IRR or structurally flawed names.
+>
+> **Revision 6 note (Oct 20, 2026):** the Est. 3Y IRR column used the legacy method. Corrected estimates now sit beside each legacy figure; on them only `ARGX` clears the 20% guardrail and `KOG.OL` is unresolved. Ranks and gate verdicts are left as screened on Oct 15 until a fresh re-test.
 
 | Rank | Ticker | Company (`[NEW DISCOVERY]` Tag) | Lane | Tier & Route Status | Price (Oct 2026) | 3Y EPS / FCF CAGR | Net Buyback / Yield | Est. 3Y IRR | `A1` Dilution / `A3` FCF Margin / `A4` Leverage | `#11` Fwd P/E & PEG | Exact Dollar Buy Trigger |
 | :---: | :---: | :--- | :---: | :--- | :---: | :---: | :---: | :---: | :--- | :---: | :--- |
-| **1** | **`UBER`** | Uber Technologies (Seed) | L2 | **Tier 1 Pass** (`#10` Waiver + `#15`) | `$71.50` (`$69.62` 9/28) | `30.9%` / `26.5%` | `+2.28%` | **`31.5%`** | `WASO -3.55%` / `FCF 19.4%` (`Capex 6.5%`) / `ND 1.50x` (w/ DH cash) | `17.0x` / `0.62` (`8.7%` FCF yld) | **Actionable Now (`<= $84.00`)** |
-| **2** | **`HWM`** | Howmet Aerospace (Seed) | L1 | **Tier 1 Pass** (Rev 5 Core @ `$216.84` / `#14a` @ `$231.27`) | `$216.84` (`$231.27` 10/2) | `26.7%` / `24.5%` | `+1.10%` | **`27.8%`** | `WASO -1.05%` / `FCF 19.6%` (`Capex 19.4%`) / `ND 2.40x` (w/ `$1.14B` Alcoa) | `36.7x` / `1.29` (`2.5%` FCF yld) | **Actionable Now `<= $221.65–$224.58` (Rev 5 `38x`)**; Legacy `35x`: `<= $204.15–$206.80`; `#14a`: `<= $279.84` |
-| **3** | **`LLY`** | Eli Lilly and Co. (Seed) | L4 | **Tier 1 Ballast Pass Now** (1-Step to Core on `#12`) | `$1,142.85` | `30.95%` / `32.0%` | `+1.12%` (bb+div) | **`26.5%`** | `WASO -0.68%` / `FCF 22.8%` (`Capex 20.4%`) / `ND 1.77x–2.21x` (max CVRs) | `27.4x` / `1.27` (`2.8%` FCF yld) | **Ballast Now (`<= $1,143`)**; **Full Core Trigger: `<= $1,107.36`** (`+20%` PT) |
-| **4** | **`PODD`** | Insulet Corp **`[NEW DISCOVERY]`** | L4 | **Tier 2** (`1-Step Core / G-Watch` on `#12` 200DMA + capex fallback) | `$131.69` | `23.06%` / `25.0%` | `+1.19%` | **`28.4%`** | `WASO -1.77%` / `FCF 9.6%` (`Capex 34%` w/ `1.25x`) / `ND 1.09x–1.36x` | `19.1x` / `0.96` (`4.81%` adj yld) | **`<= $126.76`** (blended `5%` FCF yld) / **`<= $108.35`** (full `1.25x` capex) or Nov 4 Q3 print |
-| **5** | **`NBIX`** | Neurocrine Biosciences **`[NEW DISCOVERY]`** | L4 | **Tier 2** (`G-Watch` — 17bp over Rev 5 `G3` `3.0%` cap) | `$143.18` | `40.9%` / `29.0%` | `0.0%` (`$300M` auth) | **`27.5%`** | `WASO +3.17%` (`17bp > G3`) / `FCF 25.8%` (`Capex 3.1%`) / `Net Cash` | `12.7x` / `0.31` (`7.8%` FCF yld) | **`<= $175.00`** once Oct 27 Q3 print brings YoY WASO `<= +3.00%` |
-| **6** | **`KOG.OL`** | Kongsberg Gruppen **`[NEW DISCOVERY]`** | L5 | **Tier 2** (`1-Step Core Watch` — in `#19` blackout until Oct 29) | `NOK 308.00` | `34.8%` / `30.0%` | `+1.2%` | **`26.5%`** | `Shares flat` / `FCF ~18%` (`Capex 24%`) / `Net Cash` (`#7` Oslo Newsweb clean) | `33.4x` / `0.96` (`3.2%` FCF yld) | **Clean Oct 29 Q3 print** at **`<= NOK 350.30`** (`38x` Core; `<= NOK 322.66` at `35x`) |
-| **7** | **`SAF.PA`** | Safran SA **`[NEW DISCOVERY]`** | L1 | **Tier 2** (`G-Watch` — testing `G5` entry zone) | `€314.90` (`€330.10` 10/2) | `24.85%` / `21.0%` | `+1.20%` | **`25.4%`** | `WASO +1.65%` (`G3 <=3%` pass) / `FCF 14.8%` (`Capex 22%`) / `Net Cash` | `26.2x` / `1.05` (`3.5%` FCF yld) | **`<= €310.00–€323.00`** (`G5` `12.0%` 5Y base return ceiling) |
-| **8** | **`ARGX`** | argenx SE (Seed) | L4 | **Tier 2** (`G-Watch` — awaits FY26 2nd pos OCF yr Feb 2027) | `$810.00` | `32.75%` / `35.0%` | `-1.80%` | **`28.5%`** | `WASO +1.80%` (`G3` pass) / `FCF 19.5%` (`Capex <5%`) / `Net Cash -$5.1B` | `29.7x` / `0.85` (`1.9%` FCF yld) | **`<= $785.00`** (`G5` ceiling) after Feb 2027 FY26 2nd positive OCF yr + AFM sweep |
-| **9** | **`ATI`** | ATI Inc. **`[NEW DISCOVERY]`** | L1 | **Tier 2** (`#14a / G-Watch` — 10bp shy of `10%` FY27 rev floor) | `$189.50` | `32.26%` / `28.5%` | `+1.80%` | **`26.8%`** | `WASO -1.80%` / `FCF 9.9%` (`Capex 28%`) / `ND 2.45x <= 2.50x` | `36.4x` / `1.13` (`2.3%` FCF yld) | **`<= $175.00`** + FY27 organic rev consensus `>= 10.0%` (currently `9.9%`) |
-| **10** | **`WWD`** | Woodward, Inc. **`[NEW DISCOVERY]`** | L1 | **Tier 2** (`#14a / G-Watch` — awaits Nov FY27 FCF rollover) | `$331.62` | `19.2%` / `18.5%` | `+1.12%` | **`25.6%`** (at `$305`) | `WASO -1.12%` / `FCF 9.0%` (`Capex 23.5%`) / `ND 2.19x` (on FY27E FCF) | `32.4x` / `1.69` (`2.1%` FCF yld) | **`<= $305.00`** + Nov FY27 FCF guide `>= $377M` (curing `A3b`/`A4`) |
-| **11** | **`HEI`** | HEICO Corporation (Seed) | L1 | **Tier 2** (`G-Watch` — above `G5` ceiling; redeemable NCI check) | `$302.45` | `18.61%` / `18.0%` | `0.0%` | **`25.1%`** (at `$275`) | `WASO +0.35%` / `FCF 19.2%` (`Capex 7.5%`) / `ND 1.88x` (`2.55x` w/ `$618M` NCI) | `44.0x` / `2.36` (`2.3%` FCF yld) | **`<= $275.00` (NCI-adj) to `$296.00`** (`G5` `12%` 5Y base return ceiling) |
-| **12** | **`CART`** | Maplebear / Instacart **`[NEW DISCOVERY]`** | L2 | **Tier 2** (`#10 / #14a Watch` — 50bp shy of `#10` `20%` EPS floor) | `$49.40` | `19.50%` / `18.5%` | `+4.20%` | **`25.2%`** (at `$48.50`) | `WASO -4.20%` / `FCF 20.5%` (`Capex 5.5%`) / `Net Cash -$851M` | `18.5x` / `0.95` (`6.2%` FCF yld) | **`<= $48.50`** + 3Y EPS CAGR `>= 20.0%` (`#10`) or 3Y rev `>= 12.0%` (`#14a`) |
-| **13** | **`KRYS`** | Krystal Biotech **`[NEW DISCOVERY]`** | L4 | **Tier 2** (`G-Watch` — fails Core `A1` no buyback & `#12` PT `+18.2%`) | `$331.80` | `24.60%` / `28.0%` | `-1.46%` | **`26.0%`** (at `$275`) | `WASO +1.46%` (`G3` pass) / `FCF ~34%` (`Capex <8%`) / `Net Cash -$750M` | `40.8x` / `0.93` (`2.6%` FCF yld) | **`<= $275.00`** (`G5` ceiling; `#12` clears at `<= $326.75` + Form 4 check) |
-| **14** | **`ADMA`** | ADMA Biologics **`[NEW DISCOVERY]`** | L4 | **Tier 2** (`G-Watch` — borderline `$2.44B` cap, `A1` `+1.15%`, `#9` `12.7%`) | `$10.20` | `22.26%` / `24.0%` | `-1.15%` | **`25.5%`** (at `$9.50`) | `WASO +1.15%` (`G3` pass) / `FCF ~22%` (`Capex 14.8%`) / `Net Cash` | `14.5x` / `0.65` (`4.8%` FCF yld) | **`<= $9.50`** (`G5` ceiling once Mkt Cap `>= $2.5B` & 12m Form 4s verified) |
+| **1** | **`UBER`** | Uber Technologies (Seed) | L2 | **Tier 1 Pass** (`#10` Waiver + `#15`) | `$71.50` (`$69.62` 9/28) | `30.9%` / `26.5%` | `+2.28%` | Rev 6: **16.1%** (legacy **`31.5%`**) | `WASO -3.55%` / `FCF 19.4%` (`Capex 6.5%`) / `ND 1.50x` (w/ DH cash) | `17.0x` / `0.62` (`8.7%` FCF yld) | **Actionable Now (`<= $84.00`)** |
+| **2** | **`HWM`** | Howmet Aerospace (Seed) | L1 | **Tier 1 Pass** (Rev 5 Core @ `$216.84` / `#14a` @ `$231.27`) | `$216.84` (`$231.27` 10/2) | `26.7%` / `24.5%` | `+1.10%` | Rev 6: **10.9%** (legacy **`27.8%`**) | `WASO -1.05%` / `FCF 19.6%` (`Capex 19.4%`) / `ND 2.40x` (w/ `$1.14B` Alcoa) | `36.7x` / `1.29` (`2.5%` FCF yld) | **Actionable Now `<= $221.65–$224.58` (Rev 5 `38x`)**; Legacy `35x`: `<= $204.15–$206.80`; `#14a`: `<= $279.84` |
+| **3** | **`LLY`** | Eli Lilly and Co. (Seed) | L4 | **Tier 1 Ballast Pass Now** (1-Step to Core on `#12`) | `$1,142.85` | `30.95%` / `32.0%` | `+1.12%` (bb+div) | Rev 6: **15.4%** (legacy **`26.5%`**) | `WASO -0.68%` / `FCF 22.8%` (`Capex 20.4%`) / `ND 1.77x–2.21x` (max CVRs) | `27.4x` / `1.27` (`2.8%` FCF yld) | **Ballast Now (`<= $1,143`)**; **Full Core Trigger: `<= $1,107.36`** (`+20%` PT) |
+| **4** | **`PODD`** | Insulet Corp **`[NEW DISCOVERY]`** | L4 | **Tier 2** (`1-Step Core / G-Watch` on `#12` 200DMA + capex fallback) | `$131.69` | `23.06%` / `25.0%` | `+1.19%` | Rev 6: **15.2%** (legacy **`28.4%`**) | `WASO -1.77%` / `FCF 9.6%` (`Capex 34%` w/ `1.25x`) / `ND 1.09x–1.36x` | `19.1x` / `0.96` (`4.81%` adj yld) | **`<= $126.76`** (blended `5%` FCF yld) / **`<= $108.35`** (full `1.25x` capex) or Nov 4 Q3 print |
+| **5** | **`NBIX`** | Neurocrine Biosciences **`[NEW DISCOVERY]`** | L4 | **Tier 2** (`G-Watch` — 17bp over Rev 5 `G3` `3.0%` cap) | `$143.18` | `40.9%` / `29.0%` | `0.0%` (`$300M` auth) | Rev 6: **12.7%** (legacy **`27.5%`**) | `WASO +3.17%` (`17bp > G3`) / `FCF 25.8%` (`Capex 3.1%`) / `Net Cash` | `12.7x` / `0.31` (`7.8%` FCF yld) | **`<= $175.00`** once Oct 27 Q3 print brings YoY WASO `<= +3.00%` |
+| **6** | **`KOG.OL`** | Kongsberg Gruppen **`[NEW DISCOVERY]`** | L5 | **Tier 2** (`1-Step Core Watch` — in `#19` blackout until Oct 29) | `NOK 308.00` | `34.8%` / `30.0%` | `+1.2%` | Rev 6: **unresolved** (legacy **`26.5%`**) | `Shares flat` / `FCF ~18%` (`Capex 24%`) / `Net Cash` (`#7` Oslo Newsweb clean) | `33.4x` / `0.96` (`3.2%` FCF yld) | **Clean Oct 29 Q3 print** at **`<= NOK 350.30`** (`38x` Core; `<= NOK 322.66` at `35x`) |
+| **7** | **`SAF.PA`** | Safran SA **`[NEW DISCOVERY]`** | L1 | **Tier 2** (`G-Watch` — testing `G5` entry zone) | `€314.90` (`€330.10` 10/2) | `24.85%` / `21.0%` | `+1.20%` | Rev 6: **12.0%** (legacy **`25.4%`**) | `WASO +1.65%` (`G3 <=3%` pass) / `FCF 14.8%` (`Capex 22%`) / `Net Cash` | `26.2x` / `1.05` (`3.5%` FCF yld) | **`<= €310.00–€323.00`** (`G5` `12.0%` 5Y base return ceiling) |
+| **8** | **`ARGX`** | argenx SE (Seed) | L4 | **Tier 2** (`G-Watch` — awaits FY26 2nd pos OCF yr Feb 2027) | `$810.00` | `32.75%` / `35.0%` | `-1.80%` | Rev 6: **22.5%** (legacy **`28.5%`**) | `WASO +1.80%` (`G3` pass) / `FCF 19.5%` (`Capex <5%`) / `Net Cash -$5.1B` | `29.7x` / `0.85` (`1.9%` FCF yld) | **`<= $785.00`** (`G5` ceiling) after Feb 2027 FY26 2nd positive OCF yr + AFM sweep |
+| **9** | **`ATI`** | ATI Inc. **`[NEW DISCOVERY]`** | L1 | **Tier 2** (`#14a / G-Watch` — 10bp shy of `10%` FY27 rev floor) | `$189.50` | `32.26%` / `28.5%` | `+1.80%` | Rev 6: **16.2%** (legacy **`26.8%`**) | `WASO -1.80%` / `FCF 9.9%` (`Capex 28%`) / `ND 2.45x <= 2.50x` | `36.4x` / `1.13` (`2.3%` FCF yld) | **`<= $175.00`** + FY27 organic rev consensus `>= 10.0%` (currently `9.9%`) |
+| **10** | **`WWD`** | Woodward, Inc. **`[NEW DISCOVERY]`** | L1 | **Tier 2** (`#14a / G-Watch` — awaits Nov FY27 FCF rollover) | `$331.62` | `19.2%` / `18.5%` | `+1.12%` | Rev 6: **13.8%** (legacy **`25.6%`** (at `$305`)) | `WASO -1.12%` / `FCF 9.0%` (`Capex 23.5%`) / `ND 2.19x` (on FY27E FCF) | `32.4x` / `1.69` (`2.1%` FCF yld) | **`<= $305.00`** + Nov FY27 FCF guide `>= $377M` (curing `A3b`/`A4`) |
+| **11** | **`HEI`** | HEICO Corporation (Seed) | L1 | **Tier 2** (`G-Watch` — above `G5` ceiling; redeemable NCI check) | `$302.45` | `18.61%` / `18.0%` | `0.0%` | Rev 6: **-1.3%** (legacy **`25.1%`** (at `$275`)) | `WASO +0.35%` / `FCF 19.2%` (`Capex 7.5%`) / `ND 1.88x` (`2.55x` w/ `$618M` NCI) | `44.0x` / `2.36` (`2.3%` FCF yld) | **`<= $275.00` (NCI-adj) to `$296.00`** (`G5` `12%` 5Y base return ceiling) |
+| **12** | **`CART`** | Maplebear / Instacart **`[NEW DISCOVERY]`** | L2 | **Tier 2** (`#10 / #14a Watch` — 50bp shy of `#10` `20%` EPS floor) | `$49.40` | `19.50%` / `18.5%` | `+4.20%` | Rev 6: **13.2%** (legacy **`25.2%`** (at `$48.50`)) | `WASO -4.20%` / `FCF 20.5%` (`Capex 5.5%`) / `Net Cash -$851M` | `18.5x` / `0.95` (`6.2%` FCF yld) | **`<= $48.50`** + 3Y EPS CAGR `>= 20.0%` (`#10`) or 3Y rev `>= 12.0%` (`#14a`) |
+| **13** | **`KRYS`** | Krystal Biotech **`[NEW DISCOVERY]`** | L4 | **Tier 2** (`G-Watch` — fails Core `A1` no buyback & `#12` PT `+18.2%`) | `$331.80` | `24.60%` / `28.0%` | `-1.46%` | Rev 6: **6.5%** (legacy **`26.0%`** (at `$275`)) | `WASO +1.46%` (`G3` pass) / `FCF ~34%` (`Capex <8%`) / `Net Cash -$750M` | `40.8x` / `0.93` (`2.6%` FCF yld) | **`<= $275.00`** (`G5` ceiling; `#12` clears at `<= $326.75` + Form 4 check) |
+| **14** | **`ADMA`** | ADMA Biologics **`[NEW DISCOVERY]`** | L4 | **Tier 2** (`G-Watch` — borderline `$2.44B` cap, `A1` `+1.15%`, `#9` `12.7%`) | `$10.20` | `22.26%` / `24.0%` | `-1.15%` | Rev 6: **4.6%** (legacy **`25.5%`** (at `$9.50`)) | `WASO +1.15%` (`G3` pass) / `FCF ~22%` (`Capex 14.8%`) / `Net Cash` | `14.5x` / `0.65` (`4.8%` FCF yld) | **`<= $9.50`** (`G5` ceiling once Mkt Cap `>= $2.5B` & 12m Form 4s verified) |
 
 ---
 
@@ -249,6 +289,7 @@ Every candidate across all 9 lanes was audited with **zero rule softening** agai
 - **2. Legacy 3-Year IRR Math (pre-revision 6 method, overstated; see section 0):**
   - **3Y Revenue CAGR:** `15.85%` (FY26E `+22.5%` total / `+18–19%` organic; FY27E `+13.67%`).
   - **3Y EPS / FCF CAGR:** `26.7%` EPS CAGR (`24.5%` FCF/sh CAGR) + `~1.2%` Net Buyback Yield (`$1.07B` TTM repurchases) + `0.0%` multiple expansion (holding `~36.7x` Fwd P/E) = **`~27.8%` Estimated 3Y Annualized IRR (`>= 25%` plausible: YES).**
+  - **Revision 6 correction (Oct 20, 2026):** the 26.7% ran from FY25 ($3.77), so FY26's ~42% jump (with CAM) was counted as future return, and the 1.2% buyback yield was added on top of per-share EPS. On FY27 consensus $6.50, FY28 $7.65 (3 analysts) and faded FY29–30, EPS compounds ~15.2%. At $220.03 that is 33.9× FY27, capped to a 30× exit, plus 0.25% dividend = **~10.9%** base-case estimate, below the 20% guardrail. No entry price reaches 20% without multiple expansion. The Standard Core gate verdict and trigger prices below are unchanged by this.
 - **3. Dilution Gate (`A1` & `G3`):**
   - **YoY Diluted WASO:** `-0.99%` to `-1.10%` YoY (active buybacks `$1.07B` TTM). **SBC:** `~$82M` (`0.90%` of revenue, `4.6%` of FCF). Zero converts, ATMs, secondaries, or stock-settled M&A. **Status: `A1` & `A2` PASS.**
 - **4. Capex & FCF Gate (`A3a/b/c`):**
