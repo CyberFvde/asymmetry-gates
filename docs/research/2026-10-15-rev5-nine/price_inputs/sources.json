@@ -1,0 +1,112 @@
+{
+  "ALGM": {
+    "meta": {
+      "currency": "USD",
+      "firstTradeDate": 1603978200,
+      "dataGranularity": "1d"
+    },
+    "events": {},
+    "retrieved_utc": "2026-10-15T16:52:06.452991+00:00"
+  },
+  "ASTS": {
+    "meta": {
+      "currency": "USD",
+      "firstTradeDate": 1572615000,
+      "dataGranularity": "1d"
+    },
+    "events": {},
+    "retrieved_utc": "2026-10-15T16:52:06.452991+00:00"
+  },
+  "RKLB": {
+    "meta": {
+      "currency": "USD",
+      "firstTradeDate": 1606228200,
+      "dataGranularity": "1d"
+    },
+    "events": {},
+    "retrieved_utc": "2026-10-15T16:52:06.452991+00:00"
+  },
+  "UUUU": {
+    "meta": {
+      "currency": "USD",
+      "firstTradeDate": 1174311000,
+      "dataGranularity": "1d"
+    },
+    "events": {
+      "splits": {
+        "1383661800": {
+          "date": 1383661800,
+          "numerator": 1.0,
+          "denominator": 50.0,
+          "splitRatio": "1:50"
+        }
+      }
+    },
+    "retrieved_utc": "2026-10-15T16:52:06.452991+00:00"
+  },
+  "GFS": {
+    "meta": {
+      "currency": "USD",
+      "firstTradeDate": 1635427800,
+      "dataGranularity": "1d"
+    },
+    "events": {
+      "dividends": {
+        "1782307800": {
+          "amount": 0.12,
+          "date": 1782307800
+        },
+        "1790170200": {
+          "amount": 0.12,
+          "date": 1790170200
+        }
+      }
+    },
+    "retrieved_utc": "2026-10-15T16:52:06.452991+00:00"
+  },
+  "AVAV": {
+    "meta": {
+      "currency": "USD",
+      "firstTradeDate": 1169562600,
+      "dataGranularity": "1d"
+    },
+    "events": {},
+    "retrieved_utc": "2026-10-15T16:52:06.452991+00:00"
+  },
+  "FPS": {
+    "meta": {
+      "currency": "USD",
+      "firstTradeDate": 1770301800,
+      "dataGranularity": "1d"
+    },
+    "events": {},
+    "retrieved_utc": "2026-10-15T16:52:06.452991+00:00"
+  },
+  "KRMN": {
+    "meta": {
+      "currency": "USD",
+      "firstTradeDate": 1739457000,
+      "dataGranularity": "1d"
+    },
+    "events": {},
+    "retrieved_utc": "2026-10-15T16:52:06.452991+00:00"
+  },
+  "PL": {
+    "meta": {
+      "currency": "USD",
+      "firstTradeDate": 1619443800,
+      "dataGranularity": "1d"
+    },
+    "events": {},
+    "retrieved_utc": "2026-10-15T16:52:06.452991+00:00"
+  },
+  "^SP500TR": {
+    "meta": {
+      "currency": "USD",
+      "firstTradeDate": 568305000,
+      "dataGranularity": "1d"
+    },
+    "events": {},
+    "retrieved_utc": "2026-10-15T16:52:06.452991+00:00"
+  }
+}

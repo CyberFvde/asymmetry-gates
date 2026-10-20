@@ -1,5 +1,7 @@
 # Best of both — March contest ranking
 
+> **Staleness note (added Oct 20, 2026 at merge):** this is an Oct 2 snapshot under framework revision 3, kept as contest research only. Prices have moved since (from Oct 2 to Oct 20: RKLB about −20%, ASTS −28%, PL −19%, AVAV −14%), RKLB's first Neutron launch slipped to 2027 (Oct 14 8-K), and HWM's $233.31/$204.15 levels are revision 3 bands. Current eligibility comes from the live roster and framework revision 6; re-check every seed before using these weights. The roster edit from this branch was dropped at merge because a contest re-rank is not a fresh screen.
+
 **Final Four: PODD, AVAV, LLY and GPCR. Ten seeds, with HWM and GNRC added and space/quantum concentration reduced.**
 
 This combines the wider screen’s operating-business candidates with the earlier board’s specific clinical and commercialization catalysts. It is a practical research preference for the user’s YOLO March contest. Options and leverage are allowed. The exact March end and prize/mark rules remain unknown; March 31, 2027 is a modeling assumption. Until those details are supplied, the primary order favors potential account return supported by operating evidence. It does not assume first-place-only prizes.

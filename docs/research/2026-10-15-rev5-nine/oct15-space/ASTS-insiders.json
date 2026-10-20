@@ -1,0 +1,1385 @@
+{
+  "ticker": "ASTS",
+  "cik": 1780312,
+  "transaction_window": "2025-10-15 to 2026-10-14",
+  "filing_cutoff": "2026-10-15",
+  "filings_count": 69,
+  "oldest_recent_filing": "2019-06-27",
+  "errors": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315225026050/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315225026052/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315225026051/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315225025390/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000110465925115321/tm2532056-1_4seq1.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315225024722/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315225023910/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315225018843/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "filings": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226045389/ownership.xml",
+      "accession": "0001493152-26-045389",
+      "form": "4",
+      "filed": "2026-10-01",
+      "owners": [
+        {
+          "name": "Thorsen Wayne",
+          "officer": "1",
+          "title": "EVP & Chief Commercial Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226043183/ownership.xml",
+      "accession": "0001493152-26-043183",
+      "form": "4",
+      "filed": "2026-09-17",
+      "owners": [
+        {
+          "name": "Yao Huiwen",
+          "officer": "1",
+          "title": "Chief Technology Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "1",
+      "trades": [
+        {
+          "date": "2026-09-16",
+          "code": "S",
+          "security": "Class A Common Stock",
+          "shares": "40000",
+          "price": "58.93",
+          "after": "34750",
+          "ownership": "D",
+          "footnotes": {
+            "F1": "The reported transaction was effected pursuant to a Rule 10b5-1 trading plan adopted by the reporting person on June 5, 2026.",
+            "F2": "Represents the weighted average selling price. These shares were sold in multiple transactions at prices ranging from $57.52 per share to $60.31 per share, inclusive. The reporting person undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226043182/ownership.xml",
+      "accession": "0001493152-26-043182",
+      "form": "4",
+      "filed": "2026-09-17",
+      "owners": [
+        {
+          "name": "Gupta Shanti B.",
+          "officer": "1",
+          "title": "Chief Operating Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": [
+        {
+          "date": "2026-09-16",
+          "code": "S",
+          "security": "Class A Common Stock",
+          "shares": "12000",
+          "price": "58.89",
+          "after": "462980",
+          "ownership": "D",
+          "footnotes": {
+            "F1": "Represents the weighted average selling price. These shares were sold in multiple transactions at prices ranging from $58.87 per share to $58.93 per share, inclusive. The reporting person undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000110465926104326/tm2624604-1_4seq1.xml",
+      "accession": "0001104659-26-104326",
+      "form": "4",
+      "filed": "2026-09-01",
+      "owners": [
+        {
+          "name": "Cisneros Adriana",
+          "officer": "0",
+          "title": "",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": [
+        {
+          "date": "2026-08-31",
+          "code": "P",
+          "security": "Class A Common Stock",
+          "shares": "1384",
+          "price": "57.79",
+          "after": "787585",
+          "ownership": "I",
+          "footnotes": {
+            "F1": "Reflects shares held directly by the reporting person's spouse, Nicholas Griffin.",
+            "F2": "Reflects shares held by 1979 Edendale Investments Ltd., an entity held by The Adriana Cisneros 2014 Portfolio Trust, of which the reporting person is the beneficiary and for which the reporting person has the ability to remove and replace the trustee in certain limited circumstances.",
+            "F3": "Reflects shares held directly by adult child of the reporting person in individual account in the child's name. The child is a college student whose permanent address is the reporting person's household."
+          }
+        },
+        {
+          "date": "2026-08-31",
+          "code": "P",
+          "security": "Class A Common Stock",
+          "shares": "8768",
+          "price": "57.00",
+          "after": "796353",
+          "ownership": "I",
+          "footnotes": {
+            "F1": "Reflects shares held directly by the reporting person's spouse, Nicholas Griffin.",
+            "F2": "Reflects shares held by 1979 Edendale Investments Ltd., an entity held by The Adriana Cisneros 2014 Portfolio Trust, of which the reporting person is the beneficiary and for which the reporting person has the ability to remove and replace the trustee in certain limited circumstances.",
+            "F3": "Reflects shares held directly by adult child of the reporting person in individual account in the child's name. The child is a college student whose permanent address is the reporting person's household."
+          }
+        },
+        {
+          "date": "2026-08-31",
+          "code": "P",
+          "security": "Class A Common Stock",
+          "shares": "670",
+          "price": "58.87",
+          "after": "797023",
+          "ownership": "I",
+          "footnotes": {
+            "F1": "Reflects shares held directly by the reporting person's spouse, Nicholas Griffin.",
+            "F2": "Reflects shares held by 1979 Edendale Investments Ltd., an entity held by The Adriana Cisneros 2014 Portfolio Trust, of which the reporting person is the beneficiary and for which the reporting person has the ability to remove and replace the trustee in certain limited circumstances.",
+            "F3": "Reflects shares held directly by adult child of the reporting person in individual account in the child's name. The child is a college student whose permanent address is the reporting person's household."
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226039925/ownership.xml",
+      "accession": "0001493152-26-039925",
+      "form": "4/A",
+      "filed": "2026-08-24",
+      "owners": [
+        {
+          "name": "Turco Christopher Edward",
+          "officer": "1",
+          "title": "EVP and Chief of Staff",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226039321/ownership.xml",
+      "accession": "0001493152-26-039321",
+      "form": "4",
+      "filed": "2026-08-19",
+      "owners": [
+        {
+          "name": "Yao Huiwen",
+          "officer": "1",
+          "title": "Chief Technology Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226039319/ownership.xml",
+      "accession": "0001493152-26-039319",
+      "form": "4",
+      "filed": "2026-08-19",
+      "owners": [
+        {
+          "name": "Avellan Abel Antonio",
+          "officer": "1",
+          "title": "Chief Executive Officer",
+          "director": "1",
+          "ten_percent": "1"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226039317/ownership.xml",
+      "accession": "0001493152-26-039317",
+      "form": "4",
+      "filed": "2026-08-19",
+      "owners": [
+        {
+          "name": "Bernal Maya",
+          "officer": "1",
+          "title": "Chief Accounting Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226039316/ownership.xml",
+      "accession": "0001493152-26-039316",
+      "form": "4",
+      "filed": "2026-08-19",
+      "owners": [
+        {
+          "name": "Johnson Andrew Martin",
+          "officer": "1",
+          "title": "CFO and CLO",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226039315/ownership.xml",
+      "accession": "0001493152-26-039315",
+      "form": "4",
+      "filed": "2026-08-19",
+      "owners": [
+        {
+          "name": "Gupta Shanti B.",
+          "officer": "1",
+          "title": "Chief Operating Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226039311/ownership.xml",
+      "accession": "0001493152-26-039311",
+      "form": "4",
+      "filed": "2026-08-19",
+      "owners": [
+        {
+          "name": "Wisniewski Scott",
+          "officer": "1",
+          "title": "President",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226039310/ownership.xml",
+      "accession": "0001493152-26-039310",
+      "form": "4",
+      "filed": "2026-08-19",
+      "owners": [
+        {
+          "name": "Turco Christopher Edward",
+          "officer": "1",
+          "title": "EVP and Chief of Staff",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226039055/ownership.xml",
+      "accession": "0001493152-26-039055",
+      "form": "4",
+      "filed": "2026-08-18",
+      "owners": [
+        {
+          "name": "Gupta Shanti B.",
+          "officer": "1",
+          "title": "Chief Operating Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226039056/ownership.xml",
+      "accession": "0001493152-26-039056",
+      "form": "4",
+      "filed": "2026-08-18",
+      "owners": [
+        {
+          "name": "Johnson Andrew Martin",
+          "officer": "1",
+          "title": "CFO and CLO",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226039054/ownership.xml",
+      "accession": "0001493152-26-039054",
+      "form": "4",
+      "filed": "2026-08-18",
+      "owners": [
+        {
+          "name": "Bernal Maya",
+          "officer": "1",
+          "title": "Chief Accounting Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226039053/ownership.xml",
+      "accession": "0001493152-26-039053",
+      "form": "4",
+      "filed": "2026-08-18",
+      "owners": [
+        {
+          "name": "Wisniewski Scott",
+          "officer": "1",
+          "title": "President",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226032000/ownership.xml",
+      "accession": "0001493152-26-032000",
+      "form": "4/A",
+      "filed": "2026-07-02",
+      "owners": [
+        {
+          "name": "Wisniewski Scott",
+          "officer": "1",
+          "title": "President",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226029685/ownership.xml",
+      "accession": "0001493152-26-029685",
+      "form": "4",
+      "filed": "2026-06-23",
+      "owners": [
+        {
+          "name": "Avellan Abel Antonio",
+          "officer": "1",
+          "title": "Chief Executive Officer",
+          "director": "1",
+          "ten_percent": "1"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226028952/ownership.xml",
+      "accession": "0001493152-26-028952",
+      "form": "4",
+      "filed": "2026-06-16",
+      "owners": [
+        {
+          "name": "Cisneros Adriana",
+          "officer": "0",
+          "title": "",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226028955/ownership.xml",
+      "accession": "0001493152-26-028955",
+      "form": "4",
+      "filed": "2026-06-16",
+      "owners": [
+        {
+          "name": "Torres Julio A.",
+          "officer": "0",
+          "title": "",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226028953/ownership.xml",
+      "accession": "0001493152-26-028953",
+      "form": "4",
+      "filed": "2026-06-16",
+      "owners": [
+        {
+          "name": "RUBIN RONALD L",
+          "officer": "0",
+          "title": "",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226028956/ownership.xml",
+      "accession": "0001493152-26-028956",
+      "form": "4",
+      "filed": "2026-06-16",
+      "owners": [
+        {
+          "name": "Wibergh Johan",
+          "officer": "0",
+          "title": "",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226028954/ownership.xml",
+      "accession": "0001493152-26-028954",
+      "form": "4",
+      "filed": "2026-06-16",
+      "owners": [
+        {
+          "name": "SARNOFF RICHARD",
+          "officer": "0",
+          "title": "",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226028542/ownership.xml",
+      "accession": "0001493152-26-028542",
+      "form": "4",
+      "filed": "2026-06-12",
+      "owners": [
+        {
+          "name": "Johnson Andrew Martin",
+          "officer": "1",
+          "title": "CFO and CLO",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": [
+        {
+          "date": "2026-06-11",
+          "code": "S",
+          "security": "Class A Common Stock",
+          "shares": "45809",
+          "price": "93.81",
+          "after": "503619",
+          "ownership": "D",
+          "footnotes": {
+            "F1": "Represents the weighted average selling price. These shares were sold in multiple transactions at prices ranging from $93.25 per share to $94.64 per share, inclusive. The reporting person undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon request, full information regarding the number of shares purchased at each separate price within the range set forth in this footnote."
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226028024/ownership.xml",
+      "accession": "0001493152-26-028024",
+      "form": "4",
+      "filed": "2026-06-09",
+      "owners": [
+        {
+          "name": "Wibergh Johan",
+          "officer": "0",
+          "title": "",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226027782/ownership.xml",
+      "accession": "0001493152-26-027782",
+      "form": "4",
+      "filed": "2026-06-08",
+      "owners": [
+        {
+          "name": "Yao Huiwen",
+          "officer": "1",
+          "title": "Chief Technology Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "1",
+      "trades": [
+        {
+          "date": "2026-06-05",
+          "code": "S",
+          "security": "Class A Common Stock",
+          "shares": "40000",
+          "price": "96.37",
+          "after": "34750",
+          "ownership": "D",
+          "footnotes": {
+            "F1": "The reported transaction was effected pursuant to a Rule 10b5-1 trading plan adopted by the reporting person on June 12, 2025.",
+            "F2": "Represents the weighted average selling price. These shares were sold in multiple transactions at prices ranging from $90.97 per share to $103.92 per share, inclusive. The reporting person undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226026925/ownership.xml",
+      "accession": "0001493152-26-026925",
+      "form": "4",
+      "filed": "2026-06-02",
+      "owners": [
+        {
+          "name": "Avellan Abel Antonio",
+          "officer": "1",
+          "title": "Chief Executive Officer",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226026924/ownership.xml",
+      "accession": "0001493152-26-026924",
+      "form": "4",
+      "filed": "2026-06-02",
+      "owners": [
+        {
+          "name": "Bernal Maya",
+          "officer": "1",
+          "title": "Chief Accounting Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226026923/ownership.xml",
+      "accession": "0001493152-26-026923",
+      "form": "4",
+      "filed": "2026-06-02",
+      "owners": [
+        {
+          "name": "Wisniewski Scott",
+          "officer": "1",
+          "title": "President",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226026921/ownership.xml",
+      "accession": "0001493152-26-026921",
+      "form": "4",
+      "filed": "2026-06-02",
+      "owners": [
+        {
+          "name": "Johnson Andrew Martin",
+          "officer": "1",
+          "title": "CFO and CLO",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226026922/ownership.xml",
+      "accession": "0001493152-26-026922",
+      "form": "4",
+      "filed": "2026-06-02",
+      "owners": [
+        {
+          "name": "Gupta Shanti B.",
+          "officer": "1",
+          "title": "Chief Operating Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226025471/ownership.xml",
+      "accession": "0001493152-26-025471",
+      "form": "4",
+      "filed": "2026-05-27",
+      "owners": [
+        {
+          "name": "Wisniewski Scott",
+          "officer": "1",
+          "title": "President",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226025301/ownership.xml",
+      "accession": "0001493152-26-025301",
+      "form": "4",
+      "filed": "2026-05-26",
+      "owners": [
+        {
+          "name": "Yao Huiwen",
+          "officer": "1",
+          "title": "Chief Technology Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226024877/ownership.xml",
+      "accession": "0001493152-26-024877",
+      "form": "4",
+      "filed": "2026-05-21",
+      "owners": [
+        {
+          "name": "Johnson Andrew Martin",
+          "officer": "1",
+          "title": "CFO and CLO",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": [
+        {
+          "date": "2026-05-20",
+          "code": "S",
+          "security": "Class A Common Stock",
+          "shares": "5000",
+          "price": "90.25",
+          "after": "565805",
+          "ownership": "D",
+          "footnotes": {
+            "F1": "Represents shares of Class A Common Stock sold by the Reporting Person primarily to cover anticipated tax liabilities."
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226024687/ownership.xml",
+      "accession": "0001493152-26-024687",
+      "form": "4",
+      "filed": "2026-05-20",
+      "owners": [
+        {
+          "name": "Gupta Shanti B.",
+          "officer": "1",
+          "title": "Chief Operating Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226024686/ownership.xml",
+      "accession": "0001493152-26-024686",
+      "form": "4",
+      "filed": "2026-05-20",
+      "owners": [
+        {
+          "name": "Yao Huiwen",
+          "officer": "1",
+          "title": "Chief Technology Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226023228/ownership.xml",
+      "accession": "0001493152-26-023228",
+      "form": "4",
+      "filed": "2026-05-14",
+      "owners": [
+        {
+          "name": "Torres Julio A.",
+          "officer": "0",
+          "title": "",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": [
+        {
+          "date": "2026-05-13",
+          "code": "S",
+          "security": "Class A Common Stock",
+          "shares": "15000",
+          "price": "76.34",
+          "after": "43239",
+          "ownership": "D",
+          "footnotes": {
+            "F1": "Represents shares of Class A Common Stock sold by the Reporting Person to cover anticipated tax liabilities in connection with the vesting of granted RSUs.",
+            "F2": "Represents the weighted average selling price. These shares were sold in multiple transactions at prices ranging from $76.06 per share to $76.56 per share, inclusive. The reporting person undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226021788/ownership.xml",
+      "accession": "0001493152-26-021788",
+      "form": "4",
+      "filed": "2026-05-07",
+      "owners": [
+        {
+          "name": "Johnson Andrew Martin",
+          "officer": "1",
+          "title": "CFO and CLO",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000095010326005837/ownership.xml",
+      "accession": "0000950103-26-005837",
+      "form": "4",
+      "filed": "2026-04-16",
+      "owners": [
+        {
+          "name": "Mikitani Hiroshi",
+          "officer": "0",
+          "title": "",
+          "director": "0",
+          "ten_percent": "1"
+        },
+        {
+          "name": "Rakuten Group, Inc.",
+          "officer": "0",
+          "title": "",
+          "director": "0",
+          "ten_percent": "1"
+        },
+        {
+          "name": "Rakuten Mobile, Inc.",
+          "officer": "0",
+          "title": "",
+          "director": "0",
+          "ten_percent": "1"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": [
+        {
+          "date": "2026-04-14",
+          "code": "S",
+          "security": "Class A Common Stock",
+          "shares": "1690000",
+          "price": "91.42",
+          "after": "29330155",
+          "ownership": "I",
+          "footnotes": {
+            "F1": "The shares of Class A Common Stock of the Issuer (the \"Common Stock\") set forth herein are held of record by Rakuten Mobile, Inc., a wholly-owned subsidiary of Rakuten Group, Inc. Hiroshi Mikitani is the founder, Chairman and Chief Executive Officer of Rakuten Group, Inc. and has voting and investment discretion with respect to the securities held of record by Rakuten Mobile, Inc. By reason of the provisions of Rule 13d-3 under the Securities Exchange Act of 1934, as amended, Mr. Mikitani and Rakuten Group, Inc. may be deemed to be the beneficial owner of the securities beneficially owned by Rakuten Mobile, Inc. Mr. Mikitani and Rakuten Group, Inc. hereby disclaim beneficial ownership of all such securities, except to the extent of any indirect pecuniary interest therein.",
+            "F2": "The price reported in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $87.50 to $103.96 per share, inclusive. The Reporting Persons undertake to provide to the Issuer, any security holder of the Issuer, or the staff of the Securities and Exchange Commission, upon request, full information regarding the number of shares sold at each separate price within the ranges set forth in this footnote 2 to this Form 4.",
+            "F3": "The price reported in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $84.04 to $88.71 per share, inclusive. The Reporting Persons undertake to provide to the Issuer, any security holder of the Issuer, or the staff of the Securities and Exchange Commission, upon request, full information regarding the number of shares sold at each separate price within the ranges set forth in this footnote 2 to this Form 4."
+          }
+        },
+        {
+          "date": "2026-04-15",
+          "code": "S",
+          "security": "Class A Common Stock",
+          "shares": "1350000",
+          "price": "86.22",
+          "after": "27980155",
+          "ownership": "I",
+          "footnotes": {
+            "F1": "The shares of Class A Common Stock of the Issuer (the \"Common Stock\") set forth herein are held of record by Rakuten Mobile, Inc., a wholly-owned subsidiary of Rakuten Group, Inc. Hiroshi Mikitani is the founder, Chairman and Chief Executive Officer of Rakuten Group, Inc. and has voting and investment discretion with respect to the securities held of record by Rakuten Mobile, Inc. By reason of the provisions of Rule 13d-3 under the Securities Exchange Act of 1934, as amended, Mr. Mikitani and Rakuten Group, Inc. may be deemed to be the beneficial owner of the securities beneficially owned by Rakuten Mobile, Inc. Mr. Mikitani and Rakuten Group, Inc. hereby disclaim beneficial ownership of all such securities, except to the extent of any indirect pecuniary interest therein.",
+            "F2": "The price reported in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $87.50 to $103.96 per share, inclusive. The Reporting Persons undertake to provide to the Issuer, any security holder of the Issuer, or the staff of the Securities and Exchange Commission, upon request, full information regarding the number of shares sold at each separate price within the ranges set forth in this footnote 2 to this Form 4.",
+            "F3": "The price reported in Column 4 is a weighted average price. These shares were sold in multiple transactions at prices ranging from $84.04 to $88.71 per share, inclusive. The Reporting Persons undertake to provide to the Issuer, any security holder of the Issuer, or the staff of the Securities and Exchange Commission, upon request, full information regarding the number of shares sold at each separate price within the ranges set forth in this footnote 2 to this Form 4."
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226015014/ownership.xml",
+      "accession": "0001493152-26-015014",
+      "form": "4",
+      "filed": "2026-04-02",
+      "owners": [
+        {
+          "name": "Johnson Andrew Martin",
+          "officer": "1",
+          "title": "CFO and CLO",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226015013/ownership.xml",
+      "accession": "0001493152-26-015013",
+      "form": "4",
+      "filed": "2026-04-02",
+      "owners": [
+        {
+          "name": "Gupta Shanti B.",
+          "officer": "1",
+          "title": "Chief Operating Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226015015/ownership.xml",
+      "accession": "0001493152-26-015015",
+      "form": "4",
+      "filed": "2026-04-02",
+      "owners": [
+        {
+          "name": "Wisniewski Scott",
+          "officer": "1",
+          "title": "President",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226015012/ownership.xml",
+      "accession": "0001493152-26-015012",
+      "form": "4",
+      "filed": "2026-04-02",
+      "owners": [
+        {
+          "name": "Avellan Abel Antonio",
+          "officer": "1",
+          "title": "Chief Executive Officer",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226013026/ownership.xml",
+      "accession": "0001493152-26-013026",
+      "form": "4",
+      "filed": "2026-03-26",
+      "owners": [
+        {
+          "name": "Johnson Andrew Martin",
+          "officer": "1",
+          "title": "CFO and CLO",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226013025/ownership.xml",
+      "accession": "0001493152-26-013025",
+      "form": "4",
+      "filed": "2026-03-26",
+      "owners": [
+        {
+          "name": "Wisniewski Scott",
+          "officer": "1",
+          "title": "President",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226013024/ownership.xml",
+      "accession": "0001493152-26-013024",
+      "form": "4",
+      "filed": "2026-03-26",
+      "owners": [
+        {
+          "name": "Avellan Abel Antonio",
+          "officer": "1",
+          "title": "Chief Executive Officer",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226013023/ownership.xml",
+      "accession": "0001493152-26-013023",
+      "form": "4",
+      "filed": "2026-03-26",
+      "owners": [
+        {
+          "name": "Gupta Shanti B.",
+          "officer": "1",
+          "title": "Chief Operating Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226012442/ownership.xml",
+      "accession": "0001493152-26-012442",
+      "form": "4",
+      "filed": "2026-03-24",
+      "owners": [
+        {
+          "name": "Yao Huiwen",
+          "officer": "1",
+          "title": "Chief Technology Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "1",
+      "trades": [
+        {
+          "date": "2026-03-23",
+          "code": "S",
+          "security": "Class A Common Stock",
+          "shares": "40000",
+          "price": "88.88",
+          "after": "4750",
+          "ownership": "D",
+          "footnotes": {
+            "F1": "The reported transaction was effected pursuant to a Rule 10b5-1 trading plan adopted by the reporting person on June 12, 2025.",
+            "F2": "Represents the weighted average selling price. These shares were sold in multiple transactions at prices ranging from $86.71 per share to $90.70 per share, inclusive. The reporting person undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226012441/ownership.xml",
+      "accession": "0001493152-26-012441",
+      "form": "4",
+      "filed": "2026-03-24",
+      "owners": [
+        {
+          "name": "Bernal Maya",
+          "officer": "1",
+          "title": "Chief Accounting Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226011401/ownership.xml",
+      "accession": "0001493152-26-011401",
+      "form": "4",
+      "filed": "2026-03-18",
+      "owners": [
+        {
+          "name": "Wisniewski Scott",
+          "officer": "1",
+          "title": "President",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226009925/ownership.xml",
+      "accession": "0001493152-26-009925",
+      "form": "4",
+      "filed": "2026-03-12",
+      "owners": [
+        {
+          "name": "Yao Huiwen",
+          "officer": "1",
+          "title": "Chief Technology Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226007213/ownership.xml",
+      "accession": "0001493152-26-007213",
+      "form": "4",
+      "filed": "2026-02-17",
+      "owners": [
+        {
+          "name": "Bernal Maya",
+          "officer": "1",
+          "title": "Chief Accounting Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226003655/ownership.xml",
+      "accession": "0001493152-26-003655",
+      "form": "4/A",
+      "filed": "2026-01-26",
+      "owners": [
+        {
+          "name": "Gupta Shanti B.",
+          "officer": "1",
+          "title": "Chief Operating Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315225029456/ownership.xml",
+      "accession": "0001493152-25-029456",
+      "form": "4",
+      "filed": "2025-12-29",
+      "owners": [
+        {
+          "name": "LARSON KEITH R",
+          "officer": "0",
+          "title": "",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "1",
+      "trades": [
+        {
+          "date": "2025-12-24",
+          "code": "P",
+          "security": "Class A Common Stock",
+          "shares": "625",
+          "price": "80.00",
+          "after": "2015",
+          "ownership": "I",
+          "footnotes": {
+            "F1": "The reported transaction was effected pursuant to a Rule 10b5-1 trading plan adopted by the reporting person on September 8, 2025."
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315225028216/ownership.xml",
+      "accession": "0001493152-25-028216",
+      "form": "4",
+      "filed": "2025-12-17",
+      "owners": [
+        {
+          "name": "LARSON KEITH R",
+          "officer": "0",
+          "title": "",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "1",
+      "trades": [
+        {
+          "date": "2025-12-17",
+          "code": "P",
+          "security": "Class A Common Stock",
+          "shares": "715",
+          "price": "70.02",
+          "after": "1390",
+          "ownership": "I",
+          "footnotes": {
+            "F1": "The reported transaction was effected pursuant to a Rule 10b5-1 trading plan adopted by the reporting person on September 8, 2025."
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315225027599/ownership.xml",
+      "accession": "0001493152-25-027599",
+      "form": "4",
+      "filed": "2025-12-12",
+      "owners": [
+        {
+          "name": "Gupta Shanti B.",
+          "officer": "1",
+          "title": "Chief Operating Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": [
+        {
+          "date": "2025-12-10",
+          "code": "S",
+          "security": "Class A Common Stock",
+          "shares": "10000",
+          "price": "77.34",
+          "after": "382375",
+          "ownership": "D",
+          "footnotes": {}
+        }
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000119312525315966/ownership.xml",
+      "accession": "0001193125-25-315966",
+      "form": "4",
+      "filed": "2025-12-11",
+      "owners": [
+        {
+          "name": "AMERICAN TOWER CORP /MA/",
+          "officer": "false",
+          "title": "",
+          "director": "false",
+          "ten_percent": "false"
+        }
+      ],
+      "plan_flag": "false",
+      "trades": [
+        {
+          "date": "2025-12-09",
+          "code": "S",
+          "security": "Class A Common Stock",
+          "shares": "2288621",
+          "price": "69.75",
+          "after": "211379",
+          "ownership": "I",
+          "footnotes": {
+            "F1": "Represents shares of Class A Common Stock (\"Class A Shares\") of AST SpaceMobile, Inc. (the \"Issuer\") held by ATC TRS II LLC (\"TRS II\"), a wholly owned subsidiary of American Tower Corporation (together with TRS II, the \"Reporting Persons\"), sold pursuant to a block trade with Barclays Capital Inc.",
+            "F2": "TRS II directly holds 2,170,657 common units (\"Common Units\") of AST & Science LLC (\"AST LLC\") and an equal number of Class B Common Stock of the Issuer (\"Class B Shares\").",
+            "F3": "The Common Units, together with an equal number of Class B Shares, may be redeemed by TRS II at any time for Class A Shares on a one-to-one basis. The Common Units do not expire."
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315225027104/ownership.xml",
+      "accession": "0001493152-25-027104",
+      "form": "4",
+      "filed": "2025-12-10",
+      "owners": [
+        {
+          "name": "LARSON KEITH R",
+          "officer": "0",
+          "title": "",
+          "director": "1",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "1",
+      "trades": [
+        {
+          "date": "2025-12-10",
+          "code": "P",
+          "security": "Class A Common Stock",
+          "shares": "675",
+          "price": "72.71",
+          "after": "675",
+          "ownership": "I",
+          "footnotes": {
+            "F1": "The reported transaction was effected pursuant to a Rule 10b5-1 trading plan adopted by the reporting person on September 8, 2025.",
+            "F2": "Represents the weighted average selling price. These shares were purchased in multiple transactions at prices ranging from $71.54 per share to $72.85 per share, inclusive. The reporting person undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon request, full information regarding the number of shares purchased at each separate price within the range set forth in this footnote."
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315225026708/ownership.xml",
+      "accession": "0001493152-25-026708",
+      "form": "4",
+      "filed": "2025-12-08",
+      "owners": [
+        {
+          "name": "Yao Huiwen",
+          "officer": "1",
+          "title": "Chief Technology Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "1",
+      "trades": [
+        {
+          "date": "2025-12-05",
+          "code": "S",
+          "security": "Class A Common Stock",
+          "shares": "40000",
+          "price": "73.52",
+          "after": "4750",
+          "ownership": "D",
+          "footnotes": {
+            "F1": "The reported transaction was effected pursuant to a Rule 10b5-1 trading plan adopted by the reporting person on June 12, 2025.",
+            "F2": "Represents the weighted average selling price. These shares were sold in multiple transactions at prices ranging from $70.74 per share to $74.94 per share, inclusive. The reporting person undertakes to provide to the issuer, any security holder of the issuer, or the staff of the Securities and Exchange Commission, upon request, full information regarding the number of shares sold at each separate price within the range set forth in this footnote."
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315225026707/ownership.xml",
+      "accession": "0001493152-25-026707",
+      "form": "4",
+      "filed": "2025-12-08",
+      "owners": [
+        {
+          "name": "Bernal Maya",
+          "officer": "1",
+          "title": "Chief Accounting Officer",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": [
+        {
+          "date": "2025-12-05",
+          "code": "S",
+          "security": "Class A Common Stock",
+          "shares": "6000",
+          "price": "73.76",
+          "after": "122486",
+          "ownership": "D",
+          "footnotes": {}
+        }
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315225026053/ownership.xml",
+      "accession": "0001493152-25-026053",
+      "form": "4",
+      "filed": "2025-12-03",
+      "owners": [
+        {
+          "name": "Wisniewski Scott",
+          "officer": "1",
+          "title": "President",
+          "director": "0",
+          "ten_percent": "0"
+        }
+      ],
+      "plan_flag": "0",
+      "trades": []
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315225026050/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315225026052/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315225026051/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315225025390/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000110465925115321/tm2532056-1_4seq1.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315225024722/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315225023910/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315225018843/ownership.xml",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ]
+}
