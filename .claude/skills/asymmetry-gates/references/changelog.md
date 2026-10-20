@@ -239,6 +239,27 @@ Rationale: the disclosed backstop (~$29B on the first $35B tranche; BofA models 
 
 #18 checks: #15 text, not a gate — readmits nothing; AVGO passes #4 at the Sep 28 re-test. Adopt at the ~Dec 9–10 post-print re-test or reject.
 
+## Pending: carried from closed drafts #6 and #3 (bind nothing until adopted)
+
+Carried Oct 20, 2026 when drafts #6 and #3 were closed. P12/P13 keep their draft numbers (P9 to P11 were used on another branch). Q5 from #3 is folded into P12. Each needs its own #18 safeguard and universe-impact check, against the current revision 6 text, before adoption.
+
+### P12. A7/G4/H5: whose sales count toward the 0.5% net-sales limit (from #6, Oct 15)
+
+Proposal: count net open-market and registered-offering sales by officers, directors and Section 16 10% holders, including a sponsor or strategic holder with a board designee; a former insider's sales count only while it still files Form 4s. Rationale: the Oct 15 screen hit this four times (GFS/Mubadala, FPS/Neos, KRMN/Trive, ASTS/Rakuten and American Tower), and the current text does not say whether sponsor exits count. Counterexample to weigh: a sponsor's orderly exit from an otherwise qualified name would block capital for 12 months.
+
+### P13. A1: Up-C pass-through issuance (from #6, Oct 15)
+
+Proposal: issuance whose proceeds only buy existing economic units (Up-C or similar), with total economic shares unchanged, is tested on economic share count rather than as issuance; the selling holder's sales stay in A7. Rationale: FPS issued Class A shares to buy Neos units while total economic shares stayed flat. Counterexample: an Up-C deal that also issues primary shares for cash stays issuance. Re-check against revision 5's A1 de minimis text.
+
+### Interpretation questions from #3 (Oct 2 rev 3 screen)
+
+- **Q1. Dealer floor-plan repurchase obligations under A4/G2 (GNRC):** count a repossessed-product repurchase commitment with cost sharing but no credit indemnity at its disclosed balance like a guarantee, or exclude it?
+- **Q2. G3 comparability after a year-ago loss (CRWD):** reported diluted WASO omits year-ago antidilutive shares; should a comparable basic-share series govern?
+- **Q3. Associate dividends in A3(a) (PRX):** IFRS allows operating or investing classification; which basis governs company FCF?
+- **Q4. Sales to the issuer by a parent under #7 (Naspers into the Prosus buyback):** do they count as insider net selling?
+- **Q6. FT "narrow shortfall" yardstick:** the Oct 2 screen used #14a's then-12% floors to separate an unfunded FT alert (MA) from out (V, TW); revision 6 lowered that band to 10%.
+- **Q7. Single-source forward FCF (PODD):** can a ≥5-analyst requirement be met when the source does not show its analyst count?
+
 ## How to log a change
 
 1. Write the change as a rule edit (which number, old text → new text).

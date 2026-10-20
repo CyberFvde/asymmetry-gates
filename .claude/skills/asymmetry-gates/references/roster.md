@@ -1,4 +1,46 @@
-# Roster — Oct 2, 2026 (revision 3 targeted re-screen; March contest research)
+# Roster — Oct 15, 2026 (revision 5 nine-name re-test)
+
+## Current scope and verdict
+
+Framework: merged main **f6171aa**, Oct 15 revision 5; FT remains revision 2. Incoming Oct 2 roster is retained as historical evidence below. Fresh scope is only **GFS, FPS, AVAV, ALGM, RKLB, ASTS, PL, KRMN, UUUU**. Quote baseline: Oct 14 completed session; material new events through Oct 15 are considered separately. No gate, hurdle, cap or insider-scope ruling changed inside this screen.
+
+**No verified new-capital pass.** ALGM is the closest compounder candidate; AVAV/KRMN/PL/ASTS retain H research paths. Missing evidence is not a permanent rejection. The ranking below is research priority under the gates, not a prediction of March performance. It creates no trades, paper allocation or options recommendation. None qualifies even before unknown portfolio/cap headroom is considered.
+
+| Research rank | Company / Oct 14 close | Current route status and deciding evidence | Numeric next step / event |
+|---:|---|---|---|
+| 1 | **ALGM / Allegro MicroSystems — $32.22** | **G-watch; model not qualifying at this price.** Actual FCF $87.85M / 9.29%; ordinary dilution ~1.72% can fit G. Annual insider sales 125,848 / ~0.0675% independently audited across all 43 filings. Low annual selling does not alone cure purpose/holdings context. | Own five-year base ~11.54% vs 12%; bear retains 50.25% vs required 60%. Model-dependent combined ceiling **$26.98**, not an approved entry. Complete G2/G3/G4 evidence and #19 pre-print validation; Oct 29 issuer print/re-test. |
+| 2 | **AVAV / AeroVironment — $120.60** | **A/G out; H-watch.** Actual TTM FCF −$25.03M; ESAero's ~1.3% stock consideration exceeds the new allowance. Genuine funded-product/integration transition merits H. | Illustrative buffered H2 need ~$623.6M vs $917.2M reported cash + facility capacity, before current cash/covenant/legal reconciliation. Own annual base sensitivity ~8.5% return, with incomplete peer/max-share support; full H2–H5 still required. Next report early December, estimated. |
+| 3 | **KRMN / Karman — $30.14** | **A/G out on cash; H-watch.** Two small stock deals ~0.154% plus ~0.158% WASO growth appear to clear revised A1. Actual TTM FCF −$27.67M. | Post-Walker current cash/covenants, buffered lower-revenue funding, complete G-destination/share validation and insiders. Own base return sensitivity ~15.2% versus H's 20%. Walker closed Aug 28: $95M cash paired with $100M completed loan draw. November print window unconfirmed. |
+| 4 | **PL / Planet Labs — $14.13** | **H-watch; base return inadequate.** Actual cash margin is positive, but G2/G3 fail. H funding sensitivity is plausible; annual insider/max dilution checks remain open. **#19 unresolved / possible guide blackout**, not a verified clear print. | Own five-year base terminal $12.51 / −2.4% annually; only bull clears 20%. Return-only base condition ~$5.03 is not an approved ceiling. Authenticate pre-print Q3 consensus; next report December, estimated. |
+| 5 | **ASTS / AST SpaceMobile — $42.14** | **H-watch + #19(a) blackout.** Q2 $31.520M revenue vs contemporaneous $34.5M expectation (−8.64%). Full stressed funding/max dilution/destination/insiders unresolved. | July convert adds ~$1.0198B usable, not $1.15B gross; only $30M of $550M Ligado consideration remains after $520M paid. Reconcile funded slower rollout; later clean print plus all H checks. |
+| 6 | **GFS / GlobalFoundries — $48.94** | **A/G out at present.** Government financing shares fail core A1; next-FY reported growth of 7.61% including acquisitions does not establish G2 organic ≥10%; NTM capex/cash reconciliation is unverified. Established foundry cannot use H solely to bypass those current tests. | Verify organic growth ≥10% and capex ≤50% NTM OCF alongside all G checks. The verified catalyst is a U.S. government investment, not evidence of a personal Trump trade. Nov 4 issuer print. |
+| 7 | **RKLB / Rocket Lab — $59.18** | **Out of H now on H5.** All 62 insider filings retrieved: Code S 8,880,247 / P 0 = ~1.33% of ~668M shares vs 0.5% allowed. Delivered launch revenue still supports H1. | Annual net sales must fall to ≤0.5% and full combined-company funding/share model clear. Oct 14 first-launch move to 2027 is distinct from pad delivery; no premature H7 terminal-failure claim. November print estimated. |
+| 8 | **FPS / Forgent Power Solutions — $32.70** | **A/G out; H cannot presently qualify.** FY26 company FCF −$6.824M. Capacity transition warrants H review, but sponsor/director-linked selling is not automatically excluded by any adopted rule; max cash claims also matter. | Reconcile insider scope/actual economic sales and full buffered financing, TRA, legal and H3/H4 path. No automatic IPO/Up-C sponsor waiver or funded entry. |
+| 9 | **UUUU / Energy Fuels — $8.34** | **F-out, PH-impaired.** Commodity F-only; TTM OCF approximately −$62.46M implies negative company FCF, plus current-window issuance and no verified fresh F2 trigger. | Must satisfy all F1/F2 conditions and PH recovery. The new $500M ATM capacity is not already sold cash; prior program had ~$300M gross sold by Oct 13. |
+
+[Full research and sources](../../../../docs/research/2026-10-15-rev5-nine/README.md) include sector reports, annual-insider evidence, explicit valuation/funding assumptions and a reproducible PH calculation with captured daily inputs. Prices and conditional model ceilings are dated, not standing orders. Unknown holdings/purpose, contractual dilution maximums and genuinely missing legal/funding evidence are identified rather than silently assigned favorable values.
+
+## Price health and entry controls
+
+All nine PH calculations completed without error using full operating histories, split-adjusted closing ATH/trends and matched dividend-adjusted returns vs S&P 500 Total Return through Oct 14. **UUUU alone is PH-impaired** (~19.5-year-old ATH, ~96.45% drawdown, ~−74.85 pp three-year relative gap), with zero closes above its 200DMA. The other eight fail the impairment conjunction; all names with a 200DMA are below it. FPS has fewer than 200 observations; FPS/KRMN lack three-year histories, disclosed without an automatic short-history veto. ALGM's ~20.7% gap below 200DMA voids core #12's PT leg but does not replace G5.
+
+No new #15 entry record or H clock is activated for unqualified watch candidates. Before any entry: close every selected-route condition, #13/#19 and PH, write company/factor triggers and H 6/12/24-month checkpoints where applicable, then verify all simultaneous route/name/shared-factor/combined-budget headroom. The screen does not issue exits for unknown existing positions. No rule or trigger changes are made.
+
+## What changed at this re-test
+
+- Applied newly merged revision 5 rather than the separate revision-4 proposal. G3/G5/H4/#12 remain **3% / 12% / 20% / 5%**.
+- Re-tested full alternative routes rather than treating a core A failure or positive EBITDA as an automatic H exclusion. KRMN's small deals benefit from the new A1 carve-out; actual negative cash remains binding.
+- Independently completed ALGM's annual insider audit and an annual five-year cash/share model; completed RKLB's annual insider audit, establishing a current H5 failure. PL valuation sensitivity does not make its upside certain.
+- Reconciled ASTS net financing and already-paid Ligado cash, AVAV's actual revolver availability/current issuance window, KRMN's completed Walker financing, and PL's insufficiently authenticated pre-print guide comparison.
+- **Revision 6 check (Oct 20, 2026):** revision 6 changes no verdict in this table. None of the nine is ≥$500B, so route M does not apply; none passes all of A, which #14a's new 10% growth band still requires; and the table quotes G5/H4 five-year models, not framework C 3-year return estimates.
+- **Carried from closed draft PR #3 (Oct 14 evidence, not re-screened):** SK Hynix (000660.KS) is out of A–E on A1 after issuing ~17.79M new shares for its Jul 10, 2026 Nasdaq ADR listing; earliest A1 roll-off Jul 10, 2027. Its G-watch items (DART insider sweep, #19 vs KRX consensus, a cyclical five-year G5 model) remain open.
+- Checked draft PR 6 as background without adopting its older policy or unsupported verdicts. Its branch remains preserved; no unrelated roster is re-tested. Oct 2 research and the March contest basket below are historical, not reauthorized by this screen.
+
+---
+
+## Historical roster — Oct 2, 2026 (revision 3 targeted re-screen; March contest research)
+
+**Historical snapshot preserved below. Its thresholds, prices, route labels and paper contest basket do not override the Oct 15 revision-5 nine-name results above. Names outside this fresh scope have not received a new verdict.**
 
 ## Fresh scope, framework and capital verdict
 
