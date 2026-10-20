@@ -2,15 +2,15 @@
 
 Rules: numeric, dated where possible, written before the first tranche. A tripped trigger means immediate re-test (or out, where stated), never a price-based exit. Every semi/AI-infra name carries the shared factor trigger below in addition to its own line.
 
-Per-name figures and status notes below remain historical until a fresh screen. Generic gate checks use the current `framework.md`, selected G/H route and FT/PH overlays. Standalone company-specific kill thresholds remain in force unless separately changed and logged. The Oct 15 policy calibration does not automatically clear a trigger, upgrade a name or authorize capital. Standalone company-specific #15 triggers remain binding even when a generic gate now has a carve-out. P7/P8 remain pending. PH-impaired names freeze additions and require a route re-test; the price-health flag alone is not a new automatic sell trigger.
+Per-name figures and status notes below remain historical until a fresh screen. Generic gate checks use the current `framework.md`, selected G/H/M route and FT/PH overlays. Standalone company-specific kill thresholds remain in force unless separately changed and logged. The Oct 15 policy calibration does not automatically clear a trigger, upgrade a name or authorize capital. Standalone company-specific #15 triggers remain binding even when a generic gate now has a carve-out. P7/P8 remain pending. PH-impaired names freeze additions and require a route re-test; the price-health flag alone is not a new automatic sell trigger.
 
-## Required records for new G/H entries
+## Required records for new G/H/M entries
 
-No G/H entry has been verified by the policy edit. Write a per-name record only after a fresh screen: route, evidence date, fully diluted share baseline/limits, numeric cash/leverage or runway floors, valuation entry ceiling, named business risks, dated review and explicit exit action. G records include deal FCF/share recovery deadlines and any insider-cluster context. H records also include 6/12/24-month delivered-milestone targets, cash-burn ceilings, funded recovery contingencies and the original ≤5-year A–E/G quality deadline. Follow `stage-paths.md`; do not replace the destination deadline whenever the thesis slips. Applicable shared-factor triggers and #16 accounting still apply.
+No G/H/M entry has been verified by a policy edit. Write a per-name record only after a fresh screen: route, evidence date, fully diluted share baseline/limits, numeric cash/leverage or runway floors, valuation entry ceiling, named business risks, dated review and explicit exit action. G records include deal FCF/share recovery deadlines and any insider-cluster context. H records also include 6/12/24-month delivered-milestone targets, cash-burn ceilings, funded recovery contingencies and the original ≤5-year A–E/G quality deadline. M records also include the recovery fiscal year and its FCF-margin consensus at entry, lease-inclusive net debt/EBITDA, NTM capex/OCF and the maximum pending deal shares. Follow `stage-paths.md`; do not replace the destination deadline whenever the thesis slips. Applicable shared-factor triggers and #16 accounting still apply.
 
 ## Shared factor trigger — "AI capex 2027"
 
-Applies to every semi/AI-infra name in A–E: currently AVGO, KLAC, AMAT; extends to NVDA, ADI, LRCX, ASML, MU, Samsung, TSM on entry.
+Applies to every semi/AI-infra name in A–E: currently AVGO, KLAC, AMAT; extends to NVDA, ADI, LRCX, ASML, MU, Samsung, TSM on entry. Also applies to any M name whose capex is mainly data-center/AI infrastructure (revision 6).
 
 Anchors (confirm at the October re-test): CY27 WFE consensus ~$190B (KLA, Jul 28, 2026 call); top-5 hyperscaler 2027 capex ~$1.3T (NVDA CFO, Aug 26, 2026 — an estimate of customer spend, not orders); AMAT CY26 WFE growth >30%; MU FY27 capex guide (late-Sept 2026 print); Samsung capex run-rate ₩51.9T.
 
@@ -51,7 +51,7 @@ Action when tripped, same day:
 - **VRT** (blackout): Q3 print must clear all four #19 legs, documenting any (d)-only exemption; an actual (a)–(c) miss is not exempt; UtilityInnovation earnout must be cash (A1); insider three-officer test each quarter; net debt/NTM FCF post-deal ≤2.5×.
 - **TSM** (#3 open): guided capex ≤50% of consensus NTM OCF clears 3(c); if ordinary 3(c) fails, re-test every 3a condition including Q2's new physical branch (NTM GM ≥50%, NTM OCF margin ≥45%, ROIC ≥20%; Q1/Q3 and (i)–(vi) still required); Arizona/Japan ramp costs pushing GM <55% → re-test.
 - **Any 3a name**: high-water mark on entry.
-- **Any M name** (revision 6, written before tranche 1): recovery fiscal year and its FY+2 consensus FCF margin at entry; out if that year's actual FCF margin is <6% when reported (no clock reset), if consensus for it falls <3% at two consecutive re-tests, if trailing-4Q OCF margin <18%, if net debt incl. leases/guarantees >1.5× trailing EBITDA, or on any financing/survival/transformative issuance. NTM cash capex >125% of NTM OCF freezes additions and forces an M re-test. Hyperscaler-type capex also carries shared tripwire B.
+- **Any M name** (revision 6, written before tranche 1): recovery fiscal year and its FY+2 consensus FCF margin at entry; out if that year's actual FCF margin is <6% when reported (no clock reset), if consensus for it falls <3% at two consecutive re-tests, if trailing-4Q OCF margin <18%, if net debt incl. leases/guarantees >1.5× trailing EBITDA, or on any financing/survival/transformative issuance. NTM cash capex >125% of NTM OCF freezes additions and forces an M re-test. Hyperscaler-type capex carries the full shared "AI capex 2027" trigger above, including tripwire B.
 
 ## Non-AI-Capex Diversification Watchlist & Trigger Prices (Oct 15, 2026 Open-Universe Screen)
 

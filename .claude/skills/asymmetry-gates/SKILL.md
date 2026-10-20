@@ -5,7 +5,7 @@ description: Tony's equity screen for core stocks, durable compounders, mileston
 
 # Asymmetry Gates
 
-Policy: **Oct 20, 2026, revision 6** under #18 (return-estimate fix, 20% screen guardrail, #14a 10% growth band, M route); unchanged FT supporting rules remain Oct 2 revision 2. The dated roster is a separate evidence snapshot.
+Policy: **Oct 20, 2026, revision 6** under #18 (return-estimate fix, 20% screen guardrail, #14a 10% growth band, M route); FT supporting rules remain Oct 2 revision 2 apart from the route-name sync. The dated roster is a separate evidence snapshot.
 
 A rules-based screen targeting 25%+ annualized returns in a concentrated, high-asymmetry growth sleeve while surviving the name you're wrong about. This is an objective, not a promised return or a new per-name eligibility hurdle. A–E preserves strict core quality; G evaluates proven compounders on per-share economics; H admits only capped, funded early transitions with a fixed quality destination; M admits starter-size positions in mega-cap platforms whose FCF is depressed by growth capex, with a fixed recovery clock. Fintech receives stricter treatment. PH makes prolonged price underperformance affect capital eligibility even when fundamentals pass. Every position carries written, numeric kill triggers before it gets capital. Assess both the opportunity and the risk; passing a gate needs no additional invented hurdle, and an empty shortlist is acceptable when the evidence warrants it. A durable theme merits research, not an assumption of indefinite stock-price growth.
 
@@ -53,7 +53,7 @@ For a user-requested between-screen edit, read this file, `README.md` and every 
 - #11 has two complete core alternatives; verify all prerequisites of one path. #14a permits one bounded shortfall on one applicable path, not blended thresholds or simultaneous growth/valuation exceptions.
 - Conflicting forward P/E across sources (AMD: 42.6 vs 32.5; VRT: 33–43): stockanalysis governs. Say so rather than picking the friendlier number.
 - For jurisdictions without 10b5-1, verify insider trades through applicable local and SEC filings; missing insider evidence remains unfunded. Read transaction codes and footnotes: required sell-to-cover, issuer withholding and gifts are not discretionary conviction signals. A7's explicit minor-sale missing-footnote fallback may pass with a watch note only after its ≤0.15% annual net-selling and ≤15% C-suite quarterly-disposal conditions are verified; unavailable raw footnotes alone need not block that case. Unknown annual totals/holdings or known sale clusters are not waived.
-- A big pullback is not an entry signal and a big run is not an exit signal. Price enters core #11/#12, #14a's narrow band, G/H's per-share valuation, PH's sustained underperformance/recovery checks and #16's trim rule. For early businesses, contracts, cash runway and achieved milestones matter more than sector enthusiasm. Never give an impaired multi-year chart a clean capital verdict from fundamentals alone.
+- A big pullback is not an entry signal and a big run is not an exit signal. Price enters core #11/#12, #14a's narrow band, G/H's per-share valuation, M's OCF-yield valuation, PH's sustained underperformance/recovery checks and #16's trim rule. For early businesses, contracts, cash runway and achieved milestones matter more than sector enthusiasm. Never give an impaired multi-year chart a clean capital verdict from fundamentals alone.
 - When the user pastes someone else's table, verify the numbers before ranking on them; two of the last three pastes mislabeled next-FY growth or used an unsourced sector figure.
 
 ## Output format
@@ -68,7 +68,7 @@ Lead with the verdict, then the gate detail, then the ranking. Keep it phone-rea
 ...
 
 **Starters / watchlist:** ticker (shortfall, eligible size or missing evidence, numeric next step), ...
-**Compounders / early transitions:** ticker (G/H verdict and route-specific evidence), ...
+**Compounders / early transitions / platforms:** ticker (G/H/M verdict and route-specific evidence), ...
 **Outside the list:** ticker (material gate that fails), ...
 Standing caveat (concentration, shared trigger) if relevant.
 ```
