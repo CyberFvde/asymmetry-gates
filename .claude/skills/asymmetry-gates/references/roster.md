@@ -29,6 +29,17 @@ Same framework and quote basis: Oct 21 completed closes, Oct 22 ~11:25 ET intrad
 
 **Research priority (no verified new-capital pass):** VRT (G-watch, blackout test Oct 28) → HWM (#12/PEG conflict, Oct 29) → ETN (out, leverage) → UUUU (out, F1 + PH). The Oct 15 audit's VRT "≤$215" and ETN "≤$260" price triggers are superseded.
 
+## Oct 22, 2026 — headline checks: KLAC, AVGO, memory (not full re-tests)
+
+Stockanalysis ~12:07 ET intraday; PH on Oct 21 closes (price-return basis). Return estimates use framework C; single-source/unknown-count years are used only where they are below the faded path. No status changes: held-core labels stand from Sep 28 pending fresh revision 6 re-tests. Every AI/semi addition still needs the open AVGO + KLAC + AMAT cost-basis measurement against the factor cap.
+
+- **KLAC (held core) — $149.75 (−8.4%).** Fwd P/E 27.5 (FY27), PEG 1.49 (like-for-like ~1.34), FY27E FCF $6.51B, PT $232.77 (+55%). The PT leg voids below **$145.24** (0.8 × 200DMA $181.55). Shares −1.34%, net debt $1.25B, FCF margin 27.7%, FY27 revenue +33.6%, GM 62.56% vs 61.30%. Return ~**21.1%** (FY27 $5.44 base, FY28 $6.74, faded after; 20.5% CAGR; 27.5× exit; 5Y median fwd P/E unchecked, and 22× would cut it to ~12%). PH clear: closing ATH $301.71 Jun 30, 2026; −45.8%. **Oct 28 print (#13): no tranche before it.** That print also tests "AI capex 2027" tripwires A and D.
+- **AVGO (held core) — $324.82 (−3.8%).** 16.7× FY27 $19.40, PEG 0.36, PT $527.59 (+62%), voids below $294.43. Shares +0.99% (needs active buybacks; watch #2). #4 at maximum exposure ~2.2× per Sep 28. Return ~**29.3%** (FY28 $25.86 LSEG Sep, single source, flagged; faded after; 28.5% CAGR; 16.7× exit). PH clear: ATH $481.57 Jun 2, 2026; −29.9%. Tranche 2 only after the Dec 10 print clears #19.
+- **MU — $868.02.** 4.9× FY27 $176.55; shares +1.60% YoY is above A1's 1.5% ceiling even with buybacks → **A1 likely fail**; verify diluted WASO. Return ~13.6% (FY28 +15.8%, faded after). PH clear (above 200DMA).
+- **Samsung (005930.KS) — ₩214,500.** ~3.0× FY27 EPS ₩72,150; net cash ₩167.6T; shares −1.2%. Still conditional core (#7 DART open). Return estimate unreliable: only FY26–27 consensus available. Oct 29 print → re-test after.
+- **SNDK — $1,278.93.** Shares +6.9% → A1 out. Oct 29 print. **SK Hynix:** A1 out to Jul 10, 2027.
+- **Memory / optical ETFs:** not screenable; the gates test single companies (cash, issuance, insiders, prints). Optical constituents CRDO, LITE, COHR, AAOI, FN, CLS were out on A1/A2/A3 as of Sep. Legacy "25% IRR" trigger prices have no basis under revision 6.
+
 ---
 
 ## Oct 15, 2026 — revision 5 nine-name re-test
