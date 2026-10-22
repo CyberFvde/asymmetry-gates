@@ -1,4 +1,25 @@
-# Roster — Oct 15, 2026 (revision 5 nine-name re-test)
+# Roster — Oct 22, 2026 (HWM targeted re-test; Oct 15 revision 5 nine-name re-test below)
+
+## Oct 22, 2026 — HWM targeted re-test (revision 6)
+
+Framework: merged main **1357629**, Oct 20 revision 6. Scope: HWM only, after a ~35% slide from its closing ATH. Quotes: Oct 21 completed close $208.15 and Oct 22 intraday ~$191 (stockanalysis, 11:15 ET; −8%). No rule, trigger or cap changed.
+
+**HWM / Howmet — no new capital; re-test after the Oct 29 print.** The drop has no company-specific news behind it (sector selloff, PT cuts at RBC $350→$300 and TD Cowen $320→$280, residual GE–CPP and SpaceX in-house casting worries). It does not change the business evidence, but it changes two price-driven gates:
+
+- **#13:** Q3 print Oct 29 is the 5th trading day from Oct 22. Re-test after the print, not before.
+- **#12 breaks below ~$199.5.** 200DMA $249.44 (Oct 21); the PT leg is void >20% below it. NTM FCF yield ~2.9% (blended NTM FCF ~$2.21B / ~$76.2B) is far from 5%. A close near $191 fails #12, which also removes #14a starter eligibility (it requires #12). If all of A verifies, the only remaining class would be **ballast** (#12-only fail).
+- **#11:** stockanalysis governs and passes Standard Core: fwd P/E 32.30, PEG 1.16, NTM FCF yield ~2.9%. The revision 6 like-for-like re-check, still unresolved, is ~1.95 at $191 (FY27 29.4× on 15.1% FY27→30 EPS CAGR; NTM blend 32.3× on ~16.5%) and crosses 2.0 near ~$196. Until the 200DMA falls or estimates rise, no price clears both that re-check and #12's PT leg.
+- **Return estimate (framework C):** FY27 base $6.50; FY28 $7.65 (3 analysts, flagged); FY29–30 faded → $9.92; 3Y EPS CAGR 15.1%; entry 29.4× → exit 29.4× (5Y median fwd P/E unchecked); dividend 0.29% → **~15.4%**, below the 20% guardrail. Because exit ≤ entry multiple, a lower price cannot lift it; needs FY27→30 EPS CAGR ≥ ~19.7%.
+- **A gates (stockanalysis Oct 22, otherwise Oct 15 audit evidence, not re-pulled):** WASO −1.10%, buybacks active ($800M YTD through July), TTM FCF $1.79B / 19.64%, capex/OCF 19.4%, NTM FCF ≥ TTM, net debt $4.10B + $1.26B max Alcoa/LoC/surety = ~2.43× blended NTM FCF, GM 36.0% vs FY25 34.2%. **A5 watch:** GE–CPP ($11.75B, close 2H27) and SpaceX's Texas foundry threaten future casting share and pricing; HWM still holds >50% of IGT blades and top-2 aero castings, so A5 holds today.
+- **#17:** no estimate cut. FY26 EPS $5.34 / FY27 $6.50 unchanged vs Oct 20; NTM EPS ~$5.91 unchanged vs Oct 14. PT cuts are not estimate cuts.
+- **#19 (Q2, Aug 6):** revenue $2,547M vs ~$2.43B and adj. EPS $1.33 vs ~$1.24 beat; FY26 guide raised to $10.05B / $5.27 / FCF $1.90B. Q2 own-guide and Q3 guide ($2,575M) vs pre-print consensus not independently pulled. Oct 29 print governs.
+- **PH: clear.** Closing ATH $292.65 on Aug 18, 2026 (64 days); drawdown −28.9% at $208.15 (~−35% intraday); 3Y price return +379% vs S&P 500 +84% (+296 pp; price-return fallback, yield 0.29% < 1.5%). Below 200DMA (−16.6% at Oct 21 close); 3M/6M relative −29.3 / −22.3 pp. Not impaired: ATH is under 3 years old.
+
+**Oct 29 re-test checklist:** #19 all four legs vs pre-print consensus; close vs 0.8 × 200DMA for the #12 PT leg; like-for-like PEG ≤2.0 on post-print FY27–FY29 consensus; 5Y median fwd P/E for the exit cap; any GE–CPP/SpaceX share commentary for A5/#15. The `triggers.md` HWM price triggers ($221.65–$224.58 core, $279.84 starter) are superseded by this re-test; its #15 kill triggers are unchanged.
+
+---
+
+## Oct 15, 2026 — revision 5 nine-name re-test
 
 ## Current scope and verdict
 
