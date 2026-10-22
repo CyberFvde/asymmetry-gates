@@ -1,4 +1,4 @@
-# Roster — Oct 22, 2026 (HWM targeted re-test; Oct 15 revision 5 nine-name re-test below)
+# Roster — Oct 22, 2026 (HWM, VRT, ETN, UUUU targeted re-tests; Oct 15 revision 5 nine-name re-test below)
 
 ## Oct 22, 2026 — HWM targeted re-test (revision 6)
 
@@ -16,6 +16,18 @@ Framework: merged main **1357629**, Oct 20 revision 6. Scope: HWM only, after a 
 - **PH: clear.** Closing ATH $292.65 on Aug 18, 2026 (64 days); drawdown −28.9% at $208.15 (~−35% intraday); 3Y price return +379% vs S&P 500 +84% (+296 pp; price-return fallback, yield 0.29% < 1.5%). Below 200DMA (−16.6% at Oct 21 close); 3M/6M relative −29.3 / −22.3 pp. Not impaired: ATH is under 3 years old.
 
 **Oct 29 re-test checklist:** #19 all four legs vs pre-print consensus; close vs 0.8 × 200DMA for the #12 PT leg; like-for-like PEG ≤2.0 on post-print FY27–FY29 consensus; 5Y median fwd P/E for the exit cap; any GE–CPP/SpaceX share commentary for A5/#15. The `triggers.md` HWM price triggers ($221.65–$224.58 core, $279.84 starter) are superseded by this re-test; its #15 kill triggers are unchanged.
+
+## Oct 22, 2026 — VRT, ETN, UUUU targeted re-test (revision 6)
+
+Same framework and quote basis: Oct 21 completed closes, Oct 22 ~11:25 ET intraday (stockanalysis). The sector slide since Oct 14 (inflation/rate-hike bets, AI build-out financing worries after CoreWeave 2032 bonds yielded ~15%) is price action, not a tripwire: no "AI capex 2027" A–D condition is met on current evidence. Hyperscaler prints the week of Oct 26 test tripwire B. PH uses price returns vs S&P 500 price return (yields VRT 0.13%, ETN 1.21%, UUUU none, all < 1.5%).
+
+| Name / price | Route status and deciding evidence | Numeric next step / event |
+|---|---|---|
+| **VRT / Vertiv — $212.15 close; ~$195.55 intraday** | **A–E out on A1; G-watch; #19(a) blackout.** Shares +1.06% YoY with no repurchases in 2025 or 2026 (Jun 30 10-Q; the ~$11.6M/qtr repurchase line is not a program), so A1's 1.5% branch and A2 are unavailable. Q2 revenue $3,274M vs ~$3.38B consensus (−3.2%) remains the blackout. On G: FCF $2.93B / 25.5%, capex/OCF 12.7%, net cash $0.23B; UIG deal $1.45B cash + up to $1.15B **cash** earnout → ~0.8× pro forma; dilution inside G3's 3%; insiders ~$127M net sold vs ~$375M limit (Sep data). Fwd P/E 24.7, PEG 0.67. Return estimate (framework C): FY27 $9.19 base, FY28 $11.90 (therighttrader, 6 analysts, may predate Q2), FY29–30 faded → 25.3% EPS CAGR, 21.3× entry/exit, **~25.4%**, above the 20% guardrail. PH clear: closing ATH $376.23 May 14, 2026; drawdown −43.6% (~−48% intraday); 3Y +477% vs +84%; −21.1% vs 200DMA $268.86; 3M/6M relative −33.0 / −39.2 pp. | Q3 print **Oct 28** (4th trading day; #13). Must clear all four #19 legs. Then G: NTM FCF ≥ $2.64B (90% of TTM; FY26E $2.55B, needs FY27E ≥ ~$2.67B), G1 backlog/share evidence, G4 cluster test, G5 five-year FCF/share model (base ≥12%, bear ≥60%) with an entry ceiling. Shared AI-capex factor trigger applies. A–E re-entry needs active buybacks or WASO ≤ +0.5%. |
+| **ETN / Eaton — $393.94 close; ~$365.14 intraday** | **Out of A–E (A4) and G (G2 leverage).** Net debt $20.63B after ~$11.1B of Q1 2026 cash acquisitions funded with ~$11.3B of new debt. FY26E FCF $3.96B → ~5× NTM FCF vs 2.5× cap. Rest of A looks fine (WASO −1.33%, FCF margin 13.1%, capex/OCF 20.6%) but does not matter after A4. Return estimate ~15.7% (FY27 $16.29 base, 22.4×, faded path, FY28 consensus not pulled), below 20%. PH clear: closing ATH $459.96 Aug 12, 2026; −14.4% (~−20.6% intraday); 3Y +103% vs +84%. | Net debt must fall to ~2.5× NTM FCF (~$10–11B at ~$4.2–4.5B FCF), a multi-year paydown. Nov 3 print. |
+| **UUUU / Energy Fuels — $8.20 close; ~$7.80 intraday** | **F-out, PH-impaired; unchanged from Oct 15.** F1 fails: TTM FCF −$120.4M, EBITDA −$71.7M, shares +22.1% YoY, ATM/convert issuance. PH: closing ATH $235.00 Apr 13, 2007 (19.5 yrs); −96.5%; 3Y +6.8% vs +83.6% (−76.9 pp); −51.1% vs 200DMA $16.75; 3M/6M relative −36.8 / −72.4 pp; 200DMA falling. | Needs all of F1, an F2 insider-buy signal and PH recovery (10 closes above a rising 200DMA, etc.). Nov 2 print. |
+
+**Research priority (no verified new-capital pass):** VRT (G-watch, blackout test Oct 28) → HWM (#12/PEG conflict, Oct 29) → ETN (out, leverage) → UUUU (out, F1 + PH). The Oct 15 audit's VRT "≤$215" and ETN "≤$260" price triggers are superseded.
 
 ---
 
