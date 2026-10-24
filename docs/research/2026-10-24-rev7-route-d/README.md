@@ -69,3 +69,16 @@ Capital: CIEN, LITE and COHR are AI/optical exposure and would carry the shared 
 - COHR NVIDIA placement price/premium; FY+2 FCF consensus.
 - NBIS/IREN D1 forward dilution not modeled (fails earlier gates).
 - AI-capex factor group cost basis (blocks capital for any pass).
+
+## H reviews (mandatory H check, adopted Oct 24, 17:27 CT)
+
+### IREN — H-watch + #19 blackout
+
+- **H1 passes.** Realized AI cloud revenue $128.8M in FY26 (mining $578.2M) and binding demand: Microsoft definitive ~$9.7B five-year contract (20% of each tranche prepaid; Microsoft can terminate after a cure period for missed delivery) ([8-K](https://www.sec.gov/Archives/edgar/data/1878848/000114036125040072/ef20058139_8k.htm)); RPO $5.1B plus ~$11.4B contracted lease value at Jun 30, 2026 ([10-K](https://www.sec.gov/Archives/edgar/data/0001878848/000187884826000052/iren-20260630.htm)). Horizon 1 delivered Aug 2026. Operating ARR ~$1B vs a $4B year-end target ([FY26 release](https://www.sec.gov/Archives/edgar/data/0001878848/000187884826000051/irenreportsfy26results.htm)).
+- **H2 not met (H-watch).** FY27 capex guide $25–30B. Committed sources: unrestricted cash $5.90B, undrawn Microsoft GPU facilities $2.71B, Mackenzie financing up to $2.4B (draw status unknown), prepayments not yet received ~$1.3B (derived, unverified) ≈ $12.3B. The FY27 gap alone is ~$12.7–17.7B before FY28 capex and H2's 25% buffer. Management's plan relies on an ~$8B GPU-financing/prepayment target, data-center financing (none closed) and "corporate sources", and the $6B ATM has ~$3.5B left; H2 counts none of these. A funded slower build plan is not disclosed.
+- **H3/H4 unresolved.** FY27 FCF consensus −$21.4B (stockanalysis); EPS consensus negative through FY28 (4 analysts); no FY29+ consensus. Fully diluted shares ~447–465M today (+13.5% to +18.1% over 394.1M basic), ~563M if every convert converts, ~593M with NVIDIA's 30M rights at $70. No base-case path to G3's 3% dilution limit or a dated 6% FCF margin is supportable from disclosed data, so no five-year per-share model or entry ceiling is issued.
+- **H5 / #19.** No open-market insider sales in the last 12 months (Form 4s are Jul 1 RSU grants); the co-CEOs' Sep 2025 sales (1.0M shares each) fall just outside the window. Q4 FY26 adjusted EBITDA $19.2M vs $34.9M consensus (−45%; a second source says ~53% below) is a #19(b) miss → **blackout** until a clean print. Revenue $137.2M vs $139–140.4M (−1.3% to −2.3%; one source shows $157.1M).
+- **PH:** closing ATH ~$76.41 on Nov 5, 2025; drawdown −67.4%; below both moving averages. ATH under 3 years old → not impaired.
+- **Next:** Nov 5 print (#19 all legs); disclosed FY27 funding closes; a funded capex plan.
+
+Sources for this section: [IREN data pack sources: 10-K, FY26 release, Microsoft 8-K above; stockanalysis IREN](https://stockanalysis.com/stocks/iren/statistics/); [MarketBeat call summary](https://www.marketbeat.com/instant-alerts/transcript-iren-q4-earnings-call-highlights-2026-08-27/); [parameter.io on the Q4 miss](https://parameter.io/iren-iren-stock-dips-6-despite-strong-ai-revenue-growth-analysts-call-it-a-buy/); [Newsquawk](https://www.newsquawk.com/headlines/iren-iren-q4-2026-usd-revenue-137mln-exp-139mln-fy-revenue-707mln-exp-7403mln).
