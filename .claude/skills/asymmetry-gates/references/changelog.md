@@ -6,7 +6,7 @@ Rule changes normally take effect at a scheduled or post-print re-test; an expli
 
 ### Authorization, scope and adoption basis
 
-Explicit user request dated Oct 24, 2026 authorizes this between-screen calibration under #18. The user asked to "adjust our gates repository" so that high-growth companies that "need the dilution" are accepted when their return after dilution stays above the 25% IRR floor "as long as it's a good company", with the bar that such names be "better and more exciting than HWM". He also asked that the rules "at least accept" LITE. #18 bars one-name waivers and changing a rule to obtain a verdict, so D is written class-wide on principle; LITE is an impact row below, not a design target, and the user was told before drafting that LITE stays out if it misses the 25% per-share return. Baseline: merged `main` at `1357629`, framework Oct 20 revision 6; FT stays Oct 2 revision 2 apart from route-name syncs. Open PR #11 (Oct 22 roster re-tests) is not included. The roster file is preserved byte-for-byte; the five-name re-test the user asked for is recorded in [docs/research/2026-10-24-rev7-route-d](../../../../docs/research/2026-10-24-rev7-route-d/README.md) and is synced into `roster.md` after PR #11 merges, to avoid overwriting newer roster evidence.
+Explicit user request dated Oct 24, 2026 authorizes this between-screen calibration under #18. The user asked to "adjust our gates repository" so that high-growth companies that "need the dilution" are accepted when their return after dilution stays above the 25% IRR floor "as long as it's a good company", with the bar that such names be "better and more exciting than HWM". He also asked that the rules "at least accept" LITE. #18 bars one-name waivers and changing a rule to obtain a verdict, so D is written class-wide on principle; LITE is an impact row below, not a design target, and the user was told before drafting that LITE stays out if it misses the 25% per-share return. Baseline: merged `main` at `1357629`, framework Oct 20 revision 6; FT stays Oct 2 revision 2 apart from route-name syncs. PR #11 (Oct 22 roster re-tests) was merged first at the user's request, so this branch builds on it. The calibration itself changes no roster entry; the five-name re-test the user asked for was run afterwards under revision 7 and is recorded in [docs/research/2026-10-24-rev7-route-d](../../../../docs/research/2026-10-24-rev7-route-d/README.md) and the Oct 24 roster section.
 
 ### Change summary (old to new)
 
@@ -38,7 +38,7 @@ Applies to every current, historical and queued name. Rows are rule sensitivitie
 
 | Existing names / class | Possible effect at the next screen; unresolved or unchanged conditions |
 |---|---|
-| **LITE, CIEN, COHR, NBIS, IREN** | Re-tested in the Oct 24 research file. Verdicts there; none is a trade instruction. Negative-FCF issuers cannot use D. |
+| **LITE, CIEN, COHR, NBIS, IREN** | Re-tested Oct 24 after adoption (roster and research file). CIEN D-watch (#12 fails by $1.54; D5(b) depends on an unsourced 5Y median fwd P/E). LITE out on D1(c) to Mar 2, 2027 (NVIDIA's at-market convertible preferred) and borderline D5(b). COHR out on D2 (OCF margin 1.1%). NBIS and IREN out on D2(c) (operating losses, net debt/EBITDA 8.3× and ~51×) and D5(a). All five pass the 1.99× D/E cap. None is a trade instruction. |
 | **CRDO** | A1 out on DustPhotonics stock plus contingent shares. D could apply if the earnout's maximum shares are counted, the deal meets G3's 24-month FCF/share test and D4/D5 pass on current consensus. |
 | **MU, SNDK, SK Hynix** | MU's A1 issue is a WASO ceiling without buybacks; SNDK +6.9% shares; Hynix ADR-listing issuance. D needs ≥20% organic growth in next-FY and the following FY and a 25% 3Y revenue CAGR, which memory names off a peak-cycle base may miss; SNDK still faces A5 (five-player NAND), which D keeps. Hynix needs DART insider coverage. |
 | **VRT** | A1/A2 (shares +1.06%, no buybacks) could move to D if D4's 25% 3Y revenue CAGR and ≥20% two-year growth hold; the #19(a) blackout still governs until a clean print. |
@@ -287,6 +287,16 @@ Change: "contingent residual-value guarantees >10% of NTM FCF … → immediate 
 Rationale: the disclosed backstop (~$29B on the first $35B tranche; BofA models $370B of guarantees by mid-2029) is already ~60% of FY26 FCF, so the 10% line is permanently tripped. #4 at max is the gate that actually binds (2.17× on Sep 28), so the trigger should sit just inside it.
 
 #18 checks: #15 text, not a gate — readmits nothing; AVGO passes #4 at the Sep 28 re-test. Adopt at the ~Dec 9–10 post-print re-test or reject.
+
+## Pending — proposed Oct 24, 2026 (binds nothing until adopted)
+
+### P14. D1(c): strategic at-market placements
+
+Change (proposal): a sale of common stock, or of preferred that converts 1:1 into common with no coupon or liquidation preference above common, to an operating customer or supplier at or above the 5-day VWAP, for disclosed capex or capacity, is tested like a common placement under D1(c)'s purpose and non-survival tests, without the ≥30% conversion-premium requirement. The premium test stays for converts and for preferred with a coupon, liquidation preference or reset.
+
+Rationale: the premium test targets cheap convertible financing. An at-market 1:1 preferred is economically a placement, and D1(c) does not require a premium on placements, so the two are treated inconsistently.
+
+#18 checks to run before adoption: counterexample — a below-market placement or one paired with warrants stays a fail; a placement whose purpose is survival funding fails regardless. Known impact: LITE (NVIDIA $2.0B at $695.31, Mar 2, 2026) would move from out of D to D-watch on D1(c), still subject to D5(b) (21.8% governing on Oct 23 evidence). COHR's NVIDIA investment would need its terms checked. Because this would change a known verdict, it needs the user's explicit adoption, not an automatic one.
 
 ## Pending: carried from closed drafts #6 and #3 (bind nothing until adopted)
 
