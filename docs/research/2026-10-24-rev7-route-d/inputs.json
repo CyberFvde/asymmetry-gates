@@ -1,0 +1,14 @@
+{
+ "LITE_fy28_trefis": {"price":756.17,"div_yield":0,"base_eps":21.79,"eps_path":[32.69,null,null],"seed_growth":1.5133,
+   "consensus_shares":102.0,"fdso0":102.5,"fdso_growth":[0.006,0.006,0.006,0.006],"median_fwd_pe":22.18},
+ "LITE_fy28_webull": {"price":756.17,"div_yield":0,"base_eps":21.79,"eps_path":[34.65,null,null],"seed_growth":1.5133,
+   "consensus_shares":102.0,"fdso0":102.5,"fdso_growth":[0.006,0.006,0.006,0.006],"median_fwd_pe":22.18},
+ "LITE_no_median_cap": {"price":756.17,"div_yield":0,"base_eps":21.79,"eps_path":[32.69,null,null],"seed_growth":1.5133,
+   "consensus_shares":102.0,"fdso0":102.5,"fdso_growth":[0.006,0.006,0.006,0.006],"median_fwd_pe":null},
+ "CIEN_no_median_cap": {"price":320.26,"div_yield":0,"base_eps":10.41,"eps_path":[null,null,null],"seed_growth":0.4519,
+   "consensus_shares":145.0,"fdso0":145.0,"fdso_growth":[0.0,0.0,0.0,0.0],"median_fwd_pe":null},
+ "CIEN_if_median_25x": {"price":320.26,"div_yield":0,"base_eps":10.41,"eps_path":[null,null,null],"seed_growth":0.4519,
+   "consensus_shares":145.0,"fdso0":145.0,"fdso_growth":[0.0,0.0,0.0,0.0],"median_fwd_pe":25.0},
+ "CIEN_if_median_20x": {"price":320.26,"div_yield":0,"base_eps":10.41,"eps_path":[null,null,null],"seed_growth":0.4519,
+   "consensus_shares":145.0,"fdso0":145.0,"fdso_growth":[0.0,0.0,0.0,0.0],"median_fwd_pe":20.0}
+}
