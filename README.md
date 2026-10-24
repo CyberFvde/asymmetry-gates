@@ -1,6 +1,6 @@
 # asymmetry-gates
 
-Policy revision: **Oct 24, 2026, revision 7** (adds route D). FT remains the Oct 2 revision 2 overlay (only its route names were synced for M); the roster now carries the Oct 15 revision 5 nine-name re-test (Oct 14 quotes), with the Oct 2 screen kept below it as history.
+Policy revision: **Oct 24, 2026, revision 7** (adds route D). FT remains the Oct 2 revision 2 overlay (only its route names were synced for M and D); the roster now leads with the Oct 24 route D re-test (LITE, CIEN, COHR, NBIS, IREN), then the Oct 22 targeted re-tests and the Oct 15 nine-name re-test, with older screens kept below as history.
 
 Rules-based equity screen (A–E core, F signal sleeve, G compounders, H early transitions, M mega-cap platforms, D dilutive growth, stricter FT and price-health PH overlays) packaged as an Agent Skill.
 Source of truth for the rules, the roster and the #15 kill triggers. Keep this repo private — the roster is a position book.
