@@ -2,6 +2,16 @@
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
 
+## Adopted amendment: Oct 24, 2026, revision 7 — separable optionality (SOTP) in return estimates
+
+**Authorization:** the user asked (18:52 CT) that the gates give value to optionality such as Nebius's Avride robotaxi unit, "especially if Avride can grow."
+
+**Change (framework C, applied to G5/H4/D5 by reference):** a separately reported or separately financed subsidiary, segment or stake that the main model does not already capture may add value to a return estimate, at the lower of (a) the latest third-party priced marker within 18 months × the parent's economic ownership and (b) disclosed revenue run-rate × the median listed-peer EV/revenue, less 25%. No outside price and no disclosed revenue means zero, recorded as unpriced upside. Base and bull cases only; ≤20% of base-case value; no double count with consensus; committed parent funding subtracted. It never counts toward #11/#12, cash, funding, leverage, dilution, insider or #19 tests and never cures a hard failure.
+
+**Rationale:** the old method valued only what consensus earnings or the operating model captured, so a priced stake or an outside-funded venture counted for nothing. Requiring an outside price keeps the number from being the screener's own guess, and the haircut, cap and base/bull-only rule stop optionality from carrying a weak case.
+
+**#18 checks:** gates, thresholds, caps and routes are unchanged; only return lines can rise. Counterexamples: a stake with no priced round in 18 months and no disclosed revenue adds nothing; a priced stake whose profits are already in consensus adds nothing; optionality cannot lift a name past a failed funding, dilution or #19 test. Known impacts (Oct 24 evidence, provisional): **NBIS** — Avride $0 today (Uber/Nebius committed up to $375M with no disclosed valuation; no disclosed revenue); ClickHouse stake up to ~28% (2025 figure, before later rounds) of a ~$15B 2026 valuation → ≤~$3.2B after the haircut, ≈≤$10/share today, ownership to verify; NBIS stays H-watch. **GOOGL** — Waymo's Feb 2, 2026 Series D at $126B post-money with Alphabet the majority investor (exact stake undisclosed) counts once the stake is sourced; small against Alphabet's size. **UBER** — listed or priced stakes count under (a). Other names: apply at their next screen.
+
 ## Adopted amendment: Oct 24, 2026, revision 7 — mandatory H check
 
 **Authorization:** the user asked (17:27 CT) to "make it mandatory that things always be ran through J just in case"; read as H, the adjacent key, since no route J exists.
