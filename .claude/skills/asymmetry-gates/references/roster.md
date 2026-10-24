@@ -11,13 +11,14 @@ Framework: Oct 24 revision 7 (route D with the 1.99× D/E cap and the D2(c) cape
 | **CIEN — $320.26** | **D-watch** (closest) | D1–D4, D5(a), D5(d), #19 pass. #12 fails by $1.54 (PT leg void below 0.8 × 200DMA = $321.80; FCF yield 1.79%). D5(b) 32.9% uncapped but unresolved: 5Y median fwd P/E not sourced (24.0% at 25×, 15.1% at 20×). | Close ≥ 0.8 × 200DMA; source the 5Y median fwd P/E or FY28+ consensus; A5/A7; Dec 10 print. |
 | **LITE — $756.17** | **D-watch** (after P14, adopted Oct 24) | D1(c) now passes: NVIDIA's $2.0B 1:1 preferred at $695.31 matched the ~$695.89 5-day VWAP (approximate) for fab/capacity. D5(b) fails: 21.8% governing (28.4% on the higher FY28 source) with exit at the ~22.2× 5Y median fwd P/E; stress 17.5%. FCF 9.96%, net cash $1.07B, D/E 0.36, growth +110%/+55% pass. | D5(b) clears 25% at ≤~$700 on the governing path (stress 20.6%), or on verified higher FY28–29 consensus; Nov 5 print (#13, #19). |
 | **COHR — $209.29** | **Out of D (D2)** | FY26 OCF $79.5M (1.1% margin) after an inventory/receivables build; FCF −$1.02B. Leverage (D/E 0.32, 1.1× EBITDA), growth and valuation (22.3×, PEG 0.42) pass. | OCF margin ≥20% + FY+2 FCF ≥6% (D2(c)), or FCF ≥6%. Nov 4 print. |
-| **NBIS — $158.74** | **Out of D (D2(c), D5(a))** | Operating loss −$507.3M; net debt/EBITDA 8.3×; no fwd P/E. D/E 0.99 passes the cap. | Operating profit, ≤2.5× EBITDA, FY+2 FCF ≥6%; H is its route. Nov 10 print. |
-| **IREN — $24.91** | **Out of D (D2(c), D5(a))** | Operating loss −$378.8M; net debt/EBITDA ~51×; shares +41.6%; no fwd P/E. D/E 1.87 passes the cap. | Same as NBIS. Nov 5 print. |
+| **NBIS — $158.74** | **Out of D (D2(c), D5(a))** | Operating loss −$507.3M; net debt/EBITDA 8.3×; no fwd P/E. D/E 0.99 passes the cap. **H: H-watch** (mandatory H check). H1 passes ($37.5B RPO; Microsoft, Meta). H2 unverified: ~$18B liquidity vs ~$58B of 24-month capex, covered only if prepayments fund ~60%. H3/H4 unmodeled; insider sales ~0.47% since Mar 31 with pre-March AFM trades unchecked. #19 clear. | 2027 guidance with a financing plan; facility and prepayment detail at the Nov 10 print; then a full H model. |
+| **IREN — $24.91** | **Out of D (D2(c), D5(a))** | Operating loss −$378.8M; net debt/EBITDA ~51×; shares +41.6%; no fwd P/E. D/E 1.87 passes the cap. **H: H-watch + #19 blackout.** H1 passes (Microsoft $9.7B; $16.6B RPO + leases). H2 short: FY27 capex guide $25–30B vs ~$12.3B committed. Q4 adj EBITDA $19.2M vs $34.9M consensus (−45%) is a #19(b) miss. | Clean Nov 5 print; committed FY27 funding. |
 
 ### What changed at this re-test
 
 - First screen under revision 7. CIEN moves from out (core A1 on the June convert) to D-watch; LITE moves to D-watch after P14, with D5(b) the remaining block; COHR, NBIS and IREN fail D's cash and profit tests. The user's 1.99× D/E cap is passed by all five; it decides none of them today.
 - LITE's −230% GAAP profit margin is the one-time $7.8B non-cash loss on equitizing old converts; its 17.8% GAAP operating margin and positive FCF are what D tests.
+- Mandatory H check adopted the same day: NBIS is H-watch (funding unverified, H3/H4 unmodeled); IREN is H-watch with a #19 blackout. Neither is out of H; neither gets capital.
 - P14 adopted the same day at the user's request: LITE moves from out of D (D1(c)) to D-watch, still blocked by D5(b) above ~$700.
 
 ---

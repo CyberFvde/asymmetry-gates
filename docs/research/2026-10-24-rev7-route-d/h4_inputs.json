@@ -1,0 +1,4 @@
+{"NBIS_illustrative": {"price": 158.74, "scenarios": {
+  "bear": {"ebitda_y5": 8.75, "ev_ebitda": 7, "net_debt_y5": 60, "fd_shares_y5": 0.42},
+  "base": {"ebitda_y5": 22.5, "ev_ebitda": 10, "net_debt_y5": 50, "fd_shares_y5": 0.42},
+  "bull": {"ebitda_y5": 35.0, "ev_ebitda": 12, "net_debt_y5": 50, "fd_shares_y5": 0.42}}}}
