@@ -4,21 +4,21 @@
 
 Framework: Oct 24 revision 7 (route D with the 1.99× D/E cap and the D2(c) capex-cycle branch). Scope: the five names the user asked about. Quotes: Oct 23 close (stockanalysis). HWM yardstick ~15.4% (Oct 22) → D5(d) line ~20.4%. Full evidence, sources and the return script: [research file](../../../../docs/research/2026-10-24-rev7-route-d/README.md). No rule, trigger or cap changed inside this screen.
 
-**No D-growth pass today.** Nothing here is a trade instruction, and every AI/optical pass would still need the factor group's cost basis measured before capital (#16).
+**No D-growth pass today; CIEN and LITE are D-watch.** Nothing here is a trade instruction, and every AI/optical pass would still need the factor group's cost basis measured before capital (#16).
 
 | Name / Oct 23 close | Status | Deciding evidence | Numeric next step / event |
 |---|---|---|---|
 | **CIEN — $320.26** | **D-watch** (closest) | D1–D4, D5(a), D5(d), #19 pass. #12 fails by $1.54 (PT leg void below 0.8 × 200DMA = $321.80; FCF yield 1.79%). D5(b) 32.9% uncapped but unresolved: 5Y median fwd P/E not sourced (24.0% at 25×, 15.1% at 20×). | Close ≥ 0.8 × 200DMA; source the 5Y median fwd P/E or FY28+ consensus; A5/A7; Dec 10 print. |
-| **LITE — $756.17** | **Out of D (D1(c)) to Mar 2, 2027** | NVIDIA's $2.0B 1:1 convertible preferred at $695.31 on Mar 2, 2026 had ~0% premium vs D1(c)'s 30%. D5(b) 21.8% governing (28.4% on the higher FY28 source) with exit at the ~22.2× 5Y median fwd P/E; stress 17.5%. FCF 9.96%, net cash $1.07B, D/E 0.36, growth +110%/+55% all pass. | Mar 2, 2027 roll-off or pending P14; verified FY28–29 consensus; Nov 5 print. |
+| **LITE — $756.17** | **D-watch** (after P14, adopted Oct 24) | D1(c) now passes: NVIDIA's $2.0B 1:1 preferred at $695.31 matched the ~$695.89 5-day VWAP (approximate) for fab/capacity. D5(b) fails: 21.8% governing (28.4% on the higher FY28 source) with exit at the ~22.2× 5Y median fwd P/E; stress 17.5%. FCF 9.96%, net cash $1.07B, D/E 0.36, growth +110%/+55% pass. | D5(b) clears 25% at ≤~$700 on the governing path (stress 20.6%), or on verified higher FY28–29 consensus; Nov 5 print (#13, #19). |
 | **COHR — $209.29** | **Out of D (D2)** | FY26 OCF $79.5M (1.1% margin) after an inventory/receivables build; FCF −$1.02B. Leverage (D/E 0.32, 1.1× EBITDA), growth and valuation (22.3×, PEG 0.42) pass. | OCF margin ≥20% + FY+2 FCF ≥6% (D2(c)), or FCF ≥6%. Nov 4 print. |
 | **NBIS — $158.74** | **Out of D (D2(c), D5(a))** | Operating loss −$507.3M; net debt/EBITDA 8.3×; no fwd P/E. D/E 0.99 passes the cap. | Operating profit, ≤2.5× EBITDA, FY+2 FCF ≥6%; H is its route. Nov 10 print. |
 | **IREN — $24.91** | **Out of D (D2(c), D5(a))** | Operating loss −$378.8M; net debt/EBITDA ~51×; shares +41.6%; no fwd P/E. D/E 1.87 passes the cap. | Same as NBIS. Nov 5 print. |
 
 ### What changed at this re-test
 
-- First screen under revision 7. CIEN moves from out (core A1 on the June convert) to D-watch; LITE stays out, now on D1(c) and D5(b) rather than A1/A3; COHR, NBIS and IREN fail D's cash and profit tests. The user's 1.99× D/E cap is passed by all five; it decides none of them today.
+- First screen under revision 7. CIEN moves from out (core A1 on the June convert) to D-watch; LITE moves to D-watch after P14, with D5(b) the remaining block; COHR, NBIS and IREN fail D's cash and profit tests. The user's 1.99× D/E cap is passed by all five; it decides none of them today.
 - LITE's −230% GAAP profit margin is the one-time $7.8B non-cash loss on equitizing old converts; its 17.8% GAAP operating margin and positive FCF are what D tests.
-- Pending P14 (changelog) would change LITE's D1(c) result; it is not adopted.
+- P14 adopted the same day at the user's request: LITE moves from out of D (D1(c)) to D-watch, still blocked by D5(b) above ~$700.
 
 ---
 

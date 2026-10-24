@@ -1,6 +1,16 @@
-# #18 — Rule-change log (policy Oct 24, 2026, revision 7)
+# #18 — Rule-change log (policy Oct 24, 2026, revision 7 with P14)
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
+
+## Adopted amendment: Oct 24, 2026, revision 7 — P14 strategic placements (D1(c))
+
+**Authorization:** proposed earlier the same day as P14 after the five-name re-test; the user replied "Ya" (17:23 CT) to adopting it. Baseline: merged `main` at `909442b`.
+
+**Change (D1(c)):** a sale of common stock, or of preferred converting 1:1 into common with no coupon, reset or liquidation preference above common, to an operating customer or supplier at or above the 5-day VWAP, for disclosed capex or capacity, is tested like a placement (purpose and non-survival) without the ≥30% conversion-premium requirement. Converts and preferred with a coupon, reset or senior liquidation preference keep the premium test. A discount, attached warrants or survival purpose still fails.
+
+**Rationale:** the premium test targets cheap convertible financing. An at-market 1:1 preferred is a placement in economic terms, and D1(c) never required a premium on placements, so the two were treated inconsistently.
+
+**#18 checks:** safeguards kept: the purpose and non-survival tests, D1(a)/(b) dilution limits (the placement's shares count in FDSO), D2–D5, caps. Counterexamples: a placement below the 5-day VWAP, one paired with warrants, or one funding survival still fails. Known impact (disclosed before adoption): LITE's Mar 2, 2026 NVIDIA preferred ($695.31 vs an approximate 5-day VWAP of $695.89 from daily typical prices, Feb 23–27, 2026; the deal price is almost certainly the contractual VWAP) now passes D1(c). LITE moves from out of D to D-watch; it still fails D5(b) at 21.8% governing on Oct 23 evidence. COHR's March NVIDIA investment needs its terms checked; COHR fails D2 regardless. No other recorded name is affected.
 
 ## Adopted configuration: Oct 24, 2026, revision 7 (route D, dilutive growth)
 
@@ -287,16 +297,6 @@ Change: "contingent residual-value guarantees >10% of NTM FCF … → immediate 
 Rationale: the disclosed backstop (~$29B on the first $35B tranche; BofA models $370B of guarantees by mid-2029) is already ~60% of FY26 FCF, so the 10% line is permanently tripped. #4 at max is the gate that actually binds (2.17× on Sep 28), so the trigger should sit just inside it.
 
 #18 checks: #15 text, not a gate — readmits nothing; AVGO passes #4 at the Sep 28 re-test. Adopt at the ~Dec 9–10 post-print re-test or reject.
-
-## Pending — proposed Oct 24, 2026 (binds nothing until adopted)
-
-### P14. D1(c): strategic at-market placements
-
-Change (proposal): a sale of common stock, or of preferred that converts 1:1 into common with no coupon or liquidation preference above common, to an operating customer or supplier at or above the 5-day VWAP, for disclosed capex or capacity, is tested like a common placement under D1(c)'s purpose and non-survival tests, without the ≥30% conversion-premium requirement. The premium test stays for converts and for preferred with a coupon, liquidation preference or reset.
-
-Rationale: the premium test targets cheap convertible financing. An at-market 1:1 preferred is economically a placement, and D1(c) does not require a premium on placements, so the two are treated inconsistently.
-
-#18 checks to run before adoption: counterexample — a below-market placement or one paired with warrants stays a fail; a placement whose purpose is survival funding fails regardless. Known impact: LITE (NVIDIA $2.0B at $695.31, Mar 2, 2026) would move from out of D to D-watch on D1(c), still subject to D5(b) (21.8% governing on Oct 23 evidence). COHR's NVIDIA investment would need its terms checked. Because this would change a known verdict, it needs the user's explicit adoption, not an automatic one.
 
 ## Pending: carried from closed drafts #6 and #3 (bind nothing until adopted)
 
