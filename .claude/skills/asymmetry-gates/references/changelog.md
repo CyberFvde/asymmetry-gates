@@ -2,6 +2,16 @@
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
 
+## Adopted amendment: Oct 24, 2026, revision 7 — mandatory H check
+
+**Authorization:** the user asked (17:27 CT) to "make it mandatory that things always be ran through J just in case"; read as H, the adjacent key, since no route J exists.
+
+**Change (screen procedure):** before any non-FT, non-F name is labeled out, it also gets an H review, recorded as H-early, H-watch, out of H with the deciding H test, or H not applicable with the reason. Recorded in `SKILL.md` step 3, `framework.md` (G/H/M/D section), `stage-paths.md` (H) and the output format.
+
+**Rationale:** NBIS and IREN were labeled out of D on Oct 24 without an H run, though H is the route built for funded, pre-profit build-outs. A first failure in one route says nothing about another.
+
+**#18 checks:** procedural only. H1–H7 thresholds, H's scope (a business still building its cash engine; mature companies cannot use H to bypass current tests, per the Oct 2 and Oct 15 precedents for AMZN, ORCL and GFS), H caps and FT/F exclusions are unchanged. No name is upgraded by the change; it adds a recorded H result to every out verdict. Required re-tests: NBIS and IREN now; other recorded outs get their H line at their next screen.
+
 ## Adopted amendment: Oct 24, 2026, revision 7 — P14 strategic placements (D1(c))
 
 **Authorization:** proposed earlier the same day as P14 after the five-name re-test; the user replied "Ya" (17:23 CT) to adopting it. Baseline: merged `main` at `909442b`.
