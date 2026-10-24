@@ -1,6 +1,53 @@
-# #18 — Rule-change log (policy Oct 20, 2026, revision 6)
+# #18 — Rule-change log (policy Oct 24, 2026, revision 7)
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
+
+## Adopted configuration: Oct 24, 2026, revision 7 (route D, dilutive growth)
+
+### Authorization, scope and adoption basis
+
+Explicit user request dated Oct 24, 2026 authorizes this between-screen calibration under #18. The user asked to "adjust our gates repository" so that high-growth companies that "need the dilution" are accepted when their return after dilution stays above the 25% IRR floor "as long as it's a good company", with the bar that such names be "better and more exciting than HWM". He also asked that the rules "at least accept" LITE. #18 bars one-name waivers and changing a rule to obtain a verdict, so D is written class-wide on principle; LITE is an impact row below, not a design target, and the user was told before drafting that LITE stays out if it misses the 25% per-share return. Baseline: merged `main` at `1357629`, framework Oct 20 revision 6; FT stays Oct 2 revision 2 apart from route-name syncs. Open PR #11 (Oct 22 roster re-tests) is not included. The roster file is preserved byte-for-byte; the five-name re-test the user asked for is recorded in [docs/research/2026-10-24-rev7-route-d](../../../../docs/research/2026-10-24-rev7-route-d/README.md) and is synced into `roster.md` after PR #11 merges, to avoid overwriting newer roster evidence.
+
+### Change summary (old to new)
+
+- **New route D (`stage-paths.md`):** none → a capped class route for self-funding high-growth companies that fail core A1 or G3 on equity or equity-linked issuance. It replaces A1's WASO ceiling and 12-month issuance ban, A2, A3(b)/(c), #9 and #11 with D1–D5; it keeps A3(a)'s FCF floor (inside D2), A4, A5–A8, #12, #13, #15, #17, #19 and PH.
+  - **D1 dilution, measured forward:** baseline = today's fully diluted share count, with every convert/preferred/warrant valued at the screen price under its settlement method (hedges only to their cap); settled legacy converts are sunk. Projected base-case FDSO growth ≤8% a year on average, ≤10% in any year, from SBC net of committed buybacks, converts at base-case prices, pending issuance at maximum and the trailing ATM pace. Every raise in the last 12 months must be non-survival, fund contracted capex/working capital, refinancing, buybacks or G3-tested acquisition consideration, carry ≥30% conversion premium if convertible, and ATM proceeds ≤5% of market cap.
+  - **D2 cash:** trailing FCF margin ≥6%, or positive trailing FCF with a ≥6% FY+1 consensus recovery year (≥5 analysts, fixed at entry); NTM FCF consensus >0. Negative-FCF issuers stay in H.
+  - **D3 leverage:** A4's 2.5× maximum-exposure test unchanged.
+  - **D4 growth:** forward 3Y revenue CAGR ≥25% and ≥20% organic growth in next-FY and the year after.
+  - **D5 valuation/return:** fwd P/E ≤45 and PEG ≤1.65; framework C return restated for projected dilution ≥25% base case; ≥20% with every forward year's EPS growth cut 5 points; and the HWM yardstick (beat HWM's latest framework C estimate by ≥5 points and its forward 3Y revenue CAGR).
+  - **D6 size:** initial ≤2.5% sleeve/0.60% portfolio, total per name ≤5.0%/1.25%, max two D names, aggregate ≤10%/2.5%, inside the combined non-core budget (now #14a/G/H/M/D ≤35%/8%) and #16 name/factor caps.
+  - **D7 exits:** written FDSO path and floors; out on a failed raise test, trailing FDSO growth >10% or above the written path, FCF margin <3% or a missed recovery year, net debt >3.0× NTM FCF, or two consecutive material #19 prints; freeze on D return <20%, stress <15%, growth consensus <20% or projected dilution >8%.
+- **Syncs:** framework intro, #14, #16, #18, Sources, G/H/M/D section, FT and PH lines; `price-health.md`, `fintech.md`, `triggers.md` (D record and generic "Any D name" line), `SKILL.md` and `README.md`. No other threshold changes.
+
+### Rationale
+
+- **Per-share math already prices dilution.** The return estimate works on per-share EPS, so a flat trailing share-count cap partly counts dilution twice. It also blocks names for a year after a one-time event: LITE's trailing diluted shares rose ~40% when legacy converts were equitized after the stock ran, which a buyer today does not pay for again. Measuring forward from today's fully diluted count, with each instrument's settlement terms, asks the question a new buyer actually faces.
+- **Why the extra bars.** Dilution is reflexive: companies that fund growth with stock tend to issue more when the price falls, and growth forecasts miss more often than issuance plans. D therefore asks for more growth (25%/20% versus core's 15%/12%), a higher return (25% versus the 20% screen guardrail) with a growth-cut stress, actual positive FCF, and a purpose test on every recent raise. The user's 35%-growth/10%-dilution example compounds per share at 1.35/1.10 − 1 ≈ 22.7%, which this route would reject; at 35% growth the most dilution that still clears 25% is 8% a year, which set D1's cap.
+- **HWM yardstick.** The user wanted D names to be better and more exciting than HWM. That is written as a measurable opportunity-cost test. On today's recorded figure (~15.4%) the 25% floor binds first, so the yardstick only matters if HWM's own estimate rises above ~20%.
+
+### Structural and solvency safeguard check
+
+A–E core, G, H and M thresholds are unchanged, including A1 for core, G3's 3% and the de minimis carve-out. D is a separate capped route like M. What it loosens: the trailing WASO ceiling and the 12-month issuance ban (replaced by forward dilution limits and a raise test), A2's buyback/net-cash requirement, A3(b)/(c) (replaced by positive NTM FCF on top of the A3(a) floor), #9 and #11 (replaced by stricter growth and a P/E/PEG cap plus a dilution-restated 25% return). The A3(a) recovery-year option is a loosening for thin-but-positive FCF names; negative-FCF companies cannot use it. What it keeps: A4's 2.5× maximum-exposure leverage, A5 top-two/margin, A6, A7 insider/legal vetoes, A8 disintermediation, #12, #13 timing, #15, #17, #19 and PH. FT and F names cannot use D. Loss paths: growth that misses while issuance continues, ATM dilution accelerating into a falling price, and multiple compression from a high entry. Bounds: max two names, ≤10% sleeve/≤2.5% portfolio aggregate, inside the 35%/8% non-core budget and the 60%/25% AI-capex factor cap with the full shared trigger. These are looser settings than core, chosen by the user, not a backtested result.
+
+### Full-universe impact and required re-tests
+
+Applies to every current, historical and queued name. Rows are rule sensitivities, not upgrades; each needs a full fresh D screen, PH, #19 and cap headroom before any status or sizing change. The five names the user asked about were re-tested under revision 7 on Oct 23–24 evidence in the research file linked above.
+
+| Existing names / class | Possible effect at the next screen; unresolved or unchanged conditions |
+|---|---|
+| **LITE, CIEN, COHR, NBIS, IREN** | Re-tested in the Oct 24 research file. Verdicts there; none is a trade instruction. Negative-FCF issuers cannot use D. |
+| **CRDO** | A1 out on DustPhotonics stock plus contingent shares. D could apply if the earnout's maximum shares are counted, the deal meets G3's 24-month FCF/share test and D4/D5 pass on current consensus. |
+| **MU, SNDK, SK Hynix** | MU's A1 issue is a WASO ceiling without buybacks; SNDK +6.9% shares; Hynix ADR-listing issuance. D needs ≥20% organic growth in next-FY and the following FY and a 25% 3Y revenue CAGR, which memory names off a peak-cycle base may miss; SNDK still faces A5 (five-player NAND), which D keeps. Hynix needs DART insider coverage. |
+| **VRT** | A1/A2 (shares +1.06%, no buybacks) could move to D if D4's 25% 3Y revenue CAGR and ≥20% two-year growth hold; the #19(a) blackout still governs until a clean print. |
+| **PLTR, CRWD, ZS, PANW** | PLTR may pass D1–D4 but fails D5's P/E ≤45 at recorded multiples. CRWD/ZS/PANW growth sits below D4's 25%; G remains their route. |
+| **DASH, NBIX, CDNS, ARGX and other G3/A1 near-misses** | Growth below D4's 25%/20%, so D does not reach them; G3/A1 status unchanged. |
+| **AAOI, ASTS, RKLB, KTOS, BE, LEU, OKLO, SMR, ORCL and other negative-FCF issuers** | Excluded from D by D2; H (or out) remains their route. |
+| **HOOD, COIN and other FT names** | FT1 bars D. |
+| **AMZN, MSFT, GOOGL, META** | Growth below D4; M or A–E/3a remains their route. |
+| **HWM** | Becomes D5(d)'s yardstick; its own route status is unchanged and still decided at the Oct 29 re-test (PR #11). |
+
+Required next-run ledger for any D candidate: full instrument list (converts, preferred, warrants, hedges with caps, ATM status) and an FDSO bridge at the screen price; three-year projected FDSO path; every trailing-12-month raise with date, size, purpose and premium; trailing and NTM company FCF; next-FY and FY+2 organic revenue consensus with analyst counts; the dilution-restated framework C return, its stress case and the HWM figures used; A5/A7 evidence; #19; PH; and current name/non-core/AI-factor cost headroom. This edit neither promotes a name nor places a trade.
 
 ## Adopted configuration: Oct 20, 2026, revision 6 (return-estimate fix and requested leniency)
 
