@@ -1,6 +1,6 @@
 # asymmetry-gates
 
-Policy revision: **Oct 24, 2026, revision 7** (adds route D). FT remains the Oct 2 revision 2 overlay (only its route names were synced for M and D); the roster now leads with the Oct 24 route D re-test (LITE, CIEN, COHR, NBIS, IREN), then the Oct 22 targeted re-tests and the Oct 15 nine-name re-test, with older screens kept below as history.
+Policy revision: **Oct 24, 2026, revision 8** (insider net-selling cap 1.5%; 20% revenue-or-EPS growth bars for the ranked list and D4; #12's 200DMA void and #17's estimate-cut freeze removed; route D from revision 7). FT remains the Oct 2 revision 2 overlay (only its route names were synced for M and D); the roster now leads with the Oct 24 route D re-test (LITE, CIEN, COHR, NBIS, IREN), then the Oct 22 targeted re-tests and the Oct 15 nine-name re-test, with older screens kept below as history.
 
 Rules-based equity screen (A–E core, F signal sleeve, G compounders, H early transitions, M mega-cap platforms, D dilutive growth, stricter FT and price-health PH overlays) packaged as an Agent Skill.
 Source of truth for the rules, the roster and the #15 kill triggers. Keep this repo private — the roster is a position book.
@@ -9,7 +9,9 @@ The Oct 15 #18 calibration targets 25%+ annualized returns in a concentrated, hi
 
 The Oct 20 revision 6 calibration (user request) fixes the 3-year return math and loosens three things. Returns now use forward EPS (base year = first FY ending ≥6 months out), consensus growth with an 85% fade for missing or unverified years, an exit multiple capped at the lower of today's multiple and 30× (35× for 25%+ EPS growers), plus dividends, with no separate buyback add. Placement on a screen's primary ranked list needs a ≥20% base-case estimate (was ≥25% on the old, inflated math); gate eligibility is unchanged by it. #14a's #9 near-pass band drops from 12% to 10% 3Y revenue growth. New route M admits ≥$500B platforms whose FCF is depressed by growth capex at starter size, with OCF, leverage, growth, OCF-yield valuation and a fixed FCF-recovery clock in place of A2/A3/#9/#11, and a +1.5% dilution ceiling that does not require buybacks. On Oct 20 evidence AMZN still fails M's recovery test (consensus FCF margin ~−1% in 2027, ~3% in 2028).
 
-The Oct 24 revision 7 calibration (user request) adds route D for self-funding high-growth companies that fail core A1 or G3 because they issued stock or converts. D measures dilution forward from today's fully diluted share count, valuing each convert at the current price under its settlement terms, so a one-time convert settlement that already happened is not counted again. It caps projected dilution at 8% a year (10% in any one year), tests the purpose and conversion premium of every raise in the last 12 months, and requires trailing FCF margin ≥6% (or positive FCF with a 6% recovery year), NTM FCF >0, A4 leverage ≤2.5× plus book debt-to-equity ≤1.99×, a 25% 3Y revenue CAGR with ≥20% growth in each of the next two years, fwd P/E ≤45 and PEG ≤1.65, and a framework C return restated for dilution of ≥25% (≥20% with growth cut 5 points) that also beats the HWM yardstick. Negative-FCF companies qualify only through a capex-cycle quality branch (OCF margin ≥20%, GAAP operating profit, FY+2 FCF recovery to 6%, 24 months of committed funding, net debt ≤2.5× EBITDA; one name max); other negative-FCF issuers stay in H. D positions are starter-size (2.5%/0.60% initial, 5.0%/1.25% per name, max two, 10%/2.5% aggregate) inside the non-core budget. The calibration upgraded no stocks; the five-name re-test (LITE, CIEN, COHR, NBIS, IREN) is in [docs/research/2026-10-24-rev7-route-d](docs/research/2026-10-24-rev7-route-d/README.md).
+The Oct 24 revision 7 calibration (user request) adds route D for self-funding high-growth companies that fail core A1 or G3 because they issued stock or converts. D measures dilution forward from today's fully diluted share count, valuing each convert at the current price under its settlement terms, so a one-time convert settlement that already happened is not counted again. It caps projected dilution at 8% a year (10% in any one year), tests the purpose and conversion premium of every raise in the last 12 months, and requires trailing FCF margin ≥6% (or positive FCF with a 6% recovery year), NTM FCF >0, A4 leverage ≤2.5× plus book debt-to-equity ≤1.99×, a 25% 3Y revenue CAGR with ≥20% growth in each of the next two years (revision 8: 20% on revenue or on EPS), fwd P/E ≤45 and PEG ≤1.65, and a framework C return restated for dilution of ≥25% (≥20% with growth cut 5 points) that also beats the HWM yardstick. Negative-FCF companies qualify only through a capex-cycle quality branch (OCF margin ≥20%, GAAP operating profit, FY+2 FCF recovery to 6%, 24 months of committed funding, net debt ≤2.5× EBITDA; one name max); other negative-FCF issuers stay in H. D positions are starter-size (2.5%/0.60% initial, 5.0%/1.25% per name, max two, 10%/2.5% aggregate) inside the non-core budget. The calibration upgraded no stocks; the five-name re-test (LITE, CIEN, COHR, NBIS, IREN) is in [docs/research/2026-10-24-rev7-route-d](docs/research/2026-10-24-rev7-route-d/README.md).
+
+The Oct 24 revision 8 calibration (user request) raises the insider net-selling cap from 0.5% to 1.5% of shares a year on every route, with the three-officer discretionary test unchanged; lets a screen's primary list admit a name on a ≥20% return estimate, ≥20% base-year EPS CAGR or ≥20% forward revenue CAGR; lets D4 pass on revenue (20% 3Y CAGR and 20% in each of the next two FYs) or on EPS (the same bars, plus ≥10% revenue CAGR); and drops #12's rule that voided the price-target leg more than 20% below the 200-day average, and drops #17's estimate-cut re-test and add freeze (the quarterly re-run stays), leaving material misses to #19 at the print. Valuation (#11, D5(a)), #12's 20% upside / 5% yield test itself, D5's 25% return and the five-year G/H hurdles are unchanged.
 
 Revision 7 amendments (Oct 24): P14 lets an at-VWAP strategic placement pass D1(c); every name that fails A–E, G, M and D now gets a mandatory H review; and return estimates can add separable optionality (a subsidiary or stake) at an outside price less 25%, base/bull only and capped at 20% of base value, never for a gate. Avride counts $0 until someone outside Nebius prices it.
 
@@ -19,7 +21,7 @@ See the adopted entry in `.claude/skills/asymmetry-gates/references/changelog.md
 
 ## Layout
 
-    non-ai-screen-audit.md       # full 111-ticker open-universe non-AI-capex gate audit (Oct 15, 2026)
+    non-ai-screen-audit.md       # open-universe non-AI-capex audit: Oct 24 re-screen (136 tickers, revision 8) + Oct 15 history
     .claude/skills/asymmetry-gates/
     ├── SKILL.md                 # when it triggers + how to run a screen
     └── references/
@@ -31,29 +33,22 @@ See the adopted entry in `.claude/skills/asymmetry-gates/references/changelog.md
         ├── roster.md            # dated roster, top-10, what changed — edited every re-test
         └── changelog.md         # #18 log: adopted + pending rule changes with rationale
 
-## Non-AI-Capex Diversification Watchlist (Oct 15, 2026 Open-Universe Screen)
+## Non-AI Diversification (Oct 24, 2026 re-screen, revision 8)
 
-Full ticker-by-ticker gate math across 111+ non-AI-capex candidates (9 lanes) is documented in [`non-ai-screen-audit.md`](non-ai-screen-audit.md), with per-name `#15` kill/entry conditions in [`.claude/skills/asymmetry-gates/references/triggers.md`](.claude/skills/asymmetry-gates/references/triggers.md).
+136 tickers across 13 non-AI-capex lanes (aero aftermarket, mobility/travel, EM commerce, biopharma/medtech, defense/public safety, cyber, brokers/exchanges, space, nuclear fuel, plus added iGaming, shipbuilding, consumer growth and precious metals). Gate math: [`non-ai-screen-audit.md`](non-ai-screen-audit.md); triggers: [`triggers.md`](.claude/skills/asymmetry-gates/references/triggers.md). List door (revision 8): ≥20% forward revenue CAGR, ≥20% base-year EPS CAGR or ≥20% return estimate.
 
-Revision 6 note: the 3Y IRR figures below come from the legacy method and are overstated. Corrected estimates (non-AI audit, section 0) put UBER ~16%, HWM ~11%, LLY ~15%, and only ARGX above the 20% guardrail (~22.5%); KOG.OL is unresolved. Gate tiers and triggers are unchanged until a fresh re-test, but check HWM's Standard Core PEG before any entry: its PEG 1.29 implies ~28% growth, and on ~15% forward consensus growth it is ~2.4, above the 2.0 cap.
+- **Tier 1:** **DASH**, core A–E, ~25.7% governing return; window ≤$214.48; no entry within 5 trading days of the Nov 4 print.
+- **Tier 2:** **ARGX** (A7 three-officer check on Q3 EU sales; ≤$957.16), **RHM.DE** (D-watch; ≤€1,309.01 after #19 and A5), **KOG.OL** (clean Oct 29 print; ≤NOK 332.04), **LLY** (#12 upside only; ≤$1,109.63 or the ballast slot).
+- **Alert:** RDDT (#10 after A8; 2% net buyback leg). **Rule B:** NBIX/KRYS (G3 by 0.05–0.2 points), AXON (D window ≤$317.6), HWM (core gates pass, below the door), UBER, DKNG (PH-impaired), HALO. No buy window has a 200-day floor since revision 8 removed #12's void.
 
-- **Tier 1 — Gate Passes (Ready Now; legacy `≥25%` 3Y IRR label):**
-  - **UBER** (Lane 2 Seed — Waiver `#10` + `#15`): Actionable Now at `$69.62–$71.50` (Buy **`≤ $84.00`**; legacy `~31.5%` 3Y IRR, ~16% on revision 6 math).
-  - **HWM** (Lane 1 Seed — Rev 5 Standard Core at `$216.84` / `#14a` Starter at `$231.27`): **Standard Core (`38×` Rev 5) trigger `≤ $221.65–$224.58`**; **Legacy `35×` trigger `≤ $204.15–$206.80`**; **`#14a` Starter (`48×` Rev 5) ceiling `≤ $279.84`** (legacy `~27.8%` 3Y IRR, ~11% on revision 6 math).
-  - **LLY** (Lane 4 Seed — `#16` Ballast Slot Pass Now at `$1,142.85`): **Full Core Pass trigger `≤ $1,107.36`** (`+20.0%` PT upside; `0.3551% ≤ 0.50%` Lilly Endowment net selling across 126 Form 4s, `0` discretionary officer sales; legacy `~26.5%` 3Y IRR, ~15% on revision 6 math).
-- **Tier 2 — Primary Near-Pass Watchlist (legacy `≥25%` 3Y IRR at Trigger label, Rule A Top 14 Survivors):**
-  - **PODD** (`[NEW DISCOVERY]`, Lane 4 — `1-Step Core / G-watch`, spot `$131.69`): **`≤ $126.76`** (blended `5.0%` FCF yield) / **`≤ $108.35`** (full `1.25×` capex fallback) or Nov 4 Q3 capex/GM guide.
-  - **NBIX** (`[NEW DISCOVERY]`, Lane 4 — `G-watch`, spot `$143.18`): **`≤ $175.00`** once Oct 27 Q3 print reduces YoY diluted WASO `≤ +3.00%` (currently `+3.17%`, 17bp over merged Rev 5 `G3` cap).
-  - **KOG.OL** (`[NEW DISCOVERY]`, Lane 5 — `1-Step Core Watch`, spot `NOK 308.00`): **`≤ NOK 350.30`** (`38×` Core; `≤ NOK 322.66` at `35×`) after a clean Oct 29, 2026 Q3 print exits `#19` blackout.
-  - **SAF.PA** (`[NEW DISCOVERY]`, Lane 1 — `G-watch`, spot `~€314.90`): **`≤ €310.00–€323.00`** (`G5` `12.0%` 5Y base return ceiling).
-  - **ARGX** (Lane 4 Seed — `G-watch`, spot `$810.00`): **`≤ $785.00`** after Feb 2027 FY26 2nd positive OCF year (`G2`) + AFM/FSMA insider verification.
-  - **ATI** (`[NEW DISCOVERY]`, Lane 1 — `#14a / G-watch`, spot `$189.50`): **`≤ $175.00`** + FY27 organic rev consensus `≥ 10.0%`.
-  - **WWD** (`[NEW DISCOVERY]`, Lane 1 — `#14a / G-watch`, spot `$331.62`): **`≤ $305.00`** + Nov FY27 FCF guide `≥ $377M` (curing `A3b`/`A4`).
-  - **HEI** (Lane 1 Seed — `G-watch`, spot `$302.45`): **`≤ $275.00` (NCI-adjusted) to `$296.00`** (`G5` `12%` 5Y base return ceiling).
-  - **CART** (`[NEW DISCOVERY]`, Lane 2 — `#10 / #14a watch`, spot `$49.40`): **`≤ $48.50`** + 3Y EPS CAGR `≥ 20.0%` (`#10`) or 3Y rev `≥ 10.0%` (`#14a`, revision 6; was 12.0%, recorded 11.2%, so re-test the #14a path with next-FY organic ≥10%).
-  - **KRYS** (`[NEW DISCOVERY]`, Lane 4 — `G-watch`, spot `$331.80`): **`≤ $275.00`** (`G5` ceiling; `#12` clears at `≤ $326.75`).
-  - **ADMA** (`[NEW DISCOVERY]`, Lane 4 — `G-watch`, spot `$10.20`): **`≤ $9.50`** (`G5` ceiling once Mkt Cap `≥ $2.5B` & Form 4s verified).
-- **Tier 2 — Rule B Single-Gate / Valuation & Route H Watchlist:** **TW** (`≤ $82.00` + `≥15%` rev / `≥20%` EPS print), **SCHW** (`≤ $95.00` after Q3 2027 `A7` officer roll-off), **ISRG** (`≤ $339.00` `G5` / `≤ $348.40` `PEG ≤ 2.0`), **FTNT** (`≤ $72.24` `G5` / `≤ $69.00` `#12`), **REGN** (`≤ $617.00` `G5`), **CVLT** (`≤ $131.50` `G5`), **CRS** (`≤ $335.00` `G5`), **CRWD** (`≤ $265.24` `G5`), **KAP.L** (`≤ $52.00` + `F2` insider buy + 1Q buyback), **KRMN** (`H-watch ≤ $24.56`), **MDGL** (`H-watch ≤ $397.00`), **AVAV** (`H-watch ≤ $72.88`), **ASTS** (`H-watch ≤ $22.00` after `#19a` exit + `H2` funding).
+## Revision 8 history rerun (Oct 24, 2026)
+
+Every name that failed in the repo's history, re-run under revision 8 (106 names; [table and sources](docs/research/2026-10-24-rev8-history-rerun/README.md)).
+
+- **No capital-ready name today:** each headline pass prints within 5 trading days or failed a deep check.
+- **New headline core:** ANET (A5 conditional; window ≤$192.17), TER and STRL (prints Oct 27/28), APP (#19 blackout to the Nov 4 print).
+- **Downgrade:** TSM out of core on A3(c) (NTM capex/OCF 54–58%).
+- **Near-misses:** GEV (#11 P/E 38.8), GNRC (A4 3.0×). **Out on deep check:** ENR, GFS, NVT, Winbond.
 
 ## Use it
 

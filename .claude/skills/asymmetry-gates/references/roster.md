@@ -1,12 +1,44 @@
-# Roster — Oct 24, 2026 (route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+# Roster — Oct 24, 2026 (revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+
+## Oct 24, 2026: revision 8 history rerun (106 names)
+
+User request: re-run every name that failed in the repo's history under revision 8. Oct 23 closes; stockanalysis headline gates plus deep checks on the eight names whose verdict could move; [table, data and deep-check sources](../../../../docs/research/2026-10-24-rev8-history-rerun/README.md).
+
+**No name is ready for new capital today.** Every headline pass prints within 5 trading days (#13) or failed a deep check. Not a trade instruction; AI/semi passes still need the factor group's cost basis measured (#16).
+
+- **Core headline, deep-checked:** ANET (#7 0.40%, all officer sales under plans; A1 +0.38%; A3(b), #19, PH pass; A5 conditional: #2 in DC Ethernet at 20.7% vs NVIDIA 21.5%, GM ~160bp lower on guidance). 15.7%, list via revenue (30.6%). Window ≤$192.17 (high-velocity PEG binds): Oct 26 only, else after the Nov 3 print clears #19.
+- **Core headline, blocked:** TER (#13 to the Oct 27 print; #7 0.02%, PH clear; window after ≤$371.24), STRL (#13 to Oct 28), APP (#19(c): Q2 adj EBITDA $1.2M under its guide low end; lifts at the Nov 4 print, not Nov 11; window after ≤$400.07; SEC inquiry closed, Talbot class action has no disclosed loss).
+- **Near-misses:** GEV (#14a-shaped: P/E 38.8 in the 38–48 band; A3(b) down-payment quality open; Oct 28), GNRC (A4 3.0× on trailing FCF; clears if NTM FCF ≥$456M; Oct 28).
+- **Checked and out:** ENR (A3(b): NTM FCF €5.59B is 72% of trailing; G2 too; re-test Nov 11), GFS (D4: next-FY EPS +13.7%; D1(c) on the Sep 3 Commerce shares; re-test after the ~Feb 2027 print), NVT (A4 4.3–4.5× after Maverick), Winbond (A1 Mar 2026 convert, shares +4.9%; D1(c) premium 10% vs 30%).
+- **Downgrade: TSM out of core on A3(c).** 2026 capex guide $60–64B puts NTM capex/OCF at 54–58% on consensus; 3a and M are closed by the 2023 revenue decline until FY2028 reports. #19 and #7 clear. Re-entry when NTM consensus capex/OCF ≤50%.
+- **Rule B:** ABB (fails only #9 at 11.7% fwd 3Y; 13.0%).
+- **Unchanged:** NVDA, AMAT, KLAC, LRCX, ADI, ASML, AVGO, Samsung (held/conditional core); CIEN, LITE, BE, CRDO, MRVL (D-watch); VRT, SKHY, MU, ALGM (G-watch); GOOGL (M-watch); NOW (ballast candidate); AMD (alert); everything else out with the gate and H line in the table.
+- **Screen fix:** next-FY now follows the framework (year after the last completed FY), not the return base year; applied to this run and the non-AI screen.
+
+---
+
+## Oct 24, 2026: non-AI open-universe re-screen (136 tickers, revision 8)
+
+User-requested screen of 13 non-AI-capex lanes, re-run the same evening under revision 8 (insider cap 1.5%; 20% revenue-or-EPS growth door; #12 void and #17 estimate-cut freeze removed); [audit](../../../../non-ai-screen-audit.md), [data and scripts](../../../../docs/research/2026-10-24-non-ai-rev8/README.md).
+
+- **Tier 1:** DASH, core A–E, 25.7% governing return; window ≤$214.48; #13 blocks Oct 28–Nov 11 around the Nov 4 print. A8 neutral (user-confirmed). Not in the AI-capex factor group, so it is the first diversifier eligible for the uninvested part of the sleeve; sizing is the user's call.
+- **Tier 2:** ARGX (core headline; A7 three-officer test for Q3 2026 EU sales unresolved; ≤$957.16), RHM.DE (D-watch; D4 passes on EPS; 25.3% same-basis; ≤€1,309.01 after #19 and A5), KOG.OL (core headline; #19 until the Oct 29 print; ≤NOK 332.04), LLY (#12 upside only; ≤$1,109.63 or the #16 ballast slot).
+- **Alert:** RDDT (#10 after A8; fails only the 2% net buyback leg; Tier 1 on a neutral A8 reading).
+- **Rule B:** NBIX and KRYS (G3 +3.2%/+3.05% vs 3.0%), AXON (D window ≤$317.6), HWM (core gates pass on headline after the void removal, but below the growth door), UBER (below the door on consensus), DKNG (PH-impaired), HALO (core headline on a derived PEG after the next-FY correction; 15.2%, below every door).
+- **Next-FY correction (later the same evening):** the screen first tested #9, G2 and D4 on the return base year (FY27) instead of next-FY (FY26 for December filers). Corrected run: no tier change; HALO added to Rule B; RHM's D4 restated on FY26/FY27 (still passes).
+- **#17 estimate-cut freeze removed (revision 8, 21:14 CT):** no current name was frozen by it; no verdict changes.
+- **#12 void removed (revision 8, 21:09 CT):** floors quoted in the dated sections below (HWM ~$199.5, KLAC $145.24, AVGO $294.43, CIEN $321.80, APP) no longer apply. CIEN's #12 now passes (PT $512.99, +60%); its D5(b) median-P/E question still decides it.
+- **Out, gate named in the audit table:** everything else, each with an H line; precious metals all fail F2; Samsung Heavy fails G2/#19.
+
+---
 
 ## Oct 24, 2026 — 52-name triage (headline gates only)
 
 Hard-gate triage of the user's 52-name list through A–E, G, M, D and H; [full table and caveats](../../../../docs/research/2026-10-24-52-name-triage/README.md). Headline passes still need #7, #19, PH, A5 and cap headroom; return estimates fade unverified out-years, so the highest ones are mechanical.
 
-- **Core, headline pass:** NVDA (~51% est.; #7 sweep, OpenAI exposure in A4), TSM (~26%; #7 via local filings, capex guide/3a), ASML (~27%; #7 via AFM).
-- **D-watch:** MRVL (~50%; Celestial AI stock deal must pass G3), BE (~35%; open: Oracle warrant grant date under D1(c), Feb 17 officer Form 4 footnotes under A7, trailing FCF after Q3; #12 PT leg needs ≥$175.43), VRT (24–25%, borderline; #19 blackout to Oct 28; #12 PT leg void below $215.26), LITE (≤~$700).
-- **Out of D (Oct 24 check):** CRDO on A7: insider net selling 1.32% of shares over 12 months vs the 0.50% cap (every route keeps it); earliest pass about July 2027 if selling stopped. [CRDO/BE checks](../../../../docs/research/2026-10-24-52-name-triage/README.md#crdo-and-be-gate-checks-oct-24-user-request).
+- **Core, headline pass:** NVDA (~51% est.; #7 sweep, OpenAI exposure in A4), TSM (~26%; #7 via local filings, capex guide/3a; *superseded: out on A3(c) in the history rerun above*), ASML (~27%; #7 via AFM).
+- **D-watch:** MRVL (~50%; Celestial AI stock deal must pass G3), BE (~35%; open: Oracle warrant grant date under D1(c), Feb 17 officer Form 4 footnotes under A7, trailing FCF after Q3; window ≤~$218, D5(a)), VRT (24–25%, borderline; #19 blackout to Oct 28), LITE (≤~$700). Revision 8 removed #12's 200DMA void, so the $175.43 (BE), $215.26 (VRT) and $144.69 (CRDO) floors no longer apply.
+- **CRDO (Oct 24 check, revised for revision 8):** insider net selling 1.32% of shares over 12 months now sits under the 1.5% cap, so CRDO is back to **D-watch**. Open: Q2 2026 three-officer test (CEO and CLO sold outside plans; CTO Cheng's ~Jun 4 sale unconfirmed), DustPhotonics earnout (up to ~3.21M shares) under G3's stock-deal test, and Q1 FY27 GAAP gross margin below its GAAP guide (#19 reading). #12 now passes at the user's <$141 level (PT $284.05); window ≤$236.71 (PT ÷ 1.2). [CRDO/BE checks](../../../../docs/research/2026-10-24-52-name-triage/README.md#crdo-and-be-gate-checks-oct-24-user-request).
 - **G-watch:** SKHY (D fails at ~24%), MU (cyclical G5 model).
 - **Ballast candidate:** NOW (fails only #12). **Alerts/near-misses:** AMD (P/E 46.5 vs 45), ALAB (P/E 45.8 vs 45, dilution 7.8%).
 - **Out, with H lines:** the neocloud, quantum, nuclear, drone and space names, COHR, INTC, ARM, AMKR, TSLA, SYM, PLTR, CRWD, SNOW, SNDK, SPCX (IPO issuance), MRCY, LEU, UUUU.
@@ -37,7 +69,7 @@ Framework: Oct 24 revision 7 (route D with the 1.99× D/E cap and the D2(c) cape
 
 | Name / Oct 23 close | Status | Deciding evidence | Numeric next step / event |
 |---|---|---|---|
-| **CIEN — $320.26** | **D-watch** (closest) | D1–D4, D5(a), D5(d), #19 pass. #12 fails by $1.54 (PT leg void below 0.8 × 200DMA = $321.80; FCF yield 1.79%). D5(b) 32.9% uncapped but unresolved: 5Y median fwd P/E not sourced (24.0% at 25×, 15.1% at 20×). | Close ≥ 0.8 × 200DMA; source the 5Y median fwd P/E or FY28+ consensus; A5/A7; Dec 10 print. |
+| **CIEN — $320.26** | **D-watch** (closest) | D1–D4, D5(a), D5(d), #19 pass. *Revision 8: #12 now passes on PT +60%; the next sentence is historical.* #12 fails by $1.54 (PT leg void below 0.8 × 200DMA = $321.80; FCF yield 1.79%). D5(b) 32.9% uncapped but unresolved: 5Y median fwd P/E not sourced (24.0% at 25×, 15.1% at 20×). | Close ≥ 0.8 × 200DMA; source the 5Y median fwd P/E or FY28+ consensus; A5/A7; Dec 10 print. |
 | **LITE — $756.17** | **D-watch** (after P14, adopted Oct 24) | D1(c) now passes: NVIDIA's $2.0B 1:1 preferred at $695.31 matched the ~$695.89 5-day VWAP (approximate) for fab/capacity. D5(b) fails: 21.8% governing (28.4% on the higher FY28 source) with exit at the ~22.2× 5Y median fwd P/E; stress 17.5%. FCF 9.96%, net cash $1.07B, D/E 0.36, growth +110%/+55% pass. | D5(b) clears 25% at ≤~$700 on the governing path (stress 20.6%), or on verified higher FY28–29 consensus; Nov 5 print (#13, #19). |
 | **COHR — $209.29** | **Out of D (D2)** | FY26 OCF $79.5M (1.1% margin) after an inventory/receivables build; FCF −$1.02B. Leverage (D/E 0.32, 1.1× EBITDA), growth and valuation (22.3×, PEG 0.42) pass. | OCF margin ≥20% + FY+2 FCF ≥6% (D2(c)), or FCF ≥6%. Nov 4 print. |
 | **NBIS — $158.74** | **Out of D (D2(c), D5(a))** | Operating loss −$507.3M; net debt/EBITDA 8.3×; no fwd P/E. D/E 0.99 passes the cap. **H: H-watch** (mandatory H check). H1 passes ($37.5B RPO; Microsoft, Meta). H2 unverified: ~$18B liquidity vs ~$58B of 24-month capex, covered only if prepayments fund ~60%. H3/H4 unmodeled; insider sales ~0.47% since Mar 31 with pre-March AFM trades unchecked. #19 clear. | 2027 guidance with a financing plan; facility and prepayment detail at the Nov 10 print; then a full H model. |
@@ -67,7 +99,7 @@ Framework: merged main **1357629**, Oct 20 revision 6. Scope: HWM only, after a 
 - **#19 (Q2, Aug 6):** revenue $2,547M vs ~$2.43B and adj. EPS $1.33 vs ~$1.24 beat; FY26 guide raised to $10.05B / $5.27 / FCF $1.90B. Q2 own-guide and Q3 guide ($2,575M) vs pre-print consensus not independently pulled. Oct 29 print governs.
 - **PH: clear.** Closing ATH $292.65 on Aug 18, 2026 (64 days); drawdown −28.9% at $208.15 (~−35% intraday); 3Y price return +379% vs S&P 500 +84% (+296 pp; price-return fallback, yield 0.29% < 1.5%). Below 200DMA (−16.6% at Oct 21 close); 3M/6M relative −29.3 / −22.3 pp. Not impaired: ATH is under 3 years old.
 
-**Oct 29 re-test checklist:** #19 all four legs vs pre-print consensus; close vs 0.8 × 200DMA for the #12 PT leg; like-for-like PEG ≤2.0 on post-print FY27–FY29 consensus; 5Y median fwd P/E for the exit cap; any GE–CPP/SpaceX share commentary for A5/#15. The `triggers.md` HWM price triggers ($221.65–$224.58 core, $279.84 starter) are superseded by this re-test; its #15 kill triggers are unchanged.
+**Oct 29 re-test checklist:** #19 all four legs vs pre-print consensus; #12 PT upside ≥20% (revision 8 removed the 200DMA void); like-for-like PEG ≤2.0 on post-print FY27–FY29 consensus; 5Y median fwd P/E for the exit cap; any GE–CPP/SpaceX share commentary for A5/#15. The `triggers.md` HWM price triggers ($221.65–$224.58 core, $279.84 starter) are superseded by this re-test; its #15 kill triggers are unchanged.
 
 ## Oct 22, 2026 — VRT, ETN, UUUU targeted re-test (revision 6)
 

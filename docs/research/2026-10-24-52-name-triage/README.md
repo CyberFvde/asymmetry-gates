@@ -83,6 +83,7 @@ Definition: the highest price at which the framework C return still reaches **25
 Price basis Oct 23 closes. Sources: Form 4s, 10-Qs and press releases cited in the agent notes below; single-source items flagged.
 
 ### CRDO: out of D on A7 (verified)
+- **Revision 8 update (same evening):** the A7 cap rose to 1.5%, so 1.32% now passes and CRDO is back to D-watch; the three-officer test, DustPhotonics G3 accounting, #12 and #19 items below still decide it.
 - **A7 insider net selling: 1.32% of shares** (≈2,477,285 code-S shares Oct 24, 2025 to Oct 23, 2026 vs 187.95M outstanding; code F and G excluded; no open-market buys). Cap 0.50% (≈939,760 shares). D keeps A7; G4 and H5 keep the same limit, so no route is open.
 - By quarter: Q4'25 876,782; Q1'26 426,101; Q2'26 408,131; Q3'26 599,195; Q4'26 to date 167,076. Officers 2,459,161 (Cheng 1.16M, Lam 0.81M, Brennan 0.38M).
 - Three-officer test: Q2 2026 probable flag (CEO Brennan Jun 5 and CLO Laufman Jun 4 confirmed outside plans; CTO Cheng's ~7,259-share sale unconfirmed).
@@ -98,6 +99,8 @@ Price basis Oct 23 closes. Sources: Form 4s, 10-Qs and press releases cited in t
 - **#15 notes:** two customers 43% and 26% of Q3 revenue, the second a related party (Brookfield JV); Brookfield's $25B is a financing framework, not orders.
 
 ### #12 check on the user's levels (today's 200DMA)
+**Revision 8 (21:09 CT, same day) removed the 200DMA void.** #12 now passes at all three levels on the PT leg: CRDO $141 (+101% to $284.05), BE $160 (+78% to $284.77), VRT $194.32 (+71% to $333.00). The table below is kept as the pre-change record.
+
 #12's price-target leg is void when the price is more than 20% below the 200DMA; the FCF-yield leg needs NTM FCF ≥5% of market cap.
 
 | Name | Oct 23 | 200DMA | PT-leg floor (0.8×) | User's level | #12 at user's level |
