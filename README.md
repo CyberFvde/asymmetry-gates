@@ -29,11 +29,14 @@ See the adopted entry in `.claude/skills/asymmetry-gates/references/changelog.md
         ├── stage-paths.md       # G/H/M/D funding, dilution, valuation, milestones and caps
         ├── fintech.md           # stricter FT routing and cash/risk checks
         ├── price-health.md      # ATH age, relative performance and recovery
+        ├── non-ai-lanes.md      # 21 non-AI industry lanes + seed tickers for non-AI screens
         ├── triggers.md          # #15 kill triggers, incl. the shared "AI capex 2027" trigger
         ├── roster.md            # dated roster, top-10, what changed — edited every re-test
         └── changelog.md         # #18 log: adopted + pending rule changes with rationale
 
 ## Non-AI Diversification (Oct 24, 2026 re-screen, revision 8)
+
+Industry lanes for every non-AI screen: [`non-ai-lanes.md`](.claude/skills/asymmetry-gates/references/non-ai-lanes.md) (13 screened Oct 24; lanes 14–21 added Oct 25: streaming and gaming, e-commerce marketplaces, payment networks, cruise lines, restaurants, data and ratings, industrial compounders, nicotine).
 
 136 tickers across 13 non-AI-capex lanes (aero aftermarket, mobility/travel, EM commerce, biopharma/medtech, defense/public safety, cyber, brokers/exchanges, space, nuclear fuel, plus added iGaming, shipbuilding, consumer growth and precious metals). Gate math: [`non-ai-screen-audit.md`](non-ai-screen-audit.md); triggers: [`triggers.md`](.claude/skills/asymmetry-gates/references/triggers.md). List door (revision 8): ≥20% forward revenue CAGR, ≥20% base-year EPS CAGR or ≥20% return estimate.
 
