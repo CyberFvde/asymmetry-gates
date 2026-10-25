@@ -1,0 +1,442 @@
+{
+ "_note": "prior = latest roster verdict before this rerun (date); verdict = revision 8 verdict at Oct 23 closes; h = mandatory H line. Names marked PENDING are filled from the deep checks.",
+ "NVDA": {
+  "prior": "Core headline (Oct 24 triage); #7 sweep open",
+  "verdict": "Core headline, unchanged; #7 Form 4 sweep and A4 OpenAI exposure still open; Nov 18 print"
+ },
+ "AMAT": {
+  "prior": "Core, verified (Sep 28)",
+  "verdict": "Core headline, unchanged; Nov 12 print"
+ },
+ "KLAC": {
+  "prior": "Held core (Oct 22)",
+  "verdict": "Held core, headline pass at 20.7%; #13 blocks until the Oct 28 print"
+ },
+ "LRCX": {
+  "prior": "Core on thin margins (Sep 28)",
+  "verdict": "Core headline, unchanged at 23.0%"
+ },
+ "ADI": {
+  "prior": "Conditional core (Sep 28)",
+  "verdict": "Conditional core, headline pass at 21.6%; Q4 guide and FY27 growth open; Nov 24 print"
+ },
+ "005930.KS": {
+  "prior": "Conditional core; #7 DART open (Oct 22)",
+  "verdict": "Conditional core, headline pass; #13 blocks until the Oct 29 print; #7 DART open"
+ },
+ "ASML": {
+  "prior": "Core headline (Oct 24 triage); #7 via AFM",
+  "verdict": "Core headline on derived PEG (~0.95: fwd P/E 24.7 on ~26% EPS CAGR), unchanged; #7 via AFM open"
+ },
+ "AVGO": {
+  "prior": "Held core; buyback check open (Oct 22)",
+  "verdict": "Held core, unchanged; A1 reads +0.99% with net issuance on stockanalysis, so the buyback check under A1/A2 stays open; Dec 10 print"
+ },
+ "TER": {
+  "prior": "Out on #11 (~84x forward, Sep)",
+  "verdict": "Core headline (P/E 32.5, PEG 0.90): #7 0.02%, A1 −1.5% diluted, PH clear; A5 likely (ATE duopoly with Advantest), not re-sourced. #13 blocks until the Oct 27 print, then #19. 19.0%; list via revenue (34.6%). Window after a clean print ≤$371.24 (PT ÷ 1.2). AI-capex factor group"
+ },
+ "ANET": {
+  "prior": "#11 alert (P/E 37.4 vs the old 35 cap, Sep 28)",
+  "verdict": "Core headline, deep-checked: #7 0.40% (all officer sales under 10b5-1; Bechtolsheim no longer an insider), A1 +0.38% diluted, A3(b) NTM ~$6.55B vs $5.16B, #19 clear (Aug beat, Q3 guide +12% vs consensus), PH clear. A5 conditional: #2 in DC Ethernet (20.7% vs NVIDIA 21.5%), GM ~160bp lower on guidance (inside the 250bp carve-out). 15.7%; list via revenue (30.6%). Window ≤$192.17 (HV PEG 1.65 binds; PT ÷ 1.2 $202.99); entry Oct 26 only, else after the Nov 3 print clears #19. AI-capex factor group"
+ },
+ "APP": {
+  "prior": "Blackout to Nov 11 (Sep 28); #19/legal open",
+  "verdict": "Core headline but #19(c) blackout: Q2 adj EBITDA $1,613.8M vs $1,615M guide low end. Lifts at the Nov 4 print only if all four legs clear (the Sep 28 note said Nov 11). #7 0.33% (Foroughi's non-plan sales are the watch), A1 −1.5%, A3(b) passes, PH clear; SEC inquiry closed (Aug), Talbot class action filed Sep 16 with no disclosed loss; A5 unverified. 17.3%; list via revenue (31.4%). Window after a clean print ≤$400.07 (PT ÷ 1.2)"
+ },
+ "STRL": {
+  "prior": "Candidate; run #19 on its last print before adding (Sep)",
+  "verdict": "Core headline (21.1%, A2 via net cash with shares +0.42%); #13 blocks until the Oct 28 print; then #19, #7, A5, PH"
+ },
+ "GEV": {
+  "prior": "#14 alert on #11 (P/E 45.7 vs 35, Sep 28)",
+  "verdict": "#14a starter-shaped: fails only #11 on P/E 38.8 (band 38–48), PEG 1.01 and FCF yield 5.7% pass; 29.7% (3Y forecast path); #13 blocks until the Oct 28 print; A3(b) down-payment quality still open"
+ },
+ "ENR": {
+  "prior": "G-watch / PH unverified (Oct 15, €145.42)",
+  "verdict": "Alert, zero capital: fails A3(b) (blended NTM FCF €5.59B vs trailing €7.79B, 72%; advances drove €6.1B of OCF), so no #14a; G2 fails too (NTM 80% of the €7.01B floor). Everything else checked passes (A1 −2.2% diluted, buybacks, net cash €7.7B, #19 Q3 beat, #7 tiny, PH clear). Re-test Nov 11: FY27 FCF consensus must reach FY26 actual (~€6.94B)"
+ },
+ "ABB": {
+  "prior": "Not screened before",
+  "verdict": "Rule B: #14a-shaped (fails only #9, fwd 3Y 11.7%, next FY 12.9%) but 13.0% return and no 20% growth door"
+ },
+ "GNRC": {
+  "prior": "Not screened before",
+  "verdict": "Near-miss: fails only A4 at 3.0x net debt/TTM FCF; NTM FCF ≥ $456M clears 2.5x; 24.4%; #13 blocks until the Oct 28 print, A4 re-test on post-print consensus"
+ },
+ "CIEN": {
+  "prior": "D-watch (Oct 24, rev 7)",
+  "verdict": "D-watch, unchanged: A1 fails on the June 2026 convert, so D governs; #12 passes (PT +60%); D5(b) waits on the 5Y median fwd P/E; Dec 10 print"
+ },
+ "LITE": {
+  "prior": "D-watch; D5(b) clears at ≤~$700 (Oct 24)",
+  "verdict": "D-watch, unchanged: $756.17 is above the ~$700 D5(b) line; Nov 5 print"
+ },
+ "BE": {
+  "prior": "D-watch (Oct 24)",
+  "verdict": "D-watch, unchanged: Oracle warrant date (D1(c)), Feb 17 Form 4 footnotes (A7) and trailing FCF after Q3 open; window ≤~$218"
+ },
+ "CRDO": {
+  "prior": "D-watch after the 1.5% cap (Oct 24)",
+  "verdict": "D-watch, unchanged: three-officer test, DustPhotonics earnout and #19 open; window ≤$236.71; Nov 30 print"
+ },
+ "MRVL": {
+  "prior": "D-watch (Oct 24 triage)",
+  "verdict": "D-watch, unchanged at 53.1%: Celestial AI stock deal must pass G3; Dec 1 print"
+ },
+ "VRT": {
+  "prior": "A–E out on A1; G-watch; #19 blackout (Oct 22)",
+  "verdict": "G-watch and D-candidate, unchanged; #19 blackout runs to the Oct 28 print (#13)"
+ },
+ "GFS": {
+  "prior": "A/G out: A1 government financing shares; G2 organic growth (Oct 15)",
+  "verdict": "Out of D on D4: next-FY (FY26) EPS +13.7% ($1.96 vs $1.72) and revenue +7.6%; D1(c) also unresolved on the Sep 3 Commerce shares (9.9M at $37.85) plus a pending ~4% stake; A/G out as before. PH clear (ATH $89.96, May 26, 2026); Mubadala sold ~9% of shares (counts for #7 only if P12 is adopted). Re-test after the ~Feb 2027 print when FY27 (+34%) becomes next-FY"
+ },
+ "2344.TW": {
+  "prior": "Not screened before",
+  "verdict": "Out: A1 (US$750M zero-coupon convert Mar 31, 2026, converted Aug 12; shares +4.9%, not the stale +0.95%), D1(c) (10% conversion premium vs ≥30%), G3; NT$18B domestic converts pending. 27.6% on consensus (10.0% if FY28 is the peak); the 77.8% fade is not credible. Earliest D re-look after Mar 31, 2027"
+ },
+ "SNDK": {
+  "prior": "A1 out (+6.9%, Oct 22)",
+  "verdict": "Out: A1 +6.9%; D5(b) fails at 20.5% vs 25%; G3 fails; Oct 29 print"
+ },
+ "SKHY": {
+  "prior": "G-watch; A1 out to Jul 10, 2027; D fails at ~24% (Oct 22-24)",
+  "verdict": "G-watch, unchanged: A1 issuance ban to Jul 10, 2027; D5(b) 23.3% vs 25%; #13 blocks until the Oct 28 print"
+ },
+ "MU": {
+  "prior": "A1 likely fail (+1.6%); G-watch cyclical (Oct 22)",
+  "verdict": "Out of A–E (A1 +1.6%) and D (D4 legs); G-watch on a cyclical G5 model, unchanged; 13.6%"
+ },
+ "AMD": {
+  "prior": "#11 alert (P/E 46.5 vs 45)",
+  "verdict": "Alert, unchanged: P/E 46.49 vs 45 (HV) and A1 +1.1% without buybacks; Nov 3 print"
+ },
+ "ALAB": {
+  "prior": "Near-miss: P/E 45.8, dilution 7.8%",
+  "verdict": "Out, unchanged: A1 +7.8%, G3 fails, D5(a) P/E 45.77 vs 45; Nov 3 print"
+ },
+ "ALGM": {
+  "prior": "G-watch; G5 ~11.5% vs 12% at $32.22, ceiling ~$26.98 (Oct 15)",
+  "verdict": "G-watch, unchanged: $31.48 is above the ~$26.98 G5 ceiling; A–E out on A2 and #11 FCF yield 1.5%; #13 blocks until the Oct 29 print"
+ },
+ "NVT": {
+  "prior": "G-watch; Maverick pro forma net debt ~$3.68B (Oct 15)",
+  "verdict": "Out of A–E and G on A4: Maverick closed Oct 1 (cash, $550M cash earnout), pro forma net debt $3.55–3.69B vs NTM FCF ~$0.83B = 4.3–4.5x (cap 2.5x). Derived PEG ~0.68; #9 passes on organic guidance (+32–34%). Trigger: net debt ≤2.5x NTM FCF"
+ },
+ "TSM": {
+  "prior": "Core headline; capex guide/3a open (Oct 24 triage)",
+  "verdict": "Out of core on A3(c) (downgrade from the Oct 24 triage's headline pass): 2026 capex guide $60–64B; NTM capex/OCF 54–58% on consensus (FY26 57.8%, FY27 53.0%, FY28 48.8%); 3a and M closed by the 2023 revenue decline (NT$ −4.5%) until FY2028 reports; G2 same test. #19 clear (Q3 beat, Q4 guide above), #7 clear (insiders net buyers). 24.1% on FY27–28 consensus. Re-test when NTM consensus capex/OCF ≤50% (~Q3 2027 on FY28 consensus)"
+ },
+ "NOW": {
+  "prior": "Ballast candidate, fails only #12 (Oct 24 triage)",
+  "verdict": "Ballast candidate, unchanged: fails only #12 (PT reads −4.2% after the split, FCF yield < 5%); 14.4%; Oct 28 print"
+ },
+ "MSFT": {
+  "prior": "Out on A3/3a (Sep 28)",
+  "verdict": "Out: A3(c) 63% for A–E; #12 fails (PT +14.3%, FCF yield < 5%), and #12 also binds M; Oct 28 print"
+ },
+ "GOOGL": {
+  "prior": "M route; M2(d) unresolved (Oct 24 sleeve plan)",
+  "verdict": "M-watch, unchanged: M2(d) FY27 FCF margin ≥6% open; #13 blocks until the Oct 28 print"
+ },
+ "META": {
+  "prior": "Out: #3, 3a-ineligible, #5 op margin −690bp, #7(b) (Sep 28)",
+  "verdict": "Out on Sep evidence (A5 margin carve-out, #7(b) three-officer test), not re-pulled; M cannot waive A5–A8; M1–M5 otherwise plausible on headline; re-test with fresh A5/#7 at the next print"
+ },
+ "AMZN": {
+  "prior": "Out of M on M2(d) (Oct 20)",
+  "verdict": "Out of M (M2(d): FY27 FCF margin ~−0.9%, FY28 ~3.2%) and of D (D2(c) needs FY+2 FCF ≥6%); re-test after the Oct 29 print"
+ },
+ "ORCL": {
+  "prior": "A/G out: TTM FCF −$28.7B, $20B ATM",
+  "verdict": "Out, unchanged: A3(a), A1 ATM, D2, D3 D/E 2.52",
+  "h": "H n/a: mature cloud cannot use H to escape its cash floor"
+ },
+ "PLTR": {
+  "prior": "Out (Oct 24 triage)",
+  "verdict": "Out: #11 P/E 103, #12 (PT +4.9%), A1 +1.8%",
+  "h": "H n/a: cash engine exists; valuation fails"
+ },
+ "SNOW": {
+  "prior": "Out (Oct 24 triage)",
+  "verdict": "Out: A1 +3.4%, #11 P/E 129, D5(a); return negative at the 35x exit cap"
+ },
+ "CDNS": {
+  "prior": "Out on A1: Hexagon shares, roll-off Feb 23, 2027",
+  "verdict": "Out, unchanged: A1 (Hexagon) to Feb 23, 2027; #11 PEG 2.44; G5 cannot reach 12% at 9.1%; Oct 26 print"
+ },
+ "TYL": {
+  "prior": "Not in roster",
+  "verdict": "Out: #9 (fwd 3Y 9.4%), #12 (PT +9.7%); 12.6%"
+ },
+ "RBRK": {
+  "prior": "Not in roster",
+  "verdict": "Out: A1 +6.6%, #11 P/E 266, #12"
+ },
+ "VRNS": {
+  "prior": "Not in roster",
+  "verdict": "Out: A1 +3.1%, #11 P/E 223, #12, D0 cap < $10B"
+ },
+ "TSLA": {
+  "prior": "Out (Oct 24 triage)",
+  "verdict": "Out: A3(a) 3.2%, A3(c) 82%, #11 P/E 175, #12"
+ },
+ "NBIS": {
+  "prior": "Out of D (D2(c), D5(a)); H-watch (Oct 24)",
+  "verdict": "Out of A–E/G/D, unchanged",
+  "h": "H-watch, unchanged: H2 funding unverified (~$18B liquidity vs ~$58B 24-month capex); Nov 10 print"
+ },
+ "IREN": {
+  "prior": "Out of D; H-watch + #19 blackout (Oct 24)",
+  "verdict": "Out of A–E/G/D, unchanged",
+  "h": "H-watch + #19 blackout, unchanged; Nov 5 print"
+ },
+ "CRWV": {
+  "prior": "Out (neocloud, Oct 24 triage)",
+  "verdict": "Out: A1 +75.6%, FCF −180%, D3 D/E 10.3",
+  "h": "H-review: H2 funding and H4 not modeled; D/E 10.3 makes H-watch unlikely"
+ },
+ "HUT": {
+  "prior": "Out (neocloud, Oct 24 triage)",
+  "verdict": "Out: A1, A3(a), D0 cap < $10B, D3 D/E 4.4"
+ },
+ "CORZ": {
+  "prior": "Out (neocloud, Oct 24 triage)",
+  "verdict": "Out: A1 +3.6%, A3(a), D0"
+ },
+ "IONQ": {
+  "prior": "H-watch (Oct 2)",
+  "verdict": "Out of A–E/G/D: A1 +50%, FCF negative",
+  "h": "H-watch, unchanged: stressed funding and maximum shares incomplete; Nov 5 print"
+ },
+ "QBTS": {
+  "prior": "H-watch (Oct 2)",
+  "verdict": "Out of A–E/G/D: A1 +40%, FCF negative",
+  "h": "H-watch, unchanged; Nov 5 print"
+ },
+ "RGTI": {
+  "prior": "H-watch (Oct 2)",
+  "verdict": "Out of A–E/G/D: A1 +32%, FCF negative",
+  "h": "H-watch, unchanged; Nov 9 print"
+ },
+ "QUBT": {
+  "prior": "Out (quantum, Oct 24 triage)",
+  "verdict": "Below floor (ADV); A1 +74%"
+ },
+ "SPCX": {
+  "prior": "Out: IPO issuance (Oct 24 triage)",
+  "verdict": "Out: IPO issuance inside 12 months (A1), FCF negative, D5(a) P/E 51.8"
+ },
+ "ONDS": {
+  "prior": "Out (drone, Oct 24 triage)",
+  "verdict": "Out: A1 +297%, FCF negative, D0"
+ },
+ "MRCY": {
+  "prior": "Out (Oct 24 triage)",
+  "verdict": "Out: A4 4.2x, #9, #11, D0 cap < $10B; 18.5%"
+ },
+ "COHR": {
+  "prior": "Out of D (D2: OCF 1.1%) (Oct 24)",
+  "verdict": "Out, unchanged: D2 cash; A1 +26%; Nov 4 print"
+ },
+ "AAOI": {
+  "prior": "Out: ATM dilution, negative FCF",
+  "verdict": "Out: A1 +49%, FCF negative, D0"
+ },
+ "DELL": {
+  "prior": "Not run (Sep)",
+  "verdict": "Out: A3(a) FCF margin 5.66% < 6% (floor, never waived); A4 2.8x"
+ },
+ "ETN": {
+  "prior": "Out of A–E (A4) and G (leverage) (Oct 22)",
+  "verdict": "Out, unchanged: A4 5.2x; #9; 15.7%"
+ },
+ "PWR": {
+  "prior": "Out: A1 stock-funded deals; #12 +19.4% (Sep)",
+  "verdict": "Out: A1 (stock deals) → D, which fails D4 (FY+2 revenue +15.8%, EPS legs short); A4 2.7x; 13.8%"
+ },
+ "EOSE": {
+  "prior": "Not in roster",
+  "verdict": "Below floor; A1 +40%, FCF negative"
+ },
+ "HUBB": {
+  "prior": "Not in roster",
+  "verdict": "Out: A4 5.7x, #9, #11 PEG 2.09; 10.3%"
+ },
+ "ROK": {
+  "prior": "Not in roster",
+  "verdict": "Out: #9 (fwd 3Y 6.9%), #12 (PT +11.5%); 10.5%"
+ },
+ "EME": {
+  "prior": "Out: A5 fragmented market (Sep)",
+  "verdict": "Out, unchanged: A5; also #9 (next FY 11.4%) and 10.0% return"
+ },
+ "CEG": {
+  "prior": "F route; F multiple/cash/issuance fails",
+  "verdict": "F route: fails F1 (P/E 20.5 vs 15, FCF margin 0.9% vs 10%, 3Y EPS 20.7% vs 25%); 7.9%"
+ },
+ "VST": {
+  "prior": "F-watch; F2 insider buying short (Oct 2)",
+  "verdict": "F-watch, unchanged: F1 reads as passing on headline (P/E 13.8, PEG 0.41, EBITDA margin 34.6%, FCF margin 11.8%); F2 insider-buy signal not met; 14.3%"
+ },
+ "SYM": {
+  "prior": "G-watch on economic shares (Oct 15)",
+  "verdict": "Out at present: 3Y EPS forecast is negative, so G5/D5 cannot clear; Oct 15 share-basis items unresolved"
+ },
+ "INTC": {
+  "prior": "Out (Oct 24 triage)",
+  "verdict": "Out: A1 +13.3%, A3, A4 7.3x, #11 P/E 50.6"
+ },
+ "3006.TW": {
+  "prior": "Not screened before",
+  "verdict": "Out: A1 +2.1%, #9 no forward data; consensus too thin to screen"
+ },
+ "5351.TWO": {
+  "prior": "Not screened before",
+  "verdict": "Out: A1 +1.4%, #9 no forward data; consensus too thin to screen"
+ },
+ "AMKR": {
+  "prior": "Out (Oct 24 triage)",
+  "verdict": "Out: A3(a) FCF negative, A3(c) 115%, #9"
+ },
+ "ARM": {
+  "prior": "Out (Oct 24 triage)",
+  "verdict": "Out: #11 P/E 88, PEG 2.9; 1.8% return at the 35x cap"
+ },
+ "AEHR": {
+  "prior": "Not in roster",
+  "verdict": "Below floor; FCF negative"
+ },
+ "NVTS": {
+  "prior": "Not in roster",
+  "verdict": "Below floor; A1 +20%, FCF negative"
+ },
+ "LHX": {
+  "prior": "Out: #9/#10 (Sep)",
+  "verdict": "Out, unchanged: A4 3.4x, #9 (7.4%); 10.5%"
+ },
+ "LMT": {
+  "prior": "Out: A3b/A4 (Sep 28)",
+  "verdict": "Out: #9 (fwd 3Y 6.9%, next FY 6.6%); #12 passes on FCF yield 6.0%; 8.1%"
+ },
+ "NOC": {
+  "prior": "Out: #9/#10 (Sep)",
+  "verdict": "Out, unchanged: A4 3.5x, #9, #11 PEG 3.0, #12"
+ },
+ "ESLT": {
+  "prior": "Not in roster",
+  "verdict": "Out: A1 +5.4%, #9, #11 P/E 40, #12 (PT +9.1%)"
+ },
+ "ECHO": {
+  "prior": "SATS ticker, not in roster",
+  "verdict": "Out: FCF negative, revenue shrinking, FY26 EPS inflated by one-time gains (ticker now ECHO)"
+ },
+ "BKSY": {
+  "prior": "Not in roster",
+  "verdict": "Below floor; A1 +29%, FCF negative"
+ },
+ "LUNR": {
+  "prior": "Not in roster",
+  "verdict": "Below floor; A1 +45%, FCF negative"
+ },
+ "RDW": {
+  "prior": "H-watch (Oct 2)",
+  "verdict": "Below floor ($2.1B cap); A1 +149%, FCF negative",
+  "h": "H-watch carried from Oct 2, but the $2.5B cap floor now excludes it from new screens"
+ },
+ "FPS": {
+  "prior": "A/G out; H cannot presently qualify (Oct 15)",
+  "verdict": "Out, unchanged: IPO issuance inside 12 months (A1), FCF −0.5%, A3(c) 106%, D0 cap $7.4B",
+  "h": "H cannot presently qualify (Oct 15): FY26 company FCF negative; sponsor/director selling unresolved"
+ },
+ "GPCR": {
+  "prior": "Out of H on H1 (Oct 2)",
+  "verdict": "Below floor; pre-revenue",
+  "h": "Out of H on H1 (clinical, no binding commercial demand)"
+ },
+ "KAP.L": {
+  "prior": "Not in roster",
+  "verdict": "F route; below the ADV floor on the London line ($4.1M/day); forecast page unavailable"
+ },
+ "LEU": {
+  "prior": "Out: A1 ATM/equity (Oct 24 triage)",
+  "verdict": "Below floor ($2.1B cap); A1 +31%, FCF negative"
+ },
+ "SMR": {
+  "prior": "Out: A1 ATM (Sep)",
+  "verdict": "Below floor; A1 +132%, FCF negative"
+ },
+ "UUUU": {
+  "prior": "F-out, PH-impaired (Oct 22)",
+  "verdict": "F-out and PH-impaired, unchanged; below floor"
+ },
+ "ALGN": {
+  "prior": "Growth fails + PH-impaired (Oct 2)",
+  "verdict": "Out, unchanged: #9 (3.7%), PH-impaired; 7.7%"
+ },
+ "ALNY": {
+  "prior": "Not in roster",
+  "verdict": "Out: A1 +7.1% → D, which fails D3 (D/E 2.21 > 1.99); G3 fails; 29.0% on the fade path"
+ },
+ "ALT": {
+  "prior": "PH-impaired (Oct 2)",
+  "verdict": "Below floor; pre-revenue"
+ },
+ "IDXX": {
+  "prior": "Not in roster",
+  "verdict": "Out: #9 (9.2%), #11 PEG 2.38; 5.4%"
+ },
+ "RMD": {
+  "prior": "Growth fails; PH warning (Oct 2)",
+  "verdict": "Out, unchanged: #9 (5.1%), #12 (PT −0.5%)"
+ },
+ "SYK": {
+  "prior": "Growth fails (Oct 2)",
+  "verdict": "Out, unchanged: A2, #9 (8.2%), #12"
+ },
+ "PRCT": {
+  "prior": "Not in roster",
+  "verdict": "Below floor; FCF negative"
+ },
+ "TMDX": {
+  "prior": "Not in roster",
+  "verdict": "Below floor ($2.45B cap); A4 5.0x"
+ },
+ "ADMA": {
+  "prior": "Not in roster",
+  "verdict": "Below floor; #9, #12"
+ },
+ "VKTX": {
+  "prior": "Out of H on H1 (Oct 2)",
+  "verdict": "Out: pre-revenue",
+  "h": "Out of H on H1 (Phase 3 initiation is not commercial demand)"
+ },
+ "NVO": {
+  "prior": "Not in roster",
+  "verdict": "Out: #9 (1.7%); 4.0% (FY EPS converted from DKK)"
+ },
+ "GLBE": {
+  "prior": "PH-impaired (Oct 2)",
+  "verdict": "Out: A1 +5.9%, D0 cap $6.95B < $10B, G3; PH-impaired per Oct 2; 19.5%"
+ },
+ "TOST": {
+  "prior": "PH-impaired (Oct 2)",
+  "verdict": "FT: headline core passes but #12 fails (PT +18.7%, FCF yield 3.0%) and 18.7% sits under every growth door; PH-impaired per Oct 2",
+  "h": "FT1 bars H"
+ },
+ "XYZ": {
+  "prior": "FT resilience review incomplete (Oct 2)",
+  "verdict": "FT: fails #9 (fwd 3Y 10.2% vs FT's 15%); 20.8%",
+  "h": "FT1 bars H"
+ },
+ "MA": {
+  "prior": "FT growth fails (Oct 2)",
+  "verdict": "FT: fails #9 (12.7%) and #12 (PT +8.4%); 11.9%",
+  "h": "FT1 bars H"
+ },
+ "SIVE": {
+  "prior": "Out: loss-making (Sep)",
+  "verdict": "Below floor ($0.69B cap); FCF negative"
+ }
+}

@@ -1,6 +1,51 @@
-# #18 — Rule-change log (policy Oct 24, 2026, revision 7 with P14)
+# #18 — Rule-change log (policy Oct 24, 2026, revision 8)
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
+
+## Adopted configuration: Oct 24, 2026, revision 8 (insider cap, growth bars, #12 void and #17 estimate-cut rule removed)
+
+### Authorization, scope and adoption basis
+
+Explicit user request dated Oct 24, 2026 (20:14 CT), after the non-AI open-universe screen found one Tier 1 name: "lower the growth to 20% a year either revenue or eps, that way it gives candidates 2 tries to enter and raise the insider net % to 1.5% redo." Asked which bar he meant, he chose "anything you think will add more candidates" and applied the 1.5% cap to all routes. At 21:09 CT he added: drop #12's 200DMA void on the price-target leg (option 4 of four offered) and re-run every name it blocked. At 21:14 CT: "You can get rid of #17 too so rerun everything that was kicked by #17". This is a between-screen calibration under #18; the non-AI screen was re-run under it the same day.
+
+### Change summary (old to new)
+
+- **A7 net insider selling (framework #7), G4 and H5 by reference:** ≤0.5% → **≤1.5%** of shares outstanding per 12 months (code S minus code P, 10b5-1 plan sales included). Unchanged: the ≥3-officer discretionary non-plan quarter test, the sell-to-cover reading, the bounded missing-footnote fallback (still ≤0.15%), G4's >25%-of-holdings cluster rule, local-registry verification for foreign filers, the regulatory vetoes. D, M and FT inherit the new limit through A7/#7.
+- **Screen guardrail (framework C):** primary ranked-list placement needed a ≥20% base-case return estimate → now **any one of** a ≥20% base-case return, a ≥20% EPS CAGR on the method's base-year path, or a ≥20% forward 3Y revenue CAGR. Gate eligibility, tiers and entry ceilings still come from each route's gates; the return is still reported and ranks names.
+- **D4:** forward 3Y revenue CAGR ≥25% plus ≥20% organic revenue growth in next-FY and the year after → **two ways to pass, one metric for all three legs:** revenue (3Y CAGR ≥20%, ≥20% in each of the next two FYs) or consensus EPS (3Y CAGR ≥20%, ≥20% in each of the next two FYs, plus forward 3Y revenue CAGR ≥10%). D7's freeze test follows the metric recorded at entry.
+- **#12:** the price-target leg no longer goes void when the price is >20% below the 200DMA. #12 is now simply consensus PT ≥ +20% OR NTM FCF yield ≥5%.
+- **#17:** the estimate-cut rule is removed: no automatic re-test on a >5% consensus NTM revenue/EPS cut, no add freeze after two consecutive cuts, no stabilization baseline. The quarterly re-run cadence stays. Cross-references in #13, #14a, #16, #19, `price-health.md` and the "AI capex 2027" action steps now point to #15/#19.
+- **Not changed:** #9 (15%/12% revenue), #10, #11, D5 (25% dilution-restated return, 20% stress, HWM yardstick), G5's 12% and H4's 20% five-year hurdles, every cap.
+- **Syncs:** `framework.md` (#7, #12, #17 and its cross-references, framework C guardrail, D summary), `price-health.md`, `stage-paths.md` (G4, D4, D7), `SKILL.md`, `README.md`, `triggers.md` headers and per-name insider lines.
+
+### Rationale
+
+- **Insider cap.** At 0.5% the cap removed founder-led growers whose officers sell steadily through 10b5-1 plans (CRDO 1.32%, RDDT 0.67%, RKLB ~1.33% on Oct 15 data) even with no discretionary cluster. Most of that selling is pre-scheduled diversification, which says less about the business than open-market cluster selling does. The three-officer discretionary test, which catches the informative pattern, stays as it was.
+- **#12 void.** Its stated purpose was that price targets lag drawdowns, so a fast fall inflates paper upside. It used price as a stand-in for staleness and was never backtested, and it bound hardest on the user's own dip-buying levels (CRDO, BE, VRT, RHM, AXON, HWM, CIEN). #19 (blackout after a material miss) tests the deterioration directly; #17's estimate-cut re-test did too until it was removed the same evening (below). Known cost: a crash ahead of a print now passes #12 on targets that have not caught up.
+- **#17.** The user asked to drop it after the #12 change. Estimate cuts still show up in the return estimate, the growth door, D4/D7 and #19 at the next print, so removing the separate freeze mainly ends the rule that blocked adds between prints. Known cost, together with the #12 change: a name whose estimates are being cut before a print now has no automatic pause; #19 acts only once the print lands, and D7's growth-consensus freeze still applies to D names.
+- **Growth bars.** The screen's binding constraint was the return estimate: names with ≥20% revenue growth but slower or noisier EPS paths (LLY, ARGX, NBIX, KRYS) never reached the list. Revenue growth is harder to manufacture than EPS growth and less exposed to one-off EPS swings, so it is a fair second door. D4's EPS leg lets a self-funding grower with fast per-share earnings growth qualify even when revenue grows 10–20%; the 10% revenue floor keeps out margin-only or buyback-only stories.
+
+### Structural and solvency safeguard check
+
+Valuation (#11, D5(a)), #12's upside/yield test, A1–A6, A8, the cash floors, leverage tests, #13, #19 and PH are unchanged, so a name admitted by the looser growth bar still has to pass every quality and price gate. D still needs a 25% dilution-restated return and a stress case; G and H keep their five-year models. A heavier insider seller is now eligible: each such name gets a written #15 trigger at 1.5% and stays subject to the discretionary-cluster test. The guardrail change affects list placement only.
+
+### Full-universe impact and required re-tests
+
+| Names / class | Effect; what still decides status |
+|---|---|
+| **CRDO** | A7 1.32% now under 1.5% → back to D-watch, pending the Q2 2026 three-officer test (CEO and CLO outside plans confirmed; CTO Cheng's ~Jun 4 sale unconfirmed), DustPhotonics G3 accounting (earnout up to ~3.21M shares), #12 now passes with the void removed (PT $284.05) and #19 (Q1 FY27 GAAP GM below GAAP guide). |
+| **RDDT** | A7 0.67% passes → core headline pass; A8 (Google AI Overviews referral risk) decides core vs #10 alert. |
+| **RKLB** | H5 no longer the blocker at ~1.33% (Oct 15 data, refresh needed); H1–H4 still required. |
+| **GLBE** | A7 0.74% passes; still PH-impaired. |
+| **LLY, ARGX, NBIX, KRYS, SE, MELI, DLO** | Forward 3Y revenue CAGR ≥20% now qualifies list placement; route gates (#12 for LLY, G5 for NBIX/KRYS, A1/FT for SE/MELI/DLO, PH for DLO) still govern. |
+| **RHM.DE** | D4 can pass on the EPS leg (next-FY FY26 +49–64% vs FY25's €22.73 continuing EPS, FY27 +42–49%, revenue CAGR 35%); D5(b) basis question unchanged. |
+| **AXON, VRT, MU/SNDK** | AXON's D4 already passed; D5 still binds. VRT unchanged (revenue leg passes). Memory names may pass D4 on EPS where revenue fails; A5/D5 and cyclical-peak checks still apply. |
+| **HWM** | #12 now passes (PT +74.6%), so core gates hold if the Oct 29 print clears #19 and PEG stays ≤2.0 like-for-like; still below both growth doors (15.95% revenue, 15.8% EPS), so not a list name; still the D5(d) yardstick. |
+| **#12 void floors cited in dated sections** | No longer apply: HWM ~$199.5, KLAC $145.24, AVGO $294.43, CIEN $321.80 (CIEN's #12 now passes on PT +60%), BE $175.43, CRDO $144.69, VRT $215.26, APP (Sep). Buy windows lose their lower bound; the ceilings (PT ÷ 1.2, #11/D5(a)) stand. |
+| **#17 freezes** | None in force: no current roster, sleeve-plan or screen name was frozen by an estimate-cut sequence (HWM's Oct 22 check found no cut; the Oct 15 ASTS entry listed #17 beside #19a, H2, H4 and H5, which still block it). Removing it changes no verdict today. |
+| **AXON** | D window opens at ≤$317.6 (D5(c) stress binds; D5(b) ≤$370.6), subject to D1(c)/D2/A7/#19 checks. |
+| **History rerun (106 names, Oct 24)** | Revision 8 applied to every name in the repo history outside the non-AI screen ([table](../../../../docs/research/2026-10-24-rev8-history-rerun/README.md)). No capital-ready name. New headline core: ANET (A5 conditional), TER and STRL (#13), APP (#19(c) to the Nov 4 print). TSM drops out of core on A3(c). ENR, GFS, NVT and Winbond fail on deep check. |
+| **Screen next-FY correction (not a rule change)** | Both screens now read next-FY as framework.md defines it (the year after the last completed FY, so FY26 for December filers) instead of the return base year; D4's second leg is the year after that. No tier changed; HALO joins the non-AI Rule B; RHM's D4 is restated on FY26/FY27 and still passes. |
 
 ## Adopted amendment: Oct 24, 2026, revision 7 — separable optionality (SOTP) in return estimates
 

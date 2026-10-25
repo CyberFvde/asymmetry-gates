@@ -1,5 +1,262 @@
 # Open-Universe Non-AI-Capex Diversification Screen Audit (`asymmetry-gates`)
 
+## Oct 24, 2026 re-screen (revision 8)
+
+**Baseline:** framework revision 8 (Oct 24, 2026): A7 insider net-selling cap 1.5%; primary-list placement on ≥20% return, ≥20% base-year EPS CAGR or ≥20% forward revenue CAGR; D4 passes on 20% revenue or 20% EPS growth; #12's 200DMA void on the price-target leg removed; #17's estimate-cut re-test and add freeze removed (quarterly re-run kept). Route D, P14, SOTP and mandatory H from revision 7. Supersedes the Oct 15 screen below, which stays as history.
+**Universe:** 136 tickers across 13 lanes: the user's 9 lanes plus 4 added lanes (10 iGaming, 11 shipbuilding/naval, 12 high-growth consumer and consumer health, 13 precious metals). Floor: market cap ≥$2.5B and ≥$25M average daily dollar volume.
+**Data:** Oct 23, 2026 closes; stockanalysis Statistics/Forecast pages (Oct 23–24), plus filings and search-surfaced sources for deep checks. Raw fields, scripts and sources: [research folder](docs/research/2026-10-24-non-ai-rev8/README.md).
+
+### Method
+- **Gates:** every ticker through A–E, G, D, M (≥$500B), FT (fintech/brokers/crypto/EM payments) and F (commodity producers); `screen.py` applies the hard tests; survivors and near-misses got deep checks (issuance, #7 insiders incl. foreign registries, #19 last print, PH, A5).
+- **Growth hurdle (revision 8, replaces the prompt's 25% IRR):** a name reaches the ranked list on any one door: forward 3Y revenue CAGR ≥20%, base-year EPS CAGR ≥20%, or framework C return ≥20%.
+- **Return (framework C, revision 6):** base year = first FY ending ≥6 months out; consensus where ≥3 analysts or two sources agree within 10% on the same basis, else fade at 85%; exit P/E = min(entry, 30×, 35× at ≥25% EPS CAGR); plus dividend; no buyback add. Without usable out-year consensus the screen takes the lower of the fade path and stockanalysis's 3Y EPS forecast. The prompt's legacy formula (EPS CAGR + buyback yield ± multiple change) is not used: it double-counts buybacks.
+- **#12 (revision 8):** consensus PT ≥ +20% (≥5 analysts) or NTM FCF yield ≥5%, with no 200DMA void. Buy-window ceilings are PT ÷ 1.2 unless #11/D5(a) binds lower.
+- **Mandatory H:** every non-FT/F out name carries an H line in the table; H4 models were not built, so no name is H-qualified.
+- **HWM yardstick (D5(d)):** HWM 16.1% at $185.91 (EPS CAGR 15.8% + 0.3% yield) → D line 21.1%; HWM forward 3Y revenue CAGR 15.95%.
+
+### Bottom line
+- **Tier 1: DASH** (core A–E; 25.7% governing return; A8 read neutral, confirmed by the user).
+- **Tier 2: ARGX, RHM.DE, KOG.OL, LLY.** Each has an exact unlock below.
+- **Alert: RDDT.** Every core gate passes except A8: Google's AI answers can bypass Reddit's traffic, so it routes to #10 and fails one leg (net buyback yield). If you read A8 as neutral, RDDT is Tier 1.
+- **Rule A applies:** six names clear the growth hurdle and the gates or sit one item away, so the ranked list stops at 6.
+- **What revision 8 changed in this screen:** ARGX and LLY reach the list on revenue growth; RDDT clears the insider cap (0.67%); RHM's D4 passes on EPS growth; NBIX and KRYS reach the list but miss G3's 3% dilution cap by 0.05–0.2 points on SEC share counts.
+- **#12 void removed (user, 21:09 CT):** buy windows lose their 200-day floor. HWM's core gates now pass on headline, but it stays below the growth door. AXON's D window opens at ≤$317.6. In the AI book, CRDO under $141, BE under $160 and VRT now all pass #12 (other items still decide them).
+- **#17 removed (user, 21:14 CT):** no name in this screen or the current roster was blocked by an estimate-cut freeze, so no verdict changes. Material misses are still caught by #19 at the print.
+- **Added lanes found nothing investable:** iGaming (DKNG PH-impaired, FLUT fails #9/A4, RSI fails A1), shipbuilding (Samsung Heavy fails G2/#19; Korean peers fail #9), consumer (RDDT alert; BROS/HIMS/CAVA H-watch), precious metals (all fail F2: no CEO/CFO/founder buying in 90 days).
+
+### Ranked list (Rule A cut at #6)
+
+| # | Ticker | Lane | Route / status | Oct 23 | Growth door | 3Y return (stress −5pt) | Buy window / unlock | Next event |
+|---|---|---|---|---|---|---|---|---|
+| 1 | **DASH** | 2 | Core A–E, **Tier 1** | $179.38 | rev 23.0%, EPS 25.7% | 25.7% (20.7%); GAAP consensus path ~37% | **≤$214.48** (PT $257.37 ÷ 1.2). Entry Oct 26–27, or from Nov 12 after a clean Nov 4 print | Nov 4 Q3 |
+| 2 | **ARGX** | 4 | Core headline pass, **Tier 2** | $873.71 | rev 30.8% | 18.9% fade (21.7% on FactSet, single source, can't raise) | **≤$957.16** (PT $1,148.59 ÷ 1.2) once the Q3 2026 executive sales are shown to be under mandates (A7). Entry from Oct 30 (#13) | 2027 guide at JPM (Jan) |
+| 3 | **RHM.DE** | 5 | D-watch, **Tier 2** | €1,019.00 | rev 35.0%, EPS 24.2% | 25.3% (20.3%) same-basis | **≤€1,309.01** (PT €1,570.81 ÷ 1.2) after #19 (Q2 sales consensus, clean Nov 5 print) and an A5 share source. No entry Oct 29–Nov 12 | Nov 5 Q3 |
+| 4 | **KOG.OL** [NEW DISCOVERY] | 5 | Core headline pass, **Tier 2** | NOK 301.00 | rev 39.7%, EPS 33.5% | 35.3% (30.3%), perimeter unresolved | **≤NOK 332.04** (PT NOK 398.45 ÷ 1.2) after a clean Oct 29 print (#19), a Newsweb sweep (#7) and A3(b) | Oct 29 Q3 |
+| 5 | **LLY** | 4 | Core except #12, **Tier 2** | $1,273.46 | rev 20.7% | 4.0% on FY28 consensus | **≤$1,109.63** (PT $1,331.55 ÷ 1.2), or the #16 ballast slot now. Entry from Nov 6 (#13) | Oct 29 Q3 |
+| 6 | **RDDT** [NEW DISCOVERY] | 12 | **Alert (#10)** | $144.25 | rev 36.2%, EPS 23.7% | 23.7% (18.7%) | #10 unlock: net buyback yield ≥2% (≈$555M trailing-4Q buybacks; $760M authorized). Tier 1 if A8 is read neutral: window ≤$177.46. Entry from Nov 6 (#13) | Oct 29 Q3 |
+
+### Tier 1 notes: DASH
+- **A1:** diluted WASO +0.22% YoY (Q2'26 10-Q: 439.345M vs 438.377M); no issuance since Oct 24, 2025. The Oct 15 audit's +1.82% compared a diluted figure with a basic one. 2030 converts ($2.75B, 0%, conversion $291.97, hedged to a $512.225 warrant strike) predate the window.
+- **A2/A3/A4:** buybacks $1,049M over 4 quarters ($3.95B authorization left); FCF margin 16.3% (13.5% after capitalized software); NTM FCF ~$4.09B vs trailing $2.60B; net cash ~$2.0B with converts at principal and leases.
+- **A5:** #1 US food delivery, share "mid-50s to high-60s %" [1src]; GAAP gross margin up ~40bp vs FY25; Deliveroo has not diluted it.
+- **A7:** net insider selling ~0.20–0.25% (lower bound, mostly 10b5-1); no quarter with ≥3 officers selling outside plans.
+- **A8:** neutral (user-confirmed Oct 24): DASH owns the merchant network, consumer app and its own autonomy program. #15 re-tests if a third party starts routing orders around it at scale.
+- **#9/#11/#12:** 3Y revenue 23.0%, next-FY (FY26) +30.0%, FY27 +20.8%; P/E 26.6, PEG 0.63, FCF yield 3.35%; PT +43.5% (45 analysts).
+- **#19:** Q2 revenue +2.6%, GOV +3.1%, adj. EBITDA +8.6%, GAAP EPS −1.7% vs consensus; Q3 guide midpoints above consensus; inside its own guide.
+- **PH:** closing ATH $281.74 (Oct 6, 2025), −36.3%, under 3 years old → clear.
+- **Return:** governing 25.7% = stockanalysis 3Y EPS forecast from FY27 base $8.25 (below the 29.5% fade path); GAAP consensus FY27 $4.49 → FY28 $7.12 → FY29 $9.79 → FY30 $13.31 gives ~37% with exit capped at 35×.
+- **Sizing:** core caps (#16); not in the AI-capex factor group.
+
+### Tier 2 notes
+**ARGX (seed)**
+- Core headline: diluted WASO −2.3% (basic +2.2% from option exercises; no offering; Forte bought for ~$2.1B cash on Aug 27); A2 via net cash (~$3B after Forte); FCF 18.3% (15.3% counting Halozyme milestone intangibles); 3Y revenue 30.8%, next-FY (FY26) +48.7%, FY27 +23.2%; P/E 25.4, PEG 0.78 [derived: stockanalysis shows n/a], FCF yield 1.8%; PT +31.5% (24 analysts); 200DMA rising (price above it).
+- **A7 open:** net selling ~0.10–0.20% of shares (AFM register plus insiderscreener), but Q3 2026 had six executives selling (Gubitz, Moorthy, Borgions, Lemmen, Wilk, DelGiacco) near the $1,059 high. EU MAR has no 10b5-1; board members' sales were flagged as discretionary management mandates, the others' status is unknown. Since Mar 5, 2026 EEA issuers file no Form 4s, so AFM/FSMA notices are the source.
+- **#19:** Vyvgart sales +5–6% vs consensus; EPS $7.80 within −1.3% to +4.8% of consensus; operating profit −11% to −14%, driven by ~$150M of Forte deal costs (ex those, a beat). No revenue/EPS guidance to miss. Read as clear.
+- **A3(b):** FY26 FCF consensus $2.19B [1src] vs trailing $0.97B. **A5:** FcRn leader (~92–94% of Vyvgart + Rystiggo sales [derived]); Imaavy approved Apr 2025; gross margin ~90%, stable. **PH:** ATH $1,058.90 (Aug 27, 2026).
+- **#15 notes:** UNITY Sjögren's futility (Oct 8); 2027 growth guided at about half of 2026's; not on the IPAY 2028 list; exclusivity to Dec 2033.
+
+**RHM.DE (seed)**
+- **Route:** D (user confirmed: the TTM stock settlement of the 2030 convertible, ~661k shares, +1.44% basic, is D's "settled legacy convertibles in stock" case).
+- **D1:** convertible fully settled; no equity raised in 12 months; forward dilution ~0. **D2(a) recovery branch:** trailing-4Q FCF €391M (3.4%, positive); FY2026 consensus FCF €2.4–2.8B (17–20% margin, 19–21 analysts) fixes FY2026 as the recovery year. Risk: H1 operating FCF −€1.6B.
+- **D3:** net debt €2.72B (€3.02B with pensions) ≈1.4–1.5× NTM FCF ~€2.0B; D/E 0.52.
+- **D4 (revision 8):** passes on the EPS leg, measured on the gate-defined years (next-FY = FY26, then FY27): FY26 consensus €33.8–37.3 vs FY25 actual €22.73 from continuing operations ([annual report release](https://www.rheinmetall.com/en/media/news-watch/news/2026/03/2026-03-11-rheinmetall-presents-annual-report-for-2025)) = +49–64%; FY27 +42–49% (stockanalysis; MarketScreener, 21 analysts; Simply Wall St 18–19); stockanalysis 3Y EPS CAGR 43.6%, revenue CAGR 35%. The revenue leg (FY26 +40.2%, FY27 +32.8%) would also pass if the organic split held up; acquisitions make that unverified.
+- **D5:** P/E 22.6, PEG 0.53. Return on one consistent basis (MarketScreener FY27 €50.33 → FY28 €70.21, agreeing with Simply Wall St €71.03 → FY29 €83.28 single source used because it lowers → FY30 fade): **25.3%**, stress 20.3%. Mixing stockanalysis's adjusted FY27 €52.99 with those out-years gives 23.2%/18.2%; framework C's same-basis rule rules that mix out.
+- **A7:** directors' dealings in 12 months are purchases only (CEO ~€13.7M). **#19:** Q2 operating result ~+15% vs margin consensus; FY26 sales guide cut 2% at the midpoint (F126 cancellation); Q2 sales consensus unverified. **PH:** ATH Oct 2025 → clear.
+- **#15 at entry:** FY2026 actual FCF margin <6% (no clock reset); trailing-4Q FCF negative; net debt >3.0× NTM FCF; D/E ≥2.5×; next-FY EPS growth consensus <20% (the D4 metric recorded).
+
+**KOG.OL**
+- Core headline: A1 −0.02%, FCF 16.9%, net cash, capex 28% of OCF; 3Y revenue 39.7%, next-FY (FY26) +34.8%, FY27 +49.6%; P/E 33.1, PEG 0.94, FCF yield 2.3%; PT +32.4%.
+- **#19 blocks now:** Q2 EBIT margin 16.1% vs ~17% consensus (EBIT miss ~5% [derived]). The Oct 29 print decides.
+- **Return unresolved:** FY28 EPS NOK 15.76 (8 analysts) gives 35.3%, but the +50.7% FY27 revenue step is not confirmed as post-demerger per broker; company ambition (NOK 100bn in 2029) implies ~+16% in 2029. The growth door passes on revenue either way.
+- **Open:** Oslo Newsweb directors' dealings (#7); A3(b); split- and demerger-adjusted ATH.
+
+**LLY**
+- Core except #12 (PT +4.6%; FCF yield 1.6%). Growth door: forward 3Y revenue CAGR 20.7%. Return 4.0% on FY28 consensus (tickflow $49.14, 10 analysts) vs ~15% on Oct 20 data, so the list place rests on revenue growth.
+- #16 ballast candidate now (wide moat; passes Stage A, #9, #11, #19; fails only #12); it competes with NOW for the single slot. Lilly Endowment selling (0.355% on Oct 15) sits far under the 1.5% cap. Closing ATH $1,306.69 (Oct 22, 2026).
+
+### Alert: RDDT
+- Core gates pass on deep check: diluted WASO +1.26% (10-Q), inside A1's 1.5% band for buyback-active ≥25% growers (stockanalysis's +8.43% conflicts with the 10-Q); buybacks $239.6M in 1H26; FCF 36.7%; net cash; 3Y revenue 36.2%, next-FY (FY26) +54.0%, FY27 +31.9%; P/E 23.8, PEG 0.56, FCF yield 3.7%; PT +47.6%; Q2 revenue +9.9% and EBITDA +15% vs consensus; A7 0.67% (now under 1.5%), all officer sales under 10b5-1.
+- **A8 read as applying:** Google's AI answers can serve Reddit content without the visit; the company calls referral traffic "choppy," US logged-in DAUq grew 1%, it will stop reporting the logged-in/out split, and a securities class action covers the AI Overviews impact. That routes RDDT to #10 only, where it passes every leg except net buyback yield (0.86% vs 2.0%).
+- Data licensing is under 6% of revenue, with only $30.1M contracted for 2027.
+
+### Rule B: honorable mentions and single-gate blocks
+| Ticker | Blocker | Numeric trigger / note |
+|---|---|---|
+| NBIX [NEW DISCOVERY] | G3: diluted shares +3.2% (SEC; stockanalysis shows +0.78%) vs 3.0% | Clears G2 (OCF positive FY24–25, FY26 FCF consensus 105% of trailing, net debt only leases), G4 (0.47%, all plan sales). Soleno added ~8 points of 2026 growth (cash deal). Ingrezza Medicare negotiation from 2027 (price in 2029). Re-test G3 at the Nov 2 print; Oct 15 G5 ceiling $175 needs a refresh. |
+| KRYS [NEW DISCOVERY] | G3 +3.05%; G5; #19 | Insider selling 1.12% passes only because of revision 8. US Vyjuvek revenue flat to down; consensus FCF flat FY26→FY27; ~2× peer P/E; Oct 15 G5 ceiling ~$275 vs $311.50. Q2 revenue −2.5% vs one consensus (+0.1% vs another). |
+| AXON | D5(a)–(c) price | Return 19.8% at $420.37 (FY28 $13.64, 6–7 analysts). D window ≤$317.6 (D5(c) stress binds; D5(b) ≤$370.6; D5(a) P/E 47.1 > 45 today), after D1(c), D2 recovery-year, A7 and #19 checks. |
+| HWM | below the growth hurdle | Revenue 15.95%, EPS 15.8%, return 16.1%. With #12's void gone the core gates pass on headline: core-eligible at ≤$270.46 (PT ÷ 1.2) if the Oct 29 print clears #19 and like-for-like PEG stays ≤2.0, but not a list name. Yardstick. |
+| UBER | below the growth hurdle on consensus | EPS ~16% with FY28–29 consensus (Oct 20); revenue 13.6%; #10 legs hold. Sleeve-plan line governs. |
+| DKNG [NEW DISCOVERY] | PH-impaired | ATH $71.98 (Mar 2021), −71%; 3Y −24% vs S&P ~+82%. G headline candidate once PH-recovery verifies. |
+| MELI | FT2/A3a | Revenue 32.4%; normalized FCF ~3.3% ex-credit book (Oct 15). |
+| RSI [NEW DISCOVERY] | A1 (+4.7%), G3 | Up-C exchanges may inflate class A growth; check economic share count. |
+| HALO [NEW DISCOVERY] | below the growth hurdle | Added after the next-FY correction: #9 passes on next-FY (FY26) +34.7%; core gates pass on headline with a derived PEG ~0.83 (P/E 12.6 on the 15.2% base-year EPS path), A4 ~2.4× on trailing FCF, #12 on FCF yield 5.7% (PT −13.4%). Return 15.2%, revenue 18.75%, EPS 15.2%: below every door. Nov 5 print. |
+
+### Three tiers
+- **Tier 1 (ready now):** DASH.
+- **Tier 2 (near-pass, exact unlocks above):** ARGX, RHM.DE, KOG.OL, LLY.
+- **Alert:** RDDT (#10 buyback leg; Tier 1 on a neutral A8 reading).
+- **Tier 3 (hard fails, gate named):** every other row in the table. Most common causes: below the 20% growth hurdle, #9, A1/G3, #11, PH, F2. HWM is core-eligible but below the hurdle.
+
+### Exclusions log (not forced through corporate gates)
+- **Banks/insurers:** NU, KNSL, KSPI, AXP.
+- **AI-adjacent power/grid and AI book names:** VRT, ETN, GEV, PWR, BE, CRDO, LITE, CIEN (AI roster; CRDO returns to D-watch under revision 8).
+- **Pending cash takeouts:** MKTX (ICE, $167 cash), GSAT (Amazon, $90).
+- **Delisted:** CYBR (acquired by PANW, Feb 2026).
+- **Below the floor:** LUNR, RDW, BKSY, LEU, KAP.L (volume), UUUU, DNN, PDN, ADMA ($2.39B), TMDX ($2.46B), HAG.DE (volume), PAYO, SRAD (volume), GENI, PENN, LNW (ASX volume), ENT.L, LTMC.MI, FDJU.PA, ALWN.AT, BETS-B.ST, TKMS.DE.
+
+### Data caveats
+- stockanalysis "shares change" can differ from SEC counts (NBIX, KRYS, RDDT here); deep checks use the 10-Q figures. Its "buyback yield" is net share change, so the table's A2 flags are not decisive.
+- Fade paths overstate names whose base-year EPS jumps (LLY, IRDM, HIMS); the lower-of rule and deep checks correct the ones that matter.
+- Some stockanalysis quotes were stale and were replaced with history-page closes. Korean quotes may reflect after-hours prints.
+- PH was checked for deep-checked and H-watch names only.
+- **Next-FY correction (Oct 24, later the same evening):** `screen.py` first tested #9, G2 and D4 on the return base year (FY27 for December filers) instead of the framework's next-FY (the year after the last completed FY, so FY26 here; FY27 for D4's second leg). Re-run with the fix: no tier or ranked-list change. HALO moves from a #9 fail to Rule B; RHM's D4 is restated on FY26/FY27 and still passes; GE, BA.L, VRTX, REGN, SGHC, ELF and others only change which gate or door the table names. The table below is the corrected run.
+
+### Ticker-by-ticker table (all 136)
+
+| Ticker | Lane | Oct 23 close | Core A–E (headline fails) | #12 | G | D | Growth door (rev 8) | 3Y return est. (method; stress) | Verdict | H line |
+|---|---|---|---|---|---|---|---|---|---|---|
+| AER [NEW DISCOVERY] | 1 | 145.80 | A3a FCF -3.4%; A3c capex/OCF 105%; #9 fwd3 -0.2%/next 1.34% … | ok | G2 FCF<6%; G2 capex … | D scope: no A1 issuance failure | none | -1.9% (fade; -6.9%) | Tier 3: A3a | H n/a: mature lessor; fails #9 |
+| AIR [NEW DISCOVERY] | 1 | 95.25 | A1 shares +9.8%; A2; A3a FCF 3.86% … | ok | G2 FCF<6%; G3 shares 9.83 … | D0 cap<$10B; D2 cash FCF 3.86% … | none | 13.4% (fade; 8.4%) | Tier 3: A1 | H-review: cash floor not met; H4 model not built, so H-watch at best |
+| ATI [NEW DISCOVERY] | 1 | 156.88 | A4 2.7x; #9 fwd3 10.1%/next 12.13% | ok | G2 leverage | D scope: no A1 issuance failure | none | 17.8% (fade; 12.8%) | Tier 3: A4 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| CRS [NEW DISCOVERY] | 1 | 284.66 | #9 fwd3 11.0%/next 11.9% | ok | cand | D scope: no A1 issuance failure | none | 16.2% (fade; 11.2%) | Tier 3: below 20% growth hurdle (rev 10.97%, EPS 15.9%) | H n/a: cash engine already exists; H does not waive growth or valuation |
+| CW [NEW DISCOVERY] | 1 | 464.84 | #9 fwd3 8.4%/next 8.65% | ok | G2 growth | D scope: no A1 issuance failure | none | 9.2% (fade; 4.2%) | Tier 3: #9 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| FTAI | 1 | 154.37 | A1 shares +1.4%; A2; A3a FCF -30.9% … | ok | G2 FCF<6% | D2 cash FCF -30.9%; D3 D/E 8.65 | ret+eps+rev | 54.7% (3Y-forecast; 49.7%) | Tier 3: A1 | H-watch: negative FCF from engine purchases, D/E 8.65; H2/H3 need a model; PH clear (ATH Feb 2026) |
+| GE [NEW DISCOVERY] | 1 | 285.64 | #9 fwd3 10.1%/next 9.83%; #11 PE 32.15 PEG 2.05 FCFy 2.72 | ok | G2 growth | D scope: no A1 issuance failure | none | 9.9% (fade; 4.9%) | Tier 3: #9 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| HEI | 1 | 297.36 | A2; #9 fwd3 13.5%/next 11.39%; #11 PE 42.82 PEG 2.25 FCFy 2.48 | ok | cand | D scope: no A1 issuance failure | none | -0.9% (fade; -5.4%) | Tier 3: below 20% growth hurdle (rev 13.51%, EPS 10.0%) | H n/a: cash engine already exists; H does not waive growth or valuation |
+| HWM | 1 | 185.91 | pass | ok | cand | D scope: no A1 issuance failure | none | 16.1% (fade; 11.1%) | Tier 3: below 20% growth hurdle (rev 15.95%, EPS 15.8%, return 16.1%); core gates pass on headline (#12 void removed); Oct 29 print | H n/a: cash engine already exists; H does not waive growth or valuation |
+| LOAR [NEW DISCOVERY] | 1 | 61.57 | A1 shares +0.7%; A2; A4 7.9x … | ok | G2 leverage | D0 cap<$10B; D4 growth rev3y 18.08 (next 35.37, after 11.16) eps3y 22.29 … | none | 4.0% (fade; -0.6%) | Tier 3: A1 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| MTX.DE [NEW DISCOVERY] | 1 | EUR 316.70 | #9 fwd3 10.0%/next 10.65% | ok | G2 growth | D scope: no A1 issuance failure | none | 7.8% (fade; 2.8%) | Tier 3: #9 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| RTX [NEW DISCOVERY] | 1 | 191.01 | A1 shares +0.8%; A2; A4 3.1x … | fail | G2 growth; G2 leverage | D4 growth rev3y 7.74 (next 8.54, after 7.53) eps3y 11.17; D5a PE 24.58 PEG 2.2 | none | 7.8% (fade; 2.8%) | Tier 3: A1 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| SAF.PA [NEW DISCOVERY] | 1 | EUR 271.80 | A1 shares +1.0%; A2; #9 fwd3 12.1%/next 17.09% | ok | cand | D4? EPS leg needs next-FY EPS growth vs the last completed FY (not in the batch) | none | 18.4% (fade; 13.4%) | Tier 3: below 20% growth hurdle (rev 12.13%, EPS 17.1%) | H n/a: cash engine already exists; H does not waive growth or valuation |
+| TDG | 1 | 1,104.84 | A4 15.9x; #9 fwd3 12.8%/next 11.61% | ok | G2 leverage | D scope: no A1 issuance failure | ret | 21.1% (fade; 16.1%) | Tier 3: A4 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| WWD [NEW DISCOVERY] | 1 | 303.55 | A2; #9 fwd3 13.3%/next 8.78% | ok | G2 growth | D scope: no A1 issuance failure | none | 10.2% (fade; 5.2%) | Tier 3: A2 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| CHDN [NEW DISCOVERY] | 10 | 83.73 | A4 8.2x; #9 fwd3 3.2%/next 3.11% | ok | G2 growth; G2 leverage | D scope: no A1 issuance failure | none | 6.1% (fade; 1.1%) | Tier 3: A4 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| DKNG [NEW DISCOVERY] | 10 | 20.91 | A1 shares +1.0%; A2; #9 fwd3 12.0%/next 10.11% … | ok | cand | D3 D/E 3.36; D4? EPS leg needs next-FY EPS growth vs the last completed FY (not in the batch) … | ret+eps | 52.0% (3Y-forecast; 47.0%) | Tier 3: PH-impaired (ATH $71.98 Mar 2021, −71%, 3Y −24% vs S&P ~+82%) | H n/a: FCF 10.5%; G candidate blocked by PH |
+| EVO.ST [NEW DISCOVERY] | 10 | SEK 841.40 | #9 fwd3 4.2%/next 0.67% | ok | G2 growth | D scope: no A1 issuance failure | none | -34.5% (3Y-forecast; -37.5%) | Tier 3: #9 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| FLUT [NEW DISCOVERY] | 10 | 80.09 | A4 8.8x; #9 fwd3 8.7%/next 9.01% | ok | G2 growth; G2 leverage | D scope: no A1 issuance failure | none | 8.4% (3Y-forecast; 3.4%) | Tier 3: A4 | H n/a: FCF 7.2%; fails #9 and A4 |
+| RSI [NEW DISCOVERY] | 10 | 15.90 | A1 shares +4.7%; A2; #11 PE 21.86 PEG None FCFy 4.92 | ok | G3 shares 4.74 | D0 cap<$10B; D4? EPS leg needs next-FY EPS growth vs the last completed FY (not in the batch) … | ret+eps+rev | 24.6% (fade; 19.6%) | Tier 3: A1 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| SGHC [NEW DISCOVERY] | 10 | 10.85 | A1 shares +0.8%; A2; #9 fwd3 12.7%/next 22.34% … | ok | cand | D0 cap<$10B; D4 growth rev3y 12.66 (next 22.34, after 8.74) eps3y 33.96 … | none | 14.8% (fade; 9.8%) | Tier 3: below 20% growth hurdle (rev 12.66%, EPS 10.7%) | H n/a: cash engine already exists; H does not waive growth or valuation |
+| 009540.KS [NEW DISCOVERY] | 11 | KRW 248,000.00 | A1?; A2; #9 fwd3 9.2%/next 15.03% | ok | G3 shares None; G2 growth | D4 growth rev3y 9.21 (next 15.03, after 7.12) eps3y 29.71 | none | 16.8% (fade; 11.8%) | Tier 3: A1? | H n/a: cash engine already exists; H does not waive growth or valuation |
+| 010140.KS [NEW DISCOVERY] | 11 | KRW 16,830.00 | #9 fwd3 14.3%/next 20.44% | ok | cand | D scope: no A1 issuance failure | ret+eps | 34.4% (fade; 29.4%) | Tier 3: G2 (NTM FCF ≈50% of TTM) + #19 (Q2 OP −12.9%); not in D scope | H n/a: cash engine already exists; H does not waive growth or valuation |
+| 042660.KS [NEW DISCOVERY] | 11 | KRW 55,300.00 | A3a FCF 4.34%; A3c capex/OCF 57%; A4 7.2x … | ok | G2 FCF<6%; G2 capex … | D scope: no A1 issuance failure | none | 1.0% (fade; -4.0%) | Tier 3: A3a | H-review: cash floor not met; H4 model not built, so H-watch at best |
+| 329180.KS [NEW DISCOVERY] | 11 | KRW 305,000.00 | A1 shares +10.7%; A2 | ok | G3 shares 10.65 | D4 growth rev3y 17.11 (next 40.47, after 7.73) eps3y 36.31 | none | 16.1% (fade; 11.1%) | Tier 3: A1 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| 7011.T [NEW DISCOVERY] | 11 | JPY 3,614.00 | #9 fwd3 9.7%/next 12.32% | ok | G2 growth | D scope: no A1 issuance failure | none | 11.6% (fade; 6.6%) | Tier 3: #9 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| 7012.T [NEW DISCOVERY] | 11 | JPY 2,163.00 | A3a FCF 1.04%; A3c capex/OCF 79%; A4 33.0x … | ok | G2 FCF<6%; G2 capex … | D scope: no A1 issuance failure | none | 12.4% (fade; 7.4%) | Tier 3: A3a | H-review: cash floor not met; H4 model not built, so H-watch at best |
+| FCT.MI [NEW DISCOVERY] | 11 | EUR 12.02 | A1 shares +9.4%; A2; A3a FCF 4.71% … | ok | G2 FCF<6%; G3 shares 9.39 … | D0 cap<$10B; D2 cash FCF 4.71% … | ret+eps | 35.7% (fade; 30.7%) | Tier 3: A1 | H-watch: FCF 4.7%, 2025 capital increase (+9.4% shares), net debt 4.6× FCF; thin coverage |
+| GD [NEW DISCOVERY] | 11 | 349.36 | #9 fwd3 5.3%/next 6.46%; #11 PE 19.93 PEG 2.2 FCFy 6.82 | ok | G2 growth | D scope: no A1 issuance failure | none | 8.7% (fade; 3.7%) | Tier 3: #9 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| HII [NEW DISCOVERY] | 11 | 274.08 | A2; A3a FCF -0.6%; A3c capex/OCF 124% … | ok | G2 FCF<6%; G2 capex … | D scope: no A1 issuance failure | none | 11.9% (fade; 6.9%) | Tier 3: A2 | H n/a: mature shipbuilder; fails #9 |
+| AS [NEW DISCOVERY] | 12 | 28.24 | A1 shares +6.4%; A2 | ok | G3 shares 6.43 | D4? EPS leg needs next-FY EPS growth vs the last completed FY (not in the batch) | none | 17.5% (fade; 12.5%) | Tier 3: A1 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| BROS [NEW DISCOVERY] | 12 | 41.49 | A1 shares +8.0%; A2; A3a FCF 4.0% … | ok | G2 FCF<6%; G2 capex … | D0 cap<$10B; D2 cash FCF 4.0% | ret+eps+rev | 26.0% (fade; 19.4%) | Tier 3: A1 | H-watch: FCF 4%, capex 79% of OCF, net debt 12.5× FCF; 26% fade return; H3 path needs a model |
+| CAVA [NEW DISCOVERY] | 12 | 53.48 | A3a FCF 3.57%; A3c capex/OCF 78%; #11 PE 80.69 PEG 2.97 FCFy 0.78 | ok | G2 FCF<6%; G2 capex | D scope: no A1 issuance failure | eps+rev | -8.1% (3Y-forecast; -11.9%) | Tier 3: A3a | H-review: cash floor not met; H4 model not built, so H-watch at best |
+| CELH [NEW DISCOVERY] | 12 | 28.47 | A1 shares +6.9%; A2; #9 fwd3 13.8%/next 26.1% | ok | G3 shares 6.91 | D0 cap<$10B; D4 growth rev3y 13.85 (next 26.1, after 8.53) eps3y 13.75 … | none | 13.7% (3Y-forecast; 8.7%) | Tier 3: A1 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| DECK [NEW DISCOVERY] | 12 | 81.09 | #9 fwd3 5.6%/next 4.36% | ok | G2 growth | D scope: no A1 issuance failure | none | 3.8% (fade; -1.2%) | Tier 3: #9 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| DUOL [NEW DISCOVERY] | 12 | 143.04 | A1 shares +2.6%; A2; #9 fwd3 14.5%/next 16.4% … | ok | cand | D0 cap<$10B; D4 growth rev3y 14.52 (next 16.4, after 13.27) eps3y -9.51 … | none | -9.5% (3Y-forecast; -14.5%) | Tier 3: below 20% growth hurdle (rev 14.52%, EPS -9.5%) | H n/a: cash engine already exists; H does not waive growth or valuation |
+| ELF [NEW DISCOVERY] | 12 | 114.24 | A1 shares +3.0%; A2; #9 fwd3 13.3%/next 20.9% … | fail | cand | D0 cap<$10B; D4 growth rev3y 13.27 (next 20.9, after 8.85) eps3y 13.2 … | none | 5.6% (fade; 0.6%) | Tier 3: below 20% growth hurdle (rev 13.27%, EPS 5.6%) | H n/a: cash engine already exists; H does not waive growth or valuation |
+| HIMS [NEW DISCOVERY] | 12 | 27.71 | A3a FCF 3.22%; A3c capex/OCF 68%; A4 8.5x … | fail | G2 FCF<6%; G2 capex … | D scope: no A1 issuance failure | rev | -2.1% (3Y-forecast; -6.7%) | Tier 3: A3a | H-watch: FCF 3.2%, D/E 4.77, GAAP operating loss; return basis unclear |
+| ONON [NEW DISCOVERY] | 12 | 32.51 | A1 shares +0.9%; A2 | ok | cand | D4 growth rev3y 17.9 (next 16.6, after 18.93) eps3y 38.39 | none | 13.7% (fade; 8.7%) | Tier 3: below 20% growth hurdle (rev 17.9%, EPS 13.7%) | H n/a: cash engine already exists; H does not waive growth or valuation |
+| RDDT [NEW DISCOVERY] | 12 | 144.25 | A1 shares +8.4%; A2 | ok | G3 shares 8.43 | cand | eps+rev | 19.1% (fade; 14.1%) | **Alert (#10)**: core passes except A8 (Google AI answers bypass); #10 fails only net buyback yield (0.86% vs 2%) | H n/a: cash engine already exists; H does not waive growth or valuation |
+| WING [NEW DISCOVERY] | 12 | 119.54 | A4 9.0x; #9 fwd3 12.7%/next 9.33% | ok | G2 growth; G2 leverage | D scope: no A1 issuance failure | none | 16.0% (fade; 11.0%) | Tier 3: A4 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| AEM [NEW DISCOVERY] | 13 | 173.94 | F route only | | | | n/a (F) | 3.6% (fade; -1.4%) | Tier 3: F2 (no CEO/CFO/founder buy in 90 days); F1 3Y EPS <25% | F name, no H |
+| AGI [NEW DISCOVERY] | 13 | 29.94 | F route only | | | | n/a (F) | 24.8% (fade; 19.8%) | Tier 3: F2 (no CEO/CFO/founder buy in 90 days) | F name, no H |
+| AU [NEW DISCOVERY] | 13 | 83.59 | F route only | | | | n/a (F) | 16.3% (fade; 11.3%) | Tier 3: F2 (no CEO/CFO/founder buy in 90 days); F1 3Y EPS <25% | F name, no H |
+| CDE [NEW DISCOVERY] | 13 | 13.45 | F route only | | | | n/a (F) | 25.5% (3Y-forecast; 20.5%) | Tier 3: F2 (no CEO/CFO/founder buy in 90 days) | F name, no H |
+| FNV [NEW DISCOVERY] | 13 | 228.75 | F route only | | | | n/a (F) | 10.4% (fade; 5.4%) | Tier 3: F2 (no CEO/CFO/founder buy in 90 days) | F name, no H |
+| GFI [NEW DISCOVERY] | 13 | 34.59 | F route only | | | | n/a (F) | 15.9% (fade; 10.9%) | Tier 3: F2 (no CEO/CFO/founder buy in 90 days); F1 3Y EPS <25% | F name, no H |
+| HL [NEW DISCOVERY] | 13 | 13.85 | F route only | | | | n/a (F) | 18.3% (fade; 13.3%) | Tier 3: F2 (no CEO/CFO/founder buy in 90 days) | F name, no H |
+| KGC [NEW DISCOVERY] | 13 | 22.34 | F route only | | | | n/a (F) | 8.2% (fade; 3.2%) | Tier 3: F2 (no CEO/CFO/founder buy in 90 days); F1 3Y EPS <25% | F name, no H |
+| NEM [NEW DISCOVERY] | 13 | 108.87 | F route only | | | | n/a (F) | 7.9% (fade; 2.9%) | Tier 3: F2 (no CEO/CFO/founder buy in 90 days); F1 3Y EPS <25% | F name, no H |
+| PAAS [NEW DISCOVERY] | 13 | 40.15 | F route only | | | | n/a (F) | 20.9% (3Y-forecast; 15.9%) | Tier 3: F2 (no CEO/CFO/founder buy in 90 days); F1 3Y EPS <25% | F name, no H |
+| RGLD [NEW DISCOVERY] | 13 | 227.42 | F route only | | | | n/a (F) | 17.7% (fade; 12.7%) | Tier 3: F2 (no CEO/CFO/founder buy in 90 days) | F name, no H |
+| WPM [NEW DISCOVERY] | 13 | 120.89 | F route only | | | | n/a (F) | 7.1% (fade; 2.1%) | Tier 3: F2 (no CEO/CFO/founder buy in 90 days) | F name, no H |
+| ABNB [NEW DISCOVERY] | 2 | 172.01 | #9 fwd3 12.9%/next 15.8% | fail | cand | D scope: no A1 issuance failure | none | 12.7% (fade; 7.7%) | Tier 3: below 20% growth hurdle (rev 12.87%, EPS 12.7%) | H n/a: cash engine already exists; H does not waive growth or valuation |
+| BKNG [NEW DISCOVERY] | 2 | 155.83 | #9 fwd3 8.8%/next 8.67% | ok | G2 growth | D scope: no A1 issuance failure | none | 14.5% (fade; 9.5%) | Tier 3: #9 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| CART [NEW DISCOVERY] | 2 | 56.44 | #9 fwd3 11.4%/next 13.77% | ok | cand | D scope: no A1 issuance failure | none | 13.2% (fade; 8.2%) | Tier 3: below 20% growth hurdle (rev 11.4%, EPS 13.2%) | H n/a: cash engine already exists; H does not waive growth or valuation |
+| DASH | 2 | 179.38 | pass | ok | cand | D scope: no A1 issuance failure | ret+eps+rev | 25.7% (3Y-forecast; 20.7%) | **Tier 1**: core A–E pass, 25.7% governing (A8 neutral, user-confirmed) | H n/a: cash engine already exists; H does not waive growth or valuation |
+| EXPE [NEW DISCOVERY] | 2 | 289.01 | #9 fwd3 8.0%/next 10.02% | ok | G2 growth | D scope: no A1 issuance failure | none | 12.8% (fade; 7.8%) | Tier 3: #9 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| LYFT [NEW DISCOVERY] | 2 | 16.94 | #9 fwd3 12.3%/next 16.61%; #11 PE 8.66 PEG None FCFy 17.29 | ok | cand | D scope: no A1 issuance failure | none | 19.6% (3Y-forecast; 14.6%) | Tier 3: below 20% growth hurdle (rev 12.28%, EPS 19.6%) | H n/a: FCF 16%; A8 routes LYFT to #10 |
+| MMYT [NEW DISCOVERY] | 2 | 42.09 | A4 4.1x; #11 PE 68.65 PEG 4.29 FCFy 4.11 | ok | G2 leverage | D scope: no A1 issuance failure | none | 15.1% (fade; 10.1%) | Tier 3: A4 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| TCOM [NEW DISCOVERY] | 2 | 39.78 | #9 fwd3 8.6%/next 6.7%; #11 PE 10.17 PEG None FCFy 8.14 | ok | G2 growth | D scope: no A1 issuance failure | none | -11.2% (3Y-forecast; -16.3%) | Tier 3: #9 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| UBER | 2 | 66.70 | #9 fwd3 13.6%/next 11.28% | ok | cand | D scope: no A1 issuance failure | none | 22.7% (fade; 17.7%) | Tier 3: below hurdle on consensus (EPS ~16% with FY28–29 consensus, Oct 20; rev 13.6%); #10 legs hold | H n/a: cash engine already exists; H does not waive growth or valuation |
+| CPNG | 3 | 13.90 | A3a FCF 0.28%; A3c capex/OCF 93%; #9 fwd3 11.0%/next 7.32% … | ok | G2 FCF<6%; G2 capex … | D scope: no A1 issuance failure | none | n/a (no positive base-year EPS) | Tier 3: A3a (0.3%) + PH-impaired (Oct 15 audit) | H-out while PH-impaired |
+| DLO [NEW DISCOVERY] | 3 | 15.06 | #11 PE 14.88 PEG None FCFy 9.85 | ok | FT1 bars G | FT1 bars D | ret+rev | 20.8% (3Y-forecast; 15.8%) | Tier 3: PH-impaired (Oct 15) + FT2 | FT1 bars H |
+| GRAB [NEW DISCOVERY] | 3 | 2.79 | A1 shares +4.5%; A2; A3a FCF -4.3% … | ok | FT1 bars G | FT1 bars D | rev | -5.2% (fade; -10.2%) | Tier 3: A1 | FT1 bars H |
+| MELI | 3 | 1,810.15 | A1?; A2 | ok | FT1 bars G | FT1 bars D | ret+eps+rev | 25.9% (3Y-forecast; 18.1%) | Tier 3: FT2/A3a (normalized FCF unresolved; ~3.3% on Oct 15) | FT1 bars H |
+| PAGS [NEW DISCOVERY] | 3 | 11.44 | #9 fwd3 3.8%/next 6.5% | ok | FT1 bars G | FT1 bars D | none | 11.0% (3Y-forecast; 6.0%) | Tier 3: #9 | FT1 bars H |
+| PDD [NEW DISCOVERY] | 3 | 79.04 | #9 fwd3 9.4%/next 7.91% | ok | G2 growth | D scope: no A1 issuance failure | none | 10.0% (3Y-forecast; 5.0%) | Tier 3: #9 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| SE | 3 | 74.63 | A1 shares +2.3%; A2 | ok | FT1 bars G | FT1 bars D | ret+eps+rev | 23.7% (fade; 18.7%) | Tier 3: A1 (+2.3%, FT name) | FT1 bars H |
+| STNE [NEW DISCOVERY] | 3 | 11.48 | #9 fwd3 7.0%/next 11.36% | ok | FT1 bars G | FT1 bars D | none | 10.2% (3Y-forecast; 5.2%) | Tier 3: #9 | FT1 bars H |
+| ARGX | 4 | 873.71 | #11 PE 25.44 PEG None FCFy 1.77 | ok | cand | D scope: no A1 issuance failure | rev | 18.9% (fade; 13.9%) | **Tier 2**: core headline pass (derived PEG 0.78); A7 three-officer test unresolved (Q3 2026, EU MAR, mandate status unknown) | H n/a: cash engine already exists; H does not waive growth or valuation |
+| AXSM [NEW DISCOVERY] | 4 | 145.04 | A1 shares +4.4%; A2; A3a FCF -9.3% … | ok | G2 FCF<6%; G3 shares 4.44 | D0 cap<$10B; D2 cash FCF -9.3% … | rev | n/a (no positive base-year EPS) | Tier 3: A1 | H-watch: revenue +50%/+60%; ~$0.07B burn vs $0.32B cash; D/E 2.7 |
+| BSX [NEW DISCOVERY] | 4 | 45.69 | A4 3.3x; #9 fwd3 5.5%/next 5.41% | ok | G2 growth; G2 leverage | D scope: no A1 issuance failure | none | 3.1% (fade; -1.9%) | Tier 3: A4 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| DXCM [NEW DISCOVERY] | 4 | 77.94 | #9 fwd3 11.4%/next 12.14% | ok | cand | D scope: no A1 issuance failure | none | 12.6% (fade; 7.6%) | Tier 3: below 20% growth hurdle (rev 11.4%, EPS 12.6%) | H n/a: cash engine already exists; H does not waive growth or valuation |
+| EXEL [NEW DISCOVERY] | 4 | 64.53 | #9 fwd3 12.6%/next 10.09% | ok | cand | D scope: no A1 issuance failure | none | 14.0% (fade; 9.0%) | Tier 3: below 20% growth hurdle (rev 12.63%, EPS 14.0%) | H n/a: cash engine already exists; H does not waive growth or valuation |
+| HALO [NEW DISCOVERY] | 4 | 125.63 | #11 PE 12.62 PEG None FCFy 5.65 | ok | cand | D scope: no A1 issuance failure | none | 15.2% (fade; 10.2%) | Rule B: core headline on a derived PEG ~0.83 (next-FY FY26 +34.7% passes #9); below every growth door (15.2% return, revenue 18.75%, EPS 15.2%) | H n/a: cash engine already exists; H does not waive growth or valuation |
+| INSM [NEW DISCOVERY] | 4 | 93.39 | A1 shares +18.7%; A2; A3a FCF -70.8% … | ok | G2 FCF<6%; G3 shares 18.73 | D2 cash FCF -70.8%; D5a PE None PEG None | rev | n/a (no positive base-year EPS) | Tier 3: A1 | H-watch: revenue +197%/+62%; ~$0.8B burn vs $1.16B cash fails H2 unless the ramp closes it |
+| ISRG | 4 | 452.29 | #9 fwd3 14.1%/next 16.8%; #11 PE 37.54 PEG 2.4 FCFy 2.3 | fail | cand | D scope: no A1 issuance failure | none | 1.2% (fade; -3.5%) | Tier 3: below 20% growth hurdle (rev 14.09%, EPS 8.8%) | H n/a: cash engine already exists; H does not waive growth or valuation |
+| KRYS [NEW DISCOVERY] | 4 | 311.50 | A1 shares +1.5%; A2 | ok | cand | D0 cap<$10B | rev | 7.5% (fade; 2.7%) | Rule B: G3 (diluted +3.05% vs 3.0%) + G5 (price above Oct 15 ceiling ~$275) + #19 (Q2 revenue −2.5% on one source) | H n/a: cash engine already exists; H does not waive growth or valuation |
+| LLY | 4 | 1,273.46 | pass | fail | cand | D scope: no A1 issuance failure | rev | 27.1% (fade; 22.1%) | **Tier 2**: core except #12; PT leg at ≤$1,109.63; #16 ballast candidate | H n/a: cash engine already exists; H does not waive growth or valuation |
+| LNTH [NEW DISCOVERY] | 4 | 99.80 | #9 fwd3 6.8%/next -2.74% | ok | G2 growth | D scope: no A1 issuance failure | none | 8.6% (3Y-forecast; 3.6%) | Tier 3: #9 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| MDGL [NEW DISCOVERY] | 4 | 434.24 | A1 shares +4.0%; A2; A3a FCF -16.1% … | ok | G2 FCF<6%; G3 shares 3.96 | D2 cash FCF -16.1%; D5a PE None PEG None | rev | n/a (no positive base-year EPS) | Tier 3: A1 | H-watch: revenue +60%/+39%; ~$0.2B burn vs $0.84B cash; FY27 EPS 9.63 |
+| MIRM [NEW DISCOVERY] | 4 | 80.39 | A1 shares +15.4%; A2; A3a FCF -37.0% … | ok | G2 FCF<6%; G3 shares 15.36 | D0 cap<$10B; D2 cash FCF -37.0% … | rev | n/a (no positive base-year EPS) | Tier 3: A1 | H-watch: ~$0.23B burn vs $0.44B cash fails H2's 24-month buffer without a ramp; shares +15% |
+| NBIX [NEW DISCOVERY] | 4 | 142.70 | A1 shares +0.8%; A2 | ok | cand | D4 growth rev3y 21.0 (next 36.39, after 16.93) eps3y 32.82 | rev | 12.6% (fade; 7.6%) | Rule B: G3 (diluted shares +3.2% vs 3.0%; SEC counts); A1 for core; D4 fails (FY27 +16.9% rev, +17.3% EPS) | H n/a: cash engine already exists; H does not waive growth or valuation |
+| PODD [NEW DISCOVERY] | 4 | 149.01 | pass | fail | cand | D scope: no A1 issuance failure | none | 13.5% (fade; 8.5%) | Tier 3: below 20% growth hurdle (rev 16.0%, EPS 13.5%); also #12 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| REGN [NEW DISCOVERY] | 4 | 805.02 | #9 fwd3 11.7%/next 21.71% | fail | cand | D scope: no A1 issuance failure | none | 5.6% (fade; 0.6%) | Tier 3: below 20% growth hurdle (rev 11.65%, EPS 5.2%) | H n/a: cash engine already exists; H does not waive growth or valuation |
+| VRTX | 4 | 523.93 | #9 fwd3 11.3%/next 10.54%; #11 PE 36.02 PEG 2.87 FCFy 2.86 | fail | cand | D scope: no A1 issuance failure | none | 10.0% (3Y-forecast; 5.0%) | Tier 3: below 20% growth hurdle (rev 11.29%, EPS 10.0%) | H n/a: cash engine already exists; H does not waive growth or valuation |
+| 012450.KS [NEW DISCOVERY] | 5 | KRW 792,000.00 | A1 shares +2.6%; A2; A3a FCF 2.46% … | ok | G2 FCF<6%; G2 capex … | D2 cash FCF 2.46%; D4? EPS leg needs next-FY EPS growth vs the last completed FY (not in the batch) | none | 19.6% (fade; 14.6%) | Tier 3: A1 | H-review: cash floor not met; H4 model not built, so H-watch at best |
+| AVAV [NEW DISCOVERY] | 5 | 123.19 | A1 shares +52.1%; A2; A3a FCF -1.3% … | ok | G2 FCF<6%; G2 capex … | D0 cap<$10B; D2 cash FCF -1.3% … | none | 9.7% (3Y-forecast; 5.0%) | Tier 3: A1 | H-watch: shares +52% (BlueHalo stock deal), FCF −1.3%; growth 11–15% |
+| AXON | 5 | 420.37 | A1 shares +2.4%; A2; A3a FCF 4.14% … | ok | G2 FCF<6%; G2 leverage | D2 cash FCF 4.14%; D5a PE 47.14 PEG 1.74 | ret+eps+rev | 21.0% (3Y-forecast; 10.4%) | Rule B: D window ≤$317.6 (D5(c) stress binds; D5(b) ≤$370.6); D1(c)/D2/A7/#19 unverified | H n/a: positive FCF; D route |
+| BA.L [NEW DISCOVERY] | 5 | GBP 19.32 | #9 fwd3 11.4%/next 17.2% | ok | cand | D scope: no A1 issuance failure | none | 12.4% (fade; 7.4%) | Tier 3: below 20% growth hurdle (rev 11.4%, EPS 10.4%) | H n/a: cash engine already exists; H does not waive growth or valuation |
+| DRS [NEW DISCOVERY] | 5 | 34.51 | A1?; A2; #9 fwd3 7.1%/next 8.27% … | ok | G3 shares None; G2 growth | D0 cap<$10B; D4 growth rev3y 7.12 (next 8.27, after 7.02) eps3y 12.02 … | none | 5.2% (fade; 0.2%) | Tier 3: A1? | H n/a: cash engine already exists; H does not waive growth or valuation |
+| KOG.OL [NEW DISCOVERY] | 5 | NOK 301.00 | pass | ok | cand | D scope: no A1 issuance failure | ret+eps+rev | 22.7% (3Y-forecast; 17.6%) | **Tier 2**: core headline pass; #19 (Q2 EBIT miss) until Oct 29; Newsweb #7 open | H n/a: cash engine already exists; H does not waive growth or valuation |
+| KTOS [NEW DISCOVERY] | 5 | 38.68 | A1 shares +15.1%; A2; A3a FCF -8.5% … | ok | G2 FCF<6%; G3 shares 15.14 | D0 cap<$10B; D2 cash FCF -8.5% … | ret+eps+rev | 26.9% (fade; 16.0%) | Tier 3: A1 | H-watch: FCF −8.5%, Mar 2026 ~$1B offering; PH-warning on full history (2000 high), clear on Kratos-era |
+| LDO.MI [NEW DISCOVERY] | 5 | EUR 48.46 | A2; A3a FCF 5.37%; A3c capex/OCF 50% … | ok | G2 FCF<6%; G2 capex … | D scope: no A1 issuance failure | none | 15.9% (fade; 10.9%) | Tier 3: A2 | H-review: cash floor not met; H4 model not built, so H-watch at best |
+| LDOS [NEW DISCOVERY] | 5 | 136.08 | A4 2.7x; #9 fwd3 5.1%/next 6.63%; #11 PE 11.25 PEG 2.03 FCFy 12.65 | ok | G2 growth; G2 leverage | D scope: no A1 issuance failure | none | 2.1% (fade; -2.9%) | Tier 3: A4 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| MSI [NEW DISCOVERY] | 5 | 481.83 | A4 3.3x; #9 fwd3 9.1%/next 11.48%; #11 PE 26.57 PEG 2.5 FCFy 3.36 | fail | G2 growth; G2 leverage | D scope: no A1 issuance failure | none | 8.0% (fade; 3.0%) | Tier 3: A4 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| RHM.DE | 5 | EUR 1,019.00 | A3a FCF 3.43%; A3c capex/OCF 70%; A4 7.0x … | ok | G2 FCF<6%; G2 capex … | D scope: no A1 issuance failure | ret+eps+rev | 31.8% (fade; 26.8%) | **Tier 2**: D-watch; D4 passes on EPS; D5(b) 25.3% same-basis; #19 and A5 open | H n/a: D route applies (TTM FCF positive, FY26 recovery year) |
+| SAAB-B.ST [NEW DISCOVERY] | 5 | SEK 646.50 | A2; A3c capex/OCF 51%; #11 PE 38.89 PEG 1.7 FCFy 2.04 | fail | G2 capex | D scope: no A1 issuance failure | rev | 14.8% (fade; 10.0%) | Tier 3: A2 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| CHKP [NEW DISCOVERY] | 6 | 159.03 | #9 fwd3 4.6%/next 2.82%; #11 PE 14.77 PEG 5.79 FCFy 6.77 | ok | G2 growth | D scope: no A1 issuance failure | none | 1.7% (3Y-forecast; -3.3%) | Tier 3: #9 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| CRWD | 6 | 257.57 | A1 shares +3.2%; A2; #11 PE 182.32 PEG 6.22 FCFy 0.61 | fail | G3 shares 3.24 | D5a PE 182.32 PEG 6.22 | eps+rev | -31.2% (fade; -34.1%) | Tier 3: A1 | H n/a: FCF 30%; GAAP loss is SBC; fails A1/#11 on dilution and valuation |
+| CVLT [NEW DISCOVERY] | 6 | 169.37 | #9 fwd3 10.8%/next 10.32% | fail | cand | D scope: no A1 issuance failure | none | 10.0% (fade; 5.0%) | Tier 3: below 20% growth hurdle (rev 10.85%, EPS 10.0%) | H n/a: cash engine already exists; H does not waive growth or valuation |
+| FTNT | 6 | 179.99 | #9 fwd3 14.0%/next 19.42%; #11 PE 51.26 PEG 3.13 FCFy 2.36 | fail | cand | D scope: no A1 issuance failure | none | -8.3% (fade; -12.6%) | Tier 3: below 20% growth hurdle (rev 13.97%, EPS 7.0%) | H n/a: cash engine already exists; H does not waive growth or valuation |
+| NET [NEW DISCOVERY] | 6 | 325.73 | A1 shares +2.0%; A2; #11 PE 220.19 PEG 4.43 FCFy 0.29 | fail | cand | D3 D/E 2.18; D5a PE 220.19 PEG 4.43 | eps+rev | -33.3% (fade; -36.0%) | Tier 3: G5 (P/E 220, FCF yield 0.3%: no five-year path to 12%) | H n/a: FCF 14%; fails A1/#11 |
+| OKTA [NEW DISCOVERY] | 6 | 213.05 | #9 fwd3 10.3%/next 10.45%; #11 PE 52.23 PEG 3.39 FCFy 2.63 | fail | cand | D scope: no A1 issuance failure | none | -7.8% (fade; -12.0%) | Tier 3: below 20% growth hurdle (rev 10.31%, EPS 8.3%) | H n/a: cash engine already exists; H does not waive growth or valuation |
+| PANW | 6 | 380.55 | A1 shares +7.8%; A2; #11 PE 90.8 PEG 4.84 FCFy 1.32 | fail | G3 shares 7.76 | D4 growth rev3y 17.31 (next 23.46, after 14.49) eps3y 14.4; D5a PE 90.8 PEG 4.84 | none | -21.1% (fade; -24.6%) | Tier 3: A1 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| QLYS [NEW DISCOVERY] | 6 | 216.70 | #9 fwd3 8.6%/next 9.85%; #11 PE 26.98 PEG 2.55 FCFy 4.19 | fail | G2 growth | D scope: no A1 issuance failure | none | 6.0% (fade; 1.0%) | Tier 3: #9 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| S [NEW DISCOVERY] | 6 | 24.00 | A1 shares +3.3%; A2; A3a FCF 5.15% … | fail | G2 FCF<6%; G3 shares 3.28 | D0 cap<$10B; D2 cash FCF 5.15% … | eps | 15.4% (fade; 11.0%) | Tier 3: A1 | H-review: cash floor not met; H4 model not built, so H-watch at best |
+| TENB [NEW DISCOVERY] | 6 | 44.59 | #9 fwd3 7.0%/next 7.93%; #11 PE 21.73 PEG None FCFy 5.39 | ok | G2 growth | D scope: no A1 issuance failure | none | 7.3% (fade; 2.3%) | Tier 3: #9 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| ZS | 6 | 255.15 | A1 shares +3.8%; A2; #11 PE 51.99 PEG 2.37 FCFy 2.05 | fail | G3 shares 3.77 | D4 growth rev3y 16.7 (next 17.27, after 16.48) eps3y 16.85; D5a PE 51.99 PEG 2.37 | none | -6.4% (fade; -10.6%) | Tier 3: A1 | H n/a: FCF 25%; fails A1/#11 |
+| CBOE [NEW DISCOVERY] | 7 | 340.42 | A1?; #9 fwd3 -12.7%/next -39.24% | ok | FT1 bars G | FT1 bars D | none | 6.4% (fade; 1.4%) | Tier 3: A1? | FT1 bars H |
+| CME [NEW DISCOVERY] | 7 | 305.71 | A2; #9 fwd3 6.2%/next 8.38%; #11 PE 23.62 PEG 3.32 FCFy 3.85 | fail | FT1 bars G | FT1 bars D | none | 7.8% (fade; 2.8%) | Tier 3: A2 | FT1 bars H |
+| COIN | 7 | 164.45 | #9 fwd3 5.2%/next -21.96%; #11 PE 139.51 PEG 9.91 FCFy 3.94 | ok | FT1 bars G | FT1 bars D | none | n/a (no positive base-year EPS) | Tier 3: #9 | FT1 bars H |
+| CRCL [NEW DISCOVERY] | 7 | 85.91 | A1 shares +265.4%; A2; #9 fwd3 19.9%/next 9.84% … | ok | FT1 bars G | FT1 bars D | none | -23.7% (3Y-forecast; -27.7%) | Tier 3: A1 | FT1 bars H |
+| FUTU [NEW DISCOVERY] | 7 | 99.19 | #9 fwd3 12.5%/next 20.19% | ok | FT1 bars G | FT1 bars D | none | 12.2% (3Y-forecast; 7.2%) | Tier 3: #9 | FT1 bars H |
+| GLXY [NEW DISCOVERY] | 7 | 14.68 | A1 shares +43.6%; A2; A3a FCF -3.2% … | ok | FT1 bars G | FT1 bars D | none | n/a (no positive base-year EPS) | Tier 3: A1 | FT1 bars H |
+| HOOD | 7 | 95.07 | A1 shares +0.9%; A2; A3a FCF 4.44% … | ok | FT1 bars G | FT1 bars D | ret+eps+rev | 24.0% (3Y-forecast; 19.0%) | Tier 3: FT2/FT4 (client-cash FCF; trading/crypto dependence) + A3a | FT1 bars H |
+| IBKR [NEW DISCOVERY] | 7 | 80.28 | A1 shares +1.9%; A2 | ok | FT1 bars G | FT1 bars D | none | 16.9% (fade; 11.9%) | Tier 3: A1 | FT1 bars H |
+| ICE [NEW DISCOVERY] | 7 | 162.74 | A4 3.8x; #9 fwd3 8.1%/next 11.44% | ok | FT1 bars G | FT1 bars D | none | 7.7% (fade; 2.7%) | Tier 3: A4 | FT1 bars H |
+| NDAQ [NEW DISCOVERY] | 7 | 102.56 | A4 4.5x; #9 fwd3 9.8%/next 12.46% | fail | FT1 bars G | FT1 bars D | none | 11.1% (fade; 6.1%) | Tier 3: A4 | FT1 bars H |
+| SCHW [NEW DISCOVERY] | 7 | 90.58 | #9 fwd3 13.4%/next 17.48% | ok | FT1 bars G | FT1 bars D | none | 17.5% (fade; 12.5%) | Tier 3: #9 | FT1 bars H |
+| TW [NEW DISCOVERY] | 7 | 122.57 | #9 fwd3 12.2%/next 14.2% | fail | FT1 bars G | FT1 bars D | none | 10.2% (fade; 5.2%) | Tier 3: #9 | FT1 bars H |
+| VIRT [NEW DISCOVERY] | 7 | 55.93 | #9 fwd3 -0.3%/next -3.45% | ok | FT1 bars G | FT1 bars D | none | 0.5% (fade; -4.5%) | Tier 3: #9 | FT1 bars H |
+| ASTS | 8 | 39.79 | A1 shares +39.7%; A2; A3a FCF -1422.4% … | ok | G2 FCF<6%; G3 shares 39.67 | D2 cash FCF -1422.4%; D5a PE None PEG None | rev | n/a (no positive base-year EPS) | Tier 3: A1 | H-watch: shares +39.7%, capex $1.5B vs $0.12B revenue; H2 funding gap |
+| FLY [NEW DISCOVERY] | 8 | 18.23 | A1 shares +970.5%; A2; A3a FCF -113.8% … | ok | G2 FCF<6%; G3 shares 970.46 | D0 cap<$10B; D2 cash FCF -113.8% … | rev | n/a (no positive base-year EPS) | Tier 3: A1 | H-review: cash floor not met; H4 model not built, so H-watch at best |
+| IRDM [NEW DISCOVERY] | 8 | 44.40 | A4 7.5x; #9 fwd3 6.6%/next 7.68%; #11 PE 48.26 PEG 3.71 FCFy 5.89 | ok | G2 growth; G2 leverage | D scope: no A1 issuance failure | none | 9.9% (3Y-forecast; 4.9%) | Tier 3: A4 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| KRMN [NEW DISCOVERY] | 8 | 36.65 | A3a FCF -4.7%; A3c capex/OCF 572%; #11 PE 47.75 PEG 0.25 FCFy -0.57 | ok | G2 FCF<6%; G2 capex | D scope: no A1 issuance failure | ret+eps+rev | 39.7% (fade; 34.9%) | Tier 3: A3a | H-watch: FCF −4.7%, capex 572% of OCF, D/E 2.08; cap $4.9B; PH clear (IPO 2025) |
+| MDA [NEW DISCOVERY] | 8 | CAD 38.64 | A1 shares +5.1%; A2; A3a FCF -8.2% … | ok | G2 FCF<6%; G2 capex … | D0 cap<$10B; D2 cash FCF -8.2% … | rev | 13.3% (3Y-forecast; 8.3%) | Tier 3: A1 | H-review: cash floor not met; H4 model not built, so H-watch at best |
+| PL [NEW DISCOVERY] | 8 | 13.41 | A1 shares +11.5%; A2; A3c capex/OCF 79% … | ok | G2 capex; G3 shares 11.54 | D0 cap<$10B; D5a PE None PEG None | rev | n/a (no positive base-year EPS) | Tier 3: A1 | H-review: cash floor not met; H4 model not built, so H-watch at best |
+| RKLB | 8 | 52.60 | A1 shares +15.7%; A2; A3a FCF -48.3% … | ok | G2 FCF<6%; G3 shares 15.68 | D2 cash FCF -48.3%; D5a PE 3735.49 PEG None | rev | n/a (no positive base-year EPS) | Tier 3: A1 | H-watch: Neutron funding, shares +15.7%, first positive EPS FY27 ($0.06) |
+| VSAT [NEW DISCOVERY] | 8 | 61.47 | A1 shares +4.9%; A2; A3c capex/OCF 64% … | ok | G2 capex; G3 shares 4.94 … | D0 cap<$10B; D4 growth rev3y 5.36 (next 4.53, after 4.59) eps3y None … | eps | -24.4% (fade; -26.7%) | Tier 3: A1 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| BWXT [NEW DISCOVERY] | 9 | 127.19 | A2; A4 4.5x; #9 fwd3 12.8%/next 19.29% | ok | G2 leverage | D scope: no A1 issuance failure | none | 8.4% (fade; 3.4%) | Tier 3: A2 | H n/a: cash engine already exists; H does not waive growth or valuation |
+| CCJ | 9 | 78.60 | F route only | | | | n/a (F) | 32.0% (3Y-forecast; 27.0%) | Tier 3: F1 (P/E 51 > 15) + F2 | F name, no H |
+| NXE [NEW DISCOVERY] | 9 | 8.15 | F route only | | | | n/a (F) | n/a (no positive base-year EPS) | Tier 3: F1 (no earnings) + F2 | F name, no H |
+| OKLO [NEW DISCOVERY] | 9 | 26.35 | A1 shares +29.9%; A2; A3a FCF -22795.0% … | ok | G2 FCF<6%; G3 shares 29.85 | D0 cap<$10B; D2 cash FCF -22795.0% … | none | n/a (no positive base-year EPS) | Tier 3: A1 | H-review: cash floor not met; H4 model not built, so H-watch at best |
+| UEC [NEW DISCOVERY] | 9 | 7.34 | F route only | | | | n/a (F) | n/a (no positive base-year EPS) | Tier 3: F1 (no earnings) + F2 | F name, no H |
+
+---
+
+# Oct 15, 2026 screen (revision 5, superseded; kept as history)
+
 **Repository Baseline:** `https://github.com/CyberFvde/asymmetry-gates` — **Policy Revision 5 (`f6171aa`, October 15, 2026)**  
 **Screen Scope:** Open-Universe Discovery across 9 Non-AI-Capex Lanes (24 Seed Anchors + 87+ `[NEW DISCOVERY]` Expansion Candidates = **111+ Total Audited Securities**)  
 **Discovery Guardrails:** Market Cap >= $2.5B | Liquidity >= $25M ADV | Revision 6 (Oct 20, 2026): primary-list placement needs a base-case 3Y return estimate >= 20% under framework C's method (it does not change gate eligibility; base-year EPS, consensus growth with 85% fade, exit multiple <= min(entry, 30x/35x), + dividends, no separate buyback add). The original screen used >= 25% on "3Y EPS/FCF CAGR + net buyback yield +/- multiple normalization", which double-counted buybacks, anchored on completed years and held multiples flat; see section 0.  

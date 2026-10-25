@@ -1,0 +1,222 @@
+{
+ "DASH_gov_3Yfcst": {
+  "price": 179.38,
+  "div_yield": 0,
+  "base_eps": 8.25,
+  "eps_path": [
+   10.3678,
+   13.0292,
+   16.3738
+  ],
+  "seed_growth": 0.2567,
+  "consensus_shares": 1,
+  "fdso0": 1,
+  "fdso_growth": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "median_fwd_pe": null
+ },
+ "DASH_gaap_cons": {
+  "price": 179.38,
+  "div_yield": 0,
+  "base_eps": 4.49,
+  "eps_path": [
+   7.12,
+   9.79,
+   13.31
+  ],
+  "seed_growth": 0.5,
+  "consensus_shares": 1,
+  "fdso0": 1,
+  "fdso_growth": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "median_fwd_pe": null
+ },
+ "RHM_ms_path": {
+  "price": 1019.0,
+  "div_yield": 0.0113,
+  "base_eps": 50.33,
+  "eps_path": [
+   70.21,
+   83.28,
+   null
+  ],
+  "seed_growth": 0.487,
+  "consensus_shares": 1,
+  "fdso0": 1,
+  "fdso_growth": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "median_fwd_pe": null
+ },
+ "RHM_sa_base": {
+  "price": 1019.0,
+  "div_yield": 0.0113,
+  "base_eps": 52.99,
+  "eps_path": [
+   70.21,
+   83.28,
+   null
+  ],
+  "seed_growth": 0.42,
+  "consensus_shares": 1,
+  "fdso0": 1,
+  "fdso_growth": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "median_fwd_pe": null
+ },
+ "KOG_fy28": {
+  "price": 301.0,
+  "div_yield": 0.0189,
+  "base_eps": 11.33,
+  "eps_path": [
+   15.76,
+   null,
+   null
+  ],
+  "seed_growth": 0.5551,
+  "consensus_shares": 1,
+  "fdso0": 1,
+  "fdso_growth": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "median_fwd_pe": null
+ },
+ "AXON_fy28": {
+  "price": 420.37,
+  "div_yield": 0,
+  "base_eps": 10.54,
+  "eps_path": [
+   13.64,
+   null,
+   null
+  ],
+  "seed_growth": 0.3787,
+  "consensus_shares": 1,
+  "fdso0": 1,
+  "fdso_growth": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "median_fwd_pe": null
+ },
+ "AXON_at_370": {
+  "price": 370.6,
+  "div_yield": 0,
+  "base_eps": 10.54,
+  "eps_path": [
+   13.64,
+   null,
+   null
+  ],
+  "seed_growth": 0.3787,
+  "consensus_shares": 1,
+  "fdso0": 1,
+  "fdso_growth": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "median_fwd_pe": null
+ },
+ "LLY_fy28_tickflow": {
+  "price": 1273.46,
+  "div_yield": 0.0054,
+  "base_eps": 47.22,
+  "eps_path": [
+   49.14,
+   null,
+   null
+  ],
+  "seed_growth": 0.3653,
+  "consensus_shares": 1,
+  "fdso0": 1,
+  "fdso_growth": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "median_fwd_pe": null
+ },
+ "HWM": {
+  "price": 185.91,
+  "div_yield": 0.003,
+  "base_eps": 6.5,
+  "eps_path": [
+   null,
+   null,
+   null
+  ],
+  "seed_growth": 0.2172,
+  "consensus_shares": 1,
+  "fdso0": 1,
+  "fdso_growth": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "median_fwd_pe": null
+ },
+ "ARGX_factset_raises": {
+  "price": 873.71,
+  "div_yield": 0,
+  "base_eps": 37.57,
+  "eps_path": [
+   47.46,
+   57.44,
+   null
+  ],
+  "seed_growth": 0.259,
+  "consensus_shares": 1,
+  "fdso0": 1,
+  "fdso_growth": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "median_fwd_pe": null
+ },
+ "RDDT_gaap_cons": {
+  "price": 144.25,
+  "div_yield": 0,
+  "base_eps": 7.27,
+  "eps_path": [
+   9.09,
+   11.36,
+   null
+  ],
+  "seed_growth": 0.35,
+  "consensus_shares": 1,
+  "fdso0": 1,
+  "fdso_growth": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "median_fwd_pe": null
+ }
+}
