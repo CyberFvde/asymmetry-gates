@@ -18,6 +18,7 @@ A rules-based screen targeting 25%+ annualized returns in a concentrated, high-a
 - `references/stage-paths.md` — full G/H/M/D substitution, valuation, funding, sizing, milestone and promotion tests. Read for compounder, early-transition, mega-cap platform or dilutive-growth candidates.
 - `references/fintech.md` — stricter FT routing, growth, normalized cash and financial-risk checks. Read first for fintech/payments and material embedded finance.
 - `references/price-health.md` — closing ATH age, drawdown, benchmark-relative returns and sustained recovery tests. Read every screen; a stale impaired chart can block new capital.
+- `references/non-ai-lanes.md`: the 21 non-AI industry lanes with seed tickers, the non-AI definition and the optional leveraged-ETF fast mode. Read before any non-AI screen; screen every lane and add new lanes there.
 
 ## Source of truth and sync
 

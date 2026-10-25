@@ -1,4 +1,14 @@
-# Roster — Oct 24, 2026 (revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+# Roster — Oct 25, 2026 (new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+
+## Oct 25, 2026: new non-AI lanes, fast-mode first pass (9 names)
+
+Lanes 14–21 added to [`non-ai-lanes.md`](non-ai-lanes.md); only names with a listed 2x+ leveraged ETF/ETP were screened (user request). Oct 23 closes, stockanalysis headline fields.
+
+- **NFLX:** #14a starter candidate; fails only #9 (forward 3Y revenue 11.3%); ~21% on the 3Y EPS forecast (FY26 EPS includes the $2.8B Warner Bros. break fee). Open: A3(b), #19(d), A7, A5. Window ≤$70.69. Zero capital until those close.
+- **SPOT:** out (#9 14.05%, #12 PT +8.2%); #14a-shaped at ≤$526.58.
+- **Out:** SHOP (#11), CVNA (A3(a) 3.7%), RBLX (A1, D3), CMG (#9, A4), PM (#9, A4), PYPL and V (FT #9).
+
+---
 
 ## Oct 24, 2026: revision 8 history rerun (106 names)
 
