@@ -5,7 +5,8 @@
 Hard-gate triage of the user's 52-name list through A–E, G, M, D and H; [full table and caveats](../../../../docs/research/2026-10-24-52-name-triage/README.md). Headline passes still need #7, #19, PH, A5 and cap headroom; return estimates fade unverified out-years, so the highest ones are mechanical.
 
 - **Core, headline pass:** NVDA (~51% est.; #7 sweep, OpenAI exposure in A4), TSM (~26%; #7 via local filings, capex guide/3a), ASML (~27%; #7 via AFM).
-- **D-watch:** CRDO (~42%; DustPhotonics G3 test, A7), MRVL (~50%; Celestial AI stock deal must pass G3), BE (~35%; FDSO model), VRT (24–25%, borderline; #19 blackout to Oct 28), LITE (≤~$700).
+- **D-watch:** MRVL (~50%; Celestial AI stock deal must pass G3), BE (~35%; open: Oracle warrant grant date under D1(c), Feb 17 officer Form 4 footnotes under A7, trailing FCF after Q3; #12 PT leg needs ≥$175.43), VRT (24–25%, borderline; #19 blackout to Oct 28; #12 PT leg void below $215.26), LITE (≤~$700).
+- **Out of D (Oct 24 check):** CRDO on A7: insider net selling 1.32% of shares over 12 months vs the 0.50% cap (every route keeps it); earliest pass about July 2027 if selling stopped. [CRDO/BE checks](../../../../docs/research/2026-10-24-52-name-triage/README.md#crdo-and-be-gate-checks-oct-24-user-request).
 - **G-watch:** SKHY (D fails at ~24%), MU (cyclical G5 model).
 - **Ballast candidate:** NOW (fails only #12). **Alerts/near-misses:** AMD (P/E 46.5 vs 45), ALAB (P/E 45.8 vs 45, dilution 7.8%).
 - **Out, with H lines:** the neocloud, quantum, nuclear, drone and space names, COHR, INTC, ARM, AMKR, TSLA, SYM, PLTR, CRWD, SNOW, SNDK, SPCX (IPO issuance), MRCY, LEU, UUUU.

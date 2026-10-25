@@ -65,3 +65,45 @@
 - Bloom Energy 2030 converts: [Business Wire, Oct 30, 2025](https://www.businesswire.com/news/home/20251030137221/en/Bloom-Energy-Corporation-Prices-Upsized-2.2-Billion-Convertible-Senior-Notes-Offering).
 - Marvell–Celestial AI terms: [technologies.org](https://technologies.org/marvell-mrvl-turns-celestial-ai-into-product-and-the-5-5-billion-earnout-clock-is-now-running/), [8-K/A](https://www.sec.gov/Archives/edgar/data/1835632/000119312526032861/d45933d8ka.htm).
 - Earlier evidence: roster Oct 15/22/24 sections; Oct 24 route D and H research.
+
+## Fundamental floor prices (Oct 24, user request)
+
+Definition: the highest price at which the framework C return still reaches **25% a year** if (a) every forward year's EPS growth comes in 5 points below the consensus/faded path and (b) the stock ends year 3 at **20× forward earnings**, about a market-average multiple. Dilution is restated as in D5(b) (CRDO 2.5%/yr, VRT 1%/yr, BE 5%/yr, LITE 0.6%/yr, AVGO 1%/yr). The "fair" column keeps consensus growth with the same 20× exit. These sit beside the rules: the D5(a) P/E-45 ceilings (CRDO ~$328, VRT ~$356, BE ~$218, LITE ~$980) are far above, and VRT/CRDO's base D5(b) return does not depend on price while the exit equals entry. Out-years are mostly faded, so treat the floors as framework outputs, not forecasts.
+
+| Name | Oct 23 | Floor (stress, 20×) | Fair (consensus, 20×) | User's level |
+|---|---|---|---|---|
+| CRDO | $147.29 | ~$163 | ~$181 | $141 |
+| VRT | $194.32 | ~$157 | ~$178 | now (blocked until the Oct 28 print) |
+| BE | $193.30 | ~$124 | ~$138 | $160 |
+| LITE | $756.17 | ~$567 | ~$631 | — (D5(b) ceiling ~$700) |
+| AVGO | $321.68 | ~$360 | ~$405 | held core |
+
+## CRDO and BE gate checks (Oct 24, user request)
+
+Price basis Oct 23 closes. Sources: Form 4s, 10-Qs and press releases cited in the agent notes below; single-source items flagged.
+
+### CRDO: out of D on A7 (verified)
+- **A7 insider net selling: 1.32% of shares** (≈2,477,285 code-S shares Oct 24, 2025 to Oct 23, 2026 vs 187.95M outstanding; code F and G excluded; no open-market buys). Cap 0.50% (≈939,760 shares). D keeps A7; G4 and H5 keep the same limit, so no route is open.
+- By quarter: Q4'25 876,782; Q1'26 426,101; Q2'26 408,131; Q3'26 599,195; Q4'26 to date 167,076. Officers 2,459,161 (Cheng 1.16M, Lam 0.81M, Brennan 0.38M).
+- Three-officer test: Q2 2026 probable flag (CEO Brennan Jun 5 and CLO Laufman Jun 4 confirmed outside plans; CTO Cheng's ~7,259-share sale unconfirmed).
+- Earliest pass if selling stopped today: about July 2027, when trailing sales fall under the cap. Active 10b5-1 plans continue.
+- Other facts (moot while A7 fails): ATM $750M completed (2.147M shares for $353.6M inside the window; ≤5% of market cap); DustPhotonics closed May 28, 2026 ($769.6M cash, 760k shares, 254k RSUs, earnout up to ~3.21M shares, milestones undisclosed); Q1 FY27 revenue $479.0M beat ~1.5–1.9% and above guide, Q2 guide midpoint $530M above consensus; GAAP GM 64.5% vs 66.9–68.9% GAAP guide (non-GAAP 68.0% at midpoint); closing ATH $302.52 (Jun 22, 2026) [1src]; top direct customers 43%/28%.
+
+### BE: D-watch, three open items
+- **Pass so far:** Q3 (Oct 22) revenue $1,235.8M vs ~$1.07B (+15.5%), non-GAAP EPS $0.94 vs ~$0.65–0.71, FY26 guide raised to $4.4–4.6B (third raise) → #19 clear; #13 allows entry from Oct 30. A7 net selling 0.28% (818,817 shares; no buys). D/E 1.42; net debt ≈$0.3B. 2030 converts $2.5B, 0%, conversion $194.97 (52.5% premium), issuer-elected settlement. D4 and D5(a) pass (fwd P/E 39.9, PEG 0.43).
+- **FDSO:** ≈312.3M economic (295.66M basic + ~15.5M awards [derived] + ~1.09M green-note remnant; 2030s net-share settled, out of the money); ≈325.1M GAAP if-converted. Forward dilution ≈2.4%/yr from awards [derived] → D1(b) passes.
+- **Open item 1, D1(c):** Oracle warrant (3,531,073 shares at $113.28, exercised cashless for 2,154,231 shares; Apr 2026 resale registration). Grant date and terms unverified; if granted after Oct 24, 2025 it is an in-window equity-linked issuance to a customer and likely fails D1(c)'s purpose test.
+- **Open item 2, A7 three-officer test:** Q1 2026 has two confirmed discretionary non-plan officer sales (CEO Sridhar $34M Feb 24; Kurzymski). Joshi/Soderberg/Chitoori Feb 17 sales look like RSU sell-to-cover; footnotes needed. Net selling is above the 0.15% footnote-fallback limit, so the fallback cannot cover them.
+- **Open item 3, D2(a):** Q3 operating cash flow −$27.1M; confirm trailing-4Q FCF margin ≥6% on the Q3 10-Q (pre-print stockanalysis figure 11.4%).
+- **#15 notes:** two customers 43% and 26% of Q3 revenue, the second a related party (Brookfield JV); Brookfield's $25B is a financing framework, not orders.
+
+### #12 check on the user's levels (today's 200DMA)
+#12's price-target leg is void when the price is more than 20% below the 200DMA; the FCF-yield leg needs NTM FCF ≥5% of market cap.
+
+| Name | Oct 23 | 200DMA | PT-leg floor (0.8×) | User's level | #12 at user's level |
+|---|---|---|---|---|---|
+| CRDO | $147.29 | $180.86 | $144.69 | <$141 | fails (PT void; FCF yield ~1.7%) |
+| BE | $193.30 | $219.29 | $175.43 | <$160 | fails (PT void; FCF yield ~0.9%) |
+| VRT | $194.32 | $269.07 | $215.26 | now | fails today (PT void; TTM FCF yield ~3.9%); FCF-yield leg clears near ≤~$152 on TTM FCF, higher on NTM consensus (unverified) |
+
+The floors move with the 200DMA, which is falling for names in a drawdown.
