@@ -65,3 +65,15 @@
 - Bloom Energy 2030 converts: [Business Wire, Oct 30, 2025](https://www.businesswire.com/news/home/20251030137221/en/Bloom-Energy-Corporation-Prices-Upsized-2.2-Billion-Convertible-Senior-Notes-Offering).
 - Marvell–Celestial AI terms: [technologies.org](https://technologies.org/marvell-mrvl-turns-celestial-ai-into-product-and-the-5-5-billion-earnout-clock-is-now-running/), [8-K/A](https://www.sec.gov/Archives/edgar/data/1835632/000119312526032861/d45933d8ka.htm).
 - Earlier evidence: roster Oct 15/22/24 sections; Oct 24 route D and H research.
+
+## Fundamental floor prices (Oct 24, user request)
+
+Definition: the highest price at which the framework C return still reaches **25% a year** if (a) every forward year's EPS growth comes in 5 points below the consensus/faded path and (b) the stock ends year 3 at **20× forward earnings**, about a market-average multiple. Dilution is restated as in D5(b) (CRDO 2.5%/yr, VRT 1%/yr, BE 5%/yr, LITE 0.6%/yr, AVGO 1%/yr). The "fair" column keeps consensus growth with the same 20× exit. These sit beside the rules: the D5(a) P/E-45 ceilings (CRDO ~$328, VRT ~$356, BE ~$218, LITE ~$980) are far above, and VRT/CRDO's base D5(b) return does not depend on price while the exit equals entry. Out-years are mostly faded, so treat the floors as framework outputs, not forecasts.
+
+| Name | Oct 23 | Floor (stress, 20×) | Fair (consensus, 20×) | User's level |
+|---|---|---|---|---|
+| CRDO | $147.29 | ~$163 | ~$181 | $141 |
+| VRT | $194.32 | ~$157 | ~$178 | now (blocked until the Oct 28 print) |
+| BE | $193.30 | ~$124 | ~$138 | $160 |
+| LITE | $756.17 | ~$567 | ~$631 | — (D5(b) ceiling ~$700) |
+| AVGO | $321.68 | ~$360 | ~$405 | held core |
