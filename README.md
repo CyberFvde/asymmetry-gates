@@ -37,9 +37,9 @@ See the adopted entry in `.claude/skills/asymmetry-gates/references/changelog.md
 
 136 tickers across 13 non-AI-capex lanes (aero aftermarket, mobility/travel, EM commerce, biopharma/medtech, defense/public safety, cyber, brokers/exchanges, space, nuclear fuel, plus added iGaming, shipbuilding, consumer growth and precious metals). Gate math: [`non-ai-screen-audit.md`](non-ai-screen-audit.md); triggers: [`triggers.md`](.claude/skills/asymmetry-gates/references/triggers.md). List door (revision 8): ≥20% forward revenue CAGR, ≥20% base-year EPS CAGR or ≥20% return estimate.
 
-- **Tier 1:** **DASH**, core A–E, ~25.7% governing return; window ≤$214.48; no entry within 5 trading days of the Nov 4 print.
+- **Tier 1:** **DASH**, core A–E, ~25.7% governing return; window ≤$214.48; no entry within 5 trading days of the Nov 4 print. **RDDT**, core A–E (A8 neutral by the user's call, Oct 25, with an A8 re-test trigger), ~23.7%; window ≤$177.46 from Nov 6.
 - **Tier 2:** **ARGX** (A7 three-officer check on Q3 EU sales; ≤$957.16), **RHM.DE** (D-watch; ≤€1,309.01 after #19 and A5), **KOG.OL** (clean Oct 29 print; ≤NOK 332.04), **LLY** (#12 upside only; ≤$1,109.63 or the ballast slot).
-- **Alert:** RDDT (#10 after A8; 2% net buyback leg). **Rule B:** NBIX/KRYS (G3 by 0.05–0.2 points), AXON (D window ≤$317.6), HWM (core gates pass, below the door), UBER, DKNG (PH-impaired), HALO. No buy window has a 200-day floor since revision 8 removed #12's void.
+- **Rule B:** NBIX/KRYS (G3 by 0.05–0.2 points), AXON (D window ≤$317.6), HWM (core gates pass, below the door), UBER, DKNG (PH-impaired), HALO. No buy window has a 200-day floor since revision 8 removed #12's void.
 
 ## Revision 8 history rerun (Oct 24, 2026)
 
