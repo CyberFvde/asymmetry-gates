@@ -15,9 +15,8 @@
 - **HWM yardstick (D5(d)):** HWM 16.1% at $185.91 (EPS CAGR 15.8% + 0.3% yield) → D line 21.1%; HWM forward 3Y revenue CAGR 15.95%.
 
 ### Bottom line
-- **Tier 1: DASH** (core A–E; 25.7% governing return; A8 read neutral, confirmed by the user).
+- **Tier 1: DASH, RDDT.** DASH: core A–E, 25.7% governing return, A8 neutral (user, Oct 24). RDDT: core A–E, 23.7%, A8 neutral by the user's call on Oct 25 with a written #15 trigger that re-tests A8 if the Google AI bypass shows up in user counts or licensing.
 - **Tier 2: ARGX, RHM.DE, KOG.OL, LLY.** Each has an exact unlock below.
-- **Alert: RDDT.** Every core gate passes except A8: Google's AI answers can bypass Reddit's traffic, so it routes to #10 and fails one leg (net buyback yield). If you read A8 as neutral, RDDT is Tier 1.
 - **Rule A applies:** six names clear the growth hurdle and the gates or sit one item away, so the ranked list stops at 6.
 - **What revision 8 changed in this screen:** ARGX and LLY reach the list on revenue growth; RDDT clears the insider cap (0.67%); RHM's D4 passes on EPS growth; NBIX and KRYS reach the list but miss G3's 3% dilution cap by 0.05–0.2 points on SEC share counts.
 - **#12 void removed (user, 21:09 CT):** buy windows lose their 200-day floor. HWM's core gates now pass on headline, but it stays below the growth door. AXON's D window opens at ≤$317.6. In the AI book, CRDO under $141, BE under $160 and VRT now all pass #12 (other items still decide them).
@@ -29,11 +28,11 @@
 | # | Ticker | Lane | Route / status | Oct 23 | Growth door | 3Y return (stress −5pt) | Buy window / unlock | Next event |
 |---|---|---|---|---|---|---|---|---|
 | 1 | **DASH** | 2 | Core A–E, **Tier 1** | $179.38 | rev 23.0%, EPS 25.7% | 25.7% (20.7%); GAAP consensus path ~37% | **≤$214.48** (PT $257.37 ÷ 1.2). Entry Oct 26–27, or from Nov 12 after a clean Nov 4 print | Nov 4 Q3 |
-| 2 | **ARGX** | 4 | Core headline pass, **Tier 2** | $873.71 | rev 30.8% | 18.9% fade (21.7% on FactSet, single source, can't raise) | **≤$957.16** (PT $1,148.59 ÷ 1.2) once the Q3 2026 executive sales are shown to be under mandates (A7). Entry from Oct 30 (#13) | 2027 guide at JPM (Jan) |
-| 3 | **RHM.DE** | 5 | D-watch, **Tier 2** | €1,019.00 | rev 35.0%, EPS 24.2% | 25.3% (20.3%) same-basis | **≤€1,309.01** (PT €1,570.81 ÷ 1.2) after #19 (Q2 sales consensus, clean Nov 5 print) and an A5 share source. No entry Oct 29–Nov 12 | Nov 5 Q3 |
-| 4 | **KOG.OL** [NEW DISCOVERY] | 5 | Core headline pass, **Tier 2** | NOK 301.00 | rev 39.7%, EPS 33.5% | 35.3% (30.3%), perimeter unresolved | **≤NOK 332.04** (PT NOK 398.45 ÷ 1.2) after a clean Oct 29 print (#19), a Newsweb sweep (#7) and A3(b) | Oct 29 Q3 |
-| 5 | **LLY** | 4 | Core except #12, **Tier 2** | $1,273.46 | rev 20.7% | 4.0% on FY28 consensus | **≤$1,109.63** (PT $1,331.55 ÷ 1.2), or the #16 ballast slot now. Entry from Nov 6 (#13) | Oct 29 Q3 |
-| 6 | **RDDT** [NEW DISCOVERY] | 12 | **Alert (#10)** | $144.25 | rev 36.2%, EPS 23.7% | 23.7% (18.7%) | #10 unlock: net buyback yield ≥2% (≈$555M trailing-4Q buybacks; $760M authorized). Tier 1 if A8 is read neutral: window ≤$177.46. Entry from Nov 6 (#13) | Oct 29 Q3 |
+| 2 | **RDDT** [NEW DISCOVERY] | 12 | Core A–E, **Tier 1** (A8 neutral, user Oct 25) | $144.25 | rev 36.2%, EPS 23.7% | 23.7% (18.7%) | **≤$177.46** (PT ÷ 1.2). Entry from Nov 6 after a clean Oct 29 print (#13, #19) | Oct 29 Q3 |
+| 3 | **ARGX** | 4 | Core headline pass, **Tier 2** | $873.71 | rev 30.8% | 18.9% fade (21.7% on FactSet, single source, can't raise) | **≤$957.16** (PT $1,148.59 ÷ 1.2) once the Q3 2026 executive sales are shown to be under mandates (A7). Entry from Oct 30 (#13) | 2027 guide at JPM (Jan) |
+| 4 | **RHM.DE** | 5 | D-watch, **Tier 2** | €1,019.00 | rev 35.0%, EPS 24.2% | 25.3% (20.3%) same-basis | **≤€1,309.01** (PT €1,570.81 ÷ 1.2) after #19 (Q2 sales consensus, clean Nov 5 print) and an A5 share source. No entry Oct 29–Nov 12 | Nov 5 Q3 |
+| 5 | **KOG.OL** [NEW DISCOVERY] | 5 | Core headline pass, **Tier 2** | NOK 301.00 | rev 39.7%, EPS 33.5% | 35.3% (30.3%), perimeter unresolved | **≤NOK 332.04** (PT NOK 398.45 ÷ 1.2) after a clean Oct 29 print (#19), a Newsweb sweep (#7) and A3(b) | Oct 29 Q3 |
+| 6 | **LLY** | 4 | Core except #12, **Tier 2** | $1,273.46 | rev 20.7% | 4.0% on FY28 consensus | **≤$1,109.63** (PT $1,331.55 ÷ 1.2), or the #16 ballast slot now. Entry from Nov 6 (#13) | Oct 29 Q3 |
 
 ### Tier 1 notes: DASH
 - **A1:** diluted WASO +0.22% YoY (Q2'26 10-Q: 439.345M vs 438.377M); no issuance since Oct 24, 2025. The Oct 15 audit's +1.82% compared a diluted figure with a basic one. 2030 converts ($2.75B, 0%, conversion $291.97, hedged to a $512.225 warrant strike) predate the window.
@@ -46,6 +45,14 @@
 - **PH:** closing ATH $281.74 (Oct 6, 2025), −36.3%, under 3 years old → clear.
 - **Return:** governing 25.7% = stockanalysis 3Y EPS forecast from FY27 base $8.25 (below the 29.5% fade path); GAAP consensus FY27 $4.49 → FY28 $7.12 → FY29 $9.79 → FY30 $13.31 gives ~37% with exit capped at 35×.
 - **Sizing:** core caps (#16); not in the AI-capex factor group.
+
+### Tier 1 notes: RDDT
+- Core gates pass on deep check: diluted WASO +1.26% (10-Q), inside A1's 1.5% band for buyback-active ≥25% growers (stockanalysis's +8.43% conflicts with the 10-Q); buybacks $239.6M in 1H26; FCF 36.7%; net cash; 3Y revenue 36.2%, next-FY (FY26) +54.0%, FY27 +31.9%; P/E 23.8, PEG 0.56, FCF yield 3.7%; PT +47.6%; Q2 revenue +9.9% and EBITDA +15% vs consensus; A7 0.67% (now under 1.5%), all officer sales under 10b5-1.
+- **A8: neutral (user, Oct 25).** The bypass is real: Google's AI answers serve Reddit content without the visit, management calls referral traffic "choppy," US logged-in DAUq grew 1%, it will stop reporting the logged-in/out split, and a securities class action covers the AI Overviews impact. Read as neutral because the bypassed traffic is mostly logged-out search visits that monetize poorly, while the logged-in ad business carries growth (Q2 ad revenue +64%, FY26 revenue consensus +54%). The Oct 24 reading (A8 applies → #10 alert, failing only net buyback yield 0.86% vs 2.0%) is superseded.
+- **A8 #15 trigger (written at the Oct 25 reading):** re-test A8 if US DAUq (logged-in, or total US DAUq once the split is dropped) falls year over year for two straight quarters, if Reddit stops disclosing US DAUq at all, or if the Google data-licensing deal is not renewed or renews at a lower annual value. If A8 then applies, RDDT becomes a #10 alert with net buyback yield ≥2% as the trigger.
+- **A1 watch:** diluted WASO +1.26% passes only through A1's 1.5% band, which needs active buybacks and ≥25% forward growth; if either lapses, the ceiling drops to 0.5%.
+- **PH:** listed March 2024, so its all-time high is under 3 years old and impairment cannot apply.
+- Data licensing is under 6% of revenue, with only $30.1M contracted for 2027.
 
 ### Tier 2 notes
 **ARGX (seed)**
@@ -74,11 +81,6 @@
 - Core except #12 (PT +4.6%; FCF yield 1.6%). Growth door: forward 3Y revenue CAGR 20.7%. Return 4.0% on FY28 consensus (tickflow $49.14, 10 analysts) vs ~15% on Oct 20 data, so the list place rests on revenue growth.
 - #16 ballast candidate now (wide moat; passes Stage A, #9, #11, #19; fails only #12); it competes with NOW for the single slot. Lilly Endowment selling (0.355% on Oct 15) sits far under the 1.5% cap. Closing ATH $1,306.69 (Oct 22, 2026).
 
-### Alert: RDDT
-- Core gates pass on deep check: diluted WASO +1.26% (10-Q), inside A1's 1.5% band for buyback-active ≥25% growers (stockanalysis's +8.43% conflicts with the 10-Q); buybacks $239.6M in 1H26; FCF 36.7%; net cash; 3Y revenue 36.2%, next-FY (FY26) +54.0%, FY27 +31.9%; P/E 23.8, PEG 0.56, FCF yield 3.7%; PT +47.6%; Q2 revenue +9.9% and EBITDA +15% vs consensus; A7 0.67% (now under 1.5%), all officer sales under 10b5-1.
-- **A8 read as applying:** Google's AI answers can serve Reddit content without the visit; the company calls referral traffic "choppy," US logged-in DAUq grew 1%, it will stop reporting the logged-in/out split, and a securities class action covers the AI Overviews impact. That routes RDDT to #10 only, where it passes every leg except net buyback yield (0.86% vs 2.0%).
-- Data licensing is under 6% of revenue, with only $30.1M contracted for 2027.
-
 ### Rule B: honorable mentions and single-gate blocks
 | Ticker | Blocker | Numeric trigger / note |
 |---|---|---|
@@ -93,9 +95,8 @@
 | HALO [NEW DISCOVERY] | below the growth hurdle | Added after the next-FY correction: #9 passes on next-FY (FY26) +34.7%; core gates pass on headline with a derived PEG ~0.83 (P/E 12.6 on the 15.2% base-year EPS path), A4 ~2.4× on trailing FCF, #12 on FCF yield 5.7% (PT −13.4%). Return 15.2%, revenue 18.75%, EPS 15.2%: below every door. Nov 5 print. |
 
 ### Three tiers
-- **Tier 1 (ready now):** DASH.
+- **Tier 1 (ready now, subject to #13/#19 at each print):** DASH, RDDT.
 - **Tier 2 (near-pass, exact unlocks above):** ARGX, RHM.DE, KOG.OL, LLY.
-- **Alert:** RDDT (#10 buyback leg; Tier 1 on a neutral A8 reading).
 - **Tier 3 (hard fails, gate named):** every other row in the table. Most common causes: below the 20% growth hurdle, #9, A1/G3, #11, PH, F2. HWM is core-eligible but below the hurdle.
 
 ### Exclusions log (not forced through corporate gates)
@@ -155,7 +156,7 @@
 | ELF [NEW DISCOVERY] | 12 | 114.24 | A1 shares +3.0%; A2; #9 fwd3 13.3%/next 20.9% … | fail | cand | D0 cap<$10B; D4 growth rev3y 13.27 (next 20.9, after 8.85) eps3y 13.2 … | none | 5.6% (fade; 0.6%) | Tier 3: below 20% growth hurdle (rev 13.27%, EPS 5.6%) | H n/a: cash engine already exists; H does not waive growth or valuation |
 | HIMS [NEW DISCOVERY] | 12 | 27.71 | A3a FCF 3.22%; A3c capex/OCF 68%; A4 8.5x … | fail | G2 FCF<6%; G2 capex … | D scope: no A1 issuance failure | rev | -2.1% (3Y-forecast; -6.7%) | Tier 3: A3a | H-watch: FCF 3.2%, D/E 4.77, GAAP operating loss; return basis unclear |
 | ONON [NEW DISCOVERY] | 12 | 32.51 | A1 shares +0.9%; A2 | ok | cand | D4 growth rev3y 17.9 (next 16.6, after 18.93) eps3y 38.39 | none | 13.7% (fade; 8.7%) | Tier 3: below 20% growth hurdle (rev 17.9%, EPS 13.7%) | H n/a: cash engine already exists; H does not waive growth or valuation |
-| RDDT [NEW DISCOVERY] | 12 | 144.25 | A1 shares +8.4%; A2 | ok | G3 shares 8.43 | cand | eps+rev | 19.1% (fade; 14.1%) | **Alert (#10)**: core passes except A8 (Google AI answers bypass); #10 fails only net buyback yield (0.86% vs 2%) | H n/a: cash engine already exists; H does not waive growth or valuation |
+| RDDT [NEW DISCOVERY] | 12 | 144.25 | A1 shares +8.4%; A2 | ok | G3 shares 8.43 | cand | eps+rev | 19.1% (fade; 14.1%) | **Tier 1**: core A–E; A8 neutral by the user's call (Oct 25) with a #15 A8 re-test trigger (US DAUq down YoY two quarters, US DAUq no longer disclosed, or Google licensing not renewed or cut); window ≤$177.46 from Nov 6 | H n/a: cash engine already exists; H does not waive growth or valuation |
 | WING [NEW DISCOVERY] | 12 | 119.54 | A4 9.0x; #9 fwd3 12.7%/next 9.33% | ok | G2 growth; G2 leverage | D scope: no A1 issuance failure | none | 16.0% (fade; 11.0%) | Tier 3: A4 | H n/a: cash engine already exists; H does not waive growth or valuation |
 | AEM [NEW DISCOVERY] | 13 | 173.94 | F route only | | | | n/a (F) | 3.6% (fade; -1.4%) | Tier 3: F2 (no CEO/CFO/founder buy in 90 days); F1 3Y EPS <25% | F name, no H |
 | AGI [NEW DISCOVERY] | 13 | 29.94 | F route only | | | | n/a (F) | 24.8% (fade; 19.8%) | Tier 3: F2 (no CEO/CFO/founder buy in 90 days) | F name, no H |

@@ -165,7 +165,7 @@
   "verdict": "Tier 3: F1 (no earnings) + F2"
  },
  "RDDT": {
-  "verdict": "**Alert (#10)**: core passes except A8 (Google AI answers bypass); #10 fails only net buyback yield (0.86% vs 2%)",
+  "verdict": "**Tier 1**: core A–E; A8 neutral by the user's call (Oct 25) with a #15 A8 re-test trigger (US DAUq down YoY two quarters, US DAUq no longer disclosed, or Google licensing not renewed or cut); window ≤$177.46 from Nov 6",
   "doors": [
    "eps",
    "rev"

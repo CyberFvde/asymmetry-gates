@@ -69,6 +69,17 @@ Gate math: [`non-ai-screen-audit.md`](../../../../non-ai-screen-audit.md). Quote
   - A8 re-test if a third party (robotaxi/robot-delivery operator or AI agent) starts routing orders around DASH at scale; if A8 then applies, DASH becomes a #10 alert with net buyback yield ≥ 2% as the trigger.
   - Governing return < 20% and forward revenue CAGR < 20% at a re-test freezes additions (revision 8 guardrail).
 
+### Tier 1: RDDT (core A–E; A8 neutral by the user's call, Oct 25; #15 written before tranche 1)
+- **Entry window:** ≤ $177.46 (PT ÷ 1.2). Entry from Nov 6, after the Oct 29 print clears #19 (#13).
+- **Kill / re-test triggers:**
+  - Diluted WASO > +1.5% YoY, or > +0.5% if buybacks stop or forward 3Y revenue CAGR falls below 25% (A1's band); any equity/convertible issuance, or a stock-funded deal above A1's de minimis carve-out.
+  - Trailing-4Q FCF margin < 6%, or NTM consensus FCF below trailing FCF (A3); net debt incl. leases > 2.5× NTM FCF.
+  - Next-FY revenue consensus < 12% or forward 3Y revenue CAGR < 15% (#9).
+  - GAAP gross margin below the prior FY on a trailing basis (A5).
+  - Net insider selling > 1.5% of shares over 12 months, or ≥ 3 officers selling outside 10b5-1 plans in one quarter (A7).
+  - **A8 re-test** if US DAUq (logged-in, or total US DAUq once the split is dropped) falls YoY for two straight quarters, if US DAUq stops being disclosed, or if the Google data-licensing deal is not renewed or renews at a lower annual value. If A8 then applies, RDDT becomes a #10 alert with net buyback yield ≥ 2% (≈ $555M trailing-4Q buybacks) as the trigger.
+  - Governing return < 20% and forward revenue CAGR < 20% at a re-test freezes additions (revision 8 guardrail).
+
 ### Tier 2: near-pass, exact unlocks
 - **ARGX (core headline pass):** show that the Q3 2026 executive sales (Gubitz, Moorthy, Borgions, Lemmen, Wilk, DelGiacco) ran under discretionary management mandates or were non-discretionary (AFM/FSMA notices; A7 three-officer test); then window ≤ $957.16 (PT $1,148.59 ÷ 1.2). **#15 at entry:** Vyvgart net sales growth below consensus two straight quarters or FcRn class share loss to Imaavy/IMVT-1402; diluted WASO > +0.5%; net insider selling > 1.5% or a confirmed ≥3-officer discretionary quarter; opex above guidance without matching sales.
 - **RHM.DE (D-watch):** window ≤ €1,309.01 (PT ÷ 1.2) once (1) Q2 sales vs consensus and a clean Nov 5 print clear #19; (2) an A5 share source is recorded. D4 passes on EPS; D5(b) 25.3%/20.3% on one basis. No entry Oct 29–Nov 12 (#13). **#15 at entry:** FY2026 recovery-year FCF margin < 6% when reported (no clock reset); trailing-4Q FCF negative; net debt > 3.0× NTM FCF; D/E ≥ 2.5×; next-FY EPS growth consensus < 20%.
@@ -76,7 +87,6 @@ Gate math: [`non-ai-screen-audit.md`](../../../../non-ai-screen-audit.md). Quote
 - **LLY (core except #12):** PT leg at ≤ $1,109.63, or the #16 ballast slot; entry from Nov 6 after a clean Oct 29 print. Lilly Endowment plus insiders > 1.5% net selling, or a ≥3-officer discretionary quarter, trips #7.
 
 ### Alert and Rule B (zero capital)
-- **RDDT (#10 alert after A8):** net buyback yield ≥ 2% (≈ $555M of trailing-4Q buybacks; $760M authorized) unlocks #10; Tier 1 if A8 is read neutral (window ≤ $177.46). Entry from Nov 6.
 - **NBIX / KRYS:** G3 re-test at the Nov 2 prints (diluted shares ≤ +3.0% YoY on SEC counts); G5 refresh (Oct 15 ceilings $175 / ~$275).
 - **HWM:** core gates pass on headline (no #12 void); core-eligible at ≤ $270.46 if the Oct 29 print clears #19 and like-for-like PEG ≤ 2.0; below the 20% growth door, so not a list name (yardstick line 21.1%).
 - **AXON:** D window ≤ $317.6 (D5(c) stress binds; D5(b) ≤ $370.6) after D1(c), D2 recovery-year, A7 and #19 checks.
