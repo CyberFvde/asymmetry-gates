@@ -1,5 +1,33 @@
 # Roster — Oct 24, 2026 (route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
 
+## Oct 24, 2026 — 52-name triage (headline gates only)
+
+Hard-gate triage of the user's 52-name list through A–E, G, M, D and H; [full table and caveats](../../../../docs/research/2026-10-24-52-name-triage/README.md). Headline passes still need #7, #19, PH, A5 and cap headroom; return estimates fade unverified out-years, so the highest ones are mechanical.
+
+- **Core, headline pass:** NVDA (~51% est.; #7 sweep, OpenAI exposure in A4), TSM (~26%; #7 via local filings, capex guide/3a), ASML (~27%; #7 via AFM).
+- **D-watch:** CRDO (~42%; DustPhotonics G3 test, A7), MRVL (~50%; Celestial AI stock deal must pass G3), BE (~35%; FDSO model), VRT (24–25%, borderline; #19 blackout to Oct 28), LITE (≤~$700).
+- **G-watch:** SKHY (D fails at ~24%), MU (cyclical G5 model).
+- **Ballast candidate:** NOW (fails only #12). **Alerts/near-misses:** AMD (P/E 46.5 vs 45), ALAB (P/E 45.8 vs 45, dilution 7.8%).
+- **Out, with H lines:** the neocloud, quantum, nuclear, drone and space names, COHR, INTC, ARM, AMKR, TSLA, SYM, PLTR, CRWD, SNOW, SNDK, SPCX (IPO issuance), MRCY, LEU, UUUU.
+- Every name above that passes carries AI-capex factor exposure except NOW; the 60%/25% group cap binds before position caps do.
+
+---
+
+## Sleeve plan — Oct 24, 2026 (adopted by the user; not a trade instruction)
+
+Four-name sleeve the user asked for (GOOG, AMZN, AVGO, UBER), sized under the current rules. Capital still needs each name's entry checks, #19 on its latest print and measured cap headroom; the AI-capex factor group (AVGO plus any M name with data-center capex) stays ≤60% of sleeve at cost and ≤25% of total portfolio.
+
+| Name | Status (dated) | Target at cost | Next decision |
+|---|---|---|---|
+| **AVGO** | Held core; return estimate ~29% (Oct 22) | Up to 25% of sleeve (≤10% of portfolio) | Tranche 2 only after the Dec 10 print clears #19. |
+| **UBER** | Waiver (#10); return ~16% (Oct 20), under the 20% primary-list bar; #10's 20% 3Y EPS leg needs a like-for-like forward re-check | ~15% | Nov 4 print and the #10 re-check before additions. |
+| **GOOGL** | M route; M2(d) unresolved: FY2027 FCF margin must reach ≥6% (≥5 analysts) against $195–205B 2026 capex and ~$250B expected 2027 capex; #13 blocks entry before the Oct 28 print | 0% now; M starter ≤2.5% sleeve / 0.60% portfolio if M passes | Re-test after Oct 28 (2027 capex commentary). Waymo ($126B, Feb 2026) counts only in the return estimate. |
+| **AMZN** | Out of M on M2(d) (Oct 20: FY27 FCF margin ~−0.9%, FY28 ~3.2%) | 0% now; M starter cap if it clears | Re-test after Oct 29. |
+
+The remaining ~60% of the sleeve stays uninvested until more names qualify; the framework sets no investment quota. Watch list that could fill it: LITE (D-watch, D5(b) clears at ≤~$700), CIEN (D-watch, #12 and the 5Y median fwd P/E), NBIS (H-watch, Nov 10 print).
+
+---
+
 ## Oct 24, 2026 — route D re-test (revision 7)
 
 Framework: Oct 24 revision 7 (route D with the 1.99× D/E cap and the D2(c) capex-cycle branch). Scope: the five names the user asked about. Quotes: Oct 23 close (stockanalysis). HWM yardstick ~15.4% (Oct 22) → D5(d) line ~20.4%. Full evidence, sources and the return script: [research file](../../../../docs/research/2026-10-24-rev7-route-d/README.md). No rule, trigger or cap changed inside this screen.

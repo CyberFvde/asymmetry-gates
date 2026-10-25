@@ -1,0 +1,10 @@
+{
+ "NVDA": {"price":210.96,"div_yield":0.0002,"base_eps":15.91,"eps_path":[null,null,null],"seed_growth":0.709,"consensus_shares":1,"fdso0":1,"fdso_growth":[0,0,0,0],"median_fwd_pe":null},
+ "CRDO": {"price":147.29,"div_yield":0,"base_eps":6.31,"eps_path":[9.69,null,null],"seed_growth":0.8226,"consensus_shares":1,"fdso0":1,"fdso_growth":[0.025,0.025,0.025,0.025],"median_fwd_pe":null},
+ "MRVL": {"price":228.51,"div_yield":0.001,"base_eps":7.33,"eps_path":[null,null,null],"seed_growth":0.7366,"consensus_shares":1,"fdso0":1,"fdso_growth":[0.025,0.025,0.025,0.025],"median_fwd_pe":null},
+ "VRT":  {"price":194.32,"div_yield":0.0013,"base_eps":9.19,"eps_path":[11.90,null,null],"seed_growth":0.3649,"consensus_shares":1,"fdso0":1,"fdso_growth":[0.01,0.01,0.01,0.01],"median_fwd_pe":null},
+ "BE":   {"price":193.30,"div_yield":0,"base_eps":5.31,"eps_path":[null,null,null],"seed_growth":0.6267,"consensus_shares":1,"fdso0":1,"fdso_growth":[0.05,0.05,0.05,0.05],"median_fwd_pe":null},
+ "TSM_ratio": {"price":18.0,"div_yield":0.01,"base_eps":1.0,"eps_path":[null,null,null],"seed_growth":0.3489,"consensus_shares":1,"fdso0":1,"fdso_growth":[0,0,0,0],"median_fwd_pe":null},
+ "ASML_ratio": {"price":25.0,"div_yield":0.006,"base_eps":1.0,"eps_path":[null,null,null],"seed_growth":0.3572,"consensus_shares":1,"fdso0":1,"fdso_growth":[0,0,0,0],"median_fwd_pe":null},
+ "SKHY_ratio": {"price":3.0,"div_yield":0.005,"base_eps":1.0,"eps_path":[null,null,null],"seed_growth":0.324,"consensus_shares":1,"fdso0":1,"fdso_growth":[0,0,0,0],"median_fwd_pe":null}
+}
