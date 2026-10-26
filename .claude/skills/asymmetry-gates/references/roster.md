@@ -1,5 +1,17 @@
 # Roster — Oct 25, 2026 (new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
 
+## Oct 25, 2026: lanes 22–30 added, fast-mode pass at any leverage (4 names)
+
+Lanes 22–30 (vertical software, alt managers, medical aesthetics, CDMOs/CROs, value retail, classifieds, adtech/social, private hospitals, IT ops/dev tools) added to [`non-ai-lanes.md`](non-ai-lanes.md). Of 125 names checked (lanes 22–30, the untested list and the lane 14–20 names skipped earlier), only TTD, SNAP, CSU.TO and CRM have a listed leveraged product at any multiple (NOW was already screened).
+
+- **TTD:** out on #9 (revenue −5% this year, 3Y forecast −1.9%); FCF yield 14% and net cash, but shrinking.
+- **SNAP:** out of A–E (A1) and D (D3 D/E 2.19); G headline candidate but PH-impaired (ATH $83.11 Sep 2021, −92%). Zero capital.
+- **CSU.TO:** out of core on A2 (no buybacks, net debt) and #9 (growth is mostly acquisitions; organic low single digits); FCF yield 5.5%, net debt ~1.1× FCF.
+- **CRM:** out of core on #9 (forward 3Y revenue 10.3%); #14a unlikely (FY27 growth includes Informatica); ~14% on the 3Y EPS forecast.
+- Grid and T&D equipment names from the third model (HD Hyundai Electric, LS Electric, Hyosung Heavy, POWL, Sieyuan) were routed to the AI book, not screened here.
+
+---
+
 ## Oct 25, 2026: new non-AI lanes, fast-mode first pass (9 names)
 
 Lanes 14–21 added to [`non-ai-lanes.md`](non-ai-lanes.md); only names with a listed 2x+ leveraged ETF/ETP were screened (user request). Oct 23 closes, stockanalysis headline fields.
