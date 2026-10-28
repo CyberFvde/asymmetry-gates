@@ -1,6 +1,47 @@
-# #18 — Rule-change log (policy Oct 24, 2026, revision 8)
+# #18 — Rule-change log (policy Oct 28, 2026, revision 9)
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
+
+## Adopted configuration: Oct 28, 2026, revision 9 (H4a dilution budget)
+
+### Authorization, scope and adoption basis
+
+Explicit user request dated Oct 28, 2026 (17:27 CT): "can you add an iren dilution blocker to our asymmetry gates or eh does it matter because we have dilution blockers already." Shown that core A1, M and D already exclude IREN and that H is the only open route, he chose (17:33 CT) "the most lenient cap that would've blocked evil diluters like iren." Scope: route H only. The user approved the diff at 18:08 CT ("accept the PR").
+
+### Change summary (old to new)
+
+- **New H4a:** trailing 12-month share growth + undrawn ATM/equity-program capacity at the screen price + maximum pending deal shares ≤50% of current shares. Converts excluded (H4/D1(a) already price them). Unknown components mean H-watch unless a sourced upper bound clears 50%; a verified breach means out of H. Re-run at every H7 review: >50% freezes adds; a raise that crosses 50% breaches H7's share-count limits.
+- **Not changed:** A1, M1, D1–D7 (D1(c) already caps ATM proceeds at 5% of market cap a year, D1(b) projects the ATM pace and D2 requires a cash engine), H2's exclusion of unopened ATM capacity from funding, H4's 20% hurdle and written share ceilings, H6 caps.
+- **Syncs:** `stage-paths.md` (header, scope note, H4a), `framework.md` (header, H summary), `SKILL.md` and `README.md` policy lines, `roster.md` (dated impact section).
+
+### Rationale and calibration
+
+- **Gap closed.** H was the only route with no numeric dilution ceiling: it required a written maximum share count but set no limit on its size, and undrawn ATM capacity counted as neither funding (H2) nor future dilution. A serial issuer with a loaded ATM could reach H-early on an optimistic model.
+- **Why a combined budget, not a trailing cap.** IREN's trailing growth is +41.6%, so the loosest trailing cap that blocks it is 40%, and it stops binding once the 2025–26 raises roll off while the ATM stays loaded. Adding undrawn capacity keeps the test on the live risk.
+- **Why 50%.** IREN totals ~76.5% today. The literal loosest level that blocks it (~75%) is knife-edge; at 50% IREN stays blocked even if trailing growth halves while ~$3.5B of ATM remains. 50% still admits PL, ASTS, QBTS, RGTI, NBIS and RKLB to an H model.
+
+### Structural and solvency safeguard check
+
+H4a only removes eligibility; it relaxes nothing. H1–H7, A7 insider limits, #19 and PH still apply to every name that passes it. Known cost: a genuine early-stage company funding a contracted buildout through a large ATM can now fail H; it can re-qualify once issued shares and remaining capacity fall under the budget.
+
+### Universe impact (H-watch names; Oct 26 closes; subagent research Oct 28, sources in the roster section)
+
+| Name | Trailing 12M | Undrawn ATM | Pending deal | Total | Verdict |
+|---|---|---|---|---|---|
+| RDW | +73.6% (cover) | 16.8% | 0% | ~90.4% | **Out of H (H4a)** |
+| IREN | +41.6% | 34.9% (~$3.5B) | 0% | ~76.5% | **Out of H (H4a)**; was H-watch + #19 blackout |
+| IONQ | +50.0% | 0% | 16.0% (Elisity + pre-funded warrants) | ~66.0% | **Out of H (H4a)** |
+| PL | +18.2% (cover) | 27.5% | 0% | ~45.7% | Passes, close; in-the-money 2030 notes (~10.6%) stay in H4 |
+| ASTS | +39.7% | ≤3.4% (stale bound) | 0% | ≤43.1% | Passes on the upper bound |
+| QBTS | +40.1% | 0% | 0% | ~40.1% | Passes |
+| RGTI | +32.4% | 0% | 0% | ~32.4% | Passes; warrant count unverified |
+| RKLB | ~+20.6% incl. Sept ATM | 0% | 7.1% (Iridium at 0.40) | ~27.7% | Passes |
+| NBIS | +13.4% | 4.5% | 0% | ~17.9% | Passes; converts (~25–30%) stay in H4 |
+| KTOS | +15.1% | 0% | 0.2% | ~15.3% | Passes |
+| AVAV | +1.8% (cover; stockanalysis +52.1% conflicts) | 0% | 0% | ~1.8% | Passes; verify share history |
+| KRMN | ~+0.2% | 0% | 0% | ~0.2% | Passes |
+
+No name was upgraded. Passing H4a changes no verdict on its own; every passer still needs H1–H7.
 
 ## Adopted configuration: Oct 24, 2026, revision 8 (insider cap, growth bars, #12 void and #17 estimate-cut rule removed)
 
