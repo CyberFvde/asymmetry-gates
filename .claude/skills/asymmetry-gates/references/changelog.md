@@ -1,6 +1,43 @@
-# #18 — Rule-change log (policy Oct 28, 2026, revision 9)
+# #18 — Rule-change log (policy Oct 28, 2026, revision 10)
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
+
+## Adopted configuration: Oct 28, 2026, revision 10 (buyback-offset bolt-on allowance; G5 proxy fix)
+
+### Authorization, scope and adoption basis
+
+Explicit user request dated Oct 28, 2026 (18:08 CT): "dang we missed out on cadense and cls due some research to find out why and ease the gating so that they can include them next time." Research covered both names; the changes below are class-wide and fix the two things that kept CDNS out. CLS is deliberately not addressed (reasons below). The user approved the diff at 18:49 CT ("Approved").
+
+### Change summary (old to new)
+
+- **A1 bolt-on allowance:** immaterial stock-settled bolt-ons ≤0.50% of diluted shares per 12 months → **≤1.50% when gross buybacks were made in the same window**, with the diluted WASO ceiling raised by the same deal-share percentage, capped at +1.0%. SBC-driven growth, financing/survival/transformative issuance and no-buyback companies get no relief. Roll-off after 12 months unchanged.
+- **G5:** framework C's 3-year return estimate (30× exit cap) can no longer by itself reject G5. A G5 verdict needs G5's own five-year model (terminal multiple ≤ the lower of the five-year median and peers); until then the name is G-watch.
+- **Not changed:** every other A–E floor, #9, #11 and the #14a bands, #12, G2/G3/G5's 12% hurdle, and all caps. A3(a)'s 6% FCF floor stays "never waived".
+- **Syncs:** `framework.md` (header, A1), `stage-paths.md` (header, G5), `SKILL.md`/`README.md` policy lines, `roster.md`.
+
+### Rationale
+
+- **CDNS (Cadence) was out on A1 only by deal mechanics.** The Hexagon D&E deal (closed Feb 23, 2026) issued 3.2M shares = 1.16% of 275.28M diluted shares, over the 0.50% allowance; diluted WASO was +0.54% vs the +0.5% ceiling. Over the last four quarters Cadence bought back $1.0B / 3.17M shares, so the deal was almost fully absorbed. A1 exists to stop financing issuance and creeping dilution, and a strategic bolt-on paid in shares the company is buying back meets neither. Sources: Q3 10-Q (sec.gov/Archives/edgar/data/0000813672/000081367226000121/cdns-20260930.htm), CFO commentary (…/000081367226000116/cfocommentary10262026ex9902.htm).
+- **CDNS's route G rejection used the wrong yardstick.** The Oct 24 rerun recorded "G5 cannot reach 12% at 9.1%", which is framework C's estimate with its 30× exit cap. G5 lets the terminal multiple run up to the lower of the five-year median (CDNS fwd P/E ~43–44×) and peers. Rough G5 math at $342.46 on FCF/share ($6.41 TTM, ~14% growth): ~13.8% a year at a flat ~53× P/FCF, ~10% at 45×. That's knife-edge, so CDNS is G-watch pending the full model, not out.
+- **CLS (Celestica) is not eased, by design.** It has five independent hard fails: TTM FCF margin 3.0% (it has never cleared 6%; FY23–25 ran 2.5–3.7%); the FY26 FCF guide cut to $460M vs $545M TTM, with management expecting 2027 cash burn on $1.5–2.0B capex; an Aug 2026 $3.45B stock sale (11.13M shares) that took Q3 diluted WASO up 5.1%; NTM gross margin guided "low 11%" below FY25; and only ~$58M of buybacks in four quarters. Admitting it would mean waiving A1, A3(a)–(c) and A5 together. The exclusion also held up on price: CLS closed $356.53 on Sep 28 and $276.54 on Oct 27 (−22%), 42% below its Jun 2 high, despite a +12% one-day bounce on its Q3 beat. Sources: stockanalysis.com/stocks/cls/statistics; Q3 8-K and 10-Q (sec.gov/Archives/edgar/data/0001030894/000103089426000049/cls-20260930prcondensedfs.htm, …/000103089426000050/cls-20260930.htm); Q3 call transcript (fool.com).
+
+### Structural and solvency safeguard check
+
+The allowance is bounded three ways: a 1.50% deal cap, a +1.0% WASO cap, and a requirement for buybacks in the same window. It never touches financing or transformative issuance. The G5 change relaxes no hurdle; it stops a stricter convention from substituting for the route's own test. Known cost: a buyback-active serial acquirer issuing ~1–1.5% a year in stock could now pass A1 every year; #15 triggers should flag a second such deal within 24 months.
+
+### Universe impact
+
+| Name | Effect |
+|---|---|
+| CDNS | A1 passes (1.16% deal shares, WASO +0.54% vs a raised 1.0% ceiling, buybacks active). Core then fails #11 on PEG only (~2.09 at $342.46; 2.44 at $316.49), inside the #14a band, so it is a **#14a starter candidate** whenever #12 also passes: PT $408.29 → price ≤~$340.24, and #9 must verify (3Y 15.7% incl. Hexagon; next-FY organic ~12–12.5%, knife-edge). At $342.46, #12 fails (+19.2%), so alert only today. Route G: G-watch pending a full G5 model. |
+| DASH | No change: WASO +1.82% exceeds even the 1.0% cap. |
+| PANW | No change: the CyberArk deal (+20.8% shares) is transformative. |
+| VRT, AVAV | No change: no buybacks in the window. |
+| AVGO, AMZN, PWR, ARM, AMKR, GFS | No change: WASO above 0.5% is SBC-driven or already inside another branch. |
+| CLS | No change: five hard fails independent of A1's deal allowance. |
+| G5 | Only CDNS in the Oct 24 rerun was rejected on framework C's estimate; other G5 verdicts used route models. |
+
+No name was upgraded. CDNS still needs a fresh re-test with current #9, #12, #13 and #19 evidence before any entry.
 
 ## Adopted configuration: Oct 28, 2026, revision 9 (H4a dilution budget)
 
