@@ -1,4 +1,9 @@
-# Roster — Oct 28, 2026 (revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+# Roster — Oct 28, 2026 (revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+
+## Oct 28, 2026: revision 10 review of CDNS and CLS
+
+- **CDNS — $342.46 (Oct 28):** A1 passes under the bolt-on allowance (Hexagon 1.16%; WASO +0.54%; $1.0B / 3.17M shares bought back over 4Q). A2–A8 pass, with #15 triggers for AI-native design bypass and a GAAP gross-margin dip from Hexagon mix. #11 fails on PEG only (~2.09), inside the #14a band. #12 fails today (PT $408.29, +19.2%). **Alert**, becoming a **#14a starter candidate at ≤~$340.24** if #9 verifies (next-FY organic ~12–12.5%) and #19 is clear after the Oct 26 beat and raise. Route G: **G-watch** pending a full G5 model (~10–13.8% a year at 45–53× terminal P/FCF). Q3: revenue $1.633B (+22%), FY26 guide raised, record $8.2B backlog, new $2.5B buyback.
+- **CLS — $276.54 (Oct 27):** **Out, unchanged.** Fails A1 (Aug $3.45B stock sale, WASO +5.1%), A3(a) (FCF margin 3.0%), A3(b)/(c) (FY26 FCF guide cut to $460M; 2027 cash burn on $1.5–2.0B capex) and A5 (gross margin guided below FY25). No route is available. Down 22% since the Sep 28 screen and 42% from its Jun 2 high.
 
 ## Oct 28, 2026: revision 9 H4a dilution budget (12 H-watch names)
 
