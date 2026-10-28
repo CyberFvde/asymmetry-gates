@@ -1,6 +1,6 @@
 # asymmetry-gates
 
-Policy revision: **Oct 24, 2026, revision 8** (insider net-selling cap 1.5%; 20% revenue-or-EPS growth bars for the ranked list and D4; #12's 200DMA void and #17's estimate-cut freeze removed; route D from revision 7). FT remains the Oct 2 revision 2 overlay (only its route names were synced for M and D); the roster now leads with the Oct 24 route D re-test (LITE, CIEN, COHR, NBIS, IREN), then the Oct 22 targeted re-tests and the Oct 15 nine-name re-test, with older screens kept below as history.
+Policy revision: **Oct 28, 2026, revision 9** (H4a: route H dilution budget ≤50% of shares, trailing growth + undrawn ATM + pending deal shares; revision 8: insider net-selling cap 1.5%; 20% revenue-or-EPS growth bars for the ranked list and D4; #12's 200DMA void and #17's estimate-cut freeze removed; route D from revision 7). FT remains the Oct 2 revision 2 overlay (only its route names were synced for M and D); the roster now leads with the Oct 24 route D re-test (LITE, CIEN, COHR, NBIS, IREN), then the Oct 22 targeted re-tests and the Oct 15 nine-name re-test, with older screens kept below as history.
 
 Rules-based equity screen (A–E core, F signal sleeve, G compounders, H early transitions, M mega-cap platforms, D dilutive growth, stricter FT and price-health PH overlays) packaged as an Agent Skill.
 Source of truth for the rules, the roster and the #15 kill triggers. Keep this repo private — the roster is a position book.

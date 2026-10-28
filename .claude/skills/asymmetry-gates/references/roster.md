@@ -1,4 +1,13 @@
-# Roster — Oct 25, 2026 (new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+# Roster — Oct 28, 2026 (revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+
+## Oct 28, 2026: revision 9 H4a dilution budget (12 H-watch names)
+
+Budget = trailing 12-month share growth + undrawn ATM at the screen price + maximum pending deal shares, ≤50%. Oct 26 closes. Full table and rationale: [`changelog.md`](changelog.md).
+
+- **Out of H on H4a:** RDW (~90.4%), IREN (~76.5%; also #19 blackout), IONQ (~66.0%).
+- **Pass H4a, H-watch unchanged:** PL (~45.7%, closest), ASTS (≤43.1%), QBTS (~40.1%), RGTI (~32.4%), RKLB (~27.7%), NBIS (~17.9%), KTOS (~15.3%), AVAV (~1.8%), KRMN (~0.2%).
+- **Open items:** ASTS remaining ATM (last verified Oct 2025); PL, NBIS and RDW ATM use after June 30 (Q3 filings in November); RGTI warrants; AVAV/KRMN share-history conflicts on stockanalysis.
+- **Sources:** stockanalysis statistics pages; IREN 10-K (sec.gov/Archives/edgar/data/0001878848/000187884826000052/iren-20260630.htm) and 424B7 (…/000114036126031055/ny20079234x1_424b7.htm); PL 10-Q (sec.gov/Archives/edgar/data/0001836833/000119312526382016/pl-20260731.htm); RKLB 424B5 and Sept 15 8-K (sec.gov/Archives/edgar/data/0001819994/000175392626001459/g085845_424b5.htm, …/000175392626001769/g085951_ex99-1.htm); IRDM 10-Q (sec.gov/Archives/edgar/data/0001418819/000141881926000052/irdm-20260930.htm); ASTS 10-Q (sec.gov/Archives/edgar/data/0001780312/000119312526342550/asts-20260630.htm); NBIS (sec.gov/Archives/edgar/data/0001513845/000110465926094844/nbis-20260812xex99d2.htm); IONQ (sec.gov/Archives/edgar/data/0001824920/000119312526419609/ionq-20261009.htm, …/000119312526421072/d162787d424b5.htm); RDW 10-Q (sec.gov/Archives/edgar/data/0001819810/000181981026000124/rdw-20260630.htm); AVAV 10-Q (sec.gov/Archives/edgar/data/0001368622/000110465926106423/avav-20260801x10q.htm); KTOS 10-Q (sec.gov/Archives/edgar/data/0001069258/000106925826000077/ktos-20260628.htm).
 
 ## Oct 25, 2026: lanes 22–30 added, fast-mode pass at any leverage (4 names)
 
