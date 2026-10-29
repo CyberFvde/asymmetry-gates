@@ -17,10 +17,10 @@ A hard cap, at cost: 25% of the sleeve per name, no exceptions. A 25% position t
 
 ## ID. Ian Dunlap gate — pre-screen, every route (revision 12, Oct 29, 2026)
 
-Run first, before any route gate, PH chart check, DM check or return estimate. A name whose trailing profit margin is under 20% is out, and nothing else is screened.
+Run first, before any route gate, PH chart check, DM check or return estimate. A name whose trailing gross margin is under 20% is out, and nothing else is screened.
 
-- **Test.** Trailing-12-month GAAP profit margin (net income ÷ revenue) ≥20.0%, read from the stockanalysis Statistics page "Profit Margin" field as of the latest reported quarter (quote pages for non-US listings). stockanalysis governs. No rounding into the gate (19.95% fails) and no adjustment for one-time charges, gains, tax items or mark-to-market swings in either direction; those roll off within four quarters. Missing or conflicting margin data = unresolved and zero capital until verified from the company's filings.
-- **Scope.** Every route: A–E, F, G, H, M, D and FT. Loss-making and pre-profit companies cannot pass, so H can admit only a business that already earns a 20% margin. The mandatory H review applies only to names that pass ID. ID adds a requirement; it relaxes nothing on any route.
+- **Test.** Trailing-12-month gross margin (gross profit ÷ revenue) ≥20.0%, read from the stockanalysis Statistics page "Gross Margin" field as of the latest reported quarter (quote pages for non-US listings). Where stockanalysis reports no gross margin (banks, insurers and other businesses without a gross-profit line), use its TTM "Operating Margin" against the same 20% bar and say so. stockanalysis governs. No rounding into the gate (19.95% fails). Gross margin sits above most one-time charges and gains, so no adjustments are made. Missing or conflicting margin data = unresolved and zero capital until verified from the company's filings.
+- **Scope.** Every route: A–E, F, G, H, M, D and FT. A loss-making company can pass if its gross margin clears 20%; thin or negative gross margins fail. The mandatory H review applies only to names that pass ID. ID adds a requirement; it relaxes nothing on any route, and the route gates still do the profit and cash tests.
 - **Effect.** A fail is **out (ID)** with zero new capital, recorded with the margin, the TTM period end and the source date; no PH, DM or route work is required. A held name freezes additions and re-tests at its next print. ID alone is never an exit: #15, #19 and the route gates still govern exits. A failing name re-enters screening at the first print that lifts its trailing margin to ≥20%.
 
 ## A. Structural — hard for the A–E core route
