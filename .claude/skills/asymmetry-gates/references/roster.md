@@ -1,4 +1,18 @@
-# Roster — Oct 28, 2026 (revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+# Roster — Oct 29, 2026 (revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+
+## Oct 29, 2026: revision 12 ID Ian Dunlap gate check (49 names)
+
+Data: stockanalysis TTM "Profit Margin," pulled Oct 29, 2026; some pages lag the latest print (TER, GEV). Full table and one-time items: [`changelog.md`](changelog.md).
+
+- **Out on ID (zero new capital):**
+  - Core headline / near-miss: STRL 12.6%, GNRC 5.8%.
+  - D-watch: CIEN 10.9%, LITE −230.1% (non-cash convert-exchange loss), BE 13.5%.
+  - G-watch: VRT 15.1%, ALGM 1.5%. M-watch: AMZN 17.4%.
+  - Other: NOW 11.3%, AMD 15.6%, DASH 5.3% (was Tier 1 core).
+  - Every H-watch name: PL, ASTS, QBTS, RGTI, RKLB, KTOS, AVAV, KRMN.
+- **Pass:** all held/conditional core (NVDA, AMAT, KLAC, LRCX, ADI, ASML, AVGO, Samsung), ANET, TER, APP, CRDO, MU, SKHY, GOOGL, CDNS, NFLX.
+- **Pass on one-time gains only:** GEV (re-check after its Q1 2027 print) and MRVL (after its FQ3 FY27 print).
+- **Open items:** TSM, MSFT, NBIS (stale pages), RDDT and the rest of the universe.
 
 ## Oct 28, 2026: revision 11 DM dead-money check (133 names)
 

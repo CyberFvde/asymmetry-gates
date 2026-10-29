@@ -1,6 +1,51 @@
-# #18 — Rule-change log (policy Oct 28, 2026, revision 11)
+# #18 — Rule-change log (policy Oct 29, 2026, revision 12)
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
+
+## Adopted configuration: Oct 29, 2026, revision 12 (ID Ian Dunlap gate)
+
+### Authorization, scope and adoption basis
+
+Explicit user request dated Oct 29, 2026 (10:06 am CT): "Add this is a gate to asymmetry gates; if the profit margin is under 20% I don't even look at the chart named the Ian Dunlap gate." Scope: a pre-screen on every route, run before any route gate or chart work. Takes effect when the user approves the PR.
+
+### Change summary (old to new)
+
+- **New ID pre-screen:** trailing-12-month GAAP profit margin (stockanalysis "Profit Margin") ≥20.0% on every route, run first. Under 20% = out (ID), zero new capital, nothing else screened. No rounding and no one-time adjustments in either direction; missing data = unresolved. Held names freeze additions and re-test at the next print; ID is never an exit by itself.
+- **Knock-on rule text:** the mandatory H review applies only to names that pass ID, so H can admit only a business already at a 20% margin.
+- **Not changed:** every route threshold, DM, PH, #15, #19 and all caps.
+- **Syncs:** `framework.md` (header, ID section, H-review line), `SKILL.md` (policy line, steps 1 and 3, output format), `README.md`, `stage-paths.md` (header, H note), `roster.md`.
+
+### Rationale
+
+- **The user's own first cut:** he doesn't look at a chart below a 20% profit margin. Margin comes first; route gates, DM and PH follow for survivors.
+- **Why net margin:** "Profit Margin" is the stockanalysis field for TTM net income ÷ revenue, and stockanalysis already governs #11/#12. Operating margin is the other possible reading; switching is a one-line edit if the user prefers it.
+- **Why no one-time adjustments:** it keeps the gate mechanical and fast, which fits "don't even look." One-offs roll off within four quarters.
+
+### Structural and solvency safeguard check
+
+ID removes eligibility only; it relaxes nothing. Known costs:
+
+1. **Closes H in practice.** Every current H-watch name fails (loss-making or single-digit margins).
+2. **Drops low-margin, high-return businesses regardless of ROIC or FCF:** power producers (VST, CEG), contractors (FIX, STRL), marketplaces (UBER, DASH) and AMZN. This cuts against the user's Oct 28 view that self-funded compounders such as UBER, CEG, VST, AMZN and DASH should usually pass; flagged for his call.
+3. **GAAP noise runs both ways.** GEV (Prolec remeasurement gain, ~10 pts) and MRVL (Auto Ethernet sale gain, ~19 pts) pass today only on one-time gains and may fail when those roll off; LITE (−230%, $7.76B convert-exchange loss) fails on a non-cash charge. Re-run at every print.
+4. **Page lag.** stockanalysis can trail a fresh print (TER and GEV still showed pre-Q3 TTM), and TSM, MSFT and NBIS pages served stale cache. Verify at screen time.
+
+### Universe impact (live roster names plus the Oct 28 recovery board; stockanalysis TTM profit margin, pulled Oct 29, 2026)
+
+| Group | Pass (≥20%) | Out on ID (<20%) |
+|---|---|---|
+| Held / conditional core | NVDA 63.7%, AMAT 30.1%, KLAC 35.6%, LRCX 32.3%, ADI 29.8%, ASML 34.1%, AVGO 42.9%, Samsung 30.8% | None |
+| Core headline / near-miss | ANET 38.4%, TER 25.8%, APP 64.6%, GEV 23.0%* | STRL 12.6%, GNRC 5.8% |
+| D-watch | CRDO 33.8%, MRVL 27.9%* | CIEN 10.9%, LITE −230.1%*, BE 13.5% |
+| G-watch | MU 63.8%, SKHY 85.6%* | VRT 15.1%, ALGM 1.5% |
+| M-watch | GOOGL 54.8%* | AMZN 17.4% |
+| Other live statuses | CDNS 22.5% (alert), NFLX 29.7% (#14a candidate) | NOW 11.3% (ballast candidate), AMD 15.6% (alert), DASH 5.3% (Tier 1 core) |
+| H-watch | None | PL −95.1%, RKLB −21.5%, AVAV −10.1%, KTOS 2.0%, KRMN 6.3%, ASTS/QBTS/RGTI (loss-making) |
+| Oct 28 recovery board (chat ranking, not roster statuses) | AVGO, GOOGL, CRDO, GEV*, ASML, MPWR 24.5%, RMBS 33.4%, CDNS, META 31.2%, MRVL*, MTSI 20.7%, TER | VST 11.6%, CEG 11.1%, FIX 13.0%, VRT, UBER 17.3% |
+
+\* One-time items: GEV Prolec GE remeasurement gain ($3.99B pre-tax, ~10 pts); MRVL Auto Ethernet sale gain ($1.83B pre-tax, ~19 pts); LITE $7.76B non-cash debt-extinguishment loss; SKHY ~$50B non-operating gain (source unverified); GOOGL ~$99B equity-securities gain (~20 pts; passes without it). AMZN (Anthropic marks) and UBER (Q3 2025 tax valuation release) fail even with their one-time gains included.
+
+Unverified: TSM and MSFT (stale pages; last data ~41% and ~36%), NBIS (stale page; Q2 2026 GAAP net loss), RDDT and the rest of the 133-name universe. Run ID on each at the next screen. No name was upgraded.
 
 ## Adopted configuration: Oct 28, 2026, revision 11 (DM dead-money overlay)
 
