@@ -1,6 +1,46 @@
-# #18 — Rule-change log (policy Oct 28, 2026, revision 10)
+# #18 — Rule-change log (policy Oct 28, 2026, revision 11)
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
+
+## Adopted configuration: Oct 28, 2026, revision 11 (DM dead-money overlay)
+
+### Authorization, scope and adoption basis
+
+Explicit user request dated Oct 28, 2026 (18:49 CT): "add a dead money for years blocker ie GFS." Clarified at 18:52 CT: "when I say dead money like you think it may not move for years type shi." Scope: a forward-looking overlay on every route except F. The user approved the diff at 20:17 CT ("Approve").
+
+### Change summary (old to new)
+
+- **New DM overlay:** DM-a flags an unproven hockey stick (trailing 3Y revenue/share CAGR ≤5% while consensus needs ≥10 points more revenue growth or ≥20% EPS CAGR) until two straight quarters grow at least half the forecast rate, capped at a 20% bar. DM-b flags a ≥50% holder that sold in the last 12 months until the stake is under 50% or 12 months pass with no sale. Either flag means zero new capital; held names freeze additions; never an exit by itself.
+- **Not changed:** every route gate, PH, #15, #19 and all caps.
+- **Syncs:** `framework.md` (header, DM section), `SKILL.md`/`README.md` policy lines, `roster.md`.
+
+### Rationale
+
+- **Why forward-looking.** The user wants to screen out names he expects to stall for years, not just names that already stalled. GFS shows the gap: its framework C estimate was 26.0% at $44.39, consensus PT +68%, FY27 EPS +34%, and it would likely reach D4 once FY27 becomes next-FY (~Feb 2027). Yet revenue per share fell 4.3% a year over three years ($14.18 → $12.41; TTM revenue $7.86B → $6.94B), recent quarters grew 3.1% and 5.8%, and the stock sits where it listed five years ago ($46.40 first close Oct 28, 2021; $46.70 on Oct 27, 2026) while SPY rose ~11% a year.
+- **Why PH missed it.** PH keys on a stale all-time high. GFS printed a fresh closing high in May 2026 ($89.96 to $92.55 intraday) before falling back, so PH reads clear.
+- **DM-a's clearing bar.** Half the forecast rate with a 20% cap lets real inflections clear within two prints (ADI, ALGM, COHR, KTOS, MRCY, RDW, RGTI, CORZ all clear on current quarters) while stories that keep slipping stay flagged.
+- **DM-b.** A controlling holder selling in blocks caps rallies: Mubadala sold 20.0M GFS shares at $42.00 in March, 1.47M in April and ~22M at ~$86.30–86.80 in May, and still owns 399.6M shares (72.82%, 13G/A Aug 10, 2026).
+
+### Structural and solvency safeguard check
+
+DM only removes eligibility; it relaxes nothing. It is not a price-chasing rule: no price input decides it. Known costs: (1) a genuine turnaround can stay flagged for up to two quarters after the inflection starts; (2) DM-a uses consensus figures, so a stale forecast can create or hide a flag, so re-run it at every print; (3) GAAP EPS was used for the impact check below because adjusted EPS was not available for every name, so the EPS leg must be re-verified on adjusted figures before any entry.
+
+### Universe impact (133 names; Oct 27, 2026 closes; trailing data through each company's latest print)
+
+| Name | Trailing rev/sh 3Y | Forward (rev / EPS 3Y) | Last two quarters rev YoY | DM verdict | Effect today |
+|---|---|---|---|---|---|
+| GFS | −4.3% | 11.3% / 27.7% | 5.8%, 3.1% (bar 5.7%; adj EPS +9.5% vs 13.9% bar) | **DM-a and DM-b** | Blocks the expected ~Feb 2027 D re-test; DM-b runs to at least May 26, 2027 |
+| QBTS | −17.5% | 82.0% / n/a | −0.6%, −81.0% | **DM-a** | H-watch → H-watch + DM |
+| TSLA | 2.0% | 15.2% / 23.0% | −0.2%, 25.5% | **DM-a** | Already out (A3, #11, #12) |
+| INTC | −3.6% | 16.3% / 92.9% | 25.4%, 7.2% | **DM-a** | Already out (A1, A3, A4) |
+| AMKR | 3.5% | 12.7% / 30.0% | 0.2%, 25.6% | **DM-a** | Already out (A3, #9) |
+| AEHR, BKSY, NVTS, SIVE | −22.9% to 4.6% | 26–62% rev | at least one quarter negative | **DM-a** | Already out or below the size floor |
+| AAOI | 3.3% | 105.7% / n/a | 86.4%, 51.4% (bar 20%) | Triggered, **clears** | No change |
+| ADI, ALGM, COHR, CORZ, KTOS, MRCY, RDW, RGTI | −29.7% to 4.0% | 10–127% rev | both quarters above the bar | Triggered, **clears** | No change |
+| CEG (5.1%), AMAT (7.3%), CRS, ENR, GNRC, XYZ | 5.1–8.0% | — | — | Not triggered (trailing above 5%) | No change; CEG is closest |
+| All other names | >5% or no 3Y base | — | — | Not triggered | No change |
+
+DM-b: GFS is the only name in the universe with a ≥50% holder that sold in the last 12 months; KAP.L (Samruk-Kazyna majority) needs its sale history verified at the next screen. Not computable for lack of a three-year revenue base (exempt or n/a): ALAB, ALT, ASTS, CRWV, FPS, GPCR, KAP.L, KRMN, NBIS, RBRK, RDDT, SATS, SMR, SPCX, SYM, VKTX. No name was upgraded.
 
 ## Adopted configuration: Oct 28, 2026, revision 10 (buyback-offset bolt-on allowance; G5 proxy fix)
 

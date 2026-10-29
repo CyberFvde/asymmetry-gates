@@ -1,4 +1,4 @@
-# Framework — forward-leaning (v. Oct 28, 2026, revision 10)
+# Framework — forward-leaning (v. Oct 28, 2026, revision 11)
 
 Forward numbers set the bar; trailing numbers are floors in A–E. Preserve those core floors while distinguishing a material failure from a near-pass or ordinary quarterly noise. G uses an existing cash engine and per-share economics; H is a small, milestone-based path toward a fixed quality destination; M is a small, capped route for mega-cap platforms whose company FCF is temporarily depressed by growth capex; D (revision 7) is a small, capped route for self-funding high-growth companies that fail A1/G3 on equity issuance but still clear a 25% per-share return after all present and projected dilution. Read their defined substitutions before applying core gates to them. Fintech uses the stricter FT overlay. Seek qualified opportunities without requiring a perfect scorecard or forcing an investment quota. Entries depend on evidence and valuation, never solely on a drawdown, rally or bullish theme. The Oct 15 calibration targets 25%+ annualized returns for a concentrated, high-asymmetry growth sleeve; that objective is not a new per-name hurdle, a validated forecast or a promise. Screens rank names with the revision 6 return estimate under C; its 20% screen guardrail decides primary-list placement only, not route eligibility. These thresholds are policy choices, not empirically validated return forecasts. Wider valuation and sizing bands also increase possible losses.
 
@@ -85,6 +85,14 @@ G/H/M/D have their own small position caps and count inside #16's combined budge
 ## FT. Fintech/payments — stricter overlay
 
 Read [fintech.md](fintech.md) for payments, fintech, crypto, lenders, brokers and material embedded finance. Retain full core/#10 qualification, original 15%/15% standard growth, normalized company cash flow and additional solvency/credit/regulatory evidence. No funded starters or G/H/M/D route; lower priority among otherwise comparable opportunities. This preference does not create a permanent blacklist.
+
+## DM. Dead-money overlay — every route except F (revision 11, Oct 28, 2026)
+
+Blocks new capital in a name the evidence says may not move for years, even when its forecasts pass the route gates. Run it after the route verdict and append the DM status the way PH is appended. F keeps its own signal tests.
+
+- **DM-a. Unproven hockey stick.** Flag when trailing 3-year revenue-per-share CAGR is ≤5% (TTM vs the TTM ending three years earlier, average diluted shares) AND either the forward 3Y revenue CAGR is at least 10 points above it or the forward 3Y EPS CAGR is ≥20%. It clears when each of the two latest reported quarters shows organic revenue growth YoY ≥ the lower of half the forward 3Y revenue CAGR and 20%; where a forward EPS CAGR ≥20% triggered the flag, adjusted EPS growth YoY in both quarters must also be ≥ the lower of half the forward 3Y EPS CAGR and 20%. Companies without a meaningful revenue base three years ago are exempt; H already governs them.
+- **DM-b. Controlling-seller overhang.** Flag when a holder of ≥50% of the economic shares sold any shares (marketed secondary, block, Rule 144 or a sale program) in the trailing 12 months, or has an announced sale or resale registration pending. It clears when that stake falls below 50% or 12 months pass with no sale. Company buybacks alongside the sale do not clear it.
+- **Effect.** A DM-flagged name gets zero new capital on every route and sits on a dead-money watchlist with its numeric clearing condition written down. A held name freezes additions; DM alone is never an exit, and route gates, #15 and #19 still govern exits. Record the trailing and forward figures, the two quarters' growth, any controlling holder's stake and last sale date, and the source dates.
 
 ## PH. Price-health overlay — every route
 
