@@ -6,7 +6,7 @@ Rule changes normally take effect at a scheduled or post-print re-test; an expli
 
 ### Authorization, scope and adoption basis
 
-Explicit user requests dated Oct 29, 2026: 10:06 am CT, "Add this is a gate to asymmetry gates; if the profit margin is under 20% I don't even look at the chart named the Ian Dunlap gate," and 10:18 am CT, "Also if can be gross not net or whatever the easiest profit margin is that will pass most good compounders." Scope: a pre-screen on every route, run before any route gate or chart work. Takes effect when the user approves the PR.
+Explicit user requests dated Oct 29, 2026: 10:06 am CT, "Add this is a gate to asymmetry gates; if the profit margin is under 20% I don't even look at the chart named the Ian Dunlap gate," and 10:18 am CT, "Also if can be gross not net or whatever the easiest profit margin is that will pass most good compounders." Scope: a pre-screen on every route, run before any route gate or chart work. The user approved the merge at 11:34 am CT ("Merge").
 
 ### Change summary (old to new)
 
