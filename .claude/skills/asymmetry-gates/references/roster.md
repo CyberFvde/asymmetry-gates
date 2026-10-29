@@ -1,4 +1,17 @@
-# Roster — Oct 28, 2026 (revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+# Roster — Oct 28, 2026 (revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+
+## Oct 28, 2026: revision 11 DM dead-money check (133 names)
+
+Data: Oct 27, 2026 closes; trailing revenue per share and quarterly growth through each company's latest print; GAAP EPS where adjusted was unavailable. Full table: [`changelog.md`](changelog.md).
+
+- **Dead-money watchlist (zero new capital):**
+  - **GFS:** DM-a and DM-b.
+    - DM-a clears when two straight quarters grow revenue ≥5.7% YoY and adjusted EPS ≥13.9% YoY. Q2 was +5.8% revenue and +9.5% adjusted EPS; Q3 reports ~Nov 4.
+    - DM-b clears when Mubadala (72.82%) drops below 50%, or after May 26, 2027 with no further sale.
+  - **QBTS:** DM-a; needs two quarters of ≥20% revenue growth (last two: −0.6%, −81.0%).
+- **Flagged, already out on other gates:** TSLA, INTC, AMKR, AEHR, BKSY, NVTS, SIVE.
+- **Triggered but clear on current quarters:** AAOI, ADI, ALGM, COHR, CORZ, KTOS, MRCY, RDW, RGTI. Re-check at each print.
+- **Open item:** KAP.L majority holder sale history for DM-b.
 
 ## Oct 28, 2026: revision 10 review of CDNS and CLS
 
