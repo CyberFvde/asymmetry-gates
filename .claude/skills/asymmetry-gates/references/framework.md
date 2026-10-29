@@ -1,4 +1,4 @@
-# Framework — forward-leaning (v. Oct 28, 2026, revision 11)
+# Framework — forward-leaning (v. Oct 29, 2026, revision 12)
 
 Forward numbers set the bar; trailing numbers are floors in A–E. Preserve those core floors while distinguishing a material failure from a near-pass or ordinary quarterly noise. G uses an existing cash engine and per-share economics; H is a small, milestone-based path toward a fixed quality destination; M is a small, capped route for mega-cap platforms whose company FCF is temporarily depressed by growth capex; D (revision 7) is a small, capped route for self-funding high-growth companies that fail A1/G3 on equity issuance but still clear a 25% per-share return after all present and projected dilution. Read their defined substitutions before applying core gates to them. Fintech uses the stricter FT overlay. Seek qualified opportunities without requiring a perfect scorecard or forcing an investment quota. Entries depend on evidence and valuation, never solely on a drawdown, rally or bullish theme. The Oct 15 calibration targets 25%+ annualized returns for a concentrated, high-asymmetry growth sleeve; that objective is not a new per-name hurdle, a validated forecast or a promise. Screens rank names with the revision 6 return estimate under C; its 20% screen guardrail decides primary-list placement only, not route eligibility. These thresholds are policy choices, not empirically validated return forecasts. Wider valuation and sizing bands also increase possible losses.
 
@@ -14,6 +14,14 @@ A hard cap, at cost: 25% of the sleeve per name, no exceptions. A 25% position t
 - Capex, universe-wide, no switching by name: cash PP&E. Company FCF = OCF − cash PP&E. Lease-inclusive and JV-inclusive capex are tracked and live in #15 as kill triggers, not gates.
 - "Next-FY" = the fiscal year after the last completed fiscal year. NTM = blended; state the basis.
 - Conflicting figures across sources: stockanalysis governs for #11/#12; Capital IQ governs for #3.
+
+## ID. Ian Dunlap gate — pre-screen, every route (revision 12, Oct 29, 2026)
+
+Run first, before any route gate, PH chart check, DM check or return estimate. A name whose trailing gross margin is under 20% is out, and nothing else is screened.
+
+- **Test.** Trailing-12-month gross margin (gross profit ÷ revenue) ≥20.0%, read from the stockanalysis Statistics page "Gross Margin" field as of the latest reported quarter (quote pages for non-US listings). Where stockanalysis reports no gross margin (banks, insurers and other businesses without a gross-profit line), use its TTM "Operating Margin" against the same 20% bar and say so. stockanalysis governs. No rounding into the gate (19.95% fails). Gross margin sits above most one-time charges and gains, so no adjustments are made. Missing or conflicting margin data = unresolved and zero capital until verified from the company's filings.
+- **Scope.** Every route: A–E, F, G, H, M, D and FT. A loss-making company can pass if its gross margin clears 20%; thin or negative gross margins fail. The mandatory H review applies only to names that pass ID. ID adds a requirement; it relaxes nothing on any route, and the route gates still do the profit and cash tests.
+- **Effect.** A fail is **out (ID)** with zero new capital, recorded with the margin, the TTM period end and the source date; no PH, DM or route work is required. A held name freezes additions and re-tests at its next print. ID alone is never an exit: #15, #19 and the route gates still govern exits. A failing name re-enters screening at the first print that lifts its trailing margin to ≥20%.
 
 ## A. Structural — hard for the A–E core route
 
@@ -78,7 +86,7 @@ Read [stage-paths.md](stage-paths.md) before evaluating any of these routes. **G
 
 **D-dilutive growth** (revision 7) is for a non-FT, non-F company with market cap ≥$10B, trailing FCF margin ≥6% (or positive trailing FCF with a ≥6% FY+1 consensus recovery year) and consensus NTM FCF >0, or D2(c)'s capex-cycle quality branch (OCF margin ≥20%, GAAP operating profit, two FYs of positive OCF, FY+2 FCF recovery to 6%, 24 months funded with a 25% buffer, net debt ≤2.5× EBITDA; at most one such name), that fails A1/G3 on equity or equity-linked issuance. It replaces A1's WASO ceiling and 12-month issuance ban, A2, A3(b)/(c), #9 and #11 with D1–D5: dilution measured forward from today's fully diluted share count (converts at the screen price under their settlement terms), base-case projected dilution ≤8% a year (≤10% in any year), a purpose/premium test for every raise in the last 12 months, forward 3Y CAGR ≥20% with ≥20% growth in each of the next two FYs on organic revenue or on consensus EPS (the EPS leg also needs forward 3Y revenue CAGR ≥10%; revision 8), fwd P/E ≤45 and PEG ≤1.65, and a framework C return restated for projected dilution of ≥25% (≥20% with growth cut 5 points), which must also beat the HWM yardstick. Book debt-to-equity ≤1.99× is added to A4's leverage test. A4, A5–A8, #12, #13, #15, #17, #19 and PH still apply. Other negative-FCF issuers go to H. Starter-size caps only; D is never core until actual A–E qualification.
 
-Every non-FT, non-F name that fails A–E, G, M and D gets a mandatory H review before it is labeled out (Oct 24, 2026); the result, including "H not applicable", is recorded with the screen.
+Every non-FT, non-F name that passes ID but fails A–E, G, M and D gets a mandatory H review before it is labeled out (Oct 24, 2026; ID exception from revision 12); the result, including "H not applicable", is recorded with the screen.
 
 G/H/M/D have their own small position caps and count inside #16's combined budget and relevant factor caps. Missing evidence means watch-only. No stock qualifies from its ticker, theme or mention in the roster. Full rules, promotion and failure conditions live in `stage-paths.md`.
 

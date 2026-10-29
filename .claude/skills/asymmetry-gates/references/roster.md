@@ -1,4 +1,13 @@
-# Roster — Oct 28, 2026 (revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+# Roster — Oct 29, 2026 (revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+
+## Oct 29, 2026: revision 12 ID Ian Dunlap gate check (57 names)
+
+Data: stockanalysis TTM "Gross Margin," pulled Oct 29, 2026; some pages lag the latest print. Full table: [`changelog.md`](changelog.md).
+
+- **Out on ID (zero new capital):** JBL 9.2%, FLEX 9.5%, SMCI 10.8%, CLS 11.5% (already out), TSLA 19.3% (already out).
+- **Pass:** every held/conditional core name, every name on the Oct 28 recovery board and every other live roster name checked, including the H-watch names, whose other gates still bind.
+- **Closest to the line:** GEV 20.57%, CEG 22.11%, KTOS 23.0%, STRL 23.81%. Re-check at each print.
+- **Open items:** TSM, MSFT, NBIS (stale pages) and the rest of the universe.
 
 ## Oct 28, 2026: revision 11 DM dead-money check (133 names)
 

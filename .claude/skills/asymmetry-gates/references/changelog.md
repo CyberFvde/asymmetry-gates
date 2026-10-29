@@ -1,6 +1,45 @@
-# #18 — Rule-change log (policy Oct 28, 2026, revision 11)
+# #18 — Rule-change log (policy Oct 29, 2026, revision 12)
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
+
+## Adopted configuration: Oct 29, 2026, revision 12 (ID Ian Dunlap gate)
+
+### Authorization, scope and adoption basis
+
+Explicit user requests dated Oct 29, 2026: 10:06 am CT, "Add this is a gate to asymmetry gates; if the profit margin is under 20% I don't even look at the chart named the Ian Dunlap gate," and 10:18 am CT, "Also if can be gross not net or whatever the easiest profit margin is that will pass most good compounders." Scope: a pre-screen on every route, run before any route gate or chart work. The user approved the merge at 11:34 am CT ("Merge").
+
+### Change summary (old to new)
+
+- **New ID pre-screen:** TTM gross margin (stockanalysis "Gross Margin") ≥20.0% on every route, run first; operating margin against the same bar where no gross margin is reported. Under 20% = out (ID), zero new capital, nothing else screened. No rounding; missing data = unresolved. Held names freeze additions and re-test at the next print; ID is never an exit by itself.
+- **Knock-on rule text:** the mandatory H review applies only to names that pass ID.
+- **Not changed:** every route threshold, DM, PH, #15, #19 and all caps.
+- **Syncs:** `framework.md` (header, ID section, H-review line), `SKILL.md` (policy line, steps 1 and 3, output format), `README.md`, `stage-paths.md` (header, H note), `roster.md`.
+
+### Rationale
+
+- **The user's first cut:** no chart work below a 20% margin. Route gates, DM and PH follow for survivors.
+- **Why gross margin:** the user asked for the easiest margin that passes most good compounders. A first draft on TTM net margin failed VST, CEG, FIX, VRT, UBER, AMZN, DASH, STRL, BE, NOW, AMD and every H-watch name, and let GEV and MRVL through only on one-time gains. Gross margin passes all 52 names checked and sits above one-time gains, charges and tax items, so no adjustment rule is needed.
+- **What it screens out:** thin-margin business models such as contract manufacturers and server assemblers (JBL 9.2%, FLEX 9.5%, SMCI 10.8%, CLS 11.5%) and TSLA (19.3%).
+
+### Structural and solvency safeguard check
+
+ID removes eligibility only; it relaxes nothing. Known costs:
+
+1. **Weak quality filter on its own.** Loss-making companies with healthy unit economics pass (ASTS 38.9%, RGTI 34.6%), so the route gates, H4a, DM and PH still carry the profit, cash and dilution tests.
+2. **Near-line names can flip on one quarter:** GEV 20.57%, CEG 22.11%, KTOS 23.0%, STRL 23.81%. Re-run at every print.
+3. **Page lag.** Some stockanalysis pages trail fresh prints (GOOGL, MPWR) or served stale cache (TSM, MSFT, NBIS). Verify at screen time.
+
+### Universe impact (57 names; stockanalysis TTM gross margin, pulled Oct 29, 2026)
+
+| Group | Gross margin | ID result |
+|---|---|---|
+| Held / conditional core | NVDA 74.7%, AMAT 49.4%, KLAC 61.3%, LRCX 51.1%, ADI 65.8%, ASML 54.3%, AVGO 75.5%, Samsung 57.5% | All pass |
+| Oct 28 recovery board (chat ranking) | AVGO, GOOGL 60.9%, VST 38.3%, CEG 22.1%, CRDO 67.1%, GEV 20.6%, ASML, MPWR 55.2%, RMBS 79.9%, CDNS 85.7%, META 81.0%, MRVL 52.2%, FIX 25.7%, MTSI 56.5%, VRT 38.0%, UBER 40.8%, TER 59.2% | All pass; GEV and CEG closest |
+| Other live roster names | ANET 63.0%, APP 88.5%, STRL 23.8%, GNRC 39.5%, CIEN 44.1%, LITE 44.2%, BE 31.8%, SKHY 76.3%, MU 80.7%, ALGM 47.4%, NOW 74.8%, AMD 55.7%, DASH 52.2%, NFLX 50.7%, AMZN 50.8%, RDDT 91.4% | All pass |
+| H-watch and convexity names | PL 55.5%, ASTS 38.9%, RKLB 37.3%, QBTS 64.2%, RGTI 34.6%, KTOS 23.0%, AVAV 26.5%, KRMN 41.7%, IREN 68.9%, CRWV 67.4% | All pass; their other gates still bind |
+| Out on ID | JBL 9.2%, FLEX 9.5%, SMCI 10.8%, CLS 11.5%, TSLA 19.3% | Out (CLS and TSLA were already out) |
+
+Unverified: TSM and MSFT (stale pages showing 56.1% and 69.9%), NBIS (stale page, 68.6%) and the rest of the 133-name universe. Run ID on each at the next screen. No name was upgraded.
 
 ## Adopted configuration: Oct 28, 2026, revision 11 (DM dead-money overlay)
 
