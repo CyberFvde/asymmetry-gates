@@ -6,7 +6,7 @@ Rule changes normally take effect at a scheduled or post-print re-test; an expli
 
 ### Authorization, scope and adoption basis
 
-Explicit user request dated Nov 3, 2026, 2:04 pm CT: "Both," choosing both offered options (a +0.1 bump for current Pelosi holdings and a 12-month buy window) after asking why AVGO and other Pelosi holdings got no boost. Scope: PB ranking boost only. Takes effect when the user approves the PR.
+Explicit user request dated Nov 3, 2026, 2:04 pm CT: "Both," choosing both offered options (a +0.1 bump for current Pelosi holdings and a 12-month buy window) after asking why AVGO and other Pelosi holdings got no boost. Scope: PB ranking boost only. The user approved the merge at 2:09 pm CT ("Bet so final rankings and merge").
 
 ### Change summary (old to new)
 
