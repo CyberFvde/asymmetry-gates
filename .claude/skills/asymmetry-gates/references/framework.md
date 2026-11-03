@@ -1,4 +1,4 @@
-# Framework — forward-leaning (v. Oct 29, 2026, revision 12)
+# Framework — forward-leaning (v. Nov 3, 2026, revision 13)
 
 Forward numbers set the bar; trailing numbers are floors in A–E. Preserve those core floors while distinguishing a material failure from a near-pass or ordinary quarterly noise. G uses an existing cash engine and per-share economics; H is a small, milestone-based path toward a fixed quality destination; M is a small, capped route for mega-cap platforms whose company FCF is temporarily depressed by growth capex; D (revision 7) is a small, capped route for self-funding high-growth companies that fail A1/G3 on equity issuance but still clear a 25% per-share return after all present and projected dilution. Read their defined substitutions before applying core gates to them. Fintech uses the stricter FT overlay. Seek qualified opportunities without requiring a perfect scorecard or forcing an investment quota. Entries depend on evidence and valuation, never solely on a drawdown, rally or bullish theme. The Oct 15 calibration targets 25%+ annualized returns for a concentrated, high-asymmetry growth sleeve; that objective is not a new per-name hurdle, a validated forecast or a promise. Screens rank names with the revision 6 return estimate under C; its 20% screen guardrail decides primary-list placement only, not route eligibility. These thresholds are policy choices, not empirically validated return forecasts. Wider valuation and sizing bands also increase possible losses.
 
@@ -73,7 +73,7 @@ Run first, before any route gate, PH chart check, DM check or return estimate. A
 ## F. Signal sleeve — separate from A–E; ≤10% of portfolio, ≤3% per name, max 3 names
 
 - F1. Quality floor (numeric class floor): trailing FCF margin ≥10%; EBITDA margin ≥30%; net debt/EBITDA ≤3.25× and interest coverage ≥3.5×; ROIC ≥ WACC; fwd P/E ≤15 and PEG ≤0.75; EV/EBITDA ≤11; 3Y EPS CAGR ≥25%; top-2/oligopoly; end-market > GDP; no issuance/converts in trailing 12 months, gross buybacks >0 in the last 4Q; PT ≥+25% with ≥15 analysts, or FCF yield ≥4%.
-- F2. Signal (entry trigger, within 30 days of the Form 4): open-market purchase by CEO/CFO/founder ≥$2M AND ≥5% of existing holding, OR ≥3 insiders buying in 90 days; 10b5-1, option exercises and grants don't count. Politician disclosures are a tie-breaker only — never a trigger — and only if their purchase price ≤ current price.
+- F2. Signal (entry trigger, within 30 days of the Form 4): open-market purchase by CEO/CFO/founder ≥$2M AND ≥5% of existing holding, OR ≥3 insiders buying in 90 days; 10b5-1, option exercises and grants don't count. Politician disclosures never trigger F2; where one qualifies, it adds only the PB ranking boost (revision 13).
 - F3. Sector metrics override #19 here: IPPs/commodity names use adjusted EBITDA and FCF-before-growth vs own guidance midpoint, not GAAP revenue/EPS.
 - F4. Kill triggers, written at entry: signaling insider sells any shares within 12 months → out; net debt/EBITDA >3.5×; adjusted EBITDA guide cut; 12 months with no improvement in the named thesis metric → out. Max hold 24 months without a re-qualifying signal.
 - F5. No cross-contamination: F names never count toward #16, never get A–E exceptions; #18 applies to F's own rules.
@@ -101,6 +101,16 @@ Blocks new capital in a name the evidence says may not move for years, even when
 - **DM-a. Unproven hockey stick.** Flag when trailing 3-year revenue-per-share CAGR is ≤5% (TTM vs the TTM ending three years earlier, average diluted shares) AND either the forward 3Y revenue CAGR is at least 10 points above it or the forward 3Y EPS CAGR is ≥20%. It clears when each of the two latest reported quarters shows organic revenue growth YoY ≥ the lower of half the forward 3Y revenue CAGR and 20%; where a forward EPS CAGR ≥20% triggered the flag, adjusted EPS growth YoY in both quarters must also be ≥ the lower of half the forward 3Y EPS CAGR and 20%. Companies without a meaningful revenue base three years ago are exempt; H already governs them.
 - **DM-b. Controlling-seller overhang.** Flag when a holder of ≥50% of the economic shares sold any shares (marketed secondary, block, Rule 144 or a sale program) in the trailing 12 months, or has an announced sale or resale registration pending. It clears when that stake falls below 50% or 12 months pass with no sale. Company buybacks alongside the sale do not clear it.
 - **Effect.** A DM-flagged name gets zero new capital on every route and sits on a dead-money watchlist with its numeric clearing condition written down. A held name freezes additions; DM alone is never an exit, and route gates, #15 and #19 still govern exits. Record the trailing and forward figures, the two quarters' growth, any controlling holder's stake and last sale date, and the source dates.
+
+## PB. Politician-buy boost — ranking only, every route (revision 13, Nov 3, 2026)
+
+A qualifying disclosed buy by Nancy Pelosi's household or Donald Trump lifts a name in the rankings. It never creates eligibility.
+
+- **Pelosi:** an open-market purchase of shares or long call options by Nancy Pelosi or her spouse, on a House periodic transaction report filed within the last 6 months. Option exercises, gifts, sales and puts don't count.
+- **Trump:** a single disclosed purchase whose reported amount range starts at $1M or more, on an OGE 278-T filed within the last 6 months. His accounts are trustee-managed with heavy turnover, so smaller lines don't count.
+- **Price test:** today's close is at or below the stock's price on at least one qualifying transaction date (the underlying's price for call options). Record the filing date, transaction date, instrument, amount range and that price.
+- **Boost:** +0.2 on the 50/50 asymmetry and time-to-record ranking score when either qualifies, +0.3 when both do; on the framework's primary ranked list, +2 percentage points to the framework C return estimate for ordering only (not for the ≥20% guardrail). A boosted name also wins exact ties.
+- **Limits:** ranking only. PB never passes or waives a gate, #19, ID, DM or PH, never unlocks capital, changes sizing or caps, and never triggers F2. A politician sale removes nothing. The boost lapses when the 6-month window closes or the price test fails at the next screen.
 
 ## PH. Price-health overlay — every route
 

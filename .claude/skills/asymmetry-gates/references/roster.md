@@ -1,4 +1,12 @@
-# Roster — Oct 29, 2026 (revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+# Roster — Nov 3, 2026 (revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+
+## Nov 3, 2026: revision 13 PB politician-buy check
+
+Ranking only; no status, eligibility or sizing changes. Full table: [`changelog.md`](changelog.md).
+
+- **UBER: +0.2.** Pelosi $50 calls (Mar 2027) bought May 29, 2026 at ~$70, filed Jun 23; $65.25 close passes the price test. Lapses after Dec 23, 2026.
+- **BE: none yet.** Pelosi shares near $185/$167 and $100 calls, filed Aug 21; qualifies at ≤$185 until Feb 21, 2027.
+- **Trump:** no qualifying $1M+ buy found in board names; full Q3 2026 file not yet reviewed.
 
 ## Oct 29, 2026: revision 12 ID Ian Dunlap gate check (57 names)
 
