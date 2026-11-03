@@ -6,7 +6,7 @@ Rule changes normally take effect at a scheduled or post-print re-test; an expli
 
 ### Authorization, scope and adoption basis
 
-Explicit user requests dated Nov 3, 2026: 1:51 pm CT, "Nah Pelosi or trump should be a boost to buy," and 1:53 pm CT, "Ya do that," approving the proposed +0.2 boost. Scope: ranking only, on every route. Takes effect when the user approves the PR.
+Explicit user requests dated Nov 3, 2026: 1:51 pm CT, "Nah Pelosi or trump should be a boost to buy," and 1:53 pm CT, "Ya do that," approving the proposed +0.2 boost. Scope: ranking only, on every route. The user approved the merge at 1:58 pm CT ("Approve").
 
 ### Change summary (old to new)
 
