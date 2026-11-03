@@ -1,4 +1,11 @@
-# Roster — Nov 3, 2026 (revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+# Roster — Nov 3, 2026 (revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+
+## Nov 3, 2026: revision 14 PB holdings bump and 12-month window
+
+Ranking only. Full table: [`changelog.md`](changelog.md).
+
+- **Buy boost (+0.2):** UBER (May 29 calls, ~$70), GOOGL (Dec 30, 2025 calls at $314.19; window to Jan 23, 2027).
+- **Holding bump (+0.1):** AVGO (20,000 shares), AMZN (calls fail the $232.11 price test), VST (5,000 shares), BE (shares; becomes +0.2 at ≤$185).
 
 ## Nov 3, 2026: revision 13 PB politician-buy check
 
