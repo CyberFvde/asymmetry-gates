@@ -1,6 +1,45 @@
-# #18 — Rule-change log (policy Oct 29, 2026, revision 12)
+# #18 — Rule-change log (policy Nov 3, 2026, revision 13)
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
+
+## Adopted configuration: Nov 3, 2026, revision 13 (PB politician-buy boost)
+
+### Authorization, scope and adoption basis
+
+Explicit user requests dated Nov 3, 2026: 1:51 pm CT, "Nah Pelosi or trump should be a boost to buy," and 1:53 pm CT, "Ya do that," approving the proposed +0.2 boost. Scope: ranking only, on every route. The user approved the merge at 1:58 pm CT ("Approve").
+
+### Change summary (old to new)
+
+- **Old (F2):** politician disclosures were a tie-breaker only, never a trigger, and only if the purchase price was at or above the current price.
+- **New PB overlay:** a Pelosi-household open-market buy of shares or long calls, or a single Trump buy with a reported range starting at $1M+, filed within 6 months, with today's close at or below the stock's price on a qualifying transaction date, adds +0.2 to the asymmetry/time ranking score (+0.3 if both qualify), or +2 points to the framework C return estimate for ordering only. Exercises, gifts, sales and puts don't count.
+- **Not changed:** every gate, route, overlay, #19, F2's insider-buy trigger, sizing and caps.
+- **Syncs:** `framework.md` (header, F2 sentence, PB section), `SKILL.md` (policy line, step 7), `README.md`, `roster.md`.
+
+### Rationale
+
+- **The user's call:** he reports strong results following Pelosi and Trump disclosures and wants their buys to lift a name, beyond a tie-break.
+- **Why +0.2:** on the current board, #3 to #20 span about 1.3 points, so +0.2 moves a name two to four places without rescuing a weak score.
+- **Why the Trump floor:** his accounts are trustee-managed (a revocable family trust, not a blind trust) and logged 1,156 trades in Q3 2026, filed in quarterly batches 7–9 weeks late. Only $1M+ lines are likely to reflect a deliberate position.
+- **Why the price test:** paying no more than the politician did keeps the signal from becoming a chase after a disclosure-driven pop.
+
+### Structural and solvency safeguard check
+
+PB orders names; it relaxes no gate and adds no capital. Known costs:
+
+1. **Disclosure lag.** House reports run up to 45 days late and Trump's 7–9 weeks, so much of any move can happen before the filing.
+2. **No edge guarantee.** The Pelosi household bought Intel in July 2026, right before its worst day since 1974; it is down roughly a third or more since.
+3. **Options noise.** Long-dated calls show direction, not size; amount ranges are wide.
+
+### Universe impact (board names, Nov 2, 2026 closes)
+
+| Name | Disclosure | Price test | PB today |
+|---|---|---|---|
+| UBER | Pelosi bought 200 $50 calls (Mar 2027) on May 29, 2026 at ~$70; filed Jun 23 | $65.25 ≤ ~$70 | **+0.2** (window to Dec 23, 2026) |
+| BE | Pelosi bought 15,000 shares near $185 (Jul 24) and $167 (Jul 28) plus 200 $100 calls (Jun 2027); filed Aug 21 | $196.25 > $185 | None until ≤$185 (window to Feb 21, 2027) |
+| GOOGL, AMZN, NVDA | Pelosi calls and exercises filed Jan 23, 2026 | n/a | Window closed |
+| INTC | Pelosi shares and calls, Jul 2026 | n/a | Not on the board (other gates) |
+
+Trump: no qualifying $1M+ buy found in board names; the Q3 2026 preview showed AMZN and MSFT sales ($5–25M each, Jul 20). The full Q3 CSV was not reviewed; check it at the next screen. No name was upgraded on any gate.
 
 ## Adopted configuration: Oct 29, 2026, revision 12 (ID Ian Dunlap gate)
 
