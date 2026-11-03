@@ -1,6 +1,41 @@
-# #18 — Rule-change log (policy Nov 3, 2026, revision 14)
+# #18 — Rule-change log (policy Nov 3, 2026, revision 15)
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
+
+## Adopted configuration: Nov 3, 2026, revision 15 (IX index-leader bonus)
+
+### Authorization, scope and adoption basis
+
+Explicit user request dated Nov 3, 2026, 2:11 pm CT: "Also another play, include bonuses for them if they are in top holdings of major indexes." Scope: ranking only, every route. Takes effect when the user approves the PR.
+
+### Change summary (old to new)
+
+- **New IX bonus:** +0.1 per index where the company is a top-10 holding by weight of the S&P 500 or Nasdaq-100 (share classes combined), +0.2 for both; +1 point of framework C return estimate per index on the primary list, ordering only. Stacks with PB.
+- **Not changed:** every gate, route, overlay, PB, sizing and caps.
+- **Syncs:** `framework.md` (header, IX section), `SKILL.md` (policy line, step 7), `README.md`, `roster.md`.
+
+### Rationale
+
+- **The user's call:** index leaders get steady passive buying and are the market's most liquid, most-covered names.
+- **Why top 10 and +0.1:** the top 10 is the standard "top holdings" list on both funds' fact sheets; +0.1 per index keeps the bonus below PB's +0.2 for a fresh buy.
+- **Share classes combined:** Alphabet's two classes are one company; split, GOOGL alone would rank #10 in the Nasdaq-100 (2.67%) with GOOG at #13.
+
+### Structural and solvency safeguard check
+
+Ranking only; no gate, capital or sizing effect. Known cost: it tilts the board further toward the largest names, which already lead it, and adds momentum exposure (weights rise with price). Index ranks move with prices, so refresh at every screen.
+
+### Universe impact (SPY weights Nov 2, 2026 per ChartRow, from Jun 30 holdings; QQQ holdings Oct 30, 2026 per ETFIQ)
+
+| Name | S&P 500 rank | Nasdaq-100 rank | IX |
+|---|---|---|---|
+| GOOGL | #4 (4.54%, classes combined) | #3 combined (5.17%) | +0.2 |
+| AMZN | #5 (3.70%) | #5 (4.21%) | +0.2 |
+| META | #7 (2.06%) | #8 (2.97%) | +0.2 |
+| AVGO | #6 (2.36%) | #12 (2.52%) | +0.1 |
+| AMAT, LRCX | outside top 25 | #18, #19 | 0 |
+| All other board names | outside top 25 | #27 or lower, or not held | 0 |
+
+No name was upgraded on any gate.
 
 ## Adopted configuration: Nov 3, 2026, revision 14 (PB holdings bump and 12-month window)
 
