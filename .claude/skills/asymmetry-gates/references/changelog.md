@@ -1,6 +1,44 @@
-# #18 — Rule-change log (policy Nov 3, 2026, revision 13)
+# #18 — Rule-change log (policy Nov 3, 2026, revision 14)
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
+
+## Adopted configuration: Nov 3, 2026, revision 14 (PB holdings bump and 12-month window)
+
+### Authorization, scope and adoption basis
+
+Explicit user request dated Nov 3, 2026, 2:04 pm CT: "Both," choosing both offered options (a +0.1 bump for current Pelosi holdings and a 12-month buy window) after asking why AVGO and other Pelosi holdings got no boost. Scope: PB ranking boost only. The user approved the merge at 2:09 pm CT ("Bet so final rankings and merge").
+
+### Change summary (old to new)
+
+- **Buy window:** 6 months → 12 months, for Pelosi and Trump buys alike. Price test unchanged.
+- **New holding bump:** +0.1 when the Pelosi household still holds the stock on its latest disclosures (exercises included, no later full sale), with no price test, applied only when no buy boost applies to that name. Trump holdings don't count.
+- **Cap:** total PB +0.3 per name. On the framework's primary list, +1 point of return estimate for a holding, ordering only.
+- **Not changed:** every gate, route, overlay, #19, F2, sizing and caps.
+- **Syncs:** `framework.md` (header, PB section), `SKILL.md` (policy line, step 7), `README.md`, `roster.md`.
+
+### Rationale
+
+- **Holdings:** the user wants long-held Pelosi positions (AVGO from the June 2025 exercise, VST, AMZN) to count. They show conviction but carry no timing signal, so they get half the buy boost.
+- **No double count:** a name with a qualifying buy (UBER calls) is not bumped again for holding the same position.
+- **Trump holdings excluded:** his trustee-managed portfolio holds hundreds of names, so a holding says nothing about him.
+- **12 months:** the user chose to count last winter's buys; the price test still blocks chasing.
+
+### Structural and solvency safeguard check
+
+Ranking only; no gate, capital or sizing effect. Known costs: (1) holdings data is stale between filings, and a partial trim isn't visible, so the bump can outlive her conviction; (2) a 12-month window counts older views, partly offset by the price test.
+
+### Universe impact (board names, Nov 2, 2026 closes)
+
+| Name | Basis | PB before → after | Board score |
+|---|---|---|---|
+| GOOGL | Pelosi $150 calls (Jan 2027) bought Dec 30, 2025 at $314.19; filed Jan 23, 2026; $279.84 passes | 0 → +0.2 buy (window to Jan 23, 2027) | 5.7 → 5.9 |
+| AMZN | $120 calls bought Dec 30, 2025 at $232.11 fail the price test ($240.35); still held | 0 → +0.1 holding | 5.9 → 6.0 |
+| AVGO | 20,000 shares from the June 2025 exercise; no sale disclosed | 0 → +0.1 holding | 6.1 → 6.2 |
+| VST | 5,000 shares from the Jan 2026 exercise | 0 → +0.1 holding | 5.5 → 5.6 |
+| UBER | May 29, 2026 calls; buy boost already applies | +0.2 (unchanged) | 4.6 |
+| BE | July 2026 shares held; buy fails the price test until ≤$185 | 0 → +0.1 holding | 4.3 → 4.4 |
+
+No name was upgraded on any gate.
 
 ## Adopted configuration: Nov 3, 2026, revision 13 (PB politician-buy boost)
 
