@@ -6,7 +6,7 @@ Rule changes normally take effect at a scheduled or post-print re-test; an expli
 
 ### Authorization, scope and adoption basis
 
-Explicit user request dated Nov 3, 2026, 2:11 pm CT: "Also another play, include bonuses for them if they are in top holdings of major indexes." Scope: ranking only, every route. Takes effect when the user approves the PR.
+Explicit user request dated Nov 3, 2026, 2:11 pm CT: "Also another play, include bonuses for them if they are in top holdings of major indexes." Scope: ranking only, every route. The user approved it at 12:48 pm CT on Nov 4 as part of committing the recovery-board methodology ("commit this bad boy to our methodology").
 
 ### Change summary (old to new)
 
