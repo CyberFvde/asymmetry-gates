@@ -16,10 +16,11 @@ Dead money = more than 2.7 years to the high; those names are removed. Prices ab
 | 7 | META | 4.6 | 1.4 |
 | 9 | ASML | 4.5 | 1.5 |
 | 10 | VRT | 4.4 | 2.3 |
-| 11 | BE | 4.25 | 1.9 |
-| 12 | UBER | 4.19 | 2.3 |
+| 10 | ETN | 4.37 | 1.4 |
+| 12 | BE | 4.25 | 1.9 |
+| 13 | UBER | 4.19 | 2.3 |
 
-- **ETN:** 4.6 (0.9 years) if at or below $390.97.
+- **ETN:** $354 per the user at 1:39 pm CT, 23% below its $459.96 high; taper weight 0.2 on the $484.10 target, PO −0.1.
 - **Removed as dead money:** VST 5.5 (2.9 years), RMBS 4.5 (2.8), LRCX 4.4 (3.0), KLAC 4.4 (3.1), AMAT 4.4 (3.1), MTSI 4.2 (2.74), TER 4.2 (2.9), FIX 4.2 (2.9).
 
 ## Nov 4, 2026: revision 16 recovery-board snapshot (about 1:30 pm ET)
