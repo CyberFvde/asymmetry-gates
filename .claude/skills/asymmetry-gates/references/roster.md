@@ -19,9 +19,11 @@ Scored with [`recovery-board.md`](recovery-board.md) and `scripts/recovery_score
 | 11 | RMBS | 4.5 | 2.8 | | Yes |
 | 11 | ASML | 4.5 | 1.5 | | |
 | 13 | VRT, LRCX, KLAC, AMAT | 4.4 | 2.3–3.1 | VRT PO −0.1 | Yes |
-| 17 | UBER | 4.3 | 2.3 | PB +0.2 | Yes |
+| 17 | BE | 4.25 | 1.9 | PB +0.1 | |
+| 18 | MTSI | 4.20 | 2.7 | | Yes |
+| 19 | UBER | 4.19 | 2.3 | PB +0.2; discount 20% → 25% after Waymo began unwinding its robotaxi partnership (Nov 4 update) | Yes |
 
-- **Below the cutoff:** BE 4.25, MTSI 4.2, TER 4.2, FIX 4.2 (PO −0.2), CIEN 3.0, STRL ~0.6–0.9 (PO −0.2).
+- **Below the cutoff (UBER 4.19):** TER 4.18, FIX 4.17 (PO −0.2), CIEN 3.0, STRL ~0.6–0.9 (PO −0.2).
 - **Not ranked:** AMZN (5.3% below its high after +7%); MRVL (Lumentum deal shares breach the 50% dilution budget); FN (12% gross margin); NBIS, NET (GAAP losses, convexity scores under the cutoff).
 
 ## Nov 3, 2026: revision 15 IX index-leader bonus
