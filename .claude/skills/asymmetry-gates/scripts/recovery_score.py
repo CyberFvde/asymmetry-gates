@@ -10,7 +10,7 @@ import math
 
 def score(price, high, target=None, d=0.15, bear=0.25, g=0.20,
           fpe_now=None, fpe_at_high=None, force=None,
-          pb=0.0, ix=0.0, po=0.0, penalty_k=0.15):
+          pb=0.0, ix=0.0, po=0.0, penalty_k=0.15, max_years=2.7):
     """Return a dict with the final score and its parts, or the exclusion reason."""
     below = 1 - price / high
     to_high = high / price - 1
@@ -18,8 +18,8 @@ def score(price, high, target=None, d=0.15, bear=0.25, g=0.20,
         return {"excluded": "less than 15% below the high", "below": below}
     g = min(g, 0.35)
     years = math.log(1 + to_high) / math.log(1 + g)
-    if years > 5:
-        return {"excluded": "more than 5 years to the high", "years": years}
+    if years > max_years:
+        return {"excluded": f"dead money: more than {max_years} years to the high", "years": years}
 
     # Target weight: full target at 15% below, full high at 25%, blended between.
     w = min(1.0, max(0.0, (0.25 - below) / 0.10))
