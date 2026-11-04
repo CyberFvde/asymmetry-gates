@@ -40,7 +40,7 @@ The high-IRR ranking used for contest picks and quick comparisons. It scores how
 ## Labels
 
 - **DM-2yr:** more than 2 years to the 5-year high (the user's dead-money definition). The time penalty already scores it; the label flags it.
-- **Board cutoff:** the user sets it (Nov 4: UBER's score and above).
+- **Board cutoff:** the user sets it (Nov 4: UBER's score and above). Names within 0.05 of the cutoff score also make the board (Nov 4 addendum).
 
 ## Known limits
 

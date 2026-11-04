@@ -22,8 +22,10 @@ Scored with [`recovery-board.md`](recovery-board.md) and `scripts/recovery_score
 | 17 | BE | 4.25 | 1.9 | PB +0.1 | |
 | 18 | MTSI | 4.20 | 2.7 | | Yes |
 | 19 | UBER | 4.19 | 2.3 | PB +0.2; discount 20% → 25% after Waymo began unwinding its robotaxi partnership (Nov 4 update) | Yes |
+| 20 | TER | 4.18 | 2.9 | Within the 0.05 cutoff band | Yes |
+| 21 | FIX | 4.17 | 2.9 | PO −0.2; within the 0.05 cutoff band | Yes |
 
-- **Below the cutoff (UBER 4.19):** TER 4.18, FIX 4.17 (PO −0.2), CIEN 3.0, STRL ~0.6–0.9 (PO −0.2).
+- **Below the cutoff band (UBER 4.19, band to 4.14):** CIEN 3.0, STRL ~0.6–0.9 (PO −0.2).
 - **Not ranked:** AMZN (5.3% below its high after +7%); MRVL (Lumentum deal shares breach the 50% dilution budget); FN (12% gross margin); NBIS, NET (GAAP losses, convexity scores under the cutoff).
 
 ## Nov 3, 2026: revision 15 IX index-leader bonus

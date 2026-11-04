@@ -30,6 +30,10 @@ Explicit user request dated Nov 4, 2026, 12:48 pm CT: "commit this bad boy to ou
 
 Ranking only; nothing here unlocks capital or loosens a gate. Known costs: (1) the growth-only timeline is conservative for cyclicals that recover by re-rating; (2) d, b, g and PO are judgment inputs and must be recorded with each score; (3) g is capped at 35%, so AVGO scores 6.2 rather than the 6.3 shown in chat with its implied 36.9%.
 
+### Addendum: cutoff band (Nov 4, 2026, 1:01 pm CT)
+
+User: "You can include Ter and Fix if they're pretty close." Names within 0.05 of the cutoff score now make the board; TER (4.18) and FIX (4.17) join under UBER (4.19). Ranking only.
+
 ### Universe impact (Nov 4, 2026, about 1:30 pm ET)
 
 Snapshot in [`roster.md`](roster.md). Cutoff at UBER (4.3): AVGO 6.2, GOOGL 5.8, VST 5.5, CEG 5.2, GEV 4.9, MPWR 4.7, CDNS 4.7, ETN 4.6 (only at ≤$390.97), CRDO 4.6, META 4.6, RMBS 4.5, ASML 4.5, VRT/LRCX/KLAC/AMAT 4.4, UBER 4.3. CIEN now scores (3.0) under the 10-year high. No gate status changed.
