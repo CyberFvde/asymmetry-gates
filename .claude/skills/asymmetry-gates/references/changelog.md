@@ -36,6 +36,10 @@ Ranking only; nothing here unlocks capital or loosens a gate. Known costs: (1) c
 - **Revision noise band:** d rises 10 points only when 90-day estimates fell 2% or more. Smaller dips are routine wiggle (AVGO −0.8%, UBER −0.3% post-print) and shouldn't move a score by 0.1. The target haircut still applies to any decline.
 - **Prices:** one intraday snapshot (about 1:30 pm ET) for every name, so the UBER anchor and the board share the same moment; reliable closing quotes for all 23 names weren't reachable.
 
+### Addendum: net cash scores full marks on debt (Nov 4, 2026, 4:48 pm CT)
+
+User, relaying the council's recommendation: "Commit the Revision 17 net-cash addendum and add BKNG (5.73) to the board—leave DASH off." The debt factor now scores 10 whenever stockanalysis shows positive net cash. Gross Debt / EBITDA was treating convertible-note proceeds held as cash as leverage (ONTO 4.8x and CAMT 3.6x gross while net cash). Board effect: MTSI 5.17 → 5.39, AMAT 5.89 → 5.95, GOOGL 5.65 → 5.72, GEV 4.88 → 4.92. UBER has net debt, so the 4.46 line is unchanged. Ranking only.
+
 ### Universe impact
 
 Board of 14 (was 13): CRDO, AVGO, TER, FIX, LRCX, ASML, MPWR, AMAT, GOOGL, MTSI, META, GEV, VRT, UBER. Joined: TER, FIX, LRCX, AMAT, MTSI (no longer dead money at consensus growth). Left: CEG (no fair value), CDNS, ETN, BE (below the line). VST, RMBS, KLAC and STRL stay off. Details in [`roster.md`](roster.md).

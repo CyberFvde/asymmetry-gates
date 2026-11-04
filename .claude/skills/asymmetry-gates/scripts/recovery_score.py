@@ -24,7 +24,7 @@ def _lin(x, lo, hi):
     return max(0.0, min(10.0, 10.0 * (x - lo) / (hi - lo)))
 
 
-def quality(eg, opm, ocf_margin, fcf_margin, roic, debt_ebitda, rev90):
+def quality(eg, opm, ocf_margin, fcf_margin, roic, debt_ebitda, rev90, net_cash=None):
     """Six factors, 0-10 each, averaged. Percent inputs in percent; rev90 as a fraction.
 
     eg: consensus 3-year EPS growth forecast; opm: TTM operating margin;
@@ -32,7 +32,9 @@ def quality(eg, opm, ocf_margin, fcf_margin, roic, debt_ebitda, rev90):
     (stops customer prepayments, e.g. GEV, from passing as quality); roic: stockanalysis
     method (EBIT after actual tax over average debt + equity - cash); debt_ebitda: stockanalysis
     Debt / EBITDA (0 when there is no debt); rev90: 90-day change in next-year consensus EPS
-    (None = no data, scored neutral).
+    (None = no data, scored neutral); net_cash: stockanalysis Net Cash ($B). Positive net cash
+    scores the debt factor 10 (Nov 4 addendum: convert cash sitting on the balance sheet
+    is not leverage).
     """
     cash = min((ocf_margin + fcf_margin) / 2, opm + 10)
     f = {
@@ -40,7 +42,8 @@ def quality(eg, opm, ocf_margin, fcf_margin, roic, debt_ebitda, rev90):
         "margin": _lin(opm, 0, 40),
         "cash": _lin(cash, 0, 30),
         "roic": _lin(roic, 0, 30) if roic is not None else None,
-        "debt": 10.0 if debt_ebitda <= 0.5 else _lin(4.0 - debt_ebitda, 0, 3.5),
+        "debt": 10.0 if (debt_ebitda <= 0.5 or (net_cash is not None and net_cash > 0))
+        else _lin(4.0 - debt_ebitda, 0, 3.5),
         "revisions": _lin(rev90 * 100, -10, 10) if rev90 is not None else 5.0,
     }
     vals = [v for v in f.values() if v is not None]
@@ -49,7 +52,7 @@ def quality(eg, opm, ocf_margin, fcf_margin, roic, debt_ebitda, rev90):
 
 def score(price, high, target, eg, opm, ocf_margin, fcf_margin, roic, debt_ebitda,
           rev90=None, ntm_eps=None, fpe_hist=None, d=0.15, bear=0.25,
-          pb=0.0, ix=0.0, po=0.0, max_years=MAX_YEARS):
+          pb=0.0, ix=0.0, po=0.0, max_years=MAX_YEARS, net_cash=None):
     """Return the final score and its parts, or the reason the name is off the board.
 
     ntm_eps + fpe_hist (the last 20 quarterly forward P/Es) give the multiple leg;
@@ -64,7 +67,7 @@ def score(price, high, target, eg, opm, ocf_margin, fcf_margin, roic, debt_ebitd
         return {"excluded": f"dead money: {years:.2f} years to the high at consensus growth",
                 "years": round(years, 2)}
 
-    q, factors = quality(eg, opm, ocf_margin, fcf_margin, roic, debt_ebitda, rev90)
+    q, factors = quality(eg, opm, ocf_margin, fcf_margin, roic, debt_ebitda, rev90, net_cash)
 
     # Fair value 12 months out: half revision-adjusted target, half multiple-based value.
     tgt = target * (1 + rev90) if (rev90 is not None and rev90 < 0) else target

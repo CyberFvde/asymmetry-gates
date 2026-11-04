@@ -24,10 +24,11 @@ Six factors, each 0–10 on fixed ranges, averaged (a missing factor drops out o
 | Margin | TTM operating margin | 0% | 40%+ |
 | Cash | average of TTM OCF and FCF margins, capped at operating margin + 10 points | 0% | 30%+ |
 | Return on capital | stockanalysis ROIC (EBIT after actual tax ÷ average debt + equity − cash) | 0% | 30%+ |
-| Debt | Debt / EBITDA | 4.0x | 0.5x or less |
+| Debt | Debt / EBITDA; full marks whenever stockanalysis shows net cash | 4.0x | 0.5x or less, or net cash |
 | Revisions | Yahoo EPS trend: next-year consensus EPS, now vs 90 days ago | −10% | +10% |
 
 - The cash cap stops customer prepayments (GEV) from passing as quality. Averaging OCF with FCF credits heavy reinvestment (GOOGL, META) while still docking capex that hasn't proven its return.
+- Net cash scores the debt factor 10 even when gross Debt / EBITDA is high (convert proceeds held as cash, e.g. MTSI, ONTO; Nov 4 addendum).
 - No revision data scores neutral (5). Compute a missing ROIC with the stockanalysis method rather than a different formula.
 
 ## Fair value
