@@ -1,50 +1,62 @@
-# Recovery board — 50/50 asymmetry and time-to-high ranking (revision 16, Nov 4, 2026)
+# Recovery board: fundamentals-first contest ranking (revision 17, Nov 4, 2026)
 
-The high-IRR ranking used for contest picks and quick comparisons. It scores how much a name can make per unit of risk and how fast it can get back to its high. It orders names only: framework gates (ID, #19 blackouts), dilution limits, sizing and caps still apply. Scorer: [`../scripts/recovery_score.py`](../scripts/recovery_score.py).
+The high-IRR ranking used for contest picks and quick comparisons. Half the score is business quality; the other half is how much the stock can make over the next 12 months against its fair value, per unit of risk. Distance to the high only decides who enters (15% minimum) and who is dead money. It orders names only: framework gates (ID, #19 blackouts), dilution limits, sizing and caps still apply. Scorer: [`../scripts/recovery_score.py`](../scripts/recovery_score.py); dated inputs: [`../scripts/board_2026_11_04.py`](../scripts/board_2026_11_04.py).
 
 ## Universe
 
 - **Pool:** underlyings of US-listed leveraged single-stock ETFs (any launch year), plus names the user adds.
 - **Excluded before scoring:**
   - ETFs, and companies trading on pending deal terms (CART, LITE, ACLS).
-  - Less than 15% below the high.
+  - Less than 15% below the high (highest split-adjusted close in the last 10 years).
   - ID fail: TTM gross margin under 20% (framework ID).
   - Dilution: trailing 12-month share growth + undrawn ATM + maximum pending deal shares over 50% of current shares (the IREN rule, H4a's budget). One-time strategic mergers count unless the user exempts them.
-  - More than 2.7 years to the high at the name's growth assumption (dead money; replaces the earlier 5-year "may never return" cut).
-- **Convexity bucket:** GAAP-unprofitable (TTM net income below zero) or binary names. They can still rank, but only on convexity inputs: discount ≥30–35%, bear ≥ −45% to −50%, growth ≤35%.
+  - **Dead money:** more than 2.7 years to the high when the price compounds at consensus 3-year EPS growth (capped at 35%). No credit for re-rating: a name has to earn its way back.
+  - **No fair value:** more than 35% below the high, estimates not rising over 90 days, and no usable 5-year P/E history.
+- **Convexity bucket:** GAAP-unprofitable (TTM net income below zero) or binary names can still rank, but only with convexity judgment inputs: d ≥30–35%, bear ≥45–50%.
 
-## Inputs
+## Quality (50%)
 
-- **High:** highest split-adjusted close in the last 10 years (Nov 4 change; was all-time high). Use closes, not intraday highs.
-- **Price:** latest close, or a timestamped intraday quote when repricing during the session.
-- **Analyst target:** 12-month average (stockanalysis; MarketBeat when fresher). Record the source date.
-- **Target weight w:**
-  - w = clip((25% − drawdown) ÷ 10%, 0, 1): fully on the target at 15% below the high, fully on the high at 25%, blended in between.
-  - w = 1 when the high was set at more than 2x today's forward P/E (forward EV/sales or P/B when EPS is negative).
-- **Upside:** w × (target ÷ price − 1) + (1 − w) × (high ÷ price − 1).
-- **Risk discount d:** the name's own "never gets back" risk. The target leg uses max(20%, d); blend with w.
-- **Bear case b:** a plausible drop from today's price.
-- **Growth g:** expected earnings growth, capped at 35%. Years = ln(high ÷ price) ÷ ln(1 + g).
+Six factors, each 0–10 on fixed ranges, averaged (a missing factor drops out of the average):
+
+| Factor | Source | 0 points | 10 points |
+|---|---|---|---|
+| Growth | stockanalysis 3-year EPS growth forecast | 0% | 30%+ |
+| Margin | TTM operating margin | 0% | 40%+ |
+| Cash | average of TTM OCF and FCF margins, capped at operating margin + 10 points | 0% | 30%+ |
+| Return on capital | stockanalysis ROIC (EBIT after actual tax ÷ average debt + equity − cash) | 0% | 30%+ |
+| Debt | Debt / EBITDA | 4.0x | 0.5x or less |
+| Revisions | Yahoo EPS trend: next-year consensus EPS, now vs 90 days ago | −10% | +10% |
+
+- The cash cap stops customer prepayments (GEV) from passing as quality. Averaging OCF with FCF credits heavy reinvestment (GOOGL, META) while still docking capex that hasn't proven its return.
+- No revision data scores neutral (5). Compute a missing ROIC with the stockanalysis method rather than a different formula.
+
+## Fair value
+
+- **Multiple leg:** NTM EPS × fair P/E × (1 + g), where fair P/E = the lower of the median of the last 20 quarterly forward P/Es (stockanalysis ratios) and 2 × the 3-year EPS growth rate.
+- **Target leg:** 12-month average analyst target, cut by the revision when estimates fell.
+- **12-month fair value** = 50% target leg + 50% multiple leg. Names without a usable 5-year forward P/E history (spin-offs, loss years, no data) use the target leg alone.
+- **Deep-drawdown guard:** more than 35% below the high and estimates not rising → the target leg is dropped (stale targets after big drops); no multiple leg either → no fair value, off the board.
+- g = consensus 3-year EPS growth, capped at 35%. Fair value today = 12-month fair value ÷ (1 + g).
 
 ## Score
 
-- **Asymmetry** = min(10, 3 × upside × (1 − d) ÷ b).
-- **Time** = max(0, 10 − 2 × years).
-- **Base** = (asymmetry + time) ÷ 2 − 0.25 per 10 points of bear beyond −15%.
-- **Time penalty:** −0.15 × (years − 1)² when years > 1 (−0.15 at 2 years, −0.60 at 3, −1.35 at 4).
+- **Asymmetry (25%)** = min(10, 3 × upside to fair value today × (1 − d) ÷ bear). d rises 10 points when 90-day estimates fell 2% or more (smaller dips are noise).
+- **Speed (25%)** = 12-month return to the 12-month fair value: 0 points at 0%, 10 points at 75%+. A name sitting at fair value still earns its growth rate, so there is no cliff at fair value.
+- **Bear penalty:** −0.25 per 10 points of bear beyond −15%.
 - **PB:** politician-buy boost (framework PB): +0.2 buy, +0.1 Pelosi holding, cap +0.3.
 - **IX:** index-leader bonus (framework IX): +0.1 per top-10 S&P 500 / Nasdaq-100 holding, cap +0.2.
 - **PO policy adjustment:** ±0.1 per specific, sourced policy channel (a law, moratorium, tax credit or regulation tied to the company's revenue), cap ±0.2. Re-check each screen. It rates exposure to named policies, never a view on parties.
-- **Final** = base − time penalty + PB + IX + PO. Report one decimal; break ties on the unrounded score.
+- **Final** = 0.5 × quality + 0.25 × asymmetry + 0.25 × speed − bear penalty + PB + IX + PO. Report one decimal (two at the line); break ties on the unrounded score.
 
-## Labels
+## Lines (fixed Nov 4, 2026)
 
-- **Dead money (hard cut, Nov 4):** more than 2.7 years to the high. Set from CRDO (2.68 years) and UBER (2.30 years) on Nov 4, 2026: anything slower than both is removed from the board. The time penalty still applies below the cut.
-- **Board cutoff (fixed Nov 4):** final score ≥4.14, set by UBER (4.19) less the 0.05 band. Both lines are fixed numbers: UBER set the score line and CRDO set the 2.7-year dead-money line on Nov 4, 2026. They don't float with those two stocks' prices; change them only by user request.
+- **Board line:** final score ≥4.46, set by UBER's post-print score (4.51) less the 0.05 band.
+- **Dead-money line:** ≤2.7 years to the high at consensus growth, set by CRDO (2.68).
+- Both are fixed numbers. They don't float with UBER's or CRDO's prices; change them only by user request.
 
 ## Known limits
 
-- **Growth-only timeline:** ignores re-rating, so deep cyclicals (chip equipment, power) can recover faster than the model says.
-- **Stale targets:** analyst averages lag sharp moves; check the source date.
-- **Basis switch:** the 2x forward P/E test uses today's estimates against the multiple at the high; estimate revisions can flip it.
-- **Judgment inputs:** d, b, g and PO are per-name calls; record them with the score.
+- **Peak-cycle quality:** chip-equipment margins and ROIC are measured near the top of the AI capex cycle, and the consensus growth that clears them through the dead-money cut can fall. The revision factor and the deep-drawdown guard catch that at the next screen.
+- **Stale data:** stockanalysis pages can lag a print (TER's statistics were pre-print on Nov 4; CRDO's statistics page still served FY24). Cross-check against the financials pages and record the source date.
+- **Data gaps:** Yahoo has no estimate trend for some names (CEG, RMBS, MTSI, STRL on Nov 4); they score neutral on revisions and fall under the deep-drawdown guard.
+- **Judgment inputs:** d, bear and PO are per-name calls; record them with the score.

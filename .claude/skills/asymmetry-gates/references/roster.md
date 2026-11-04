@@ -1,4 +1,33 @@
-# Roster — Nov 4, 2026 (revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+# Roster — Nov 4, 2026 (revision 17 fundamentals-first board; revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+
+## Nov 4, 2026: revision 17 board (fundamentals-first, committed 3:16 pm CT)
+
+Scored with [`recovery-board.md`](recovery-board.md); inputs in `scripts/board_2026_11_04.py` (run it to reprint). Prices: one intraday snapshot, about 1:30 pm ET, except ETN $354 (user) and STRL $345.91 (Nov 2 close). Lines: score ≥4.46 (UBER 4.51 less 0.05), ≤2.7 years to the high at consensus growth. Ranking only; no gate status changes.
+
+| # | Ticker | Score | Quality | 12-mo return | Years | Old (rev 16) |
+|---|---|---|---|---|---|---|
+| 1 | CRDO | 7.52 | 9.5 | 110% | 2.7 | 4.6 |
+| 2 | AVGO | 7.20 | 8.8 | 67% | 1.3 | 6.2 |
+| 3 | TER | 7.07 | 9.1 | 76% | 2.2 | cut |
+| 4 | FIX | 6.67 | 8.4 | 83% | 2.2 | cut |
+| 5 | LRCX | 6.45 | 9.7 | 55% | 2.2 | cut |
+| 6 | ASML | 6.14 | 9.9 | 43% | 0.9 | 4.5 |
+| 7 | MPWR | 5.93 | 9.1 | 47% | 1.0 | 4.7 |
+| 8 | AMAT | 5.89 | 9.1 | 49% | 2.3 | cut |
+| 9 | GOOGL | 5.65 | 7.5 | 35% | 1.9 | 5.8 |
+| 10 | MTSI | 5.17 | 6.4 | 63% | 2.0 | cut |
+| 11 | META | 4.93 | 7.6 | 30% | 1.9 | 4.6 |
+| 12 | GEV | 4.88 | 7.2 | 45% | 1.3 | 4.9 |
+| 13 | VRT | 4.81 | 8.2 | 41% | 2.0 | 4.4 |
+| 14 | UBER | 4.51 | 6.1 | 41% | 1.3 | 4.19 |
+
+- **Below the line:** BE 4.05 (4.4x debt/EBITDA), CDNS 4.00 (fair P/E capped at 35.1x by 17.6% growth vs a 44x median; 17% 12-month return), ETN 2.97 (10.6% ROIC, 3.1x debt), CIEN 1.20 (trades above fair value).
+- **Dead money:** STRL (3.5 years), RMBS (3.2), KLAC (2.70; 2.706 unrounded).
+- **No fair value:** VST (estimates −8.2% over 90 days, no P/E history), CEG (no estimate data, no P/E history; 7.4% ROIC, 0.9% FCF margin).
+- **CRDO:** ROIC 38.2% computed with the stockanalysis method from the quarterly balance sheet (EBIT $505M, tax $1.28M, average invested capital $1.32B); its statistics page still served FY24 data.
+- **TER:** fundamentals from the Oct 27 (pre-print) statistics page; target is MarketBeat's post-print consensus $412.64 (stockanalysis showed $445.47 pre-print). With the post-print fundamentals the council quoted it scores about 7.18.
+- **UBER:** priced after its Q3 print (+7.4% at the snapshot); estimates −0.32% over 90 days per Yahoo Finance's post-print summary, inside the 2% noise band; BTIG cut its target to $90, MarketBeat consensus $102.59. At a $69.87 close it would score about 4.68. Pending Delivery Hero bid ($14.8B): debt-funded leverage near 3x would cost about 0.3.
+- **No revision data (neutral):** CEG, RMBS, MTSI, STRL.
 
 ## Nov 4, 2026: board after the dead-money cut (1:32 pm CT)
 

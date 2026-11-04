@@ -1,6 +1,44 @@
-# #18 — Rule-change log (policy Nov 4, 2026, revision 16)
+# #18 — Rule-change log (policy Nov 4, 2026, revision 17)
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
+
+## Adopted configuration: Nov 4, 2026, revision 17 (RB recovery board v2, fundamentals first)
+
+### Authorization, scope and adoption basis
+
+Explicit user requests dated Nov 4, 2026: "Distance to ATH shouldn't dictate most of scoring the underlying fundamentals should. A stock can be down 15% and be shi* and higher score than Googl who is down 30%+" (1:55 pm CT); "We don't wanna get rid of dead money bc that money would just be wasted for years" (3:01 pm); "Commit and recheck now" (3:16 pm). The design was settled over four council reviews the user forwarded between 1:58 and 3:18 pm. Scope: the recovery-board ranking only.
+
+### Change summary (old to new)
+
+- **Score:** 50% quality + 25% asymmetry + 25% speed (was 50% asymmetry + 50% time to the high).
+- **Quality (new):** six factors from hard data: 3-year EPS growth forecast, operating margin, cash conversion (average of OCF and FCF margins, capped at operating margin + 10 points), ROIC, debt/EBITDA, 90-day change in next-year EPS estimates.
+- **Fair value (new):** 12-month value = 50% revision-adjusted analyst target + 50% NTM EPS × fair P/E × (1 + g); fair P/E = the lower of the 20-quarter median forward P/E and 2 × EPS growth. Target only where no usable 5-year P/E history exists.
+- **Asymmetry:** upside to fair value today (was upside to the high or a tapered target). The target taper and the 2x forward P/E override are retired.
+- **Speed (replaces time):** 12-month return to fair value, 10 points at 75%+. The convex time penalty is retired.
+- **Deep-drawdown guard (new):** more than 35% below the high without rising estimates drops the analyst target; with no P/E history either, the name has no fair value and leaves the board.
+- **Dead money:** still more than 2.7 years to the high, but growth is now consensus 3-year EPS growth capped at 35% (was a per-name judgment g).
+- **Board line:** fixed at 4.46, UBER's post-print score (4.51) less the 0.05 band (was 4.14 on the old scale).
+- **Not changed:** the 10-year high, the 15% minimum, ID, dilution and convexity rules, PB, IX, PO, the bear penalty, every gate, route, overlay, #19, sizing and caps.
+
+### Rationale
+
+- **The old score ranked chart distance.** Once a name was 25%+ down, both halves came from the same high ÷ price ratio, so a mediocre stock 15% off its high collected about 8 time points while GOOGL, 28% off, got 6.5. Fundamentals entered only through judgment inputs.
+- **Speed beats time to fair value.** Years to fair value would have rewarded names close to fair value, the same flaw moved to a new anchor (a 2% gap gave 9.7 points; 2% over gave 0). A 12-month return keeps a cheaper price on the same business always scoring higher.
+- **Dead money stays.** The user doesn't want capital parked for years; consensus growth makes the cut a sourced number instead of a guess, and it gives no credit for re-rating.
+- **Cash conversion averages OCF and FCF.** Raw FCF would treat GOOGL's $160B capex build like cash burn; an ROIC exemption would credit old capital for new spending and add a cliff.
+
+### Structural and solvency safeguard check
+
+Ranking only; nothing here unlocks capital or loosens a gate. Known costs: (1) chip-equipment quality is measured near a cyclical peak and passes the dead-money cut on consensus growth that can fall; (2) stale targets after big drops are only partly caught (the guard needs a revision signal, and Yahoo lacks one for some names); (3) quality and speed bunch at the top, so small input changes reorder the top five; (4) d, bear and PO remain judgment inputs.
+
+### Implementation details set at commit (flagged to the user)
+
+- **Revision noise band:** d rises 10 points only when 90-day estimates fell 2% or more. Smaller dips are routine wiggle (AVGO −0.8%, UBER −0.3% post-print) and shouldn't move a score by 0.1. The target haircut still applies to any decline.
+- **Prices:** one intraday snapshot (about 1:30 pm ET) for every name, so the UBER anchor and the board share the same moment; reliable closing quotes for all 23 names weren't reachable.
+
+### Universe impact
+
+Board of 14 (was 13): CRDO, AVGO, TER, FIX, LRCX, ASML, MPWR, AMAT, GOOGL, MTSI, META, GEV, VRT, UBER. Joined: TER, FIX, LRCX, AMAT, MTSI (no longer dead money at consensus growth). Left: CEG (no fair value), CDNS, ETN, BE (below the line). VST, RMBS, KLAC and STRL stay off. Details in [`roster.md`](roster.md).
 
 ## Adopted configuration: Nov 4, 2026, revision 16 (RB recovery board)
 
