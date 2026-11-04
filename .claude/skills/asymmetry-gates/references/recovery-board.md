@@ -10,7 +10,7 @@ The high-IRR ranking used for contest picks and quick comparisons. It scores how
   - Less than 15% below the high.
   - ID fail: TTM gross margin under 20% (framework ID).
   - Dilution: trailing 12-month share growth + undrawn ATM + maximum pending deal shares over 50% of current shares (the IREN rule, H4a's budget). One-time strategic mergers count unless the user exempts them.
-  - More than 5 years to the high at the name's growth assumption ("may never return").
+  - More than 2.7 years to the high at the name's growth assumption (dead money; replaces the earlier 5-year "may never return" cut).
 - **Convexity bucket:** GAAP-unprofitable (TTM net income below zero) or binary names. They can still rank, but only on convexity inputs: discount ≥30–35%, bear ≥ −45% to −50%, growth ≤35%.
 
 ## Inputs
@@ -39,7 +39,7 @@ The high-IRR ranking used for contest picks and quick comparisons. It scores how
 
 ## Labels
 
-- **DM-2yr:** more than 2 years to the 5-year high (the user's dead-money definition). The time penalty already scores it; the label flags it.
+- **Dead money (hard cut, Nov 4):** more than 2.7 years to the high. Set from CRDO (2.68 years) and UBER (2.30 years) on Nov 4, 2026: anything slower than both is removed from the board. The time penalty still applies below the cut.
 - **Board cutoff:** the user sets it (Nov 4: UBER's score and above). Names within 0.05 of the cutoff score also make the board (Nov 4 addendum).
 
 ## Known limits

@@ -30,6 +30,10 @@ Explicit user request dated Nov 4, 2026, 12:48 pm CT: "commit this bad boy to ou
 
 Ranking only; nothing here unlocks capital or loosens a gate. Known costs: (1) the growth-only timeline is conservative for cyclicals that recover by re-rating; (2) d, b, g and PO are judgment inputs and must be recorded with each score; (3) g is capped at 35%, so AVGO scores 6.2 rather than the 6.3 shown in chat with its implied 36.9%.
 
+### Addendum: dead-money cut (Nov 4, 2026, 1:32 pm CT)
+
+User: "Make dead money more than Uber and CRDO trip back to ATH and remove anything worse than these 2." Dead money is now more than 2.7 years to the high (CRDO 2.68, UBER 2.30), and those names leave the board. Removed from the Nov 4 snapshot: VST (2.9), RMBS (2.8), MTSI (2.7, 2.74 unrounded), TER (2.9), FIX (2.9), LRCX (3.0), AMAT (3.1), KLAC (3.1). Ranking only; no gate changes.
+
 ### Addendum: cutoff band (Nov 4, 2026, 1:01 pm CT)
 
 User: "You can include Ter and Fix if they're pretty close." Names within 0.05 of the cutoff score now make the board; TER (4.18) and FIX (4.17) join under UBER (4.19). Ranking only.

@@ -1,5 +1,27 @@
 # Roster — Nov 4, 2026 (revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
 
+## Nov 4, 2026: board after the dead-money cut (1:32 pm CT)
+
+Dead money = more than 2.7 years to the high; those names are removed. Prices about 1:30 pm ET.
+
+| # | Ticker | Score | Years |
+|---|---|---|---|
+| 1 | AVGO | 6.2 | 1.3 |
+| 2 | GOOGL | 5.8 | 1.8 |
+| 3 | CEG | 5.2 | 2.5 |
+| 4 | GEV | 4.9 | 1.3 |
+| 5 | MPWR | 4.7 | 1.3 |
+| 5 | CDNS | 4.7 | 1.7 |
+| 7 | CRDO | 4.6 | 2.7 |
+| 7 | META | 4.6 | 1.4 |
+| 9 | ASML | 4.5 | 1.5 |
+| 10 | VRT | 4.4 | 2.3 |
+| 11 | BE | 4.25 | 1.9 |
+| 12 | UBER | 4.19 | 2.3 |
+
+- **ETN:** 4.6 (0.9 years) if at or below $390.97.
+- **Removed as dead money:** VST 5.5 (2.9 years), RMBS 4.5 (2.8), LRCX 4.4 (3.0), KLAC 4.4 (3.1), AMAT 4.4 (3.1), MTSI 4.2 (2.74), TER 4.2 (2.9), FIX 4.2 (2.9).
+
 ## Nov 4, 2026: revision 16 recovery-board snapshot (about 1:30 pm ET)
 
 Scored with [`recovery-board.md`](recovery-board.md) and `scripts/recovery_score.py`. Ranking only; no gate status changes. Day context: Democrats won both chambers; data-center names fell (FIX −16%, VST −15%, VRT −13%, GEV −10%) while AMZN (+7%), UBER (+7%) and GOOGL (+4%) rose.
