@@ -1,4 +1,28 @@
-# Roster — Nov 3, 2026 (revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+# Roster — Nov 4, 2026 (revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+
+## Nov 4, 2026: revision 16 recovery-board snapshot (about 1:30 pm ET)
+
+Scored with [`recovery-board.md`](recovery-board.md) and `scripts/recovery_score.py`. Ranking only; no gate status changes. Day context: Democrats won both chambers; data-center names fell (FIX −16%, VST −15%, VRT −13%, GEV −10%) while AMZN (+7%), UBER (+7%) and GOOGL (+4%) rose.
+
+| # | Ticker | Score | Years | Points | DM-2yr |
+|---|---|---|---|---|---|
+| 1 | AVGO | 6.2 | 1.3 | PB +0.1, IX +0.1 | |
+| 2 | GOOGL | 5.8 | 1.8 | PB +0.2, IX +0.2 | |
+| 3 | VST | 5.5 | 2.9 | PB +0.1, PO −0.2 (Texas data-center moratorium risk) | Yes |
+| 4 | CEG | 5.2 | 2.5 | | Yes |
+| 5 | GEV | 4.9 | 1.3 | PO −0.1 | |
+| 6 | MPWR | 4.7 | 1.3 | | |
+| 6 | CDNS | 4.7 | 1.7 | | |
+| 8 | ETN | 4.6 | 0.9 | PO −0.1; qualifies only at ≤$390.97 | |
+| 8 | CRDO | 4.6 | 2.7 | | Yes |
+| 8 | META | 4.6 | 1.4 | IX +0.2, PO −0.1 (children's online safety) | |
+| 11 | RMBS | 4.5 | 2.8 | | Yes |
+| 11 | ASML | 4.5 | 1.5 | | |
+| 13 | VRT, LRCX, KLAC, AMAT | 4.4 | 2.3–3.1 | VRT PO −0.1 | Yes |
+| 17 | UBER | 4.3 | 2.3 | PB +0.2 | Yes |
+
+- **Below the cutoff:** BE 4.25, MTSI 4.2, TER 4.2, FIX 4.2 (PO −0.2), CIEN 3.0, STRL ~0.6–0.9 (PO −0.2).
+- **Not ranked:** AMZN (5.3% below its high after +7%); MRVL (Lumentum deal shares breach the 50% dilution budget); FN (12% gross margin); NBIS, NET (GAAP losses, convexity scores under the cutoff).
 
 ## Nov 3, 2026: revision 15 IX index-leader bonus
 

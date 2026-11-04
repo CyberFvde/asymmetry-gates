@@ -1,6 +1,6 @@
 # asymmetry-gates
 
-Policy revision: **Nov 3, 2026, revision 15** (IX index-leader bonus: +0.1 per index for a top-10 S&P 500 or Nasdaq-100 holding, ranking only; revision 14: PB politician-buy boost: a qualifying Pelosi buy or Trump buy of $1M+ within 12 months, or a current Pelosi holding, lifts ranking only; revision 12: ID Ian Dunlap gate: trailing gross margin under 20% is out before any route or chart work, on every route; revision 11: DM dead-money overlay: unproven hockey stick or a ≥50% holder selling blocks new capital on every route except F; revision 10: A1 buyback-offset bolt-on allowance ≤1.50%, WASO ceiling up to +1.0%; framework C's estimate no longer rejects G5; revision 9: H4a: route H dilution budget ≤50% of shares, trailing growth + undrawn ATM + pending deal shares; revision 8: insider net-selling cap 1.5%; 20% revenue-or-EPS growth bars for the ranked list and D4; #12's 200DMA void and #17's estimate-cut freeze removed; route D from revision 7). FT remains the Oct 2 revision 2 overlay (only its route names were synced for M and D); the roster now leads with the Oct 24 route D re-test (LITE, CIEN, COHR, NBIS, IREN), then the Oct 22 targeted re-tests and the Oct 15 nine-name re-test, with older screens kept below as history.
+Policy revision: **Nov 4, 2026, revision 16** (RB recovery board: 50/50 asymmetry and time-to-high ranking for contest picks; revision 15: IX index-leader bonus: +0.1 per index for a top-10 S&P 500 or Nasdaq-100 holding, ranking only; revision 14: PB politician-buy boost: a qualifying Pelosi buy or Trump buy of $1M+ within 12 months, or a current Pelosi holding, lifts ranking only; revision 12: ID Ian Dunlap gate: trailing gross margin under 20% is out before any route or chart work, on every route; revision 11: DM dead-money overlay: unproven hockey stick or a ≥50% holder selling blocks new capital on every route except F; revision 10: A1 buyback-offset bolt-on allowance ≤1.50%, WASO ceiling up to +1.0%; framework C's estimate no longer rejects G5; revision 9: H4a: route H dilution budget ≤50% of shares, trailing growth + undrawn ATM + pending deal shares; revision 8: insider net-selling cap 1.5%; 20% revenue-or-EPS growth bars for the ranked list and D4; #12's 200DMA void and #17's estimate-cut freeze removed; route D from revision 7). FT remains the Oct 2 revision 2 overlay (only its route names were synced for M and D); the roster now leads with the Oct 24 route D re-test (LITE, CIEN, COHR, NBIS, IREN), then the Oct 22 targeted re-tests and the Oct 15 nine-name re-test, with older screens kept below as history.
 
 Rules-based equity screen (ID gross-margin pre-screen, A–E core, F signal sleeve, G compounders, H early transitions, M mega-cap platforms, D dilutive growth, stricter FT, DM dead-money and price-health PH overlays, PB politician-buy and IX index-leader ranking boosts) packaged as an Agent Skill.
 Source of truth for the rules, the roster and the #15 kill triggers. Keep this repo private — the roster is a position book.
@@ -24,6 +24,7 @@ See the adopted entry in `.claude/skills/asymmetry-gates/references/changelog.md
     non-ai-screen-audit.md       # open-universe non-AI-capex audit: Oct 24 re-screen (136 tickers, revision 8) + Oct 15 history
     .claude/skills/asymmetry-gates/
     ├── SKILL.md                 # when it triggers + how to run a screen
+    ├── scripts/recovery_score.py # recovery-board scorer
     └── references/
         ├── framework.md         # the rules (change only via a #18 changelog entry)
         ├── stage-paths.md       # G/H/M/D funding, dilution, valuation, milestones and caps
@@ -31,6 +32,7 @@ See the adopted entry in `.claude/skills/asymmetry-gates/references/changelog.md
         ├── price-health.md      # ATH age, relative performance and recovery
         ├── non-ai-lanes.md      # 30 non-AI industry lanes + seed tickers for non-AI screens
         ├── triggers.md          # #15 kill triggers, incl. the shared "AI capex 2027" trigger
+        ├── recovery-board.md    # 50/50 asymmetry + time-to-high ranking for contest picks
         ├── roster.md            # dated roster, top-10, what changed — edited every re-test
         └── changelog.md         # #18 log: adopted + pending rule changes with rationale
 
