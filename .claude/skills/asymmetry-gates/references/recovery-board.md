@@ -40,7 +40,7 @@ The high-IRR ranking used for contest picks and quick comparisons. It scores how
 ## Labels
 
 - **Dead money (hard cut, Nov 4):** more than 2.7 years to the high. Set from CRDO (2.68 years) and UBER (2.30 years) on Nov 4, 2026: anything slower than both is removed from the board. The time penalty still applies below the cut.
-- **Board cutoff:** the user sets it (Nov 4: UBER's score and above). Names within 0.05 of the cutoff score also make the board (Nov 4 addendum).
+- **Board cutoff (fixed Nov 4):** final score ≥4.14, set by UBER (4.19) less the 0.05 band. Both lines are fixed numbers: UBER set the score line and CRDO set the 2.7-year dead-money line on Nov 4, 2026. They don't float with those two stocks' prices; change them only by user request.
 
 ## Known limits
 
