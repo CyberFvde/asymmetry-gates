@@ -1,4 +1,24 @@
-# Roster — Nov 4, 2026 (revision 17 board with the photonics sweep; revision 17 fundamentals-first board; revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+# Roster — Nov 4, 2026 (revision 17 board with net-cash addendum and BKNG; photonics sweep; revision 17 fundamentals-first board; revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+
+## Nov 4, 2026: net-cash addendum and BKNG, board of 19 (4:48 pm CT)
+
+Debt factor now scores 10 with positive net cash (changelog addendum). BKNG added at the $170.97 Nov 4 close; DASH left off by the user. Line 4.46 unchanged.
+
+| # | Ticker | Score | # | Ticker | Score |
+|---|---|---|---|---|---|
+| 1 | CRDO | 7.52 | 11 | BKNG | 5.73 |
+| 2 | AVGO | 7.20 | 12 | GOOGL | 5.72 |
+| 3 | TER | 7.07 | 13 | TSEM | 5.53 |
+| 4 | ALAB | 6.70 | 14 | MTSI | 5.39 |
+| 5 | FIX | 6.67 | 15 | META | 4.93 |
+| 6 | LRCX | 6.45 | 16 | GEV | 4.92 |
+| 7 | ASML | 6.14 | 17 | VRT | 4.81 |
+| 8 | AMAT | 5.95 | 18 | ANET | 4.77 |
+| 9 | MPWR | 5.93 | 19 | UBER | 4.51 |
+| 10 | SMTC | 5.88 | | | |
+
+- **BKNG ($170.97):** 7.5 quality (92% ROIC, 35% operating margin), 47% 12-month return, 1.9 years to its 2025 high. Q3 adjusted EPS $4.66 vs $4.50, but Q4 guide was weak (adjusted revenue +0–2%, EBITDA flat) and a $900M FTC matter cut revenue; a 3–5% estimate cut would leave it at 5.25–5.40.
+- **Non-AI names checked Nov 4 and off:** DASH (5.54 with net cash, but 4.0–4.4 on a 38x fair P/E; user left it off), RDDT (dead money at $101.89, 3.17 years; back on above ~$117), ARGX ($931.38, 13% below its high), MELI 3.6, NFLX/HOOD/NVO/TTD/CMG dead money, LLY/SPOT/SHOP within 15% of their highs, AXON/DUOL/HIMS/UNH weak quality, APP and FICO dead money (council figures).
 
 ## Nov 4, 2026: photonics and connectivity sweep, board of 18 (4:20 pm CT)
 
