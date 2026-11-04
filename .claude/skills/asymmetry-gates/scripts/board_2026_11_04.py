@@ -35,6 +35,16 @@ INPUTS = {
 'CIEN': dict(price=300.3, high=637.51, target=219.29, eg=None, opm=6.52, ocf_margin=16.9, fcf_margin=13.95, roic=4.41, debt_ebitda=3.48, rev90=0.0963, ntm_eps=10.389, fpe_hist=[48.34, 80.95, 47.15, 50.46, 35.03, 28.89, 36.12, 25.69, 22.29, 20.82, 17.72, 14.15, 15.71, 15.88, 19.52, 29.51, 22.64, 17.28, 20.78, 17.88], d=0.25, bear=0.45, pb=0, ix=0, po=0),
 'ETN': dict(price=354.0, high=459.96, target=485.47, eg=16.3, opm=18.17, ocf_margin=16.48, fcf_margin=13.09, roic=10.61, debt_ebitda=3.07, rev90=0.0298, ntm_eps=15.147, fpe_hist=[30.29, 26.79, 23.84, 28.81, 28.7, 22.55, 28.24, 29.02, 29.07, 30.49, 24.54, 22.83, 23.1, 20.7, 19.46, 16.77, 16.35, 20.12, 23.9, 21.16], d=0.15, bear=0.3, pb=0, ix=0, po=-0.1),
 'STRL': dict(price=345.91, high=993.74, target=836.71, eg=41.98, opm=18.13, ocf_margin=17.38, fcf_margin=14.01, roic=41.69, debt_ebitda=0.43, rev90=None, ntm_eps=26.265, fpe_hist=[21.94, 43.02, 30.12, 26.2, 34.17, 26.81, 14.09, 27.37, 25.27, 19.73, 22.15, 19.14, 17.03, 15.14, 11.03, 9.89, 6.77, 7.33, 9.57, 12.06], d=0.2, bear=0.45, pb=0, ix=0, po=-0.2),
+# Photonics / connectivity sweep, added 4:20 pm CT: Nov 4 closes (ALAB, TSEM, ANET as quoted by the
+# user's council; SMTC $110.96, StockStory had $111.19 that afternoon). Highs: Yahoo 52-week intraday highs,
+# except SMTC's $197.20 (StockStory). TSEM: +19.5% 90-day estimates per Investing.com (Nov 2), target =
+# MarketBeat consensus $311, NTM EPS ~6.0 (26x forward at the Nov 2 close). ANET: stockanalysis lists only a
+# 5-year EPS forecast (17.23%) and a $112.98 target that sits below the price, so the target is Yahoo's $243.59.
+# ALAB: no usable P/E history (IPO Mar 2024), target only.
+'ALAB': dict(price=223.27, high=499.48, target=382.68, eg=63.64, opm=22.75, ocf_margin=27.98, fcf_margin=23.02, roic=62.97, debt_ebitda=0.15, rev90=0.4128, ntm_eps=None, fpe_hist=None, d=0.15, bear=0.40, pb=0, ix=0, po=0),
+'SMTC': dict(price=110.96, high=197.20, target=217.07, eg=79.5, opm=12.03, ocf_margin=18.29, fcf_margin=16.45, roic=14.15, debt_ebitda=2.81, rev90=None, ntm_eps=5.409, fpe_hist=[42.28, 49.56, 40.53, 37.75, 30.89, 17.96, 46.27, 40.67, 37.98, 57.03, 69.92, 23.42, 43.78, 38.29, 16.13, 11.17, 18.21, 17.75, 22.4, 30.33], d=0.15, bear=0.40, pb=0, ix=0, po=0),
+'TSEM': dict(price=148.80, high=319.94, target=311.0, eg=64.07, opm=16.16, ocf_margin=50.64, fcf_margin=17.58, roic=14.84, debt_ebitda=0.23, rev90=0.195, ntm_eps=6.0, fpe_hist=[68.83, 59.3, 43.6, 29.66, 19.36, 17.19, 24.42, 20.98, 20.94, 17.74, 15.0, 12.29, 17.85, 19.11, 18.08, 18.21, 20.1, 21.58, 19.58, 19.17], d=0.15, bear=0.40, pb=0, ix=0, po=0),
+'ANET': dict(price=178.48, high=217.41, target=243.59, eg=17.23, opm=42.05, ocf_margin=53.0, fcf_margin=52.49, roic=21.23, debt_ebitda=0.02, rev90=0.1704, ntm_eps=4.62, fpe_hist=[45.02, 34.69, 40.86, 48.79, 39.4, 31.06, 46.87, 44.61, 43.76, 38.73, 33.56, 28.88, 27.32, 28.89, 23.53, 26.65, 24.65, 38.25, 44.18, 30.99], d=0.15, bear=0.30, pb=0, ix=0, po=0),
 }
 
 if __name__ == "__main__":
