@@ -1,6 +1,38 @@
-# #18 — Rule-change log (policy Nov 3, 2026, revision 15)
+# #18 — Rule-change log (policy Nov 4, 2026, revision 16)
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
+
+## Adopted configuration: Nov 4, 2026, revision 16 (RB recovery board)
+
+### Authorization, scope and adoption basis
+
+Explicit user request dated Nov 4, 2026, 12:48 pm CT: "commit this bad boy to our methodology because this is a high irr methodology for competitions." It codifies the board built in chat from Oct 26 to Nov 4, including that day's requests: "Change the high we focus on in the methodology to high in last 10 years not all time" (12:33 pm), "factor in ... that now the democrats hold power if it's a tailwind or headwind for stocks and add or minus points" (12:30 pm), and "Give a penalty and make the penalty more harsh as it gets further away from 1 year" (12:46 pm). Scope: a ranking method only. The user approved the merge in the same request.
+
+### Change summary (old to new)
+
+- **New `references/recovery-board.md`:** the 50/50 asymmetry and time-to-high score, its universe and exclusions, inputs and labels.
+- **New `scripts/recovery_score.py`:** the scorer.
+- **High:** highest close in the last 10 years (was all-time high, which blocked dot-com-era peaks such as CIEN).
+- **Time penalty:** −0.15 × (years − 1)² beyond 1 year.
+- **PO policy points:** ±0.1 per sourced policy channel, cap ±0.2.
+- **DM-2yr label:** more than 2 years to the 5-year high.
+- **PB/IX wording:** now point to the recovery-board score.
+- **Not changed:** every gate, route, overlay, #19, sizing and caps.
+
+### Rationale
+
+- **Contest use:** the user runs a nine-month return contest and wants a repeatable high-IRR ranking.
+- **10-year high:** a 26-year-old bubble peak says little about a 2-year recovery; a 10-year window keeps the test current.
+- **Convex penalty:** the user treats "won't regain its 5-year high within 2 years" as dead money and wants slow recoveries punished harder the longer they take.
+- **Policy points:** named state and federal actions (for example data-center moratoria) can change a company's demand path; small, sourced points capture that without party calls.
+
+### Structural and solvency safeguard check
+
+Ranking only; nothing here unlocks capital or loosens a gate. Known costs: (1) the growth-only timeline is conservative for cyclicals that recover by re-rating; (2) d, b, g and PO are judgment inputs and must be recorded with each score; (3) g is capped at 35%, so AVGO scores 6.2 rather than the 6.3 shown in chat with its implied 36.9%.
+
+### Universe impact (Nov 4, 2026, about 1:30 pm ET)
+
+Snapshot in [`roster.md`](roster.md). Cutoff at UBER (4.3): AVGO 6.2, GOOGL 5.8, VST 5.5, CEG 5.2, GEV 4.9, MPWR 4.7, CDNS 4.7, ETN 4.6 (only at ≤$390.97), CRDO 4.6, META 4.6, RMBS 4.5, ASML 4.5, VRT/LRCX/KLAC/AMAT 4.4, UBER 4.3. CIEN now scores (3.0) under the 10-year high. No gate status changed.
 
 ## Adopted configuration: Nov 3, 2026, revision 15 (IX index-leader bonus)
 
