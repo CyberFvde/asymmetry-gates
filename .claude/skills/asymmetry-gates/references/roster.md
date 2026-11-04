@@ -1,4 +1,35 @@
-# Roster — Nov 4, 2026 (revision 17 fundamentals-first board; revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+# Roster — Nov 4, 2026 (revision 17 board with the photonics sweep; revision 17 fundamentals-first board; revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+
+## Nov 4, 2026: photonics and connectivity sweep, board of 18 (4:20 pm CT)
+
+Revision 17 scorer, line 4.46. ALAB, SMTC, TSEM and ANET added at Nov 4 closes; the other names keep the ~1:30 pm ET snapshot below. Inputs and source notes in `scripts/board_2026_11_04.py`. Ranking only; no gate status changes.
+
+| # | Ticker | Score | Quality | 12-mo return | Years |
+|---|---|---|---|---|---|
+| 1 | CRDO | 7.52 | 9.5 | 110% | 2.7 |
+| 2 | AVGO | 7.20 | 8.8 | 67% | 1.3 |
+| 3 | TER | 7.07 | 9.1 | 76% | 2.2 |
+| 4 | ALAB | 6.70 | 9.0 | 71% | 2.7 |
+| 5 | FIX | 6.67 | 8.4 | 83% | 2.2 |
+| 6 | LRCX | 6.45 | 9.7 | 55% | 2.2 |
+| 7 | ASML | 6.14 | 9.9 | 43% | 0.9 |
+| 8 | MPWR | 5.93 | 9.1 | 47% | 1.0 |
+| 9 | AMAT | 5.89 | 9.1 | 49% | 2.3 |
+| 10 | SMTC | 5.88 | 5.3 | 149% | 1.9 |
+| 11 | GOOGL | 5.65 | 7.5 | 35% | 1.9 |
+| 12 | TSEM | 5.53 | 8.0 | 58% | 2.6 |
+| 13 | MTSI | 5.17 | 6.4 | 63% | 2.0 |
+| 14 | META | 4.93 | 7.6 | 30% | 1.9 |
+| 15 | GEV | 4.88 | 7.2 | 45% | 1.3 |
+| 16 | VRT | 4.81 | 8.2 | 41% | 2.0 |
+| 17 | ANET | 4.77 | 8.8 | 21% | 1.2 |
+| 18 | UBER | 4.51 | 6.1 | 41% | 1.3 |
+
+- **ALAB ($223.27):** 0.02 years inside the dead-money line; a close under about $222 (at the $499.48 intraday high) cuts it. PCIe/CXL connectivity, target only (IPO Mar 2024), estimates +41% over 90 days.
+- **SMTC ($110.96):** fell 13% on the midterm data-center scare (StockStory), not company news. Soft score: the target is dropped by the deep-drawdown guard (no estimate data), so it rides a 37.9x 20-quarter median P/E inflated by the 2023–24 earnings trough. At a 30x fair P/E it scores 5.27; at 25x, 4.53. Shares +15% in a year, inside the 50% dilution limit.
+- **TSEM ($148.80):** estimates +19.5% over 90 days (Investing.com, Nov 2) unlock the $311 consensus target. Q3 revenue $526M; Q4 guide $600M vs $579.7M consensus; Stifel cut its target to $235 on Nov 3.
+- **ANET ($178.48):** networking, not photonics. Held back by stockanalysis's 17% 5-year EPS forecast (fair P/E capped at 34.5x); a higher forecast after its 38–40% FY27 guide would lift it.
+- **Photonics checked and off:** COHR (4.38 at $211 after hours; clears only between ~$196 and ~$207), MKSI (dead money at $194.95, 2.77 years), CSCO 3.1, VIAV 3.0, GLW 2.7, CIEN 1.2; NOK, AEHR, GFS, LASR and IPGP dead money; APH within 15% of its high; FN and QUBT fail ID; LITE deal-pinned; MRVL dilution; POET and LWLG no fair value; MXL, CLFD and AXTI quality too weak (quick check).
 
 ## Nov 4, 2026: revision 17 board (fundamentals-first, committed 3:16 pm CT)
 
