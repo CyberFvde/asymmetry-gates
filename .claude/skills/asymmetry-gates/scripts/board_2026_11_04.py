@@ -57,6 +57,25 @@ INPUTS = {
 # rev90 predates the weak Q4 guide (adj. revenue +0-2%, EBITDA flat; $900M FTC revenue hit): a 3-5% estimate
 # cut would score it 5.25-5.40.
 'BKNG': dict(price=170.97, high=229.07, target=232.71, eg=16.60, opm=34.85, ocf_margin=34.92, fcf_margin=33.78, roic=92.45, debt_ebitda=1.96, rev90=0.0049, ntm_eps=11.127, fpe_hist=[14.64, 16.64, 15.73, 20.8, 22.64, 26.47, 21.82, 24.45, 22.68, 22.35, 20.73, 20.64, 20.17, 19.4, 20.36, 16.86, 15.11, 16.32, 26.41, 26.57], d=0.15, bear=0.25, pb=0, ix=0, po=0, net_cash=-3.41, guide_below=True),
+# Memory sweep, added Nov 5 (user: "add MU and STX"): Nov 4 closes per 24/7 Wall St (MU $795.23, its first close
+# under $800 since July; STX $557.06). Highs: Yahoo 52-week intraday highs. d 20% / bear 45% for memory cycle
+# risk (harsher than chip equipment's 15% / 35%). eg: stockanalysis's 3-year forecast is paywalled and its MU/STX
+# statistics pages were stale (FY2025), so eg is entered at the 35% cap; consensus EPS more than doubles from
+# FY26 to FY28 for both, so any 3-year figure clears the cap.
+# MU: FY26 (Sep 3, 2026) from the stockanalysis financials page: revenue $133.19B, operating margin 74.59%, OCF
+# $89.68B, FCF margin 44.27%; ROIC 41.11% and Debt/EBITDA 0.05 from the ratios page. Target $1,562 (stockanalysis,
+# Oct 29). NTM EPS 176.6 = $884.79 / 5.01 forward P/E (ratios page, Oct 30). rev90: Yahoo FY28 EPS 206.89 vs
+# 162.94. FQ1 guide $61.5B / $38.15 vs $57.93B / $35.92 consensus (AskTraders, Sep 30). Softest input: peak EPS
+# x a 12x median P/E; on the target alone MU scores 7.36.
+# STX: TTM to Oct 2, 2026: revenue ~$13.8B, OCF $4.83B, FCF $4.16B (30.13%); operating margin is FY26's 34.65%
+# (TTM not shown); ROIC 31.66% and Debt/EBITDA 0.85 from the ratios page (Oct 26). Target $1,045 (stockanalysis,
+# Oct 29, 26 analysts). NTM EPS ~40 (stockanalysis FY27 average 39.98). rev90: Yahoo FY28 EPS 57.44 vs 45.14.
+# FQ2 guide $4.80B / $9.20 EPS vs ~$8.54 consensus before the print (24/7 Wall St, Yahoo). fpe_hist median 21.5x is
+# inflated by the FY23-24 earnings trough; on the target alone STX scores 7.07.
+# Checked and off: SNDK dead money at $1,037.40 (2.703 years vs its $2,335 Jun 25 closing high; on at $1,038.45+,
+# ~7.3); WDC dead money at $323.83 (3.01 years vs $799.87; needs $355.73).
+'MU': dict(price=795.23, high=1255.0, target=1562.0, eg=35.0, opm=74.59, ocf_margin=67.33, fcf_margin=44.27, roic=41.11, debt_ebitda=0.05, rev90=0.2697, ntm_eps=176.6, fpe_hist=[6.64, 9.83, 10.35, 13.62, 10.15, 11.11, 11.99, 11.01, 12.78, 26.19, 48.88, 203.0, 203.0, 203.0, 203.0, 203.0, 11.93, 6.53, 8.89, 9.2], d=0.20, bear=0.45, pb=0, ix=0, po=0),
+'STX': dict(price=557.06, high=1145.0, target=1045.0, eg=35.0, opm=34.65, ocf_margin=35.0, fcf_margin=30.13, roic=31.66, debt_ebitda=0.85, rev90=0.2725, ntm_eps=40.0, fpe_hist=[33.69, 25.67, 23.03, 24.23, 14.86, 9.93, 10.74, 16.24, 21.91, 31.8, 60.03, 114.98, 59.0, 21.61, 21.36, 11.01, 7.67, 9.87, 13.0, 10.38], d=0.20, bear=0.45, pb=0, ix=0, po=0),
 }
 
 if __name__ == "__main__":
