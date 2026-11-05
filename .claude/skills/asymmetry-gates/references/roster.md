@@ -18,7 +18,10 @@ User: "make sure you pull today prices." Revision 21 rules, line 4.46, prices fr
 - **Back on:** LRCX, AMAT, ASML, MTSI, SMTC, ANET. Lower prices raise their 12-month returns, and TER, LRCX, MTSI, ANET drop under the 25% YTD line.
 - **Dead money now:** CRDO ($113, 3.28 years), ALAB ($185, 3.31), VRT ($165, 2.74). The drop pushed them past 2.7 years to the high at capped growth.
 - **Just off:** CDNS 4.18, BE 4.05 (Nov 4 price), GEV 4.03 (CW −1.5).
-- **Unrefreshed:** TSEM, UBER and BE had no live quote. TSEM is dead money below $142.26.
+- **Unrefreshed:** TSEM, UBER and BE had no live quote. TSEM is dead money below $142.29.
+- **Checked and off (user: "what about Qcom and SKHY"):**
+  - **QCOM, dead money:** $153.69 (financhle, Nov 5), 38% under its $248.74 May 29 record close. Consensus 3-year EPS growth is 2.21% (stockanalysis, Oct 29), so the high is ~22 years away. It can't qualify at any price: dead money ends at $234.50, but the 15% band ends at $211.43. The Nov 4 print passes GD and #19 (Q1 revenue guide $10.8B vs $10.48B, EPS $2.25 vs $2.27, inside the 3% band; Q4 EPS $2.17 vs $2.16).
+  - **SKHY, dead money:** Korean shares closed ₩1,264,000 Nov 5 (−9.5%), from ₩1,398,000 on Nov 3, when they were 2.52 years from the high; the drop adds at least 0.34 years at any growth rate. Back over the line (about ₩1,324,000 at the 35% cap), it would still take MU's memory hits (CG, CW −1.5, YT). The ADR trades ~40% above the Korean shares ($131.91, −7.8%).
 
 ## Nov 5, 2026: revision 21 CW and YT penalties, board of 11 (10:45 am CT)
 
