@@ -1,4 +1,23 @@
-# Roster — Nov 5, 2026 (NVDA joins, board of 20; revision 20 CG cycle guard, board of 19; revision 19 GP gate-fail penalty, board of 20; memory sweep adds MU and STX, board of 20; revision 18 GD gate with 3% band, board of 18; GD board of 16; revision 17 net-cash addendum and BKNG; photonics sweep; revision 17 fundamentals-first board; revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+# Roster — Nov 5, 2026 (revision 21 CW and YT penalties, board of 11; NVDA joins, board of 20; revision 20 CG cycle guard, board of 19; revision 19 GP gate-fail penalty, board of 20; memory sweep adds MU and STX, board of 20; revision 18 GD gate with 3% band, board of 18; GD board of 16; revision 17 net-cash addendum and BKNG; photonics sweep; revision 17 fundamentals-first board; revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+
+## Nov 5, 2026: revision 21 CW and YT penalties, board of 11 (10:45 am CT)
+
+User: "redo everything over uber, if anything has a cyclical warning hit it negatively hard and if anything is already up over 25% this year hit it hard." Nov 4 snapshot, line 4.46. Rules in `recovery-board.md`; year-end closes and readings in `scripts/board_2026_11_04.py`.
+
+| # | Ticker | Score | Hits | # | Ticker | Score | Hits |
+|---|---|---|---|---|---|---|---|
+| 1 | NVDA | 8.85 | | 7 | META | 4.93 | |
+| 2 | CRDO | 7.02 | GP −0.5 | 8 | MPWR | 4.68 | GP −0.25, YT −1.0 |
+| 3 | AVGO | 6.95 | GP −0.25 | 9 | FIX | 4.67 | GP −0.5, CW −1.5 |
+| 4 | TER | 6.07 | YT −1.0 | 10 | TSEM | 4.53 | YT −1.0 |
+| 5 | GOOGL | 5.22 | GP −0.5 | 11 | UBER | 4.51 | |
+| 6 | ALAB | 5.20 | GP −0.5, YT −1.0 | | | | |
+
+- **Fell off:** LRCX 4.45 (CW −1.0, YT −1.0) and AMAT 4.45 (YT −1.0, GP −0.5), each 0.01 short; SMTC 4.38 (YT −1.5 at +51%); MTSI 4.14 and ASML 4.14 (ASML CW −1.0, YT −1.0); ANET 3.77; GEV 2.42 and VRT 2.31 (CW −1.5, YT −1.0); MU 1.16 (CG, CW −1.5, YT −2.0 at +179%).
+- **YTD at the board price:** MU +179%, SMTC +51%, AMAT +43%, ASML +40%, MPWR +40%, ANET +36%, ALAB +34%, TER +30%, LRCX +30%, MTSI +30%, TSEM +27%, GEV +26%, VRT +26%, FIX +16%, NVDA +7%, META −4%, AVGO −5%, CRDO −6%, GOOGL −7%, UBER −12%.
+- **CW readings:** LRCX 1.5×, ASML 1.7× (warning); MU 6.0×, STX 3.7× (CG); FIX 2.3×, VRT 2.2×, GEV 4.3× (booking cycle, annual ROIC). TER 1.4×, TSEM 1.2×, AMAT 1.1× clear.
+- **Close calls:** GEV and VRT clear the 25% YT line by under 1 point; TSEM by 1.7 points; SMTC is 0.6 points over 50%. FIX reads 1.6× on vcpscanner's ROIC method, which would make its CW −1.0 (5.17).
+- **Not in this run:** Nov 5's selloff. At midday quotes NVDA (~$186), MU (~$692) and TER (~$222) were down 7–12%; TER would fall under the 25% YT line on a refresh.
 
 ## Nov 5, 2026: NVDA joins, board of 20 (10:06 am CT)
 

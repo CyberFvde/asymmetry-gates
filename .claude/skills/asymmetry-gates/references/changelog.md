@@ -1,6 +1,33 @@
-# #18 — Rule-change log (policy Nov 5, 2026, revision 20)
+# #18 — Rule-change log (policy Nov 5, 2026, revision 21)
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
+
+## Adopted configuration: Nov 5, 2026, revision 21 (CW cycle-warning and YT hot-year penalties on the recovery board)
+
+### Authorization, scope and adoption basis
+
+Explicit user request dated Nov 5, 2026, 10:08 am CT: "redo everything over uber, if anything has a cyclical warning hit it negatively hard and if anything is already up over 25% this year hit it hard." Scope: the recovery-board ranking only; no gate, route or capital rule changes.
+
+### Change summary (old to new)
+
+- **CW:** cyclical names with ROIC at 1.5× to under 2× their average lose 1.0; at 2× or more (CG trigger) they lose 1.5, on top of CG. Scope widens past CG to booking-cycle names (power and electrical equipment, construction contractors), which take the points without CG rescoring, on stockanalysis annual ROIC.
+- **YT:** YTD price return above 25% loses 1.0, above 50% loses 1.5, above 100% loses 2.0, on every name.
+- **Scorer:** `ye_close` input and `cycle["rescore"]` in `scripts/recovery_score.py`; year-end closes and readings in `scripts/board_2026_11_04.py`.
+- **Line:** stays fixed at 4.46. Inputs stay on the Nov 4 snapshot.
+
+### Rationale
+
+- **User call:** revision 20 kept past price out of the score. The user has now chosen to penalize the run-up directly, accepting the momentum cost listed below.
+- **Tiers:** "hard" means a hit that moves names across the line: −1.0 equals the gap between the board's 5th (LRCX 6.45) and 12th (AMAT 5.45) names before this change.
+- **CW band:** revision 20 flagged LRCX and ASML as sitting inside a long upcycle at 1.5–1.7×; the warning band catches them without CG's rescoring.
+
+### Structural and solvency safeguard check
+
+Ranking only; nothing here unlocks capital or loosens a gate. Known costs: (1) recent winners have tended to keep winning over 6–12 months, so YT can cut names with real momentum; (2) YTD resets every Jan 1; (3) booking-cycle names are read on annual data from one source, and other sources differ (FIX is 1.6× on vcpscanner's method against 2.3× on stockanalysis).
+
+### Universe impact (Nov 4 snapshot, line 4.46)
+
+Board of 11, down from 20. Off: LRCX and AMAT (4.45 each, 0.01 short), SMTC 4.38, MTSI 4.14, ASML 4.14, ANET 3.77, GEV 2.42, VRT 2.31, MU 1.16. YT hits: MU −2.0 (+179%), SMTC −1.5 (+51%); −1.0 for AMAT (+43%), ASML and MPWR (+40%), ANET (+36%), ALAB (+34%), TER, LRCX and MTSI (+30%), TSEM (+27%), GEV and VRT (+26%). CW hits: MU, STX, FIX, GEV, VRT −1.5; LRCX, ASML −1.0. Untouched: NVDA, CRDO, AVGO, GOOGL, META, UBER.
 
 ## Adopted configuration: Nov 5, 2026, revision 20 (CG cycle guard on the recovery board)
 

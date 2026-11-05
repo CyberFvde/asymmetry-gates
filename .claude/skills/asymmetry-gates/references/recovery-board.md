@@ -1,4 +1,4 @@
-# Recovery board: fundamentals-first contest ranking (revision 20, Nov 5, 2026)
+# Recovery board: fundamentals-first contest ranking (revision 21, Nov 5, 2026)
 
 The high-IRR ranking used for contest picks and quick comparisons. Half the score is business quality; the other half is how much the stock can make over the next 12 months against its fair value, per unit of risk. Distance to the high only decides who enters (15% minimum) and who is dead money. It orders names only: framework gates (ID, #19 blackouts), dilution limits, sizing and caps still apply, verified gate fails cost points under GP (revision 19), and cyclical names at a peak are scored on through-cycle numbers under CG (revision 20). Scorer: [`../scripts/recovery_score.py`](../scripts/recovery_score.py); dated inputs: [`../scripts/board_2026_11_04.py`](../scripts/board_2026_11_04.py).
 
@@ -45,6 +45,18 @@ Peak-cycle earnings make a cyclical look like a compounder: every quality factor
 - **Not changed:** growth, debt and revisions factors; the lines; GP.
 - **Re-check each screen:** a name drops out of CG once its latest ROIC falls under 2× its average.
 
+## CW and YT: cycle-warning and hot-year penalties (revision 21, Nov 5, 2026)
+
+Two hard ranking penalties for late-cycle and already-run names. Both stack with each other, with CG and with GP, and neither unlocks or blocks capital.
+
+- **CW cycle warning:** uses CG's ROIC ratio (latest reading ÷ its average).
+  - 1.5× to under 2×: −1.0.
+  - 2× or more, or an average of zero or below: −1.5, on top of CG's through-cycle rescoring.
+  - **Scope:** CG's industries, plus booking-cycle names (power and electrical equipment, construction contractors). Booking-cycle names take the points without CG rescoring and are read on stockanalysis annual ROIC: latest reading (TTM, or the latest fiscal year when TTM is blank) against the average of all shown readings, up to five fiscal years plus the latest.
+- **YT hot year:** YTD price return = board price ÷ prior year-end close − 1.
+  - Above 25%: −1.0. Above 50%: −1.5. Above 100%: −2.0.
+  - Every name, every screen. Measure at the board price, not a later quote.
+
 ## Fair value
 
 - **Multiple leg:** NTM EPS × fair P/E × (1 + g), where fair P/E = the lower of the median of the last 20 quarterly forward P/Es (stockanalysis ratios) and 2 × the 3-year EPS growth rate.
@@ -62,7 +74,8 @@ Peak-cycle earnings make a cyclical look like a compounder: every quality factor
 - **IX:** index-leader bonus (framework IX): +0.1 per top-10 S&P 500 / Nasdaq-100 holding, cap +0.2.
 - **PO policy adjustment:** ±0.1 per specific, sourced policy channel (a law, moratorium, tax credit or regulation tied to the company's revenue), cap ±0.2. Re-check each screen. It rates exposure to named policies, never a view on parties.
 - **GP gate-fail penalty (revision 19):** see the section below; 0 to −1.5.
-- **Final** = 0.5 × quality + 0.25 × asymmetry + 0.25 × speed − bear penalty + PB + IX + PO + GP. Report one decimal (two at the line); break ties on the unrounded score.
+- **CW and YT (revision 21):** see the section above; CW 0 to −1.5, YT 0 to −2.0.
+- **Final** = 0.5 × quality + 0.25 × asymmetry + 0.25 × speed − bear penalty + PB + IX + PO + GP + CW + YT. Report one decimal (two at the line); break ties on the unrounded score.
 
 ## GP: gate-fail penalty (revision 19, Nov 5, 2026)
 
@@ -92,7 +105,8 @@ A name that ranks but fails a framework gate loses points by how bad the fail is
 
 ## Known limits
 
-- **Peak-cycle quality:** CG (revision 20) covers memory, storage, equipment, foundry and commodity names. Other industries with booking cycles (power equipment, contractors) are not covered, and a 20-reading average can itself sit inside one long upcycle (LRCX, ASML).
+- **Peak-cycle quality:** CG (revision 20) covers memory, storage, equipment, foundry and commodity names. Booking-cycle names (power equipment, contractors) get CW points but no rescoring, on annual data. A 20-reading average can sit inside one long upcycle (LRCX, ASML); CW's 1.5× band is there to catch those.
+- **YT timing:** YTD resets every Jan 1, so a name that ran in December escapes in January. Recent winners have tended to keep winning over 6–12 months, so YT gives up some momentum upside for less chase risk; the user chose that trade.
 - **Stale data:** stockanalysis pages can lag a print (TER's statistics were pre-print on Nov 4; CRDO's statistics page still served FY24). Cross-check against the financials pages and record the source date.
 - **Data gaps:** Yahoo has no estimate trend for some names (CEG, RMBS, MTSI, STRL on Nov 4); they score neutral on revisions and fall under the deep-drawdown guard.
 - **Judgment inputs:** d, bear and PO are per-name calls; record them with the score.
