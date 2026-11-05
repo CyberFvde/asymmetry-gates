@@ -133,7 +133,7 @@ INPUTS = {
 # sale found. IX +0.2: #1 in SPY (7.77%, Oct 23) and QQQ (8.75%, Feb 13 file; stockanalysis has no newer one).
 # GP 0: no quarter in the 12-month window had three officer sellers (Q4 2025 Kress, Shoquist; Q1 2026 Kress, Puri;
 # Q2 none; Q3 Kress, Teter); ~6.2M shares sold in all, mostly director Mark Stevens, ~0.03% of ~24.3B shares.
-# Next print Nov 18: re-check #19 and GD.
+# Next print Nov 17 after the close (NVIDIA IR; call 5 pm ET): re-check #19 and GD.
 'NVDA': dict(price=200.30, high=239.24, target=328.95, eg=64.78, opm=65.21, ocf_margin=44.35, fcf_margin=41.92, roic=92.03, debt_ebitda=0.19, rev90=0.242, ntm_eps=12.095, fpe_hist=[58.95, 45.52, 32.82, 33.7, 40.13, 52.57, 61.17, 50.26, 26.95, 31.19, 35.1, 38.52, 41.66, 36.24, 26.83, 35.4, 32.7, 26.73, 24.97, 20.82], d=0.15, bear=0.30, pb=0.1, ix=0.2, po=0, net_cash=23.61, ye_close=186.51),
 }
 

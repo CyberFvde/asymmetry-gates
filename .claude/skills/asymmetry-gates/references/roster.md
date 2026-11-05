@@ -64,7 +64,7 @@ User: "Add NVDA." Line 4.46. Inputs and evidence notes in `scripts/board_2026_11
 - **Universe edge:** above $203.35 it is less than 15% below the high and drops off the board.
 - **Gates (GP 0):** A1 passes (shares −1.04%). A7 passes: ~6.2M shares sold in 12 months (~0.03%), mostly director Stevens; no quarter had three officer sellers. #19 and GD pass on the Aug 26 print and $108B guide. China's SAMR finding is preliminary, with no remedy order. CG exempt (fabless; ROIC is below its 20-reading average anyway).
 - **PB +0.1 (holding):** Dec 30, 2025 calls fail the price test ($187.10 then); the household still holds the Jan 16 exercise shares and calls.
-- **Next check:** Nov 18 print (#19, GD).
+- **Next check:** Nov 17 print, after the close (#19, GD).
 
 ## Nov 5, 2026: revision 20 CG cycle guard, board of 19 (9:56 am CT)
 
