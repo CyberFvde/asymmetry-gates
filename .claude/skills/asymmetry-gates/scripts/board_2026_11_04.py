@@ -8,12 +8,16 @@ net_cash: stockanalysis Net Cash ($B; CRDO from its Aug 1 balance sheet; SMTC no
 rev90: Yahoo EPS trend, next-year EPS now vs 90 days ago (CIEN current year; UBER
 -0.32% post-print per Yahoo Finance, Nov 4; None = no data). ntm_eps / fpe_hist:
 stockanalysis quarterly ratios (GOOGL NTM EPS = Yahoo Q4'26 + 3/4 of 2027).
+guide_below (GD gate, revision 18, checked Nov 4): AVGO Q4 revenue $34.8B vs $35.0B consensus (Sep 2);
+BKNG Q4 adjusted revenue +0-2%, EBITDA flat, "well below Wall Street" (Nov 3); UBER Q4 adjusted EPS
+$0.95-0.99 vs ~$1.00-1.06 (Nov 4). All others guided at or above consensus or give no numeric guidance
+(GOOGL, FIX).
 d, bear: per-name judgment inputs carried from revision 16 (UBER d = 25% after the Waymo unwind).
 """
 from recovery_score import score, LINE
 
 INPUTS = {
-'AVGO': dict(price=327.88, high=481.57, target=530.14, eg=64.53, opm=48.81, ocf_margin=45.62, fcf_margin=44.22, roic=30.68, debt_ebitda=1.13, rev90=-0.0077, ntm_eps=16.743, fpe_hist=[24.7, 31.24, 32.17, 44.02, 39.55, 29.43, 34.84, 28.55, 26.24, 25.4, 26.1, 18.77, 20.72, 14.89, 14.5, 11.74, 13.57, 15.04, 16.91, 17.43], d=0.1, bear=0.25, pb=0.1, ix=0.1, po=0, net_cash=-35.44),
+'AVGO': dict(price=327.88, high=481.57, target=530.14, eg=64.53, opm=48.81, ocf_margin=45.62, fcf_margin=44.22, roic=30.68, debt_ebitda=1.13, rev90=-0.0077, ntm_eps=16.743, fpe_hist=[24.7, 31.24, 32.17, 44.02, 39.55, 29.43, 34.84, 28.55, 26.24, 25.4, 26.1, 18.77, 20.72, 14.89, 14.5, 11.74, 13.57, 15.04, 16.91, 17.43], d=0.1, bear=0.25, pb=0.1, ix=0.1, po=0, net_cash=-35.44, guide_below=True),
 'GOOGL': dict(price=291.26, high=402.62, target=406.55, eg=19.09, opm=33.32, ocf_margin=38.11, fcf_margin=4.19, roic=23.79, debt_ebitda=0.79, rev90=0.0251, ntm_eps=14.68, fpe_hist=[25.62, 28.53, 25.08, 29.41, 24.5, 19.15, 17.23, 22.05, 20.65, 23.53, 22.22, 21.69, 21.14, 21.38, 20.39, 17.89, 17.77, 18.73, 23.98, 26.61], d=0.15, bear=0.2, pb=0.2, ix=0.2, po=0, net_cash=114.77),
 'VST': dict(price=119.06, high=217.92, target=208.77, eg=35.24, opm=19.79, ocf_margin=26.65, fcf_margin=11.76, roic=9.72, debt_ebitda=3.09, rev90=-0.0824, ntm_eps=None, fpe_hist=None, d=0.15, bear=0.25, pb=0.1, ix=0, po=-0.2, net_cash=-20.07),
 'CEG': dict(price=247.01, high=403.95, target=339.25, eg=21.0, opm=15.05, ocf_margin=13.46, fcf_margin=0.94, roic=7.43, debt_ebitda=3.04, rev90=None, ntm_eps=None, fpe_hist=None, d=0.15, bear=0.25, pb=0, ix=0, po=0, net_cash=-24.0),
@@ -30,7 +34,7 @@ INPUTS = {
 'TER': dict(price=251.13, high=478.23, target=412.64, eg=56.61, opm=30.74, ocf_margin=23.77, fcf_margin=17.94, roic=38.24, debt_ebitda=0.06, rev90=0.143, ntm_eps=10.529, fpe_hist=[41.56, 63.19, 47.16, 38.03, 35.15, 26.98, 24.89, 32.34, 36.06, 42.23, 38.64, 32.71, 28.78, 36.36, 33.68, 25.2, 18.26, 16.49, 24.0, 26.09], d=0.2, bear=0.35, pb=0, ix=0, po=0, net_cash=0.417),
 'MTSI': dict(price=222.06, high=409.68, target=390.33, eg=42.48, opm=18.19, ocf_margin=23.38, fcf_margin=17.59, roic=14.5, debt_ebitda=1.43, rev90=None, ntm_eps=8.251, fpe_hist=[51.91, 50.26, 41.48, 32.49, 37.27, 24.73, 39.73, 35.74, 38.54, 34.98, 34.53, 32.48, 28.78, 23.34, 20.51, 17.04, 15.12, 20.69, 29.77, 27.42], d=0.2, bear=0.35, pb=0, ix=0, po=0, net_cash=0.249),
 'ASML': dict(price=1500.87, high=1976, target=2141.09, eg=45.21, opm=38.55, ocf_margin=56.58, fcf_margin=52.69, roic=92.13, debt_ebitda=0.12, rev90=0.1102, ntm_eps=None, fpe_hist=None, d=0.15, bear=0.3, pb=0, ix=0, po=0, net_cash=12.28),
-'UBER': dict(price=71.54, high=100.1, target=100.86, eg=30.91, opm=12.13, ocf_margin=18.87, fcf_margin=18.32, roic=19.18, debt_ebitda=1.87, rev90=-0.0032, ntm_eps=None, fpe_hist=None, d=0.25, bear=0.25, pb=0.2, ix=0, po=0, net_cash=-4.74),
+'UBER': dict(price=71.54, high=100.1, target=100.86, eg=30.91, opm=12.13, ocf_margin=18.87, fcf_margin=18.32, roic=19.18, debt_ebitda=1.87, rev90=-0.0032, ntm_eps=None, fpe_hist=None, d=0.25, bear=0.25, pb=0.2, ix=0, po=0, net_cash=-4.74, guide_below=True),
 'VRT': dict(price=204.12, high=376.23, target=333.0, eg=40.93, opm=19.96, ocf_margin=29.18, fcf_margin=25.52, roic=37.58, debt_ebitda=1.19, rev90=0.042, ntm_eps=7.547, fpe_hist=[49.07, 40.78, 32.39, 35.14, 34.0, 20.09, 34.24, 34.33, 34.55, 35.79, 23.29, 21.45, 19.07, 12.11, 13.29, 9.2, 8.77, 21.19, 20.82, 24.28], d=0.15, bear=0.4, pb=0, ix=0, po=-0.1, net_cash=-0.2276),
 'BE': dict(price=197.16, high=345.85, target=284.77, eg=121.27, opm=14.33, ocf_margin=18.04, fcf_margin=11.4, roic=27.24, debt_ebitda=4.38, rev90=0.1333, ntm_eps=None, fpe_hist=None, d=0.25, bear=0.45, pb=0.1, ix=0, po=0, net_cash=-0.2999),
 'CIEN': dict(price=300.3, high=637.51, target=219.29, eg=None, opm=6.52, ocf_margin=16.9, fcf_margin=13.95, roic=4.41, debt_ebitda=3.48, rev90=0.0963, ntm_eps=10.389, fpe_hist=[48.34, 80.95, 47.15, 50.46, 35.03, 28.89, 36.12, 25.69, 22.29, 20.82, 17.72, 14.15, 15.71, 15.88, 19.52, 29.51, 22.64, 17.28, 20.78, 17.88], d=0.25, bear=0.45, pb=0, ix=0, po=0, net_cash=-0.262),
@@ -51,7 +55,7 @@ INPUTS = {
 # quarter-end close (split-adjusted; the 2025 closing peak is a little higher, ~1.9-2.0 years either way).
 # rev90 predates the weak Q4 guide (adj. revenue +0-2%, EBITDA flat; $900M FTC revenue hit): a 3-5% estimate
 # cut would score it 5.25-5.40.
-'BKNG': dict(price=170.97, high=229.07, target=232.71, eg=16.60, opm=34.85, ocf_margin=34.92, fcf_margin=33.78, roic=92.45, debt_ebitda=1.96, rev90=0.0049, ntm_eps=11.127, fpe_hist=[14.64, 16.64, 15.73, 20.8, 22.64, 26.47, 21.82, 24.45, 22.68, 22.35, 20.73, 20.64, 20.17, 19.4, 20.36, 16.86, 15.11, 16.32, 26.41, 26.57], d=0.15, bear=0.25, pb=0, ix=0, po=0, net_cash=-3.41),
+'BKNG': dict(price=170.97, high=229.07, target=232.71, eg=16.60, opm=34.85, ocf_margin=34.92, fcf_margin=33.78, roic=92.45, debt_ebitda=1.96, rev90=0.0049, ntm_eps=11.127, fpe_hist=[14.64, 16.64, 15.73, 20.8, 22.64, 26.47, 21.82, 24.45, 22.68, 22.35, 20.73, 20.64, 20.17, 19.4, 20.36, 16.86, 15.11, 16.32, 26.41, 26.57], d=0.15, bear=0.25, pb=0, ix=0, po=0, net_cash=-3.41, guide_below=True),
 }
 
 if __name__ == "__main__":

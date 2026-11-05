@@ -1,4 +1,4 @@
-# Recovery board: fundamentals-first contest ranking (revision 17, Nov 4, 2026)
+# Recovery board: fundamentals-first contest ranking (revision 18, Nov 4, 2026)
 
 The high-IRR ranking used for contest picks and quick comparisons. Half the score is business quality; the other half is how much the stock can make over the next 12 months against its fair value, per unit of risk. Distance to the high only decides who enters (15% minimum) and who is dead money. It orders names only: framework gates (ID, #19 blackouts), dilution limits, sizing and caps still apply. Scorer: [`../scripts/recovery_score.py`](../scripts/recovery_score.py); dated inputs: [`../scripts/board_2026_11_04.py`](../scripts/board_2026_11_04.py).
 
@@ -10,6 +10,7 @@ The high-IRR ranking used for contest picks and quick comparisons. Half the scor
   - Less than 15% below the high (highest split-adjusted close in the last 10 years).
   - ID fail: TTM gross margin under 20% (framework ID).
   - Dilution: trailing 12-month share growth + undrawn ATM + maximum pending deal shares over 50% of current shares (the IREN rule, H4a's budget). One-time strategic mergers count unless the user exempts them.
+  - **Guide-down (GD, revision 18):** the latest guidance midpoint for revenue, EPS or EBITDA (next quarter, or full year when that is all the company gives) came in below consensus at the print. One metric below is enough. Out until the next print; companies that give no numeric guidance pass. Check it first, every screen.
   - **Dead money:** more than 2.7 years to the high when the price compounds at consensus 3-year EPS growth (capped at 35%). No credit for re-rating: a name has to earn its way back.
   - **No fair value:** more than 35% below the high, estimates not rising over 90 days, and no usable 5-year P/E history.
 - **Convexity bucket:** GAAP-unprofitable (TTM net income below zero) or binary names can still rank, but only with convexity judgment inputs: d ≥30–35%, bear ≥45–50%.
@@ -51,7 +52,7 @@ Six factors, each 0–10 on fixed ranges, averaged (a missing factor drops out o
 
 ## Lines (fixed Nov 4, 2026)
 
-- **Board line:** final score ≥4.46, set by UBER's post-print score (4.51) less the 0.05 band.
+- **Board line:** final score ≥4.46, set by UBER's post-print score (4.51) less the 0.05 band. The number stays fixed even though UBER itself is now out on GD.
 - **Dead-money line:** ≤2.7 years to the high at consensus growth, set by CRDO (2.68).
 - Both are fixed numbers. They don't float with UBER's or CRDO's prices; change them only by user request.
 

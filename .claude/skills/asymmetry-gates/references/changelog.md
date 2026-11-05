@@ -1,6 +1,31 @@
-# #18 — Rule-change log (policy Nov 4, 2026, revision 17)
+# #18 — Rule-change log (policy Nov 4, 2026, revision 18)
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
+
+## Adopted configuration: Nov 4, 2026, revision 18 (GD guide-down gate on the recovery board)
+
+### Authorization, scope and adoption basis
+
+Explicit user request dated Nov 4, 2026, 6:16 pm CT: "Get rid of any w with guides that should be a prerequisite." Read as: names whose latest guidance came in below consensus leave the board, as a standing gate. Scope: the recovery-board ranking only; the framework's routes and #19 blackouts are unchanged.
+
+### Change summary (old to new)
+
+- **New exclusion (GD):** the latest guidance midpoint for revenue, EPS or EBITDA (next quarter, or full year when that is all the company gives) below consensus at the print removes the name until its next print. One metric below is enough; companies that give no numeric guidance pass.
+- **Scorer:** `guide_below` input in `scripts/recovery_score.py`; flags recorded in `scripts/board_2026_11_04.py`.
+- **Line:** stays fixed at 4.46 even though UBER, its anchor, is now out on GD.
+
+### Rationale
+
+- **The user's call:** a company guiding below the Street tells you estimates are about to fall, which the 90-day revision factor only catches after the cut.
+- **Strict reading:** any metric below counts, so mixed guides (UBER: bookings in line, EBITDA a touch above, EPS below) are out.
+
+### Structural and solvency safeguard check
+
+Ranking only; nothing here unlocks capital or loosens a gate. Known costs: (1) no tolerance band, so a 0.6% miss (AVGO's Q4 revenue, $34.8B vs $35.0B) removes a top-ranked name; (2) consensus figures differ by source (LSEG, FactSet, Visible Alpha), so record the one used; (3) a guide stays in force until the next print, which can be up to three months.
+
+### Universe impact (Nov 4 board)
+
+Out on GD: AVGO (Q4 revenue $34.8B vs $35.0B, Sep 2), BKNG (Q4 adjusted revenue +0–2%, EBITDA flat, "well below Wall Street," Nov 3), UBER (Q4 adjusted EPS $0.95–0.99 vs ~$1.00–1.06, Nov 4). Passed: CRDO, TER, ALAB, LRCX, ASML, AMAT, MPWR, SMTC, TSEM, MTSI, META, GEV, VRT, ANET at or above consensus; GOOGL and FIX give no numeric guidance. Board of 16 above 4.46.
 
 ## Adopted configuration: Nov 4, 2026, revision 17 (RB recovery board v2, fundamentals first)
 
