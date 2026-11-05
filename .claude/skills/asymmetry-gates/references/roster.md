@@ -1,4 +1,24 @@
-# Roster — Nov 5, 2026 (revision 21 CW and YT penalties, board of 11; NVDA joins, board of 20; revision 20 CG cycle guard, board of 19; revision 19 GP gate-fail penalty, board of 20; memory sweep adds MU and STX, board of 20; revision 18 GD gate with 3% band, board of 18; GD board of 16; revision 17 net-cash addendum and BKNG; photonics sweep; revision 17 fundamentals-first board; revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+# Roster — Nov 5, 2026 (midday rerun on today's prices, board of 15; revision 21 CW and YT penalties, board of 11; NVDA joins, board of 20; revision 20 CG cycle guard, board of 19; revision 19 GP gate-fail penalty, board of 20; memory sweep adds MU and STX, board of 20; revision 18 GD gate with 3% band, board of 18; GD board of 16; revision 17 net-cash addendum and BKNG; photonics sweep; revision 17 fundamentals-first board; revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+
+## Nov 5, 2026: midday rerun on today's prices, board of 15 (11:45 am CT)
+
+User: "make sure you pull today prices." Revision 21 rules, line 4.46, prices from the post-midterm AI selloff (Nasdaq about −4%). Quotes and times in `scripts/board_2026_11_05.py`; ANET, SMTC, MTSI, GEV and VRT use the user's YTD figures at 11:34 am ET.
+
+| # | Ticker | Score | Hits | # | Ticker | Score | Hits |
+|---|---|---|---|---|---|---|---|
+| 1 | NVDA | 9.10 | | 9 | MPWR | 5.30 | GP −0.25, YT −1.0 |
+| 2 | AVGO | 7.60 | GP −0.25 | 10 | META | 5.19 | |
+| 3 | TER | 7.35 | | 11 | AMAT | 5.10 | GP −0.5, YT −1.0 |
+| 4 | LRCX | 6.37 | CW −1.0 | 12 | FIX | 4.99 | GP −0.5, CW −1.5 |
+| 5 | MTSI | 5.83 | GP −0.25 | 13 | ASML | 4.63 | CW −1.0, YT −1.0 |
+| 6 | SMTC | 5.47 | YT −1.0 | 14 | TSEM | 4.53 | YT −1.0 (Nov 4 price) |
+| 7 | GOOGL | 5.41 | GP −0.5 | 15 | UBER | 4.51 | (Nov 4 price) |
+| 8 | ANET | 5.40 | | | | | |
+
+- **Back on:** LRCX, AMAT, ASML, MTSI, SMTC, ANET. Lower prices raise their 12-month returns, and TER, LRCX, MTSI, ANET drop under the 25% YTD line.
+- **Dead money now:** CRDO ($113, 3.28 years), ALAB ($185, 3.31), VRT ($165, 2.74). The drop pushed them past 2.7 years to the high at capped growth.
+- **Just off:** CDNS 4.18, BE 4.05 (Nov 4 price), GEV 4.03 (CW −1.5).
+- **Unrefreshed:** TSEM, UBER and BE had no live quote. TSEM is dead money below $142.26.
 
 ## Nov 5, 2026: revision 21 CW and YT penalties, board of 11 (10:45 am CT)
 
