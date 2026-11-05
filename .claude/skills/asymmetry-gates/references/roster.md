@@ -1,4 +1,28 @@
-# Roster — Nov 5, 2026 (revision 20 CG cycle guard, board of 19; revision 19 GP gate-fail penalty, board of 20; memory sweep adds MU and STX, board of 20; revision 18 GD gate with 3% band, board of 18; GD board of 16; revision 17 net-cash addendum and BKNG; photonics sweep; revision 17 fundamentals-first board; revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+# Roster — Nov 5, 2026 (NVDA joins, board of 20; revision 20 CG cycle guard, board of 19; revision 19 GP gate-fail penalty, board of 20; memory sweep adds MU and STX, board of 20; revision 18 GD gate with 3% band, board of 18; GD board of 16; revision 17 net-cash addendum and BKNG; photonics sweep; revision 17 fundamentals-first board; revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+
+## Nov 5, 2026: NVDA joins, board of 20 (10:06 am CT)
+
+User: "Add NVDA." Line 4.46. Inputs and evidence notes in `scripts/board_2026_11_04.py`.
+
+| # | Ticker | Score | Notes | # | Ticker | Score | Notes |
+|---|---|---|---|---|---|---|---|
+| 1 | NVDA | 8.85 | PB +0.1, IX +0.2 | 11 | TSEM | 5.53 | |
+| 2 | TER | 7.07 | | 12 | AMAT | 5.45 | GP −0.5 |
+| 3 | CRDO | 7.02 | GP −0.5 | 13 | GOOGL | 5.22 | GP −0.5 |
+| 4 | AVGO | 6.95 | GP −0.25 | 14 | MTSI | 5.14 | GP −0.25 |
+| 5 | LRCX | 6.45 | | 15 | META | 4.93 | |
+| 6 | ALAB | 6.20 | GP −0.5 | 16 | GEV | 4.92 | |
+| 7 | FIX | 6.17 | GP −0.5 | 17 | VRT | 4.81 | |
+| 8 | ASML | 6.14 | | 18 | ANET | 4.77 | |
+| 9 | SMTC | 5.88 | | 19 | MU | 4.66 | CG k 0.25 |
+| 10 | MPWR | 5.68 | GP −0.25 | 20 | UBER | 4.51 | |
+
+- **NVDA 8.85:** $200.30 (Nov 4 close), 16.3% below the $239.24 Oct 6 record close. Quality 10.0 on every factor: 3-year EPS growth 64.8%, operating margin 65.2%, FCF margin 41.9%, ROIC 92.0%, net cash $23.6B, FY28 EPS up 24% in 90 days. 12-month fair value $452 (half the $328.95 target, half 12.1 NTM EPS × the 35.3× five-year median P/E × 1.35), a 126% return.
+- **Softest input:** the 35× median comes from the FY22-27 ramp. On the target alone NVDA scores 7.53, still first; at bear 40% it scores 8.25.
+- **Universe edge:** above $203.35 it is less than 15% below the high and drops off the board.
+- **Gates (GP 0):** A1 passes (shares −1.04%). A7 passes: ~6.2M shares sold in 12 months (~0.03%), mostly director Stevens; no quarter had three officer sellers. #19 and GD pass on the Aug 26 print and $108B guide. China's SAMR finding is preliminary, with no remedy order. CG exempt (fabless; ROIC is below its 20-reading average anyway).
+- **PB +0.1 (holding):** Dec 30, 2025 calls fail the price test ($187.10 then); the household still holds the Jan 16 exercise shares and calls.
+- **Next check:** Nov 18 print (#19, GD).
 
 ## Nov 5, 2026: revision 20 CG cycle guard, board of 19 (9:56 am CT)
 

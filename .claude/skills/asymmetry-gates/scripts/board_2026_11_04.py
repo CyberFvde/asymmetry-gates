@@ -35,6 +35,8 @@ gp (revision 19, quick gate sweep Nov 5, 2026; details in references/roster.md):
   on a pre-arranged order; Form 4s filed), ASML (AFM: CEO and CFO sales run through discretionary management mandates;
   other board members not pulled), SMTC (D route; Oct 2025 convert exchanges rolled out of the 12-month window Oct 14),
   #19 on the Nov 3-5 prints (ALAB, ANET, UBER and MTSI all beat).
+  NVDA (added Nov 5): clear on A1 (shares -1.04% YoY), A7 (net selling ~0.03%; at most two officers in any quarter),
+  #19 (Q2 FY27 beat), GD (Q3 guide $108B vs ~$104B) and legal (China SAMR finding is preliminary, no remedy order).
 """
 from recovery_score import score, LINE
 
@@ -108,6 +110,23 @@ INPUTS = {
 #   TER 12.07 vs 8.54 (1.4x), TSEM 4.58 vs 3.78 (1.2x), AMAT 11.50 vs 10.91 (1.1x).
 'MU': dict(price=795.23, high=1255.0, target=1562.0, eg=35.0, opm=74.59, ocf_margin=67.33, fcf_margin=44.27, roic=41.11, debt_ebitda=0.05, rev90=0.2697, ntm_eps=176.6, fpe_hist=[6.64, 9.83, 10.35, 13.62, 10.15, 11.11, 11.99, 11.01, 12.78, 26.19, 48.88, 203.0, 203.0, 203.0, 203.0, 203.0, 11.93, 6.53, 8.89, 9.2], d=0.20, bear=0.45, pb=0, ix=0, po=0, cycle=dict(roic_now=41.11, roic_avg=6.87, opm_avg=22.90, ocf_avg=41.50, fcf_avg=3.99)),
 'STX': dict(price=557.06, high=1145.0, target=1045.0, eg=35.0, opm=34.65, ocf_margin=35.0, fcf_margin=30.13, roic=31.66, debt_ebitda=0.85, rev90=0.2725, ntm_eps=40.0, fpe_hist=[33.69, 25.67, 23.03, 24.23, 14.86, 9.93, 10.74, 16.24, 21.91, 31.8, 60.03, 114.98, 59.0, 21.61, 21.36, 11.01, 7.67, 9.87, 13.0, 10.38], d=0.20, bear=0.45, pb=0, ix=0, po=0, gp=-0.25, cycle=dict(roic_now=31.66, roic_avg=8.63, opm_avg=15.45, ocf_avg=16.60, fcf_avg=12.80)),
+# NVDA added Nov 5 (user: "Add NVDA"). Price $200.30, the Nov 4 close (InvestSmart; StatMuse's last Nov 4 hourly bar
+# $200.24). High $239.24, the Oct 6, 2026 record close (stockanalysis history); $203.35 is the 15% line, so a 1.5% rally
+# takes it out of the universe. Fundamentals: stockanalysis statistics (Nov 1): TTM revenue $302.97B, operating margin
+# 65.21%, OCF $134.36B (44.35%), FCF margin 41.92%, ROIC 92.03%, Debt/EBITDA 0.19, net cash $23.61B, 3-year EPS growth
+# 64.78%, target $328.95. rev90: Yahoo FY28 EPS 15.91 vs 12.81 90 days ago. NTM EPS 12.095 = $204.64 / 16.92 forward P/E
+# (ratios page, Oct 30); Yahoo's Q4 FY27 + 3/4 FY28 gives 14.68 (scores 9.34). fpe_hist median 35.25x is the FY22-27
+# range, when the multiple still priced the ramp; on the target alone NVDA scores 7.53, still first.
+# CG: fabless, exempt; ROIC 92.0 sits below its 20-reading average of 101.0, so it would not trigger anyway.
+# d 15% (hyperscaler concentration, OpenAI commitment), bear 30% (AI-capex cycle). PO 0: China is already out of guidance,
+# and chip-equipment names carry no export-control points either.
+# PB +0.1 (holding): Pelosi bought 20 $100 calls (Jan 2027) on Dec 30, 2025 and exercised 50 $80 calls into 5,000 shares on
+# Jan 16, filed Jan 23 (window to Jan 23, 2027); $200.30 is above the $187.10 Dec 30 close, so no buy boost. No later
+# sale found. IX +0.2: #1 in SPY (7.77%, Oct 23) and QQQ (8.75%, Feb 13 file; stockanalysis has no newer one).
+# GP 0: no quarter in the 12-month window had three officer sellers (Q4 2025 Kress, Shoquist; Q1 2026 Kress, Puri;
+# Q2 none; Q3 Kress, Teter); ~6.2M shares sold in all, mostly director Mark Stevens, ~0.03% of ~24.3B shares.
+# Next print Nov 18: re-check #19 and GD.
+'NVDA': dict(price=200.30, high=239.24, target=328.95, eg=64.78, opm=65.21, ocf_margin=44.35, fcf_margin=41.92, roic=92.03, debt_ebitda=0.19, rev90=0.242, ntm_eps=12.095, fpe_hist=[58.95, 45.52, 32.82, 33.7, 40.13, 52.57, 61.17, 50.26, 26.95, 31.19, 35.1, 38.52, 41.66, 36.24, 26.83, 35.4, 32.7, 26.73, 24.97, 20.82], d=0.15, bear=0.30, pb=0.1, ix=0.2, po=0, net_cash=23.61),
 }
 
 if __name__ == "__main__":
