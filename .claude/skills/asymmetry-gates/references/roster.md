@@ -1,4 +1,30 @@
-# Roster — Nov 4, 2026 (revision 18 GD gate with 3% band, board of 18; GD board of 16; revision 17 net-cash addendum and BKNG; photonics sweep; revision 17 fundamentals-first board; revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+# Roster — Nov 5, 2026 (memory sweep adds MU and STX, board of 20; revision 18 GD gate with 3% band, board of 18; GD board of 16; revision 17 net-cash addendum and BKNG; photonics sweep; revision 17 fundamentals-first board; revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+
+## Nov 5, 2026: memory sweep, MU and STX join, board of 20 (8:45 am CT)
+
+Revision 18 scorer, line 4.46. MU and STX scored at Nov 4 closes; everyone else keeps the Nov 4 snapshot. Inputs and source notes in `scripts/board_2026_11_04.py`. Ranking only: both fail A7, so neither is capital-eligible.
+
+| # | Ticker | Score | # | Ticker | Score |
+|---|---|---|---|---|---|
+| 1 | MU | 8.16 | 11 | MPWR | 5.93 |
+| 2 | CRDO | 7.52 | 12 | SMTC | 5.88 |
+| 3 | AVGO | 7.20 | 13 | GOOGL | 5.72 |
+| 4 | STX | 7.18 | 14 | TSEM | 5.53 |
+| 5 | TER | 7.07 | 15 | MTSI | 5.39 |
+| 6 | ALAB | 6.70 | 16 | META | 4.93 |
+| 7 | FIX | 6.67 | 17 | GEV | 4.92 |
+| 8 | LRCX | 6.45 | 18 | VRT | 4.81 |
+| 9 | ASML | 6.14 | 19 | ANET | 4.77 |
+| 10 | AMAT | 5.95 | 20 | UBER | 4.51 |
+
+- **MU ($795.23):** quality 10.0 on FY26 numbers (74.6% operating margin, 41% ROIC, net-cash-level debt, next-year EPS +27% over 90 days). The 8.16 leans on peak EPS × a 12x median P/E; on the $1,562 target alone it scores 7.36. FQ1 guide $61.5B vs $57.9B consensus.
+- **STX ($557.06):** 7.18 (7.07 on the $1,045 target alone). FQ2 guide $4.80B / $9.20 EPS, above the ~$8.54 pre-print consensus. Operating margin is FY26's 34.65%; the TTM figure will be higher.
+- **Cycle risk:** both score near-perfect quality because every metric is measured at the memory peak; 4.5–5x forward P/Es price an earnings decline consensus hasn't booked. Early signals: Kioxia's cautious December-quarter guide (Nov 2) and Apple's comments on memory costs. The revision factor reacts only once estimates fall.
+- **AI-capex cap:** memory counts toward the AI-capex sleeve (≤60% of the sleeve, ≤25% of the portfolio).
+- **MU A7 fails (Q1 2026):** three officers sold with no 10b5-1 footnote, where Micron footnotes every plan sale with its adoption date: CAO Allen 2,000 on Jan 6 ($337.50), EVP Bhatia 26,623 on Jan 22 (~$391), EVP Sadana 25,000 on Feb 2 (~$430). Plan sellers: Mehrotra (plan adopted Jan 30, 2026), Ray (Jan 27 sale under a plan; new plan Jan 30), Arnzen (Dec 19, 2025), Deboer (Jul 17, 2026). Net 12-month selling ~425k shares, 0.04% of 1.13B. Clears in early February 2027 if no new quarter trips it.
+- **STX A7 fails (Q3 2026):** EVP Teh sold 7,361 on Aug 13 outside a plan (option exercise plus extra shares); CFO Romano (9,076 on Aug 21, 1,348 on Sep 10) and CTO Morris (572 on Sep 10) sold at the uniform sell-to-cover prices with no issuer-mandated footnote, which their Sep 14–15 filings do carry. Undocumented sell-to-cover counts toward the officer count. Plans: Mosley (Feb 18, 2026), Teh (Feb 11), Morris (Jan 29), Romano (Apr 30). Net 12-month selling ~866k shares, ~0.4%. Clears in September 2027 at the earliest; Q1 and Q2 2026 not fully checked.
+- **Checked and off:** SNDK dead money at $1,037.40 (2.703 years against its $2,335 Jun 25 closing high; on at $1,038.45 or higher at ~7.3; ~$129.81 after the Nov 20 8-for-1 split); WDC dead money at $323.83 (3.01 years; needs $355.73); SKHY provisional ~6.4–6.8, with only an ADR history since July and 2.52 years on the Korean high at Nov 3 prices; DRAM is an ETF (excluded).
+- **CRDO D-watch (Nov 5):** the earnout likely passes D1(c) (max ~2.25% dilution, FCF/share already above pre-deal, net cash $752M); the GAAP gross-margin miss is a watch item, not a #19 trigger; A7 still fails on the Jun 3–5 non-plan sales (Cheng, Laufman, Brennan) until early June 2027.
 
 ## Nov 4, 2026: GD 3% band, board of 18 (6:42 pm CT)
 
