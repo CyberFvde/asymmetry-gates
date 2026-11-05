@@ -1,4 +1,29 @@
-# Roster — Nov 5, 2026 (midday rerun on today's prices, board of 15; revision 21 CW and YT penalties, board of 11; NVDA joins, board of 20; revision 20 CG cycle guard, board of 19; revision 19 GP gate-fail penalty, board of 20; memory sweep adds MU and STX, board of 20; revision 18 GD gate with 3% band, board of 18; GD board of 16; revision 17 net-cash addendum and BKNG; photonics sweep; revision 17 fundamentals-first board; revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+# Roster — Nov 5, 2026 (close rerun, board of 11, TER on the line; midday rerun on today's prices, board of 15; revision 21 CW and YT penalties, board of 11; NVDA joins, board of 20; revision 20 CG cycle guard, board of 19; revision 19 GP gate-fail penalty, board of 20; memory sweep adds MU and STX, board of 20; revision 18 GD gate with 3% band, board of 18; GD board of 16; revision 17 net-cash addendum and BKNG; photonics sweep; revision 17 fundamentals-first board; revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+
+## Nov 5, 2026: close rerun, board of 11 (3:45 pm CT)
+
+Scheduled close rerun (user: "wait for the 3:00 PM CT rerun on PR #38 with clean closing prints"). Revision 21, line 4.46, no exceptions. Closes and sources in `scripts/board_2026_11_05_close.py`; Nasdaq about −5%, chip index about −9%.
+
+| # | Ticker | Score | Price | Hits |
+|---|---|---|---|---|
+| 1 | NVDA | 9.22 | $181.80 | |
+| 2 | AVGO | 7.79 | $291.48 | GP −0.25 |
+| 3 | MPWR | 6.56 | $1,131.94 | GP −0.25 (YTD +24.9%, under the line) |
+| 4 | MTSI | 5.83 | $194.40* | GP −0.25 |
+| 5 | ANET | 5.52 | $159.16 | |
+| 6 | GOOGL | 5.48 | $282.35 | GP −0.5 |
+| 7 | SMTC | 5.47 | $92.60* | YT −1.0 (+25.7%) |
+| 8 | META | 5.25 | $605.31 | |
+| 9 | FIX | 4.99 | $955.77* | GP −0.5, CW −1.5 |
+| 10 | ASML | 4.87 | $1,358.02 | CW −1.0, YT −1.0 |
+| 11 | UBER | 4.51 | $71.54 (Nov 4) | |
+
+*Midday or intraday price; no close reached.
+
+- **TER on the line:** dead money below $212.68. financhle shows $212.56 (off); bullfincher $212.74 at 4:20 pm ET (on, 7.48, #3). The official close decides.
+- **New dead money at the close:** LRCX $183.74 (2.85 years, line $192.44), AMAT $319.33 (2.77, line $325.74), TSEM $130.92 (2.98; one source, eodhd), STX $466.00.
+- **Still off:** CRDO, ALAB, VRT (dead money); CDNS 4.37 (clears at $307.66 or lower); BE 4.05 (Nov 4 price); GEV 3.90; MU 2.43.
+- **Lines to watch:** FIX dead money below $919.26; MTSI below $182.20; SMTC loses its YT hit below $92.11.
 
 ## Nov 5, 2026: midday rerun on today's prices, board of 15 (11:45 am CT)
 
