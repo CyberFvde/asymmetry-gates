@@ -1,6 +1,34 @@
-# #18 — Rule-change log (policy Nov 4, 2026, revision 18)
+# #18 — Rule-change log (policy Nov 5, 2026, revision 19)
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
+
+## Adopted configuration: Nov 5, 2026, revision 19 (GP gate-fail penalty on the recovery board)
+
+### Authorization, scope and adoption basis
+
+Explicit user request dated Nov 5, 2026, 8:47 am CT: "from now if things fail but make it to our rankings they should get negative points based on how bad the fail is in the rankings." The tiers and guardrails were proposed in reply and approved through the user's forwarded council note (8:59 am CT): "say 'go' on building Revision 19," conditioned on settling MU's and STX's routes and running a quick gate sweep on every board name. Scope: the recovery-board ranking only; no gate, route or capital rule changes.
+
+### Change summary (old to new)
+
+- **New score term (GP):** verified gate fails on a name's best route cost −0.25 (minor), −0.5 (moderate) or −1.0 (severe); different gates add up, capped at −1.5. Tier table and timing rule in `recovery-board.md`.
+- **Scope of gates:** insiders, share issuance past the route limit, #19 blackouts, legal/regulatory vetoes and PH impairment. Gates the score already prices (leverage, cash, valuation, growth, guide-downs, dead money) earn no points.
+- **Scorer:** `gp` input in `scripts/recovery_score.py`; values and evidence in `scripts/board_2026_11_04.py`.
+- **Line:** stays fixed at 4.46.
+
+### Rationale
+
+- **The user's call:** the top of the board was full of names that can't get capital (MU, CRDO, STX on Nov 5). Points keep them visible while ordering the board closer to what is investable.
+- **Best route, not strictest route:** a G-route watch flag is not a fail; penalizing it would punish names for missing a route they don't need.
+- **No double counting:** gates the score already measures stay out of GP.
+- **Audit bias:** unverified items earn no points, so the sweep has to cover every name above the line; open items are tagged rather than assumed.
+
+### Structural and solvency safeguard check
+
+Ranking only; nothing here unlocks capital or loosens a gate. Known costs: (1) tier boundaries are judgment calls; (2) plan status often isn't visible in rendered Form 4 copies, so "no plan footnote" stands in for an unchecked box where an issuer footnotes every plan sale; (3) consensus figures for #19 vary by source.
+
+### Universe impact (Nov 5 board, line 4.46)
+
+GP applied: CRDO −0.5, ALAB −0.5, FIX −0.5, AMAT −0.5, GOOGL −0.5, STX −0.25, MTSI −0.25. MU earns none (G route; insider cluster is a watch flag there). Open: AVGO, MPWR, ASML, TSEM, SMTC, ANET and four Nov 3–4 prints. All 20 names stay above 4.46; order changes in the roster.
 
 ## Adopted configuration: Nov 4, 2026, revision 18 (GD guide-down gate on the recovery board)
 

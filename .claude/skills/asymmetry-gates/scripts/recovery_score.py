@@ -1,7 +1,7 @@
-"""Recovery-board scorer (revision 18). See references/recovery-board.md.
+"""Recovery-board scorer (revision 19). See references/recovery-board.md.
 
 Score = 50% quality + 25% asymmetry + 25% speed (12-month return), then the
-bear penalty and PB / IX / PO points. Distance to the high only decides the
+bear penalty, PB / IX / PO points and the GP gate-fail penalty. Distance to the high only decides the
 universe (15% minimum) and the dead-money cut.
 
 Usage:
@@ -52,11 +52,13 @@ def quality(eg, opm, ocf_margin, fcf_margin, roic, debt_ebitda, rev90, net_cash=
 
 def score(price, high, target, eg, opm, ocf_margin, fcf_margin, roic, debt_ebitda,
           rev90=None, ntm_eps=None, fpe_hist=None, d=0.15, bear=0.25,
-          pb=0.0, ix=0.0, po=0.0, max_years=MAX_YEARS, net_cash=None, guide_below=False):
+          pb=0.0, ix=0.0, po=0.0, max_years=MAX_YEARS, net_cash=None, guide_below=False, gp=0.0):
     """Return the final score and its parts, or the reason the name is off the board.
 
     guide_below: True when the latest guidance midpoint (revenue, EPS or EBITDA) came in more than
     3% below consensus at the print (GD gate, revision 18); names that give no numeric guidance pass.
+    gp: gate-fail penalty (revision 19), the sum of tier points for verified fails on the name's best
+    route: -0.25 minor, -0.5 moderate, -1.0 severe, capped at -1.5. See recovery-board.md.
     ntm_eps + fpe_hist (the last 20 quarterly forward P/Es) give the multiple leg;
     leave them None when there is no usable 5-year history (spin-offs, loss years).
     """
@@ -98,12 +100,13 @@ def score(price, high, target, eg, opm, ocf_margin, fcf_margin, roic, debt_ebitd
     pb = min(pb, 0.3)
     ix = min(ix, 0.2)
     po = max(-0.2, min(0.2, po))
-    final = 0.5 * q + 0.25 * asym + 0.25 * speed - bear_pen + pb + ix + po
+    gp = max(-1.5, min(0.0, gp))
+    final = 0.5 * q + 0.25 * asym + 0.25 * speed - bear_pen + pb + ix + po + gp
     return {
         "final": round(final, 2), "on_board": final >= LINE, "quality": round(q, 2),
         "asym": round(asym, 2), "speed": round(speed, 2), "ret_12m": round(up12, 3),
         "fair_value_12m": round(fv12, 2), "fair_pe": fair_pe and round(fair_pe, 1),
         "target_used": use_target, "years": round(years, 2), "below": round(below, 3),
         "factors": {k: (round(v, 1) if v is not None else None) for k, v in factors.items()},
-        "pb": pb, "ix": ix, "po": po, "bear_penalty": round(-bear_pen, 2), "_raw": final,
+        "pb": pb, "ix": ix, "po": po, "gp": gp, "bear_penalty": round(-bear_pen, 2), "_raw": final,
     }

@@ -1,6 +1,6 @@
-# Recovery board: fundamentals-first contest ranking (revision 18, Nov 4, 2026)
+# Recovery board: fundamentals-first contest ranking (revision 19, Nov 5, 2026)
 
-The high-IRR ranking used for contest picks and quick comparisons. Half the score is business quality; the other half is how much the stock can make over the next 12 months against its fair value, per unit of risk. Distance to the high only decides who enters (15% minimum) and who is dead money. It orders names only: framework gates (ID, #19 blackouts), dilution limits, sizing and caps still apply. Scorer: [`../scripts/recovery_score.py`](../scripts/recovery_score.py); dated inputs: [`../scripts/board_2026_11_04.py`](../scripts/board_2026_11_04.py).
+The high-IRR ranking used for contest picks and quick comparisons. Half the score is business quality; the other half is how much the stock can make over the next 12 months against its fair value, per unit of risk. Distance to the high only decides who enters (15% minimum) and who is dead money. It orders names only: framework gates (ID, #19 blackouts), dilution limits, sizing and caps still apply, and verified gate fails cost points under GP (revision 19). Scorer: [`../scripts/recovery_score.py`](../scripts/recovery_score.py); dated inputs: [`../scripts/board_2026_11_04.py`](../scripts/board_2026_11_04.py).
 
 ## Universe
 
@@ -48,7 +48,28 @@ Six factors, each 0–10 on fixed ranges, averaged (a missing factor drops out o
 - **PB:** politician-buy boost (framework PB): +0.2 buy, +0.1 Pelosi holding, cap +0.3.
 - **IX:** index-leader bonus (framework IX): +0.1 per top-10 S&P 500 / Nasdaq-100 holding, cap +0.2.
 - **PO policy adjustment:** ±0.1 per specific, sourced policy channel (a law, moratorium, tax credit or regulation tied to the company's revenue), cap ±0.2. Re-check each screen. It rates exposure to named policies, never a view on parties.
-- **Final** = 0.5 × quality + 0.25 × asymmetry + 0.25 × speed − bear penalty + PB + IX + PO. Report one decimal (two at the line); break ties on the unrounded score.
+- **GP gate-fail penalty (revision 19):** see the section below; 0 to −1.5.
+- **Final** = 0.5 × quality + 0.25 × asymmetry + 0.25 × speed − bear penalty + PB + IX + PO + GP. Report one decimal (two at the line); break ties on the unrounded score.
+
+## GP: gate-fail penalty (revision 19, Nov 5, 2026)
+
+A name that ranks but fails a framework gate loses points by how bad the fail is. GP never unlocks capital: a failing name stays capital-ineligible until the fail clears.
+
+- **Which fails count:** verified fails on the name's best route (the route its share count and cash put it on). A watch flag on that route is not a fail (a G4 three-officer cluster below the 25%-of-holdings line, for example).
+- **Which gates count:** only what the score can't see: insiders (A7, G4, H5), share issuance past the route's limit (A1, D1, G3), #19 blackouts, legal or regulatory vetoes, PH impairment. Leverage, cash, valuation, growth, guide-downs and dead money are already scored or already remove the name, so they earn no GP.
+- **Tiers:**
+
+| Gate | Minor −0.25 | Moderate −0.5 | Severe −1.0 |
+|---|---|---|---|
+| Insiders (A7 / G4 / H5) | three-officer count reached only through sell-to-cover sales missing the issuer footnote; net selling 1.5–1.65% | three officers with clean discretionary non-plan sales in one quarter; net selling 1.65–3% | net selling above 3%; G4's reject line (three officers each selling >25% of holdings in 90 days); failing quarters in 3 of the last 4 |
+| Issuance (A1 / D1 / G3) | past the route limit by 1 point or less | more than 1 point past, rolling off within 12 months | no roll-off date, or more than 12 months away |
+| #19 blackout | miss within twice its trigger | miss beyond twice its trigger | blackout on two prints in a row |
+| Legal / regulatory veto, PH impairment | | | any |
+
+- **Timing:** a fail that clears within 3 months drops one tier (never below minor). #19 blackouts always clear at the next print, so they are tiered on size alone.
+- **Stacking:** one gate counts once, at its worst finding; different gates add up; cap −1.5.
+- **Open items:** unverified items earn no points and are tagged "open" with what is missing. Re-run the sweep at each screen and drop the points on the cure date.
+- **Quick sweep standard:** route from the share count (A1); insiders from a 12-month sales list (calendar-quarter officer counts; net selling including directors and 10% owners), with Form 4 plan status pulled only for quarters that have three or more officer sellers; #19 on the latest print against pre-print consensus; legal check on known cases. Run it on every name above the line, so checked names aren't penalized next to unchecked ones.
 
 ## Lines (fixed Nov 4, 2026)
 
