@@ -1,4 +1,4 @@
-"""Recovery-board scorer (revision 17). See references/recovery-board.md.
+"""Recovery-board scorer (revision 18). See references/recovery-board.md.
 
 Score = 50% quality + 25% asymmetry + 25% speed (12-month return), then the
 bear penalty and PB / IX / PO points. Distance to the high only decides the
@@ -52,12 +52,16 @@ def quality(eg, opm, ocf_margin, fcf_margin, roic, debt_ebitda, rev90, net_cash=
 
 def score(price, high, target, eg, opm, ocf_margin, fcf_margin, roic, debt_ebitda,
           rev90=None, ntm_eps=None, fpe_hist=None, d=0.15, bear=0.25,
-          pb=0.0, ix=0.0, po=0.0, max_years=MAX_YEARS, net_cash=None):
+          pb=0.0, ix=0.0, po=0.0, max_years=MAX_YEARS, net_cash=None, guide_below=False):
     """Return the final score and its parts, or the reason the name is off the board.
 
+    guide_below: True when the latest guidance midpoint (revenue, EPS or EBITDA) came in below
+    consensus at the print (GD gate, revision 18); names that give no numeric guidance pass.
     ntm_eps + fpe_hist (the last 20 quarterly forward P/Es) give the multiple leg;
     leave them None when there is no usable 5-year history (spin-offs, loss years).
     """
+    if guide_below:
+        return {"excluded": "guide-down: latest guidance midpoint below consensus (out until the next print)"}
     below = 1 - price / high
     if below < 0.15:
         return {"excluded": "less than 15% below the high", "below": round(below, 3)}

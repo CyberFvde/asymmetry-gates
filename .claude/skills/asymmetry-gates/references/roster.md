@@ -1,4 +1,30 @@
-# Roster — Nov 4, 2026 (revision 17 board with net-cash addendum and BKNG; photonics sweep; revision 17 fundamentals-first board; revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+# Roster — Nov 4, 2026 (revision 18 GD guide-down gate, board of 16; revision 17 net-cash addendum and BKNG; photonics sweep; revision 17 fundamentals-first board; revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+
+## Nov 4, 2026: revision 18 GD guide-down gate, board of 16 (6:16 pm CT)
+
+Names whose latest guidance midpoint came in below consensus are out until their next print. Line 4.46 unchanged.
+
+| # | Ticker | Score | Latest guide vs consensus |
+|---|---|---|---|
+| 1 | CRDO | 7.52 | FQ2 revenue $525–535M vs $516M (Sep 1) |
+| 2 | TER | 7.07 | Q4 EPS $1.95–2.25 vs $2.03–2.06; revenue ~1.8% above (Oct 27) |
+| 3 | ALAB | 6.70 | Q4 revenue $730–750M, EPS $1.62–1.66 vs $1.42 (Nov 3) |
+| 4 | FIX | 6.67 | No numeric guidance |
+| 5 | LRCX | 6.45 | Dec-qtr revenue $8.60B vs $8.538B, EPS $2.33 vs $2.32 (Oct 21) |
+| 6 | ASML | 6.14 | Q4 revenue €14.2–15.2B vs ~€14B (Oct 14) |
+| 7 | AMAT | 5.95 | FQ4 revenue $10.25B vs $9.54B, EPS $4.02 vs $3.71 (Aug 13) |
+| 8 | MPWR | 5.93 | Q4 revenue $1.35B vs $1.23B (Oct 30) |
+| 9 | SMTC | 5.88 | FQ3 revenue $410M vs $359.9M (Aug 25) |
+| 10 | GOOGL | 5.72 | No numeric guidance |
+| 11 | TSEM | 5.53 | Q4 revenue $600M vs $579.7M (Nov 2) |
+| 12 | MTSI | 5.39 | Q4 guide above consensus (Chartmill headline; date not confirmed) |
+| 13 | META | 4.93 | Q4 revenue $73–76B vs $73.65B (Oct 21) |
+| 14 | GEV | 4.92 | Raised 2026 guidance (Oct 28) |
+| 15 | VRT | 4.81 | Raised 2026 guidance across all key metrics (Oct 28) |
+| 16 | ANET | 4.77 | Q4 revenue $3.9–4.0B, above consensus (Nov 3) |
+
+- **Out on GD:** AVGO 7.20 (Q4 revenue $34.8B vs $35.0B, Sep 2; back at its December print if it guides in line), BKNG 5.73 (Q4 guide well below the Street, Nov 3), UBER 4.51 (Q4 EPS $0.95–0.99 vs ~$1.00–1.06, Nov 4).
+- **Non-AI names left:** GOOGL and META only.
 
 ## Nov 4, 2026: net-cash addendum and BKNG, board of 19 (4:48 pm CT)
 
