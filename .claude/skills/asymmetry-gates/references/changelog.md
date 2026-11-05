@@ -23,6 +23,10 @@ Explicit user request dated Nov 4, 2026, 6:16 pm CT: "Get rid of any w with guid
 
 Ranking only; nothing here unlocks capital or loosens a gate. Known costs: (1) no tolerance band, so a 0.6% miss (AVGO's Q4 revenue, $34.8B vs $35.0B) removes a top-ranked name; (2) consensus figures differ by source (LSEG, FactSet, Visible Alpha), so record the one used; (3) a guide stays in force until the next print, which can be up to three months.
 
+### Addendum: 3% tolerance band (Nov 4, 2026, 6:42 pm CT)
+
+User: "Keep AVGO and Uber if it barely came in below." A guide now trips GD only when a metric's midpoint is more than 3% below consensus. AVGO (Q4 revenue −0.6%) and UBER (Q4 EPS −3.0% against Yahoo Finance's ~$1.00; bookings in line, EBITDA above) return to the board; Reuters cited $1.06 for UBER, which would be −8.5%, so UBER is borderline on source. BKNG stays out: Cantor put its bookings and room-night guide about 4 points of growth below the Street, with adjusted revenue +0–2% and EBITDA flat. Board of 18.
+
 ### Universe impact (Nov 4 board)
 
 Out on GD: AVGO (Q4 revenue $34.8B vs $35.0B, Sep 2), BKNG (Q4 adjusted revenue +0–2%, EBITDA flat, "well below Wall Street," Nov 3), UBER (Q4 adjusted EPS $0.95–0.99 vs ~$1.00–1.06, Nov 4). Passed: CRDO, TER, ALAB, LRCX, ASML, AMAT, MPWR, SMTC, TSEM, MTSI, META, GEV, VRT, ANET at or above consensus; GOOGL and FIX give no numeric guidance. Board of 16 above 4.46.
