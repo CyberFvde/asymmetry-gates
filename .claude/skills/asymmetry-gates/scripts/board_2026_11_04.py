@@ -1,4 +1,5 @@
-"""Recovery board, Nov 4, 2026 (revision 17; GD gate revision 18; GP gate-fail penalty revision 19, Nov 5).
+"""Recovery board, Nov 4, 2026 (revision 17; GD gate revision 18; GP gate-fail penalty revision 19 and CG cycle
+guard revision 20, Nov 5).
 Inputs as pulled; run to reprint the board.
 
 Prices: one intraday snapshot, about 1:30 pm ET Nov 4 (UBER after its Q3 print, +7.4%),
@@ -94,8 +95,19 @@ INPUTS = {
 # inflated by the FY23-24 earnings trough; on the target alone STX scores 7.07.
 # Checked and off: SNDK dead money at $1,037.40 (2.703 years vs its $2,335 Jun 25 closing high; on at $1,038.45+,
 # ~7.3); WDC dead money at $323.83 (3.01 years vs $799.87; needs $355.73).
-'MU': dict(price=795.23, high=1255.0, target=1562.0, eg=35.0, opm=74.59, ocf_margin=67.33, fcf_margin=44.27, roic=41.11, debt_ebitda=0.05, rev90=0.2697, ntm_eps=176.6, fpe_hist=[6.64, 9.83, 10.35, 13.62, 10.15, 11.11, 11.99, 11.01, 12.78, 26.19, 48.88, 203.0, 203.0, 203.0, 203.0, 203.0, 11.93, 6.53, 8.89, 9.2], d=0.20, bear=0.45, pb=0, ix=0, po=0),
-'STX': dict(price=557.06, high=1145.0, target=1045.0, eg=35.0, opm=34.65, ocf_margin=35.0, fcf_margin=30.13, roic=31.66, debt_ebitda=0.85, rev90=0.2725, ntm_eps=40.0, fpe_hist=[33.69, 25.67, 23.03, 24.23, 14.86, 9.93, 10.74, 16.24, 21.91, 31.8, 60.03, 114.98, 59.0, 21.61, 21.36, 11.01, 7.67, 9.87, 13.0, 10.38], d=0.20, bear=0.45, pb=0, ix=0, po=0, gp=-0.25),
+# Cycle guard (revision 20, Nov 5): cyclical-industry names (memory and storage, semiconductor equipment and
+# foundry, commodity producers) whose latest stockanalysis quarterly-ratios ROIC is at least 2x the average of its
+# latest 20 readings are scored on through-cycle numbers (scorer docstring). Triggered:
+#   MU  ROIC 41.11 vs 6.87 average (6.0x), k = 0.25 (floor; raw 0.17). FY22-26 operating margin 31.57, -23.00, 5.19,
+#       26.14, 74.59 (avg 22.90); OCF margin 49.36, 10.03, 33.88, 46.89, 67.33 (avg 41.50); FCF margin 10.12, -39.36,
+#       0.48, 4.46, 44.27 (avg 3.99). Mid-cycle NTM EPS 44.2.
+#   STX ROIC 31.66 vs 8.63 average (3.7x), k = 0.273. FY22-26 operating margin 16.79, -1.68, 6.44, 21.05, 34.65 (avg
+#       15.45); OCF margin 14.21, 12.76, 14.01, 11.90, 30.13 (avg 16.60); FCF margin 10.94, 8.48, 10.14, 8.99, 25.46
+#       (avg 12.80). Mid-cycle NTM EPS 10.9.
+# Tested, not triggered (latest vs 20-reading average): LRCX 25.73 vs 16.62 (1.5x), ASML 31.68 vs 18.27 (1.7x),
+#   TER 12.07 vs 8.54 (1.4x), TSEM 4.58 vs 3.78 (1.2x), AMAT 11.50 vs 10.91 (1.1x).
+'MU': dict(price=795.23, high=1255.0, target=1562.0, eg=35.0, opm=74.59, ocf_margin=67.33, fcf_margin=44.27, roic=41.11, debt_ebitda=0.05, rev90=0.2697, ntm_eps=176.6, fpe_hist=[6.64, 9.83, 10.35, 13.62, 10.15, 11.11, 11.99, 11.01, 12.78, 26.19, 48.88, 203.0, 203.0, 203.0, 203.0, 203.0, 11.93, 6.53, 8.89, 9.2], d=0.20, bear=0.45, pb=0, ix=0, po=0, cycle=dict(roic_now=41.11, roic_avg=6.87, opm_avg=22.90, ocf_avg=41.50, fcf_avg=3.99)),
+'STX': dict(price=557.06, high=1145.0, target=1045.0, eg=35.0, opm=34.65, ocf_margin=35.0, fcf_margin=30.13, roic=31.66, debt_ebitda=0.85, rev90=0.2725, ntm_eps=40.0, fpe_hist=[33.69, 25.67, 23.03, 24.23, 14.86, 9.93, 10.74, 16.24, 21.91, 31.8, 60.03, 114.98, 59.0, 21.61, 21.36, 11.01, 7.67, 9.87, 13.0, 10.38], d=0.20, bear=0.45, pb=0, ix=0, po=0, gp=-0.25, cycle=dict(roic_now=31.66, roic_avg=8.63, opm_avg=15.45, ocf_avg=16.60, fcf_avg=12.80)),
 }
 
 if __name__ == "__main__":
@@ -107,7 +119,7 @@ if __name__ == "__main__":
     print(f"line {LINE}")
     for i, (k, r) in enumerate(rows, 1):
         tag = "ON " if r["on_board"] else "   "
-        gp = f"  GP {r['gp']:+.2f}" if r['gp'] else ""
+        gp = (f"  GP {r['gp']:+.2f}" if r['gp'] else "") + (f"  CG x{r['cg']:.2f}" if r['cg'] else "")
         print(f"{tag}{i:>2} {k:5} {r['final']:5.2f}  Q {r['quality']:4.1f}  12m {r['ret_12m']*100:6.1f}%  yrs {r['years']:4.2f}{gp}")
     for k, r in off:
         print(f"OFF    {k:5} {r['excluded']}")

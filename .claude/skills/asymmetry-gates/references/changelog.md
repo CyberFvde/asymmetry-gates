@@ -1,6 +1,32 @@
-# #18 — Rule-change log (policy Nov 5, 2026, revision 19)
+# #18 — Rule-change log (policy Nov 5, 2026, revision 20)
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
+
+## Adopted configuration: Nov 5, 2026, revision 20 (CG cycle guard on the recovery board)
+
+### Authorization, scope and adoption basis
+
+Explicit user requests dated Nov 5, 2026: "MU is already up over 100% YTD I believe that must drag it down on scoring we may be late to the party" (9:45 am CT), then, after the cycle-guard proposal, "Factor in cyclical peaks because memory be cyclical af!" (9:52 am CT). Scope: the recovery-board ranking only.
+
+### Change summary (old to new)
+
+- **New adjustment (CG):** names in cyclical industries whose latest quarterly-ratios ROIC is at least 2× its 20-reading average are scored on through-cycle numbers: ROIC × k, five-year average margins for the margin and cash factors, and NTM EPS × k in the multiple leg, with k = max(0.25, average ÷ latest).
+- **Scorer:** `cycle` input in `scripts/recovery_score.py`; inputs and sources in `scripts/board_2026_11_04.py`.
+- **Line:** stays fixed at 4.46.
+
+### Rationale
+
+- **Past price is not the signal:** a stock up a lot can still be cheap if earnings rose faster, and recent winners have tended to keep winning in the short run. The risk the user named is the earnings cycle, so CG targets peak returns rather than the run-up.
+- **Industry gate:** without it, young growth companies coming out of losses (CRDO, ALAB) would trip the 2× test.
+- **Floor:** k never goes below 0.25, so one trough year can't erase a name's earnings power.
+
+### Structural and solvency safeguard check
+
+Ranking only; nothing here unlocks capital or loosens a gate. Known costs: (1) the industry list is a judgment call; (2) a five-year window can sit inside a long upcycle; (3) the target leg still carries sell-side views, which can lag a turn.
+
+### Universe impact (Nov 5 board, line 4.46)
+
+Triggered: MU (ROIC 41.11 vs 6.87 average, k = 0.25) falls from 8.16 to 4.66, now 18th; STX (31.66 vs 8.63, k = 0.27) falls from 6.93 to 3.13 and leaves the board. Tested, not triggered: LRCX 1.5×, ASML 1.7×, TER 1.4×, TSEM 1.2×, AMAT 1.1×. Board of 19.
 
 ## Adopted configuration: Nov 5, 2026, revision 19 (GP gate-fail penalty on the recovery board)
 

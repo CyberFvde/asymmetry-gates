@@ -1,6 +1,6 @@
-# Recovery board: fundamentals-first contest ranking (revision 19, Nov 5, 2026)
+# Recovery board: fundamentals-first contest ranking (revision 20, Nov 5, 2026)
 
-The high-IRR ranking used for contest picks and quick comparisons. Half the score is business quality; the other half is how much the stock can make over the next 12 months against its fair value, per unit of risk. Distance to the high only decides who enters (15% minimum) and who is dead money. It orders names only: framework gates (ID, #19 blackouts), dilution limits, sizing and caps still apply, and verified gate fails cost points under GP (revision 19). Scorer: [`../scripts/recovery_score.py`](../scripts/recovery_score.py); dated inputs: [`../scripts/board_2026_11_04.py`](../scripts/board_2026_11_04.py).
+The high-IRR ranking used for contest picks and quick comparisons. Half the score is business quality; the other half is how much the stock can make over the next 12 months against its fair value, per unit of risk. Distance to the high only decides who enters (15% minimum) and who is dead money. It orders names only: framework gates (ID, #19 blackouts), dilution limits, sizing and caps still apply, verified gate fails cost points under GP (revision 19), and cyclical names at a peak are scored on through-cycle numbers under CG (revision 20). Scorer: [`../scripts/recovery_score.py`](../scripts/recovery_score.py); dated inputs: [`../scripts/board_2026_11_04.py`](../scripts/board_2026_11_04.py).
 
 ## Universe
 
@@ -31,6 +31,19 @@ Six factors, each 0–10 on fixed ranges, averaged (a missing factor drops out o
 - The cash cap stops customer prepayments (GEV) from passing as quality. Averaging OCF with FCF credits heavy reinvestment (GOOGL, META) while still docking capex that hasn't proven its return.
 - Net cash scores the debt factor 10 even when gross Debt / EBITDA is high (convert proceeds held as cash, e.g. MTSI, ONTO; Nov 4 addendum).
 - No revision data scores neutral (5). Compute a missing ROIC with the stockanalysis method rather than a different formula.
+
+## CG: cycle guard (revision 20, Nov 5, 2026)
+
+Peak-cycle earnings make a cyclical look like a compounder: every quality factor maxes out and peak EPS times a normal P/E inflates fair value. CG scores those names on through-cycle numbers instead.
+
+- **Who it covers:** cyclical industries where pricing and volume swing with supply: memory and storage, semiconductor equipment and foundry, and commodity producers (energy, metals and mining, chemicals). Fabless and design-led growth names are exempt, since rising returns there come from growth rather than the cycle.
+- **Trigger:** the latest stockanalysis quarterly-ratios ROIC is at least 2× the average of its latest 20 readings (about five years), or that average is zero or negative. Compare like with like on that one series; it differs from the statistics-page ROIC used in quality.
+- **When triggered, with k = max(0.25, average ÷ latest):**
+  - Return on capital factor: board ROIC × k.
+  - Margin and cash factors: simple averages of the last five fiscal-year operating, OCF and FCF margins.
+  - Multiple leg: NTM EPS × k (mid-cycle earnings), times the same fair P/E. The analyst-target leg is unchanged.
+- **Not changed:** growth, debt and revisions factors; the lines; GP.
+- **Re-check each screen:** a name drops out of CG once its latest ROIC falls under 2× its average.
 
 ## Fair value
 
@@ -79,7 +92,7 @@ A name that ranks but fails a framework gate loses points by how bad the fail is
 
 ## Known limits
 
-- **Peak-cycle quality:** chip-equipment margins and ROIC are measured near the top of the AI capex cycle, and the consensus growth that clears them through the dead-money cut can fall. The revision factor and the deep-drawdown guard catch that at the next screen.
+- **Peak-cycle quality:** CG (revision 20) covers memory, storage, equipment, foundry and commodity names. Other industries with booking cycles (power equipment, contractors) are not covered, and a 20-reading average can itself sit inside one long upcycle (LRCX, ASML).
 - **Stale data:** stockanalysis pages can lag a print (TER's statistics were pre-print on Nov 4; CRDO's statistics page still served FY24). Cross-check against the financials pages and record the source date.
 - **Data gaps:** Yahoo has no estimate trend for some names (CEG, RMBS, MTSI, STRL on Nov 4); they score neutral on revisions and fall under the deep-drawdown guard.
 - **Judgment inputs:** d, bear and PO are per-name calls; record them with the score.
