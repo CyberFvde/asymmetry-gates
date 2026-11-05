@@ -24,14 +24,21 @@ gp (revision 19, quick gate sweep Nov 5, 2026; details in references/roster.md):
   STX  -0.25  A7 (D route; A1 out on 2026 exchangeable-note share settlements): Q3 2026 Teh non-plan, Romano/Morris sell-to-cover
               without the issuer footnote (paperwork-driven, minor); clears Sep 2027.
   MTSI -0.25  A7: net selling 1.87% incl. 10% owner Ocampo (0.28% without); under 1.5% ~Dec 10, 2026 (moderate stepped down).
+  AVGO -0.25  A7: Q4 2025 Tan (Dec 18; not under a plan per MarketBeat), Brazeal (Dec 26) and Spears (Dec 31) sold with no plan
+              footnote; moderate, stepped down because it clears Dec 31, 2026. March/June sales are documented sell-to-cover.
+  MPWR -0.25  A7: Q1 2026 Feb 6 RSU-release sales by Hsing, Xiao, Sciammas and Blegen at one price carry only a tax label
+              ("to cover taxes upon the release of restricted stock units"), which A7 doesn't accept as issuer-required; minor.
+              Q2 2026 could make it -0.5: Hsing (May 18) and Tseng (May 22) show no plan; Xiao's May 6 filing not found.
   No points: MU (G route, A1 out at +1.61% diluted WASO; three-officer cluster is a G4 watch flag, 5-9% of holdings each).
-  Open (no points, tagged): AVGO Q4 2025 (Tan, Brazeal, Spears December sales not seen), MPWR Q1 2026 (Feb 6 cluster), ASML and
-  TSEM insider checks (foreign filers), SMTC route (shares +15%), ANET insiders, #19 on ALAB/ANET/MTSI/UBER Nov 3-4 prints.
+  Checked clear (Nov 5, 9:37 am CT pass): ANET (Ullal plan Nov 14, 2025; Duda plan Mar 11, 2026), TSEM (only the CEO sells,
+  on a pre-arranged order; Form 4s filed), ASML (AFM: CEO and CFO sales run through discretionary management mandates;
+  other board members not pulled), SMTC (D route; Oct 2025 convert exchanges rolled out of the 12-month window Oct 14),
+  #19 on the Nov 3-5 prints (ALAB, ANET, UBER and MTSI all beat).
 """
 from recovery_score import score, LINE
 
 INPUTS = {
-'AVGO': dict(price=327.88, high=481.57, target=530.14, eg=64.53, opm=48.81, ocf_margin=45.62, fcf_margin=44.22, roic=30.68, debt_ebitda=1.13, rev90=-0.0077, ntm_eps=16.743, fpe_hist=[24.7, 31.24, 32.17, 44.02, 39.55, 29.43, 34.84, 28.55, 26.24, 25.4, 26.1, 18.77, 20.72, 14.89, 14.5, 11.74, 13.57, 15.04, 16.91, 17.43], d=0.1, bear=0.25, pb=0.1, ix=0.1, po=0, net_cash=-35.44),
+'AVGO': dict(price=327.88, high=481.57, target=530.14, eg=64.53, opm=48.81, ocf_margin=45.62, fcf_margin=44.22, roic=30.68, debt_ebitda=1.13, rev90=-0.0077, ntm_eps=16.743, fpe_hist=[24.7, 31.24, 32.17, 44.02, 39.55, 29.43, 34.84, 28.55, 26.24, 25.4, 26.1, 18.77, 20.72, 14.89, 14.5, 11.74, 13.57, 15.04, 16.91, 17.43], d=0.1, bear=0.25, pb=0.1, ix=0.1, po=0, net_cash=-35.44, gp=-0.25),
 'GOOGL': dict(price=291.26, high=402.62, target=406.55, eg=19.09, opm=33.32, ocf_margin=38.11, fcf_margin=4.19, roic=23.79, debt_ebitda=0.79, rev90=0.0251, ntm_eps=14.68, fpe_hist=[25.62, 28.53, 25.08, 29.41, 24.5, 19.15, 17.23, 22.05, 20.65, 23.53, 22.22, 21.69, 21.14, 21.38, 20.39, 17.89, 17.77, 18.73, 23.98, 26.61], d=0.15, bear=0.2, pb=0.2, ix=0.2, po=0, net_cash=114.77, gp=-0.5),
 'VST': dict(price=119.06, high=217.92, target=208.77, eg=35.24, opm=19.79, ocf_margin=26.65, fcf_margin=11.76, roic=9.72, debt_ebitda=3.09, rev90=-0.0824, ntm_eps=None, fpe_hist=None, d=0.15, bear=0.25, pb=0.1, ix=0, po=-0.2, net_cash=-20.07),
 'CEG': dict(price=247.01, high=403.95, target=339.25, eg=21.0, opm=15.05, ocf_margin=13.46, fcf_margin=0.94, roic=7.43, debt_ebitda=3.04, rev90=None, ntm_eps=None, fpe_hist=None, d=0.15, bear=0.25, pb=0, ix=0, po=0, net_cash=-24.0),
@@ -41,7 +48,7 @@ INPUTS = {
 'KLAC': dict(price=150.21, high=301.71, target=232.38, eg=29.44, opm=41.69, ocf_margin=30.49, fcf_margin=27.76, roic=66.75, debt_ebitda=1.01, rev90=0.0732, ntm_eps=6.188, fpe_hist=[35.74, 63.32, 35.01, 32.72, 30.73, 27.35, 21.49, 20.69, 26.01, 30.5, 28.87, 24.39, 20.28, 24.99, 21.98, 17.6, 12.38, 13.43, 16.26, 19.7], d=0.15, bear=0.35, pb=0, ix=0, po=0, net_cash=-1.25),
 'AMAT': dict(price=366.81, high=732.45, target=627.83, eg=36.0, opm=31.22, ocf_margin=27.24, fcf_margin=18.22, roic=35.64, debt_ebitda=0.72, rev90=0.1039, ntm_eps=17.635, fpe_hist=[35.9, 34.46, 33.48, 25.46, 19.32, 16.31, 19.89, 20.07, 23.51, 24.51, 21.59, 17.34, 23.61, 17.72, 16.75, 13.19, 13.37, 12.78, 16.24, 17.07], d=0.15, bear=0.35, pb=0, ix=0, po=0, net_cash=1.89, gp=-0.5),
 'CDNS': dict(price=328.98, high=416.39, target=411.76, eg=17.56, opm=29.94, ocf_margin=32.14, fcf_margin=28.71, roic=17.09, debt_ebitda=1.2, rev90=0.0181, ntm_eps=8.589, fpe_hist=[46.11, 35.09, 40.58, 47.52, 44.9, 37.79, 44.38, 40.52, 48.14, 52.42, 48.22, 43.5, 45.63, 42.17, 37.24, 40.23, 39.09, 44.03, 54.88, 48.11], d=0.15, bear=0.2, pb=0, ix=0, po=0, net_cash=-1.27),
-'MPWR': dict(price=1269.58, high=1690, target=1799.8, eg=32.24, opm=28.72, ocf_margin=25.15, fcf_margin=17.91, roic=31.71, debt_ebitda=0.02, rev90=0.153, ntm_eps=30.495, fpe_hist=[53.98, 50.81, 45.68, 49.54, 42.45, 34.41, 37.05, 57.91, 58.65, 52.92, 53.24, 38.82, 45.22, 37.75, 28.1, 26.83, 31.38, 50.16, 60.78, 64.17], d=0.15, bear=0.3, pb=0, ix=0, po=0, net_cash=1.39),
+'MPWR': dict(price=1269.58, high=1690, target=1799.8, eg=32.24, opm=28.72, ocf_margin=25.15, fcf_margin=17.91, roic=31.71, debt_ebitda=0.02, rev90=0.153, ntm_eps=30.495, fpe_hist=[53.98, 50.81, 45.68, 49.54, 42.45, 34.41, 37.05, 57.91, 58.65, 52.92, 53.24, 38.82, 45.22, 37.75, 28.1, 26.83, 31.38, 50.16, 60.78, 64.17], d=0.15, bear=0.3, pb=0, ix=0, po=0, net_cash=1.39, gp=-0.25),
 'LRCX': dict(price=222.3, high=432.72, target=364.03, eg=35.37, opm=36.95, ocf_margin=29.01, fcf_margin=25.03, roic=79.14, debt_ebitda=0.36, rev90=0.1959, ntm_eps=10.275, fpe_hist=[33.29, 50.2, 34.36, 36.1, 28.61, 23.7, 18.96, 20.29, 23.1, 31.65, 31.13, 27.5, 22.94, 25.81, 20.55, 13.75, 10.29, 12.42, 15.58, 19.75], d=0.15, bear=0.35, pb=0, ix=0, po=0, net_cash=3.7),
 'FIX': dict(price=1079.17, high=2067, target=1916.88, eg=41.55, opm=16.78, ocf_margin=24.0, fcf_margin=19.46, roic=103.2, debt_ebitda=0.15, rev90=0.0857, ntm_eps=63.539, fpe_hist=[31.09, 44.87, 37.51, 31.59, 33.64, 27.42, 17.61, 25.84, 26.91, 24.39, 28.71, 22.34, 21.18, 22.98, 21.48, 19.18, 17.95, 17.31, 18.38, 21.51], d=0.15, bear=0.35, pb=0, ix=0, po=-0.2, net_cash=1.85, gp=-0.5),
 'META': dict(price=634.56, high=790, target=848.38, eg=12.54, opm=37.78, ocf_margin=55.08, fcf_margin=11.86, roic=29.62, debt_ebitda=0.95, rev90=-0.0322, ntm_eps=32.939, fpe_hist=[21.81, 17.16, 18.87, 22.59, 25.72, 28.95, 22.74, 23.96, 25.31, 24.73, 24.3, 20.78, 18.71, 22.41, 21.97, 16.39, 15.08, 13.63, 17.93, 24.69], d=0.24, bear=0.25, pb=0, ix=0.2, po=-0.1, net_cash=-32.39),

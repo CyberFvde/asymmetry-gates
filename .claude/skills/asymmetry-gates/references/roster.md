@@ -1,21 +1,21 @@
 # Roster — Nov 5, 2026 (revision 19 GP gate-fail penalty, board of 20; memory sweep adds MU and STX, board of 20; revision 18 GD gate with 3% band, board of 18; GD board of 16; revision 17 net-cash addendum and BKNG; photonics sweep; revision 17 fundamentals-first board; revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
 
-## Nov 5, 2026: revision 19 GP gate-fail penalty, board of 20 (9:24 am CT)
+## Nov 5, 2026: revision 19 GP gate-fail penalty, board of 20 (9:37 am CT)
 
 Quick gate sweep on all 20 names (standard in `recovery-board.md`). Line 4.46; everyone stays on. Inputs and evidence notes in `scripts/board_2026_11_04.py`. GP never unlocks capital.
 
 | # | Ticker | Score | GP | # | Ticker | Score | GP |
 |---|---|---|---|---|---|---|---|
-| 1 | MU | 8.16 | | 11 | SMTC | 5.88 | open |
-| 2 | AVGO | 7.20 | open | 12 | TSEM | 5.53 | open |
-| 3 | TER | 7.07 | | 13 | AMAT | 5.45 | −0.5 |
-| 4 | CRDO | 7.02 | −0.5 | 14 | GOOGL | 5.22 | −0.5 |
+| 1 | MU | 8.16 | | 11 | MPWR | 5.68 | −0.25 |
+| 2 | TER | 7.07 | | 12 | TSEM | 5.53 | |
+| 3 | CRDO | 7.02 | −0.5 | 13 | AMAT | 5.45 | −0.5 |
+| 4 | AVGO | 6.95 | −0.25 | 14 | GOOGL | 5.22 | −0.5 |
 | 5 | STX | 6.93 | −0.25 | 15 | MTSI | 5.14 | −0.25 |
 | 6 | LRCX | 6.45 | | 16 | META | 4.93 | |
 | 7 | ALAB | 6.20 | −0.5 | 17 | GEV | 4.92 | |
 | 8 | FIX | 6.17 | −0.5 | 18 | VRT | 4.81 | |
-| 9 | ASML | 6.14 | open | 19 | ANET | 4.77 | open |
-| 10 | MPWR | 5.93 | open | 20 | UBER | 4.51 | |
+| 9 | ASML | 6.14 | | 19 | ANET | 4.77 | |
+| 10 | SMTC | 5.88 | | 20 | UBER | 4.51 | |
 
 **Routes settled:**
 - **MU:** diluted WASO +1.61% (FY26 1,143.1M vs FY25 1,125.0M) fails A1 even with buybacks, so MU is on G. There the Q1 2026 cluster is a G4 watch flag (Allen, Bhatia and Sadana sold about 5%, 8% and 9% of holdings), not a fail. MU's real block is the G5 cyclical model. This corrects the 8:45 am note that MU fails A7.
@@ -29,16 +29,12 @@ Quick gate sweep on all 20 names (standard in `recovery-board.md`). Line 4.46; e
 - **GOOGL −0.5:** #19(b); Q3 EPS $2.12 vs $2.94 Zacks consensus (−28%; about −9% without the $0.55 equity-investment loss); revenue −0.5%. Blackout until the next print. Ad-tech remedy was behavioral only (Sep 2026), so no legal veto.
 - **STX −0.25:** A7 on D; Q3 2026 three-officer count needs Romano's and Morris's footnote-less sell-to-cover sales (paperwork-driven); clears September 2027.
 - **MTSI −0.25:** A7 net selling 1.87% including 10% owner Susan Ocampo (0.28% without her); falls under 1.5% around Dec 10, 2026, so the moderate tier steps down.
+- **AVGO −0.25:** A7; Q4 2025 Tan (Dec 18, 130,000; not under a plan per MarketBeat), Brazeal (Dec 26, 25,921) and Spears (Dec 31, 30,000) sold with no plan footnote, where Broadcom footnotes plan sales (Samueli). The March and June sales are documented sell-to-cover ("as required under the relevant RSU awards") and don't count. Moderate, stepped down because the quarter rolls off Dec 31, 2026.
+- **MPWR −0.25:** A7; Q1 2026 Feb 6 RSU-release sales by Hsing, Xiao, Sciammas and Blegen at one price ($1,171.16) carry only a tax label ("to cover taxes upon the release of restricted stock units"), which A7 doesn't accept as issuer-required. Paperwork-driven, minor. Q2 2026 could lift it to −0.5: Hsing (May 18) and Tseng (May 22) show no plan, and Xiao's May 6 filing wasn't found.
 
-**Checked and clear:** TER (Smith and Driscoll on plans), LRCX (no three-officer quarter), META (Olivan, Li, Zuckerberg and Cox on plans), GEV (no three-officer quarter), UBER (no three-officer quarter), SMTC insiders (Lin, Hou, Silberstein and Green on plans), GOOGL insiders (Pichai and Walker on plans), VRT (G route, net selling within limits, Q3 beat). Latest prints beat for TER, FIX, LRCX, AMAT, MPWR, SMTC, META, GEV, VRT, AVGO and TSEM; ASML in line.
+**Checked and clear:** TER (Smith and Driscoll on plans), LRCX (no three-officer quarter), META (Olivan, Li, Zuckerberg and Cox on plans), GEV and UBER (no three-officer quarter), SMTC insiders (Lin, Hou, Silberstein and Green on plans), GOOGL insiders (Pichai and Walker on plans), VRT (G route, net selling within limits), ANET (Ullal on a plan adopted Nov 14, 2025; Duda on one adopted Mar 11, 2026), TSEM (only the CEO sells, on a pre-arranged order; Form 4s on file), ASML (AFM: Fouquet's and Dassen's sales run through discretionary management mandates; other board members not pulled), SMTC route (D; the Oct 2025 convert exchanges rolled out of the 12-month window on Oct 14). Latest prints beat for TER, FIX, LRCX, AMAT, MPWR, SMTC, META, GEV, VRT, AVGO, TSEM, ALAB, ANET, UBER and MTSI (Nov 5); ASML in line.
 
-**Open (no points yet):**
-- **AVGO:** Q4 2025 Tan (Dec 18, 23), Brazeal (Dec 26) and Spears (Dec 31) sales not seen. The March and June sales are documented sell-to-cover ("as required under the relevant RSU awards"). At most minor; rolls off by Jan 2027.
-- **MPWR:** Feb 6, 2026 sales by Xiao, Sciammas and Blegen (Tseng's was a gift) not resolved.
-- **ASML, TSEM:** foreign filers; insider checks need AFM and Israeli disclosures.
-- **SMTC:** shares +15% puts it off A1; D-route dilution test not run.
-- **ANET:** insider list not pulled.
-- **#19 on the Nov 3–4 prints:** ALAB, ANET, MTSI, UBER.
+**Watch:** ALAB's three-officer quarters (plan status not pulled; could make it severe), FIX's Q4 2025 and Q2 2026 (same no-plan pattern; three failing quarters would make it severe), MPWR's Q2 2026.
 
 ## Nov 5, 2026: memory sweep, MU and STX join, board of 20 (8:45 am CT)
 

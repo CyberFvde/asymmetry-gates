@@ -28,7 +28,7 @@ Ranking only; nothing here unlocks capital or loosens a gate. Known costs: (1) t
 
 ### Universe impact (Nov 5 board, line 4.46)
 
-GP applied: CRDO −0.5, ALAB −0.5, FIX −0.5, AMAT −0.5, GOOGL −0.5, STX −0.25, MTSI −0.25. MU earns none (G route; insider cluster is a watch flag there). Open: AVGO, MPWR, ASML, TSEM, SMTC, ANET and four Nov 3–4 prints. All 20 names stay above 4.46; order changes in the roster.
+GP applied: CRDO −0.5, ALAB −0.5, FIX −0.5, AMAT −0.5, GOOGL −0.5, AVGO −0.25, STX −0.25, MPWR −0.25, MTSI −0.25. MU earns none (G route; insider cluster is a watch flag there). Checked clear: TER, LRCX, ASML, SMTC, TSEM, META, GEV, VRT, ANET, UBER. All 20 names stay above 4.46; order changes in the roster.
 
 ## Adopted configuration: Nov 4, 2026, revision 18 (GD guide-down gate on the recovery board)
 
