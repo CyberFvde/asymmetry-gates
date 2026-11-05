@@ -1,4 +1,24 @@
-# Roster — Nov 4, 2026 (revision 18 GD guide-down gate, board of 16; revision 17 net-cash addendum and BKNG; photonics sweep; revision 17 fundamentals-first board; revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+# Roster — Nov 4, 2026 (revision 18 GD gate with 3% band, board of 18; GD board of 16; revision 17 net-cash addendum and BKNG; photonics sweep; revision 17 fundamentals-first board; revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+
+## Nov 4, 2026: GD 3% band, board of 18 (6:42 pm CT)
+
+Guides 3% or less below consensus count as in line. AVGO and UBER return; BKNG stays out. Line 4.46.
+
+| # | Ticker | Score | # | Ticker | Score |
+|---|---|---|---|---|---|
+| 1 | CRDO | 7.52 | 10 | SMTC | 5.88 |
+| 2 | AVGO | 7.20 | 11 | GOOGL | 5.72 |
+| 3 | TER | 7.07 | 12 | TSEM | 5.53 |
+| 4 | ALAB | 6.70 | 13 | MTSI | 5.39 |
+| 5 | FIX | 6.67 | 14 | META | 4.93 |
+| 6 | LRCX | 6.45 | 15 | GEV | 4.92 |
+| 7 | ASML | 6.14 | 16 | VRT | 4.81 |
+| 8 | AMAT | 5.95 | 17 | ANET | 4.77 |
+| 9 | MPWR | 5.93 | 18 | UBER | 4.51 |
+
+- **AVGO:** Q4 revenue guide $34.8B vs $35.0B (−0.6%).
+- **UBER:** Q4 EPS guide $0.95–0.99 vs ~$1.00 (−3.0%, Yahoo Finance); borderline on source, since Reuters cited $1.06.
+- **BKNG (5.73) stays out:** bookings and room nights ~4 points of growth below the Street (Cantor), adjusted revenue +0–2%, EBITDA flat.
 
 ## Nov 4, 2026: revision 18 GD guide-down gate, board of 16 (6:16 pm CT)
 

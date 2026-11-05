@@ -10,7 +10,7 @@ The high-IRR ranking used for contest picks and quick comparisons. Half the scor
   - Less than 15% below the high (highest split-adjusted close in the last 10 years).
   - ID fail: TTM gross margin under 20% (framework ID).
   - Dilution: trailing 12-month share growth + undrawn ATM + maximum pending deal shares over 50% of current shares (the IREN rule, H4a's budget). One-time strategic mergers count unless the user exempts them.
-  - **Guide-down (GD, revision 18):** the latest guidance midpoint for revenue, EPS or EBITDA (next quarter, or full year when that is all the company gives) came in below consensus at the print. One metric below is enough. Out until the next print; companies that give no numeric guidance pass. Check it first, every screen.
+  - **Guide-down (GD, revision 18):** the latest guidance midpoint for revenue, EPS or EBITDA (next quarter, or full year when that is all the company gives) came in more than 3% below consensus at the print (misses of 3% or less count as in line; Nov 4 addendum). One metric past the band is enough; use the consensus reported with the print and record its source. Out until the next print; companies that give no numeric guidance pass. Check it first, every screen.
   - **Dead money:** more than 2.7 years to the high when the price compounds at consensus 3-year EPS growth (capped at 35%). No credit for re-rating: a name has to earn its way back.
   - **No fair value:** more than 35% below the high, estimates not rising over 90 days, and no usable 5-year P/E history.
 - **Convexity bucket:** GAAP-unprofitable (TTM net income below zero) or binary names can still rank, but only with convexity judgment inputs: d ≥30–35%, bear ≥45–50%.

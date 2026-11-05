@@ -55,8 +55,8 @@ def score(price, high, target, eg, opm, ocf_margin, fcf_margin, roic, debt_ebitd
           pb=0.0, ix=0.0, po=0.0, max_years=MAX_YEARS, net_cash=None, guide_below=False):
     """Return the final score and its parts, or the reason the name is off the board.
 
-    guide_below: True when the latest guidance midpoint (revenue, EPS or EBITDA) came in below
-    consensus at the print (GD gate, revision 18); names that give no numeric guidance pass.
+    guide_below: True when the latest guidance midpoint (revenue, EPS or EBITDA) came in more than
+    3% below consensus at the print (GD gate, revision 18); names that give no numeric guidance pass.
     ntm_eps + fpe_hist (the last 20 quarterly forward P/Es) give the multiple leg;
     leave them None when there is no usable 5-year history (spin-offs, loss years).
     """
