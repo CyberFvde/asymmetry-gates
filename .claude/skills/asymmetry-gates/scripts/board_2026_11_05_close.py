@@ -7,7 +7,8 @@ MPWR $1,131.43 (financhle had $212.56 and $1,131.94). BE ye_close $86.89 (digrin
   bullfincher, 4:03-4:09 pm ET: ANET $159.16 (-10.82%), GEV $770.51 (-7.48%).
   StockStory, Nov 5 session: SMTC $92.60 (-16.7%).
   eodhd, Nov 5: TSEM $130.92. Single source with an inconsistent change field; below the $142.29 dead-money line.
-Midday quotes kept (no close reached): ALAB, CRDO, FIX, MTSI, VRT. Nov 4 kept: UBER, BE and the rest.
+Settlement pass (Nov 6, 8:15 am CT): closes for SMTC, MTSI, FIX, UBER, BE, ALAB, CRDO, VRT, TSEM. Nov 4 kept for names
+that can't reach the line (ETN, CIEN, VST, CEG, RMBS, STRL, BKNG).
 """
 from board_2026_11_05 import INPUTS as MIDDAY, PRICES as MID_PRICES
 from recovery_score import score, LINE
@@ -15,7 +16,11 @@ from recovery_score import score, LINE
 CLOSE = {
     'NVDA': 181.80, 'AVGO': 291.48, 'LRCX': 183.74, 'MPWR': 1131.43, 'AMAT': 319.33, 'GOOGL': 282.35,
     'META': 605.31, 'ASML': 1358.02, 'MU': 659.71, 'TER': 212.74, 'CDNS': 311.59, 'KLAC': 129.70, 'STX': 466.00,
-    'ANET': 159.16, 'GEV': 770.51, 'SMTC': 92.60, 'TSEM': 130.92,
+    'ANET': 159.16, 'GEV': 770.51, 'SMTC': 92.74, 'TSEM': 130.99,
+    # Settlement pass, Nov 6 morning (stockscan.io dated Nov 5 closes unless noted).
+    'MTSI': 190.35,   # chartrow, -18.35%
+    'FIX': 964.94, 'BE': 167.48, 'ALAB': 179.47, 'CRDO': 112.33, 'VRT': 176.73,
+    'UBER': 68.80,    # twelvedata
 }
 INPUTS = {k: dict(v, price=CLOSE.get(k, v["price"])) for k, v in MIDDAY.items()}
 
