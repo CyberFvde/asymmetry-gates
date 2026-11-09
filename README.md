@@ -36,6 +36,8 @@ See the adopted entry in `.claude/skills/asymmetry-gates/references/changelog.md
         ├── recovery-board.md    # fundamentals-first contest ranking (quality, asymmetry, 12-month return)
         ├── roster.md            # dated roster, top-10, what changed — edited every re-test
         └── changelog.md         # #18 log: adopted + pending rule changes with rationale
+    .claude/skills/fades-sig/
+    └── SKILL.md                 # 1.8x 2x-fund plan (our 9Sig variant): weights, trims, regime-aware dip triggers
 
 ## Non-AI Diversification (Oct 24, 2026 re-screen, revision 8)
 
