@@ -1,6 +1,6 @@
-# Recovery board: fundamentals-first contest ranking (revision 21, Nov 5, 2026)
+# Recovery board: fundamentals-first contest ranking (revision 22, Nov 10, 2026)
 
-The high-IRR ranking used for contest picks and quick comparisons. Half the score is business quality; the other half is how much the stock can make over the next 12 months against its fair value, per unit of risk. Distance to the high only decides who enters (15% minimum) and who is dead money. It orders names only: framework gates (ID, #19 blackouts), dilution limits, sizing and caps still apply, verified gate fails cost points under GP (revision 19), and cyclical names at a peak are scored on through-cycle numbers under CG (revision 20). Scorer: [`../scripts/recovery_score.py`](../scripts/recovery_score.py); dated inputs: [`../scripts/board_2026_11_04.py`](../scripts/board_2026_11_04.py).
+The high-IRR ranking used for contest picks and quick comparisons. Half the score is business quality; the other half is how much the stock can make over the next 12 months against its fair value, per unit of risk. Distance to the high only decides who enters (15% minimum) and who is dead money. It orders names only: framework gates (ID, #19 blackouts), dilution limits, sizing and caps still apply, verified gate fails cost points under GP (revision 19), cyclical names at a peak are scored on through-cycle numbers under CG (revision 20), and names that lean on a few customers lose points under CC (revision 22). Scorer: [`../scripts/recovery_score.py`](../scripts/recovery_score.py); dated inputs: [`../scripts/board_2026_11_04.py`](../scripts/board_2026_11_04.py); latest board with CC inputs: [`../scripts/board_2026_11_06_close.py`](../scripts/board_2026_11_06_close.py).
 
 ## Universe
 
@@ -57,6 +57,25 @@ Two hard ranking penalties for late-cycle and already-run names. Both stack with
   - Above 25%: −1.0. Above 50%: −1.5. Above 100%: −2.0.
   - Every name, every screen. Measure at the board price, not a later quote.
 
+## CC: customer-concentration penalty (revision 22, Nov 10, 2026)
+
+A name that leans on a few customers loses points, because one lost or delayed customer can reset the numbers and the market prices that risk. Ranking only: CC never unlocks or blocks capital. It stacks with GP, CW and YT and has its own cap of −1.0.
+
+- **Source:** the latest annual report (10-K or 20-F): every customer at 10% or more of revenue. Use a later 10-Q only when it shows a new, larger exposure.
+- **Three tests, worst one counts:**
+
+| Test | Minor −0.25 | Moderate −0.5 | Severe −1.0 |
+|---|---|---|---|
+| Largest customer, share of revenue | 15% to under 25% | 25% to under 40% | 40% or more |
+| All 10%+ customers combined | 30% to under 45% | 45% to under 65% | 65% or more |
+| One customer's share of disclosed backlog or remaining performance obligations | | 25% to under 50% | 50% or more |
+
+- **Distributors and resellers:** count at half their share. They pass product on to many end buyers, so the single-buyer risk is smaller.
+- **Backlog test:** run it only when filings let you compute one customer's share of backlog or remaining performance obligations (a disclosed contract against the disclosed total). It catches revenue that is about to concentrate before the annual report shows it.
+- **No double count:** direct customers and "specifying" or end-customer figures overlap. Use the direct figures and note the rest.
+- **Open items:** a name whose filing hasn't been pulled is tagged "CC open" and takes no points. Pull it for every name above the line and every name within 1.0 of it, so checked names aren't penalized next to unchecked ones.
+- **Re-check:** at each new annual report, and when a single contract moves backlog by a quarter or more.
+
 ## Fair value
 
 - **Multiple leg:** NTM EPS × fair P/E × (1 + g), where fair P/E = the lower of the median of the last 20 quarterly forward P/Es (stockanalysis ratios) and 2 × the 3-year EPS growth rate.
@@ -75,7 +94,8 @@ Two hard ranking penalties for late-cycle and already-run names. Both stack with
 - **PO policy adjustment:** ±0.1 per specific, sourced policy channel (a law, moratorium, tax credit or regulation tied to the company's revenue), cap ±0.2. Re-check each screen. It rates exposure to named policies, never a view on parties.
 - **GP gate-fail penalty (revision 19):** see the section below; 0 to −1.5.
 - **CW and YT (revision 21):** see the section above; CW 0 to −1.5, YT 0 to −2.0.
-- **Final** = 0.5 × quality + 0.25 × asymmetry + 0.25 × speed − bear penalty + PB + IX + PO + GP + CW + YT. Report one decimal (two at the line); break ties on the unrounded score.
+- **CC customer concentration (revision 22):** see the section above; 0 to −1.0.
+- **Final** = 0.5 × quality + 0.25 × asymmetry + 0.25 × speed − bear penalty + PB + IX + PO + GP + CW + YT + CC. Report one decimal (two at the line); break ties on the unrounded score.
 
 ## GP: gate-fail penalty (revision 19, Nov 5, 2026)
 
@@ -107,6 +127,7 @@ A name that ranks but fails a framework gate loses points by how bad the fail is
 
 - **Peak-cycle quality:** CG (revision 20) covers memory, storage, equipment, foundry and commodity names. Booking-cycle names (power equipment, contractors) get CW points but no rescoring, on annual data. A 20-reading average can sit inside one long upcycle (LRCX, ASML); CW's 1.5× band is there to catch those.
 - **YT timing:** YTD resets every Jan 1, so a name that ran in December escapes in January. Recent winners have tended to keep winning over 6–12 months, so YT gives up some momentum upside for less chase risk; the user chose that trade.
+- **CC blind spots:** half weight on distributors can hide who the end buyers are (AVGO's top five end customers are about 40% of revenue; NVDA's direct customers include server builders selling on to a few cloud companies). Equipment makers (LRCX, ASML, AMAT) have always sold to a handful of chipmakers, and CC does not separate that from a new dependence on one buyer. Shares come from the last annual report and can be a year old.
 - **Stale data:** stockanalysis pages can lag a print (TER's statistics were pre-print on Nov 4; CRDO's statistics page still served FY24). Cross-check against the financials pages and record the source date.
 - **Data gaps:** Yahoo has no estimate trend for some names (CEG, RMBS, MTSI, STRL on Nov 4); they score neutral on revisions and fall under the deep-drawdown guard.
 - **Judgment inputs:** d, bear and PO are per-name calls; record them with the score.
