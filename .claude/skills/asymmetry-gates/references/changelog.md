@@ -1,6 +1,33 @@
-# #18 — Rule-change log (policy Nov 5, 2026, revision 21)
+# #18 — Rule-change log (policy Nov 10, 2026, revision 22)
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
+
+## Adopted configuration: Nov 10, 2026, revision 22 (CC customer-concentration penalty on the recovery board)
+
+### Authorization, scope and adoption basis
+
+Explicit user request dated Nov 10, 2026, 8:32 am CT: "When doing our stock rankings give a knock to companies that have concentration in customers ie AVGO. AVGO is a great company but we have to keep it real to give it a knock since the street will give it a knock." Scope: the recovery-board ranking only; no gate, route or capital rule changes.
+
+### Change summary (old to new)
+
+- **CC:** new ranking penalty of 0, −0.25, −0.5 or −1.0 from the latest annual report. Three tests, worst one counts: largest customer's share of revenue (15% / 25% / 40%), all 10%+ customers combined (30% / 45% / 65%), and one customer's share of disclosed backlog or remaining performance obligations (25% moderate, 50% severe). Distributors and resellers count at half. Cap −1.0, separate from GP's cap.
+- **Scorer:** `cc` input and `cc_points()` in `scripts/recovery_score.py`; shares and sources in `scripts/board_2026_11_06_close.py`.
+- **Line:** stays fixed at 4.46. Other inputs stay on the Nov 4 snapshot; prices are Nov 6 closes.
+
+### Rationale
+
+- **User call:** the score rated AVGO on growth, margins and price without seeing that most of its contracted backlog now sits with one customer. The user wants the board to carry the discount the market applies.
+- **Scale:** GP's tiers (−0.25 / −0.5 / −1.0), so concentration counts like a gate fail the score can't see. The 10% floor is the disclosure line companies already report against.
+- **Backlog test:** AVGO's revenue shares are a year old and its largest reported customer is a distributor, so revenue tests alone would give it the smallest knock. Its remaining performance obligations went from $45.0B to $164.6B in the quarter the Anthropic TPU lease was signed ($179.2B on Aug 2, 2026).
+- **Applied to everyone:** the rule is not AVGO-specific. NVDA, TER, LRCX, AMAT, ASML, ANET and BE also take points.
+
+### Structural and solvency safeguard check
+
+Ranking only; nothing here unlocks capital or loosens a gate. Known costs: (1) tier cut-offs are judgment calls, with MPWR (27% combined after the reseller haircut) and SMTC (14% largest) just under the first tier; (2) half weight on distributors can hide end-buyer concentration; (3) equipment makers have always had a few large chipmaker customers, and CC treats that the same as a new dependence; (4) shares come from the last annual report; (5) names off the board on other tests were not pulled and are tagged open.
+
+### Universe impact (Nov 6 closes, line 4.46)
+
+Board of 12, down from 13. CC hits: AVGO −1.0 (7.76 to 6.76, #2 to #3 behind TER), BE −1.0 (3.40 to 2.40), LRCX −0.5 (6.24 to 5.74), ASML −0.5 (4.51 to 4.01, off the board), ANET −0.5 (4.05 to 3.55), NVDA −0.25 (9.11 to 8.86), TER −0.25 (7.41 to 7.16), AMAT −0.25 (5.16 to 4.91). No points: MTSI, GOOGL, META, MPWR, SMTC, FIX, UBER, CDNS, VRT, GEV. Open: MU, CRDO, ALAB, RMBS, KLAC, STRL, TSEM, STX, ETN, CIEN, VST, CEG, BKNG.
 
 ## Adopted configuration: Nov 5, 2026, revision 21 (CW cycle-warning and YT hot-year penalties on the recovery board)
 

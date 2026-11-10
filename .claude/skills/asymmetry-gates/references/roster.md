@@ -1,4 +1,29 @@
-# Roster — Nov 5, 2026 (settled close, board of 12; midday rerun on today's prices, board of 15; revision 21 CW and YT penalties, board of 11; NVDA joins, board of 20; revision 20 CG cycle guard, board of 19; revision 19 GP gate-fail penalty, board of 20; memory sweep adds MU and STX, board of 20; revision 18 GD gate with 3% band, board of 18; GD board of 16; revision 17 net-cash addendum and BKNG; photonics sweep; revision 17 fundamentals-first board; revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+# Roster — Nov 10, 2026 (revision 22 CC customer-concentration penalty on Nov 6 closes, board of 12; Nov 5 settled close, board of 12; midday rerun on today's prices, board of 15; revision 21 CW and YT penalties, board of 11; NVDA joins, board of 20; revision 20 CG cycle guard, board of 19; revision 19 GP gate-fail penalty, board of 20; memory sweep adds MU and STX, board of 20; revision 18 GD gate with 3% band, board of 18; GD board of 16; revision 17 net-cash addendum and BKNG; photonics sweep; revision 17 fundamentals-first board; revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+
+## Nov 10, 2026: revision 22 CC customer-concentration penalty, Nov 6 closes, board of 12 (8:45 am CT)
+
+User: "give a knock to companies that have concentration in customers ie AVGO." Revision 22, line 4.46. Prices are Nov 6 closes (the latest pulled; Nov 9 closes not yet run). Shares, sources and closes in `scripts/board_2026_11_06_close.py`. Other inputs stay on the Nov 4 snapshot.
+
+| # | Ticker | Score | Before CC | Close | Hits |
+|---|---|---|---|---|---|
+| 1 | NVDA | 8.86 | 9.11 | $186.64 | CC −0.25 (two customers, 22% and 14%) |
+| 2 | TER | 7.16 | 7.41 | $218.22 | CC −0.25 (one customer 19%) |
+| 3 | AVGO | 6.76 | 7.76 | $293.69 | GP −0.25, CC −1.0 (one customer about two-thirds of backlog or more) |
+| 4 | LRCX | 5.74 | 6.24 | $200.44 | CW −1.0, CC −0.5 (four customers, 55%) |
+| 5 | MTSI | 5.53 | 5.53 | $210.98 | GP −0.25 |
+| 6 | GOOGL | 5.41 | 5.41 | $284.78 | GP −0.5 |
+| 7 | META | 5.20 | 5.20 | $610.15 | |
+| 8 | MPWR | 5.16 | 5.16 | $1,190.44 | GP −0.25, YT −1.0 |
+| 9 | SMTC | 5.10 | 5.10 | $103.21 | YT −1.0 |
+| 10 | AMAT | 4.91 | 5.16 | $332.72 | GP −0.5, YT −1.0, CC −0.25 (two customers, 34%) |
+| 11 | FIX | 4.82 | 4.82 | $1,017.50 | GP −0.5, CW −1.5 |
+| 12 | UBER | 4.82 | 4.82 | $68.59 | |
+
+- **What changed:** AVGO drops from #2 to #3, behind TER. ASML leaves the board (4.51 to 4.01; CC −0.5 on four customers at 61.2%). LRCX and AMAT are back on since Nov 5 on price (both cleared their dead-money lines).
+- **Just off:** CDNS 4.17; VRT 4.05 (CW −1.5); ASML 4.01; GEV 3.87; ANET 3.55 (YT −1.0, CC −0.5 on customers at 26% and 16%); BE 2.40 (YT −1.5, CC −1.0 on customers at 43%, 13% and 12%).
+- **No CC points:** MTSI and MPWR (distributors and resellers only), SMTC (14% and 11%), FIX (12.8%), GOOGL, META, UBER, CDNS, VRT, GEV.
+- **CC open:** MU, CRDO, ALAB, RMBS, KLAC, STRL, TSEM, STX, ETN, CIEN, VST, CEG, BKNG. All are off the board on other tests.
+- **Dead money:** CRDO, ALAB, TSEM $137.34, STX, KLAC, RMBS, STRL.
 
 ## Nov 5, 2026: settled close, board of 12 (Nov 6, 8:20 am CT)
 

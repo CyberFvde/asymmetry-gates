@@ -1,9 +1,10 @@
-"""Recovery-board scorer (revision 21). See references/recovery-board.md.
+"""Recovery-board scorer (revision 22). See references/recovery-board.md.
 
 Score = 50% quality + 25% asymmetry + 25% speed (12-month return), then the
 bear penalty, PB / IX / PO points and the GP gate-fail penalty. Cyclical names at
 a peak are scored on through-cycle numbers (CG cycle guard, revision 20) and lose CW
 cycle-warning points; names up more than 25% this year lose YT points (revision 21).
+Names that lean on a few customers lose CC points (revision 22).
 Distance to the high only decides the universe (15% minimum) and the dead-money cut.
 
 Usage:
@@ -26,6 +27,28 @@ CW_WARN = 1.5      # cycle warning: ROIC at least this multiple of its average c
 CW_WARN_PTS = -1.0
 CW_HOT_PTS = -1.5  # at the CG trigger (2x, or average <= 0)
 YT_TIERS = ((1.00, -2.0), (0.50, -1.5), (0.25, -1.0))  # YTD price return above x -> points
+# CC customer concentration (revision 22): (largest customer, all 10%+ customers combined, one customer's
+# share of disclosed backlog) at or above x -> points. Fractions of revenue or backlog.
+CC_TIERS = (((0.40, 0.65, 0.50), -1.0), ((0.25, 0.45, 0.25), -0.5), ((0.15, 0.30, None), -0.25))
+CC_RESELLER = 0.5  # distributors and resellers count at half their share
+
+
+def cc_points(direct=(), resellers=(), backlog=None, combined=None):
+    """CC customer-concentration points (0, -0.25, -0.5 or -1.0). See recovery-board.md.
+
+    direct: revenue shares (fractions) of each 10%+ customer in the latest annual report.
+    resellers: shares of 10%+ customers the filing calls a distributor or reseller; counted at half.
+    backlog: the largest single customer's share of disclosed backlog or remaining performance
+    obligations, when the filings let you compute it; None otherwise.
+    combined: total share of the 10%+ customers when the filing gives only the total (ASML).
+    """
+    shares = list(direct) + [CC_RESELLER * x for x in resellers]
+    top = max(shares, default=0.0)
+    total = combined if combined is not None else sum(shares)
+    for (t_cut, c_cut, b_cut), pts in CC_TIERS:
+        if top >= t_cut or total >= c_cut or (b_cut is not None and backlog is not None and backlog >= b_cut):
+            return pts
+    return 0.0
 
 
 def _lin(x, lo, hi):
@@ -61,7 +84,7 @@ def quality(eg, opm, ocf_margin, fcf_margin, roic, debt_ebitda, rev90, net_cash=
 def score(price, high, target, eg, opm, ocf_margin, fcf_margin, roic, debt_ebitda,
           rev90=None, ntm_eps=None, fpe_hist=None, d=0.15, bear=0.25,
           pb=0.0, ix=0.0, po=0.0, max_years=MAX_YEARS, net_cash=None, guide_below=False, gp=0.0,
-          cycle=None, ye_close=None):
+          cycle=None, ye_close=None, cc=0.0):
     """Return the final score and its parts, or the reason the name is off the board.
 
     guide_below: True when the latest guidance midpoint (revenue, EPS or EBITDA) came in more than
@@ -79,6 +102,7 @@ def score(price, high, target, eg, opm, ocf_margin, fcf_margin, roic, debt_ebitd
     power and electrical equipment, construction contractors; annual readings, see recovery-board.md).
     ye_close: prior year-end close. YT (revision 21): YTD price return = price / ye_close - 1; above 25%
     -1.0, above 50% -1.5, above 100% -2.0.
+    cc: customer-concentration points (revision 22) from cc_points(): 0, -0.25, -0.5 or -1.0.
     ntm_eps + fpe_hist (the last 20 quarterly forward P/Es) give the multiple leg;
     leave them None when there is no usable 5-year history (spin-offs, loss years).
     """
@@ -137,7 +161,8 @@ def score(price, high, target, eg, opm, ocf_margin, fcf_margin, roic, debt_ebitd
     ix = min(ix, 0.2)
     po = max(-0.2, min(0.2, po))
     gp = max(-1.5, min(0.0, gp))
-    final = 0.5 * q + 0.25 * asym + 0.25 * speed - bear_pen + pb + ix + po + gp + cw + yt
+    cc = max(-1.0, min(0.0, cc))
+    final = 0.5 * q + 0.25 * asym + 0.25 * speed - bear_pen + pb + ix + po + gp + cw + yt + cc
     return {
         "final": round(final, 2), "on_board": final >= LINE, "quality": round(q, 2),
         "asym": round(asym, 2), "speed": round(speed, 2), "ret_12m": round(up12, 3),
@@ -145,6 +170,6 @@ def score(price, high, target, eg, opm, ocf_margin, fcf_margin, roic, debt_ebitd
         "target_used": use_target, "years": round(years, 2), "below": round(below, 3),
         "factors": {k: (round(v, 1) if v is not None else None) for k, v in factors.items()},
         "pb": pb, "ix": ix, "po": po, "gp": gp, "cg": cg and round(cg, 3),
-        "cw": cw, "yt": yt, "ytd": ytd if ytd is None else round(ytd, 3),
+        "cw": cw, "yt": yt, "cc": cc, "ytd": ytd if ytd is None else round(ytd, 3),
         "bear_penalty": round(-bear_pen, 2), "_raw": final,
     }
