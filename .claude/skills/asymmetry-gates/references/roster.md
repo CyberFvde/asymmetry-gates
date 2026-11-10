@@ -1,4 +1,115 @@
-# Roster — Nov 5, 2026 (revision 19 GP gate-fail penalty, board of 20; memory sweep adds MU and STX, board of 20; revision 18 GD gate with 3% band, board of 18; GD board of 16; revision 17 net-cash addendum and BKNG; photonics sweep; revision 17 fundamentals-first board; revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+# Roster — Nov 5, 2026 (settled close, board of 12; midday rerun on today's prices, board of 15; revision 21 CW and YT penalties, board of 11; NVDA joins, board of 20; revision 20 CG cycle guard, board of 19; revision 19 GP gate-fail penalty, board of 20; memory sweep adds MU and STX, board of 20; revision 18 GD gate with 3% band, board of 18; GD board of 16; revision 17 net-cash addendum and BKNG; photonics sweep; revision 17 fundamentals-first board; revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+
+## Nov 5, 2026: settled close, board of 12 (Nov 6, 8:20 am CT)
+
+Close rerun (user: "wait for the 3:00 PM CT rerun on PR #38 with clean closing prints"), settled the next morning. Revision 21, line 4.46, no exceptions. Closes and sources in `scripts/board_2026_11_05_close.py`: Yahoo official closes for TER and MPWR; financhle for the other Nasdaq-100 names; stockscan, chartrow and twelvedata dated Nov 5 closes for the rest. Nasdaq about −5%, chip index about −9%.
+
+| # | Ticker | Score | Close | Hits |
+|---|---|---|---|---|
+| 1 | NVDA | 9.22 | $181.80 | |
+| 2 | AVGO | 7.79 | $291.48 | GP −0.25 |
+| 3 | TER | 7.48 | $212.74 | 2.70 years, 6 cents over the $212.68 line |
+| 4 | MPWR | 6.57 | $1,131.43 | GP −0.25 (YTD +24.8%; YT line $1,132.95) |
+| 5 | MTSI | 5.88 | $190.35 | GP −0.25 |
+| 6 | ANET | 5.52 | $159.16 | |
+| 7 | GOOGL | 5.48 | $282.35 | GP −0.5 |
+| 8 | SMTC | 5.46 | $92.74 | YT −1.0 (+25.9%) |
+| 9 | META | 5.25 | $605.31 | |
+| 10 | FIX | 4.97 | $964.94 | GP −0.5, CW −1.5 |
+| 11 | ASML | 4.87 | $1,358.02 | CW −1.0, YT −1.0 |
+| 12 | UBER | 4.80 | $68.80 | |
+
+- **Just off:** CDNS 4.37 (clears at $307.66 or lower); VRT 4.30 (closed $176.73, back above its $167.32 dead-money line; CW −1.5); GEV 3.90 (on at $718.26 or lower); BE 3.64 (YT −1.5 at +92.7%).
+- **Dead money:** CRDO $112.33, ALAB $179.47, TSEM $130.99 (eodhd $130.92), LRCX $183.74 (line $192.44), AMAT $319.33 (line $325.74), STX, KLAC, RMBS, STRL.
+- **Lines to watch:** TER dead money below $212.68; MPWR takes YT −1.0 above $1,132.95; SMTC sheds YT below $92.11; FIX dead money below $919.26; MTSI below $182.20.
+
+## Nov 5, 2026: midday rerun on today's prices, board of 15 (11:45 am CT)
+
+User: "make sure you pull today prices." Revision 21 rules, line 4.46, prices from the post-midterm AI selloff (Nasdaq about −4%). Quotes and times in `scripts/board_2026_11_05.py`; ANET, SMTC, MTSI, GEV and VRT use the user's YTD figures at 11:34 am ET.
+
+| # | Ticker | Score | Hits | # | Ticker | Score | Hits |
+|---|---|---|---|---|---|---|---|
+| 1 | NVDA | 9.10 | | 9 | MPWR | 5.30 | GP −0.25, YT −1.0 |
+| 2 | AVGO | 7.60 | GP −0.25 | 10 | META | 5.19 | |
+| 3 | TER | 7.35 | | 11 | AMAT | 5.10 | GP −0.5, YT −1.0 |
+| 4 | LRCX | 6.37 | CW −1.0 | 12 | FIX | 4.99 | GP −0.5, CW −1.5 |
+| 5 | MTSI | 5.83 | GP −0.25 | 13 | ASML | 4.63 | CW −1.0, YT −1.0 |
+| 6 | SMTC | 5.47 | YT −1.0 | 14 | TSEM | 4.53 | YT −1.0 (Nov 4 price) |
+| 7 | GOOGL | 5.41 | GP −0.5 | 15 | UBER | 4.51 | (Nov 4 price) |
+| 8 | ANET | 5.40 | | | | | |
+
+- **Back on:** LRCX, AMAT, ASML, MTSI, SMTC, ANET. Lower prices raise their 12-month returns, and TER, LRCX, MTSI, ANET drop under the 25% YTD line.
+- **Dead money now:** CRDO ($113, 3.28 years), ALAB ($185, 3.31), VRT ($165, 2.74). The drop pushed them past 2.7 years to the high at capped growth.
+- **Just off:** CDNS 4.18, BE 4.05 (Nov 4 price), GEV 4.03 (CW −1.5).
+- **Unrefreshed:** TSEM, UBER and BE had no live quote. TSEM is dead money below $142.29.
+- **Checked and off (user: "what about Qcom and SKHY"):**
+  - **QCOM, dead money:** $153.69 (financhle, Nov 5), 38% under its $248.74 May 29 record close. Consensus 3-year EPS growth is 2.21% (stockanalysis, Oct 29), so the high is ~22 years away. It can't qualify at any price: dead money ends at $234.50, but the 15% band ends at $211.43. The Nov 4 print passes GD and #19 (Q1 revenue guide $10.8B vs $10.48B, EPS $2.25 vs $2.27, inside the 3% band; Q4 EPS $2.17 vs $2.16).
+  - **SKHY, dead money:** Korean shares closed ₩1,264,000 Nov 5 (−9.5%), from ₩1,398,000 on Nov 3, when they were 2.52 years from the high; the drop adds at least 0.34 years at any growth rate. Back over the line (about ₩1,324,000 at the 35% cap), it would still take MU's memory hits (CG, CW −1.5, YT). The ADR trades ~40% above the Korean shares ($131.91, −7.8%).
+
+## Nov 5, 2026: revision 21 CW and YT penalties, board of 11 (10:45 am CT)
+
+User: "redo everything over uber, if anything has a cyclical warning hit it negatively hard and if anything is already up over 25% this year hit it hard." Nov 4 snapshot, line 4.46. Rules in `recovery-board.md`; year-end closes and readings in `scripts/board_2026_11_04.py`.
+
+| # | Ticker | Score | Hits | # | Ticker | Score | Hits |
+|---|---|---|---|---|---|---|---|
+| 1 | NVDA | 8.85 | | 7 | META | 4.93 | |
+| 2 | CRDO | 7.02 | GP −0.5 | 8 | MPWR | 4.68 | GP −0.25, YT −1.0 |
+| 3 | AVGO | 6.95 | GP −0.25 | 9 | FIX | 4.67 | GP −0.5, CW −1.5 |
+| 4 | TER | 6.07 | YT −1.0 | 10 | TSEM | 4.53 | YT −1.0 |
+| 5 | GOOGL | 5.22 | GP −0.5 | 11 | UBER | 4.51 | |
+| 6 | ALAB | 5.20 | GP −0.5, YT −1.0 | | | | |
+
+- **Fell off:** LRCX 4.45 (CW −1.0, YT −1.0) and AMAT 4.45 (YT −1.0, GP −0.5), each 0.01 short; SMTC 4.38 (YT −1.5 at +51%); MTSI 4.14 and ASML 4.14 (ASML CW −1.0, YT −1.0); ANET 3.77; GEV 2.42 and VRT 2.31 (CW −1.5, YT −1.0); MU 1.16 (CG, CW −1.5, YT −2.0 at +179%).
+- **YTD at the board price:** MU +179%, SMTC +51%, AMAT +43%, ASML +40%, MPWR +40%, ANET +36%, ALAB +34%, TER +30%, LRCX +30%, MTSI +30%, TSEM +27%, GEV +26%, VRT +26%, FIX +16%, NVDA +7%, META −4%, AVGO −5%, CRDO −6%, GOOGL −7%, UBER −12%.
+- **CW readings:** LRCX 1.5×, ASML 1.7× (warning); MU 6.0×, STX 3.7× (CG); FIX 2.3×, VRT 2.2×, GEV 4.3× (booking cycle, annual ROIC). TER 1.4×, TSEM 1.2×, AMAT 1.1× clear.
+- **Close calls:** GEV and VRT clear the 25% YT line by under 1 point; TSEM by 1.7 points; SMTC is 0.6 points over 50%. FIX reads 1.6× on vcpscanner's ROIC method, which would make its CW −1.0 (5.17).
+- **Not in this run:** Nov 5's selloff. At midday quotes NVDA (~$186), MU (~$692) and TER (~$222) were down 7–12%; TER would fall under the 25% YT line on a refresh.
+
+## Nov 5, 2026: NVDA joins, board of 20 (10:06 am CT)
+
+User: "Add NVDA." Line 4.46. Inputs and evidence notes in `scripts/board_2026_11_04.py`.
+
+| # | Ticker | Score | Notes | # | Ticker | Score | Notes |
+|---|---|---|---|---|---|---|---|
+| 1 | NVDA | 8.85 | PB +0.1, IX +0.2 | 11 | TSEM | 5.53 | |
+| 2 | TER | 7.07 | | 12 | AMAT | 5.45 | GP −0.5 |
+| 3 | CRDO | 7.02 | GP −0.5 | 13 | GOOGL | 5.22 | GP −0.5 |
+| 4 | AVGO | 6.95 | GP −0.25 | 14 | MTSI | 5.14 | GP −0.25 |
+| 5 | LRCX | 6.45 | | 15 | META | 4.93 | |
+| 6 | ALAB | 6.20 | GP −0.5 | 16 | GEV | 4.92 | |
+| 7 | FIX | 6.17 | GP −0.5 | 17 | VRT | 4.81 | |
+| 8 | ASML | 6.14 | | 18 | ANET | 4.77 | |
+| 9 | SMTC | 5.88 | | 19 | MU | 4.66 | CG k 0.25 |
+| 10 | MPWR | 5.68 | GP −0.25 | 20 | UBER | 4.51 | |
+
+- **NVDA 8.85:** $200.30 (Nov 4 close), 16.3% below the $239.24 Oct 6 record close. Quality 10.0 on every factor: 3-year EPS growth 64.8%, operating margin 65.2%, FCF margin 41.9%, ROIC 92.0%, net cash $23.6B, FY28 EPS up 24% in 90 days. 12-month fair value $452 (half the $328.95 target, half 12.1 NTM EPS × the 35.3× five-year median P/E × 1.35), a 126% return.
+- **Softest input:** the 35× median comes from the FY22-27 ramp. On the target alone NVDA scores 7.53, still first; at bear 40% it scores 8.25.
+- **Universe edge:** above $203.35 it is less than 15% below the high and drops off the board.
+- **Gates (GP 0):** A1 passes (shares −1.04%). A7 passes: ~6.2M shares sold in 12 months (~0.03%), mostly director Stevens; no quarter had three officer sellers. #19 and GD pass on the Aug 26 print and $108B guide. China's SAMR finding is preliminary, with no remedy order. CG exempt (fabless; ROIC is below its 20-reading average anyway).
+- **PB +0.1 (holding):** Dec 30, 2025 calls fail the price test ($187.10 then); the household still holds the Jan 16 exercise shares and calls.
+- **Next check:** Nov 17 print, after the close (#19, GD).
+
+## Nov 5, 2026: revision 20 CG cycle guard, board of 19 (9:56 am CT)
+
+Cyclical names at a peak are now scored on through-cycle returns, margins and mid-cycle EPS (`recovery-board.md`). Line 4.46. GP points carry over from revision 19.
+
+| # | Ticker | Score | Notes | # | Ticker | Score | Notes |
+|---|---|---|---|---|---|---|---|
+| 1 | TER | 7.07 | | 11 | AMAT | 5.45 | GP −0.5 |
+| 2 | CRDO | 7.02 | GP −0.5 | 12 | GOOGL | 5.22 | GP −0.5 |
+| 3 | AVGO | 6.95 | GP −0.25 | 13 | MTSI | 5.14 | GP −0.25 |
+| 4 | LRCX | 6.45 | | 14 | META | 4.93 | |
+| 5 | ALAB | 6.20 | GP −0.5 | 15 | GEV | 4.92 | |
+| 6 | FIX | 6.17 | GP −0.5 | 16 | VRT | 4.81 | |
+| 7 | ASML | 6.14 | | 17 | ANET | 4.77 | |
+| 8 | SMTC | 5.88 | | 18 | MU | 4.66 | CG k 0.25 |
+| 9 | MPWR | 5.68 | GP −0.25 | 19 | UBER | 4.51 | |
+| 10 | TSEM | 5.53 | | | | | |
+
+- **MU (8.16 to 4.66):** quarterly-ratios ROIC 41.1% against a 20-reading average of 6.9% (6.0×), so k hits the 0.25 floor. Through-cycle quality 7.8 (was 10.0) on five-year operating margin 22.9%, OCF margin 41.5% and FCF margin 4.0%. Mid-cycle NTM EPS $44 against $177; 12-month fair value $1,137, a 43% return. Asymmetry is now near zero.
+- **STX (6.93 to 3.13, off):** ROIC 31.7% against 8.6% (3.7×), k 0.27. Quality 6.8 on five-year margins (operating 15.5%, FCF 12.8%); mid-cycle EPS $10.9; fair value $681, a 22% return. GP −0.25 still applies.
+- **Tested, not triggered:** LRCX 1.5×, ASML 1.7×, TER 1.4×, TSEM 1.2×, AMAT 1.1×. Chip equipment is in the cycle but its returns aren't at an extreme against its own five-year range.
+- **Off-board memory (SNDK, WDC, SKHY):** already off on dead money or route; CG would only lower them.
 
 ## Nov 5, 2026: revision 19 GP gate-fail penalty, board of 20 (9:37 am CT)
 

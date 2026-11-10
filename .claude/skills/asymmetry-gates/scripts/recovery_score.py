@@ -1,8 +1,10 @@
-"""Recovery-board scorer (revision 19). See references/recovery-board.md.
+"""Recovery-board scorer (revision 21). See references/recovery-board.md.
 
 Score = 50% quality + 25% asymmetry + 25% speed (12-month return), then the
-bear penalty, PB / IX / PO points and the GP gate-fail penalty. Distance to the high only decides the
-universe (15% minimum) and the dead-money cut.
+bear penalty, PB / IX / PO points and the GP gate-fail penalty. Cyclical names at
+a peak are scored on through-cycle numbers (CG cycle guard, revision 20) and lose CW
+cycle-warning points; names up more than 25% this year lose YT points (revision 21).
+Distance to the high only decides the universe (15% minimum) and the dead-money cut.
 
 Usage:
     from recovery_score import score
@@ -18,6 +20,12 @@ MAX_YEARS = 2.7    # fixed Nov 4, 2026: CRDO (2.68 years) sets the dead-money li
 SPEED_TOP = 75.0   # 12-month return (%) that earns the full 10 speed points
 DEEP = 0.35        # drawdown past which an analyst target needs rising estimates
 NOISE = -0.02      # estimate dips smaller than 2% don't raise the risk discount
+CG_TRIGGER = 2.0   # cycle guard: current ROIC at least this multiple of its 20-reading average
+CG_FLOOR = 0.25    # cycle guard: mid-cycle EPS is never cut below 25% of NTM EPS
+CW_WARN = 1.5      # cycle warning: ROIC at least this multiple of its average costs CW_WARN_PTS
+CW_WARN_PTS = -1.0
+CW_HOT_PTS = -1.5  # at the CG trigger (2x, or average <= 0)
+YT_TIERS = ((1.00, -2.0), (0.50, -1.5), (0.25, -1.0))  # YTD price return above x -> points
 
 
 def _lin(x, lo, hi):
@@ -52,18 +60,46 @@ def quality(eg, opm, ocf_margin, fcf_margin, roic, debt_ebitda, rev90, net_cash=
 
 def score(price, high, target, eg, opm, ocf_margin, fcf_margin, roic, debt_ebitda,
           rev90=None, ntm_eps=None, fpe_hist=None, d=0.15, bear=0.25,
-          pb=0.0, ix=0.0, po=0.0, max_years=MAX_YEARS, net_cash=None, guide_below=False, gp=0.0):
+          pb=0.0, ix=0.0, po=0.0, max_years=MAX_YEARS, net_cash=None, guide_below=False, gp=0.0,
+          cycle=None, ye_close=None):
     """Return the final score and its parts, or the reason the name is off the board.
 
     guide_below: True when the latest guidance midpoint (revenue, EPS or EBITDA) came in more than
     3% below consensus at the print (GD gate, revision 18); names that give no numeric guidance pass.
     gp: gate-fail penalty (revision 19), the sum of tier points for verified fails on the name's best
     route: -0.25 minor, -0.5 moderate, -1.0 severe, capped at -1.5. See recovery-board.md.
+    cycle: cycle-guard inputs (revision 20) for names in cyclical industries (memory and storage,
+    semiconductor equipment and foundry, commodity producers): dict(roic_now, roic_avg) from the
+    stockanalysis quarterly ratios ROIC row (latest reading and the average of the latest 20), plus
+    opm_avg, ocf_avg, fcf_avg (simple averages of the last five fiscal-year margins). When roic_now is at
+    least 2x roic_avg (or roic_avg <= 0), k = max(0.25, roic_avg / roic_now): ROIC is scaled by k, the
+    margin and cash factors use the five-year averages, and NTM EPS in the multiple leg is scaled by k.
+    CW (revision 21): the same ratio sets cycle-warning points: -1.0 at 1.5x, -1.5 at the 2x trigger (or
+    average <= 0). cycle["rescore"] = False applies CW without the CG rescoring (booking-cycle names:
+    power and electrical equipment, construction contractors; annual readings, see recovery-board.md).
+    ye_close: prior year-end close. YT (revision 21): YTD price return = price / ye_close - 1; above 25%
+    -1.0, above 50% -1.5, above 100% -2.0.
     ntm_eps + fpe_hist (the last 20 quarterly forward P/Es) give the multiple leg;
     leave them None when there is no usable 5-year history (spin-offs, loss years).
     """
     if guide_below:
         return {"excluded": "guide-down: latest guidance midpoint below consensus (out until the next print)"}
+    cg = None
+    cw = 0.0
+    if cycle:
+        now, avg = cycle["roic_now"], cycle["roic_avg"]
+        if avg <= 0 or now >= CG_TRIGGER * avg:
+            cw = CW_HOT_PTS
+            if cycle.get("rescore", True):
+                cg = CG_FLOOR if avg <= 0 else max(CG_FLOOR, min(1.0, avg / now))
+                roic = roic * cg
+                opm, ocf_margin, fcf_margin = cycle["opm_avg"], cycle["ocf_avg"], cycle["fcf_avg"]
+                if ntm_eps:
+                    ntm_eps = ntm_eps * cg
+        elif now >= CW_WARN * avg:
+            cw = CW_WARN_PTS
+    ytd = price / ye_close - 1 if ye_close else None
+    yt = next((pts for cut, pts in YT_TIERS if ytd is not None and ytd > cut), 0.0)
     below = 1 - price / high
     if below < 0.15:
         return {"excluded": "less than 15% below the high", "below": round(below, 3)}
@@ -101,12 +137,14 @@ def score(price, high, target, eg, opm, ocf_margin, fcf_margin, roic, debt_ebitd
     ix = min(ix, 0.2)
     po = max(-0.2, min(0.2, po))
     gp = max(-1.5, min(0.0, gp))
-    final = 0.5 * q + 0.25 * asym + 0.25 * speed - bear_pen + pb + ix + po + gp
+    final = 0.5 * q + 0.25 * asym + 0.25 * speed - bear_pen + pb + ix + po + gp + cw + yt
     return {
         "final": round(final, 2), "on_board": final >= LINE, "quality": round(q, 2),
         "asym": round(asym, 2), "speed": round(speed, 2), "ret_12m": round(up12, 3),
         "fair_value_12m": round(fv12, 2), "fair_pe": fair_pe and round(fair_pe, 1),
         "target_used": use_target, "years": round(years, 2), "below": round(below, 3),
         "factors": {k: (round(v, 1) if v is not None else None) for k, v in factors.items()},
-        "pb": pb, "ix": ix, "po": po, "gp": gp, "bear_penalty": round(-bear_pen, 2), "_raw": final,
+        "pb": pb, "ix": ix, "po": po, "gp": gp, "cg": cg and round(cg, 3),
+        "cw": cw, "yt": yt, "ytd": ytd if ytd is None else round(ytd, 3),
+        "bear_penalty": round(-bear_pen, 2), "_raw": final,
     }
