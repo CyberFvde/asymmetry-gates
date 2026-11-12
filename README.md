@@ -38,7 +38,7 @@ See the adopted entry in `.claude/skills/asymmetry-gates/references/changelog.md
         ├── roster.md            # dated roster, top-10, what changed — edited every re-test
         └── changelog.md         # #18 log: adopted + pending rule changes with rationale
     .claude/skills/fades-sig/
-    └── SKILL.md                 # 1.8x 2x-fund plan (our 9Sig variant): weights, trims, regime-aware dip triggers
+    └── SKILL.md                 # dip-buy plan: 2x funds on giants 30% down, plain shares for jumpier stars, exit at new highs, protection swaps, vehicle check (2x fund, LEAPS or shares)
 
 ## Non-AI Diversification (Oct 24, 2026 re-screen, revision 8)
 
