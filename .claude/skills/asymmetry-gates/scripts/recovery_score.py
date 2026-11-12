@@ -1,10 +1,11 @@
-"""Recovery-board scorer (revision 22). See references/recovery-board.md.
+"""Recovery-board scorer (revision 23). See references/recovery-board.md.
 
 Score = 50% quality + 25% asymmetry + 25% speed (12-month return), then the
-bear penalty, PB / IX / PO points and the GP gate-fail penalty. Cyclical names at
+bear penalty, PB / IX / PO / RE points and the GP gate-fail penalty. Cyclical names at
 a peak are scored on through-cycle numbers (CG cycle guard, revision 20) and lose CW
 cycle-warning points; names up more than 25% this year lose YT points (revision 21).
 Names that lean on a few customers lose CC points (revision 22).
+Names whose framework C return estimate is 25% a year or more gain RE points (revision 23).
 Distance to the high only decides the universe (15% minimum) and the dead-money cut.
 
 Usage:
@@ -31,6 +32,11 @@ YT_TIERS = ((1.00, -2.0), (0.50, -1.5), (0.25, -1.0))  # YTD price return above 
 # share of disclosed backlog) at or above x -> points. Fractions of revenue or backlog.
 CC_TIERS = (((0.40, 0.65, 0.50), -1.0), ((0.25, 0.45, 0.25), -0.5), ((0.15, 0.30, None), -0.25))
 CC_RESELLER = 0.5  # distributors and resellers count at half their share
+# RE return-estimate boost (revision 23): framework C 3-year annualized return at or above x -> points.
+RE_TIERS = ((0.35, 0.5), (0.25, 0.25))
+RE_FADE = 0.85     # framework C: an out-year without usable consensus grows at 85% of the prior year's growth
+RE_EXIT_CAP = 30.0       # framework C exit multiple cap
+RE_EXIT_CAP_FAST = 35.0  # cap when the computed 3-year EPS CAGR is 25% or more
 
 
 def cc_points(direct=(), resellers=(), backlog=None, combined=None):
@@ -49,6 +55,51 @@ def cc_points(direct=(), resellers=(), backlog=None, combined=None):
         if top >= t_cut or total >= c_cut or (b_cut is not None and backlog is not None and backlog >= b_cut):
             return pts
     return 0.0
+
+
+def return_estimate(price, base_eps, prior_eps, out_years=(), fpe_hist=None, dividend=0.0, entry_pe=None):
+    """Framework C return estimate (3-year annualized). See framework.md, section C.
+
+    base_eps: consensus adjusted EPS for the base year (the first fiscal year ending at least six months
+    after the screen date). prior_eps: EPS for the year before it; base / prior - 1 seeds the fade.
+    out_years: up to three entries for base+1, base+2, base+3. Each is None (fade), a number (single-source
+    or unknown-coverage figure: used only when it is below the faded value, per framework C), or
+    (number, True) for a figure that meets C's coverage test (3+ analysts, or two sources within 10%).
+    fpe_hist: the last 20 quarterly forward P/Es; their median caps the exit multiple when given.
+    dividend: trailing dividend per share, same currency as price. entry_pe: override for price / base_eps
+    when EPS is in another currency (ASML reports in EUR); the path then only sets growth.
+    Exit multiple = the lower of the entry multiple and 30x (35x when the 3-year EPS CAGR is 25%+), and never
+    above the five-year median forward P/E. Return = (exit EPS x exit multiple / price)^(1/3) - 1 + yield.
+    """
+    growth = base_eps / prior_eps - 1
+    eps, path = base_eps, []
+    for i in range(3):
+        faded = eps * (1 + RE_FADE * growth)
+        item = out_years[i] if i < len(out_years) else None
+        verified = isinstance(item, tuple)
+        value = item[0] if verified else item
+        if value is not None and (verified or value < faded):
+            nxt, how = value, ("consensus" if verified else "single source")
+        else:
+            nxt, how = faded, "faded"
+        growth = nxt / eps - 1
+        eps = nxt
+        path.append((round(eps, 3), how))
+    cagr = (eps / base_eps) ** (1 / 3) - 1
+    entry = entry_pe if entry_pe is not None else price / base_eps
+    exit_pe = min(entry, RE_EXIT_CAP_FAST if cagr >= 0.25 else RE_EXIT_CAP)
+    if fpe_hist:
+        exit_pe = min(exit_pe, statistics.median(fpe_hist))
+    ret = (1 + cagr) * (exit_pe / entry) ** (1 / 3) - 1 + dividend / price
+    return {"ret": ret, "cagr": cagr, "entry_pe": round(entry, 2), "exit_pe": round(exit_pe, 2),
+            "path": path, "yield": dividend / price}
+
+
+def re_points(ret, cg=False):
+    """RE points (0, +0.25 or +0.5) from a framework C return estimate. A CG-triggered name takes none."""
+    if ret is None or cg:
+        return 0.0
+    return next((pts for cut, pts in RE_TIERS if ret >= cut), 0.0)
 
 
 def _lin(x, lo, hi):
@@ -84,7 +135,7 @@ def quality(eg, opm, ocf_margin, fcf_margin, roic, debt_ebitda, rev90, net_cash=
 def score(price, high, target, eg, opm, ocf_margin, fcf_margin, roic, debt_ebitda,
           rev90=None, ntm_eps=None, fpe_hist=None, d=0.15, bear=0.25,
           pb=0.0, ix=0.0, po=0.0, max_years=MAX_YEARS, net_cash=None, guide_below=False, gp=0.0,
-          cycle=None, ye_close=None, cc=0.0):
+          cycle=None, ye_close=None, cc=0.0, re_ret=None):
     """Return the final score and its parts, or the reason the name is off the board.
 
     guide_below: True when the latest guidance midpoint (revenue, EPS or EBITDA) came in more than
@@ -103,6 +154,8 @@ def score(price, high, target, eg, opm, ocf_margin, fcf_margin, roic, debt_ebitd
     ye_close: prior year-end close. YT (revision 21): YTD price return = price / ye_close - 1; above 25%
     -1.0, above 50% -1.5, above 100% -2.0.
     cc: customer-concentration points (revision 22) from cc_points(): 0, -0.25, -0.5 or -1.0.
+    re_ret: framework C return estimate as a fraction (revision 23), from return_estimate()["ret"]; None when
+    it hasn't been pulled ("RE open"). 25%+ adds 0.25, 35%+ adds 0.5; a CG-triggered name takes no RE points.
     ntm_eps + fpe_hist (the last 20 quarterly forward P/Es) give the multiple leg;
     leave them None when there is no usable 5-year history (spin-offs, loss years).
     """
@@ -162,7 +215,8 @@ def score(price, high, target, eg, opm, ocf_margin, fcf_margin, roic, debt_ebitd
     po = max(-0.2, min(0.2, po))
     gp = max(-1.5, min(0.0, gp))
     cc = max(-1.0, min(0.0, cc))
-    final = 0.5 * q + 0.25 * asym + 0.25 * speed - bear_pen + pb + ix + po + gp + cw + yt + cc
+    re_pts = re_points(re_ret, cg=cg is not None)
+    final = 0.5 * q + 0.25 * asym + 0.25 * speed - bear_pen + pb + ix + po + gp + cw + yt + cc + re_pts
     return {
         "final": round(final, 2), "on_board": final >= LINE, "quality": round(q, 2),
         "asym": round(asym, 2), "speed": round(speed, 2), "ret_12m": round(up12, 3),
@@ -170,6 +224,6 @@ def score(price, high, target, eg, opm, ocf_margin, fcf_margin, roic, debt_ebitd
         "target_used": use_target, "years": round(years, 2), "below": round(below, 3),
         "factors": {k: (round(v, 1) if v is not None else None) for k, v in factors.items()},
         "pb": pb, "ix": ix, "po": po, "gp": gp, "cg": cg and round(cg, 3),
-        "cw": cw, "yt": yt, "cc": cc, "ytd": ytd if ytd is None else round(ytd, 3),
+        "cw": cw, "yt": yt, "cc": cc, "re": re_pts, "ytd": ytd if ytd is None else round(ytd, 3),
         "bear_penalty": round(-bear_pen, 2), "_raw": final,
     }

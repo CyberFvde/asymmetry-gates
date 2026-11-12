@@ -1,4 +1,32 @@
-# Roster — Nov 10, 2026 (revision 22 CC customer-concentration penalty on Nov 6 closes, board of 12; Nov 5 settled close, board of 12; midday rerun on today's prices, board of 15; revision 21 CW and YT penalties, board of 11; NVDA joins, board of 20; revision 20 CG cycle guard, board of 19; revision 19 GP gate-fail penalty, board of 20; memory sweep adds MU and STX, board of 20; revision 18 GD gate with 3% band, board of 18; GD board of 16; revision 17 net-cash addendum and BKNG; photonics sweep; revision 17 fundamentals-first board; revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+# Roster — Nov 11, 2026 (revision 23 RE return-estimate boost on Nov 6 closes, board of 12; revision 22 CC customer-concentration penalty on Nov 6 closes, board of 12; Nov 5 settled close, board of 12; midday rerun on today's prices, board of 15; revision 21 CW and YT penalties, board of 11; NVDA joins, board of 20; revision 20 CG cycle guard, board of 19; revision 19 GP gate-fail penalty, board of 20; memory sweep adds MU and STX, board of 20; revision 18 GD gate with 3% band, board of 18; GD board of 16; revision 17 net-cash addendum and BKNG; photonics sweep; revision 17 fundamentals-first board; revision 16 recovery-board snapshot; revision 15 IX index-leader check; revision 14 PB holdings and window check; revision 13 PB politician-buy check; revision 12 ID Ian Dunlap gate check; revision 11 DM dead-money check; revision 10 CDNS/CLS review; revision 9 H4a dilution-budget check; new non-AI lanes first pass; revision 8 history rerun, 106 names; non-AI open-universe re-screen, revision 8; route D revision 7 re-test: LITE, CIEN, COHR, NBIS, IREN; Oct 22 targeted re-tests and Oct 15 nine-name re-test below)
+
+## Nov 11, 2026: revision 23 RE return-estimate boost, Nov 6 closes, board of 12 (8:25 pm CT)
+
+User: "PR it and let's see the new rankings." Revision 23, line 4.46. Prices are still Nov 6 closes, the last full pull, so the table shows what RE alone changes. Nov 9–11 closes were not run. RE inputs, paths and page dates in `scripts/board_2026_11_06_close_re.py`. Other inputs stay on the Nov 4 snapshot.
+
+| # | Ticker | Score | Before RE | Return estimate | RE | Close | Other hits |
+|---|---|---|---|---|---|---|---|
+| 1 | NVDA | 9.11 | 8.86 | 29.8% | +0.25 | $186.64 | CC −0.25 |
+| 2 | AVGO | 7.26 | 6.76 | 48.8% | +0.5 | $293.69 | GP −0.25, CC −1.0 |
+| 3 | TER | 7.16 | 7.16 | 19.2% | | $218.22 | CC −0.25 |
+| 4 | LRCX | 5.74 | 5.74 | 20.9% | | $200.44 | CW −1.0, CC −0.5 |
+| 5 | SMTC | 5.60 | 5.10 | 41.3% | +0.5 | $103.21 | YT −1.0 |
+| 6 | MTSI | 5.53 | 5.53 | 15.5% | | $210.98 | GP −0.25 |
+| 7 | GOOGL | 5.41 | 5.41 | under 25% | | $284.78 | GP −0.5 |
+| 8 | META | 5.20 | 5.20 | 14.7% | | $610.15 | |
+| 9 | MPWR | 5.16 | 5.16 | 10.4% | | $1,190.44 | GP −0.25, YT −1.0 |
+| 10 | AMAT | 4.91 | 4.91 | 24.7% | | $332.72 | GP −0.5, YT −1.0, CC −0.25 |
+| 11 | FIX | 4.82 | 4.82 | 21.3% | | $1,017.50 | GP −0.5, CW −1.5 |
+| 12 | UBER | 4.82 | 4.82 | 20.9% | | $68.59 | |
+
+- **What changed:** AVGO moves back to #2, ahead of TER. SMTC climbs from #9 to #5. NVDA widens its lead. MTSI, GOOGL, META and MPWR each slip one place. No name joins or leaves.
+- **Just off:** GEV 4.37 (RE +0.5 on 38.5%; CW −1.5; 0.09 under the line); VRT 4.30 (RE +0.25 on 26.7%); ASML 4.26 (RE +0.25 on 26.8%); CDNS 4.17 (8.1%); ANET 3.55 (RE open); BE 2.90 (RE +0.5 on 45.6%).
+- **Close calls:** AMAT at 24.7% is 0.3 points under the first tier and reports Nov 12. VRT's 26.7% uses the Nov 6 growth forecast (44.00%); the Nov 1 figure (40.93%) gives 24.0% and no points. GOOGL's consensus has 2027 EPS ($15.19) below 2026 ($15.77), so its path fades from a decline; on the higher single-source path it is 17.5%.
+- **How to read the estimates:** most paths are one single-source year, then two faded years. The 40%+ figures (AVGO, SMTC, BE) say consensus growth is very high, and they are no forecast of the share price. The 30× exit cap cuts the MPWR and CDNS estimates.
+- **Stale pages:** MTSI (Oct 23, before its Nov 5 print) and MPWR (Oct 23, before its Oct 29 print). Re-pull both.
+- **Prices since Nov 6 (not in this table):** NVDA closed $173.73 on Nov 11 and fell to about $160 after hours on a report that its board may consider removing the CEO. AVGO closed $345.22 on Nov 11. TER last traded $246.00 and LRCX $221.31 on Nov 9 (MarketBeat), above their YT lines of $241.95 and $213.96; a close above those costs each 1.0. Run a full price refresh before using this order.
+- **RE open:** ANET, MU, CRDO, ALAB, RMBS, KLAC, STRL, TSEM, STX, ETN, CIEN, VST, CEG, BKNG. ANET is 0.91 under the line and the rest are off the board on other tests.
+- **Dead money:** CRDO, ALAB, TSEM, STX, KLAC, RMBS, STRL (unchanged; Nov 6 or earlier closes).
 
 ## Nov 10, 2026: revision 22 CC customer-concentration penalty, Nov 6 closes, board of 12 (8:45 am CT)
 
