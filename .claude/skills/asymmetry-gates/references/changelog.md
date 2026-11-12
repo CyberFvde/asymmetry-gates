@@ -1,6 +1,35 @@
-# #18 — Rule-change log (policy Nov 10, 2026, revision 22)
+# #18 — Rule-change log (policy Nov 11, 2026, revision 23)
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
+
+## Adopted configuration: Nov 11, 2026, revision 23 (RE return-estimate boost on the recovery board)
+
+### Authorization, scope and adoption basis
+
+Explicit user request dated Nov 11, 2026, evening CT: "PR it and let's see the new rankings." It followed the same day's review of the return bar, where the user kept the screen guardrail at 20% and agreed that names estimated at 25% a year or more should rank higher. Scope: the recovery-board ranking only; no gate, route or capital rule changes. The user did not set the size of the boost. The two tiers and the CG exclusion below are Claude's proposal and stand until the user changes them.
+
+### Change summary (old to new)
+
+- **RE:** new ranking boost from framework C's return estimate at the board price: +0.25 at 25% to under 35%, +0.5 at 35% or more. Cap +0.5. The 20% screen guardrail is unchanged.
+- **CG names:** a name with the cycle guard triggered takes no RE points. Names not yet pulled are tagged "RE open" and take none.
+- **Method:** framework C as written (base year, 85% fade, exit-multiple caps, dividend, no buyback add). Framework C gains a cross-reference only.
+- **Scorer:** `re_ret` input, `return_estimate()` and `re_points()` in `scripts/recovery_score.py`; inputs, paths and page dates in `scripts/board_2026_11_06_close_re.py`.
+- **Line:** stays fixed at 4.46. Prices are Nov 6 closes; other inputs stay on the Nov 4 snapshot.
+
+### Rationale
+
+- **User call:** the 20% bar was loosened on purpose, because a 2x fund on a name compounding 15–20% can still serve the account's goal. Names that clear 25% without leverage are worth more, and the board should show it.
+- **Tiers over a haircut:** running the bar on forecasts cut by 30% was judged too strict. The top tier carries that cushion instead: a 35% estimate cut by 30% is 24.5%, still above the bar.
+- **Scale:** the first two GP and CC tiers (0.25 and 0.5), so a strong estimate can offset a minor or moderate knock and never a severe one.
+- **One method:** the board uses the same return estimate as every other screen, so a name's number is the same wherever it is quoted.
+
+### Structural and solvency safeguard check
+
+Ranking only; nothing here unlocks capital or loosens a gate. Known costs: (1) the estimate is mechanical, since a faded path seeded by one very strong year stays strong, and a base year below the year before it (GOOGL's 2027 consensus EPS sits under 2026) drags a path down; (2) stockanalysis locks out-years, so the third forecast year is backed out of its 3-year EPS growth forecast and has no analyst count; (3) RE overlaps the growth factor in quality, so growth counts twice; (4) stockanalysis served snapshots dated Oct 23 to Nov 9, and MTSI's and MPWR's pages predate their prints; (5) tier cut-offs are judgment calls, with AMAT at 24.7% and VRT at 26.7% on the Nov 6 growth forecast (24.0% on the Nov 1 figure); (6) names off the board on other tests were not pulled and are tagged open.
+
+### Universe impact (Nov 6 closes, line 4.46)
+
+Board of 12, unchanged in membership. RE points: AVGO +0.5 (6.76 to 7.26, #3 to #2 ahead of TER), SMTC +0.5 (5.10 to 5.60, #9 to #5), NVDA +0.25 (8.86 to 9.11), GEV +0.5 (3.87 to 4.37, 0.09 under the line), VRT +0.25 (4.05 to 4.30), ASML +0.25 (4.01 to 4.26), BE +0.5 (2.40 to 2.90). No points: TER 19.2%, LRCX 20.9%, MTSI 15.5%, GOOGL (under 25% on either path), META 14.7%, MPWR 10.4%, AMAT 24.7%, FIX 21.3%, UBER 20.9%, CDNS 8.1%. Open: ANET, MU, CRDO, ALAB, RMBS, KLAC, STRL, TSEM, STX, ETN, CIEN, VST, CEG, BKNG. Required re-tests: AMAT after its Nov 12 print; MTSI and MPWR once stockanalysis shows post-print pages; every name at the next price refresh, since Nov 9–11 closes were not run.
 
 ## Adopted configuration: Nov 10, 2026, revision 22 (CC customer-concentration penalty on the recovery board)
 

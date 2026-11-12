@@ -1,6 +1,6 @@
-# Recovery board: fundamentals-first contest ranking (revision 22, Nov 10, 2026)
+# Recovery board: fundamentals-first contest ranking (revision 23, Nov 11, 2026)
 
-The high-IRR ranking used for contest picks and quick comparisons. Half the score is business quality; the other half is how much the stock can make over the next 12 months against its fair value, per unit of risk. Distance to the high only decides who enters (15% minimum) and who is dead money. It orders names only: framework gates (ID, #19 blackouts), dilution limits, sizing and caps still apply, verified gate fails cost points under GP (revision 19), cyclical names at a peak are scored on through-cycle numbers under CG (revision 20), and names that lean on a few customers lose points under CC (revision 22). Scorer: [`../scripts/recovery_score.py`](../scripts/recovery_score.py); dated inputs: [`../scripts/board_2026_11_04.py`](../scripts/board_2026_11_04.py); latest board with CC inputs: [`../scripts/board_2026_11_06_close.py`](../scripts/board_2026_11_06_close.py).
+The high-IRR ranking used for contest picks and quick comparisons. Half the score is business quality; the other half is how much the stock can make over the next 12 months against its fair value, per unit of risk. Distance to the high only decides who enters (15% minimum) and who is dead money. It orders names only: framework gates (ID, #19 blackouts), dilution limits, sizing and caps still apply, verified gate fails cost points under GP (revision 19), cyclical names at a peak are scored on through-cycle numbers under CG (revision 20), names that lean on a few customers lose points under CC (revision 22), and names whose 3-year return estimate is 25% a year or more gain points under RE (revision 23). Scorer: [`../scripts/recovery_score.py`](../scripts/recovery_score.py); dated inputs: [`../scripts/board_2026_11_04.py`](../scripts/board_2026_11_04.py); CC inputs: [`../scripts/board_2026_11_06_close.py`](../scripts/board_2026_11_06_close.py); latest board with RE inputs: [`../scripts/board_2026_11_06_close_re.py`](../scripts/board_2026_11_06_close_re.py).
 
 ## Universe
 
@@ -76,6 +76,26 @@ A name that leans on a few customers loses points, because one lost or delayed c
 - **Open items:** a name whose filing hasn't been pulled is tagged "CC open" and takes no points. Pull it for every name above the line and every name within 1.0 of it, so checked names aren't penalized next to unchecked ones.
 - **Re-check:** at each new annual report, and when a single contract moves backlog by a quarter or more.
 
+## RE: return-estimate boost (revision 23, Nov 11, 2026)
+
+A name whose 3-year return estimate is 25% a year or more moves up. The screen bar stays at 20% (framework C's guardrail); RE rewards the names that clear it with room to spare. Ranking only: RE never passes a gate, unlocks capital or changes sizing, and it stacks with every other adjustment.
+
+- **Input:** framework C's return estimate at the board price. Base year = the first fiscal year ending at least six months out; exit multiple = the lower of the entry multiple and 30× (35× when the 3-year EPS growth is 25%+), never above the five-year median forward P/E; plus trailing dividend yield; no buyback add.
+- **Tiers:**
+
+| Return estimate | Points |
+|---|---|
+| Under 25% | 0 |
+| 25% to under 35% | +0.25 |
+| 35% or more | +0.5 |
+
+- **Why 35%:** cut a 35% estimate by 30% and it is still 24.5%, above the 20% bar. The top tier marks names that keep their place even if the forecasts prove a third too high.
+- **Growth path:** consensus where framework C's coverage test is met (3+ analysts, or two sources within 10%). A single-source figure counts only when it is below the faded value. Every other year fades at 85% of the prior year's growth. stockanalysis shows analyst counts for the first forecast year only, so on the board most paths are one single-source year followed by two faded years.
+- **Third forecast year:** stockanalysis locks it. Back it out of the statistics page's "EPS Growth Forecast (3Y)": last reported fiscal-year EPS × (1 + growth)³. It is a single-source figure.
+- **CG names:** a name with the cycle guard triggered takes no RE points. Its forward path is built on peak-cycle earnings.
+- **Open items:** a name whose estimate hasn't been pulled is tagged "RE open" and takes no points. Pull it for every name above the line and every name within 0.5 of it, so checked names aren't ranked next to unchecked ones.
+- **Re-check:** every screen (the estimate moves with price when the exit cap binds) and after each print. Record the base year, path, multiples, dividend and page dates with the score.
+
 ## Fair value
 
 - **Multiple leg:** NTM EPS × fair P/E × (1 + g), where fair P/E = the lower of the median of the last 20 quarterly forward P/Es (stockanalysis ratios) and 2 × the 3-year EPS growth rate.
@@ -95,7 +115,8 @@ A name that leans on a few customers loses points, because one lost or delayed c
 - **GP gate-fail penalty (revision 19):** see the section below; 0 to −1.5.
 - **CW and YT (revision 21):** see the section above; CW 0 to −1.5, YT 0 to −2.0.
 - **CC customer concentration (revision 22):** see the section above; 0 to −1.0.
-- **Final** = 0.5 × quality + 0.25 × asymmetry + 0.25 × speed − bear penalty + PB + IX + PO + GP + CW + YT + CC. Report one decimal (two at the line); break ties on the unrounded score.
+- **RE return-estimate boost (revision 23):** see the section above; 0 to +0.5.
+- **Final** = 0.5 × quality + 0.25 × asymmetry + 0.25 × speed − bear penalty + PB + IX + PO + GP + CW + YT + CC + RE. Report one decimal (two at the line); break ties on the unrounded score.
 
 ## GP: gate-fail penalty (revision 19, Nov 5, 2026)
 
@@ -128,6 +149,7 @@ A name that ranks but fails a framework gate loses points by how bad the fail is
 - **Peak-cycle quality:** CG (revision 20) covers memory, storage, equipment, foundry and commodity names. Booking-cycle names (power equipment, contractors) get CW points but no rescoring, on annual data. A 20-reading average can sit inside one long upcycle (LRCX, ASML); CW's 1.5× band is there to catch those.
 - **YT timing:** YTD resets every Jan 1, so a name that ran in December escapes in January. Recent winners have tended to keep winning over 6–12 months, so YT gives up some momentum upside for less chase risk; the user chose that trade.
 - **CC blind spots:** half weight on distributors can hide who the end buyers are (AVGO's top five end customers are about 40% of revenue; NVDA's direct customers include server builders selling on to a few cloud companies). Equipment makers (LRCX, ASML, AMAT) have always sold to a handful of chipmakers, and CC does not separate that from a new dependence on one buyer. Shares come from the last annual report and can be a year old.
+- **RE is mechanical:** a faded path seeded by one very strong year stays strong for three years, so fast growers in an upcycle reach the top tier easily (AVGO, SMTC, GEV and BE on Nov 11). A distorted base year does the opposite (GOOGL's consensus has 2027 EPS below 2026, so its path fades from a decline). The third-year figure is backed out of a growth rate and has no analyst count. RE also overlaps the growth factor in quality, so growth counts twice by design. CW, YT and the CG exclusion are the offsets.
 - **Stale data:** stockanalysis pages can lag a print (TER's statistics were pre-print on Nov 4; CRDO's statistics page still served FY24). Cross-check against the financials pages and record the source date.
 - **Data gaps:** Yahoo has no estimate trend for some names (CEG, RMBS, MTSI, STRL on Nov 4); they score neutral on revisions and fall under the deep-drawdown guard.
 - **Judgment inputs:** d, bear and PO are per-name calls; record them with the score.
