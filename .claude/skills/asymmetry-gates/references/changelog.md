@@ -1,6 +1,92 @@
-# #18 — Rule-change log (policy Nov 10, 2026, revision 22)
+# #18 — Rule-change log (policy Nov 19, 2026, revision 27)
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
+
+## Adopted configuration: Nov 19, 2026, revision 27 (SL three-risk stress lens)
+
+### Authorization, scope and adoption basis
+
+Explicit user requests dated Nov 19, 2026. At 6:47 pm CT, with a TSM re-test: "For every score and ranking keep in mind rising interest rates, 2028 capex peak & potential of semi analysis being correct." At 6:55 pm CT, after seeing TSM scored that way: "Ya and add everything to the repo." Scope: reporting on the recovery board and on any quoted score or return estimate. No gate, line, route or capital rule changes.
+
+### Change summary (old to new)
+
+- **SL:** every score is reported today and under three stacked cases: rates keep rising (fair value cut 10%, or 15% for an indebted name), SemiAnalysis's Nov 13, 2026 forecast is right (per-name EPS cuts e1 and e2), and AI capex peaks in 2028 and then falls (mid-cycle scoring).
+- **Scorer:** `lens()` in `scripts/recovery_score.py`. Per-name ai, e1 and e2 inputs live in the dated board script. First run: `scripts/board_2026_11_19_lens.py`.
+- **Earlier stress runs:** the Nov 17-18 chat runs used two columns ("report true", "capex peaks after 2028") with hit sizes that were never saved. SL replaces them with recorded constants and adds the rates case, so its numbers differ from those runs.
+
+### #18 checks
+
+- **Safeguards:** none loosened. SL cannot add a name, move the line or unlock capital.
+- **Universe impact (Nov 6 closes, the last complete pull):** with all three cases stacked, only GOOGL (4.42), META (4.36) and UBER (3.95) keep their scores, and all three sit under the 4.46 line; every chip and AI-infrastructure name scores under 1.5 except CDNS (2.77). With rates and SemiAnalysis only, NVDA, AVGO, TER and KLAC stay above the line.
+- **Required re-tests:** rerun the board on a fresh full pull. The Nov 19 run mixes TSM on Nov 19 inputs with other names on Nov 6 inputs and is not a ranking. Re-read e1 and e2 when SemiAnalysis or the hyperscalers update.
+
+## Adopted configuration: revision 26 (entry rules adopted in chat Nov 16-17, 2026; recorded Nov 19)
+
+### Authorization, scope and adoption basis
+
+User requests in chat on Nov 16 and 17, 2026, applied to every board since and written into the repo on Nov 19 under "add everything to the repo." Exact wording is quoted only where it was saved.
+
+### Change summary (old to new)
+
+- **Dead money (Nov 16):** was more than 2.7 years to the high at consensus growth. Now a name is out only if it trails UBER on both 12-month return (44%) and forecast growth (31%). The user first asked for "slower than UBER", then said cutting deep drops was not intended, and approved the either-measure test ("Bingo"). Quality pass at 7.5; GOOGL stays by name.
+- **Hot year (Nov 16):** new first tier, above 15% YTD costs 0.5. The 25%, 50% and 100% tiers are unchanged.
+- **Market Mondays blocker (Nov 17):** minimum distance below the 10-year closing high raised from 15% to 20%. Named by the user the "Ian Dunlap Rashad Bilal EYL Market Mondays blocker."
+- **Falling-estimates blocker EB (Nov 17):** next-year EPS down 3% or more over 90 days blocks entry; smaller dips are tagged watch. Rankings and gates.
+- **Scorer:** `score26()` applies these on top of `score()`. `score()` keeps the revision 23 defaults so earlier boards reprint unchanged (checked: the Nov 6 board prints identically).
+
+### #18 checks
+
+- **Safeguards:** the 20% floor and EB are stricter than before. The dead-money change is looser for deep drops with strong growth (CRDO, ALAB, RMBS, TSEM and KLAC returned on Nov 16) and stricter for slow growers near their highs (CDNS).
+- **Not adopted:** a rule that no entry is allowed while revisions are merely negative. The user did not want AVGO blocked for a small drift.
+- **Required re-tests:** every board name on a fresh revision pull; META sat at -3.2% on Nov 4 data.
+
+## Adopted configuration: revisions 24 and 25 (BB buyback boost and HT headwinds, adopted Nov 11, 2026; recorded Nov 19)
+
+### Authorization, scope and adoption basis
+
+BB: explicit user requests dated Nov 11, 2026. At 7:57 am CT: "for our rankings substantial buybacks should give stocks a boost." At 8:01 am CT, after a first draft with tiers of +0.25 and +0.5 on the trailing count only: "Both and a double bonus if share count will go down." HT: user requests the same day in the "SNDK vs Uber rankings" chat; the wording was not recovered. Both were committed locally on Nov 11 and never pushed. This entry rebuilds the rules from that chat record.
+
+### Change summary (old to new)
+
+- **BB (revision 24):** 0 to +2.0. Two legs on the same tiers (2% to under 4% earns 0.5; 4% or more earns 1.0): trailing diluted share count, and a forward leg from the latest quarter's net repurchases, limited to the authorization and covered by free cash flow.
+- **HT (revision 25):** 0 to -1.0 by the affected line's share of revenue, live or near. Tailwinds were adopted and retired the same day.
+- **Numbering:** the chat called BB revision 23 and HT revisions 24 and 25. RE had already been pushed as revision 23 (PR #43), so BB is 24 and HT is 25 here.
+- **Scorer:** `bb` and `ht` inputs, `bb_points()` and `ht_points()`.
+
+### #18 checks
+
+- **Safeguards:** ranking only. Neither passes a gate or unlocks capital.
+- **Not recovered:** the per-name share counts, buyback figures, lines and forces from the Nov 11 boards (`board_2026_11_06_bb.py`, `board_2026_11_06_ht.py`, `board_2026_11_10.py`). Every name is "BB open" and "HT open" except TSM (BB 0: share count flat, buyback yield -0.01%) and TSEM (HT -0.25, recorded Nov 17). A +0.5 BB for NVDA was pending the user's call on Nov 18 and is not applied.
+- **Required re-tests:** re-pull BB and HT inputs for every name above the line and within 1.0 of it.
+
+## Adopted configuration: Nov 11, 2026, revision 23 (RE return-estimate boost on the recovery board)
+
+### Authorization, scope and adoption basis
+
+Explicit user request dated Nov 11, 2026, evening CT: "PR it and let's see the new rankings." It followed the same day's review of the return bar, where the user kept the screen guardrail at 20% and agreed that names estimated at 25% a year or more should rank higher. Scope: the recovery-board ranking only; no gate, route or capital rule changes. The user did not set the size of the boost. The two tiers and the CG exclusion below are Claude's proposal and stand until the user changes them.
+
+### Change summary (old to new)
+
+- **RE:** new ranking boost from framework C's return estimate at the board price: +0.25 at 25% to under 35%, +0.5 at 35% or more. Cap +0.5. The 20% screen guardrail is unchanged.
+- **CG names:** a name with the cycle guard triggered takes no RE points. Names not yet pulled are tagged "RE open" and take none.
+- **Method:** framework C as written (base year, 85% fade, exit-multiple caps, dividend, no buyback add). Framework C gains a cross-reference only.
+- **Scorer:** `re_ret` input, `return_estimate()` and `re_points()` in `scripts/recovery_score.py`; inputs, paths and page dates in `scripts/board_2026_11_06_close_re.py`.
+- **Line:** stays fixed at 4.46. Prices are Nov 6 closes; other inputs stay on the Nov 4 snapshot.
+
+### Rationale
+
+- **User call:** the 20% bar was loosened on purpose, because a 2x fund on a name compounding 15–20% can still serve the account's goal. Names that clear 25% without leverage are worth more, and the board should show it.
+- **Tiers over a haircut:** running the bar on forecasts cut by 30% was judged too strict. The top tier carries that cushion instead: a 35% estimate cut by 30% is 24.5%, still above the bar.
+- **Scale:** the first two GP and CC tiers (0.25 and 0.5), so a strong estimate can offset a minor or moderate knock and never a severe one.
+- **One method:** the board uses the same return estimate as every other screen, so a name's number is the same wherever it is quoted.
+
+### Structural and solvency safeguard check
+
+Ranking only; nothing here unlocks capital or loosens a gate. Known costs: (1) the estimate is mechanical, since a faded path seeded by one very strong year stays strong, and a base year below the year before it (GOOGL's 2027 consensus EPS sits under 2026) drags a path down; (2) stockanalysis locks out-years, so the third forecast year is backed out of its 3-year EPS growth forecast and has no analyst count; (3) RE overlaps the growth factor in quality, so growth counts twice; (4) stockanalysis served snapshots dated Oct 23 to Nov 9, and MTSI's and MPWR's pages predate their prints; (5) tier cut-offs are judgment calls, with AMAT at 24.7% and VRT at 26.7% on the Nov 6 growth forecast (24.0% on the Nov 1 figure); (6) names off the board on other tests were not pulled and are tagged open.
+
+### Universe impact (Nov 6 closes, line 4.46)
+
+Board of 12, unchanged in membership. RE points: AVGO +0.5 (6.76 to 7.26, #3 to #2 ahead of TER), SMTC +0.5 (5.10 to 5.60, #9 to #5), NVDA +0.25 (8.86 to 9.11), GEV +0.5 (3.87 to 4.37, 0.09 under the line), VRT +0.25 (4.05 to 4.30), ASML +0.25 (4.01 to 4.26), BE +0.5 (2.40 to 2.90). No points: TER 19.2%, LRCX 20.9%, MTSI 15.5%, GOOGL (under 25% on either path), META 14.7%, MPWR 10.4%, AMAT 24.7%, FIX 21.3%, UBER 20.9%, CDNS 8.1%. Open: ANET, MU, CRDO, ALAB, RMBS, KLAC, STRL, TSEM, STX, ETN, CIEN, VST, CEG, BKNG. Required re-tests: AMAT after its Nov 12 print; MTSI and MPWR once stockanalysis shows post-print pages; every name at the next price refresh, since Nov 9–11 closes were not run.
 
 ## Adopted configuration: Nov 10, 2026, revision 22 (CC customer-concentration penalty on the recovery board)
 
