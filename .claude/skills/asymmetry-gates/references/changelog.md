@@ -1,6 +1,28 @@
-# #18 — Rule-change log (policy Nov 19, 2026, revision 27)
+# #18 — Rule-change log (policy Nov 20, 2026, revision 28)
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
+
+## Adopted configuration: Nov 20, 2026, revision 28 (VT vehicle tag and SH short-history rule)
+
+### Authorization, scope and adoption basis
+
+Explicit user requests dated Nov 20, 2026 (times CT). At 3:31 pm: "no lever or options unless company down 35%", restated at 3:39 pm as "plain shares at 30% no leverage or options til underlying down 35%". At 4:14 pm: "The 20% down floor can be plain share only", and, on short histories, "under 5 years of trading is basically still an ipo". At 4:17 pm: "ya commit and merge." Scope: a reporting tag on the recovery board and a matching framework section. No gate, score, line, route or capital rule changes.
+
+### Change summary (old to new)
+
+- **VT:** was no vehicle guidance on the board; the 20% Market Mondays floor let a name in with nothing said about leverage. Now every name is tagged: 20% to under 35% below the high is shares only, 35% or more is leverage ok.
+- **SH:** new. Under 5 years of history in the current regime means IPO treatment: a 40% line, plain shares at any depth. The user said "5 years of trading"; UBER has traded since 2019, so the rule is written on the current regime (profitable era from 2023), which is what made its line thin.
+- **Exemptions:** ETFs, and a single stock where a 35% drop is about 99% unlikely. The second has no confirmed test and is off for every name.
+- **Scorer:** `vehicle_tag()` in `scripts/recovery_score.py`. `score()`, `score26()` and `lens()` are untouched, so earlier boards reprint unchanged (checked: the Nov 19 lens run prints identically).
+
+### #18 checks
+
+- **Safeguards:** none loosened. Both rules are stricter on vehicle and change nothing else.
+- **Universe impact:** none on scores or board membership. Tags appear from the next board run. No current giant passes a decade test for the 35% exemption (worst drops: AAPL 39%, MSFT 38%, GOOGL 44%, AMZN 56%, NVDA 37% since 2023).
+- **Basis:** the user's four open leveraged entries were made 20% to 30% below the highs and kept falling. The 35% line itself has no backtest; every fades-sig test used 30% for giants.
+- **Open:** a test for the 35% exemption, size for a share buy between 20% and 30% down, a spacing rule for entries inside one selloff, and `regime_years` for each board name.
+- **Required re-tests:** tag every board name on the next full pull.
+- **Not in this change:** the repo copy of the fades-sig skill, which still predates the Nov 20 rules.
 
 ## Adopted configuration: Nov 19, 2026, revision 27 (SL three-risk stress lens)
 
