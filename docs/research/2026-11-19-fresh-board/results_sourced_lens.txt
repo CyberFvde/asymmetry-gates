@@ -1,0 +1,25 @@
+Line 4.46. * = under the line. Sorted by the rates + SemiAnalysis column. Lens inputs: CSV where given, else repo.
+Columns: today | +rates | +SemiAnalysis | +capex peak
+NVDA  $145.98    Nov 19    9.12  |  8.48  |  7.45  |  4.45* lens:csv
+TER   $227.43    Nov 19    6.56  |  6.12  |  5.50  |  0.66* lens:csv
+META  $596.22    Nov 19    5.67  |  4.75  |  4.75  |  4.75 
+GOOGL $272.66    Nov 19    5.38  |  4.38* |  4.38* |  4.38*
+SMTC  $101.81    Nov 19    5.64  |  5.01  |  4.38* |  0.57*
+TSEM  $127.77    Nov 19    6.20  |  5.26  |  4.37* |  0.36*
+MPWR  $1295.86   Nov 19    6.02  |  5.02  |  4.34* | -0.18* lens:csv
+AVGO  $346.65    Nov 19    6.12  |  5.10  |  4.29* |  0.37* lens:csv
+RMBS  $76.19     Nov 19    6.50  |  5.54  |  4.27* |  1.07*
+KLAC  $141.48    Nov 19    5.66  |  4.83  |  4.06* |  0.94*
+CDNS  $304.88    Nov 19    dead  |  4.36* |  3.62* |  3.02* [dead money: trails UBER on return (31%) and growth (18%)]
+TSM   $352.09    Nov 19    5.84  |  4.86  |  3.58* |  1.17*
+MTSI  $218.55    Nov 19    5.31  |  4.36* |  3.54* | -0.03* lens:csv
+UBER  $65.6      Nov 19    est   |  3.19* |  3.19* |  3.19* [falling estimates: next-year EPS -4.8% over 90 days]
+LRCX  $203.68    Nov 19    4.93  |  3.99* |  3.07* |  0.11*
+ASML  $1356.2    Nov 19    4.51  |  3.61* |  2.78* |  0.31*
+AMAT  $338.93    Nov 19    4.39* |  3.51* |  2.70* | -0.53*
+VRT   $184.99    Nov 19    5.25  |  4.33* |  2.52* |  0.10*
+GEV   $756.28    Nov 19    4.04* |  3.13* |  2.20* |  nofv 
+FIX   $1114.02   Nov 19    3.88* |  2.93* |  2.01* | -0.67*
+CRDO  $117.76    Nov 19    6.25  |  5.75  |  nofv  |  nofv 
+ALAB  $211.6     Nov 19    3.85* |  2.98* |  nofv  |  nofv 
+ANET  $189.59    Nov 19    <20%  |  <20%  |  <20%  |  <20%  [less than 20% below the high] lens:csv  stale: debt_ebitda

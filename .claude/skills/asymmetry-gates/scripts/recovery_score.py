@@ -360,6 +360,11 @@ def lens(inputs, ai=0.0, e1=0.0, e2=0.0, k_cycle=None, avgs=None, fpe_est=None, 
                 a["entry_pe"] = a["entry_pe"] / (1 - e1)
             s["re_ret"] = return_estimate(base["price"], **a)["ret"]
         out["semi"] = score26(gates=False, **s)
+        if out["semi"].get("excluded", "").startswith("no fair value") and fpe_est and s.get("ntm_eps"):
+            # Stress fallback: a deep-drop name with no P/E history still gets a multiple leg from its
+            # recorded normal forward P/E, so the lens shows a score instead of "no fair value".
+            s = dict(s, fpe_hist=[fpe_est * f] * 20)
+            out["semi"] = score26(gates=False, **s)
     else:
         out["semi"] = out["rates"]
     if ai < SL_PEAK_MIN_AI:
