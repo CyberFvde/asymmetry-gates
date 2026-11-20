@@ -1,4 +1,4 @@
-"""Recovery-board scorer (revision 27). See references/recovery-board.md.
+"""Recovery-board scorer (revision 28). See references/recovery-board.md.
 
 Score = 50% quality + 25% asymmetry + 25% speed (12-month return), then the
 bear penalty, PB / IX / PO / RE points and the GP gate-fail penalty. Cyclical names at
@@ -392,3 +392,34 @@ def lens(inputs, ai=0.0, e1=0.0, e2=0.0, k_cycle=None, avgs=None, fpe_est=None, 
         rp.update(final=round(rp["_raw"], 2), cw=cw, on_board=rp["_raw"] >= LINE, mid_cycle_k=round(k, 3))
     out["peak"] = rp
     return out
+
+
+# ---- Revision 28: VT vehicle tag and SH short-history rule (reporting only) ------------------------------
+VT_LEVERAGE_BELOW = 0.35  # no 2x fund and no options on a company until it is 35% or more below the high
+SH_MIN_YEARS = 5.0        # under 5 years of history in the current regime = treated like an IPO
+SH_LINE = 0.40            # short-history names use the 40% line, in plain shares at any depth
+
+
+def vehicle_tag(below, regime_years=None, etf=False, rare35=False):
+    """VT / SH: which vehicle a name may be bought through today. See recovery-board.md.
+
+    below: fraction below the 10-year closing high (score()'s "below"). regime_years: years of history in
+    the name's current regime (the latest of first listing, the first year of sustained GAAP profit with
+    positive free cash flow, or a user-flagged structural break); None when not pulled, which skips SH.
+    etf, rare35: the two user-named exemptions from the 35% rule. rare35 stays False for every name until
+    the user confirms a test for "a 35% drop is about 99% unlikely".
+    Returns {"vehicle": "none" | "shares" | "leverage ok", "tag", "line", "short_history"}. Reporting only:
+    it never changes a score, the board or the line, and it says nothing about positions already held.
+    """
+    short = regime_years is not None and regime_years < SH_MIN_YEARS
+    if etf or rare35:
+        return {"vehicle": "leverage ok", "tag": "exempt: own line", "line": None, "short_history": short}
+    if short:
+        ok = below >= SH_LINE
+        return {"vehicle": "shares" if ok else "none", "tag": "SH shares" if ok else "SH wait",
+                "line": SH_LINE, "short_history": True}
+    if below < MM_MIN_BELOW:
+        return {"vehicle": "none", "tag": "no entry", "line": MM_MIN_BELOW, "short_history": False}
+    if below < VT_LEVERAGE_BELOW:
+        return {"vehicle": "shares", "tag": "shares only", "line": MM_MIN_BELOW, "short_history": False}
+    return {"vehicle": "leverage ok", "tag": "leverage ok", "line": MM_MIN_BELOW, "short_history": False}

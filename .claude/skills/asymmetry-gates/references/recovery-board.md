@@ -1,13 +1,13 @@
-# Recovery board: fundamentals-first contest ranking (revision 27, Nov 19, 2026)
+# Recovery board: fundamentals-first contest ranking (revision 28, Nov 20, 2026)
 
-The high-IRR ranking used for contest picks and quick comparisons. Half the score is business quality; the other half is how much the stock can make over the next 12 months against its fair value, per unit of risk. Distance to the high only decides who enters (20% minimum since revision 26; 15% before). Share shrink adds points under BB (revision 24), a business line facing a headwind costs points under HT (revision 25), and every score is also shown under three stacked risks under SL (revision 27). It orders names only: framework gates (ID, #19 blackouts), dilution limits, sizing and caps still apply, verified gate fails cost points under GP (revision 19), cyclical names at a peak are scored on through-cycle numbers under CG (revision 20), names that lean on a few customers lose points under CC (revision 22), and names whose 3-year return estimate is 25% a year or more gain points under RE (revision 23). Scorer: [`../scripts/recovery_score.py`](../scripts/recovery_score.py); dated inputs: [`../scripts/board_2026_11_04.py`](../scripts/board_2026_11_04.py); CC inputs: [`../scripts/board_2026_11_06_close.py`](../scripts/board_2026_11_06_close.py); latest board with RE inputs: [`../scripts/board_2026_11_06_close_re.py`](../scripts/board_2026_11_06_close_re.py).
+The high-IRR ranking used for contest picks and quick comparisons. Half the score is business quality; the other half is how much the stock can make over the next 12 months against its fair value, per unit of risk. Distance to the high only decides who enters (20% minimum since revision 26; 15% before). Share shrink adds points under BB (revision 24), a business line facing a headwind costs points under HT (revision 25), every score is also shown under three stacked risks under SL (revision 27), and every name carries a vehicle tag under VT, with short-history names tagged SH (revision 28). It orders names only: framework gates (ID, #19 blackouts), dilution limits, sizing and caps still apply, verified gate fails cost points under GP (revision 19), cyclical names at a peak are scored on through-cycle numbers under CG (revision 20), names that lean on a few customers lose points under CC (revision 22), and names whose 3-year return estimate is 25% a year or more gain points under RE (revision 23). Scorer: [`../scripts/recovery_score.py`](../scripts/recovery_score.py); dated inputs: [`../scripts/board_2026_11_04.py`](../scripts/board_2026_11_04.py); CC inputs: [`../scripts/board_2026_11_06_close.py`](../scripts/board_2026_11_06_close.py); latest board with RE inputs: [`../scripts/board_2026_11_06_close_re.py`](../scripts/board_2026_11_06_close_re.py).
 
 ## Universe
 
 - **Pool:** underlyings of US-listed leveraged single-stock ETFs (any launch year), plus names the user adds.
 - **Excluded before scoring:**
   - ETFs, and companies trading on pending deal terms (CART, LITE, ACLS).
-  - **Market Mondays blocker (revision 26, Nov 17, 2026; the user's "Ian Dunlap Rashad Bilal EYL Market Mondays blocker"):** less than 20% below the high (highest split-adjusted close in the last 10 years). 30% down is the ideal; 20% is the floor. Was 15%.
+  - **Market Mondays blocker (revision 26, Nov 17, 2026; the user's "Ian Dunlap Rashad Bilal EYL Market Mondays blocker"):** less than 20% below the high (highest split-adjusted close in the last 10 years). 30% down is the ideal; 20% is the floor. Was 15%. Since revision 28, clearing the floor allows plain shares only; see VT.
   - **Falling estimates (revision 26, Nov 17, 2026; framework EB):** next-year consensus EPS down 3% or more over 90 days. Down less than 3%: the name stays, tagged "watch", with no extra penalty because the revisions factor already counts it.
   - ID fail: TTM gross margin under 20% (framework ID).
   - Dilution: trailing 12-month share growth + undrawn ATM + maximum pending deal shares over 50% of current shares (the IREN rule, H4a's budget). One-time strategic mergers count unless the user exempts them.
@@ -141,6 +141,23 @@ Every score and ranking is shown four ways: today, then with three risks stacked
 - **Names with no forward P/E history** (TSM, ASML): case 3 uses an estimated normal forward P/E, recorded with the board, so mid-cycle earnings have something to multiply.
 - **Reading it:** a name that stays at or above the line in case 2 doesn't need SemiAnalysis to be wrong. A name that only clears the line today is a bet that it is.
 - **Known limits:** the hit sizes are judgment, not data. Case 3 has no date on it, so it is a statement about how much of today's earnings are cycle, not a 12-month forecast. Rates are modeled only through multiples.
+
+## VT and SH: vehicle tag and short-history rule (revision 28, Nov 20, 2026)
+
+Every name on the board carries a tag saying which vehicle it may be bought through today. Reporting only: VT and SH never change a score, move a name on or off the board, or change the line. Scorer: `vehicle_tag()`.
+
+| Distance below the 10-year closing high | Tag | Meaning |
+|---|---|---|
+| Under 20% | no entry | Market Mondays block, unchanged. |
+| 20% to under 35% | shares only | Plain shares. No 2x fund and no options, however good the name looks. |
+| 35% or more | leverage ok | A 2x fund or LEAPS is allowed if the fades-sig vehicle check picks one. |
+
+- **SH, short history:** a name with under 5 years of history in its current regime is treated like an IPO. Its line is 40% below the high and it is plain shares at any depth: "SH wait" above the line, "SH shares" at or below it. The regime starts at the latest of the first listing, the first year of sustained GAAP profit with positive free cash flow, or a user-flagged structural break. UBER is the example: listed in 2019, profitable era from 2023, so on Nov 20, 2026 its dip line rested on about three years of data.
+- **Why 5 years:** a dip line is built from a stock's own worst drops. With under 5 years there are too few of them to trust.
+- **Exemptions (user, Nov 20, 2026):** ETFs, which don't rank on this board and keep their own index lines in fades-sig, and a single stock where a 35% drop is about 99% unlikely. No test for the second one is confirmed yet, so `rare35` is off for every name.
+- **Inputs:** `below` comes from the score. `regime_years` is a per-name input recorded with each board; a name without one gets no SH tag and is flagged "SH open".
+- **Limits:** tags only say what a new buy may use. They don't touch positions already held, and sizing stays with #16.
+- **Why it was added:** the user's four open leveraged entries (Nov 2026) were made with the stocks 20% to 30% below their highs, above each stock's own worst-drop zone, and all four kept falling.
 
 ## Fair value
 
