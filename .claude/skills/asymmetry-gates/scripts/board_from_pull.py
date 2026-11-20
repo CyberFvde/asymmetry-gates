@@ -10,7 +10,8 @@ CSV columns (NA = not found; missing values fall back to the Nov 6 inputs in the
 - NTM EPS = pe_price / fwd_pe, where pe_price is the price the forward P/E was computed at (price if blank).
 - guide_gap_pct below -3 sets the guide-down gate.
 - fpe_est: a sourced normal forward P/E for a name with no 20-quarter history. Stress cases only.
-- ai, e1, e2: lens inputs. Used only with --lens csv; otherwise the estimates in board_2026_11_19_lens.py apply.
+- ai, e1, e2: lens inputs. Used only with --lens csv, each on its own where given; anything left NA keeps the
+  estimate in board_2026_11_19_lens.py.
 """
 import contextlib
 import csv
@@ -61,13 +62,14 @@ def main(path, lens_from_csv=False):
         re_args = dict(b.TSM_RE) if k == "TSM" else (dict(b.RE6[k], fpe_hist=base.get("fpe_hist")) if k in b.RE6 else None)
         if re_args:
             if k == "TSM":
-                re_args["entry_pe"] = base["price"] / 23.39
+                re_args["entry_pe"] = base["price"] / (a or 23.39)  # 2027 EPS in USD (Yahoo); 23.39 on Nov 19
             base["re_ret"] = return_estimate(base["price"], **re_args)["ret"]
         saved = b.LENS[k]
         ai, e1, e2 = num(r.get("ai")), num(r.get("e1")), num(r.get("e2"))
         src = "repo"
-        if lens_from_csv and None not in (ai, e1, e2):
-            b.LENS[k] = (ai, e1, e2)
+        if lens_from_csv and (ai, e1, e2) != (None, None, None):
+            # Each sourced value replaces the repo estimate on its own; the others stay as recorded.
+            b.LENS[k] = tuple(v if v is not None else old for v, old in zip((ai, e1, e2), saved))
             src = "csv"
         fpe_est = num(r.get("fpe_est")) or (19.0 if k == "TSM" else None)
         res = b.run(k, base, re_args=re_args, fpe_est=fpe_est, keep=(k == "GOOGL"))

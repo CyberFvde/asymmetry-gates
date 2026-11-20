@@ -140,3 +140,11 @@
 - **Targets:** stockanalysis and Yahoo both draw on S&P Global, so the second source is not fully independent.
 - **UBER's gap** sits exactly at -3.0%. A consensus of $1.0004 or more would trip the guide-down gate.
 - **Rates** are modeled only through multiples. The capex-peak case has no date.
+
+## Sourced AI shares applied (added after review)
+
+- `results_sourced_lens.txt` now uses each disclosed AI share in place of the repo estimate: NVDA 0.929, AVGO 0.564, MTSI 0.443, MPWR 0.421, TER 0.60, ANET 0.263.
+- Only the capex-peak column moves, because the AI share sets the mid-cycle factor.
+- NVDA's worst case goes from 4.53 to 4.45, which is 0.01 under the 4.46 line. TER 0.72 to 0.66, AVGO 0.29 to 0.37, MPWR -0.06 to -0.18, MTSI 0.35 to -0.03.
+- e1 and e2 are unchanged everywhere. No published company-level estimate of the SemiAnalysis revision was found, so they stay judgment inputs.
+- Design note: in the capex-peak case mid-cycle EPS is today's NTM EPS times the mid-cycle factor. The case-2 cut (e1) is not applied on top of it.
