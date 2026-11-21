@@ -1,4 +1,4 @@
-"""Recovery-board scorer (revision 28). See references/recovery-board.md.
+"""Recovery-board scorer (revision 29). See references/recovery-board.md.
 
 Score = 50% quality + 25% asymmetry + 25% speed (12-month return), then the
 bear penalty, PB / IX / PO / RE points and the GP gate-fail penalty. Cyclical names at
@@ -423,3 +423,51 @@ def vehicle_tag(below, regime_years=None, etf=False, rare35=False):
     if below < VT_LEVERAGE_BELOW:
         return {"vehicle": "shares", "tag": "shares only", "line": MM_MIN_BELOW, "short_history": False}
     return {"vehicle": "leverage ok", "tag": "leverage ok", "line": MM_MIN_BELOW, "short_history": False}
+
+
+# ---- Revision 29: CR code-red removals ---------------------------------------------------------------------
+CR_GUIDE_BAND = 0.01      # a guidance midpoint more than 1% under consensus removes the name (GD used 3%)
+CR_INSIDER_USD = 10e6     # CEO, CFO, president or founder sales of $10M or more ...
+CR_INSIDER_DAYS = 90      # ... inside this many days before the screen
+
+
+def code_red(guide_gap=None, guide_cut=False, offering_sale=False, exec_sales_usd=0.0,
+             exec_plan_pre_high=False, insider_tier=None):
+    """CR: the reasons a name is removed under the code-red rules, or [] when it is clear. See recovery-board.md.
+
+    guide_gap: latest guidance midpoint / consensus - 1 for the worst metric (revenue, EPS, EBITDA or the
+    company's own headline growth metric such as bookings); None when the company gives no numeric guidance.
+    guide_cut: management lowered guidance it had already given, by any amount.
+    offering_sale: officers, directors or founders sold shares in a company-run offering in the last 90 days.
+    exec_sales_usd: dollars sold by the CEO, CFO, president and founders in the last 90 days.
+    exec_plan_pre_high: every one of those sales was under a 10b5-1 plan adopted before the stock's latest
+    10-year closing high (routine selling), which clears the dollar test.
+    insider_tier: the GP insider tier from the framework sweep (None, "minor", "moderate", "severe").
+    A code-red name is out until the next earnings report (guidance) or until 90 days pass with no new
+    qualifying sale (insiders). Insider buying does not cancel an insider code red.
+    """
+    reasons = []
+    if guide_cut:
+        reasons.append("guidance cut at the last report")
+    elif guide_gap is not None and guide_gap < -CR_GUIDE_BAND:
+        reasons.append(f"guidance {guide_gap:+.1%} against consensus at the last report")
+    if offering_sale:
+        reasons.append("insiders sold in a company offering in the last 90 days")
+    if exec_sales_usd >= CR_INSIDER_USD and not exec_plan_pre_high:
+        reasons.append(f"top executives sold ${exec_sales_usd / 1e6:.1f}M in 90 days outside a pre-high plan")
+    if insider_tier in ("moderate", "severe"):
+        reasons.append(f"insider gate fail ({insider_tier})")
+    return reasons
+
+
+def score29(keep=False, gates=True, **kw):
+    """score26() behind the revision 29 code-red removals. Pass the code_red() inputs as cr=dict(...)."""
+    cr = kw.pop("cr", None)
+    reasons = code_red(**cr) if cr else []
+    if reasons:
+        out = {"excluded": "code red: " + "; ".join(reasons), "code_red": reasons}
+        price, high = kw.get("price"), kw.get("high")
+        if price and high:
+            out["below"] = round(1 - price / high, 3)
+        return out
+    return score26(keep=keep, gates=gates, **kw)
