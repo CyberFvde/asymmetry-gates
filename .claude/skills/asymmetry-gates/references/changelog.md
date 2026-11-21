@@ -1,6 +1,25 @@
-# #18 — Rule-change log (policy Nov 20, 2026, revision 29)
+# #18 — Rule-change log (policy Nov 20, 2026, revision 30)
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
+
+## Adopted configuration: Nov 20, 2026, revision 30 (CR-1 any miss, CR-4 no GAAP profit)
+
+### Authorization, scope and adoption basis
+
+Explicit user request, Nov 20, 2026, 9:48 pm CT, in reply to the note that a guide 0.8% under consensus (Atlassian, Aug 2025) would pass the 1% band: no company like that again, and backtest everything. Read as: no band on the guidance test, a block on companies like Atlassian, approval of the pre-high plan pass and the no-waiver reading, and a backtest of the code reds. The GAAP-profit test is the maintainer's reading of "a company like" Atlassian and is flagged for the user to confirm.
+
+### Change summary (old to new)
+
+- **CR-1:** band 1% to none (0.1% rounding room). Any guidance midpoint under consensus removes the name.
+- **CR-4 (new):** GAAP net income over the trailing 12 months zero or negative removes the name. `code_red()` takes `gaap_profit_ttm`.
+- Nothing else changes.
+
+### #18 checks
+
+- **Safeguards:** none loosened.
+- **Basis:** Atlassian's public record: an Aug 7, 2025 revenue guide of $1.395B to $1.403B against $1.41B consensus, GAAP losses in fiscal 2022 through 2026, and founder plan sales through the period. The stock fell further after that guide.
+- **Not backtested.** A backtest of all four code reds was requested with this change. If it shows the any-miss test blocks more recoveries than it saves, that goes back to the user as a finding; the rule stays until they change it.
+- **Known cost:** consensus differs by source, so some in-line guides will read as misses. Record the source with every check.
 
 ## Adopted configuration: Nov 20, 2026, revision 29 (CR code-red removals)
 
@@ -18,7 +37,7 @@ Explicit user request, Nov 20, 2026, 9:33 pm CT: "That weak or cut guidance, 2x 
 ### #18 checks
 
 - **Safeguards:** none loosened. All three changes are stricter.
-- **Basis:** case studies of 23 of the user's losing or underwater trades (2024 to 2026): about 10 followed weak or cut guidance, 10 were leveraged buys with the stock under 35% below its high, 9 followed insider selling.
+- **Basis:** a review of 23 losing dip buys (2024 to 2026): about 10 followed weak or cut guidance, 10 were leveraged buys with the stock under 35% below its high, 9 followed insider selling.
 - **Universe impact:** unknown until the rerun. Expect removals among names whose last guide was 1% to 3% under consensus, and names with recent executive sales.
 - **Judgment settings, not backtested:** the 1% band, the $10M line, the 90-day window and the pre-high plan test.
 - **Required re-tests:** full board rerun on fresh data, with a CR check on every name (requested the same evening).
