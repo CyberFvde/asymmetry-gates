@@ -1,4 +1,4 @@
-# Framework — forward-leaning (v. Nov 20, 2026, revision 28)
+# Framework — forward-leaning (v. Nov 20, 2026, revision 29)
 
 Forward numbers set the bar; trailing numbers are floors in A–E. Preserve those core floors while distinguishing a material failure from a near-pass or ordinary quarterly noise. G uses an existing cash engine and per-share economics; H is a small, milestone-based path toward a fixed quality destination; M is a small, capped route for mega-cap platforms whose company FCF is temporarily depressed by growth capex; D (revision 7) is a small, capped route for self-funding high-growth companies that fail A1/G3 on equity issuance but still clear a 25% per-share return after all present and projected dilution. Read their defined substitutions before applying core gates to them. Fintech uses the stricter FT overlay. Seek qualified opportunities without requiring a perfect scorecard or forcing an investment quota. Entries depend on evidence and valuation, never solely on a drawdown, rally or bullish theme. The Oct 15 calibration targets 25%+ annualized returns for a concentrated, high-asymmetry growth sleeve; that objective is not a new per-name hurdle, a validated forecast or a promise. Screens rank names with the revision 6 return estimate under C; its 20% screen guardrail decides primary-list placement only, not route eligibility. These thresholds are policy choices, not empirically validated return forecasts. Wider valuation and sizing bands also increase possible losses.
 
@@ -115,6 +115,10 @@ A stock that is down because its estimates are falling is a trap, not a sale (Da
 ## SL. Three-risk stress lens — reporting only (revision 27, Nov 19, 2026)
 
 Every score, ranking and return estimate is reported today and under three stacked risks: rates keep rising, SemiAnalysis's Nov 13, 2026 AI-spend forecast is right, and AI capex peaks in 2028 and then falls. Method and constants: [`recovery-board.md`](recovery-board.md), section SL. SL changes no gate, line, eligibility or size.
+
+## CR. Code-red removals (revision 29, Nov 20, 2026)
+
+Three findings stop a buy with no weighing: weak or cut guidance at the latest report (a cut of any size, or a midpoint more than 1% under consensus), insider selling (in a company offering, $10M or more by top executives in 90 days outside a pre-high plan, or a moderate or severe insider gate fail), and a 2x fund or option on a company less than 35% below its closing high. The first two take the name off the recovery board until they clear. The third blocks the vehicle. Method and settings: [`recovery-board.md`](recovery-board.md), section CR. No other gate, score or size changes.
 
 ## VT. Vehicle tag and SH short-history rule — reporting only (revision 28, Nov 20, 2026)
 

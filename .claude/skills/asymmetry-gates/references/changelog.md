@@ -1,6 +1,27 @@
-# #18 — Rule-change log (policy Nov 20, 2026, revision 28)
+# #18 — Rule-change log (policy Nov 20, 2026, revision 29)
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
+
+## Adopted configuration: Nov 20, 2026, revision 29 (CR code-red removals)
+
+### Authorization, scope and adoption basis
+
+Explicit user request, Nov 20, 2026, 9:33 pm CT: "That weak or cut guidance, 2x fund above 35% and instilled selling should be red code alert blocking ... add that as blocking and rankings removals so we won't even think it's a choice." ("Instilled" read as insider; "2x fund above 35%" read as a 2x fund bought before the stock is 35% down.) At 9:34 pm: "Redo the rankings after this now also." Scope: two board removals and one vehicle block. No score formula, line or size changes.
+
+### Change summary (old to new)
+
+- **CR-1 guidance:** GD removed a name when a guidance midpoint was more than 3% under consensus. Now the band is 1%, any cut of guidance already given counts, and the company's own headline growth metric counts.
+- **CR-2 insider selling:** insider findings cost GP points (0.25 to 1.0). Now a moderate or severe insider fail, an insider sale in a company offering, or $10M or more sold by the CEO, CFO, president or a founder in 90 days outside a pre-high plan removes the name for 90 days. The minor tier still costs 0.25.
+- **CR-3 leverage:** the revision 28 VT tag already marked "shares only" under 35% down. It is now named a code red and reported as a block.
+- **Scorer:** `code_red()` and `score29()` added. `score()`, `score26()` and `lens()` are untouched, so earlier boards reprint unchanged.
+
+### #18 checks
+
+- **Safeguards:** none loosened. All three changes are stricter.
+- **Basis:** case studies of 23 of the user's losing or underwater trades (2024 to 2026): about 10 followed weak or cut guidance, 10 were leveraged buys with the stock under 35% below its high, 9 followed insider selling.
+- **Universe impact:** unknown until the rerun. Expect removals among names whose last guide was 1% to 3% under consensus, and names with recent executive sales.
+- **Judgment settings, not backtested:** the 1% band, the $10M line, the 90-day window and the pre-high plan test.
+- **Required re-tests:** full board rerun on fresh data, with a CR check on every name (requested the same evening).
 
 ## Adopted configuration: Nov 20, 2026, revision 28 (VT vehicle tag and SH short-history rule)
 

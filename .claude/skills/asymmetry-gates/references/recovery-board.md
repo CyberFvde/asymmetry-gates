@@ -1,4 +1,4 @@
-# Recovery board: fundamentals-first contest ranking (revision 28, Nov 20, 2026)
+# Recovery board: fundamentals-first contest ranking (revision 29, Nov 20, 2026)
 
 The high-IRR ranking used for contest picks and quick comparisons. Half the score is business quality; the other half is how much the stock can make over the next 12 months against its fair value, per unit of risk. Distance to the high only decides who enters (20% minimum since revision 26; 15% before). Share shrink adds points under BB (revision 24), a business line facing a headwind costs points under HT (revision 25), every score is also shown under three stacked risks under SL (revision 27), and every name carries a vehicle tag under VT, with short-history names tagged SH (revision 28). It orders names only: framework gates (ID, #19 blackouts), dilution limits, sizing and caps still apply, verified gate fails cost points under GP (revision 19), cyclical names at a peak are scored on through-cycle numbers under CG (revision 20), names that lean on a few customers lose points under CC (revision 22), and names whose 3-year return estimate is 25% a year or more gain points under RE (revision 23). Scorer: [`../scripts/recovery_score.py`](../scripts/recovery_score.py); dated inputs: [`../scripts/board_2026_11_04.py`](../scripts/board_2026_11_04.py); CC inputs: [`../scripts/board_2026_11_06_close.py`](../scripts/board_2026_11_06_close.py); latest board with RE inputs: [`../scripts/board_2026_11_06_close_re.py`](../scripts/board_2026_11_06_close_re.py).
 
@@ -11,7 +11,8 @@ The high-IRR ranking used for contest picks and quick comparisons. Half the scor
   - **Falling estimates (revision 26, Nov 17, 2026; framework EB):** next-year consensus EPS down 3% or more over 90 days. Down less than 3%: the name stays, tagged "watch", with no extra penalty because the revisions factor already counts it.
   - ID fail: TTM gross margin under 20% (framework ID).
   - Dilution: trailing 12-month share growth + undrawn ATM + maximum pending deal shares over 50% of current shares (the IREN rule, H4a's budget). One-time strategic mergers count unless the user exempts them.
-  - **Guide-down (GD, revision 18):** the latest guidance midpoint for revenue, EPS or EBITDA (next quarter, or full year when that is all the company gives) came in more than 3% below consensus at the print (misses of 3% or less count as in line; Nov 4 addendum). One metric past the band is enough; use the consensus reported with the print and record its source. Out until the next print; companies that give no numeric guidance pass. Check it first, every screen.
+  - **Guide-down (GD, revision 18):** the latest guidance midpoint for revenue, EPS or EBITDA (next quarter, or full year when that is all the company gives) came in more than 3% below consensus at the print (misses of 3% or less count as in line; Nov 4 addendum). One metric past the band is enough; use the consensus reported with the print and record its source. Out until the next print; companies that give no numeric guidance pass. Check it first, every screen. Since revision 29 the band is 1%, any cut of guidance already given counts, and the company's own headline growth metric counts too; see CR.
+  - **Insider selling (CR, revision 29):** insiders sold in a company offering, top executives sold $10M or more in 90 days outside a pre-high plan, or the insider gate fails at the moderate or severe tier. Out for 90 days from the last qualifying sale. See CR.
   - **Dead money (revision 26, Nov 16, 2026):** a name is out only if it trails UBER on both measures, 12-month return to fair value (44%) and forecast growth (31%), and its quality score is under 7.5. However deep the drop, beating UBER on either one keeps it. GOOGL stays by name (user: Google-quality names stay). Before revision 26: more than 2.7 years to the high at consensus growth.
   - **No fair value:** more than 35% below the high, estimates not rising over 90 days, and no usable 5-year P/E history.
 - **Convexity bucket:** GAAP-unprofitable (TTM net income below zero) or binary names can still rank, but only with convexity judgment inputs: d ≥30–35%, bear ≥45–50%.
@@ -159,6 +160,23 @@ Every name on the board carries a tag saying which vehicle it may be bought thro
 - **Limits:** tags only say what a new buy may use. They don't touch positions already held, and sizing stays with #16.
 - **Why it was added:** the user's four open leveraged entries (Nov 2026) were made with the stocks 20% to 30% below their highs, above each stock's own worst-drop zone, and all four kept falling.
 
+## CR: code-red removals (revision 29, Nov 20, 2026)
+
+Three findings stop a buy outright. They are checked before anything else, and a name that trips the first two does not appear on the board at all: it is listed under "Code red" with the reason, so it can't be weighed against the names that rank. Scorer: `code_red()` and `score29()`.
+
+| Code red | What trips it | Effect | Clears |
+|---|---|---|---|
+| CR-1 Weak or cut guidance | At the latest report management cut guidance it had already given (any amount), or the guidance midpoint for revenue, EPS, EBITDA or the company's own headline growth metric (bookings, a named segment) came in more than 1% under consensus | Off the board | At the next report, if that one is clean |
+| CR-2 Insider selling | In the last 90 days: insiders sold in a company-run offering; or the CEO, CFO, president or a founder sold $10M or more, unless every sale was under a 10b5-1 plan adopted before the stock's latest closing high; or the framework insider gate fails at the moderate or severe tier | Off the board | 90 days after the last qualifying sale |
+| CR-3 Leverage before 35% down | A 2x fund, 3x fund or option on a company that has not closed 35% or more below its closing high | The vehicle is blocked; plain shares follow the usual rules (VT) | When the stock closes 35% or more down |
+
+- **CR-1 replaces the 3% band in GD.** The old band let through guides that were 1.5% to 3% light. A guide within 1% of consensus is treated as in line. Companies that give no numeric guidance pass, as before.
+- **CR-2 turns the top two insider tiers from a points penalty into a removal.** The minor tier (sell-to-cover without the footnote, net selling of 1.5 to 1.65%) still costs 0.25 under GP. Insider buying does not cancel a code red.
+- **Why pre-high plans pass:** executives at large companies sell on preset schedules every quarter, so a blanket block would remove most of the board most of the time. A plan adopted after the stock peaked, or a sale outside any plan, is the signal. Form 4 footnotes give the plan date.
+- **CR-3 is the VT rule under a harder name.** ETFs keep their exemption.
+- **Evidence (Nov 20, 2026):** 23 of the user's losing or underwater trades from 2024 to 2026 were checked against what was public before each buy. About 10 followed weak or cut guidance, 10 were 2x funds bought with the stock under 35% below its high, and 9 followed insider selling. None of the 23 was plain bad luck.
+- **Limits:** the 1% band and the $10M line are judgment settings, set from those cases and not backtested. Consensus figures differ by source, so record the source with each check. The insider test needs Form 4 reads, so an unchecked name is tagged "CR-2 open" and treated as not cleared for a buy.
+
 ## Fair value
 
 - **Multiple leg:** NTM EPS × fair P/E × (1 + g), where fair P/E = the lower of the median of the last 20 quarterly forward P/Es (stockanalysis ratios) and 2 × the 3-year EPS growth rate.
@@ -193,7 +211,7 @@ A name that ranks but fails a framework gate loses points by how bad the fail is
 
 | Gate | Minor −0.25 | Moderate −0.5 | Severe −1.0 |
 |---|---|---|---|
-| Insiders (A7 / G4 / H5) | three-officer count reached only through sell-to-cover sales missing the issuer footnote; net selling 1.5–1.65% | three officers with clean discretionary non-plan sales in one quarter; net selling 1.65–3% | net selling above 3%; G4's reject line (three officers each selling >25% of holdings in 90 days); failing quarters in 3 of the last 4 |
+| Insiders (A7 / G4 / H5). Since revision 29 the moderate and severe tiers remove the name (CR-2); the points here apply to boards before it | three-officer count reached only through sell-to-cover sales missing the issuer footnote; net selling 1.5–1.65% | three officers with clean discretionary non-plan sales in one quarter; net selling 1.65–3% | net selling above 3%; G4's reject line (three officers each selling >25% of holdings in 90 days); failing quarters in 3 of the last 4 |
 | Issuance (A1 / D1 / G3) | past the route limit by 1 point or less | more than 1 point past, rolling off within 12 months | no roll-off date, or more than 12 months away |
 | #19 blackout | miss within twice its trigger | miss beyond twice its trigger | blackout on two prints in a row |
 | Legal / regulatory veto, PH impairment | | | any |
