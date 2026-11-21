@@ -1,4 +1,4 @@
-# Recovery board: fundamentals-first contest ranking (revision 30, Nov 20, 2026)
+# Recovery board: fundamentals-first contest ranking (revision 31, Nov 20, 2026)
 
 The high-IRR ranking used for contest picks and quick comparisons. Half the score is business quality; the other half is how much the stock can make over the next 12 months against its fair value, per unit of risk. Distance to the high only decides who enters (20% minimum since revision 26; 15% before). Share shrink adds points under BB (revision 24), a business line facing a headwind costs points under HT (revision 25), every score is also shown under three stacked risks under SL (revision 27), and every name carries a vehicle tag under VT, with short-history names tagged SH (revision 28). It orders names only: framework gates (ID, #19 blackouts), dilution limits, sizing and caps still apply, verified gate fails cost points under GP (revision 19), cyclical names at a peak are scored on through-cycle numbers under CG (revision 20), names that lean on a few customers lose points under CC (revision 22), and names whose 3-year return estimate is 25% a year or more gain points under RE (revision 23). Scorer: [`../scripts/recovery_score.py`](../scripts/recovery_score.py); dated inputs: [`../scripts/board_2026_11_04.py`](../scripts/board_2026_11_04.py); CC inputs: [`../scripts/board_2026_11_06_close.py`](../scripts/board_2026_11_06_close.py); latest board with RE inputs: [`../scripts/board_2026_11_06_close_re.py`](../scripts/board_2026_11_06_close_re.py).
 
@@ -160,7 +160,7 @@ Every name on the board carries a tag saying which vehicle it may be bought thro
 - **Limits:** tags only say what a new buy may use. They don't touch positions already held, and sizing stays with #16.
 - **Why it was added:** the user's four open leveraged entries (Nov 2026) were made with the stocks 20% to 30% below their highs, above each stock's own worst-drop zone, and all four kept falling.
 
-## CR: code-red removals (revision 30, Nov 20, 2026)
+## CR: code-red removals (revision 31, Nov 20, 2026)
 
 Four findings stop a buy outright. They are checked before anything else, and a name that trips CR-1, CR-2 or CR-4 does not appear on the board at all: it is listed under "Code red" with the reason, so it can't be weighed against the names that rank. Scorer: `code_red()` and `score29()`.
 
@@ -173,6 +173,7 @@ Four findings stop a buy outright. They are checked before anything else, and a 
 
 - **CR-1 replaces the 3% band in GD.** The old band let through guides that were 1.5% to 3% light. Revision 29 set the band at 1%. Revision 30 removed it the same evening: Atlassian's Aug 2025 revenue guide was 0.8% under consensus and would have passed. Only 0.1% of rounding room is left.
 - **CR-4, the Atlassian rule (revision 30).** Atlassian reported a GAAP net loss in each fiscal year from 2022 to 2026 while its founders sold stock on daily plans. A company with no trailing GAAP profit has no earnings for the fair-value and return-estimate legs to rest on. Companies that give no numeric guidance pass, as before.
+- **Two exclusions (revision 31, the owner's calls).** A cut to one segment does not trip CR-1 when the company raised its total guide at the same report. Automatic sales to cover tax on vesting stock (sell-to-cover, tax withholding) do not count toward the $10M in CR-2; the Form 4 marks them with code F or a footnote.
 - **CR-2 turns the top two insider tiers from a points penalty into a removal.** The minor tier (sell-to-cover without the footnote, net selling of 1.5 to 1.65%) still costs 0.25 under GP. Insider buying does not cancel a code red.
 - **Why pre-high plans pass:** executives at large companies sell on preset schedules every quarter, so a blanket block would remove most of the board most of the time. A plan adopted after the stock peaked, or a sale outside any plan, is the signal. Form 4 footnotes give the plan date.
 - **CR-3 is the VT rule under a harder name.** ETFs keep their exemption.

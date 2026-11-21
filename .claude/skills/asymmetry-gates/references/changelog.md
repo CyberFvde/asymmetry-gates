@@ -1,6 +1,25 @@
-# #18 — Rule-change log (policy Nov 20, 2026, revision 30)
+# #18 — Rule-change log (policy Nov 20, 2026, revision 31)
 
 Rule changes normally take effect at a scheduled or post-print re-test; an explicit user request can authorize calibration between re-tests. Record the change, rationale, safeguard check, universe impact and adoption basis. Apply changes to the full relevant universe and re-screen before upgrading any name. Earlier entries retain the historical #18 checks that applied at their adoption. Pending items are proposals — they bind nothing until adopted.
+
+## Adopted configuration: Nov 20, 2026, revision 31 (two CR exclusions)
+
+### Authorization, scope and adoption basis
+
+Explicit user answers, Nov 20, 2026, 11:23 pm CT, to two rule questions raised by the first board run under the code reds: automatic tax sales on vesting stock do not count as insider selling, and a segment cut does not count when the company raises its total guide. Scope: the definitions of two `code_red()` inputs. No formula, line or size changes.
+
+### Change summary (old to new)
+
+- **CR-1:** "any cut of guidance already given" now means company-level guidance. A cut to one segment with the total guide raised at the same report does not trip it.
+- **CR-2:** sell-to-cover and tax-withholding sales are left out of the $10M executive-sale total.
+- **Scorer:** docstrings only.
+
+### #18 checks
+
+- **Safeguards:** both changes loosen a revision 29 block by narrowing what it counts. Each was put to the owner as a question with the case that raised it, and each was answered directly.
+- **Cases that raised them:** a company that raised its total guide while widening one segment's expected loss, and a company whose two top executives' sales in the window were all tax sales on vesting stock.
+- **Not backtested.** The Nov 2026 guidance backtest did not separate segment cuts, and no insider backtest has been run.
+- **Still open with the owner:** whether a plan date may be inferred from the 90-day cooling-off rule when the filing footnote was not read.
 
 ## Adopted configuration: Nov 20, 2026, revision 30 (CR-1 any miss, CR-4 no GAAP profit)
 
