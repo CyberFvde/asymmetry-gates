@@ -1,4 +1,4 @@
-"""Recovery-board scorer (revision 30). See references/recovery-board.md.
+"""Recovery-board scorer (revision 31). See references/recovery-board.md.
 
 Score = 50% quality + 25% asymmetry + 25% speed (12-month return), then the
 bear penalty, PB / IX / PO / RE points and the GP gate-fail penalty. Cyclical names at
@@ -438,9 +438,11 @@ def code_red(guide_gap=None, guide_cut=False, offering_sale=False, exec_sales_us
 
     guide_gap: latest guidance midpoint / consensus - 1 for the worst metric (revenue, EPS, EBITDA or the
     company's own headline growth metric such as bookings); None when the company gives no numeric guidance.
-    guide_cut: management lowered guidance it had already given, by any amount.
+    guide_cut: management lowered company-level guidance it had already given, by any amount. Revision 31: a cut
+    to one segment does not count when the company raised its total guide at the same report.
     offering_sale: officers, directors or founders sold shares in a company-run offering in the last 90 days.
-    exec_sales_usd: dollars sold by the CEO, CFO, president and founders in the last 90 days.
+    exec_sales_usd: dollars sold by the CEO, CFO, president and founders in the last 90 days. Revision 31: leave
+    out automatic sales made to cover tax on vesting stock (sell-to-cover, tax withholding).
     exec_plan_pre_high: every one of those sales was under a 10b5-1 plan adopted before the stock's latest
     10-year closing high (routine selling), which clears the dollar test.
     insider_tier: the GP insider tier from the framework sweep (None, "minor", "moderate", "severe").
