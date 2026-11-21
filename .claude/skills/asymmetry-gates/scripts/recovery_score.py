@@ -1,4 +1,4 @@
-"""Recovery-board scorer (revision 29). See references/recovery-board.md.
+"""Recovery-board scorer (revision 30). See references/recovery-board.md.
 
 Score = 50% quality + 25% asymmetry + 25% speed (12-month return), then the
 bear penalty, PB / IX / PO / RE points and the GP gate-fail penalty. Cyclical names at
@@ -426,13 +426,14 @@ def vehicle_tag(below, regime_years=None, etf=False, rare35=False):
 
 
 # ---- Revision 29: CR code-red removals ---------------------------------------------------------------------
-CR_GUIDE_BAND = 0.01      # a guidance midpoint more than 1% under consensus removes the name (GD used 3%)
+CR_GUIDE_BAND = 0.001     # revision 30: any guidance midpoint under consensus removes the name; 0.1% is rounding
+                          # room only (revision 29 used 1%, GD used 3%)
 CR_INSIDER_USD = 10e6     # CEO, CFO, president or founder sales of $10M or more ...
 CR_INSIDER_DAYS = 90      # ... inside this many days before the screen
 
 
 def code_red(guide_gap=None, guide_cut=False, offering_sale=False, exec_sales_usd=0.0,
-             exec_plan_pre_high=False, insider_tier=None):
+             exec_plan_pre_high=False, insider_tier=None, gaap_profit_ttm=None):
     """CR: the reasons a name is removed under the code-red rules, or [] when it is clear. See recovery-board.md.
 
     guide_gap: latest guidance midpoint / consensus - 1 for the worst metric (revenue, EPS, EBITDA or the
@@ -443,6 +444,8 @@ def code_red(guide_gap=None, guide_cut=False, offering_sale=False, exec_sales_us
     exec_plan_pre_high: every one of those sales was under a 10b5-1 plan adopted before the stock's latest
     10-year closing high (routine selling), which clears the dollar test.
     insider_tier: the GP insider tier from the framework sweep (None, "minor", "moderate", "severe").
+    gaap_profit_ttm (revision 30): False when GAAP net income over the trailing 12 months is zero or negative;
+    None when not checked.
     A code-red name is out until the next earnings report (guidance) or until 90 days pass with no new
     qualifying sale (insiders). Insider buying does not cancel an insider code red.
     """
@@ -457,6 +460,8 @@ def code_red(guide_gap=None, guide_cut=False, offering_sale=False, exec_sales_us
         reasons.append(f"top executives sold ${exec_sales_usd / 1e6:.1f}M in 90 days outside a pre-high plan")
     if insider_tier in ("moderate", "severe"):
         reasons.append(f"insider gate fail ({insider_tier})")
+    if gaap_profit_ttm is False:
+        reasons.append("no GAAP profit over the trailing 12 months")
     return reasons
 
 
